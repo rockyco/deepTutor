@@ -7,10 +7,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Required for @cloudflare/next-on-pages
-  experimental: {
-    runtime: "edge",
-  },
 };
 
 module.exports = nextConfig;
