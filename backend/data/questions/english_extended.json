@@ -1,0 +1,276 @@
+{
+  "questions": [
+    {
+      "subject": "english",
+      "question_type": "comprehension",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "content": {
+        "passage": "The rainforest is often called the 'lungs of the Earth' because it produces a significant amount of the world's oxygen. These dense forests, found mainly near the equator, are home to more than half of all plant and animal species on our planet. However, deforestation threatens this vital ecosystem. Every year, an area roughly the size of a small country is destroyed for farming, logging, and development. Scientists warn that if this continues, many species could become extinct, and the effects on our climate could be devastating.",
+        "text": "Why is the rainforest called the 'lungs of the Earth'?",
+        "options": [
+          "Because it produces a lot of oxygen",
+          "Because it is shaped like lungs",
+          "Because animals breathe there",
+          "Because it is very large"
+        ]
+      },
+      "answer": {
+        "value": "Because it produces a lot of oxygen"
+      },
+      "explanation": "The passage directly states that the rainforest 'is often called the lungs of the Earth because it produces a significant amount of the world's oxygen.' Just as our lungs help us breathe by processing oxygen, the rainforest helps the Earth by producing oxygen.",
+      "hints": [
+        {"level": 1, "text": "Look at the first sentence of the passage.", "penalty": 0.1},
+        {"level": 2, "text": "What do lungs do? The rainforest does something similar for Earth.", "penalty": 0.2}
+      ],
+      "tags": ["comprehension", "inference", "science"],
+      "source": "sample"
+    },
+    {
+      "subject": "english",
+      "question_type": "comprehension",
+      "format": "multiple_choice",
+      "difficulty": 4,
+      "content": {
+        "passage": "The rainforest is often called the 'lungs of the Earth' because it produces a significant amount of the world's oxygen. These dense forests, found mainly near the equator, are home to more than half of all plant and animal species on our planet. However, deforestation threatens this vital ecosystem. Every year, an area roughly the size of a small country is destroyed for farming, logging, and development. Scientists warn that if this continues, many species could become extinct, and the effects on our climate could be devastating.",
+        "text": "What tone does the writer use in the final sentence?",
+        "options": [
+          "Warning and concern",
+          "Hopeful and optimistic",
+          "Neutral and factual",
+          "Humorous and light"
+        ]
+      },
+      "answer": {
+        "value": "Warning and concern"
+      },
+      "explanation": "The writer uses a warning tone, indicated by phrases like 'Scientists warn', 'could become extinct', and 'devastating'. These words create a sense of urgency and concern about the future.",
+      "hints": [
+        {"level": 1, "text": "Look at words like 'warn', 'extinct', and 'devastating'.", "penalty": 0.1},
+        {"level": 2, "text": "What feeling do these words create? Positive or negative?", "penalty": 0.2}
+      ],
+      "tags": ["comprehension", "tone", "author's purpose"],
+      "source": "sample"
+    },
+    {
+      "subject": "english",
+      "question_type": "grammar",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "content": {
+        "text": "Choose the sentence with correct punctuation.",
+        "options": [
+          "The dog's bowl was empty.",
+          "The dogs bowl was empty.",
+          "The dog's, bowl was empty.",
+          "The dogs, bowl was empty."
+        ]
+      },
+      "answer": {
+        "value": "The dog's bowl was empty."
+      },
+      "explanation": "We use an apostrophe to show possession. 'The dog's bowl' means the bowl belonging to the dog. The apostrophe goes before the 's' because there is one dog.",
+      "hints": [
+        {"level": 1, "text": "We need to show that the bowl belongs to the dog.", "penalty": 0.1},
+        {"level": 2, "text": "Use an apostrophe + s to show possession for singular nouns.", "penalty": 0.2}
+      ],
+      "tags": ["grammar", "punctuation", "apostrophes"],
+      "source": "sample"
+    },
+    {
+      "subject": "english",
+      "question_type": "grammar",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "content": {
+        "text": "Which sentence uses the correct form of the verb?",
+        "options": [
+          "Each of the students has completed their homework.",
+          "Each of the students have completed their homework.",
+          "Each of the students has completed his homework.",
+          "Each of the students are completing their homework."
+        ]
+      },
+      "answer": {
+        "value": "Each of the students has completed their homework."
+      },
+      "explanation": "'Each' is singular, so it takes a singular verb 'has', not 'have'. 'Their' is now accepted as a gender-neutral singular pronoun in modern English, making option 1 correct.",
+      "hints": [
+        {"level": 1, "text": "'Each' is a singular word - what verb form goes with singular subjects?", "penalty": 0.1},
+        {"level": 2, "text": "We say 'each has' not 'each have'.", "penalty": 0.2}
+      ],
+      "tags": ["grammar", "subject-verb agreement"],
+      "source": "sample"
+    },
+    {
+      "subject": "english",
+      "question_type": "grammar",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "content": {
+        "text": "Choose the sentence that uses the semicolon correctly.",
+        "options": [
+          "I love reading; my sister prefers watching films.",
+          "I love reading; and my sister prefers films.",
+          "I love; reading my sister prefers films.",
+          "I love reading, my sister; prefers films."
+        ]
+      },
+      "answer": {
+        "value": "I love reading; my sister prefers watching films."
+      },
+      "explanation": "A semicolon joins two complete sentences that are closely related. 'I love reading' and 'my sister prefers watching films' are both complete sentences with related ideas about entertainment preferences.",
+      "hints": [
+        {"level": 1, "text": "A semicolon connects two complete sentences.", "penalty": 0.1},
+        {"level": 2, "text": "Both parts before and after the semicolon should be able to stand alone.", "penalty": 0.2}
+      ],
+      "tags": ["grammar", "punctuation", "semicolons"],
+      "source": "sample"
+    },
+    {
+      "subject": "english",
+      "question_type": "spelling",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "content": {
+        "text": "Which word is spelled correctly?",
+        "options": ["necessary", "neccessary", "neccesary", "necesary"]
+      },
+      "answer": {
+        "value": "necessary"
+      },
+      "explanation": "The correct spelling is 'necessary' - one 'c' and two 's's. A helpful memory trick: it's NE-CES-SA-RY (one collar, two socks).",
+      "hints": [
+        {"level": 1, "text": "Think about how many c's and s's there are.", "penalty": 0.1},
+        {"level": 2, "text": "Remember: one collar (c), two socks (ss).", "penalty": 0.2}
+      ],
+      "tags": ["spelling", "commonly misspelled words"],
+      "source": "sample"
+    },
+    {
+      "subject": "english",
+      "question_type": "spelling",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "content": {
+        "text": "Which word is spelled correctly?",
+        "options": ["separate", "seperate", "seperete", "saparate"]
+      },
+      "answer": {
+        "value": "separate"
+      },
+      "explanation": "The correct spelling is 'separate'. A helpful trick: there's 'A RAT' in 'sepARATE'.",
+      "hints": [
+        {"level": 1, "text": "The middle part is tricky - is it 'a' or 'e'?", "penalty": 0.1},
+        {"level": 2, "text": "Remember: there's a rat in separate.", "penalty": 0.2}
+      ],
+      "tags": ["spelling", "commonly misspelled words"],
+      "source": "sample"
+    },
+    {
+      "subject": "english",
+      "question_type": "vocabulary",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "content": {
+        "text": "Choose the word that is closest in meaning to 'meticulous'.",
+        "options": ["careful", "careless", "quick", "large"]
+      },
+      "answer": {
+        "value": "careful"
+      },
+      "explanation": "'Meticulous' means showing great attention to detail, being very careful and precise. Someone who is meticulous checks their work thoroughly.",
+      "hints": [
+        {"level": 1, "text": "Think about how someone works when they pay close attention to detail.", "penalty": 0.1},
+        {"level": 2, "text": "It describes someone who is thorough and precise.", "penalty": 0.2}
+      ],
+      "tags": ["vocabulary", "synonyms"],
+      "source": "sample"
+    },
+    {
+      "subject": "english",
+      "question_type": "vocabulary",
+      "format": "multiple_choice",
+      "difficulty": 4,
+      "content": {
+        "text": "What does the word 'inevitable' mean?",
+        "options": [
+          "Certain to happen",
+          "Unlikely to happen",
+          "Impossible to see",
+          "Easy to avoid"
+        ]
+      },
+      "answer": {
+        "value": "Certain to happen"
+      },
+      "explanation": "'Inevitable' means something that is certain to happen and cannot be avoided. For example: 'Death is inevitable' means everyone will eventually die - it cannot be prevented.",
+      "hints": [
+        {"level": 1, "text": "Think about something that cannot be stopped.", "penalty": 0.1},
+        {"level": 2, "text": "The prefix 'in-' means 'not', and 'evitable' relates to avoiding.", "penalty": 0.2}
+      ],
+      "tags": ["vocabulary", "word meaning"],
+      "source": "sample"
+    },
+    {
+      "subject": "english",
+      "question_type": "sentence_completion",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "content": {
+        "text": "Choose the word that best completes the sentence.\n\nThe detective examined the clues _____ before making his conclusion.",
+        "options": ["carefully", "quickly", "loudly", "happily"]
+      },
+      "answer": {
+        "value": "carefully"
+      },
+      "explanation": "'Carefully' makes most sense because a detective would examine clues with attention to detail. The context suggests thorough examination before making a conclusion.",
+      "hints": [
+        {"level": 1, "text": "How should a detective look at evidence?", "penalty": 0.1},
+        {"level": 2, "text": "A good detective pays close attention to details.", "penalty": 0.2}
+      ],
+      "tags": ["sentence completion", "context clues", "adverbs"],
+      "source": "sample"
+    },
+    {
+      "subject": "english",
+      "question_type": "sentence_completion",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "content": {
+        "text": "Choose the word that best completes the sentence.\n\nAlthough the weather was _____, we decided to go for a walk anyway.",
+        "options": ["terrible", "wonderful", "sunny", "perfect"]
+      },
+      "answer": {
+        "value": "terrible"
+      },
+      "explanation": "The word 'Although' signals a contrast. We went for a walk despite something negative about the weather. 'Terrible' creates the contrast needed - bad weather, but we still walked.",
+      "hints": [
+        {"level": 1, "text": "'Although' suggests something unexpected or contrasting.", "penalty": 0.1},
+        {"level": 2, "text": "Would you say 'although it was sunny' if you went for a walk? That doesn't contrast.", "penalty": 0.2}
+      ],
+      "tags": ["sentence completion", "connectives", "contrast"],
+      "source": "sample"
+    },
+    {
+      "subject": "english",
+      "question_type": "vocabulary",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "content": {
+        "text": "Choose the word that is OPPOSITE in meaning to 'ancient'.",
+        "options": ["modern", "old", "historical", "antique"]
+      },
+      "answer": {
+        "value": "modern"
+      },
+      "explanation": "'Ancient' means very old, from a long time ago. The opposite is 'modern', which means relating to present times or recent history. Old, historical, and antique all have similar meanings to ancient.",
+      "hints": [
+        {"level": 1, "text": "We're looking for the opposite - something new rather than old.", "penalty": 0.1},
+        {"level": 2, "text": "What word describes things from today rather than from long ago?", "penalty": 0.2}
+      ],
+      "tags": ["vocabulary", "antonyms"],
+      "source": "sample"
+    }
+  ]
+}

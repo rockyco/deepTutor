@@ -1,0 +1,571 @@
+{
+  "questions": [
+    {
+      "subject": "verbal_reasoning",
+      "question_type": "vr_synonyms",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "content": {
+        "text": "Find two words, one from each group, that are closest in meaning.\n\n(happy sad angry) (joyful tired hungry)",
+        "options": ["happy, joyful", "sad, tired", "angry, hungry", "happy, tired"]
+      },
+      "answer": {
+        "value": "happy, joyful",
+        "accept_variations": ["happy joyful", "happy and joyful"]
+      },
+      "explanation": "'Happy' and 'joyful' are synonyms - they both describe a feeling of pleasure or delight. The other word pairs don't share similar meanings.",
+      "hints": [
+        {"level": 1, "text": "Look for words that describe similar emotions.", "penalty": 0.1},
+        {"level": 2, "text": "One pair describes positive feelings.", "penalty": 0.2}
+      ],
+      "tags": ["synonyms", "vocabulary", "emotions"],
+      "source": "sample"
+    },
+    {
+      "subject": "verbal_reasoning",
+      "question_type": "vr_hidden_word",
+      "format": "fill_in_blank",
+      "difficulty": 2,
+      "content": {
+        "text": "Find a four-letter word hidden between two of the other words in the sentence.\n\nThe big old cat was hungry."
+      },
+      "answer": {
+        "value": "gold",
+        "case_sensitive": false
+      },
+      "explanation": "The word 'gold' is hidden across 'old' and 'cat': bi(g OLD) Cat - GOLD. Look for letters that span across word boundaries.",
+      "hints": [
+        {"level": 1, "text": "The hidden word spans across two words.", "penalty": 0.1},
+        {"level": 2, "text": "Look between 'old' and 'cat'.", "penalty": 0.2}
+      ],
+      "tags": ["hidden word", "word puzzles"],
+      "source": "sample"
+    },
+    {
+      "subject": "verbal_reasoning",
+      "question_type": "vr_number_series",
+      "format": "fill_in_blank",
+      "difficulty": 3,
+      "content": {
+        "text": "Find the number that best completes the series.\n\n2, 4, 8, 16, ?"
+      },
+      "answer": {
+        "value": "32",
+        "accept_variations": ["32.0"]
+      },
+      "explanation": "Each number is doubled (multiplied by 2) to get the next number. 2x2=4, 4x2=8, 8x2=16, 16x2=32. This is a geometric sequence with a common ratio of 2.",
+      "hints": [
+        {"level": 1, "text": "Look at how each number relates to the previous one.", "penalty": 0.1},
+        {"level": 2, "text": "Each number is multiplied by the same value.", "penalty": 0.2}
+      ],
+      "tags": ["number series", "patterns", "multiplication"],
+      "source": "sample"
+    },
+    {
+      "subject": "verbal_reasoning",
+      "question_type": "vr_alphabet_code",
+      "format": "fill_in_blank",
+      "difficulty": 3,
+      "content": {
+        "text": "The word CAT is written as DBU in code. What is DOG written as in the same code?"
+      },
+      "answer": {
+        "value": "EPH",
+        "case_sensitive": false
+      },
+      "explanation": "Each letter moves forward by 1 in the alphabet: C+1=D, A+1=B, T+1=U. So D+1=E, O+1=P, G+1=H. The answer is EPH.",
+      "hints": [
+        {"level": 1, "text": "Compare CAT to DBU letter by letter.", "penalty": 0.1},
+        {"level": 2, "text": "Each letter shifts by the same amount in the alphabet.", "penalty": 0.2}
+      ],
+      "tags": ["codes", "alphabet", "patterns"],
+      "source": "sample"
+    },
+    {
+      "subject": "verbal_reasoning",
+      "question_type": "vr_odd_ones_out",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "content": {
+        "text": "Find the TWO words that are different from the other three.\n\nkid  kitten  horse  lamb  goat",
+        "options": ["kid, kitten", "horse, goat", "kitten, lamb", "horse, kid"]
+      },
+      "answer": {
+        "value": "horse, goat"
+      },
+      "explanation": "Kid (baby goat), kitten (baby cat), and lamb (baby sheep) are all names for young animals. Horse and goat are adult animal names, making them the odd ones out.",
+      "hints": [
+        {"level": 1, "text": "Think about what makes some words similar.", "penalty": 0.1},
+        {"level": 2, "text": "Consider whether these are names for baby or adult animals.", "penalty": 0.2}
+      ],
+      "tags": ["odd one out", "vocabulary", "categories"],
+      "source": "sample"
+    },
+    {
+      "subject": "verbal_reasoning",
+      "question_type": "vr_word_pairs",
+      "format": "fill_in_blank",
+      "difficulty": 3,
+      "content": {
+        "text": "Complete the third pair in the same way as the first two pairs.\n\n(big, small)  (hot, cold)  (fast, ?)"
+      },
+      "answer": {
+        "value": "slow",
+        "case_sensitive": false
+      },
+      "explanation": "Each pair contains antonyms (opposites). Big is opposite to small, hot is opposite to cold, so fast is opposite to slow.",
+      "hints": [
+        {"level": 1, "text": "Look at how the words in each pair relate to each other.", "penalty": 0.1},
+        {"level": 2, "text": "The pairs contain opposite meanings.", "penalty": 0.2}
+      ],
+      "tags": ["word pairs", "antonyms", "analogies"],
+      "source": "sample"
+    },
+    {
+      "subject": "maths",
+      "question_type": "number_operations",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "content": {
+        "text": "What is 347 + 268?",
+        "options": ["615", "605", "515", "625"]
+      },
+      "answer": {
+        "value": "615"
+      },
+      "explanation": "Add column by column from right to left:\n- Units: 7+8=15, write 5 carry 1\n- Tens: 4+6+1=11, write 1 carry 1\n- Hundreds: 3+2+1=6\nAnswer: 615",
+      "hints": [
+        {"level": 1, "text": "Add the units column first, then tens, then hundreds.", "penalty": 0.1},
+        {"level": 2, "text": "Remember to carry over when a column adds up to 10 or more.", "penalty": 0.2}
+      ],
+      "tags": ["addition", "three-digit", "arithmetic"],
+      "source": "sample"
+    },
+    {
+      "subject": "maths",
+      "question_type": "fractions",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "content": {
+        "text": "What is 3/4 + 1/2?",
+        "options": ["5/4", "4/6", "1/3", "2/3"]
+      },
+      "answer": {
+        "value": "5/4",
+        "accept_variations": ["1 1/4", "1.25"]
+      },
+      "explanation": "To add fractions, they need the same denominator. Convert 1/2 to 2/4. Then 3/4 + 2/4 = 5/4. This equals 1 and 1/4.",
+      "hints": [
+        {"level": 1, "text": "Find a common denominator for both fractions.", "penalty": 0.1},
+        {"level": 2, "text": "Convert 1/2 to fourths first.", "penalty": 0.2}
+      ],
+      "tags": ["fractions", "addition", "common denominator"],
+      "source": "sample"
+    },
+    {
+      "subject": "maths",
+      "question_type": "percentages",
+      "format": "fill_in_blank",
+      "difficulty": 3,
+      "content": {
+        "text": "What is 25% of 80?"
+      },
+      "answer": {
+        "value": "20",
+        "accept_variations": ["20.0"]
+      },
+      "explanation": "25% means 25 out of 100, or 1/4. To find 25% of 80:\nMethod 1: 80 divided by 4 = 20\nMethod 2: 80 x 0.25 = 20",
+      "hints": [
+        {"level": 1, "text": "25% is the same as one quarter.", "penalty": 0.1},
+        {"level": 2, "text": "Divide 80 by 4.", "penalty": 0.2}
+      ],
+      "tags": ["percentages", "mental maths"],
+      "source": "sample"
+    },
+    {
+      "subject": "maths",
+      "question_type": "geometry",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "content": {
+        "text": "A rectangle has a length of 8cm and a width of 5cm. What is its perimeter?",
+        "options": ["26cm", "40cm", "13cm", "21cm"]
+      },
+      "answer": {
+        "value": "26cm",
+        "accept_variations": ["26", "26 cm"]
+      },
+      "explanation": "Perimeter is the total distance around the outside. For a rectangle: P = 2 x (length + width) = 2 x (8 + 5) = 2 x 13 = 26cm",
+      "hints": [
+        {"level": 1, "text": "Perimeter means adding all the sides together.", "penalty": 0.1},
+        {"level": 2, "text": "A rectangle has 2 lengths and 2 widths.", "penalty": 0.2}
+      ],
+      "tags": ["geometry", "perimeter", "rectangles"],
+      "source": "sample"
+    },
+    {
+      "subject": "maths",
+      "question_type": "word_problems",
+      "format": "fill_in_blank",
+      "difficulty": 3,
+      "content": {
+        "text": "Tom has 24 sweets. He gives 1/3 to his sister and 1/4 to his brother. How many sweets does Tom have left?"
+      },
+      "answer": {
+        "value": "10",
+        "accept_variations": ["10 sweets"]
+      },
+      "explanation": "Sister gets: 24 x 1/3 = 8 sweets\nBrother gets: 24 x 1/4 = 6 sweets\nTotal given away: 8 + 6 = 14 sweets\nTom has left: 24 - 14 = 10 sweets",
+      "hints": [
+        {"level": 1, "text": "Calculate each share separately first.", "penalty": 0.1},
+        {"level": 2, "text": "1/3 of 24 is 8, 1/4 of 24 is 6.", "penalty": 0.2}
+      ],
+      "tags": ["word problems", "fractions", "subtraction"],
+      "source": "sample"
+    },
+    {
+      "subject": "maths",
+      "question_type": "algebra",
+      "format": "fill_in_blank",
+      "difficulty": 4,
+      "content": {
+        "text": "If 3x + 5 = 20, what is the value of x?"
+      },
+      "answer": {
+        "value": "5"
+      },
+      "explanation": "Solve step by step:\n1. Subtract 5 from both sides: 3x = 15\n2. Divide both sides by 3: x = 5\nCheck: 3(5) + 5 = 15 + 5 = 20 ✓",
+      "hints": [
+        {"level": 1, "text": "First, get the x term on its own.", "penalty": 0.1},
+        {"level": 2, "text": "Subtract 5 from 20, then divide by 3.", "penalty": 0.2}
+      ],
+      "tags": ["algebra", "equations", "solving"],
+      "source": "sample"
+    },
+    {
+      "subject": "english",
+      "question_type": "comprehension",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "content": {
+        "passage": "The old lighthouse stood on the rocky cliff, its beam sweeping across the dark waters below. For over a hundred years, it had guided sailors safely past the treacherous rocks. Now, with modern GPS systems, some said it was no longer needed. But the lighthouse keeper, Mr. Thompson, disagreed. 'Technology can fail,' he said, 'but this light has never let anyone down.'",
+        "text": "According to the passage, why do some people think the lighthouse is no longer needed?",
+        "options": [
+          "Because it is too old",
+          "Because modern GPS systems exist",
+          "Because Mr. Thompson is retiring",
+          "Because the rocks are no longer dangerous"
+        ]
+      },
+      "answer": {
+        "value": "Because modern GPS systems exist"
+      },
+      "explanation": "The passage states 'with modern GPS systems, some said it was no longer needed.' This directly tells us that GPS technology is the reason some people think the lighthouse is unnecessary.",
+      "hints": [
+        {"level": 1, "text": "Look for mentions of technology in the passage.", "penalty": 0.1},
+        {"level": 2, "text": "Find the sentence that mentions what 'some said'.", "penalty": 0.2}
+      ],
+      "tags": ["comprehension", "inference", "technology"],
+      "source": "sample"
+    },
+    {
+      "subject": "english",
+      "question_type": "comprehension",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "content": {
+        "passage": "The old lighthouse stood on the rocky cliff, its beam sweeping across the dark waters below. For over a hundred years, it had guided sailors safely past the treacherous rocks. Now, with modern GPS systems, some said it was no longer needed. But the lighthouse keeper, Mr. Thompson, disagreed. 'Technology can fail,' he said, 'but this light has never let anyone down.'",
+        "text": "What does Mr. Thompson mean when he says 'Technology can fail'?",
+        "options": [
+          "GPS is always broken",
+          "The lighthouse uses old technology",
+          "Electronic systems might stop working",
+          "He doesn't understand technology"
+        ]
+      },
+      "answer": {
+        "value": "Electronic systems might stop working"
+      },
+      "explanation": "Mr. Thompson is making the point that GPS and other electronic systems can malfunction or stop working, unlike the reliable lighthouse. He's arguing for the lighthouse's continued importance as a backup.",
+      "hints": [
+        {"level": 1, "text": "Think about what Mr. Thompson is comparing technology to.", "penalty": 0.1},
+        {"level": 2, "text": "He contrasts technology that 'can fail' with the light that 'has never let anyone down'.", "penalty": 0.2}
+      ],
+      "tags": ["comprehension", "inference", "meaning"],
+      "source": "sample"
+    },
+    {
+      "subject": "english",
+      "question_type": "grammar",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "content": {
+        "text": "Choose the correct word to complete the sentence.\n\nThe children _____ playing in the garden yesterday.",
+        "options": ["was", "were", "is", "are"]
+      },
+      "answer": {
+        "value": "were"
+      },
+      "explanation": "'Children' is a plural noun, so it needs a plural verb. 'Were' is the past tense plural form of 'to be'. 'Was' would be used with singular subjects like 'the child was playing'.",
+      "hints": [
+        {"level": 1, "text": "Is 'children' singular or plural?", "penalty": 0.1},
+        {"level": 2, "text": "The word 'yesterday' tells us we need past tense.", "penalty": 0.2}
+      ],
+      "tags": ["grammar", "verb agreement", "past tense"],
+      "source": "sample"
+    },
+    {
+      "subject": "english",
+      "question_type": "spelling",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "content": {
+        "text": "Which word is spelled correctly?",
+        "options": ["recieve", "receive", "receve", "receeve"]
+      },
+      "answer": {
+        "value": "receive"
+      },
+      "explanation": "The correct spelling is 'receive'. Remember the rule: 'i before e, except after c' - since 'c' comes before these letters, it's 'ei' not 'ie'.",
+      "hints": [
+        {"level": 1, "text": "Think about the 'i before e' rule.", "penalty": 0.1},
+        {"level": 2, "text": "What letter comes before the 'e' and 'i'?", "penalty": 0.2}
+      ],
+      "tags": ["spelling", "i before e rule"],
+      "source": "sample"
+    },
+    {
+      "subject": "english",
+      "question_type": "vocabulary",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "content": {
+        "text": "What does the word 'treacherous' mean in this sentence?\n\n'The treacherous mountain path was covered in ice.'",
+        "options": ["beautiful", "dangerous", "long", "narrow"]
+      },
+      "answer": {
+        "value": "dangerous"
+      },
+      "explanation": "'Treacherous' means dangerous or hazardous, especially in a way that might not be obvious. An icy mountain path is treacherous because it looks passable but could cause you to slip and fall.",
+      "hints": [
+        {"level": 1, "text": "Think about what an icy path would be like to walk on.", "penalty": 0.1},
+        {"level": 2, "text": "The word describes something that could harm you.", "penalty": 0.2}
+      ],
+      "tags": ["vocabulary", "context clues", "adjectives"],
+      "source": "sample"
+    },
+    {
+      "subject": "non_verbal_reasoning",
+      "question_type": "nvr_sequences",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "content": {
+        "text": "Look at the sequence of shapes. Which option comes next?\n\n[Square] [Square rotated 45deg] [Square] [Square rotated 45deg] [?]",
+        "options": ["Square", "Circle", "Triangle", "Square rotated 45deg"],
+        "context": {
+          "pattern": "alternating",
+          "shapes": ["square", "diamond", "square", "diamond"]
+        }
+      },
+      "answer": {
+        "value": "Square"
+      },
+      "explanation": "The pattern alternates between a square and a diamond (square rotated 45 degrees). Following this pattern: square, diamond, square, diamond, the next shape should be a square.",
+      "hints": [
+        {"level": 1, "text": "Look for a repeating pattern in the shapes.", "penalty": 0.1},
+        {"level": 2, "text": "The pattern alternates between two shapes.", "penalty": 0.2}
+      ],
+      "tags": ["sequences", "patterns", "alternating"],
+      "source": "sample"
+    },
+    {
+      "subject": "non_verbal_reasoning",
+      "question_type": "nvr_odd_one_out",
+      "format": "multiple_choice",
+      "difficulty": 2,
+      "content": {
+        "text": "Which shape is the odd one out?\n\nA: Circle with dot inside\nB: Square with dot inside\nC: Triangle with dot inside\nD: Hexagon (no dot)\nE: Pentagon with dot inside",
+        "options": ["A", "B", "C", "D", "E"],
+        "context": {
+          "shapes": ["circle-dot", "square-dot", "triangle-dot", "hexagon", "pentagon-dot"]
+        }
+      },
+      "answer": {
+        "value": "D"
+      },
+      "explanation": "Shape D (hexagon) is the odd one out because it doesn't have a dot inside. All other shapes - circle, square, triangle, and pentagon - have a dot in their centre.",
+      "hints": [
+        {"level": 1, "text": "Look at what's inside each shape.", "penalty": 0.1},
+        {"level": 2, "text": "Most shapes have something in common inside them.", "penalty": 0.2}
+      ],
+      "tags": ["odd one out", "visual patterns", "attributes"],
+      "source": "sample"
+    },
+    {
+      "subject": "non_verbal_reasoning",
+      "question_type": "nvr_analogies",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "content": {
+        "text": "Complete the analogy:\n\n[Large white circle] is to [Small white circle] as [Large black square] is to [?]",
+        "options": [
+          "Small black square",
+          "Large white square",
+          "Small white square",
+          "Large black circle"
+        ],
+        "context": {
+          "relationship": "size reduction, same colour and shape"
+        }
+      },
+      "answer": {
+        "value": "Small black square"
+      },
+      "explanation": "The relationship is: the shape stays the same type and colour, but becomes smaller. A large white circle becomes a small white circle. So a large black square should become a small black square.",
+      "hints": [
+        {"level": 1, "text": "What changed between the first pair of shapes?", "penalty": 0.1},
+        {"level": 2, "text": "The size changed, but the colour and shape type stayed the same.", "penalty": 0.2}
+      ],
+      "tags": ["analogies", "relationships", "transformations"],
+      "source": "sample"
+    },
+    {
+      "subject": "non_verbal_reasoning",
+      "question_type": "nvr_rotation",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "content": {
+        "text": "If this shape is rotated 90 degrees clockwise, which option shows the result?\n\nOriginal: Arrow pointing UP",
+        "options": [
+          "Arrow pointing RIGHT",
+          "Arrow pointing LEFT",
+          "Arrow pointing DOWN",
+          "Arrow pointing UP"
+        ],
+        "context": {
+          "original_direction": "up",
+          "rotation": "90 degrees clockwise"
+        }
+      },
+      "answer": {
+        "value": "Arrow pointing RIGHT"
+      },
+      "explanation": "When you rotate something 90 degrees clockwise, it turns a quarter turn to the right. An arrow pointing UP will point RIGHT after a 90-degree clockwise rotation.",
+      "hints": [
+        {"level": 1, "text": "Clockwise is the same direction as clock hands move.", "penalty": 0.1},
+        {"level": 2, "text": "Imagine turning the page a quarter turn to the right.", "penalty": 0.2}
+      ],
+      "tags": ["rotation", "clockwise", "spatial reasoning"],
+      "source": "sample"
+    },
+    {
+      "subject": "non_verbal_reasoning",
+      "question_type": "nvr_reflection",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "content": {
+        "text": "Which option shows the reflection of this shape in a vertical mirror line?\n\nOriginal: Letter 'F'",
+        "options": [
+          "Backwards F (mirror image)",
+          "Upside down F",
+          "Normal F",
+          "F rotated 90 degrees"
+        ],
+        "context": {
+          "mirror_line": "vertical"
+        }
+      },
+      "answer": {
+        "value": "Backwards F (mirror image)"
+      },
+      "explanation": "A reflection in a vertical mirror line flips the shape horizontally - like looking in a mirror. The letter F would appear backwards, with the horizontal lines pointing left instead of right.",
+      "hints": [
+        {"level": 1, "text": "Imagine holding the shape up to a mirror.", "penalty": 0.1},
+        {"level": 2, "text": "In a vertical mirror, left and right swap.", "penalty": 0.2}
+      ],
+      "tags": ["reflection", "mirror", "spatial reasoning"],
+      "source": "sample"
+    },
+    {
+      "subject": "verbal_reasoning",
+      "question_type": "vr_letter_series",
+      "format": "fill_in_blank",
+      "difficulty": 3,
+      "content": {
+        "text": "Find the letters that best complete the series.\n\nA, C, E, G, ?"
+      },
+      "answer": {
+        "value": "I",
+        "case_sensitive": false
+      },
+      "explanation": "The pattern skips one letter each time: A (skip B) C (skip D) E (skip F) G (skip H) I. These are the odd-positioned letters of the alphabet.",
+      "hints": [
+        {"level": 1, "text": "Look at how many letters are skipped between each letter.", "penalty": 0.1},
+        {"level": 2, "text": "The pattern skips one letter each time.", "penalty": 0.2}
+      ],
+      "tags": ["letter series", "patterns", "alphabet"],
+      "source": "sample"
+    },
+    {
+      "subject": "verbal_reasoning",
+      "question_type": "vr_compound_words",
+      "format": "fill_in_blank",
+      "difficulty": 2,
+      "content": {
+        "text": "Find a word that can go after the first word and before the second word to make two new words.\n\nFOOT ( ? ) ROOM"
+      },
+      "answer": {
+        "value": "BALL",
+        "case_sensitive": false,
+        "accept_variations": ["ball"]
+      },
+      "explanation": "BALL fits because: FOOT + BALL = FOOTBALL (a sport) and BALL + ROOM = BALLROOM (a large room for dancing).",
+      "hints": [
+        {"level": 1, "text": "Think of words that can attach to FOOT.", "penalty": 0.1},
+        {"level": 2, "text": "The answer is something round that you can kick.", "penalty": 0.2}
+      ],
+      "tags": ["compound words", "vocabulary"],
+      "source": "sample"
+    },
+    {
+      "subject": "maths",
+      "question_type": "data_handling",
+      "format": "multiple_choice",
+      "difficulty": 3,
+      "content": {
+        "text": "The bar chart shows the number of books read by 5 students.\n\nAlex: 4 books\nBella: 7 books\nCarl: 3 books\nDiana: 6 books\nEthan: 5 books\n\nWhat is the mean (average) number of books read?",
+        "options": ["4", "5", "6", "7"]
+      },
+      "answer": {
+        "value": "5"
+      },
+      "explanation": "To find the mean, add all values and divide by the number of values.\nSum: 4 + 7 + 3 + 6 + 5 = 25\nNumber of students: 5\nMean: 25 / 5 = 5 books",
+      "hints": [
+        {"level": 1, "text": "Add all the numbers together first.", "penalty": 0.1},
+        {"level": 2, "text": "Divide your total by how many students there are.", "penalty": 0.2}
+      ],
+      "tags": ["data handling", "averages", "mean"],
+      "source": "sample"
+    },
+    {
+      "subject": "maths",
+      "question_type": "ratio",
+      "format": "fill_in_blank",
+      "difficulty": 4,
+      "content": {
+        "text": "Purple paint is made by mixing red and blue paint in the ratio 3:2.\nHow much blue paint is needed to mix with 15 litres of red paint?"
+      },
+      "answer": {
+        "value": "10",
+        "accept_variations": ["10 litres", "10l", "10 l"]
+      },
+      "explanation": "The ratio is red:blue = 3:2\nIf red = 15 litres, we need to find the multiplier: 15 / 3 = 5\nBlue = 2 x 5 = 10 litres",
+      "hints": [
+        {"level": 1, "text": "First find what number multiplied by 3 gives 15.", "penalty": 0.1},
+        {"level": 2, "text": "The multiplier is 5. Now apply it to the blue amount.", "penalty": 0.2}
+      ],
+      "tags": ["ratio", "proportion", "multiplication"],
+      "source": "sample"
+    }
+  ]
+}

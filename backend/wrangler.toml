@@ -1,0 +1,28 @@
+# Cloudflare Workers configuration for 11+ Deep Tutor Backend
+name = "deep-tutor-api"
+main = "worker.py"
+compatibility_date = "2024-12-01"
+compatibility_flags = ["python_workers"]
+
+[vars]
+ENVIRONMENT = "production"
+
+# D1 Database binding (create with: wrangler d1 create deep-tutor-db)
+[[d1_databases]]
+binding = "DB"
+database_name = "deep-tutor-db"
+database_id = "" # Fill after creating: wrangler d1 create deep-tutor-db
+
+# For local development
+[dev]
+port = 8787
+local_protocol = "http"
+
+# Build configuration
+[build]
+command = ""
+
+# Routes (optional - configure after deployment)
+# routes = [
+#   { pattern = "api.deeptutor.example.com/*", zone_name = "example.com" }
+# ]

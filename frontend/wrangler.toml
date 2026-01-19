@@ -1,0 +1,12 @@
+# Cloudflare Pages configuration for 11+ Deep Tutor Frontend
+name = "deep-tutor"
+compatibility_date = "2024-12-01"
+pages_build_output_dir = ".vercel/output/static"
+
+# Environment variables
+[vars]
+NEXT_PUBLIC_API_URL = "https://deep-tutor-api.workers.dev"
+
+# For local development
+[dev]
+port = 3000
