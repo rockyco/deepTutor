@@ -1,0 +1,25 @@
+# Fly.io configuration for 11+ Deep Tutor Backend
+app = 'deep-tutor-api'
+primary_region = 'lhr'  # London - close to UK users
+
+[build]
+
+[env]
+  DATABASE_URL = "sqlite+aiosqlite:////data/tutor.db"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = 'stop'
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ['app']
+
+[[vm]]
+  memory = '512mb'
+  cpu_kind = 'shared'
+  cpus = 1
+
+[mounts]
+  source = "deep_tutor_data"
+  destination = "/data"

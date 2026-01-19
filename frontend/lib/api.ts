@@ -2,7 +2,7 @@
  * API client for the 11+ Deep Tutor backend.
  */
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || "https://deep-tutor-api.fly.dev";
 
 // Types matching backend models
 export type Subject = "english" | "maths" | "verbal_reasoning" | "non_verbal_reasoning";
