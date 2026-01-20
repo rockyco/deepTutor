@@ -1,0 +1,811 @@
+[
+  {
+    "id": "810e7a8f-9744-45aa-93c4-e4d6f3a33f9b",
+    "subject": "english",
+    "question_type": "comprehension",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "According to the passage, why do some people think the lighthouse is no longer needed?",
+      "passage": "The old lighthouse stood on the rocky cliff, its beam sweeping across the dark waters below. For over a hundred years, it had guided sailors safely past the treacherous rocks. Now, with modern GPS systems, some said it was no longer needed. But the lighthouse keeper, Mr. Thompson, disagreed. 'Technology can fail,' he said, 'but this light has never let anyone down.'",
+      "options": [
+        "Because it is too old",
+        "Because modern GPS systems exist",
+        "Because Mr. Thompson is retiring",
+        "Because the rocks are no longer dangerous"
+      ],
+      "image_url": null,
+      "images": null,
+      "items": null,
+      "pairs": null,
+      "context": null
+    },
+    "answer": {
+      "value": "Because modern GPS systems exist",
+      "accept_variations": null,
+      "case_sensitive": false,
+      "order_matters": true
+    },
+    "explanation": "The passage states 'with modern GPS systems, some said it was no longer needed.' This directly tells us that GPS technology is the reason some people think the lighthouse is unnecessary.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Look for mentions of technology in the passage.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Find the sentence that mentions what 'some said'.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "comprehension",
+      "inference",
+      "technology"
+    ],
+    "source": "sample",
+    "created_at": "2026-01-19 09:32:21.438052"
+  },
+  {
+    "id": "e4daae43-23dc-4304-a749-a44e5d1f1e9b",
+    "subject": "english",
+    "question_type": "comprehension",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What does Mr. Thompson mean when he says 'Technology can fail'?",
+      "passage": "The old lighthouse stood on the rocky cliff, its beam sweeping across the dark waters below. For over a hundred years, it had guided sailors safely past the treacherous rocks. Now, with modern GPS systems, some said it was no longer needed. But the lighthouse keeper, Mr. Thompson, disagreed. 'Technology can fail,' he said, 'but this light has never let anyone down.'",
+      "options": [
+        "GPS is always broken",
+        "The lighthouse uses old technology",
+        "Electronic systems might stop working",
+        "He doesn't understand technology"
+      ],
+      "image_url": null,
+      "images": null,
+      "items": null,
+      "pairs": null,
+      "context": null
+    },
+    "answer": {
+      "value": "Electronic systems might stop working",
+      "accept_variations": null,
+      "case_sensitive": false,
+      "order_matters": true
+    },
+    "explanation": "Mr. Thompson is making the point that GPS and other electronic systems can malfunction or stop working, unlike the reliable lighthouse. He's arguing for the lighthouse's continued importance as a backup.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Think about what Mr. Thompson is comparing technology to.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "He contrasts technology that 'can fail' with the light that 'has never let anyone down'.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "comprehension",
+      "inference",
+      "meaning"
+    ],
+    "source": "sample",
+    "created_at": "2026-01-19 09:32:21.438456"
+  },
+  {
+    "id": "94d79dd4-d1e4-4a08-afa0-0188840f7b51",
+    "subject": "english",
+    "question_type": "grammar",
+    "format": "multiple_choice",
+    "difficulty": 2,
+    "content": {
+      "text": "Choose the correct word to complete the sentence.\n\nThe children _____ playing in the garden yesterday.",
+      "passage": null,
+      "options": [
+        "was",
+        "were",
+        "is",
+        "are"
+      ],
+      "image_url": null,
+      "images": null,
+      "items": null,
+      "pairs": null,
+      "context": null
+    },
+    "answer": {
+      "value": "were",
+      "accept_variations": null,
+      "case_sensitive": false,
+      "order_matters": true
+    },
+    "explanation": "'Children' is a plural noun, so it needs a plural verb. 'Were' is the past tense plural form of 'to be'. 'Was' would be used with singular subjects like 'the child was playing'.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Is 'children' singular or plural?",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "The word 'yesterday' tells us we need past tense.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "grammar",
+      "verb agreement",
+      "past tense"
+    ],
+    "source": "sample",
+    "created_at": "2026-01-19 09:32:21.438848"
+  },
+  {
+    "id": "615bea40-26da-49d3-99ce-b01f326417de",
+    "subject": "english",
+    "question_type": "spelling",
+    "format": "multiple_choice",
+    "difficulty": 2,
+    "content": {
+      "text": "Which word is spelled correctly?",
+      "passage": null,
+      "options": [
+        "recieve",
+        "receive",
+        "receve",
+        "receeve"
+      ],
+      "image_url": null,
+      "images": null,
+      "items": null,
+      "pairs": null,
+      "context": null
+    },
+    "answer": {
+      "value": "receive",
+      "accept_variations": null,
+      "case_sensitive": false,
+      "order_matters": true
+    },
+    "explanation": "The correct spelling is 'receive'. Remember the rule: 'i before e, except after c' - since 'c' comes before these letters, it's 'ei' not 'ie'.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Think about the 'i before e' rule.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "What letter comes before the 'e' and 'i'?",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "spelling",
+      "i before e rule"
+    ],
+    "source": "sample",
+    "created_at": "2026-01-19 09:32:21.439246"
+  },
+  {
+    "id": "ea6c11b2-decd-4032-8f27-1f27c84ad5dd",
+    "subject": "english",
+    "question_type": "vocabulary",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What does the word 'treacherous' mean in this sentence?\n\n'The treacherous mountain path was covered in ice.'",
+      "passage": null,
+      "options": [
+        "beautiful",
+        "dangerous",
+        "long",
+        "narrow"
+      ],
+      "image_url": null,
+      "images": null,
+      "items": null,
+      "pairs": null,
+      "context": null
+    },
+    "answer": {
+      "value": "dangerous",
+      "accept_variations": null,
+      "case_sensitive": false,
+      "order_matters": true
+    },
+    "explanation": "'Treacherous' means dangerous or hazardous, especially in a way that might not be obvious. An icy mountain path is treacherous because it looks passable but could cause you to slip and fall.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Think about what an icy path would be like to walk on.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "The word describes something that could harm you.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "vocabulary",
+      "context clues",
+      "adjectives"
+    ],
+    "source": "sample",
+    "created_at": "2026-01-19 09:32:21.439622"
+  },
+  {
+    "id": "5433402d-47d0-40f2-9a5e-dea8c22fdbd2",
+    "subject": "english",
+    "question_type": "comprehension",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Why is the rainforest called the 'lungs of the Earth'?",
+      "passage": "The rainforest is often called the 'lungs of the Earth' because it produces a significant amount of the world's oxygen. These dense forests, found mainly near the equator, are home to more than half of all plant and animal species on our planet. However, deforestation threatens this vital ecosystem. Every year, an area roughly the size of a small country is destroyed for farming, logging, and development. Scientists warn that if this continues, many species could become extinct, and the effects on our climate could be devastating.",
+      "options": [
+        "Because it produces a lot of oxygen",
+        "Because it is shaped like lungs",
+        "Because animals breathe there",
+        "Because it is very large"
+      ],
+      "image_url": null,
+      "images": null,
+      "items": null,
+      "pairs": null,
+      "context": null
+    },
+    "answer": {
+      "value": "Because it produces a lot of oxygen",
+      "accept_variations": null,
+      "case_sensitive": false,
+      "order_matters": true
+    },
+    "explanation": "The passage directly states that the rainforest 'is often called the lungs of the Earth because it produces a significant amount of the world's oxygen.' Just as our lungs help us breathe by processing oxygen, the rainforest helps the Earth by producing oxygen.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Look at the first sentence of the passage.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "What do lungs do? The rainforest does something similar for Earth.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "comprehension",
+      "inference",
+      "science"
+    ],
+    "source": "sample",
+    "created_at": "2026-01-19 09:32:21.451636"
+  },
+  {
+    "id": "2b78ebf1-b15f-4a3d-b5a7-16f62e706af7",
+    "subject": "english",
+    "question_type": "comprehension",
+    "format": "multiple_choice",
+    "difficulty": 4,
+    "content": {
+      "text": "What tone does the writer use in the final sentence?",
+      "passage": "The rainforest is often called the 'lungs of the Earth' because it produces a significant amount of the world's oxygen. These dense forests, found mainly near the equator, are home to more than half of all plant and animal species on our planet. However, deforestation threatens this vital ecosystem. Every year, an area roughly the size of a small country is destroyed for farming, logging, and development. Scientists warn that if this continues, many species could become extinct, and the effects on our climate could be devastating.",
+      "options": [
+        "Warning and concern",
+        "Hopeful and optimistic",
+        "Neutral and factual",
+        "Humorous and light"
+      ],
+      "image_url": null,
+      "images": null,
+      "items": null,
+      "pairs": null,
+      "context": null
+    },
+    "answer": {
+      "value": "Warning and concern",
+      "accept_variations": null,
+      "case_sensitive": false,
+      "order_matters": true
+    },
+    "explanation": "The writer uses a warning tone, indicated by phrases like 'Scientists warn', 'could become extinct', and 'devastating'. These words create a sense of urgency and concern about the future.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Look at words like 'warn', 'extinct', and 'devastating'.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "What feeling do these words create? Positive or negative?",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "comprehension",
+      "tone",
+      "author's purpose"
+    ],
+    "source": "sample",
+    "created_at": "2026-01-19 09:32:21.452044"
+  },
+  {
+    "id": "aeb635da-74a7-449f-822c-ec7261fe7ac1",
+    "subject": "english",
+    "question_type": "grammar",
+    "format": "multiple_choice",
+    "difficulty": 2,
+    "content": {
+      "text": "Choose the sentence with correct punctuation.",
+      "passage": null,
+      "options": [
+        "The dog's bowl was empty.",
+        "The dogs bowl was empty.",
+        "The dog's, bowl was empty.",
+        "The dogs, bowl was empty."
+      ],
+      "image_url": null,
+      "images": null,
+      "items": null,
+      "pairs": null,
+      "context": null
+    },
+    "answer": {
+      "value": "The dog's bowl was empty.",
+      "accept_variations": null,
+      "case_sensitive": false,
+      "order_matters": true
+    },
+    "explanation": "We use an apostrophe to show possession. 'The dog's bowl' means the bowl belonging to the dog. The apostrophe goes before the 's' because there is one dog.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "We need to show that the bowl belongs to the dog.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Use an apostrophe + s to show possession for singular nouns.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "grammar",
+      "punctuation",
+      "apostrophes"
+    ],
+    "source": "sample",
+    "created_at": "2026-01-19 09:32:21.452441"
+  },
+  {
+    "id": "c85086e9-1c20-4f7b-983d-9d3ead2380ab",
+    "subject": "english",
+    "question_type": "grammar",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which sentence uses the correct form of the verb?",
+      "passage": null,
+      "options": [
+        "Each of the students has completed their homework.",
+        "Each of the students have completed their homework.",
+        "Each of the students has completed his homework.",
+        "Each of the students are completing their homework."
+      ],
+      "image_url": null,
+      "images": null,
+      "items": null,
+      "pairs": null,
+      "context": null
+    },
+    "answer": {
+      "value": "Each of the students has completed their homework.",
+      "accept_variations": null,
+      "case_sensitive": false,
+      "order_matters": true
+    },
+    "explanation": "'Each' is singular, so it takes a singular verb 'has', not 'have'. 'Their' is now accepted as a gender-neutral singular pronoun in modern English, making option 1 correct.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "'Each' is a singular word - what verb form goes with singular subjects?",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "We say 'each has' not 'each have'.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "grammar",
+      "subject-verb agreement"
+    ],
+    "source": "sample",
+    "created_at": "2026-01-19 09:32:21.452827"
+  },
+  {
+    "id": "62df59b4-58b6-4fb4-a121-715825014ee7",
+    "subject": "english",
+    "question_type": "grammar",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the sentence that uses the semicolon correctly.",
+      "passage": null,
+      "options": [
+        "I love reading; my sister prefers watching films.",
+        "I love reading; and my sister prefers films.",
+        "I love; reading my sister prefers films.",
+        "I love reading, my sister; prefers films."
+      ],
+      "image_url": null,
+      "images": null,
+      "items": null,
+      "pairs": null,
+      "context": null
+    },
+    "answer": {
+      "value": "I love reading; my sister prefers watching films.",
+      "accept_variations": null,
+      "case_sensitive": false,
+      "order_matters": true
+    },
+    "explanation": "A semicolon joins two complete sentences that are closely related. 'I love reading' and 'my sister prefers watching films' are both complete sentences with related ideas about entertainment preferences.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "A semicolon connects two complete sentences.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Both parts before and after the semicolon should be able to stand alone.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "grammar",
+      "punctuation",
+      "semicolons"
+    ],
+    "source": "sample",
+    "created_at": "2026-01-19 09:32:21.453227"
+  },
+  {
+    "id": "3a879793-e3ab-4b90-b313-cbac9f18005d",
+    "subject": "english",
+    "question_type": "spelling",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which word is spelled correctly?",
+      "passage": null,
+      "options": [
+        "necessary",
+        "neccessary",
+        "neccesary",
+        "necesary"
+      ],
+      "image_url": null,
+      "images": null,
+      "items": null,
+      "pairs": null,
+      "context": null
+    },
+    "answer": {
+      "value": "necessary",
+      "accept_variations": null,
+      "case_sensitive": false,
+      "order_matters": true
+    },
+    "explanation": "The correct spelling is 'necessary' - one 'c' and two 's's. A helpful memory trick: it's NE-CES-SA-RY (one collar, two socks).",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Think about how many c's and s's there are.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Remember: one collar (c), two socks (ss).",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "spelling",
+      "commonly misspelled words"
+    ],
+    "source": "sample",
+    "created_at": "2026-01-19 09:32:21.453610"
+  },
+  {
+    "id": "a7faad4a-d7b4-461d-bc1f-0374e08da871",
+    "subject": "english",
+    "question_type": "spelling",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which word is spelled correctly?",
+      "passage": null,
+      "options": [
+        "separate",
+        "seperate",
+        "seperete",
+        "saparate"
+      ],
+      "image_url": null,
+      "images": null,
+      "items": null,
+      "pairs": null,
+      "context": null
+    },
+    "answer": {
+      "value": "separate",
+      "accept_variations": null,
+      "case_sensitive": false,
+      "order_matters": true
+    },
+    "explanation": "The correct spelling is 'separate'. A helpful trick: there's 'A RAT' in 'sepARATE'.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "The middle part is tricky - is it 'a' or 'e'?",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Remember: there's a rat in separate.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "spelling",
+      "commonly misspelled words"
+    ],
+    "source": "sample",
+    "created_at": "2026-01-19 09:32:21.453981"
+  },
+  {
+    "id": "8791543e-6331-4e5a-b2b3-d407d82302aa",
+    "subject": "english",
+    "question_type": "vocabulary",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the word that is closest in meaning to 'meticulous'.",
+      "passage": null,
+      "options": [
+        "careful",
+        "careless",
+        "quick",
+        "large"
+      ],
+      "image_url": null,
+      "images": null,
+      "items": null,
+      "pairs": null,
+      "context": null
+    },
+    "answer": {
+      "value": "careful",
+      "accept_variations": null,
+      "case_sensitive": false,
+      "order_matters": true
+    },
+    "explanation": "'Meticulous' means showing great attention to detail, being very careful and precise. Someone who is meticulous checks their work thoroughly.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Think about how someone works when they pay close attention to detail.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "It describes someone who is thorough and precise.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "vocabulary",
+      "synonyms"
+    ],
+    "source": "sample",
+    "created_at": "2026-01-19 09:32:21.454347"
+  },
+  {
+    "id": "93bf1b81-71e1-4434-a071-d9d579c25f1a",
+    "subject": "english",
+    "question_type": "vocabulary",
+    "format": "multiple_choice",
+    "difficulty": 4,
+    "content": {
+      "text": "What does the word 'inevitable' mean?",
+      "passage": null,
+      "options": [
+        "Certain to happen",
+        "Unlikely to happen",
+        "Impossible to see",
+        "Easy to avoid"
+      ],
+      "image_url": null,
+      "images": null,
+      "items": null,
+      "pairs": null,
+      "context": null
+    },
+    "answer": {
+      "value": "Certain to happen",
+      "accept_variations": null,
+      "case_sensitive": false,
+      "order_matters": true
+    },
+    "explanation": "'Inevitable' means something that is certain to happen and cannot be avoided. For example: 'Death is inevitable' means everyone will eventually die - it cannot be prevented.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Think about something that cannot be stopped.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "The prefix 'in-' means 'not', and 'evitable' relates to avoiding.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "vocabulary",
+      "word meaning"
+    ],
+    "source": "sample",
+    "created_at": "2026-01-19 09:32:21.454721"
+  },
+  {
+    "id": "772769a3-e111-4542-86b8-7c6d4400d38f",
+    "subject": "english",
+    "question_type": "sentence_completion",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the word that best completes the sentence.\n\nThe detective examined the clues _____ before making his conclusion.",
+      "passage": null,
+      "options": [
+        "carefully",
+        "quickly",
+        "loudly",
+        "happily"
+      ],
+      "image_url": null,
+      "images": null,
+      "items": null,
+      "pairs": null,
+      "context": null
+    },
+    "answer": {
+      "value": "carefully",
+      "accept_variations": null,
+      "case_sensitive": false,
+      "order_matters": true
+    },
+    "explanation": "'Carefully' makes most sense because a detective would examine clues with attention to detail. The context suggests thorough examination before making a conclusion.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "How should a detective look at evidence?",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "A good detective pays close attention to details.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "sentence completion",
+      "context clues",
+      "adverbs"
+    ],
+    "source": "sample",
+    "created_at": "2026-01-19 09:32:21.455110"
+  },
+  {
+    "id": "2e7b481b-aefc-4401-bc37-2f675f896740",
+    "subject": "english",
+    "question_type": "sentence_completion",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the word that best completes the sentence.\n\nAlthough the weather was _____, we decided to go for a walk anyway.",
+      "passage": null,
+      "options": [
+        "terrible",
+        "wonderful",
+        "sunny",
+        "perfect"
+      ],
+      "image_url": null,
+      "images": null,
+      "items": null,
+      "pairs": null,
+      "context": null
+    },
+    "answer": {
+      "value": "terrible",
+      "accept_variations": null,
+      "case_sensitive": false,
+      "order_matters": true
+    },
+    "explanation": "The word 'Although' signals a contrast. We went for a walk despite something negative about the weather. 'Terrible' creates the contrast needed - bad weather, but we still walked.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "'Although' suggests something unexpected or contrasting.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Would you say 'although it was sunny' if you went for a walk? That doesn't contrast.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "sentence completion",
+      "connectives",
+      "contrast"
+    ],
+    "source": "sample",
+    "created_at": "2026-01-19 09:32:21.455612"
+  },
+  {
+    "id": "3298f0a2-6202-48c3-a347-f68280295f96",
+    "subject": "english",
+    "question_type": "vocabulary",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the word that is OPPOSITE in meaning to 'ancient'.",
+      "passage": null,
+      "options": [
+        "modern",
+        "old",
+        "historical",
+        "antique"
+      ],
+      "image_url": null,
+      "images": null,
+      "items": null,
+      "pairs": null,
+      "context": null
+    },
+    "answer": {
+      "value": "modern",
+      "accept_variations": null,
+      "case_sensitive": false,
+      "order_matters": true
+    },
+    "explanation": "'Ancient' means very old, from a long time ago. The opposite is 'modern', which means relating to present times or recent history. Old, historical, and antique all have similar meanings to ancient.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "We're looking for the opposite - something new rather than old.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "What word describes things from today rather than from long ago?",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "vocabulary",
+      "antonyms"
+    ],
+    "source": "sample",
+    "created_at": "2026-01-19 09:32:21.456089"
+  }
+]

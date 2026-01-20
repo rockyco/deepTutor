@@ -1,0 +1,266 @@
+[
+  {
+    "id": "84537763-0b30-4fd8-8f93-6d61ff176fd1",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_sequences",
+    "format": "multiple_choice",
+    "difficulty": 2,
+    "content": {
+      "text": "Look at the sequence of shapes. Which option comes next?\n\n[Square] [Square rotated 45deg] [Square] [Square rotated 45deg] [?]",
+      "passage": null,
+      "options": [
+        "Square",
+        "Circle",
+        "Triangle",
+        "Square rotated 45deg"
+      ],
+      "image_url": null,
+      "images": null,
+      "items": null,
+      "pairs": null,
+      "context": {
+        "pattern": "alternating",
+        "shapes": [
+          "square",
+          "diamond",
+          "square",
+          "diamond"
+        ]
+      }
+    },
+    "answer": {
+      "value": "Square",
+      "accept_variations": null,
+      "case_sensitive": false,
+      "order_matters": true
+    },
+    "explanation": "The pattern alternates between a square and a diamond (square rotated 45 degrees). Following this pattern: square, diamond, square, diamond, the next shape should be a square.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Look for a repeating pattern in the shapes.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "The pattern alternates between two shapes.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "sequences",
+      "patterns",
+      "alternating"
+    ],
+    "source": "sample",
+    "created_at": "2026-01-19 09:32:21.440010"
+  },
+  {
+    "id": "5a314e91-13e6-465a-8d46-63d459a527f1",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_odd_one_out",
+    "format": "multiple_choice",
+    "difficulty": 2,
+    "content": {
+      "text": "Which shape is the odd one out?\n\nA: Circle with dot inside\nB: Square with dot inside\nC: Triangle with dot inside\nD: Hexagon (no dot)\nE: Pentagon with dot inside",
+      "passage": null,
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "image_url": null,
+      "images": null,
+      "items": null,
+      "pairs": null,
+      "context": {
+        "shapes": [
+          "circle-dot",
+          "square-dot",
+          "triangle-dot",
+          "hexagon",
+          "pentagon-dot"
+        ]
+      }
+    },
+    "answer": {
+      "value": "D",
+      "accept_variations": null,
+      "case_sensitive": false,
+      "order_matters": true
+    },
+    "explanation": "Shape D (hexagon) is the odd one out because it doesn't have a dot inside. All other shapes - circle, square, triangle, and pentagon - have a dot in their centre.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Look at what's inside each shape.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Most shapes have something in common inside them.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "odd one out",
+      "visual patterns",
+      "attributes"
+    ],
+    "source": "sample",
+    "created_at": "2026-01-19 09:32:21.440402"
+  },
+  {
+    "id": "f282680f-b445-437f-a72f-db090f97e39a",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_analogies",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Complete the analogy:\n\n[Large white circle] is to [Small white circle] as [Large black square] is to [?]",
+      "passage": null,
+      "options": [
+        "Small black square",
+        "Large white square",
+        "Small white square",
+        "Large black circle"
+      ],
+      "image_url": null,
+      "images": null,
+      "items": null,
+      "pairs": null,
+      "context": {
+        "relationship": "size reduction, same colour and shape"
+      }
+    },
+    "answer": {
+      "value": "Small black square",
+      "accept_variations": null,
+      "case_sensitive": false,
+      "order_matters": true
+    },
+    "explanation": "The relationship is: the shape stays the same type and colour, but becomes smaller. A large white circle becomes a small white circle. So a large black square should become a small black square.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "What changed between the first pair of shapes?",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "The size changed, but the colour and shape type stayed the same.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "analogies",
+      "relationships",
+      "transformations"
+    ],
+    "source": "sample",
+    "created_at": "2026-01-19 09:32:21.440793"
+  },
+  {
+    "id": "67ac33fa-370b-4c75-bb3f-7fc3956abbe8",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_rotation",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "If this shape is rotated 90 degrees clockwise, which option shows the result?\n\nOriginal: Arrow pointing UP",
+      "passage": null,
+      "options": [
+        "Arrow pointing RIGHT",
+        "Arrow pointing LEFT",
+        "Arrow pointing DOWN",
+        "Arrow pointing UP"
+      ],
+      "image_url": null,
+      "images": null,
+      "items": null,
+      "pairs": null,
+      "context": {
+        "original_direction": "up",
+        "rotation": "90 degrees clockwise"
+      }
+    },
+    "answer": {
+      "value": "Arrow pointing RIGHT",
+      "accept_variations": null,
+      "case_sensitive": false,
+      "order_matters": true
+    },
+    "explanation": "When you rotate something 90 degrees clockwise, it turns a quarter turn to the right. An arrow pointing UP will point RIGHT after a 90-degree clockwise rotation.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Clockwise is the same direction as clock hands move.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Imagine turning the page a quarter turn to the right.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "rotation",
+      "clockwise",
+      "spatial reasoning"
+    ],
+    "source": "sample",
+    "created_at": "2026-01-19 09:32:21.441274"
+  },
+  {
+    "id": "72128259-11ae-4b83-8436-249b5e1e1306",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_reflection",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which option shows the reflection of this shape in a vertical mirror line?\n\nOriginal: Letter 'F'",
+      "passage": null,
+      "options": [
+        "Backwards F (mirror image)",
+        "Upside down F",
+        "Normal F",
+        "F rotated 90 degrees"
+      ],
+      "image_url": null,
+      "images": null,
+      "items": null,
+      "pairs": null,
+      "context": {
+        "mirror_line": "vertical"
+      }
+    },
+    "answer": {
+      "value": "Backwards F (mirror image)",
+      "accept_variations": null,
+      "case_sensitive": false,
+      "order_matters": true
+    },
+    "explanation": "A reflection in a vertical mirror line flips the shape horizontally - like looking in a mirror. The letter F would appear backwards, with the horizontal lines pointing left instead of right.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Imagine holding the shape up to a mirror.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "In a vertical mirror, left and right swap.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "reflection",
+      "mirror",
+      "spatial reasoning"
+    ],
+    "source": "sample",
+    "created_at": "2026-01-19 09:32:21.441695"
+  }
+]

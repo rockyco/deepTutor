@@ -21,6 +21,7 @@ dependencies = [
     "pypdf>=4.0.0",
     "pillow>=10.0.0",
     "rapidfuzz>=3.6.0",
+    "datasets>=2.16.0",
 ]
 
 [project.optional-dependencies]
