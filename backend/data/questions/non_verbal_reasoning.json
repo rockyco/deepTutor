@@ -1,69 +1,651 @@
 [
   {
-    "id": "84537763-0b30-4fd8-8f93-6d61ff176fd1",
+    "id": "nvr-seq-001",
     "subject": "non_verbal_reasoning",
     "question_type": "nvr_sequences",
     "format": "multiple_choice",
-    "difficulty": 2,
+    "difficulty": 4,
     "content": {
-      "text": "Look at the sequence of shapes. Which option comes next?\n\n[Square] [Square rotated 45deg] [Square] [Square rotated 45deg] [?]",
-      "passage": null,
+      "text": "Find the next figure in the sequence.\n\nFig 1: Hexagon at 0deg, small circle inside\nFig 2: Hexagon at 45deg, small triangle inside\nFig 3: Hexagon at 90deg, small square inside\nFig 4: Hexagon at 135deg, small circle inside\nFig 5: ?",
       "options": [
-        "Square",
-        "Circle",
-        "Triangle",
-        "Square rotated 45deg"
+        "A: Hexagon at 180deg, small triangle inside",
+        "B: Hexagon at 135deg, small circle inside",
+        "C: Hexagon at 180deg, small square inside",
+        "D: Hexagon at 0deg, small triangle inside",
+        "E: Hexagon at 90deg, small triangle inside"
       ],
-      "image_url": null,
-      "images": null,
-      "items": null,
-      "pairs": null,
       "context": {
-        "pattern": "alternating",
-        "shapes": [
-          "square",
-          "diamond",
-          "square",
-          "diamond"
-        ]
-      }
+        "pattern_type": "dual_track",
+        "track_1": {
+          "attribute": "outer_rotation",
+          "rule": "rotate_45deg_clockwise"
+        },
+        "track_2": {
+          "attribute": "inner_shape",
+          "rule": "cycle_3_shapes",
+          "sequence": [
+            "circle",
+            "triangle",
+            "square"
+          ]
+        }
+      },
+      "image_url": "/images/nvr/nvr-seq-001_main.svg",
+      "images": [
+        "/images/nvr/nvr-seq-001_opt_A.svg",
+        "/images/nvr/nvr-seq-001_opt_B.svg",
+        "/images/nvr/nvr-seq-001_opt_C.svg",
+        "/images/nvr/nvr-seq-001_opt_D.svg",
+        "/images/nvr/nvr-seq-001_opt_E.svg"
+      ]
     },
     "answer": {
-      "value": "Square",
-      "accept_variations": null,
-      "case_sensitive": false,
-      "order_matters": true
+      "value": "A",
+      "case_sensitive": false
     },
-    "explanation": "The pattern alternates between a square and a diamond (square rotated 45 degrees). Following this pattern: square, diamond, square, diamond, the next shape should be a square.",
+    "explanation": "Two independent patterns operate simultaneously: (1) The hexagon rotates 45 degrees clockwise each step (0->45->90->135->180). (2) The inner shape cycles through circle->triangle->square->circle->triangle. Following both rules: hexagon at 180deg with triangle inside.",
     "hints": [
       {
         "level": 1,
-        "text": "Look for a repeating pattern in the shapes.",
+        "text": "Look for TWO patterns changing independently.",
         "penalty": 0.1
       },
       {
         "level": 2,
-        "text": "The pattern alternates between two shapes.",
+        "text": "Track the outer hexagon rotation AND the inner shape sequence separately.",
         "penalty": 0.2
       }
     ],
     "tags": [
       "sequences",
-      "patterns",
-      "alternating"
+      "dual_track",
+      "rotation",
+      "cycling"
     ],
-    "source": "sample",
-    "created_at": "2026-01-19 09:32:21.440010"
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
   },
   {
-    "id": "5a314e91-13e6-465a-8d46-63d459a527f1",
+    "id": "nvr-seq-002",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_sequences",
+    "format": "multiple_choice",
+    "difficulty": 5,
+    "content": {
+      "text": "Find the next figure in the sequence.\n\nFig 1: Large white pentagon, 1 dot below\nFig 2: Medium grey pentagon, 2 dots below\nFig 3: Small black pentagon, 3 dots below\nFig 4: Large white pentagon, 4 dots below\nFig 5: ?",
+      "options": [
+        "A: Medium grey pentagon, 5 dots below",
+        "B: Small black pentagon, 5 dots below",
+        "C: Medium grey pentagon, 1 dot below",
+        "D: Large black pentagon, 5 dots below",
+        "E: Small white pentagon, 5 dots below"
+      ],
+      "context": {
+        "pattern_type": "triple_track",
+        "track_1": {
+          "attribute": "size",
+          "rule": "cycle_3",
+          "sequence": [
+            "large",
+            "medium",
+            "small"
+          ]
+        },
+        "track_2": {
+          "attribute": "fill",
+          "rule": "cycle_3",
+          "sequence": [
+            "white",
+            "grey",
+            "black"
+          ]
+        },
+        "track_3": {
+          "attribute": "dots",
+          "rule": "increment_by_1"
+        }
+      },
+      "image_url": "/images/nvr/nvr-seq-002_main.svg",
+      "images": [
+        "/images/nvr/nvr-seq-002_opt_A.svg",
+        "/images/nvr/nvr-seq-002_opt_B.svg",
+        "/images/nvr/nvr-seq-002_opt_C.svg",
+        "/images/nvr/nvr-seq-002_opt_D.svg",
+        "/images/nvr/nvr-seq-002_opt_E.svg"
+      ]
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "Three patterns operate: (1) Size cycles: large->medium->small->large->medium. (2) Fill cycles: white->grey->black->white->grey. (3) Dots increment: 1->2->3->4->5. The answer is medium grey pentagon with 5 dots.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "There are THREE attributes changing. Track each one.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Size and fill both cycle through 3 states. Dots simply count up.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "sequences",
+      "triple_track",
+      "cycling",
+      "progressive"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-seq-003",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_sequences",
+    "format": "multiple_choice",
+    "difficulty": 4,
+    "content": {
+      "text": "Find the next figure in the sequence.\n\nFig 1: Rectangle with diagonal line from top-left to bottom-right\nFig 2: Rectangle with diagonal line from top-right to bottom-left\nFig 3: Rectangle with horizontal line through middle\nFig 4: Rectangle with vertical line through middle\nFig 5: ?",
+      "options": [
+        "A: Rectangle with diagonal line from top-left to bottom-right",
+        "B: Rectangle with no line",
+        "C: Rectangle with X inside",
+        "D: Rectangle with diagonal line from top-right to bottom-left",
+        "E: Rectangle with two horizontal lines"
+      ],
+      "context": {
+        "pattern_type": "cyclic_4",
+        "attribute": "internal_line",
+        "sequence": [
+          "diagonal_TLBR",
+          "diagonal_TRBL",
+          "horizontal",
+          "vertical"
+        ]
+      },
+      "image_url": "/images/nvr/nvr-seq-003_main.svg",
+      "images": [
+        "/images/nvr/nvr-seq-003_opt_A.svg",
+        "/images/nvr/nvr-seq-003_opt_B.svg",
+        "/images/nvr/nvr-seq-003_opt_C.svg",
+        "/images/nvr/nvr-seq-003_opt_D.svg",
+        "/images/nvr/nvr-seq-003_opt_E.svg"
+      ]
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "The internal line rotates through 4 positions: diagonal (TL-BR) -> diagonal (TR-BL) -> horizontal -> vertical -> back to diagonal (TL-BR). This is a 4-step cycle, so position 5 returns to the first pattern.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Focus on how the line inside the rectangle changes orientation.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "The line cycles through 4 different orientations, then repeats.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "sequences",
+      "cyclic",
+      "rotation",
+      "internal_elements"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-seq-004",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_sequences",
+    "format": "multiple_choice",
+    "difficulty": 5,
+    "content": {
+      "text": "Find the next figure in the sequence.\n\nFig 1: Square outline, arrow pointing UP inside\nFig 2: Square outline, arrow pointing RIGHT inside, small dot in top-left corner\nFig 3: Square outline, arrow pointing DOWN inside, small dots in top-left and top-right corners\nFig 4: Square outline, arrow pointing LEFT inside, small dots in top-left, top-right, and bottom-right corners\nFig 5: ?",
+      "options": [
+        "A: Square outline, arrow pointing UP inside, dots in all 4 corners",
+        "B: Square outline, arrow pointing RIGHT inside, dots in all 4 corners",
+        "C: Square outline, arrow pointing UP inside, no dots",
+        "D: Square outline, arrow pointing DOWN inside, dots in all 4 corners",
+        "E: Square outline, arrow pointing UP inside, dot in top-left only"
+      ],
+      "context": {
+        "pattern_type": "dual_track",
+        "track_1": {
+          "attribute": "arrow_direction",
+          "rule": "rotate_90_clockwise",
+          "sequence": [
+            "up",
+            "right",
+            "down",
+            "left",
+            "up"
+          ]
+        },
+        "track_2": {
+          "attribute": "corner_dots",
+          "rule": "progressive_addition_clockwise",
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      "image_url": "/images/nvr/nvr-seq-004_main.svg",
+      "images": [
+        "/images/nvr/nvr-seq-004_opt_A.svg",
+        "/images/nvr/nvr-seq-004_opt_B.svg",
+        "/images/nvr/nvr-seq-004_opt_C.svg",
+        "/images/nvr/nvr-seq-004_opt_D.svg",
+        "/images/nvr/nvr-seq-004_opt_E.svg"
+      ]
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "Two patterns: (1) Arrow rotates 90deg clockwise each step: UP->RIGHT->DOWN->LEFT->UP. (2) Dots accumulate in corners clockwise: 0->1->2->3->4 dots. Fig 5 has arrow pointing UP with all 4 corners filled.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Track the arrow direction AND the corner dots separately.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Arrow rotates 90deg each time. Dots add one per step in clockwise order.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "sequences",
+      "dual_track",
+      "rotation",
+      "progressive_addition"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-seq-005",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_sequences",
+    "format": "multiple_choice",
+    "difficulty": 5,
+    "content": {
+      "text": "Find the next figure in the sequence.\n\nFig 1: Black circle on left, white triangle on right, line above both\nFig 2: White circle on left, black triangle on right, line below both\nFig 3: Black circle on left, white triangle on right, line above both\nFig 4: White circle on left, black triangle on right, line below both\nFig 5: ?",
+      "options": [
+        "A: Black circle on left, white triangle on right, line above both",
+        "B: White circle on left, white triangle on right, line above both",
+        "C: Black circle on right, white triangle on left, line above both",
+        "D: Black triangle on left, white circle on right, line above both",
+        "E: White circle on left, black triangle on right, line above both"
+      ],
+      "context": {
+        "pattern_type": "alternating_compound",
+        "elements": [
+          "circle",
+          "triangle",
+          "line"
+        ],
+        "rules": {
+          "fills": "swap_each_step",
+          "positions": "fixed",
+          "line_position": "alternates_above_below"
+        }
+      },
+      "image_url": "/images/nvr/nvr-seq-005_main.svg",
+      "images": [
+        "/images/nvr/nvr-seq-005_opt_A.svg",
+        "/images/nvr/nvr-seq-005_opt_B.svg",
+        "/images/nvr/nvr-seq-005_opt_C.svg",
+        "/images/nvr/nvr-seq-005_opt_D.svg",
+        "/images/nvr/nvr-seq-005_opt_E.svg"
+      ]
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "The pattern alternates between two states: State A (black circle, white triangle, line above) and State B (white circle, black triangle, line below). Odd positions show State A, even positions show State B. Position 5 is odd, so State A.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Compare figures 1 and 3, then figures 2 and 4. What do you notice?",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "The entire configuration alternates between two complete states.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "sequences",
+      "alternating",
+      "compound_figures",
+      "state_switching"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-seq-006",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_sequences",
+    "format": "multiple_choice",
+    "difficulty": 4,
+    "content": {
+      "text": "Find the next figure in the sequence.\n\nFig 1: Pentagon with 1 side bold\nFig 2: Pentagon with 2 adjacent sides bold\nFig 3: Pentagon with 3 adjacent sides bold\nFig 4: Pentagon with 4 adjacent sides bold\nFig 5: ?",
+      "options": [
+        "A: Pentagon with all 5 sides bold",
+        "B: Pentagon with no sides bold",
+        "C: Pentagon with 1 side bold",
+        "D: Hexagon with 5 sides bold",
+        "E: Pentagon with 4 non-adjacent sides bold"
+      ],
+      "context": {
+        "pattern_type": "progressive_addition",
+        "attribute": "bold_sides",
+        "rule": "add_one_adjacent_side_each_step"
+      },
+      "image_url": "/images/nvr/nvr-seq-006_main.svg",
+      "images": [
+        "/images/nvr/nvr-seq-006_opt_A.svg",
+        "/images/nvr/nvr-seq-006_opt_B.svg",
+        "/images/nvr/nvr-seq-006_opt_C.svg",
+        "/images/nvr/nvr-seq-006_opt_D.svg",
+        "/images/nvr/nvr-seq-006_opt_E.svg"
+      ]
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "The number of bold sides increases by 1 each step, and they are always adjacent. Following 1->2->3->4->5, all 5 sides should be bold.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Count the bold sides in each figure.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Bold sides increase by 1 each step, staying adjacent.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "sequences",
+      "progressive_addition",
+      "counting"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-seq-007",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_sequences",
+    "format": "multiple_choice",
+    "difficulty": 5,
+    "content": {
+      "text": "Find the next figure in the sequence.\n\nFig 1: Large outer circle, small inner square, arrow pointing outward from center-top\nFig 2: Large outer square, small inner circle, arrow pointing outward from center-right\nFig 3: Large outer circle, small inner square, arrow pointing outward from center-bottom\nFig 4: Large outer square, small inner circle, arrow pointing outward from center-left\nFig 5: ?",
+      "options": [
+        "A: Large outer circle, small inner square, arrow pointing outward from center-top",
+        "B: Large outer circle, small inner circle, arrow pointing outward from center-top",
+        "C: Large outer square, small inner square, arrow pointing outward from center-top",
+        "D: Large outer circle, small inner square, arrow pointing outward from center-right",
+        "E: Large outer square, small inner circle, arrow pointing outward from center-top"
+      ],
+      "context": {
+        "pattern_type": "triple_track",
+        "track_1": {
+          "attribute": "outer_shape",
+          "rule": "alternates",
+          "sequence": [
+            "circle",
+            "square"
+          ]
+        },
+        "track_2": {
+          "attribute": "inner_shape",
+          "rule": "alternates",
+          "sequence": [
+            "square",
+            "circle"
+          ]
+        },
+        "track_3": {
+          "attribute": "arrow_direction",
+          "rule": "rotate_90_clockwise",
+          "sequence": [
+            "top",
+            "right",
+            "bottom",
+            "left",
+            "top"
+          ]
+        }
+      },
+      "image_url": "/images/nvr/nvr-seq-007_main.svg",
+      "images": [
+        "/images/nvr/nvr-seq-007_opt_A.svg",
+        "/images/nvr/nvr-seq-007_opt_B.svg",
+        "/images/nvr/nvr-seq-007_opt_C.svg",
+        "/images/nvr/nvr-seq-007_opt_D.svg",
+        "/images/nvr/nvr-seq-007_opt_E.svg"
+      ]
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "Three independent patterns: (1) Outer shape alternates circle/square - position 5 is circle. (2) Inner shape alternates square/circle - position 5 is square. (3) Arrow rotates 90deg clockwise: top->right->bottom->left->top.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Track outer shape, inner shape, and arrow direction separately.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Outer and inner shapes alternate. Arrow rotates clockwise.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "sequences",
+      "triple_track",
+      "alternating",
+      "rotation"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-seq-008",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_sequences",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Find the next figure in the sequence.\n\nFig 1: Triangle pointing up\nFig 2: Triangle pointing right\nFig 3: Triangle pointing down\nFig 4: Triangle pointing left\nFig 5: ?",
+      "options": [
+        "A: Triangle pointing up",
+        "B: Triangle pointing right",
+        "C: Triangle pointing down",
+        "D: Square pointing up",
+        "E: Triangle pointing diagonal"
+      ],
+      "context": {
+        "pattern_type": "single_rotation",
+        "attribute": "orientation",
+        "rule": "rotate_90_clockwise"
+      },
+      "image_url": "/images/nvr/nvr-seq-008_main.svg",
+      "images": [
+        "/images/nvr/nvr-seq-008_opt_A.svg",
+        "/images/nvr/nvr-seq-008_opt_B.svg",
+        "/images/nvr/nvr-seq-008_opt_C.svg",
+        "/images/nvr/nvr-seq-008_opt_D.svg",
+        "/images/nvr/nvr-seq-008_opt_E.svg"
+      ]
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "The triangle rotates 90 degrees clockwise each step. After pointing up, right, down, left, it returns to pointing up - completing the cycle.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Which direction is the triangle rotating?",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "90 degrees clockwise each step - what comes after left?",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "sequences",
+      "rotation",
+      "clockwise",
+      "cycling"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-seq-009",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_sequences",
+    "format": "multiple_choice",
+    "difficulty": 5,
+    "content": {
+      "text": "Find the next figure in the sequence.\n\nFig 1: 3x3 grid with black square in position 1 (top-left)\nFig 2: 3x3 grid with black squares in positions 1 and 2\nFig 3: 3x3 grid with black squares in positions 1, 2, and 3\nFig 4: 3x3 grid with black squares in positions 2, 3, and 4\nFig 5: ?",
+      "options": [
+        "A: 3x3 grid with black squares in positions 3, 4, and 5",
+        "B: 3x3 grid with black squares in positions 1, 2, 3, and 4",
+        "C: 3x3 grid with black squares in positions 4, 5, and 6",
+        "D: 3x3 grid with black squares in positions 2, 3, 4, and 5",
+        "E: 3x3 grid with black squares in positions 3, 4, 5, and 6"
+      ],
+      "context": {
+        "pattern_type": "sliding_window",
+        "grid": "3x3",
+        "positions_numbered": "1-9 left-to-right, top-to-bottom",
+        "rule": "3-cell window slides one position each step"
+      },
+      "image_url": "/images/nvr/nvr-seq-009_main.svg",
+      "images": [
+        "/images/nvr/nvr-seq-009_opt_A.svg",
+        "/images/nvr/nvr-seq-009_opt_B.svg",
+        "/images/nvr/nvr-seq-009_opt_C.svg",
+        "/images/nvr/nvr-seq-009_opt_D.svg",
+        "/images/nvr/nvr-seq-009_opt_E.svg"
+      ]
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "A 'window' of 3 consecutive black squares slides through the grid. Fig 1: [1], Fig 2: [1,2], Fig 3: [1,2,3], Fig 4: [2,3,4]. The window maintains 3 cells but shifts position. Fig 5: [3,4,5].",
+    "hints": [
+      {
+        "level": 1,
+        "text": "The black squares form a connected group that moves.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Watch which squares are added and removed each step.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "sequences",
+      "sliding_window",
+      "grid",
+      "advanced"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-seq-010",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_sequences",
+    "format": "multiple_choice",
+    "difficulty": 4,
+    "content": {
+      "text": "Find the next figure in the sequence.\n\nFig 1: Circle divided into 4 quarters - top-left black, rest white\nFig 2: Circle divided into 4 quarters - top-right black, rest white\nFig 3: Circle divided into 4 quarters - bottom-right black, rest white\nFig 4: Circle divided into 4 quarters - bottom-left black, rest white\nFig 5: ?",
+      "options": [
+        "A: Circle divided into 4 quarters - top-left black, rest white",
+        "B: Circle divided into 4 quarters - all white",
+        "C: Circle divided into 4 quarters - top-left and top-right black",
+        "D: Circle divided into 4 quarters - bottom-left black, rest white",
+        "E: Square divided into 4 quarters - top-left black"
+      ],
+      "context": {
+        "pattern_type": "position_cycling",
+        "attribute": "black_quarter",
+        "rule": "moves_clockwise_through_quarters"
+      },
+      "image_url": "/images/nvr/nvr-seq-010_main.svg",
+      "images": [
+        "/images/nvr/nvr-seq-010_opt_A.svg",
+        "/images/nvr/nvr-seq-010_opt_B.svg",
+        "/images/nvr/nvr-seq-010_opt_C.svg",
+        "/images/nvr/nvr-seq-010_opt_D.svg",
+        "/images/nvr/nvr-seq-010_opt_E.svg"
+      ]
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "The single black quarter moves clockwise around the circle: top-left -> top-right -> bottom-right -> bottom-left -> top-left. Position 5 returns to top-left.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Track where the black quarter is in each figure.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "The black quarter moves clockwise. What comes after bottom-left?",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "sequences",
+      "position_cycling",
+      "clockwise",
+      "quarters"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-odd-001",
     "subject": "non_verbal_reasoning",
     "question_type": "nvr_odd_one_out",
     "format": "multiple_choice",
-    "difficulty": 2,
+    "difficulty": 4,
     "content": {
-      "text": "Which shape is the odd one out?\n\nA: Circle with dot inside\nB: Square with dot inside\nC: Triangle with dot inside\nD: Hexagon (no dot)\nE: Pentagon with dot inside",
-      "passage": null,
+      "text": "Which figure is the odd one out?\n\nA: Square with circle inside, both black outline\nB: Triangle with triangle inside, both black outline\nC: Pentagon with pentagon inside, both black outline\nD: Hexagon with square inside, both black outline\nE: Circle with circle inside, both black outline",
       "options": [
         "A",
         "B",
@@ -71,196 +653,2413 @@
         "D",
         "E"
       ],
-      "image_url": null,
-      "images": null,
-      "items": null,
-      "pairs": null,
       "context": {
-        "shapes": [
-          "circle-dot",
-          "square-dot",
-          "triangle-dot",
-          "hexagon",
-          "pentagon-dot"
-        ]
-      }
+        "pattern_type": "attribute_mismatch",
+        "common_rule": "inner_shape_matches_outer_shape",
+        "odd_one": "D - inner shape different from outer"
+      },
+      "images": [
+        "/images/nvr/nvr-odd-001_opt_A.svg",
+        "/images/nvr/nvr-odd-001_opt_B.svg",
+        "/images/nvr/nvr-odd-001_opt_C.svg",
+        "/images/nvr/nvr-odd-001_opt_D.svg",
+        "/images/nvr/nvr-odd-001_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-odd-001_main.svg"
     },
     "answer": {
       "value": "D",
-      "accept_variations": null,
-      "case_sensitive": false,
-      "order_matters": true
+      "case_sensitive": false
     },
-    "explanation": "Shape D (hexagon) is the odd one out because it doesn't have a dot inside. All other shapes - circle, square, triangle, and pentagon - have a dot in their centre.",
+    "explanation": "In A, B, C, and E, the inner shape is the same type as the outer shape (square-square, triangle-triangle, etc.). Only D has mismatched shapes: hexagon outside, square inside.",
     "hints": [
       {
         "level": 1,
-        "text": "Look at what's inside each shape.",
+        "text": "Compare the outer and inner shapes in each figure.",
         "penalty": 0.1
       },
       {
         "level": 2,
-        "text": "Most shapes have something in common inside them.",
+        "text": "Most figures have matching inner and outer shapes.",
         "penalty": 0.2
       }
     ],
     "tags": [
-      "odd one out",
-      "visual patterns",
-      "attributes"
+      "odd_one_out",
+      "shape_matching",
+      "compound_figures"
     ],
-    "source": "sample",
-    "created_at": "2026-01-19 09:32:21.440402"
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
   },
   {
-    "id": "f282680f-b445-437f-a72f-db090f97e39a",
+    "id": "nvr-odd-002",
     "subject": "non_verbal_reasoning",
-    "question_type": "nvr_analogies",
+    "question_type": "nvr_odd_one_out",
     "format": "multiple_choice",
-    "difficulty": 3,
+    "difficulty": 5,
     "content": {
-      "text": "Complete the analogy:\n\n[Large white circle] is to [Small white circle] as [Large black square] is to [?]",
-      "passage": null,
+      "text": "Which figure is the odd one out?\n\nA: Large black circle, small white square at top-right\nB: Large black triangle, small white circle at top-right\nC: Large black square, small white triangle at top-right\nD: Large black pentagon, small white hexagon at bottom-left\nE: Large black hexagon, small white pentagon at top-right",
       "options": [
-        "Small black square",
-        "Large white square",
-        "Small white square",
-        "Large black circle"
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
       ],
-      "image_url": null,
-      "images": null,
-      "items": null,
-      "pairs": null,
       "context": {
-        "relationship": "size reduction, same colour and shape"
-      }
+        "pattern_type": "position_mismatch",
+        "common_rules": [
+          "large_shape_black",
+          "small_shape_white",
+          "small_at_top_right"
+        ],
+        "odd_one": "D - small shape at bottom-left instead of top-right"
+      },
+      "images": [
+        "/images/nvr/nvr-odd-002_opt_A.svg",
+        "/images/nvr/nvr-odd-002_opt_B.svg",
+        "/images/nvr/nvr-odd-002_opt_C.svg",
+        "/images/nvr/nvr-odd-002_opt_D.svg",
+        "/images/nvr/nvr-odd-002_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-odd-002_main.svg"
     },
     "answer": {
-      "value": "Small black square",
-      "accept_variations": null,
-      "case_sensitive": false,
-      "order_matters": true
+      "value": "D",
+      "case_sensitive": false
     },
-    "explanation": "The relationship is: the shape stays the same type and colour, but becomes smaller. A large white circle becomes a small white circle. So a large black square should become a small black square.",
+    "explanation": "All figures have a large black shape and small white shape. In A, B, C, E the small shape is at top-right. Only D has the small shape at bottom-left - a position difference.",
     "hints": [
       {
         "level": 1,
-        "text": "What changed between the first pair of shapes?",
+        "text": "Look at both the shapes AND their positions.",
         "penalty": 0.1
       },
       {
         "level": 2,
-        "text": "The size changed, but the colour and shape type stayed the same.",
+        "text": "Where is the small shape positioned in each figure?",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "odd_one_out",
+      "position",
+      "compound_figures"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-odd-003",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_odd_one_out",
+    "format": "multiple_choice",
+    "difficulty": 5,
+    "content": {
+      "text": "Which figure is the odd one out?\n\nA: Arrow pointing right, 3 dots below, shaded grey\nB: Arrow pointing up, 4 dots below, shaded grey\nC: Arrow pointing left, 5 dots below, shaded grey\nD: Arrow pointing down, 6 dots below, shaded grey\nE: Arrow pointing right, 8 dots below, shaded grey",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "context": {
+        "pattern_type": "numerical_sequence_break",
+        "common_rule": "dots_increase_by_1_each_step",
+        "sequence": [
+          3,
+          4,
+          5,
+          6,
+          "?"
+        ],
+        "odd_one": "E - should have 7 dots but has 8"
+      },
+      "images": [
+        "/images/nvr/nvr-odd-003_opt_A.svg",
+        "/images/nvr/nvr-odd-003_opt_B.svg",
+        "/images/nvr/nvr-odd-003_opt_C.svg",
+        "/images/nvr/nvr-odd-003_opt_D.svg",
+        "/images/nvr/nvr-odd-003_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-odd-003_main.svg"
+    },
+    "answer": {
+      "value": "E",
+      "case_sensitive": false
+    },
+    "explanation": "The figures show 3, 4, 5, 6, 8 dots. The sequence should be consecutive: 3, 4, 5, 6, 7. Figure E has 8 dots instead of 7, breaking the +1 increment pattern.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Count the dots in each figure.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Is there a numerical pattern in the dot counts?",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "odd_one_out",
+      "numerical",
+      "sequence_break"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-odd-004",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_odd_one_out",
+    "format": "multiple_choice",
+    "difficulty": 4,
+    "content": {
+      "text": "Which figure is the odd one out?\n\nA: Black square rotated 45deg (diamond orientation)\nB: Black triangle rotated 60deg\nC: Black pentagon rotated 36deg\nD: Black hexagon rotated 30deg\nE: Black circle",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "context": {
+        "pattern_type": "rotation_rule",
+        "common_rule": "rotation_equals_360_divided_by_sides",
+        "calculations": {
+          "A": "360/4=90, shown 45",
+          "B": "360/3=120, shown 60",
+          "C": "360/5=72, shown 36",
+          "D": "360/6=60, shown 30"
+        },
+        "odd_one": "E - circle has no rotational reference (infinite symmetry)"
+      },
+      "images": [
+        "/images/nvr/nvr-odd-004_opt_A.svg",
+        "/images/nvr/nvr-odd-004_opt_B.svg",
+        "/images/nvr/nvr-odd-004_opt_C.svg",
+        "/images/nvr/nvr-odd-004_opt_D.svg",
+        "/images/nvr/nvr-odd-004_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-odd-004_main.svg"
+    },
+    "answer": {
+      "value": "E",
+      "case_sensitive": false
+    },
+    "explanation": "Each polygon is rotated by half its rotational symmetry angle (360/n/2). Square: 45deg, Triangle: 60deg, Pentagon: 36deg, Hexagon: 30deg. A circle has infinite rotational symmetry - no specific rotation angle applies.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Consider the relationship between sides and rotation.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "How does the number of sides affect rotation symmetry?",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "odd_one_out",
+      "rotation",
+      "symmetry",
+      "advanced"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-odd-005",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_odd_one_out",
+    "format": "multiple_choice",
+    "difficulty": 5,
+    "content": {
+      "text": "Which figure is the odd one out?\n\nA: Rectangle divided vertically - left half has horizontal stripes, right half is black\nB: Circle divided vertically - left half has vertical stripes, right half is white\nC: Triangle divided vertically - left half has diagonal stripes, right half is grey\nD: Hexagon divided vertically - left half has dots, right half is black\nE: Pentagon divided vertically - left half has crosshatch, right half is white",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "context": {
+        "pattern_type": "multi_attribute_odd",
+        "attributes": [
+          "shape",
+          "left_pattern",
+          "right_fill"
+        ],
+        "odd_one": "B - only one where stripe direction matches division direction (both vertical)"
+      },
+      "images": [
+        "/images/nvr/nvr-odd-005_opt_A.svg",
+        "/images/nvr/nvr-odd-005_opt_B.svg",
+        "/images/nvr/nvr-odd-005_opt_C.svg",
+        "/images/nvr/nvr-odd-005_opt_D.svg",
+        "/images/nvr/nvr-odd-005_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-odd-005_main.svg"
+    },
+    "answer": {
+      "value": "B",
+      "case_sensitive": false
+    },
+    "explanation": "In A, C, D, E, the stripe/pattern direction differs from the division direction. Only in B are both vertical - the vertical stripes match the vertical division line. This creates visual redundancy unlike the others.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Look at the direction of patterns in the left half.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "How does the pattern direction relate to how the shape is divided?",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "odd_one_out",
+      "direction",
+      "patterns",
+      "advanced"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-odd-006",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_odd_one_out",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which figure is the odd one out?\n\nA: Three overlapping circles\nB: Three overlapping squares\nC: Three overlapping triangles\nD: Two overlapping pentagons\nE: Three overlapping hexagons",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "context": {
+        "pattern_type": "count_mismatch",
+        "common_rule": "three_overlapping_shapes",
+        "odd_one": "D - only has 2 shapes instead of 3"
+      },
+      "images": [
+        "/images/nvr/nvr-odd-006_opt_A.svg",
+        "/images/nvr/nvr-odd-006_opt_B.svg",
+        "/images/nvr/nvr-odd-006_opt_C.svg",
+        "/images/nvr/nvr-odd-006_opt_D.svg",
+        "/images/nvr/nvr-odd-006_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-odd-006_main.svg"
+    },
+    "answer": {
+      "value": "D",
+      "case_sensitive": false
+    },
+    "explanation": "Figures A, B, C, and E all show THREE overlapping shapes. Only D shows TWO overlapping shapes, making it the odd one out based on quantity.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Count the number of shapes in each figure.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "How many shapes overlap in each figure?",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "odd_one_out",
+      "counting",
+      "overlapping"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-odd-007",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_odd_one_out",
+    "format": "multiple_choice",
+    "difficulty": 5,
+    "content": {
+      "text": "Which figure is the odd one out?\n\nA: Large white square containing small black circle at center\nB: Large white circle containing small black square at center\nC: Large white triangle containing small black triangle at center\nD: Large white hexagon containing small black circle at center\nE: Large white pentagon containing small black square at center",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "context": {
+        "pattern_type": "shape_relationship",
+        "common_rule": "outer_and_inner_shapes_have_different_number_of_sides",
+        "odd_one": "C - both outer and inner are triangles (same number of sides)"
+      },
+      "images": [
+        "/images/nvr/nvr-odd-007_opt_A.svg",
+        "/images/nvr/nvr-odd-007_opt_B.svg",
+        "/images/nvr/nvr-odd-007_opt_C.svg",
+        "/images/nvr/nvr-odd-007_opt_D.svg",
+        "/images/nvr/nvr-odd-007_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-odd-007_main.svg"
+    },
+    "answer": {
+      "value": "C",
+      "case_sensitive": false
+    },
+    "explanation": "In A, B, D, E the inner and outer shapes have different numbers of sides (or one is a circle). Only in C are both shapes triangles - matching side counts. The rule is that inner and outer should differ.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Compare the types of inner and outer shapes.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "In most figures, the inner shape differs from the outer. Which doesn't?",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "odd_one_out",
+      "shape_relationship",
+      "compound_figures"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-odd-008",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_odd_one_out",
+    "format": "multiple_choice",
+    "difficulty": 4,
+    "content": {
+      "text": "Which figure is the odd one out?\n\nA: Arrow pointing NE with tail at SW\nB: Arrow pointing SE with tail at NW\nC: Arrow pointing NW with tail at SE\nD: Arrow pointing SW with tail at NE\nE: Arrow pointing E with tail at W",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "context": {
+        "pattern_type": "diagonal_vs_cardinal",
+        "common_rule": "arrows_point_diagonally",
+        "odd_one": "E - points cardinally (East) not diagonally"
+      },
+      "images": [
+        "/images/nvr/nvr-odd-008_opt_A.svg",
+        "/images/nvr/nvr-odd-008_opt_B.svg",
+        "/images/nvr/nvr-odd-008_opt_C.svg",
+        "/images/nvr/nvr-odd-008_opt_D.svg",
+        "/images/nvr/nvr-odd-008_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-odd-008_main.svg"
+    },
+    "answer": {
+      "value": "E",
+      "case_sensitive": false
+    },
+    "explanation": "Arrows A, B, C, D all point in diagonal directions (NE, SE, NW, SW). Only arrow E points in a cardinal direction (East). The common property is diagonal orientation.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Consider the direction each arrow points.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Are they pointing diagonally or along horizontal/vertical?",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "odd_one_out",
+      "direction",
+      "diagonal"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-ana-001",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_analogies",
+    "format": "multiple_choice",
+    "difficulty": 4,
+    "content": {
+      "text": "Complete the analogy:\n\n[Large black square with white circle inside] is to [Small white square with black circle inside]\nas\n[Large black triangle with white star inside] is to [?]",
+      "options": [
+        "A: Small white triangle with black star inside",
+        "B: Large white triangle with black star inside",
+        "C: Small black triangle with white star inside",
+        "D: Small white square with black star inside",
+        "E: Small white triangle with white star inside"
+      ],
+      "context": {
+        "transformations": [
+          "size_decrease",
+          "fill_invert_both_shapes"
+        ],
+        "relationship": "size_and_fill_swap"
+      },
+      "images": [
+        "/images/nvr/nvr-ana-001_opt_A.svg",
+        "/images/nvr/nvr-ana-001_opt_B.svg",
+        "/images/nvr/nvr-ana-001_opt_C.svg",
+        "/images/nvr/nvr-ana-001_opt_D.svg",
+        "/images/nvr/nvr-ana-001_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-ana-001_main.svg"
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "Two transformations occur: (1) Size decreases from large to small. (2) All fills invert: black becomes white, white becomes black. Applying both: Large black triangle with white star becomes Small white triangle with black star.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "What changes between the first pair?",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Both size AND color/fill change. Apply both rules.",
         "penalty": 0.2
       }
     ],
     "tags": [
       "analogies",
-      "relationships",
-      "transformations"
+      "multi_transformation",
+      "size",
+      "fill_inversion"
     ],
-    "source": "sample",
-    "created_at": "2026-01-19 09:32:21.440793"
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
   },
   {
-    "id": "67ac33fa-370b-4c75-bb3f-7fc3956abbe8",
+    "id": "nvr-ana-002",
     "subject": "non_verbal_reasoning",
-    "question_type": "nvr_rotation",
+    "question_type": "nvr_analogies",
     "format": "multiple_choice",
-    "difficulty": 3,
+    "difficulty": 5,
     "content": {
-      "text": "If this shape is rotated 90 degrees clockwise, which option shows the result?\n\nOriginal: Arrow pointing UP",
-      "passage": null,
+      "text": "Complete the analogy:\n\n[Pentagon rotated 0deg, 3 dots inside arranged in triangle] is to [Pentagon rotated 72deg, 3 dots inside arranged in line]\nas\n[Hexagon rotated 0deg, 4 dots inside arranged in square] is to [?]",
       "options": [
-        "Arrow pointing RIGHT",
-        "Arrow pointing LEFT",
-        "Arrow pointing DOWN",
-        "Arrow pointing UP"
+        "A: Hexagon rotated 60deg, 4 dots inside arranged in line",
+        "B: Hexagon rotated 72deg, 4 dots inside arranged in line",
+        "C: Hexagon rotated 60deg, 4 dots inside arranged in diamond",
+        "D: Pentagon rotated 60deg, 4 dots inside arranged in line",
+        "E: Hexagon rotated 90deg, 4 dots inside arranged in line"
       ],
-      "image_url": null,
-      "images": null,
-      "items": null,
-      "pairs": null,
       "context": {
-        "original_direction": "up",
-        "rotation": "90 degrees clockwise"
-      }
+        "transformations": [
+          "rotate_by_internal_angle",
+          "rearrange_dots_to_line"
+        ],
+        "pentagon_internal_angle": 72,
+        "hexagon_internal_angle": 60
+      },
+      "images": [
+        "/images/nvr/nvr-ana-002_opt_A.svg",
+        "/images/nvr/nvr-ana-002_opt_B.svg",
+        "/images/nvr/nvr-ana-002_opt_C.svg",
+        "/images/nvr/nvr-ana-002_opt_D.svg",
+        "/images/nvr/nvr-ana-002_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-ana-002_main.svg"
     },
     "answer": {
-      "value": "Arrow pointing RIGHT",
-      "accept_variations": null,
-      "case_sensitive": false,
-      "order_matters": true
+      "value": "A",
+      "case_sensitive": false
     },
-    "explanation": "When you rotate something 90 degrees clockwise, it turns a quarter turn to the right. An arrow pointing UP will point RIGHT after a 90-degree clockwise rotation.",
+    "explanation": "Two transformations: (1) Rotate shape by its internal angle (pentagon: 72deg, hexagon: 60deg). (2) Rearrange dots from a 2D pattern to a line. Hexagon rotates 60deg and dots form a line.",
     "hints": [
       {
         "level": 1,
-        "text": "Clockwise is the same direction as clock hands move.",
+        "text": "The rotation amount relates to the shape's geometry.",
         "penalty": 0.1
       },
       {
         "level": 2,
-        "text": "Imagine turning the page a quarter turn to the right.",
+        "text": "Pentagon rotates 72deg (its internal angle). What's the hexagon's internal angle?",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "analogies",
+      "rotation",
+      "internal_angle",
+      "rearrangement"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-ana-003",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_analogies",
+    "format": "multiple_choice",
+    "difficulty": 5,
+    "content": {
+      "text": "Complete the analogy:\n\n[Circle divided into 2 equal parts: left black, right white] is to [Circle divided into 4 equal parts: alternating black-white]\nas\n[Square divided into 2 equal parts: top black, bottom white] is to [?]",
+      "options": [
+        "A: Square divided into 4 equal parts: alternating black-white in checkerboard",
+        "B: Square divided into 4 equal parts: top two black, bottom two white",
+        "C: Square divided into 8 equal parts",
+        "D: Rectangle divided into 4 equal parts",
+        "E: Square divided into 4 equal parts: all white"
+      ],
+      "context": {
+        "transformations": [
+          "double_divisions",
+          "alternate_fills"
+        ],
+        "relationship": "subdivide_and_alternate"
+      },
+      "images": [
+        "/images/nvr/nvr-ana-003_opt_A.svg",
+        "/images/nvr/nvr-ana-003_opt_B.svg",
+        "/images/nvr/nvr-ana-003_opt_C.svg",
+        "/images/nvr/nvr-ana-003_opt_D.svg",
+        "/images/nvr/nvr-ana-003_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-ana-003_main.svg"
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "The transformation doubles the number of divisions and applies alternating fills. Circle goes from 2 parts to 4 with alternating colors. Square should go from 2 parts to 4 in a checkerboard pattern.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "How does the number of divisions change?",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Divisions double, and the fill pattern alternates.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "analogies",
+      "subdivision",
+      "alternating",
+      "pattern"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-ana-004",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_analogies",
+    "format": "multiple_choice",
+    "difficulty": 4,
+    "content": {
+      "text": "Complete the analogy:\n\n[Arrow pointing UP with circle at tip] is to [Arrow pointing DOWN with circle at tail]\nas\n[Arrow pointing LEFT with square at tip] is to [?]",
+      "options": [
+        "A: Arrow pointing RIGHT with square at tail",
+        "B: Arrow pointing RIGHT with square at tip",
+        "C: Arrow pointing LEFT with square at tail",
+        "D: Arrow pointing DOWN with square at tail",
+        "E: Arrow pointing UP with circle at tail"
+      ],
+      "context": {
+        "transformations": [
+          "reverse_direction_180deg",
+          "move_shape_from_tip_to_tail"
+        ],
+        "relationship": "flip_and_relocate"
+      },
+      "images": [
+        "/images/nvr/nvr-ana-004_opt_A.svg",
+        "/images/nvr/nvr-ana-004_opt_B.svg",
+        "/images/nvr/nvr-ana-004_opt_C.svg",
+        "/images/nvr/nvr-ana-004_opt_D.svg",
+        "/images/nvr/nvr-ana-004_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-ana-004_main.svg"
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "Two changes: (1) Arrow direction reverses 180 degrees (UP to DOWN, LEFT to RIGHT). (2) The attached shape moves from tip to tail. Applying both: LEFT becomes RIGHT, square moves from tip to tail.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "What happens to the arrow direction?",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "The arrow flips AND the shape moves from one end to the other.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "analogies",
+      "direction_reversal",
+      "position_swap"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-ana-005",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_analogies",
+    "format": "multiple_choice",
+    "difficulty": 5,
+    "content": {
+      "text": "Complete the analogy:\n\n[3 shapes in row: circle, square, triangle - all white] is to [3 shapes in row: triangle, circle, square - all black]\nas\n[3 shapes in column: star, hexagon, diamond - all grey] is to [?]",
+      "options": [
+        "A: 3 shapes in column: diamond, star, hexagon - all striped",
+        "B: 3 shapes in row: diamond, star, hexagon - all striped",
+        "C: 3 shapes in column: hexagon, diamond, star - all white",
+        "D: 3 shapes in column: diamond, star, hexagon - all white",
+        "E: 3 shapes in row: star, hexagon, diamond - all striped"
+      ],
+      "context": {
+        "transformations": [
+          "rotate_sequence_by_1",
+          "change_fill_pattern"
+        ],
+        "fill_progression": [
+          "white",
+          "black",
+          "grey",
+          "striped"
+        ],
+        "relationship": "sequence_shift_and_fill_change"
+      },
+      "images": [
+        "/images/nvr/nvr-ana-005_opt_A.svg",
+        "/images/nvr/nvr-ana-005_opt_B.svg",
+        "/images/nvr/nvr-ana-005_opt_C.svg",
+        "/images/nvr/nvr-ana-005_opt_D.svg",
+        "/images/nvr/nvr-ana-005_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-ana-005_main.svg"
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "Two transformations: (1) Shapes rotate in sequence - first becomes last, others shift. (2) Fill changes to next in progression (white->black, grey->striped). Layout (row/column) stays same.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "How does the order of shapes change?",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Shapes shift positions AND fill changes. Row/column orientation stays.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "analogies",
+      "sequence_rotation",
+      "fill_progression",
+      "advanced"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-ana-006",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_analogies",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Complete the analogy:\n\n[Single line] is to [Two parallel lines]\nas\n[Single triangle] is to [?]",
+      "options": [
+        "A: Two triangles side by side",
+        "B: One larger triangle",
+        "C: Triangle with line through it",
+        "D: Square",
+        "E: Three triangles"
+      ],
+      "context": {
+        "transformations": [
+          "duplicate"
+        ],
+        "relationship": "one_becomes_two"
+      },
+      "images": [
+        "/images/nvr/nvr-ana-006_opt_A.svg",
+        "/images/nvr/nvr-ana-006_opt_B.svg",
+        "/images/nvr/nvr-ana-006_opt_C.svg",
+        "/images/nvr/nvr-ana-006_opt_D.svg",
+        "/images/nvr/nvr-ana-006_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-ana-006_main.svg"
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "The relationship is simple duplication: one element becomes two of the same element arranged parallel/side by side. One line becomes two lines, so one triangle becomes two triangles.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "What happened to the single line?",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "One became two. Apply the same change to the triangle.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "analogies",
+      "duplication",
+      "basic"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-ana-007",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_analogies",
+    "format": "multiple_choice",
+    "difficulty": 5,
+    "content": {
+      "text": "Complete the analogy:\n\n[Square frame with diagonal cross inside] is to [Circle frame with plus sign inside]\nas\n[Triangle frame with Y-shape inside] is to [?]",
+      "options": [
+        "A: Diamond frame with X-shape inside",
+        "B: Hexagon frame with asterisk inside",
+        "C: Pentagon frame with star inside",
+        "D: Circle frame with Y-shape inside",
+        "E: Square frame with T-shape inside"
+      ],
+      "context": {
+        "transformations": [
+          "change_outer_to_different_shape",
+          "simplify_inner_lines"
+        ],
+        "pattern": "outer_gains_sides_inner_loses_complexity"
+      },
+      "images": [
+        "/images/nvr/nvr-ana-007_opt_A.svg",
+        "/images/nvr/nvr-ana-007_opt_B.svg",
+        "/images/nvr/nvr-ana-007_opt_C.svg",
+        "/images/nvr/nvr-ana-007_opt_D.svg",
+        "/images/nvr/nvr-ana-007_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-ana-007_main.svg"
+    },
+    "answer": {
+      "value": "B",
+      "case_sensitive": false
+    },
+    "explanation": "The transformation: (1) Outer shape gains sides (4-sided square to circle/many sides, 3-sided triangle to 6-sided hexagon). (2) Inner pattern changes but maintains line-based nature. Triangle frame with Y becomes hexagon frame with asterisk.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "How does the outer shape change in the first pair?",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "The outer shape's sides increase significantly.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "analogies",
+      "shape_transformation",
+      "complexity"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-ana-008",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_analogies",
+    "format": "multiple_choice",
+    "difficulty": 4,
+    "content": {
+      "text": "Complete the analogy:\n\n[Full circle] is to [Half circle (semicircle)]\nas\n[Full square] is to [?]",
+      "options": [
+        "A: Half square (rectangle, half the width)",
+        "B: Quarter square",
+        "C: Triangle",
+        "D: Full rectangle",
+        "E: Half square (triangle)"
+      ],
+      "context": {
+        "transformations": [
+          "bisect_shape"
+        ],
+        "relationship": "full_to_half"
+      },
+      "images": [
+        "/images/nvr/nvr-ana-008_opt_A.svg",
+        "/images/nvr/nvr-ana-008_opt_B.svg",
+        "/images/nvr/nvr-ana-008_opt_C.svg",
+        "/images/nvr/nvr-ana-008_opt_D.svg",
+        "/images/nvr/nvr-ana-008_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-ana-008_main.svg"
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "The relationship is bisection: a full shape becomes half. Full circle becomes semicircle (half), so full square becomes half a square - a rectangle with half the area, maintaining one dimension.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "What fraction of the circle is shown in the second figure?",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Half. What does half a square look like?",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "analogies",
+      "bisection",
+      "fractions"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-mat-001",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_matrices",
+    "format": "multiple_choice",
+    "difficulty": 5,
+    "content": {
+      "text": "Find the missing figure in the 3x3 matrix.\n\nRow 1: [Circle, 1 dot] [Circle, 2 dots] [Circle, 3 dots]\nRow 2: [Square, 2 dots] [Square, 3 dots] [Square, 4 dots]\nRow 3: [Triangle, 3 dots] [Triangle, 4 dots] [?]",
+      "options": [
+        "A: Triangle, 5 dots",
+        "B: Triangle, 4 dots",
+        "C: Circle, 5 dots",
+        "D: Triangle, 6 dots",
+        "E: Square, 5 dots"
+      ],
+      "context": {
+        "matrix_rules": {
+          "row_rule": "dots_increase_by_1_across_row",
+          "column_rule": "shape_stays_same_in_row",
+          "pattern": "starting_dots_increase_by_1_per_row"
+        }
+      },
+      "images": [
+        "/images/nvr/nvr-mat-001_opt_A.svg",
+        "/images/nvr/nvr-mat-001_opt_B.svg",
+        "/images/nvr/nvr-mat-001_opt_C.svg",
+        "/images/nvr/nvr-mat-001_opt_D.svg",
+        "/images/nvr/nvr-mat-001_opt_E.svg"
+      ]
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "Row rule: dots increase by 1 across each row. Row 3: 3->4->5 dots. Column rule: shape stays the same within each row. Row 3 has triangles. Answer: Triangle with 5 dots.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Look at each row separately. How do the dots change?",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Dots increase by 1 in each row. Row 3 goes 3, 4, ?",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "matrices",
+      "row_pattern",
+      "counting"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-mat-002",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_matrices",
+    "format": "multiple_choice",
+    "difficulty": 5,
+    "content": {
+      "text": "Find the missing figure in the 3x3 matrix.\n\nRow 1: [Black square] [White square] [Grey square]\nRow 2: [White circle] [Grey circle] [Black circle]\nRow 3: [Grey triangle] [Black triangle] [?]",
+      "options": [
+        "A: White triangle",
+        "B: Grey triangle",
+        "C: Black triangle",
+        "D: White square",
+        "E: Grey circle"
+      ],
+      "context": {
+        "matrix_rules": {
+          "row_rule": "each_row_has_all_3_fills_once",
+          "column_rule": "each_column_has_all_3_shapes_once",
+          "fills": [
+            "black",
+            "white",
+            "grey"
+          ],
+          "shapes": [
+            "square",
+            "circle",
+            "triangle"
+          ]
+        }
+      },
+      "images": [
+        "/images/nvr/nvr-mat-002_opt_A.svg",
+        "/images/nvr/nvr-mat-002_opt_B.svg",
+        "/images/nvr/nvr-mat-002_opt_C.svg",
+        "/images/nvr/nvr-mat-002_opt_D.svg",
+        "/images/nvr/nvr-mat-002_opt_E.svg"
+      ]
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "Each row must contain black, white, and grey (all three fills). Row 3 has grey and black, missing white. Each column must have all shapes, but the key constraint is the fill pattern. Answer: White triangle.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "What fills appear in each row?",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Each row needs all three fills. Row 3 has grey and black - what's missing?",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "matrices",
+      "latin_square",
+      "fill_pattern"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-mat-003",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_matrices",
+    "format": "multiple_choice",
+    "difficulty": 5,
+    "content": {
+      "text": "Find the missing figure in the 3x3 matrix.\n\nRow 1: [Circle+Square overlay] [Square only] [Circle only]\nRow 2: [Triangle+Circle overlay] [Circle only] [Triangle only]\nRow 3: [Square+Triangle overlay] [Triangle only] [?]",
+      "options": [
+        "A: Square only",
+        "B: Circle only",
+        "C: Square+Circle overlay",
+        "D: Triangle only",
+        "E: Square+Triangle overlay"
+      ],
+      "context": {
+        "matrix_rules": {
+          "subtraction_rule": "col1_minus_col2_equals_col3",
+          "interpretation": "remove_shape_from_overlay_to_get_remaining"
+        }
+      },
+      "images": [
+        "/images/nvr/nvr-mat-003_opt_A.svg",
+        "/images/nvr/nvr-mat-003_opt_B.svg",
+        "/images/nvr/nvr-mat-003_opt_C.svg",
+        "/images/nvr/nvr-mat-003_opt_D.svg",
+        "/images/nvr/nvr-mat-003_opt_E.svg"
+      ]
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "The rule is subtraction: Column 1 shape overlay minus Column 2 shape equals Column 3. Row 3: (Square+Triangle) - Triangle = Square. The missing figure is Square only.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Look at how columns relate to each other.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Column 1 minus Column 2 equals Column 3 (shape removal).",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "matrices",
+      "subtraction_rule",
+      "overlay",
+      "advanced"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-mat-004",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_matrices",
+    "format": "multiple_choice",
+    "difficulty": 4,
+    "content": {
+      "text": "Find the missing figure in the 3x3 matrix.\n\nRow 1: [Arrow UP] [Arrow RIGHT] [Arrow DOWN]\nRow 2: [Arrow RIGHT] [Arrow DOWN] [Arrow LEFT]\nRow 3: [Arrow DOWN] [Arrow LEFT] [?]",
+      "options": [
+        "A: Arrow UP",
+        "B: Arrow RIGHT",
+        "C: Arrow DOWN",
+        "D: Arrow LEFT",
+        "E: Arrow diagonal"
+      ],
+      "context": {
+        "matrix_rules": {
+          "row_rule": "arrows_rotate_90deg_clockwise_across_row",
+          "column_rule": "each_row_starts_with_next_clockwise_direction"
+        }
+      },
+      "images": [
+        "/images/nvr/nvr-mat-004_opt_A.svg",
+        "/images/nvr/nvr-mat-004_opt_B.svg",
+        "/images/nvr/nvr-mat-004_opt_C.svg",
+        "/images/nvr/nvr-mat-004_opt_D.svg",
+        "/images/nvr/nvr-mat-004_opt_E.svg"
+      ]
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "In each row, arrows rotate 90deg clockwise: UP->RIGHT->DOWN, RIGHT->DOWN->LEFT, DOWN->LEFT->UP. Row 3 continues: DOWN, LEFT, UP. Missing figure is Arrow UP.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "How does the arrow direction change across each row?",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Arrows rotate 90 degrees clockwise in each row.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "matrices",
+      "rotation",
+      "direction"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-mat-005",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_matrices",
+    "format": "multiple_choice",
+    "difficulty": 5,
+    "content": {
+      "text": "Find the missing figure in the 3x3 matrix.\n\nRow 1: [Large circle, no line] [Medium circle, 1 line through] [Small circle, 2 lines through]\nRow 2: [Large square, 1 line through] [Medium square, 2 lines through] [Small square, no line]\nRow 3: [Large triangle, 2 lines through] [Medium triangle, no line] [?]",
+      "options": [
+        "A: Small triangle, 1 line through",
+        "B: Small triangle, 2 lines through",
+        "C: Small triangle, no line",
+        "D: Large triangle, 1 line through",
+        "E: Medium triangle, 1 line through"
+      ],
+      "context": {
+        "matrix_rules": {
+          "row_rule": "size_decreases_left_to_right",
+          "line_rule": "lines_cycle_0_1_2_but_offset_per_row",
+          "pattern": "each_row_shows_all_3_line_counts"
+        }
+      },
+      "images": [
+        "/images/nvr/nvr-mat-005_opt_A.svg",
+        "/images/nvr/nvr-mat-005_opt_B.svg",
+        "/images/nvr/nvr-mat-005_opt_C.svg",
+        "/images/nvr/nvr-mat-005_opt_D.svg",
+        "/images/nvr/nvr-mat-005_opt_E.svg"
+      ]
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "Size decreases across rows: Large->Medium->Small. Each row contains 0, 1, and 2 lines (in different orders). Row 3 has 2 and 0 lines shown, missing 1 line. Answer: Small triangle with 1 line.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Track both size and number of lines separately.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Each row has 0, 1, 2 lines somewhere. What's missing in row 3?",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "matrices",
+      "dual_attribute",
+      "cycling",
+      "advanced"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-mat-006",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_matrices",
+    "format": "multiple_choice",
+    "difficulty": 4,
+    "content": {
+      "text": "Find the missing figure in the 3x3 matrix.\n\nRow 1: [1 star] [2 stars] [3 stars]\nRow 2: [2 stars] [4 stars] [6 stars]\nRow 3: [3 stars] [6 stars] [?]",
+      "options": [
+        "A: 9 stars",
+        "B: 8 stars",
+        "C: 7 stars",
+        "D: 12 stars",
+        "E: 6 stars"
+      ],
+      "context": {
+        "matrix_rules": {
+          "row_rule": "multiply_first_cell_by_column_number",
+          "pattern": "row_n_col_m_equals_n_times_m"
+        }
+      },
+      "images": [
+        "/images/nvr/nvr-mat-006_opt_A.svg",
+        "/images/nvr/nvr-mat-006_opt_B.svg",
+        "/images/nvr/nvr-mat-006_opt_C.svg",
+        "/images/nvr/nvr-mat-006_opt_D.svg",
+        "/images/nvr/nvr-mat-006_opt_E.svg"
+      ]
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "The matrix follows multiplication: Row N, Column M = N x M. Row 3, Column 3 = 3 x 3 = 9 stars. This creates the standard multiplication table pattern.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Look at the numbers: 1,2,3 / 2,4,6 / 3,6,?",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "It's a multiplication table. Row 3 x Column 3 = ?",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "matrices",
+      "multiplication",
+      "number_pattern"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-rot-001",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_rotation",
+    "format": "multiple_choice",
+    "difficulty": 4,
+    "content": {
+      "text": "Which option shows this figure rotated 180 degrees?\n\nOriginal: Letter 'R' with a small circle at bottom-left corner",
+      "options": [
+        "A: Upside-down R with circle at top-right",
+        "B: Backwards R with circle at bottom-right",
+        "C: Normal R with circle at top-left",
+        "D: Upside-down backwards R with circle at bottom-left",
+        "E: Upside-down R with circle at bottom-right"
+      ],
+      "context": {
+        "rotation": "180_degrees",
+        "compound_figure": true,
+        "elements": [
+          "letter_R",
+          "circle_marker"
+        ]
+      },
+      "images": [
+        "/images/nvr/nvr-rot-001_opt_A.svg",
+        "/images/nvr/nvr-rot-001_opt_B.svg",
+        "/images/nvr/nvr-rot-001_opt_C.svg",
+        "/images/nvr/nvr-rot-001_opt_D.svg",
+        "/images/nvr/nvr-rot-001_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-rot-001_main.svg"
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "180-degree rotation flips everything upside down and reverses left-right. The R becomes upside down, and the circle moves from bottom-left to top-right (diagonally opposite).",
+    "hints": [
+      {
+        "level": 1,
+        "text": "180 degrees means turning completely upside down.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Track both the letter orientation AND where the circle moves to.",
         "penalty": 0.2
       }
     ],
     "tags": [
       "rotation",
-      "clockwise",
-      "spatial reasoning"
+      "180_degrees",
+      "compound_figure"
     ],
-    "source": "sample",
-    "created_at": "2026-01-19 09:32:21.441274"
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
   },
   {
-    "id": "72128259-11ae-4b83-8436-249b5e1e1306",
+    "id": "nvr-rot-002",
     "subject": "non_verbal_reasoning",
-    "question_type": "nvr_reflection",
+    "question_type": "nvr_rotation",
     "format": "multiple_choice",
-    "difficulty": 3,
+    "difficulty": 5,
     "content": {
-      "text": "Which option shows the reflection of this shape in a vertical mirror line?\n\nOriginal: Letter 'F'",
-      "passage": null,
+      "text": "Which option shows this figure rotated 270 degrees clockwise?\n\nOriginal: Square with arrow pointing UP from center, dot in top-right corner",
       "options": [
-        "Backwards F (mirror image)",
-        "Upside down F",
-        "Normal F",
-        "F rotated 90 degrees"
+        "A: Square with arrow pointing LEFT, dot in top-left corner",
+        "B: Square with arrow pointing RIGHT, dot in bottom-right corner",
+        "C: Square with arrow pointing DOWN, dot in bottom-left corner",
+        "D: Square with arrow pointing LEFT, dot in bottom-left corner",
+        "E: Square with arrow pointing UP, dot in bottom-right corner"
       ],
-      "image_url": null,
-      "images": null,
-      "items": null,
-      "pairs": null,
       "context": {
-        "mirror_line": "vertical"
-      }
+        "rotation": "270_degrees_clockwise",
+        "equivalent": "90_degrees_counterclockwise",
+        "elements": [
+          "square",
+          "arrow",
+          "dot_marker"
+        ]
+      },
+      "images": [
+        "/images/nvr/nvr-rot-002_opt_A.svg",
+        "/images/nvr/nvr-rot-002_opt_B.svg",
+        "/images/nvr/nvr-rot-002_opt_C.svg",
+        "/images/nvr/nvr-rot-002_opt_D.svg",
+        "/images/nvr/nvr-rot-002_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-rot-002_main.svg"
     },
     "answer": {
-      "value": "Backwards F (mirror image)",
-      "accept_variations": null,
-      "case_sensitive": false,
-      "order_matters": true
+      "value": "A",
+      "case_sensitive": false
     },
-    "explanation": "A reflection in a vertical mirror line flips the shape horizontally - like looking in a mirror. The letter F would appear backwards, with the horizontal lines pointing left instead of right.",
+    "explanation": "270 degrees clockwise = 90 degrees counterclockwise. Arrow pointing UP rotates to point LEFT. Dot in top-right moves to top-left (each corner shifts counterclockwise one position).",
     "hints": [
       {
         "level": 1,
-        "text": "Imagine holding the shape up to a mirror.",
+        "text": "270 clockwise is the same as 90 counterclockwise.",
         "penalty": 0.1
       },
       {
         "level": 2,
-        "text": "In a vertical mirror, left and right swap.",
+        "text": "UP becomes LEFT. Track where the corner dot moves.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "rotation",
+      "270_degrees",
+      "compound_figure"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-rot-003",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_rotation",
+    "format": "multiple_choice",
+    "difficulty": 4,
+    "content": {
+      "text": "Which option shows this figure rotated 90 degrees clockwise?\n\nOriginal: T-shape lying on its side (horizontal bar on left, vertical bar extending right)",
+      "options": [
+        "A: T-shape with horizontal bar on top, vertical bar extending down",
+        "B: T-shape with horizontal bar on bottom, vertical bar extending up",
+        "C: T-shape with horizontal bar on right, vertical bar extending left",
+        "D: Normal upright T",
+        "E: Upside-down T"
+      ],
+      "context": {
+        "rotation": "90_degrees_clockwise",
+        "shape": "T_shape_sideways"
+      },
+      "images": [
+        "/images/nvr/nvr-rot-003_opt_A.svg",
+        "/images/nvr/nvr-rot-003_opt_B.svg",
+        "/images/nvr/nvr-rot-003_opt_C.svg",
+        "/images/nvr/nvr-rot-003_opt_D.svg",
+        "/images/nvr/nvr-rot-003_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-rot-003_main.svg"
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "90 degrees clockwise: the horizontal bar (on left) rotates to be on top, and the vertical bar (extending right) now extends down. This creates an upright T shape with bar on top.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Imagine turning the page 90 degrees to the right.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "What was on the left goes to the top.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "rotation",
+      "90_degrees",
+      "asymmetric_shape"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-rot-004",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_rotation",
+    "format": "multiple_choice",
+    "difficulty": 5,
+    "content": {
+      "text": "Which option shows this figure rotated 135 degrees clockwise?\n\nOriginal: Plus sign (+) with the top arm shaded black",
+      "options": [
+        "A: Plus sign with top-right arm shaded black",
+        "B: Plus sign with right arm shaded black",
+        "C: Plus sign with bottom-right arm shaded (X orientation with NE arm black)",
+        "D: Plus sign with bottom arm shaded black",
+        "E: Plus sign with left arm shaded black"
+      ],
+      "context": {
+        "rotation": "135_degrees_clockwise",
+        "note": "135 = 90 + 45, results in X orientation"
+      },
+      "images": [
+        "/images/nvr/nvr-rot-004_opt_A.svg",
+        "/images/nvr/nvr-rot-004_opt_B.svg",
+        "/images/nvr/nvr-rot-004_opt_C.svg",
+        "/images/nvr/nvr-rot-004_opt_D.svg",
+        "/images/nvr/nvr-rot-004_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-rot-004_main.svg"
+    },
+    "answer": {
+      "value": "C",
+      "case_sensitive": false
+    },
+    "explanation": "135 degrees = 90 + 45. The plus sign rotates to become an X shape. The top arm (at 0 degrees) moves to 135 degrees position, which is the bottom-right diagonal (or NE arm of the X when viewed as such).",
+    "hints": [
+      {
+        "level": 1,
+        "text": "135 degrees turns a + into an X orientation.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Track where the shaded arm moves: 0 degrees + 135 degrees = 135 degrees position.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "rotation",
+      "135_degrees",
+      "non_standard_angle"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-rot-005",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_rotation",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which option shows this figure rotated 90 degrees anticlockwise?\n\nOriginal: Flag shape - rectangle with triangular point on right side, pointing right",
+      "options": [
+        "A: Flag pointing up",
+        "B: Flag pointing down",
+        "C: Flag pointing left",
+        "D: Flag pointing right (same as original)",
+        "E: Flag rotated 45 degrees"
+      ],
+      "context": {
+        "rotation": "90_degrees_anticlockwise",
+        "shape": "flag"
+      },
+      "images": [
+        "/images/nvr/nvr-rot-005_opt_A.svg",
+        "/images/nvr/nvr-rot-005_opt_B.svg",
+        "/images/nvr/nvr-rot-005_opt_C.svg",
+        "/images/nvr/nvr-rot-005_opt_D.svg",
+        "/images/nvr/nvr-rot-005_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-rot-005_main.svg"
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "90 degrees anticlockwise (counterclockwise): what was pointing right now points up. The flag rotates so its point faces upward.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Anticlockwise is the opposite of clock hands.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Right becomes up when rotating counterclockwise.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "rotation",
+      "90_degrees",
+      "anticlockwise"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-ref-001",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_reflection",
+    "format": "multiple_choice",
+    "difficulty": 4,
+    "content": {
+      "text": "Which option shows the reflection of this figure in a HORIZONTAL mirror line (placed below the figure)?\n\nOriginal: Triangle pointing UP with a small square in the top corner",
+      "options": [
+        "A: Triangle pointing DOWN with square in bottom corner",
+        "B: Triangle pointing UP with square in bottom corner",
+        "C: Triangle pointing DOWN with square in top corner",
+        "D: Triangle pointing LEFT with square on right",
+        "E: Backwards triangle pointing DOWN"
+      ],
+      "context": {
+        "mirror_line": "horizontal_below",
+        "effect": "flip_vertically"
+      },
+      "images": [
+        "/images/nvr/nvr-ref-001_opt_A.svg",
+        "/images/nvr/nvr-ref-001_opt_B.svg",
+        "/images/nvr/nvr-ref-001_opt_C.svg",
+        "/images/nvr/nvr-ref-001_opt_D.svg",
+        "/images/nvr/nvr-ref-001_opt_E.svg"
+      ]
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "Horizontal mirror line flips the figure vertically (top becomes bottom). Triangle pointing UP becomes triangle pointing DOWN. Square at top moves to bottom position.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "A horizontal mirror flips things upside down.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Top becomes bottom, but left-right stays the same.",
         "penalty": 0.2
       }
     ],
     "tags": [
       "reflection",
-      "mirror",
-      "spatial reasoning"
+      "horizontal_mirror",
+      "compound_figure"
     ],
-    "source": "sample",
-    "created_at": "2026-01-19 09:32:21.441695"
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-ref-002",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_reflection",
+    "format": "multiple_choice",
+    "difficulty": 5,
+    "content": {
+      "text": "Which option shows the reflection of this figure in a DIAGONAL mirror line (going from top-left to bottom-right)?\n\nOriginal: Letter 'L' shape - vertical bar on left, horizontal bar at bottom extending right",
+      "options": [
+        "A: L rotated - horizontal bar on top, vertical bar extending down on right",
+        "B: Backwards L - vertical bar on right, horizontal bar at bottom extending left",
+        "C: Upside-down L - vertical bar on left, horizontal bar at top",
+        "D: Normal L unchanged",
+        "E: L rotated 90 degrees clockwise"
+      ],
+      "context": {
+        "mirror_line": "diagonal_TLBR",
+        "effect": "swap_x_and_y_coordinates"
+      },
+      "images": [
+        "/images/nvr/nvr-ref-002_opt_A.svg",
+        "/images/nvr/nvr-ref-002_opt_B.svg",
+        "/images/nvr/nvr-ref-002_opt_C.svg",
+        "/images/nvr/nvr-ref-002_opt_D.svg",
+        "/images/nvr/nvr-ref-002_opt_E.svg"
+      ]
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "Diagonal mirror (TL-BR) swaps x and y coordinates. The vertical bar (along y-axis) becomes horizontal (along x-axis), and the horizontal bar becomes vertical. The L shape transforms as if rotated and flipped.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Diagonal mirrors swap horizontal and vertical.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Imagine folding along the diagonal - where does each part land?",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "reflection",
+      "diagonal_mirror",
+      "complex"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-ref-003",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_reflection",
+    "format": "multiple_choice",
+    "difficulty": 4,
+    "content": {
+      "text": "Which option shows the reflection of this figure in a VERTICAL mirror line?\n\nOriginal: Number '7' with a dot on the left side of the horizontal bar",
+      "options": [
+        "A: Backwards 7 with dot on the right side",
+        "B: Upside-down 7 with dot on left",
+        "C: Normal 7 with dot on right side",
+        "D: Backwards 7 with dot on left side",
+        "E: Number 7 rotated 180 degrees"
+      ],
+      "context": {
+        "mirror_line": "vertical",
+        "effect": "flip_horizontally"
+      },
+      "images": [
+        "/images/nvr/nvr-ref-003_opt_A.svg",
+        "/images/nvr/nvr-ref-003_opt_B.svg",
+        "/images/nvr/nvr-ref-003_opt_C.svg",
+        "/images/nvr/nvr-ref-003_opt_D.svg",
+        "/images/nvr/nvr-ref-003_opt_E.svg"
+      ]
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "Vertical mirror flips left-right. The 7 becomes a backwards 7 (mirrored), and the dot that was on the left side of the bar is now on the right side.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Vertical mirror swaps left and right.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "The 7 reverses AND the dot position changes.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "reflection",
+      "vertical_mirror",
+      "number"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-ref-004",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_reflection",
+    "format": "multiple_choice",
+    "difficulty": 5,
+    "content": {
+      "text": "Which option shows BOTH a vertical reflection AND then a horizontal reflection of the original figure?\n\nOriginal: Arrow pointing to top-right (NE), with circle at the tail",
+      "options": [
+        "A: Arrow pointing to bottom-left (SW), with circle at the tail",
+        "B: Arrow pointing to top-left (NW), with circle at the tail",
+        "C: Arrow pointing to bottom-right (SE), with circle at the tail",
+        "D: Arrow pointing to top-right (NE), with circle at the head",
+        "E: Arrow pointing to bottom-left (SW), with circle at the head"
+      ],
+      "context": {
+        "transformations": [
+          "vertical_reflection",
+          "horizontal_reflection"
+        ],
+        "combined_effect": "180_degree_rotation"
+      },
+      "images": [
+        "/images/nvr/nvr-ref-004_opt_A.svg",
+        "/images/nvr/nvr-ref-004_opt_B.svg",
+        "/images/nvr/nvr-ref-004_opt_C.svg",
+        "/images/nvr/nvr-ref-004_opt_D.svg",
+        "/images/nvr/nvr-ref-004_opt_E.svg"
+      ]
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "Vertical reflection changes NE to NW. Then horizontal reflection changes NW to SW. Two perpendicular reflections equal a 180-degree rotation. Circle stays at the tail throughout.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Apply each reflection in sequence.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Two perpendicular reflections = 180 degree rotation.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "reflection",
+      "double_reflection",
+      "combined_transformation"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-ref-005",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_reflection",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which option shows the reflection of this figure in a vertical mirror line?\n\nOriginal: Smiley face with winking LEFT eye (left eye closed, right eye open)",
+      "options": [
+        "A: Smiley face with winking RIGHT eye",
+        "B: Smiley face with both eyes closed",
+        "C: Upside-down smiley face with winking left eye",
+        "D: Smiley face with winking LEFT eye (same as original)",
+        "E: Sad face with winking right eye"
+      ],
+      "context": {
+        "mirror_line": "vertical",
+        "effect": "flip_horizontally"
+      },
+      "images": [
+        "/images/nvr/nvr-ref-005_opt_A.svg",
+        "/images/nvr/nvr-ref-005_opt_B.svg",
+        "/images/nvr/nvr-ref-005_opt_C.svg",
+        "/images/nvr/nvr-ref-005_opt_D.svg",
+        "/images/nvr/nvr-ref-005_opt_E.svg"
+      ]
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "Vertical mirror swaps left and right. The winking eye was on the left, so in the reflection it appears on the right. The smile stays a smile (horizontal features unchanged).",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Which side is the winking eye on?",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Left-right swap means the winking eye moves to the other side.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "reflection",
+      "vertical_mirror",
+      "facial_features"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-cod-001",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_codes",
+    "format": "multiple_choice",
+    "difficulty": 5,
+    "content": {
+      "text": "Each figure has a two-letter code. Work out the code for the test figure.\n\nFig 1: Large black circle = AX\nFig 2: Small black circle = BX\nFig 3: Large white circle = AY\nFig 4: Small white square = BY\nTest figure: Large white square = ?",
+      "options": [
+        "A: AY",
+        "B: AX",
+        "C: BY",
+        "D: BX",
+        "E: AZ"
+      ],
+      "context": {
+        "code_system": {
+          "first_letter": {
+            "A": "large",
+            "B": "small"
+          },
+          "second_letter": {
+            "X": "black",
+            "Y": "white"
+          }
+        },
+        "test_figure": {
+          "size": "large",
+          "fill": "white"
+        }
+      },
+      "images": [
+        "/images/nvr/nvr-cod-001_opt_A.svg",
+        "/images/nvr/nvr-cod-001_opt_B.svg",
+        "/images/nvr/nvr-cod-001_opt_C.svg",
+        "/images/nvr/nvr-cod-001_opt_D.svg",
+        "/images/nvr/nvr-cod-001_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-cod-001_main.svg"
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "First letter encodes size: A=large, B=small. Second letter encodes fill: X=black, Y=white. Large white square: A (large) + Y (white) = AY. Shape is not encoded in this system.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Compare figures with the same letter to find what they share.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "First letter = size (A=large, B=small). Second letter = fill.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "codes",
+      "two_letter",
+      "attribute_encoding"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-cod-002",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_codes",
+    "format": "multiple_choice",
+    "difficulty": 5,
+    "content": {
+      "text": "Each figure has a three-letter code. Work out the code for the test figure.\n\nFig 1: Large black triangle pointing up = APX\nFig 2: Small white triangle pointing up = BQX\nFig 3: Large black circle = APN\nFig 4: Small white square pointing right = BQY\nTest figure: Large white triangle pointing down = ?",
+      "options": [
+        "A: AQZ",
+        "B: BQZ",
+        "C: APZ",
+        "D: AQX",
+        "E: BPZ"
+      ],
+      "context": {
+        "code_system": {
+          "first_letter": {
+            "A": "large",
+            "B": "small"
+          },
+          "second_letter": {
+            "P": "black",
+            "Q": "white"
+          },
+          "third_letter": {
+            "X": "pointing_up",
+            "Y": "pointing_right",
+            "Z": "pointing_down",
+            "N": "no_direction"
+          }
+        },
+        "test_figure": {
+          "size": "large",
+          "fill": "white",
+          "direction": "pointing_down"
+        }
+      },
+      "images": [
+        "/images/nvr/nvr-cod-002_opt_A.svg",
+        "/images/nvr/nvr-cod-002_opt_B.svg",
+        "/images/nvr/nvr-cod-002_opt_C.svg",
+        "/images/nvr/nvr-cod-002_opt_D.svg",
+        "/images/nvr/nvr-cod-002_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-cod-002_main.svg"
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "Three-letter code: Position 1 = size (A=large, B=small). Position 2 = fill (P=black, Q=white). Position 3 = direction (X=up, Y=right, Z=down, N=none). Large white triangle pointing down = A+Q+Z = AQZ.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Each letter position encodes a different attribute.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Size, then fill, then direction. Match each to find the code.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "codes",
+      "three_letter",
+      "multi_attribute"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-cod-003",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_codes",
+    "format": "multiple_choice",
+    "difficulty": 5,
+    "content": {
+      "text": "Each figure has a two-letter code. Work out the code for the test figure.\n\nFig 1: Circle with 1 dot inside = FA\nFig 2: Square with 2 dots inside = GB\nFig 3: Triangle with 3 dots inside = HC\nFig 4: Circle with 2 dots inside = FB\nTest figure: Square with 3 dots inside = ?",
+      "options": [
+        "A: GC",
+        "B: HC",
+        "C: GB",
+        "D: FC",
+        "E: GA"
+      ],
+      "context": {
+        "code_system": {
+          "first_letter": {
+            "F": "circle",
+            "G": "square",
+            "H": "triangle"
+          },
+          "second_letter": {
+            "A": "1_dot",
+            "B": "2_dots",
+            "C": "3_dots"
+          }
+        },
+        "test_figure": {
+          "shape": "square",
+          "dots": 3
+        }
+      },
+      "images": [
+        "/images/nvr/nvr-cod-003_opt_A.svg",
+        "/images/nvr/nvr-cod-003_opt_B.svg",
+        "/images/nvr/nvr-cod-003_opt_C.svg",
+        "/images/nvr/nvr-cod-003_opt_D.svg",
+        "/images/nvr/nvr-cod-003_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-cod-003_main.svg"
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "First letter encodes shape: F=circle, G=square, H=triangle. Second letter encodes dot count: A=1, B=2, C=3. Square with 3 dots = G+C = GC.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Find figures with the same shape and compare their first letters.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "First letter = shape, second letter = number of dots.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "codes",
+      "two_letter",
+      "shape_and_count"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-cod-004",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_codes",
+    "format": "multiple_choice",
+    "difficulty": 5,
+    "content": {
+      "text": "Each figure has a code where letters can appear in any order. Work out the code for the test figure.\n\nFig 1: Black circle with horizontal line through = JM\nFig 2: White square with vertical line through = KN\nFig 3: Black square with vertical line through = JN\nFig 4: White circle with diagonal line through = KP\nTest figure: Black circle with diagonal line through = ?",
+      "options": [
+        "A: JP",
+        "B: JM",
+        "C: KP",
+        "D: JN",
+        "E: MP"
+      ],
+      "context": {
+        "code_system": {
+          "J": "black_fill",
+          "K": "white_fill",
+          "M": "horizontal_line",
+          "N": "vertical_line",
+          "P": "diagonal_line"
+        },
+        "note": "shape_not_encoded",
+        "test_figure": {
+          "fill": "black",
+          "line": "diagonal"
+        }
+      },
+      "images": [
+        "/images/nvr/nvr-cod-004_opt_A.svg",
+        "/images/nvr/nvr-cod-004_opt_B.svg",
+        "/images/nvr/nvr-cod-004_opt_C.svg",
+        "/images/nvr/nvr-cod-004_opt_D.svg",
+        "/images/nvr/nvr-cod-004_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-cod-004_main.svg"
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "J/K encodes fill (J=black, K=white). M/N/P encodes line type (M=horizontal, N=vertical, P=diagonal). Shape is NOT encoded. Black circle with diagonal = J+P = JP.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Not all attributes have codes. Which attributes ARE encoded?",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Fill and line type are encoded. Shape is ignored in this system.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "codes",
+      "unordered",
+      "selective_encoding"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-cod-005",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_codes",
+    "format": "multiple_choice",
+    "difficulty": 4,
+    "content": {
+      "text": "Each figure has a code. Work out the code for the test figure.\n\nFig 1: Arrow pointing up = 1\nFig 2: Arrow pointing right = 2\nFig 3: Arrow pointing down = 3\nFig 4: Arrow pointing left = 4\nTest figure: Arrow pointing up-right (diagonal NE) = ?",
+      "options": [
+        "A: 12",
+        "B: 1",
+        "C: 5",
+        "D: 14",
+        "E: 23"
+      ],
+      "context": {
+        "code_system": {
+          "1": "up_component",
+          "2": "right_component",
+          "3": "down_component",
+          "4": "left_component"
+        },
+        "combination_rule": "diagonals_combine_adjacent_codes",
+        "test_figure": {
+          "direction": "up_right_diagonal"
+        }
+      },
+      "images": [
+        "/images/nvr/nvr-cod-005_opt_A.svg",
+        "/images/nvr/nvr-cod-005_opt_B.svg",
+        "/images/nvr/nvr-cod-005_opt_C.svg",
+        "/images/nvr/nvr-cod-005_opt_D.svg",
+        "/images/nvr/nvr-cod-005_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-cod-005_main.svg"
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "Cardinals have single codes: up=1, right=2, down=3, left=4. Diagonals combine the two adjacent cardinal codes. Up-right (NE) = up(1) + right(2) = 12.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Diagonal directions combine two cardinal directions.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "NE = North(up) + East(right). Combine their codes.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "codes",
+      "combination",
+      "direction"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-cod-006",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_codes",
+    "format": "multiple_choice",
+    "difficulty": 5,
+    "content": {
+      "text": "Each figure has a two-letter code based on position. Work out the code for the test figure.\n\nFig 1: Star in top-left corner = TL\nFig 2: Star in bottom-right corner = BR\nFig 3: Star in center = CC\nFig 4: Star in top-right corner = TR\nTest figure: Star in bottom-left corner = ?",
+      "options": [
+        "A: BL",
+        "B: LB",
+        "C: TL",
+        "D: BC",
+        "E: CB"
+      ],
+      "context": {
+        "code_system": {
+          "first_letter": {
+            "T": "top",
+            "C": "center",
+            "B": "bottom"
+          },
+          "second_letter": {
+            "L": "left",
+            "C": "center",
+            "R": "right"
+          }
+        },
+        "test_figure": {
+          "vertical": "bottom",
+          "horizontal": "left"
+        }
+      },
+      "images": [
+        "/images/nvr/nvr-cod-006_opt_A.svg",
+        "/images/nvr/nvr-cod-006_opt_B.svg",
+        "/images/nvr/nvr-cod-006_opt_C.svg",
+        "/images/nvr/nvr-cod-006_opt_D.svg",
+        "/images/nvr/nvr-cod-006_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-cod-006_main.svg"
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "First letter = vertical position (T=top, C=center, B=bottom). Second letter = horizontal position (L=left, C=center, R=right). Bottom-left = B+L = BL.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "The code describes WHERE the star is positioned.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "First letter = up/down position, second letter = left/right position.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "codes",
+      "position_encoding",
+      "grid"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-3d-001",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_spatial_3d",
+    "format": "multiple_choice",
+    "difficulty": 5,
+    "content": {
+      "text": "A cube has these faces: TOP=star, FRONT=circle, RIGHT=triangle. If the cube is rotated so the FRONT face becomes the TOP, which shape will be on the new FRONT face?",
+      "options": [
+        "A: The shape that was on BOTTOM",
+        "B: Star",
+        "C: Triangle",
+        "D: Circle",
+        "E: A new shape"
+      ],
+      "context": {
+        "cube_rotation": "tilt_forward",
+        "initial_state": {
+          "top": "star",
+          "front": "circle",
+          "right": "triangle"
+        },
+        "rotation_effect": "front_becomes_top_bottom_becomes_front"
+      },
+      "images": [
+        "/images/nvr/nvr-3d-001_opt_A.svg",
+        "/images/nvr/nvr-3d-001_opt_B.svg",
+        "/images/nvr/nvr-3d-001_opt_C.svg",
+        "/images/nvr/nvr-3d-001_opt_D.svg",
+        "/images/nvr/nvr-3d-001_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-3d-001_main.svg"
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "When tilting forward (front becomes top), the faces cycle: front->top, top->back, back->bottom, bottom->front. So the new front is what was on the bottom.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Visualize tilting the cube forward toward you.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "The bottom face rotates up to become the new front.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "spatial_3d",
+      "cube_rotation",
+      "visualization"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-3d-002",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_spatial_3d",
+    "format": "multiple_choice",
+    "difficulty": 5,
+    "content": {
+      "text": "This net folds into a cube. Which face will be OPPOSITE the star?\n\nNet layout (cross shape):\n    [A]\n[B][STAR][C][D]\n    [E]",
+      "options": [
+        "A: Face D",
+        "B: Face A",
+        "C: Face B",
+        "D: Face C",
+        "E: Face E"
+      ],
+      "context": {
+        "net_type": "cross_net",
+        "center": "star",
+        "opposite_rule": "face_two_positions_away_in_line"
+      },
+      "images": [
+        "/images/nvr/nvr-3d-002_opt_A.svg",
+        "/images/nvr/nvr-3d-002_opt_B.svg",
+        "/images/nvr/nvr-3d-002_opt_C.svg",
+        "/images/nvr/nvr-3d-002_opt_D.svg",
+        "/images/nvr/nvr-3d-002_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-3d-002_main.svg"
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "In a cross-shaped net, faces opposite to the center are those that would be two positions away when folded. Face D is in line with the star and will be opposite when folded.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Imagine folding the net into a cube.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "In a cross net, the center's opposite is at the far end of the horizontal strip.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "spatial_3d",
+      "cube_net",
+      "opposite_faces"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-3d-003",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_spatial_3d",
+    "format": "multiple_choice",
+    "difficulty": 4,
+    "content": {
+      "text": "How many unit cubes are needed to build this 3D shape?\n\nShape: A staircase with 3 steps - bottom layer has 3 cubes in a row, middle layer has 2 cubes on top of the first 2, top layer has 1 cube on top.",
+      "options": [
+        "A: 6",
+        "B: 5",
+        "C: 7",
+        "D: 9",
+        "E: 8"
+      ],
+      "context": {
+        "shape": "3_step_staircase",
+        "layers": [
+          3,
+          2,
+          1
+        ],
+        "calculation": "3+2+1=6"
+      },
+      "images": [
+        "/images/nvr/nvr-3d-003_opt_A.svg",
+        "/images/nvr/nvr-3d-003_opt_B.svg",
+        "/images/nvr/nvr-3d-003_opt_C.svg",
+        "/images/nvr/nvr-3d-003_opt_D.svg",
+        "/images/nvr/nvr-3d-003_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-3d-003_main.svg"
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "Count by layers: bottom layer = 3 cubes, middle layer = 2 cubes, top layer = 1 cube. Total = 3 + 2 + 1 = 6 cubes.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Count the cubes in each layer separately.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Bottom: 3, Middle: 2, Top: 1. Add them up.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "spatial_3d",
+      "cube_counting",
+      "layers"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "nvr-3d-004",
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_spatial_3d",
+    "format": "multiple_choice",
+    "difficulty": 5,
+    "content": {
+      "text": "A cube is painted red on all faces, then cut into 27 smaller cubes (3x3x3). How many small cubes have exactly TWO red faces?",
+      "options": [
+        "A: 12",
+        "B: 8",
+        "C: 6",
+        "D: 1",
+        "E: 0"
+      ],
+      "context": {
+        "painted_cube": "all_faces_red",
+        "cut_pattern": "3x3x3_grid",
+        "position_analysis": {
+          "corner_cubes": {
+            "count": 8,
+            "painted_faces": 3
+          },
+          "edge_cubes": {
+            "count": 12,
+            "painted_faces": 2
+          },
+          "face_center_cubes": {
+            "count": 6,
+            "painted_faces": 1
+          },
+          "center_cube": {
+            "count": 1,
+            "painted_faces": 0
+          }
+        }
+      },
+      "images": [
+        "/images/nvr/nvr-3d-004_opt_A.svg",
+        "/images/nvr/nvr-3d-004_opt_B.svg",
+        "/images/nvr/nvr-3d-004_opt_C.svg",
+        "/images/nvr/nvr-3d-004_opt_D.svg",
+        "/images/nvr/nvr-3d-004_opt_E.svg"
+      ],
+      "image_url": "/images/nvr/nvr-3d-004_main.svg"
+    },
+    "answer": {
+      "value": "A",
+      "case_sensitive": false
+    },
+    "explanation": "In a 3x3x3 cube: corners (8 cubes) have 3 painted faces, edges (12 cubes) have 2 painted faces, face centers (6 cubes) have 1 painted face, center (1 cube) has 0 painted faces. Answer: 12 edge cubes.",
+    "hints": [
+      {
+        "level": 1,
+        "text": "Think about where a small cube sits in the big cube.",
+        "penalty": 0.1
+      },
+      {
+        "level": 2,
+        "text": "Edge cubes (not corners) touch exactly 2 outer faces.",
+        "penalty": 0.2
+      }
+    ],
+    "tags": [
+      "spatial_3d",
+      "painted_cube",
+      "counting",
+      "advanced"
+    ],
+    "source": "gl_inspired",
+    "created_at": "2026-01-21"
   }
 ]
