@@ -269,19 +269,22 @@ export default function Home() {
                 </h3>
                 <ul className="space-y-2">
                   {[
-                    "Sequences",
-                    "Odd One Out",
-                    "Rotation",
-                    "Reflection",
-                    "Analogies",
+                    { label: "Sequences", type: "nvr_sequences" },
+                    { label: "Odd One Out", type: "nvr_odd_one_out" },
+                    { label: "Analogies", type: "nvr_analogies" },
+                    { label: "Matrices", type: "nvr_matrices" },
+                    { label: "Rotation", type: "nvr_rotation" },
+                    { label: "Reflection", type: "nvr_reflection" },
+                    { label: "Spatial 3D", type: "nvr_spatial_3d" },
+                    { label: "Codes", type: "nvr_codes" },
                   ].map((topic) => (
-                    <li key={topic}>
+                    <li key={topic.type}>
                       <Link
-                        href={`/practice/non_verbal_reasoning?type=nvr_${topic.toLowerCase().replace(" ", "_")}`}
+                        href={`/practice/non_verbal_reasoning?type=${topic.type}`}
                         className="text-sm text-gray-600 hover:text-orange-600 flex items-center gap-2"
                       >
                         <span className="w-1.5 h-1.5 rounded-full bg-orange-400" />
-                        {topic}
+                        {topic.label}
                       </Link>
                     </li>
                   ))}

@@ -2,7 +2,32 @@
  * API client for the 11+ Deep Tutor backend.
  */
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "https://deep-tutor-api.fly.dev";
+export const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+
+/**
+ * Get the full URL for an image path.
+ * Handles both absolute URLs and relative paths from the API.
+ */
+export function getImageUrl(path: string | undefined): string | undefined {
+  if (!path) return undefined;
+  if (path.startsWith("http") || path.startsWith("data:")) return path;
+  return `${API_BASE}${path}`;
+}
+
+/**
+ * Check if a string is an image URL (SVG, PNG, JPG, or data URI).
+ */
+export function isImageUrl(str: string): boolean {
+  if (!str) return false;
+  return (
+    str.startsWith("data:image/") ||
+    str.startsWith("/images/") ||
+    str.endsWith(".svg") ||
+    str.endsWith(".png") ||
+    str.endsWith(".jpg") ||
+    str.endsWith(".jpeg")
+  );
+}
 
 // Types matching backend models
 export type Subject = "english" | "maths" | "verbal_reasoning" | "non_verbal_reasoning";

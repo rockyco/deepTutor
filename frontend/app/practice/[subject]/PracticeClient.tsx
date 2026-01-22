@@ -23,7 +23,7 @@ import {
   formatTime,
 } from "@/lib/utils";
 import type { Question, AnswerResult, Hint } from "@/lib/api";
-import { questionsAPI } from "@/lib/api";
+import { questionsAPI, getImageUrl, isImageUrl } from "@/lib/api";
 
 interface PracticeState {
   questions: Question[];
@@ -415,14 +415,46 @@ export default function PracticeClient() {
             {currentQuestion.content.text}
           </h2>
 
+          {/* Matrix/Main Image (for NVR questions) */}
+          {currentQuestion.content.image_url && (
+            <div className="flex justify-center mb-6">
+              <img
+                src={getImageUrl(currentQuestion.content.image_url)}
+                alt="Question diagram"
+                className="max-w-full border-2 border-gray-300 rounded-lg bg-white p-2"
+              />
+            </div>
+          )}
+
+          {/* Option Images (for NVR questions with image array) */}
+          {currentQuestion.content.images && currentQuestion.content.images.length > 0 && (
+            <div className="grid grid-cols-5 gap-3 mb-6">
+              {currentQuestion.content.images.map((imgUrl, idx) => (
+                <div key={idx} className="flex flex-col items-center">
+                  <img
+                    src={getImageUrl(imgUrl)}
+                    alt={`Option ${String.fromCharCode(65 + idx)}`}
+                    className="w-full border border-gray-200 rounded bg-white p-1"
+                  />
+                  <span className="text-xs text-gray-500 mt-1">{String.fromCharCode(65 + idx)}</span>
+                </div>
+              ))}
+            </div>
+          )}
+
           {/* Answer Options */}
           {currentQuestion.content.options ? (
-            <div className="space-y-3">
+            <div className={cn(
+              currentQuestion.content.options.some(opt => isImageUrl(opt))
+                ? "grid grid-cols-2 sm:grid-cols-5 gap-4"
+                : "space-y-3"
+            )}>
               {currentQuestion.content.options.map((option, index) => {
                 const isSelected = selectedAnswer === option;
                 const isCorrect =
                   showResult && String(currentResult?.correct_answer) === option;
                 const isWrong = showResult && isSelected && !currentResult?.is_correct;
+                const isImageOption = isImageUrl(option);
 
                 return (
                   <button
@@ -430,29 +462,55 @@ export default function PracticeClient() {
                     onClick={() => handleSelectAnswer(option)}
                     disabled={showResult}
                     className={cn(
-                      "w-full text-left p-4 rounded-lg border-2 transition-all",
+                      "rounded-lg border-2 transition-all",
+                      isImageOption ? "p-2" : "w-full text-left p-4",
                       !showResult && !isSelected && "border-gray-200 hover:border-gray-300",
                       !showResult && isSelected && "border-indigo-500 bg-indigo-50",
                       isCorrect && "border-green-500 bg-green-50",
                       isWrong && "border-red-500 bg-red-50"
                     )}
                   >
-                    <div className="flex items-center gap-3">
-                      <span
-                        className={cn(
-                          "w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium",
-                          !showResult && !isSelected && "bg-gray-100 text-gray-600",
-                          !showResult && isSelected && "bg-indigo-500 text-white",
-                          isCorrect && "bg-green-500 text-white",
-                          isWrong && "bg-red-500 text-white"
-                        )}
-                      >
-                        {String.fromCharCode(65 + index)}
-                      </span>
-                      <span className="flex-1">{option}</span>
-                      {isCorrect && <CheckCircle2 className="w-5 h-5 text-green-600" />}
-                      {isWrong && <XCircle className="w-5 h-5 text-red-600" />}
-                    </div>
+                    {isImageOption ? (
+                      <div className="flex flex-col items-center gap-2">
+                        <img
+                          src={getImageUrl(option)}
+                          alt={`Option ${String.fromCharCode(65 + index)}`}
+                          className="w-20 h-20 object-contain bg-white"
+                        />
+                        <div className="flex items-center gap-2">
+                          <span
+                            className={cn(
+                              "w-6 h-6 rounded-full flex items-center justify-center text-xs font-medium",
+                              !showResult && !isSelected && "bg-gray-100 text-gray-600",
+                              !showResult && isSelected && "bg-indigo-500 text-white",
+                              isCorrect && "bg-green-500 text-white",
+                              isWrong && "bg-red-500 text-white"
+                            )}
+                          >
+                            {String.fromCharCode(65 + index)}
+                          </span>
+                          {isCorrect && <CheckCircle2 className="w-4 h-4 text-green-600" />}
+                          {isWrong && <XCircle className="w-4 h-4 text-red-600" />}
+                        </div>
+                      </div>
+                    ) : (
+                      <div className="flex items-center gap-3">
+                        <span
+                          className={cn(
+                            "w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium",
+                            !showResult && !isSelected && "bg-gray-100 text-gray-600",
+                            !showResult && isSelected && "bg-indigo-500 text-white",
+                            isCorrect && "bg-green-500 text-white",
+                            isWrong && "bg-red-500 text-white"
+                          )}
+                        >
+                          {String.fromCharCode(65 + index)}
+                        </span>
+                        <span className="flex-1">{option}</span>
+                        {isCorrect && <CheckCircle2 className="w-5 h-5 text-green-600" />}
+                        {isWrong && <XCircle className="w-5 h-5 text-red-600" />}
+                      </div>
+                    )}
                   </button>
                 );
               })}
