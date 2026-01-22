@@ -7,6 +7,7 @@ from pathlib import Path
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from sqlalchemy import select, func
 
 from app.config import settings
@@ -98,7 +99,11 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
+        "http://localhost:3001",
+        "http://localhost:3002",
         "http://127.0.0.1:3000",
+        "http://127.0.0.1:3001",
+        "http://127.0.0.1:3002",
         "https://deep-tutor.pages.dev",
         "https://*.pages.dev",
     ],
@@ -112,6 +117,11 @@ app.include_router(questions_router)
 app.include_router(practice_router)
 app.include_router(progress_router)
 app.include_router(users_router)
+
+# Mount static files for images
+images_dir = Path(__file__).parent.parent / "data" / "images"
+if images_dir.exists():
+    app.mount("/images", StaticFiles(directory=str(images_dir)), name="images")
 
 
 @app.get("/")

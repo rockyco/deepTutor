@@ -102,16 +102,19 @@ class QuestionValidator:
             if len(text) < self.MIN_QUESTION_LENGTH:
                 errors.append(f"Question text too short: {len(text)} chars")
 
-            options = content.get("options", [])
-            if isinstance(options, list):
-                if len(options) < self.MIN_OPTIONS:
-                    errors.append(f"Too few options: {len(options)}")
-                elif len(options) > self.MAX_OPTIONS:
-                    errors.append(f"Too many options: {len(options)}")
+            # Only validate options for multiple_choice format
+            q_format = question.get("format", "multiple_choice")
+            if q_format == "multiple_choice":
+                options = content.get("options", [])
+                if isinstance(options, list):
+                    if len(options) < self.MIN_OPTIONS:
+                        errors.append(f"Too few options: {len(options)}")
+                    elif len(options) > self.MAX_OPTIONS:
+                        errors.append(f"Too many options: {len(options)}")
 
-                for i, opt in enumerate(options):
-                    if len(str(opt)) < self.MIN_OPTION_LENGTH:
-                        errors.append(f"Option {i+1} is empty")
+                    for i, opt in enumerate(options):
+                        if len(str(opt)) < self.MIN_OPTION_LENGTH:
+                            errors.append(f"Option {i+1} is empty")
 
         # Validate answer
         answer = question.get("answer", {})

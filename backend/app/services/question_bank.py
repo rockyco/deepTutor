@@ -149,8 +149,14 @@ class QuestionBankService:
         with open(filepath) as f:
             data = json.load(f)
 
+        # Handle both {"questions": [...]} format and plain [...] format
+        if isinstance(data, list):
+            questions = data
+        else:
+            questions = data.get("questions", [])
+
         count = 0
-        for q_data in data.get("questions", []):
+        for q_data in questions:
             try:
                 question = QuestionCreate(
                     subject=Subject(q_data["subject"]),
