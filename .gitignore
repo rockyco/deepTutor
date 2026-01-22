@@ -85,3 +85,16 @@ backend/data/images/
 
 # Playwright screenshots
 .playwright-mcp/
+
+# Process ID files
+*.pid
+
+# Debug artifacts
+debug_images/
+backend/debug_images/
+
+# Sample data
+samples/
+
+# Inventory files
+*.csv
