@@ -1,0 +1,161 @@
+[
+  {
+    "question_num": 1,
+    "text": "The sentence below contains either one mistake involving punctuation or capital letters or no mistake. Choose the group of words which contains the mistake. If there\u2019s no mistake, choose \u2018No mistake\u2019.\n\n\u201cOur town\u2019s very proud that our womens\u2019 football team has won the championship,\u201d said the mayor.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\n\u2018women\u2019 is a plural word, but it doesn\u2019t end in \u2018s\u2019, so the possessive apostrophe should go before the \u2018s\u2019.",
+    "options": [
+      "\u201cOur town\u2019s very proud",
+      "that our womens\u2019 football",
+      "team has won the",
+      "championship,\u201d said the mayor.",
+      "No mistake"
+    ]
+  },
+  {
+    "question_num": 2,
+    "text": "Which of the sentences below contains personification?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nPersonification describes something that\u2019s not human as if it is a person. The shadows have been given human qualities (the ability to creep), so this sentence contains personification.",
+    "options": [
+      "From the top-floor balcony, the people on the ground were ants scurrying between tables.",
+      "Keira sank into her luxurious bed, which had pillows like soft marshmallows.",
+      "At twilight, the shadows will creep across the lawn towards the house.",
+      "I can see a dress as black as night in the window of the boutique."
+    ]
+  },
+  {
+    "question_num": 3,
+    "text": "The sentence below contains either one spelling mistake or no spelling mistakes. Choose the group of words which contains the mistake. If there\u2019s no mistake, choose \u2018no mistake\u2019.\n\n\u201cAs the air to the throne, you will reign over all of this magnificent land,\u201d proclaimed the king.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n\u2018air\u2019 should be \u2018heir\u2019. An \u2018heir\u2019 is somebody who will take over another person\u2019s responsibilities when they die and \u2018air\u2019 is the gases we breathe.",
+    "options": [
+      "\u201cAs the air to the throne,",
+      "you will reign over",
+      "all of this magnificent land,\u201d",
+      "proclaimed the king.",
+      "No mistake"
+    ]
+  },
+  {
+    "question_num": 4,
+    "text": "The sentence below contains either one mistake involving punctuation or capital letters or no mistake. Choose the group of words which contains the mistake. If there\u2019s no mistake, choose \u2018No mistake\u2019.\n\nWilliam\u2019s brother hates going to the local woodland \u2014 he\u2019d rather stay inside and read a book.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\nThere are no mistakes in this sentence.",
+    "options": [
+      "William\u2019s brother hates going",
+      "to the local woodland \u2014",
+      "he\u2019d rather stay inside",
+      "and read a book.",
+      "No mistake"
+    ]
+  },
+  {
+    "question_num": 5,
+    "text": "The sentence below contains either one mistake involving punctuation or capital letters or no mistake. Choose the group of words which contains the mistake. If there\u2019s no mistake, choose \u2018No mistake\u2019.\n\n\u201cIsla\u2019s planned an active day: hiking in the mountains kayaking on a lake and swimming,\u201d said Tim.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nA comma is needed between \u2018mountains\u2019 and \u2018kayaking\u2019 to separate each item in the list.",
+    "options": [
+      "\u201cIsla\u2019s planned an",
+      "active day: hiking in the",
+      "mountains kayaking on a lake",
+      "and swimming,\u201d said Tim.",
+      "No mistake"
+    ]
+  },
+  {
+    "question_num": 6,
+    "text": "Which of the following sentences contains alliteration?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\n\u2018The trembling astronaut accidentally pressed the alarm.\u2019 is correct. The \u2018a\u2019 sound is repeated.",
+    "options": [
+      "The planet is notorious for its abundance of volcanoes.",
+      "The powerful rocket zoomed through space like an eagle.",
+      "Astronomers have observed the moon since time immemorial.",
+      "The trembling astronaut accidentally pressed the alarm.",
+      "carpet of bright stars flickered enchantingly in the night sky."
+    ]
+  },
+  {
+    "question_num": 7,
+    "text": "What type of word is \u2018freezing\u2019 in the following sentence?\n\nThe group of swimmers plunged into the freezing lake, then quickly regretted their decision.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\n\u2018freezing\u2019 is an adjective in this sentence. It describes the noun \u2018lake\u2019.",
+    "options": [
+      "verb",
+      "adverb",
+      "preposition",
+      "adjective",
+      "abstract noun"
+    ]
+  },
+  {
+    "question_num": 8,
+    "text": "In the sentence below, which of the words is an adverb?\n\nToday is a lovely spring morning, so I will go for a gentle stroll around the park soon.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\n\u2018soon\u2019 is an adverb. It describes the verb \u2018go\u2019.",
+    "options": [
+      "will",
+      "lovely",
+      "Today",
+      "soon",
+      "gentle"
+    ]
+  },
+  {
+    "question_num": 9,
+    "text": "Choose the word which completes the sentence correctly.\n\nChristina poured the chemical into the test tube _______ it reached the brim.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\n\u2018until\u2019 is correct because it is the conjunction that makes the most sense in this sentence.",
+    "options": [
+      "after",
+      "until",
+      "during",
+      "towards",
+      "under"
+    ]
+  },
+  {
+    "question_num": 10,
+    "text": "Choose the word which completes the sentence correctly.\n\nRiley and Nasreen claimed that the sweets were _______, but I knew that they belonged to Tilly.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n\u2018theirs\u2019 is the correct pronoun. The pronoun shows that the sweets belong to Riley and Nasreen.",
+    "options": [
+      "theirs",
+      "there\u2019s",
+      "they\u2019re",
+      "their\u2019s",
+      "their"
+    ]
+  }
+]

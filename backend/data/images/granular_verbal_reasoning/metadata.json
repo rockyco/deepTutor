@@ -1,0 +1,165 @@
+[
+  {
+    "question_num": 1,
+    "text": "Remove one letter from the first word and add it to the second word to make two new words. Do not change the order of the other letters. Select the letter that moves.\n\n\n\nfirst\u00a0\u00a0\u00a0\u00a0had",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nThe new words are \u2018fist\u2019 and \u2018hard\u2019.",
+    "options": [
+      "f",
+      "i",
+      "r",
+      "s",
+      "t"
+    ]
+  },
+  {
+    "question_num": 2,
+    "text": "Choose the three-letter word that completes the word in capital letters, and so finishes the sentence in a sensible way.\n\n\n\nThe lord was determined to DED the castle.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\n\u2018FEN\u2019 is correct. The complete word is DEFEND.",
+    "options": [
+      "MAN",
+      "LAW",
+      "FEN",
+      "HOW",
+      "POT"
+    ]
+  },
+  {
+    "question_num": 3,
+    "text": "Choose the word that completes the third pair of words so that it follows the same pattern as the first two pairs.\n\n\n\nstrum\u00a0\u00a0must\u00a0\u00a0\u00a0\u00a0 asset\u00a0\u00a0teas\u00a0\u00a0\u00a0\u00a0 ideal\u00a0\u00a0(?)",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\n\u2018laid\u2019 is the correct word. Rearrange letters 1,\u00a02,\u00a04 and 5 in the order 5,\u00a04,\u00a01,\u00a02.",
+    "options": [
+      "aide",
+      "deal",
+      "lead",
+      "dial",
+      "laid"
+    ]
+  },
+  {
+    "question_num": 4,
+    "text": "The words in the second set follow the same pattern as the words in the first set. Choose the missing word to complete the second set.\n\n\n\ngait (girl) hurl\u00a0\u00a0\u00a0\u00a0 draw\u00a0(?)\u00a0down",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n\u2018dawn\u2019 is the correct word. Take letters 1 and 3 from the first word, followed by letters 3 and 4 from the second word.",
+    "options": [
+      "dawn",
+      "darn",
+      "worn",
+      "wand",
+      "road"
+    ]
+  },
+  {
+    "question_num": 5,
+    "text": "Select two words, one from each column, that have the most opposite meaning.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C, D",
+    "explanation": "Answer:\n\n\u2018discredit\u2019 means \u2018to cause an idea to appear false\u2019, whereas \u2018prove\u2019 means \u2018to show something is true\u2019.",
+    "options": [
+      "patronise",
+      "satirise",
+      "discredit",
+      "prove",
+      "compliment",
+      "concur"
+    ]
+  },
+  {
+    "question_num": 6,
+    "text": "Choose two words, one from each set of brackets, that complete the sentence in the most sensible way.\n\n\n\nRock is to (pebble\u00a0\u00a0\u00a0solid\u00a0\u00a0\u00a0mineral) as water is to (liquid\u00a0\u00a0\u00a0moisture\u00a0\u00a0\u00a0humid).",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B, D",
+    "explanation": "Answer:\n\nThey are the types of substances that rocks and water are.",
+    "options": [
+      "pebble",
+      "solid",
+      "mineral",
+      "liquid",
+      "moisture",
+      "humid"
+    ]
+  },
+  {
+    "question_num": 7,
+    "text": "Choose the word that has the most similar meaning to the words in both sets of brackets.\n\n\n\n(hint\u00a0\u00a0\u00a0pinch)\u00a0\u00a0\u00a0\u00a0 (hurry\u00a0\u00a0\u00a0rush)",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n\u2018dash\u2019 is correct. \u2018dash\u2019 can mean \u2018a small amount\u2019 or \u2018to move quickly\u2019.",
+    "options": [
+      "dash",
+      "race",
+      "scurry",
+      "touch",
+      "drop"
+    ]
+  },
+  {
+    "question_num": 8,
+    "text": "Three of the words below are linked. Find the two words that are not related to these three and select them both.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B, E",
+    "explanation": "Answer:\n\nThe other three are elected groups of people who meet to discuss a particular matter.",
+    "options": [
+      "council",
+      "community",
+      "panel",
+      "committee",
+      "society"
+    ]
+  },
+  {
+    "question_num": 9,
+    "text": "Choose two words, one from each set of brackets, that complete the sentence in the most sensible way.\n\n\n\nPrecious is to (destitute\u00a0\u00a0\u00a0worthless\u00a0\u00a0\u00a0adorned) as divide is to (combine\u00a0\u00a0\u00a0scatter\u00a0\u00a0\u00a0arrange).",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B, D",
+    "explanation": "Answer:\n\nThey are antonyms of \u2018precious\u2019 and \u2018divide\u2019.",
+    "options": [
+      "destitute",
+      "worthless",
+      "adorned",
+      "combine",
+      "scatter",
+      "arrange"
+    ]
+  },
+  {
+    "question_num": 10,
+    "text": "Choose the pair of letters that completes the sentence in the most sensible way. Use the alphabet to help you.\n\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n\n\n\nFP is to UK as GQ is to (?)",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n\u2018TJ\u2019 is correct. \u2018FP\u2019 and \u2018UK\u2019 are mirror pairs, where the two letters are an equal distance from the centre of the alphabet. The answer will be the mirror pairs for G and Q, which are T and J.",
+    "options": [
+      "TJ",
+      "SH",
+      "VJ",
+      "SL",
+      "TH"
+    ]
+  }
+]
