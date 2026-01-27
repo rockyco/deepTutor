@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "text": "Charlotte is buying 12 apples at 6p each. She pays with a \u00a35 note.\n\nHow much change does she get?",
+    "options": [
+      "a) 72p",
+      "b) \u00a32.78",
+      "c) 28p",
+      "d) \u00a33.72",
+      "e) \u00a34.28"
+    ],
+    "images": []
+  },
+  {
+    "id": 2,
+    "text": "Karen is buying some fabric that costs \u00a34.80\u00a0per\u00a0metre.\n\nHow much would 5\u00a0m of this fabric cost?",
+    "options": [
+      "a) \u00a326.20",
+      "b) \u00a328.60",
+      "c) \u00a322.80",
+      "d) \u00a329",
+      "e) \u00a324"
+    ],
+    "images": []
+  },
+  {
+    "id": 3,
+    "text": "Four children collect animal stickers. Mazana has 120\u00a0stickers, Louis has 140\u00a0stickers, Nadia has 90\u00a0stickers and Connor has 50\u00a0stickers.\n\nWhat is the mean number of stickers owned by the four children?",
+    "options": [
+      "a) 50",
+      "b) 400",
+      "c) 100",
+      "d) 40",
+      "e) 150"
+    ],
+    "images": []
+  },
+  {
+    "id": 4,
+    "text": "Which number has been put in the wrong place in this sorting diagram?",
+    "options": [
+      "a) 64",
+      "b) 1",
+      "c) 8",
+      "d) 100",
+      "e) 27"
+    ],
+    "images": [
+      "q4_img0.png"
+    ]
+  },
+  {
+    "id": 5,
+    "text": "Mr Chen is knitting a jumper. It takes him two and a half minutes to knit each row.\nHe starts knitting at 4:15\u00a0pm.\n\nAt what time will he have knitted 50 rows?",
+    "options": [
+      "a) 6:15\u00a0pm",
+      "b) 6:00\u00a0pm",
+      "c) 5:55\u00a0pm",
+      "d) 5:05\u00a0pm",
+      "e) 6:20\u00a0pm"
+    ],
+    "images": []
+  },
+  {
+    "id": 6,
+    "text": "Look at the shape below.\n\nWhich one of the following shapes has the same area?",
+    "options": [
+      "a) A triangle, base 10\u00a0m, height 4\u00a0m.",
+      "b) A rectangle, width 4\u00a0m, length 5\u00a0m.",
+      "c) A square, side length 5\u00a0m.",
+      "d) A parallelogram, base 7\u00a0m, vertical height 3\u00a0m.",
+      "e) A parallelogram, base 5\u00a0m, vertical height 5\u00a0m."
+    ],
+    "images": [
+      "q6_img0.png"
+    ]
+  },
+  {
+    "id": 7,
+    "text": "If the shapes below were not coloured, which one would have the most lines of symmetry?",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "images": []
+  },
+  {
+    "id": 8,
+    "text": "What is \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n?",
+    "options": [
+      "a) 26",
+      "b) 38",
+      "c) 4",
+      "d) 6",
+      "e) 3"
+    ],
+    "images": []
+  },
+  {
+    "id": 9,
+    "text": "___\u00a0\u00f7\u00a01000\u00a0=\u00a00.2543\n\nWhat number is missing from the calculation above?",
+    "options": [
+      "a) 254.3",
+      "b) 25\u00a0430",
+      "c) 25.43",
+      "d) 2543",
+      "e) 2.543"
+    ],
+    "images": []
+  },
+  {
+    "id": 10,
+    "text": "Jenna has made this shape out of blocks.\n\nWhich of the shapes below is identical to Jenna\u2019s shape?",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "images": [
+      "q10_img0.png"
+    ]
+  }
+]

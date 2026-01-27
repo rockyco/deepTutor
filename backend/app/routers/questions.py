@@ -25,7 +25,7 @@ async def get_questions(
     subject: Subject | None = None,
     question_type: QuestionType | None = None,
     difficulty: int | None = Query(None, ge=1, le=5),
-    limit: int = Query(10, ge=1, le=50),
+    limit: int = Query(10, ge=1, le=100),
     db: AsyncSession = Depends(get_db),
 ):
     """Get questions with optional filtering."""

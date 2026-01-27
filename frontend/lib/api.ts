@@ -76,17 +76,20 @@ export type QuestionType =
   | "nvr_rotation"
   | "nvr_reflection"
   | "nvr_spatial_3d"
-  | "nvr_codes";
+  | "nvr_codes"
+  | "nvr_visual";
 
 export interface QuestionContent {
   text: string;
   passage?: string;
   options?: string[];
+  option_images?: string[];
   image_url?: string;
   images?: string[];
   items?: string[];
   pairs?: Record<string, string>;
   context?: Record<string, unknown>;
+  multi_select?: boolean;
 }
 
 export interface Answer {

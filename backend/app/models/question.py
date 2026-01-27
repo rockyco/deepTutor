@@ -71,6 +71,7 @@ class QuestionType(str, Enum):
     NVR_REFLECTION = "nvr_reflection"
     NVR_SPATIAL_3D = "nvr_spatial_3d"
     NVR_CODES = "nvr_codes"
+    NVR_VISUAL = "nvr_visual"
 
 
 class QuestionFormat(str, Enum):
@@ -98,11 +99,13 @@ class QuestionContent(BaseModel):
     text: str = Field(description="Main question text or prompt")
     passage: str | None = Field(default=None, description="For comprehension questions")
     options: list[str] | None = Field(default=None, description="For multiple choice")
+    option_images: list[str] | None = Field(default=None, description="For visual options")
     image_url: str | None = Field(default=None, description="For visual questions")
     images: list[str] | None = Field(default=None, description="For NVR with multiple images")
     items: list[str] | None = Field(default=None, description="For drag-drop/ordering")
     pairs: dict[str, str] | None = Field(default=None, description="For matching questions")
     context: dict[str, Any] | None = Field(default=None, description="Additional context data")
+    multi_select: bool = Field(default=False, description="Whether multiple options can be selected")
 
 
 class Answer(BaseModel):

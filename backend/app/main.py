@@ -3,9 +3,12 @@
 import json
 import logging
 from contextlib import asynccontextmanager
+import os
+import base64
 from pathlib import Path
 
 from fastapi import FastAPI
+from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from sqlalchemy import select, func
@@ -14,7 +17,7 @@ from app.config import settings
 from app.db import init_db
 from app.db.database import async_session
 from app.db.models import QuestionDB
-from app.routers import questions_router, practice_router, progress_router, users_router
+from app.routers import questions_router, practice_router, progress, users_router
 
 logger = logging.getLogger(__name__)
 
@@ -97,16 +100,7 @@ app = FastAPI(
 # CORS middleware for frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:3000",
-        "http://localhost:3001",
-        "http://localhost:3002",
-        "http://127.0.0.1:3000",
-        "http://127.0.0.1:3001",
-        "http://127.0.0.1:3002",
-        "https://deep-tutor.pages.dev",
-        "https://*.pages.dev",
-    ],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -115,8 +109,30 @@ app.add_middleware(
 # Include routers
 app.include_router(questions_router)
 app.include_router(practice_router)
-app.include_router(progress_router)
-app.include_router(users_router)
+app.include_router(progress.router, prefix="/api/progress", tags=["progress"])
+
+# Dev/Temp endpoint for image ingestion
+class ImageUpload(BaseModel):
+    filename: str
+    content_b64: str
+
+@app.post("/api/dev/upload_image")
+async def upload_image(data: ImageUpload):
+    # Save to standard images dir
+    output_dir = "data/images/granular"
+    os.makedirs(output_dir, exist_ok=True)
+    
+    file_path = os.path.join(output_dir, data.filename)
+    
+    # Handle data URI prefix
+    content = data.content_b64
+    if "base64," in content:
+        content = content.split("base64,")[1]
+        
+    with open(file_path, "wb") as f:
+        f.write(base64.b64decode(content))
+        
+    return {"status": "ok", "path": f"/images/granular/{data.filename}"}
 
 # Mount static files for images
 images_dir = Path(__file__).parent.parent / "data" / "images"

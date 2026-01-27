@@ -43,7 +43,7 @@ export default function PracticeClient() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [practice, setPractice] = useState<PracticeState | null>(null);
-  const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
+  const [selectedAnswers, setSelectedAnswers] = useState<string[]>([]);
   const [showResult, setShowResult] = useState(false);
   const [currentResult, setCurrentResult] = useState<AnswerResult | null>(null);
   const [showHint, setShowHint] = useState(false);
@@ -100,18 +100,34 @@ export default function PracticeClient() {
   const currentQuestion = practice?.questions[practice.currentIndex];
 
   const handleSelectAnswer = (answer: string) => {
-    if (showResult) return;
-    setSelectedAnswer(answer);
+    if (showResult || !currentQuestion) return;
+
+    if (currentQuestion.content.multi_select) {
+      // Toggle selection for multi-select
+      setSelectedAnswers((prev) => {
+        if (prev.includes(answer)) {
+          return prev.filter((a) => a !== answer);
+        } else {
+          return [...prev, answer];
+        }
+      });
+    } else {
+      // Single select: Just replace
+      setSelectedAnswers([answer]);
+    }
   };
 
   const handleSubmitAnswer = async () => {
-    if (!selectedAnswer || !currentQuestion || !practice) return;
+    if (selectedAnswers.length === 0 || !currentQuestion || !practice) return;
 
     try {
       const hintsUsed = practice.hintsUsed.get(currentQuestion.id) || 0;
+      // Join multiple answers with comma for backend check
+      const finalAnswer = selectedAnswers.join(", ");
+
       const result = await questionsAPI.checkAnswer(
         currentQuestion.id,
-        selectedAnswer,
+        finalAnswer,
         hintsUsed
       );
 
@@ -122,7 +138,7 @@ export default function PracticeClient() {
       setPractice((prev) => {
         if (!prev) return prev;
         const newAnswers = new Map(prev.answers);
-        newAnswers.set(currentQuestion.id, { answer: selectedAnswer, result });
+        newAnswers.set(currentQuestion.id, { answer: finalAnswer, result });
         return { ...prev, answers: newAnswers };
       });
     } catch (err) {
@@ -164,7 +180,7 @@ export default function PracticeClient() {
       if (!prev) return prev;
       return { ...prev, currentIndex: prev.currentIndex + 1 };
     });
-    setSelectedAnswer(null);
+    setSelectedAnswers([]);
     setShowResult(false);
     setCurrentResult(null);
     setShowHint(false);
@@ -175,7 +191,7 @@ export default function PracticeClient() {
     // Fetch new randomized questions from the backend
     setLoading(true);
     setSessionComplete(false);
-    setSelectedAnswer(null);
+    setSelectedAnswers([]);
     setShowResult(false);
     setCurrentResult(null);
     setShowHint(false);
@@ -450,11 +466,15 @@ export default function PracticeClient() {
                 : "space-y-3"
             )}>
               {currentQuestion.content.options.map((option, index) => {
-                const isSelected = selectedAnswer === option;
+                const isSelected = selectedAnswers.includes(option);
                 const isCorrect =
                   showResult && String(currentResult?.correct_answer) === option;
                 const isWrong = showResult && isSelected && !currentResult?.is_correct;
-                const isImageOption = isImageUrl(option);
+
+                // Check for explicit option image OR if option text is URL
+                const optionImage = currentQuestion.content.option_images?.[index];
+                const isImageOption = !!optionImage || isImageUrl(option);
+                const displayImage = optionImage ? getImageUrl(optionImage) : getImageUrl(option);
 
                 return (
                   <button
@@ -473,7 +493,7 @@ export default function PracticeClient() {
                     {isImageOption ? (
                       <div className="flex flex-col items-center gap-2">
                         <img
-                          src={getImageUrl(option)}
+                          src={displayImage}
                           alt={`Option ${String.fromCharCode(65 + index)}`}
                           className="w-20 h-20 object-contain bg-white"
                         />
@@ -520,8 +540,8 @@ export default function PracticeClient() {
             <div>
               <input
                 type="text"
-                value={selectedAnswer || ""}
-                onChange={(e) => setSelectedAnswer(e.target.value)}
+                value={selectedAnswers[0] || ""}
+                onChange={(e) => setSelectedAnswers([e.target.value])}
                 disabled={showResult}
                 placeholder="Type your answer here..."
                 className={cn(
@@ -598,10 +618,10 @@ export default function PracticeClient() {
             {!showResult ? (
               <button
                 onClick={handleSubmitAnswer}
-                disabled={!selectedAnswer}
+                disabled={selectedAnswers.length === 0}
                 className={cn(
                   "inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium",
-                  selectedAnswer
+                  selectedAnswers.length > 0
                     ? "bg-indigo-600 text-white hover:bg-indigo-700"
                     : "bg-gray-200 text-gray-400 cursor-not-allowed"
                 )}

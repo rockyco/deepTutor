@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     debug: bool = True
 
     # Database
-    database_url: str = "sqlite+aiosqlite:///./data/tutor.db"
+    database_url: str = "sqlite+aiosqlite:///data/tutor.db"  # Default for Docker
 
     # Paths
     base_dir: Path = Path(__file__).parent.parent

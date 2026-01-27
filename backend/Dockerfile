@@ -22,6 +22,7 @@ RUN uv pip install --system -e .
 COPY app/ ./app/
 COPY scripts/ ./scripts/
 COPY data/questions/ ./data/questions/
+COPY data/images/ ./data/images/
 
 # Create data directory for SQLite database
 RUN mkdir -p /data

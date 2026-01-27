@@ -2,18 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "11+ Deep Tutor - Master Your GL Assessment",
-  description:
-    "AI-powered 11+ exam preparation for GL Assessment. Practice English, Maths, Verbal Reasoning, and Non-verbal Reasoning.",
-  keywords: [
-    "11+",
-    "GL Assessment",
-    "grammar school",
-    "verbal reasoning",
-    "non-verbal reasoning",
-    "11 plus",
-    "exam preparation",
-  ],
+  title: "DeepTutor | Premium AI 11+ Prep",
+  description: "AI-powered 11+ exam preparation for GL Assessment",
 };
 
 export default function RootLayout({
@@ -22,8 +12,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className="min-h-screen bg-gray-50">{children}</body>
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet" />
+      </head>
+      <body className="min-h-screen bg-surface font-sans antialiased text-slate-800 selection:bg-primary-200 selection:text-primary-900">
+        {children}
+      </body>
     </html>
   );
 }

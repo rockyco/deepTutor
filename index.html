@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepTutor | Premium AI 11+ Prep</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        heading: ['"Outfit"', 'sans-serif'],
+                        serif: ['"Merriweather"', 'serif'],
+                    },
+                    colors: {
+                        primary: {
+                            50: '#f5f3ff',
+                            100: '#ede9fe',
+                            200: '#ddd6fe',
+                            300: '#c4b5fd',
+                            400: '#a78bfa',
+                            500: '#8b5cf6',
+                            600: '#7c3aed',
+                            700: '#6d28d9',
+                            800: '#5b21b6',
+                            900: '#4c1d95',
+                        },
+                        surface: '#f8fafc',
+                    },
+                    animation: {
+                        'float': 'float 6s ease-in-out infinite',
+                        'fade-in-up': 'fadeInUp 0.5s ease-out forwards',
+                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-10px)' },
+                        },
+                        fadeInUp: {
+                            '0%': { opacity: '0', transform: 'translateY(20px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #f8fafc;
+            /* surface */
+        }
+
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .glass-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px -1px rgba(99, 102, 241, 0.15);
+            border-color: rgba(124, 58, 237, 0.3);
+        }
+
+        .btn-gradient {
+            background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+            transition: all 0.3s ease;
+        }
+
+        .btn-gradient:hover {
+            opacity: 0.95;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+
+        .option-selected {
+            border-color: #7c3aed;
+            background-color: #f5f3ff;
+            box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.1);
+        }
+    </style>
+</head>
+
+<body
+    class="h-screen flex text-slate-800 antialiased overflow-hidden selection:bg-primary-200 selection:text-primary-900">
+
+    <!-- Sidebar -->
+    <aside
+        class="w-20 lg:w-72 bg-white border-r border-slate-200 flex flex-col transition-all duration-300 z-20 shadow-sm relative group">
+        <div class="h-20 flex items-center justify-center lg:justify-start lg:px-6 border-b border-slate-100">
+            <div
+                class="relative w-10 h-10 flex-shrink-0 bg-gradient-to-br from-primary-600 to-indigo-600 rounded-xl flex items-center justify-center text-white font-bold text-lg shadow-lg shadow-primary-500/30">
+                DT
+                <div class="absolute -top-1 -right-1 w-3 h-3 bg-green-400 rounded-full border-2 border-white"></div>
+            </div>
+            <div
+                class="ml-3 hidden lg:block opacity-0 group-hover:opacity-100 lg:opacity-100 transition-opacity duration-300">
+                <h1 class="font-heading font-bold text-xl tracking-tight text-slate-900">DeepTutor</h1>
+                <p class="text-xs text-slate-500 font-medium tracking-wider uppercase">AI 11+ Platform</p>
+            </div>
+        </div>
+
+        <div class="flex-grow py-6 px-3 space-y-2 overflow-y-auto">
+            <div class="px-3 mb-2 hidden lg:block">
+                <h3 class="text-xs font-bold text-slate-400 uppercase tracking-widest">Modules</h3>
+            </div>
+
+            <button onclick="switchView('dashboard')"
+                class="w-full flex items-center gap-4 px-3 py-3 rounded-xl hover:bg-slate-50 text-slate-600 hover:text-primary-600 transition-colors group/btn">
+                <svg class="w-6 h-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
+                </svg>
+                <span class="hidden lg:block font-medium">Dashboard</span>
+            </button>
+
+            <button onclick="filterQuestions('Mathematics')"
+                class="w-full flex items-center gap-4 px-3 py-3 rounded-xl hover:bg-blue-50 text-slate-600 hover:text-blue-600 transition-colors">
+                <div
+                    class="w-6 h-6 rounded-lg bg-blue-100 text-blue-600 flex items-center justify-center text-xs font-bold flex-shrink-0">
+                </div>
+                <span class="hidden lg:block font-medium">Mathematics</span>
+            </button>
+            <button onclick="filterQuestions('Verbal Reasoning')"
+                class="w-full flex items-center gap-4 px-3 py-3 rounded-xl hover:bg-purple-50 text-slate-600 hover:text-purple-600 transition-colors">
+                <div
+                    class="w-6 h-6 rounded-lg bg-purple-100 text-purple-600 flex items-center justify-center text-xs font-bold flex-shrink-0">
+                    Ab</div>
+                <span class="hidden lg:block font-medium">Verbal Reasoning</span>
+            </button>
+            <button onclick="filterQuestions('Non-Verbal')"
+                class="w-full flex items-center gap-4 px-3 py-3 rounded-xl hover:bg-orange-50 text-slate-600 hover:text-orange-600 transition-colors">
+                <div
+                    class="w-6 h-6 rounded-lg bg-orange-100 text-orange-600 flex items-center justify-center text-xs font-bold flex-shrink-0">
+                </div>
+                <span class="hidden lg:block font-medium">Non-Verbal</span>
+            </button>
+            <button onclick="filterQuestions('English')"
+                class="w-full flex items-center gap-4 px-3 py-3 rounded-xl hover:bg-green-50 text-slate-600 hover:text-green-600 transition-colors">
+                <div
+                    class="w-6 h-6 rounded-lg bg-green-100 text-green-600 flex items-center justify-center text-xs font-bold flex-shrink-0">
+                    ¶</div>
+                <span class="hidden lg:block font-medium">English</span>
+            </button>
+        </div>
+
+        <div class="p-4 mt-auto border-t border-slate-100">
+            <button onclick="promptApiKey()"
+                class="w-full flex items-center gap-3 px-3 py-2 rounded-xl bg-slate-50 hover:bg-slate-100 text-slate-600 transition-colors">
+                <div class="relative">
+                    <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z" />
+                    </svg>
+                    <div id="key-indicator"
+                        class="absolute -top-1 -right-1 w-2 h-2 bg-red-500 rounded-full border border-white"></div>
+                </div>
+                <span class="hidden lg:block font-medium text-sm">Settings & API</span>
+            </button>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-grow flex flex-col relative overflow-hidden bg-slate-50/50">
+
+        <!-- Header -->
+        <header
+            class="h-20 bg-white/80 backdrop-blur-md border-b border-slate-200 px-8 flex items-center justify-between z-10 sticky top-0">
+            <div>
+                <h2 id="page-title" class="text-xl font-heading font-bold text-slate-800">Dashboard</h2>
+                <p id="page-subtitle" class="text-xs text-slate-500 font-medium">Welcome back, Student</p>
+            </div>
+
+            <div class="flex items-center gap-4">
+                <div id="exam-timer-container"
+                    class="hidden flex items-center gap-2 bg-white border border-slate-200 rounded-full px-4 py-1.5 shadow-sm">
+                    <div class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></div>
+                    <span id="exam-timer" class="font-mono font-bold text-slate-700 text-sm">50:00</span>
+                </div>
+                <div class="h-8 w-8 rounded-full bg-gradient-to-tr from-blue-500 to-purple-500 p-[2px]">
+                    <div class="h-full w-full rounded-full bg-white flex items-center justify-center">
+                        <span
+                            class="font-bold text-xs text-transparent bg-clip-text bg-gradient-to-tr from-blue-500 to-purple-500">JS</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Views Container -->
+        <div id="content-area" class="flex-grow overflow-y-auto p-6 md:p-10 scroll-smooth relative">
+
+            <!-- Dashboard View -->
+            <div id="view-dashboard" class="max-w-6xl mx-auto animate-fade-in-up">
+
+                <section class="mb-12">
+                    <div class="flex justify-between items-end mb-6">
+                        <div>
+                            <h3 class="text-2xl font-heading font-bold text-slate-900">Start Practicing</h3>
+                            <p class="text-slate-500">Choose a mode to begin your session</p>
+                        </div>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <!-- Full Mock Card -->
+                        <div onclick="startExam('full')"
+                            class="glass-card rounded-2xl p-8 cursor-pointer relative overflow-hidden group">
+                            <div
+                                class="absolute top-0 right-0 w-64 h-64 bg-primary-100 rounded-full blur-3xl -mr-32 -mt-32 opacity-50 transition duration-500 group-hover:opacity-70">
+                            </div>
+
+                            <div class="relative z-10">
+                                <div
+                                    class="w-14 h-14 rounded-2xl bg-indigo-50 text-indigo-600 flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition-transform duration-300">
+                                    ??
+                                </div>
+                                <h3 class="text-2xl font-bold text-slate-900 mb-2">Full Mock Exam</h3>
+                                <p class="text-slate-500 mb-6">Simulate the real exam experience. 52 mixed questions,
+                                    strict timing.</p>
+
+                                <div class="flex items-center gap-3 text-sm font-medium text-slate-600">
+                                    <span class="bg-white/60 px-3 py-1 rounded-full border border-slate-200/50">?? 50
+                                        Mins</span>
+                                    <span class="bg-white/60 px-3 py-1 rounded-full border border-slate-200/50">?? 52
+                                        Qs</span>
+                                    <span
+                                        class="bg-green-100 text-green-700 px-3 py-1 rounded-full border border-green-200/50">Official
+                                        Format</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Import Card -->
+                        <div onclick="switchView('import')"
+                            class="glass-card rounded-2xl p-8 cursor-pointer relative overflow-hidden group">
+                            <div
+                                class="absolute top-0 right-0 w-64 h-64 bg-purple-100 rounded-full blur-3xl -mr-32 -mt-32 opacity-50 transition duration-500 group-hover:opacity-70">
+                            </div>
+
+                            <div class="relative z-10">
+                                <div
+                                    class="w-14 h-14 rounded-2xl bg-purple-50 text-purple-600 flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition-transform duration-300">
+                                    ?
+                                </div>
+                                <h3 class="text-2xl font-bold text-slate-900 mb-2">AI Resource Importer</h3>
+                                <p class="text-slate-500 mb-6">Digitize paper tests instantly using Gemini AI. Paste
+                                    text and convert to interactive quizzes.</p>
+
+                                <div class="flex items-center gap-3 text-sm font-medium text-slate-600">
+                                    <span
+                                        class="bg-purple-100 text-purple-700 px-3 py-1 rounded-full border border-purple-200/50">?
+                                        Powered by Gemini</span>
+                                    <span class="bg-white/60 px-3 py-1 rounded-full border border-slate-200/50">?
+                                        Instant Digitization</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <h3 class="text-lg font-heading font-bold text-slate-900 mb-4">Topic Shortcuts</h3>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                        <button onclick="filterQuestions('Mathematics')"
+                            class="bg-white p-4 rounded-xl shadow-sm border border-slate-100 hover:border-blue-300 hover:shadow-md transition text-left group">
+                            <div
+                                class="w-8 h-8 rounded-lg bg-blue-100/50 text-blue-600 flex items-center justify-center mb-3 group-hover:bg-blue-600 group-hover:text-white transition">
+                            </div>
+                            <div class="font-bold text-slate-800">Mathematics</div>
+                            <div class="text-xs text-slate-400">Numbers & Data</div>
+                        </button>
+                        <button onclick="filterQuestions('Verbal Reasoning')"
+                            class="bg-white p-4 rounded-xl shadow-sm border border-slate-100 hover:border-purple-300 hover:shadow-md transition text-left group">
+                            <div
+                                class="w-8 h-8 rounded-lg bg-purple-100/50 text-purple-600 flex items-center justify-center mb-3 group-hover:bg-purple-600 group-hover:text-white transition">
+                                Ab</div>
+                            <div class="font-bold text-slate-800">Verbal Reasoning</div>
+                            <div class="text-xs text-slate-400">Logic & Vocabulary</div>
+                        </button>
+                        <button onclick="filterQuestions('Non-Verbal')"
+                            class="bg-white p-4 rounded-xl shadow-sm border border-slate-100 hover:border-orange-300 hover:shadow-md transition text-left group">
+                            <div
+                                class="w-8 h-8 rounded-lg bg-orange-100/50 text-orange-600 flex items-center justify-center mb-3 group-hover:bg-orange-600 group-hover:text-white transition">
+                            </div>
+                            <div class="font-bold text-slate-800">Non-Verbal</div>
+                            <div class="text-xs text-slate-400">Patterns & Shapes</div>
+                        </button>
+                        <button onclick="filterQuestions('English')"
+                            class="bg-white p-4 rounded-xl shadow-sm border border-slate-100 hover:border-green-300 hover:shadow-md transition text-left group">
+                            <div
+                                class="w-8 h-8 rounded-lg bg-green-100/50 text-green-600 flex items-center justify-center mb-3 group-hover:bg-green-600 group-hover:text-white transition">
+                                ¶</div>
+                            <div class="font-bold text-slate-800">English</div>
+                            <div class="text-xs text-slate-400">Comprehension</div>
+                        </button>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Exam View -->
+            <div id="view-exam" class="hidden h-full flex flex-col md:flex-row gap-6 animate-fade-in-up">
+                <!-- Question Area -->
+                <div class="flex-grow flex flex-col h-full overflow-hidden">
+                    <div class="glass-panel flex-grow rounded-2xl p-8 overflow-y-auto mb-6 relative">
+                        <!-- Progress Header inside card -->
+                        <div class="flex items-center justify-between mb-8 border-b border-slate-100 pb-4">
+                            <div class="flex items-center gap-3">
+                                <span id="q-category-tag"
+                                    class="px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-xs font-bold uppercase tracking-wide">Category</span>
+                            </div>
+                            <span id="q-counter"
+                                class="text-slate-400 font-mono text-sm font-bold bg-slate-50 px-2 py-1 rounded">1/52</span>
+                        </div>
+
+                        <div id="q-content" class="mb-8">
+                            <!-- Passage container -->
+                            <div id="q-passage"
+                                class="hidden mb-8 p-6 md:p-8 bg-stone-50 border-l-4 border-stone-300 rounded-r-xl shadow-sm">
+                                <h4 class="text-xs font-bold text-stone-400 uppercase tracking-widest mb-3">Passage</h4>
+                                <div class="serif text-base md:text-lg leading-loose text-stone-800"></div>
+                            </div>
+
+                            <!-- Question Text -->
+                            <h2 id="q-text" class="text-xl md:text-2xl font-bold text-slate-900 leading-snug mb-6">
+                                Question Text</h2>
+                        </div>
+
+                        <!-- Options Grid -->
+                        <div id="q-options" class="grid grid-cols-1 gap-3 max-w-3xl">
+                            <!-- Injected via JS -->
+                        </div>
+                    </div>
+
+                    <!-- Action Bar -->
+                    <div class="glass-panel p-4 rounded-2xl flex justify-between items-center">
+                        <button onclick="prevQ()"
+                            class="px-6 py-3 rounded-xl font-medium text-slate-500 hover:bg-slate-100 hover:text-slate-900 transition disabled:opacity-50">
+                            ? Previous
+                        </button>
+
+                        <button onclick="flagQ()" id="btn-flag"
+                            class="px-6 py-3 rounded-xl font-medium text-amber-500 hover:bg-amber-50 transition border border-transparent hover:border-amber-200 flex items-center gap-2">
+                            ?? Flag for Review
+                        </button>
+
+                        <button onclick="nextQ()"
+                            class="btn-gradient text-white px-8 py-3 rounded-xl font-bold shadow-lg shadow-primary-500/30 flex items-center gap-2 group">
+                            Next Question
+                            <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Side Map -->
+                <div class="w-full md:w-72 flex-shrink-0 hidden md:flex flex-col gap-6">
+                    <div class="glass-panel p-6 rounded-2xl flex-grow overflow-y-auto">
+                        <h4 class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">Question Map</h4>
+                        <div id="q-grid" class="grid grid-cols-5 gap-2">
+                            <!-- Dots injected via JS -->
+                        </div>
+                    </div>
+
+                    <button onclick="submitExam()"
+                        class="w-full py-4 rounded-xl bg-white border-2 border-red-50 text-red-500 font-bold hover:bg-red-50 hover:border-red-100 transition shadow-sm">
+                        Finish & Submit
+                    </button>
+                </div>
+            </div>
+
+            <!-- Results View -->
+            <div id="view-results" class="hidden max-w-5xl mx-auto space-y-8 animate-fade-in-up pb-20">
+                <!-- Score Header -->
+                <div class="glass-panel p-10 rounded-2xl text-center relative overflow-hidden">
+                    <div class="absolute inset-0 bg-gradient-to-r from-indigo-50/50 via-purple-50/50 to-pink-50/50">
+                    </div>
+                    <div class="relative z-10">
+                        <h2 class="text-4xl font-heading font-bold text-slate-900 mb-2">Assessment Complete</h2>
+                        <p class="text-slate-500 mb-8">Great job completing the assessment. Here is your breakdown.</p>
+
+                        <div class="flex justify-center items-end gap-2 mb-8">
+                            <span
+                                class="text-7xl font-heading font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-indigo-600"
+                                id="res-score">0%</span>
+                        </div>
+
+                        <div class="grid grid-cols-2 max-w-xs mx-auto gap-4">
+                            <div class="bg-green-50 rounded-xl p-4 border border-green-100">
+                                <span class="block text-xs font-bold text-green-600 uppercase mb-1">Correct</span>
+                                <span class="block text-2xl font-bold text-green-700" id="res-correct">0</span>
+                            </div>
+                            <div class="bg-red-50 rounded-xl p-4 border border-red-100">
+                                <span class="block text-xs font-bold text-red-600 uppercase mb-1">Incorrect</span>
+                                <span class="block text-2xl font-bold text-red-700" id="res-wrong">0</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Charts -->
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="glass-panel rounded-2xl p-6">
+                        <h3 class="font-bold text-slate-700 mb-6 flex items-center gap-2">
+                            <span class="w-2 h-6 bg-primary-500 rounded-full"></span>
+                            Subject Breakdown
+                        </h3>
+                        <div class="chart-container relative h-64"><canvas id="resultsRadar"></canvas></div>
+                    </div>
+                    <div class="glass-panel rounded-2xl p-6">
+                        <h3 class="font-bold text-slate-700 mb-6 flex items-center gap-2">
+                            <span class="w-2 h-6 bg-purple-500 rounded-full"></span>
+                            Topic Performance
+                        </h3>
+                        <div class="chart-container relative h-64"><canvas id="resultsBar"></canvas></div>
+                    </div>
+                </div>
+
+                <!-- Detailed Review -->
+                <div class="glass-panel rounded-2xl overflow-hidden border-0">
+                    <div
+                        class="px-8 py-6 border-b border-slate-100 bg-white sticky top-0 z-10 flex justify-between items-center">
+                        <h3 class="font-bold text-lg text-slate-800">Detailed Review & AI Tutor</h3>
+                        <span class="text-xs font-bold bg-primary-50 text-primary-600 px-3 py-1 rounded-full">Gemini
+                            Enabled</span>
+                    </div>
+                    <div id="review-list" class="divide-y divide-slate-100 bg-white">
+                        <!-- Injected -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Import View -->
+            <div id="view-import" class="hidden max-w-3xl mx-auto animate-fade-in-up">
+                <div class="glass-panel rounded-2xl p-8">
+                    <div class="mb-6">
+                        <h2 class="text-2xl font-bold text-slate-900 mb-2">Smart Resource Importer</h2>
+                        <p class="text-sm text-slate-500">Paste text from any PDF or website. Our AI will structure it
+                            into a quiz.</p>
+                    </div>
+
+                    <div class="relative mb-6">
+                        <textarea id="import-text"
+                            class="w-full h-64 p-6 bg-slate-50 border border-slate-200 rounded-xl font-mono text-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:bg-white transition resize-none"
+                            placeholder="Paste question text here..."></textarea>
+                        <div class="absolute bottom-4 right-4 text-xs text-slate-400 pointer-events-none">Markdown
+                            Supported</div>
+                    </div>
+
+                    <div class="flex justify-end">
+                        <button onclick="processImport()" id="btn-import"
+                            class="btn-gradient text-white px-8 py-3 rounded-xl font-bold shadow-lg shadow-purple-500/20 flex items-center gap-2">
+                            <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                            </svg>
+                            Process with Gemini
+                        </button>
+                    </div>
+
+                    <div id="import-preview" class="hidden mt-8 border-t border-slate-100 pt-8 animate-fade-in-up">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="font-bold text-slate-800">Preview Parsed Question</h3>
+                            <span class="bg-green-100 text-green-700 text-xs font-bold px-2 py-1 rounded">Success</span>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl border border-slate-200 mb-6 shadow-sm" id="import-card">
+                        </div>
+                        <button onclick="addToBank()"
+                            class="w-full bg-green-500 text-white py-3 rounded-xl font-bold hover:bg-green-600 transition shadow-lg shadow-green-500/20">Add
+                            to Question Bank</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- AI Modal -->
+    <div id="ai-modal"
+        class="hidden fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-sm flex items-center justify-center p-4 transition-opacity duration-300">
+        <div
+            class="bg-white rounded-2xl w-full max-w-2xl max-h-[85vh] overflow-y-auto p-8 relative shadow-2xl animate-fade-in-up">
+            <button onclick="document.getElementById('ai-modal').classList.add('hidden')"
+                class="absolute top-4 right-4 w-8 h-8 flex items-center justify-center rounded-full bg-slate-100 text-slate-400 hover:bg-slate-200 hover:text-slate-600 transition">&times;</button>
+            <div class="flex items-center gap-3 mb-6">
+                <div
+                    class="w-10 h-10 rounded-xl bg-gradient-to-br from-primary-500 to-indigo-600 flex items-center justify-center text-white">
+                    ?</div>
+                <h3 class="text-xl font-bold text-slate-900">AI Tutor Assistant</h3>
+            </div>
+            <div id="ai-modal-content" class="prose prose-slate max-w-none"></div>
+        </div>
+    </div>
+
+    <!-- API Key Modal -->
+    <div id="key-modal"
+        class="hidden fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-md flex items-center justify-center p-4">
+        <div class="glass-panel bg-white rounded-2xl w-full max-w-md p-8 relative shadow-2xl animate-fade-in-up">
+            <div class="text-center mb-6">
+                <div
+                    class="w-16 h-16 bg-primary-100 text-primary-600 rounded-2xl flex items-center justify-center mx-auto mb-4 text-3xl">
+                    ?</div>
+                <h2 class="text-2xl font-bold text-slate-900 mb-2">Unlock AI Powers</h2>
+                <p class="text-slate-500 text-sm">Enter your Google Gemini API key to enable AI explanations, question
+                    generation, and importing.</p>
+            </div>
+
+            <input type="password" id="api-key-input"
+                class="w-full p-4 bg-slate-50 border border-slate-200 rounded-xl mb-4 focus:ring-2 focus:ring-primary-500 focus:outline-none transition"
+                placeholder="Paste key identifying with AIzaSy...">
+
+            <button onclick="saveApiKey()"
+                class="w-full btn-gradient text-white py-3.5 rounded-xl font-bold shadow-lg shadow-primary-500/30 mb-4">Save
+                & Continue</button>
+
+            <p class="text-xs text-center text-slate-400">
+                Key is stored locally in your browser. <br>
+                <a href="https://aistudio.google.com/app/apikey" target="_blank"
+                    class="text-primary-600 hover:underline">Get a free key from Google AI Studio</a>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // --- DATA & STATE ---
+        const mockQuestions = [
+            { id: 1, subject: "Mathematics", type: "Place Value", text: "What is the value of the digit 6 in the number 462,091?", options: ["Sixty", "Six hundred", "Six thousand", "Sixty thousand", "Six hundred thousand"], correct: 3 },
+            { id: 2, subject: "Mathematics", type: "Number Properties", text: "Identify the prime number in the following list:", options: ["21", "27", "31", "39", "49"], correct: 2 },
+            { id: 3, subject: "Mathematics", type: "Arithmetic", text: "Calculate: 144  (12 - 4) + 3", options: ["21", "15", "9", "14", "24"], correct: 0 },
+            { id: 4, subject: "Mathematics", type: "Time", text: "A train departs Station A at 14:45 and arrives at Station B at 17:10. How long is the journey?", options: ["2 hrs 15 mins", "2 hrs 25 mins", "2 hrs 35 mins", "2 hrs 55 mins", "3 hrs 15 mins"], correct: 1 },
+            { id: 5, subject: "Mathematics", type: "Percentage", text: "What is 15% of 300?", options: ["30", "35", "40", "45", "50"], correct: 3 },
+            { id: 36, subject: "English", type: "Comprehension", passage: "The fog had wrapped the city in a stifling grey blanket, muffling the clip-clop of hooves on the cobblestones. Arthur pulled his collar tight against the damp chill. He was a man of distinct habits, and the interruption to his morning routine a letter, delivered by a breathless urchin had unsettled him greatly.", text: "What effect does the fog have on the city?", options: ["It makes it brighter.", "It makes it louder.", "It silences sound.", "It makes it crowded.", "It makes it warm."], correct: 2 },
+            { id: 41, subject: "Verbal Reasoning", type: "Insert Letter", text: "Complete the words: STE (? ) EAR", options: ["A", "E", "P", "L", "M"], correct: 2 },
+            { id: 52, subject: "Verbal Reasoning", type: "Word-Number", text: "If TALE is 7135 and LATE is 3175, what is TEAL?", options: ["7513", "7531", "7315", "7153", "7351"], correct: 0 },
+            { id: 53, subject: "Non-Verbal", type: "Series", text: "Series: Circle -> Circle with 1 line -> Circle with 2 lines -> Circle with 3 lines. What comes next?", options: ["Circle with 4 lines", "Circle with 0 lines", "Square", "Triangle"], correct: 0 }
+        ];
+
+        let state = { questions: [...mockQuestions], currentIndex: 0, answers: {}, flags: {}, timeRemaining: 3000, timerInterval: null };
+        let apiKey = localStorage.getItem('gemini_api_key') || "";
+
+        // --- INIT ---
+        window.onload = function () {
+            updateKeyIndicator();
+            if (!apiKey) {
+                // Optional: Auto open modal if you want to force entry, 
+                // but let's just leave the indicator red for better UX
+            }
+        };
+
+        function updateKeyIndicator() {
+            const el = document.getElementById('key-indicator');
+            if (apiKey) {
+                el.classList.replace('bg-red-500', 'bg-green-500');
+            } else {
+                el.classList.replace('bg-green-500', 'bg-red-500');
+            }
+        }
+
+        function promptApiKey() { document.getElementById('key-modal').classList.remove('hidden'); }
+        function saveApiKey() {
+            const input = document.getElementById('api-key-input').value.trim();
+            if (input) {
+                apiKey = input;
+                localStorage.setItem('gemini_api_key', apiKey);
+                document.getElementById('key-modal').classList.add('hidden');
+                updateKeyIndicator();
+            }
+        }
+
+        // --- CORE NAVIGATION ---
+        function switchView(view) {
+            ['dashboard', 'exam', 'results', 'import'].forEach(v => document.getElementById(`view-${v}`).classList.add('hidden'));
+            document.getElementById(`view-${view}`).classList.remove('hidden');
+
+            // Update Headers
+            const titles = {
+                'dashboard': 'Dashboard',
+                'exam': 'Practice Session',
+                'results': 'Analysis',
+                'import': 'Import Questions'
+            };
+            document.getElementById('page-title').innerText = titles[view] || 'DeepTutor';
+        }
+
+        function filterQuestions(subject) {
+            const filtered = mockQuestions.filter(q => q.subject === subject);
+            if (filtered.length === 0) return alert(`No questions available for ${subject}`);
+            state.questions = filtered;
+            startExam('filtered');
+        }
+
+        function startExam(mode = 'full') {
+            if (mode === 'full') state.questions = [...mockQuestions];
+            state.currentIndex = 0; state.answers = {}; state.flags = {};
+            switchView('exam');
+            document.getElementById('exam-timer-container').classList.remove('hidden');
+            state.timeRemaining = mode === 'full' ? 3000 : 1200;
+            if (state.timerInterval) clearInterval(state.timerInterval);
+            state.timerInterval = setInterval(() => {
+                state.timeRemaining--;
+                const m = Math.floor(state.timeRemaining / 60);
+                const s = state.timeRemaining % 60;
+                document.getElementById('exam-timer').innerText = `${m}:${s.toString().padStart(2, '0')}`;
+                if (state.timeRemaining <= 0) submitExam();
+            }, 1000);
+            renderNavDots(); loadQuestion(0);
+        }
+
+        // --- EXAM LOGIC ---
+        function loadQuestion(idx) {
+            state.currentIndex = idx;
+            const q = state.questions[idx];
+            document.getElementById('q-counter').innerText = `${idx + 1}/${state.questions.length}`;
+            document.getElementById('q-category-tag').innerText = `${q.subject} " ${q.type}`;
+            document.getElementById('q-text').innerText = q.text;
+
+            const passEl = document.getElementById('q-passage');
+            if (q.passage) {
+                passEl.querySelector('div').innerText = q.passage;
+                passEl.classList.remove('hidden');
+            } else {
+                passEl.classList.add('hidden');
+            }
+
+            const saved = state.answers[q.id];
+
+            // Check flag button
+            const btnFlag = document.getElementById('btn-flag');
+            if (state.flags[q.id]) {
+                btnFlag.classList.add('text-amber-600', 'bg-amber-100');
+                btnFlag.innerHTML = "??? Flagged";
+            } else {
+                btnFlag.classList.remove('text-amber-600', 'bg-amber-100');
+                btnFlag.innerHTML = "?? Flag for Review";
+            }
+
+            document.getElementById('q-options').innerHTML = q.options.map((opt, i) => `
+                <button onclick="selectOption(${q.id}, ${i})" 
+                    class="w-full text-left p-4 md:p-5 rounded-xl border-2 transition-all duration-200 group flex items-center
+                    ${saved === i ? 'option-selected' : 'border-slate-200 bg-white hover:border-primary-300 hover:bg-slate-50'}">
+                    
+                    <span class="w-8 h-8 rounded-full border-2 flex-shrink-0 flex items-center justify-center font-bold mr-4 text-sm transition-colors
+                        ${saved === i ? 'border-primary-600 bg-primary-600 text-white' : 'border-slate-300 text-slate-400 group-hover:border-primary-400 group-hover:text-primary-500'}">
+                        ${String.fromCharCode(65 + i)}
+                    </span>
+                    
+                    <span class="font-medium ${saved === i ? 'text-primary-900' : 'text-slate-700'}">${opt}</span>
+                    
+                    ${saved === i ? '<div class="ml-auto text-primary-600"><svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg></div>' : ''}
+                </button>
+            `).join('');
+
+            updateNavDots();
+        }
+
+        function selectOption(qid, idx) { state.answers[qid] = idx; loadQuestion(state.currentIndex); }
+        function nextQ() { if (state.currentIndex < state.questions.length - 1) loadQuestion(state.currentIndex + 1); }
+        function prevQ() { if (state.currentIndex > 0) loadQuestion(state.currentIndex - 1); }
+        function flagQ() {
+            const qid = state.questions[state.currentIndex].id;
+            state.flags[qid] = !state.flags[qid];
+            loadQuestion(state.currentIndex); // Reload to update button state
+            updateNavDots();
+        }
+
+        function renderNavDots() {
+            document.getElementById('q-grid').innerHTML = state.questions.map((q, i) => `
+                <button id="dot-${i}" onclick="loadQuestion(${i})" class="h-9 w-9 rounded-lg text-xs font-bold border transition-all flex items-center justify-center">${i + 1}</button>
+            `).join('');
+        }
+
+        function updateNavDots() {
+            state.questions.forEach((q, i) => {
+                const dot = document.getElementById(`dot-${i}`);
+                const isAns = state.answers[q.id] !== undefined;
+                const isCurr = state.currentIndex === i;
+                const isFlag = state.flags[q.id];
+
+                let cls = "h-9 w-9 rounded-lg text-xs font-bold border transition-all flex items-center justify-center ";
+
+                if (isCurr) cls += "border-primary-600 ring-2 ring-primary-100 text-primary-600 bg-white ";
+                else if (isAns) cls += "bg-primary-600 text-white border-primary-600 ";
+                else cls += "border-slate-200 text-slate-400 hover:border-slate-300 ";
+
+                if (isFlag && !isAns) cls += " bg-amber-100 text-amber-600 border-amber-300 ";
+                if (isFlag && isAns) cls += " ring-2 ring-amber-300 "; // Ring if both answered and flagged
+
+                dot.className = cls;
+            });
+        }
+
+        function submitExam() {
+            clearInterval(state.timerInterval);
+            switchView('results');
+            document.getElementById('exam-timer-container').classList.add('hidden');
+
+            let correct = 0;
+            state.questions.forEach(q => { if (state.answers[q.id] === q.correct) correct++; });
+
+            document.getElementById('res-score').innerText = Math.round((correct / state.questions.length) * 100) + "%";
+            document.getElementById('res-correct').innerText = correct;
+            document.getElementById('res-wrong').innerText = state.questions.length - correct;
+
+            document.getElementById('review-list').innerHTML = state.questions.map((q, i) => {
+                const ans = state.answers[q.id];
+                const isRight = ans === q.correct;
+                const skipped = ans === undefined;
+
+                return `
+                    <div class="p-8 hover:bg-slate-50 transition">
+                        <div class="flex flex-col md:flex-row md:items-start gap-4 mb-4">
+                            <div class="flex-shrink-0">
+                                <span class="w-8 h-8 flex items-center justify-center rounded-full font-bold text-sm ${isRight ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}">
+                                    ${i + 1}
+                                </span>
+                            </div>
+                            <div class="flex-grow">
+                                <div class="flex items-center gap-2 mb-2">
+                                     <span class="text-xs font-bold uppercase tracking-wider text-slate-400">${q.subject}</span>
+                                     ${!isRight ? `<span class="bg-red-100 text-red-700 text-xs px-2 py-0.5 rounded font-bold">Incorrect</span>` : ''}
+                                </div>
+                                <p class="font-heading font-bold text-slate-800 text-lg mb-3">${q.text}</p>
+                                
+                                <div class="grid md:grid-cols-2 gap-4 text-sm bg-white p-4 rounded-xl border border-slate-200">
+                                    <div class="${isRight ? 'text-green-700' : 'text-red-600'} flex items-center gap-2">
+                                        <span class="font-bold">Your Answer:</span> 
+                                        ${skipped ? 'Skipped' : q.options[ans]}
+                                    </div>
+                                    <div class="text-green-700 flex items-center gap-2">
+                                         <span class="font-bold">Correct Answer:</span>
+                                         ${q.options[q.correct]}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3 ml-12">
+                            <button onclick="explainAnswer(${q.id})" class="text-xs bg-indigo-50 text-indigo-600 px-4 py-2 rounded-lg font-bold hover:bg-indigo-100 border border-indigo-100 flex items-center gap-2 transition">
+                                <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                                AI Explain
+                            </button>
+                            <button onclick="generatePractice(${q.id})" class="text-xs bg-purple-50 text-purple-600 px-4 py-2 rounded-lg font-bold hover:bg-purple-100 border border-purple-100 flex items-center gap-2 transition">
+                                <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+                                Similar Question
+                            </button>
+                        </div>
+                        <div id="feedback-${q.id}" class="mt-4 ml-12 text-sm text-slate-600 prose prose-sm max-w-none"></div>
+                    </div>
+                `;
+            }).join('');
+            renderCharts();
+        }
+
+        function renderCharts() {
+            // Updated chart colors for new theme
+            Chart.defaults.font.family = "'Plus Jakarta Sans', sans-serif";
+            Chart.defaults.color = '#64748b';
+
+            const ctxRadar = document.getElementById('resultsRadar').getContext('2d');
+            new Chart(ctxRadar, {
+                type: 'radar',
+                data: {
+                    labels: ['Maths', 'English', 'VR', 'NVR'],
+                    datasets: [{
+                        label: 'Score',
+                        data: [85, 70, 90, 60],
+                        backgroundColor: 'rgba(124, 58, 237, 0.2)',
+                        borderColor: '#7c3aed',
+                        pointBackgroundColor: '#7c3aed',
+                        pointBorderColor: '#fff',
+                        pointHoverBackgroundColor: '#fff',
+                        pointHoverBorderColor: '#7c3aed'
+                    }]
+                },
+                options: {
+                    scales: {
+                        r: {
+                            angleLines: { color: '#e2e8f0' },
+                            grid: { color: '#e2e8f0' },
+                            pointLabels: { font: { weight: 'bold' }, color: '#475569' }
+                        }
+                    },
+                    plugins: { legend: { display: false } }
+                }
+            });
+        }
+
+        // --- AI FUNCTIONS (Unchanged interactions, just styling in output) ---
+        async function callGemini(prompt, isJson = false) {
+            if (!apiKey) { promptApiKey(); return null; }
+            try {
+                const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`, {
+                    method: 'POST', headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: isJson ? { responseMimeType: "application/json" } : {} })
+                });
+                const data = await res.json();
+                return data.candidates[0].content.parts[0].text;
+            } catch (e) { console.error(e); alert("AI Error. Check API Key."); return null; }
+        }
+
+        async function processImport() {
+            const text = document.getElementById('import-text').value;
+            const btn = document.getElementById('btn-import');
+            const originalText = btn.innerHTML;
+
+            btn.innerHTML = `<svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg> Generating...`;
+
+            const json = await callGemini(`Analyze this test text. Return JSON: { "subject": "Mathematics|English|Verbal Reasoning|Non-Verbal", "type": "Topic", "text": "Question", "options": ["A","B","C","D","E"], "correct": 0, "passage": "Optional passage" }. Text: "${text}"`, true);
+
+            if (json) {
+                window.tempQ = JSON.parse(json); window.tempQ.id = Date.now();
+                document.getElementById('import-preview').classList.remove('hidden');
+                document.getElementById('import-card').innerHTML = `
+                    <span class="text-xs font-bold uppercase text-slate-400 mb-2 block">${window.tempQ.subject}</span>
+                    <h4 class="font-bold text-lg text-slate-900 mb-4">${window.tempQ.text}</h4>
+                    <ul class="space-y-2">
+                        ${window.tempQ.options.map((o, i) => `
+                            <li class="flex items-center gap-3 p-3 rounded-lg bg-slate-50 border border-slate-100">
+                                <span class="w-6 h-6 rounded bg-slate-200 text-slate-500 font-bold flex items-center justify-center text-xs">${String.fromCharCode(65 + i)}</span>
+                                <span class="text-slate-700 font-medium">${o}</span>
+                                ${i === window.tempQ.correct ? '<span class="ml-auto text-green-500 text-xs font-bold uppercase">Correct</span>' : ''}
+                            </li>
+                        `).join('')}
+                    </ul>
+                `;
+            }
+            btn.innerHTML = originalText;
+        }
+
+        function addToBank() {
+            if (window.tempQ) {
+                mockQuestions.push(window.tempQ);
+                alert("Question added to your bank!");
+                document.getElementById('import-preview').classList.add('hidden');
+                document.getElementById('import-text').value = '';
+            }
+        }
+
+        async function explainAnswer(qid) {
+            const el = document.getElementById(`feedback-${qid}`);
+            el.innerHTML = '<div class="flex items-center gap-2 text-indigo-600"><div class="w-2 h-2 rounded-full bg-indigo-600 animate-bounce"></div> Thinking...</div>';
+            const q = state.questions.find(x => x.id === qid);
+            const txt = await callGemini(`Explain to an 11-year-old why '${q.options[q.correct]}' is right for: "${q.text}". Keep it encouraging.`);
+            el.innerHTML = `<div class="bg-indigo-50 p-4 rounded-xl border border-indigo-100 text-slate-700">${marked.parse(txt)}</div>`;
+        }
+
+        async function generatePractice(qid) {
+            const q = state.questions.find(x => x.id === qid);
+            document.getElementById('ai-modal').classList.remove('hidden');
+            document.getElementById('ai-modal-content').innerHTML = `
+                <div class="flex flex-col items-center justify-center py-12">
+                    <div class="w-12 h-12 border-4 border-indigo-200 border-t-indigo-600 rounded-full animate-spin mb-4"></div>
+                    <p class="text-slate-500 font-medium">Creating a custom question for you...</p>
+                </div>
+            `;
+            const json = await callGemini(`Create a NEW 11+ question like: "${q.text}". JSON format.`, true);
+            const newQ = JSON.parse(json);
+
+            document.getElementById('ai-modal-content').innerHTML = `
+                <div class="bg-white">
+                    <span class="text-xs font-bold uppercase tracking-widest text-slate-400 mb-2 block">Practice Question</span>
+                    <h3 class="font-heading font-bold text-xl text-slate-900 mb-6">${newQ.text}</h3>
+                    <div class="space-y-3">
+                        ${newQ.options.map((o, i) => `
+                            <div class="p-4 rounded-xl border-2 ${i === newQ.correct ? 'border-green-200 bg-green-50' : 'border-slate-100'} transition">
+                                <span class="font-bold mr-2 ${i === newQ.correct ? 'text-green-700' : 'text-slate-400'}">${String.fromCharCode(65 + i)}.</span>
+                                <span class="${i === newQ.correct ? 'text-green-800 font-bold' : 'text-slate-600'}">${o}</span>
+                                ${i === newQ.correct ? '<span class="float-right text-green-600 text-sm font-bold">Correct Answer</span>' : ''}
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+        }
+    </script>
+</body>
+
+</html>

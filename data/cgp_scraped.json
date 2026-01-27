@@ -1,0 +1,72 @@
+[
+  {
+    "text": "A cuboid has a length of 14 m, a width of 2 m and a volume of 280 m3. What is the cuboid’s height?",
+    "options": ["20 m", "15 m", "10 m", "20 m", "14 m"],
+    "image_description": null,
+    "subject": "maths",
+    "question_type": "multiple_choice"
+  },
+  {
+    "text": "Charlotte is buying 12 apples at 6p each. She pays with a £5 note. How much change does she get?",
+    "options": ["£2.78", "£4.28", "28p", "72p", "£3.72"],
+    "image_description": null,
+    "subject": "maths",
+    "question_type": "multiple_choice"
+  },
+  {
+    "text": "A sequence begins 73, 71, 68, 64... What is the sixth term in the sequence?",
+    "options": ["53", "62", "56", "60", "59"],
+    "image_description": null,
+    "subject": "maths",
+    "question_type": "multiple_choice"
+  },
+  {
+    "text": "Lucas asked everyone in Year 6 where they would like to go on a trip. He made a pie chart of the results. What fraction of the children said they wanted to go to either a farm or a zoo?",
+    "options": ["4/9", "5/9", "2/7", "1/3", "2/5"],
+    "image_description": "A pie chart showing trip preferences: Farm (70°), Bowling (120°), Zoo (90° right angle), and Museum (remaining).",
+    "subject": "maths",
+    "question_type": "multiple_choice"
+  },
+  {
+    "text": "A chip shop records how many people had salt or vinegar on their chips. The results are shown in this bar chart. Why is the bar chart misleading?",
+    "options": ["The numbers don’t add up to 100.", "The bars should be vertical instead of horizontal.", "The numbers should be given as percentages.", "It doesn’t include other options, such as ketchup.", "The bars don’t begin at 0."],
+    "image_description": "A horizontal bar chart showing preferences for Salt, Vinegar, Both, and Neither with a scale from 0 to 30.",
+    "subject": "maths",
+    "question_type": "multiple_choice"
+  },
+  {
+    "text": "The sentence below contains either one mistake involving punctuation or capital letters or no mistake. Choose the group of words which contains the mistake. If there’s no mistake, choose ‘No mistake’. “Isla’s planned an active day: hiking in the mountains kayaking on a lake and swimming,” said Tim.",
+    "options": ["“Isla’s planned an", "active day: hiking in the", "mountains kayaking on a lake", "and swimming,” said Tim.", "No mistake"],
+    "image_description": null,
+    "subject": "english",
+    "question_type": "multiple_choice"
+  },
+  {
+    "text": "The sentence below contains either one mistake involving punctuation or capital letters or no mistake. Choose the group of words which contains the mistake. If there’s no mistake, choose ‘No mistake’. Geoffrey and Margaret the quick-witted parrots, amused everyone by copying Mr Warbrick’s words.",
+    "options": ["Geoffrey and Margaret the", "quick-witted parrots, amused", "everyone by copying", "Mr Warbrick’s words.", "No mistake"],
+    "image_description": null,
+    "subject": "english",
+    "question_type": "multiple_choice"
+  },
+  {
+    "text": "Which is the onomatopoeic word in this sentence? In the corner of the room, a small log fire crackled gently.",
+    "options": ["corner", "gently", "room", "crackled", "fire"],
+    "image_description": null,
+    "subject": "english",
+    "question_type": "multiple_choice"
+  },
+  {
+    "text": "The sentence below contains a metaphor. Work out which group of words contains this technique and choose the correct group. The song was a key that unlocked a long-forgotten memory in Anna’s mind about her life in Spain.",
+    "options": ["The song was a key", "that unlocked a", "long-forgotten memory", "in Anna’s mind about", "her life in Spain."],
+    "image_description": null,
+    "subject": "english",
+    "question_type": "multiple_choice"
+  },
+  {
+    "text": "The sentence below contains either one spelling mistake or no spelling mistakes. Choose the group of words which contains the mistake. If there’s no mistake, choose ‘no mistake’. The shopkeeper guaranteed his price could not be beaten by other manufaturers.",
+    "options": ["The shopkeeper guaranteed", "his price could not", "be beaten by", "other manufaturers.", "No mistake"],
+    "image_description": null,
+    "subject": "english",
+    "question_type": "multiple_choice"
+  }
+]

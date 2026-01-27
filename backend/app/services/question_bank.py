@@ -65,7 +65,15 @@ class QuestionBankService:
         result = await self.db.execute(query)
         db_questions = result.scalars().all()
 
-        questions = [self._db_to_model(q) for q in db_questions]
+        questions = []
+        for q in db_questions:
+            try:
+                model = self._db_to_model(q)
+                questions.append(model)
+            except Exception as e:
+                # Log error but continue
+                print(f"Error converting question {q.id}: {e}")
+                continue
 
         if random_order:
             random.shuffle(questions)
@@ -99,6 +107,7 @@ class QuestionBankService:
         is_correct = self._compare_answers(
             answer_check.user_answer,
             question.answer,
+            question.content
         )
 
         # Calculate score with hint penalty
@@ -116,7 +125,8 @@ class QuestionBankService:
 
         return AnswerResult(
             is_correct=is_correct,
-            correct_answer=question.answer.value,
+            # Return the actual value text if possible, otherwise the letter
+            correct_answer=question.answer.value, 
             explanation=question.explanation,
             score=score,
             feedback=feedback,
@@ -180,56 +190,104 @@ class QuestionBankService:
 
     def _db_to_model(self, db_question: QuestionDB) -> Question:
         """Convert database model to Pydantic model."""
-        content_data = json.loads(db_question.content)
-        answer_data = json.loads(db_question.answer)
-        hints_data = json.loads(db_question.hints)
+        try:
+            content_data = json.loads(db_question.content)
+            answer_data = json.loads(db_question.answer)
+            hints_data = json.loads(db_question.hints) if db_question.hints else []
+            tags_data = json.loads(db_question.tags) if db_question.tags else []
 
-        # Shuffle options to randomize answer position
-        # The answer is matched by value, not position, so this is safe
-        if "options" in content_data and content_data["options"]:
-            options = content_data["options"].copy()
-            random.shuffle(options)
-            content_data["options"] = options
+            if "options" in content_data and content_data["options"]:
+                options = content_data["options"]
+                # random.shuffle(options) - REMOVED: Shuffling breaks answer key (e.g. Answer 'A' must point to first option)
+                content_data["options"] = options
 
-        return Question(
-            id=UUID(db_question.id),
-            subject=Subject(db_question.subject),
-            question_type=QuestionType(db_question.question_type),
-            format=QuestionFormat(db_question.format),
-            difficulty=db_question.difficulty,
-            content=QuestionContent(**content_data),
-            answer=Answer(**answer_data),
-            explanation=db_question.explanation,
-            hints=[Hint(**h) for h in hints_data],
-            tags=json.loads(db_question.tags),
-            source=db_question.source,
-            created_at=db_question.created_at,
-        )
+            return Question(
+                id=UUID(db_question.id),
+                subject=Subject(db_question.subject) if db_question.subject else Subject.MATHS, # Fallback
+                question_type=QuestionType(db_question.question_type) if db_question.question_type else QuestionType.ARITHMETIC, # Fallback
+                format=QuestionFormat(db_question.format),
+                difficulty=db_question.difficulty,
+                content=QuestionContent(**content_data),
+                answer=Answer(**answer_data),
+                explanation=db_question.explanation or "",
+                hints=[Hint(**h) for h in hints_data],
+                tags=tags_data,
+                source=db_question.source,
+                created_at=db_question.created_at,
+            )
+        except Exception as e:
+            # We raise so that the caller 'get_questions' catches it (or crashes if single get)
+            # ideally get_questions should catch this
+            raise ValueError(f"Data corruption in question {db_question.id}: {e}")
 
     def _compare_answers(
         self,
         user_answer: str | list | dict,
         correct: Answer,
+        content: QuestionContent | None = None,
     ) -> bool:
-        """Compare user answer with correct answer."""
-        user_str = str(user_answer).strip()
-        correct_str = str(correct.value).strip()
+        """Compare user answer with correct answer using robust set logic and text-to-letter resolution."""
+        
+        def normalize_to_set(val, known_options: list[str] | None = None) -> set[str]:
+            """Helper to convert any input to a set of normalized strings."""
+            if isinstance(val, (list, tuple)):
+                return set(str(v).strip().upper() for v in val)
+            
+            if isinstance(val, str):
+                val_clean = val.strip().upper()
+                
+                # OPTIMIZATION: If this string matches a known option exactly, don't split it!
+                # (Fixes answers like "A triangle, base 10 m, height 4 m.")
+                if known_options:
+                     norm_options = [o.strip().upper() for o in known_options]
+                     if val_clean in norm_options:
+                         return {val_clean}
 
-        if not correct.case_sensitive:
-            user_str = user_str.lower()
-            correct_str = correct_str.lower()
+                # Handle comma-separated like "A, B"
+                parts = val.split(',')
+                return set(p.strip().upper() for p in parts if p.strip())
+                
+            return set([str(val).strip().upper()])
 
-        # Check main answer
-        if user_str == correct_str:
+        # Get options for smart normalization
+        current_options = content.options if content and content.options else None
+
+        # Normalize both inputs
+        user_set = normalize_to_set(user_answer, current_options)
+        correct_set = normalize_to_set(correct.value, current_options)
+        
+        # 1. Direct Match (Letter vs Letter OR Text vs Text if backend stored text)
+        if user_set == correct_set:
             return True
 
-        # Check variations
+        # 2. Text-to-Letter Resolution (User sent "Discredit", Correct is "C")
+        if content and content.options:
+            # Map user text to potential letters
+            resolved_letters = set()
+            options = [opt.strip().upper() for opt in content.options]
+            
+            for u_item in user_set:
+                # If user sent "A", keep "A". If "Discredit", find index
+                if u_item in ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]:
+                     resolved_letters.add(u_item)
+                     continue
+                
+                # Try finding text match in options
+                # Exact match
+                try:
+                    idx = options.index(u_item)
+                    resolved_letters.add(chr(65 + idx)) # 0->A
+                except ValueError:
+                    # Fuzzy match fallback could go here
+                    pass
+            
+            if resolved_letters and resolved_letters == correct_set:
+                return True
+
+        # 3. Check Variations
         if correct.accept_variations:
             for variation in correct.accept_variations:
-                var_str = variation.strip()
-                if not correct.case_sensitive:
-                    var_str = var_str.lower()
-                if user_str == var_str:
+                if user_set == normalize_to_set(variation):
                     return True
 
         return False
