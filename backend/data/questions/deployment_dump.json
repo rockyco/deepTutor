@@ -54,18 +54,18 @@
     "content": {
       "text": "Lucas asked everyone in Year 6 where they would like to go on a trip. He made a pie chart of the results.\n\nWhat fraction of the children said they wanted to go to either a farm or a zoo?",
       "options": [
-        "7\n2",
-        "5\n2",
-        "9\n4",
-        "3\n1",
-        "9\n5"
+        "2/7",
+        "2/5",
+        "4/9",
+        "1/3",
+        "5/9"
       ],
       "image_url": "/images/granular_maths/q3_question_0.png"
     },
     "answer": {
-      "value": "9\n4"
+      "value": "4/9"
     },
-    "explanation": "Answer:\n\nThe farm sector has an angle of 70° and the zoo sector has an angle of 90°. The total of these angles is 70° + 90° = 160°. As a fraction of the whole circle, this is \n3\n6\n0\n1\n6\n0\n. Divide the numerator and denominator by 10 and then by 4 to simplify: \n3\n6\n0\n1\n6\n0\n3\n6\n1\n6\n9\n4\n=\n=\n.",
+    "explanation": "Answer:\n\nThe farm sector has an angle of 70° and the zoo sector has an angle of 90°. The total of these angles is 70° + 90° = 160°. As a fraction of the whole circle, this is 160/360. Divide the numerator and denominator by 10 and then by 4 to simplify: 160/360 = 16/36 = 4/9.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -88,7 +88,7 @@
     "answer": {
       "value": "25%"
     },
-    "explanation": "Answer:\n\n£2 out of £8 \n8\n2\n4\n1\n=\n=\n. So Ben spends \n%\n4\n1\n2\n5\n=\n of his money on the chocolate bar.",
+    "explanation": "Answer:\n\n£2 out of £8 = 2/8 = 1/4. So Ben spends 1/4 = 25% of his money on the chocolate bar.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -99,7 +99,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "What is \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n?",
+      "text": "What is 120 ÷ (12 + 8 + 20)?",
       "options": [
         "6",
         "26",
@@ -111,7 +111,7 @@
     "answer": {
       "value": "3"
     },
-    "explanation": "Answer:\n\n12 + 8 + 20 = 40. So \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n \n4\n0\n1\n2\n0\n=\n = 120 ÷ 40 = 3.",
+    "explanation": "Answer:\n\n12 + 8 + 20 = 40. So 120 ÷ (12 + 8 + 20) = 120 ÷ 40 = 3.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
