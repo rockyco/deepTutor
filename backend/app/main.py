@@ -24,8 +24,8 @@ from app.routers import (
     progress,
     users_router,
     visualize_router,
-    research_router,
-    generator_router,
+#     research_router,
+#     generator_router,
 )
 from app.api import auth
 
@@ -112,9 +112,15 @@ app = FastAPI(
 )
 
 # CORS middleware for frontend
+# CORS middleware for frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        "http://localhost:3000",
+        "https://deeptutor.pages.dev",
+        "https://deeptutor-frontend.pages.dev",
+        "*"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -125,9 +131,8 @@ app.include_router(questions_router)
 app.include_router(practice_router)
 app.include_router(progress.router, prefix="/api/progress", tags=["progress"])
 app.include_router(visualize_router)
-app.include_router(research_router)
-app.include_router(generator_router)
-app.include_router(generator_router)
+# app.include_router(research_router)
+# app.include_router(generator_router)
 app.include_router(auth.router, prefix="/api")
 
 # Dev/Temp endpoint for image ingestion
