@@ -112,7 +112,6 @@ app = FastAPI(
 )
 
 # CORS middleware for frontend
-# CORS middleware for frontend
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
