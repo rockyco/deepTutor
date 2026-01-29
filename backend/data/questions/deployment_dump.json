@@ -1,315 +1,5 @@
 [
   {
-    "subject": "non_verbal_reasoning",
-    "question_type": "nvr_visual",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option\u00a0which is a top\u2011down 2D view of the 3D figure below.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning/q1_question_0.png",
-      "images": [
-        "/images/granular_non_verbal_reasoning/q1_option_0.png",
-        "/images/granular_non_verbal_reasoning/q1_option_1.png",
-        "/images/granular_non_verbal_reasoning/q1_option_2.png",
-        "/images/granular_non_verbal_reasoning/q1_option_3.png",
-        "/images/granular_non_verbal_reasoning/q1_option_4.png"
-      ]
-    },
-    "answer": {
-      "value": "C"
-    },
-    "explanation": "Answer:\n\nThe correct answer is c). There are five blocks visible from above, which rules out option\u00a0e). There is only one blue block visible from above, which rules out option\u00a0d). There are two blocks visible on the left\u2011hand side, which rules out option\u00a0b). There are only two blocks visible at the front, which rules out option\u00a0a).\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning",
-    "question_type": "nvr_visual",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option which is most like the two figures below.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning/q2_question_0.png",
-      "images": [
-        "/images/granular_non_verbal_reasoning/q2_option_0.png",
-        "/images/granular_non_verbal_reasoning/q2_option_1.png",
-        "/images/granular_non_verbal_reasoning/q2_option_2.png",
-        "/images/granular_non_verbal_reasoning/q2_option_3.png",
-        "/images/granular_non_verbal_reasoning/q2_option_4.png"
-      ]
-    },
-    "answer": {
-      "value": "D"
-    },
-    "explanation": "Answer:\n\nThe correct answer is d). In all figures, there must be one black shape and two white shapes. An arrow must point towards the black shape. The white shapes must be identical apart from size.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning",
-    "question_type": "nvr_visual",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Each of the figures on the left has code letters to describe it. Work out how the letters go with the figures, then choose the code for the new figure on the right.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning/q3_question_0.png",
-      "images": [
-        "/images/granular_non_verbal_reasoning/q3_option_0.png",
-        "/images/granular_non_verbal_reasoning/q3_option_1.png",
-        "/images/granular_non_verbal_reasoning/q3_option_2.png",
-        "/images/granular_non_verbal_reasoning/q3_option_3.png",
-        "/images/granular_non_verbal_reasoning/q3_option_4.png"
-      ]
-    },
-    "answer": {
-      "value": "A"
-    },
-    "explanation": "Answer:\n\nThe correct answer is a) (BGN). B\u00a0=\u00a0four\u2011pointed star, C\u00a0=\u00a0five\u2011pointed star, D\u00a0=\u00a0six\u2011pointed star. F\u00a0=\u00a0black star, G\u00a0=\u00a0white star, H\u00a0=\u00a0grey star. M\u00a0=\u00a0lines on the left, N\u00a0=\u00a0lines on the right.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning",
-    "question_type": "nvr_visual",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option that contains the hidden shape shown below. It should be the same size and orientation.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning/q4_question_0.png",
-      "images": [
-        "/images/granular_non_verbal_reasoning/q4_option_0.png",
-        "/images/granular_non_verbal_reasoning/q4_option_1.png",
-        "/images/granular_non_verbal_reasoning/q4_option_2.png",
-        "/images/granular_non_verbal_reasoning/q4_option_3.png",
-        "/images/granular_non_verbal_reasoning/q4_option_4.png"
-      ]
-    },
-    "answer": {
-      "value": "C"
-    },
-    "explanation": "Answer:\n\nThe correct answer is c).\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning",
-    "question_type": "nvr_visual",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option which is most unlike the others.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "images": [
-        "/images/granular_non_verbal_reasoning/q5_option_0.png",
-        "/images/granular_non_verbal_reasoning/q5_option_1.png",
-        "/images/granular_non_verbal_reasoning/q5_option_2.png",
-        "/images/granular_non_verbal_reasoning/q5_option_3.png",
-        "/images/granular_non_verbal_reasoning/q5_option_4.png"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning/q5_option_0.png"
-    },
-    "answer": {
-      "value": "D"
-    },
-    "explanation": "Answer:\n\nThe correct answer is d). In all other figures, the outer shape is a larger downwards reflection of the inner shape.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning",
-    "question_type": "nvr_visual",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option that shows how the three shapes will look when they are joined by matching the sides with the same letter.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning/q6_question_0.png",
-      "images": [
-        "/images/granular_non_verbal_reasoning/q6_option_0.png",
-        "/images/granular_non_verbal_reasoning/q6_option_1.png",
-        "/images/granular_non_verbal_reasoning/q6_option_2.png",
-        "/images/granular_non_verbal_reasoning/q6_option_3.png",
-        "/images/granular_non_verbal_reasoning/q6_option_4.png"
-      ]
-    },
-    "answer": {
-      "value": "E"
-    },
-    "explanation": "Answer:\n\nThe correct answer is e). Option\u00a0b) is ruled out because the wrong side of the rectangle is connected to the thin triangle. Option\u00a0c) is ruled out because the rectangle is connected to the wrong side of the thin triangle. Option\u00a0a) is ruled out because the wide triangle is connected to the wrong side of the thin triangle. Option\u00a0d) is ruled out because the rectangle is not connected to the thin triangle.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning",
-    "question_type": "nvr_visual",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Look at how the first figure changes to become the second figure. Then choose the option which would look like the third figure if you changed it in the same way.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning/q7_question_0.png",
-      "images": [
-        "/images/granular_non_verbal_reasoning/q7_option_0.png",
-        "/images/granular_non_verbal_reasoning/q7_option_1.png",
-        "/images/granular_non_verbal_reasoning/q7_option_2.png",
-        "/images/granular_non_verbal_reasoning/q7_option_3.png",
-        "/images/granular_non_verbal_reasoning/q7_option_4.png"
-      ]
-    },
-    "answer": {
-      "value": "B"
-    },
-    "explanation": "Answer:\n\nThe correct answer is b). The outer small shape gets bigger and the long line gets smaller and moves inside it. The inner small shape moves to the right of the figure and gets taller.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning",
-    "question_type": "nvr_visual",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option which is most like the three figures below.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning/q8_question_0.png",
-      "images": [
-        "/images/granular_non_verbal_reasoning/q8_option_0.png",
-        "/images/granular_non_verbal_reasoning/q8_option_1.png",
-        "/images/granular_non_verbal_reasoning/q8_option_2.png",
-        "/images/granular_non_verbal_reasoning/q8_option_3.png",
-        "/images/granular_non_verbal_reasoning/q8_option_4.png"
-      ]
-    },
-    "answer": {
-      "value": "A"
-    },
-    "explanation": "Answer:\n\nThe correct answer is a). The shading of the rectangles must alternate between grey and white. The number of circles must be equal to the number of rectangles and their shading must match the shading of the smallest rectangle.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning",
-    "question_type": "nvr_visual",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option which best fits in place of the missing square in the series.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning/q9_question_0.png",
-      "images": [
-        "/images/granular_non_verbal_reasoning/q9_option_0.png",
-        "/images/granular_non_verbal_reasoning/q9_option_1.png",
-        "/images/granular_non_verbal_reasoning/q9_option_2.png",
-        "/images/granular_non_verbal_reasoning/q9_option_3.png",
-        "/images/granular_non_verbal_reasoning/q9_option_4.png"
-      ]
-    },
-    "answer": {
-      "value": "D"
-    },
-    "explanation": "Answer:\n\nThe correct answer is d). In each series square, the star gains an additional point. The star takes the shading of the small square in the previous series square. The small square moves clockwise around the corners of the series square.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning",
-    "question_type": "nvr_visual",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option which should replace the empty square in the grid.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning/q10_question_0.png",
-      "images": [
-        "/images/granular_non_verbal_reasoning/q10_option_0.png",
-        "/images/granular_non_verbal_reasoning/q10_option_1.png",
-        "/images/granular_non_verbal_reasoning/q10_option_2.png",
-        "/images/granular_non_verbal_reasoning/q10_option_3.png",
-        "/images/granular_non_verbal_reasoning/q10_option_4.png"
-      ]
-    },
-    "answer": {
-      "value": "B"
-    },
-    "explanation": "Answer:\n\nThe correct answer is b). Working from left to right, the shape rotates 30\u00a0degrees clockwise and the dot alternates between black and white.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
     "subject": "maths",
     "question_type": "number_operations",
     "format": "multiple_choice",
@@ -1000,295 +690,6 @@
       "value": "D"
     },
     "explanation": "Answer:\n\n\u2018freezing\u2019 is an adjective in this sentence. It describes the noun \u2018lake\u2019.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning",
-    "question_type": "nvr_visual",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option\u00a0which is a top\u2011down 2D view of the 3D figure below.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning/q28_question_0.png"
-    },
-    "answer": {
-      "value": "B"
-    },
-    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning",
-    "question_type": "nvr_visual",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option which is most like the two figures below.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning/q2_question_0.png",
-      "images": [
-        "/images/granular_non_verbal_reasoning/q2_option_0.png",
-        "/images/granular_non_verbal_reasoning/q2_option_1.png",
-        "/images/granular_non_verbal_reasoning/q2_option_2.png",
-        "/images/granular_non_verbal_reasoning/q2_option_3.png",
-        "/images/granular_non_verbal_reasoning/q2_option_4.png"
-      ]
-    },
-    "answer": {
-      "value": "D"
-    },
-    "explanation": "Answer:\n\nThe correct answer is d). In all figures, there must be one black shape and two white shapes. An arrow must point towards the black shape. The white shapes must be identical apart from size.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning",
-    "question_type": "nvr_visual",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Each of the figures on the left has code letters to describe it. Work out how the letters go with the figures, then choose the code for the new figure on the right.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning/q3_question_0.png",
-      "images": [
-        "/images/granular_non_verbal_reasoning/q3_option_0.png",
-        "/images/granular_non_verbal_reasoning/q3_option_1.png",
-        "/images/granular_non_verbal_reasoning/q3_option_2.png",
-        "/images/granular_non_verbal_reasoning/q3_option_3.png",
-        "/images/granular_non_verbal_reasoning/q3_option_4.png"
-      ]
-    },
-    "answer": {
-      "value": "A"
-    },
-    "explanation": "Answer:\n\nThe correct answer is a) (BGN). B\u00a0=\u00a0four\u2011pointed star, C\u00a0=\u00a0five\u2011pointed star, D\u00a0=\u00a0six\u2011pointed star. F\u00a0=\u00a0black star, G\u00a0=\u00a0white star, H\u00a0=\u00a0grey star. M\u00a0=\u00a0lines on the left, N\u00a0=\u00a0lines on the right.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning",
-    "question_type": "nvr_visual",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option that contains the hidden shape shown below. It should be the same size and orientation.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning/q4_question_0.png",
-      "images": [
-        "/images/granular_non_verbal_reasoning/q4_option_0.png",
-        "/images/granular_non_verbal_reasoning/q4_option_1.png",
-        "/images/granular_non_verbal_reasoning/q4_option_2.png",
-        "/images/granular_non_verbal_reasoning/q4_option_3.png",
-        "/images/granular_non_verbal_reasoning/q4_option_4.png"
-      ]
-    },
-    "answer": {
-      "value": "C"
-    },
-    "explanation": "Answer:\n\nThe correct answer is c).\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning",
-    "question_type": "nvr_visual",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option which is most unlike the others.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "images": [
-        "/images/granular_non_verbal_reasoning/q5_option_0.png",
-        "/images/granular_non_verbal_reasoning/q5_option_1.png",
-        "/images/granular_non_verbal_reasoning/q5_option_2.png",
-        "/images/granular_non_verbal_reasoning/q5_option_3.png",
-        "/images/granular_non_verbal_reasoning/q5_option_4.png"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning/q5_option_0.png"
-    },
-    "answer": {
-      "value": "D"
-    },
-    "explanation": "Answer:\n\nThe correct answer is d). In all other figures, the outer shape is a larger downwards reflection of the inner shape.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning",
-    "question_type": "nvr_visual",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option that shows how the three shapes will look when they are joined by matching the sides with the same letter.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning/q23_question_0.png"
-    },
-    "answer": {
-      "value": "B"
-    },
-    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning",
-    "question_type": "nvr_visual",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Look at how the first figure changes to become the second figure. Then choose the option which would look like the third figure if you changed it in the same way.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning/q7_question_0.png",
-      "images": [
-        "/images/granular_non_verbal_reasoning/q7_option_0.png",
-        "/images/granular_non_verbal_reasoning/q7_option_1.png",
-        "/images/granular_non_verbal_reasoning/q7_option_2.png",
-        "/images/granular_non_verbal_reasoning/q7_option_3.png",
-        "/images/granular_non_verbal_reasoning/q7_option_4.png"
-      ]
-    },
-    "answer": {
-      "value": "B"
-    },
-    "explanation": "Answer:\n\nThe correct answer is b). The outer small shape gets bigger and the long line gets smaller and moves inside it. The inner small shape moves to the right of the figure and gets taller.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning",
-    "question_type": "nvr_visual",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option which is most like the three figures below.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning/q8_question_0.png",
-      "images": [
-        "/images/granular_non_verbal_reasoning/q8_option_0.png",
-        "/images/granular_non_verbal_reasoning/q8_option_1.png",
-        "/images/granular_non_verbal_reasoning/q8_option_2.png",
-        "/images/granular_non_verbal_reasoning/q8_option_3.png",
-        "/images/granular_non_verbal_reasoning/q8_option_4.png"
-      ]
-    },
-    "answer": {
-      "value": "A"
-    },
-    "explanation": "Answer:\n\nThe correct answer is a). The shading of the rectangles must alternate between grey and white. The number of circles must be equal to the number of rectangles and their shading must match the shading of the smallest rectangle.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning",
-    "question_type": "nvr_visual",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option which best fits in place of the missing square in the series.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning/q26_question_0.png"
-    },
-    "answer": {
-      "value": "B"
-    },
-    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning",
-    "question_type": "nvr_visual",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option which should replace the empty square in the grid.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning/q10_question_0.png",
-      "images": [
-        "/images/granular_non_verbal_reasoning/q10_option_0.png",
-        "/images/granular_non_verbal_reasoning/q10_option_1.png",
-        "/images/granular_non_verbal_reasoning/q10_option_2.png",
-        "/images/granular_non_verbal_reasoning/q10_option_3.png",
-        "/images/granular_non_verbal_reasoning/q10_option_4.png"
-      ]
-    },
-    "answer": {
-      "value": "B"
-    },
-    "explanation": "Answer:\n\nThe correct answer is b). Working from left to right, the shape rotates 30\u00a0degrees clockwise and the dot alternates between black and white.\n\nGlossary (opens in new tab) >",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -2129,174 +1530,6 @@
     "source": "CGP Sample"
   },
   {
-    "subject": "non_verbal_reasoning",
-    "question_type": "nvr_visual",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option which is most like the two figures below.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning/q21_question_0.png"
-    },
-    "answer": {
-      "value": "B"
-    },
-    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning",
-    "question_type": "nvr_visual",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the 3D figure that has been rotated to make the 3D figure below.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)",
-        "f)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning/q22_question_0.png"
-    },
-    "answer": {
-      "value": "B"
-    },
-    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning",
-    "question_type": "nvr_visual",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Look at how the first figure changes to become the second figure. Then choose the option which would look like the third figure if you changed it in the same way.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning/q24_question_0.png"
-    },
-    "answer": {
-      "value": "B"
-    },
-    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning",
-    "question_type": "nvr_visual",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option that shows the figure below when it has been folded along the dashed line.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning/q25_question_0.png"
-    },
-    "answer": {
-      "value": "B"
-    },
-    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning",
-    "question_type": "nvr_visual",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the cube which can be made from the net below.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning/q27_question_0.png"
-    },
-    "answer": {
-      "value": "B"
-    },
-    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning",
-    "question_type": "nvr_visual",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "In the boxes below are figures with code letters. The top letters have a different meaning to the bottom ones. Work out how the letters go with the figures, then choose the code for the new figure.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning/q29_question_0.png"
-    },
-    "answer": {
-      "value": "B"
-    },
-    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning",
-    "question_type": "nvr_visual",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option which is most unlike the others.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ]
-    },
-    "answer": {
-      "value": "B"
-    },
-    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
     "subject": "verbal_reasoning",
     "question_type": "vr_multiple_meaning",
     "format": "multiple_choice",
@@ -2635,6 +1868,892 @@
       "value": "Unknown"
     },
     "explanation": "Answer:\n\n\u2018The choral scholars are known for their charismatic performances.\u2019 is correct. The hard \u2018c\u2019 sound is repeated.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning_backup",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the option\u00a0which is a top\u2011down 2D view of the 3D figure below.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning_backup/q28_question_0.png"
+    },
+    "answer": {
+      "value": "B"
+    },
+    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning_backup",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the option which is most like the two figures below.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning_backup/q2_question_0.png",
+      "images": [
+        "/images/granular_non_verbal_reasoning_backup/q2_option_0.png",
+        "/images/granular_non_verbal_reasoning_backup/q2_option_1.png",
+        "/images/granular_non_verbal_reasoning_backup/q2_option_2.png",
+        "/images/granular_non_verbal_reasoning_backup/q2_option_3.png",
+        "/images/granular_non_verbal_reasoning_backup/q2_option_4.png"
+      ],
+      "option_images": [
+        "/images/granular_non_verbal_reasoning_backup/q2_option_0.png",
+        "/images/granular_non_verbal_reasoning_backup/q2_option_1.png",
+        "/images/granular_non_verbal_reasoning_backup/q2_option_2.png",
+        "/images/granular_non_verbal_reasoning_backup/q2_option_3.png",
+        "/images/granular_non_verbal_reasoning_backup/q2_option_4.png"
+      ]
+    },
+    "answer": {
+      "value": "D"
+    },
+    "explanation": "Answer:\n\nThe correct answer is d). In all figures, there must be one black shape and two white shapes. An arrow must point towards the black shape. The white shapes must be identical apart from size.\n\nGlossary (opens in new tab) >",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning_backup",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Each of the figures on the left has code letters to describe it. Work out how the letters go with the figures, then choose the code for the new figure on the right.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning_backup/q3_question_0.png",
+      "images": [
+        "/images/granular_non_verbal_reasoning_backup/q3_option_0.png",
+        "/images/granular_non_verbal_reasoning_backup/q3_option_1.png",
+        "/images/granular_non_verbal_reasoning_backup/q3_option_2.png",
+        "/images/granular_non_verbal_reasoning_backup/q3_option_3.png",
+        "/images/granular_non_verbal_reasoning_backup/q3_option_4.png"
+      ],
+      "option_images": [
+        "/images/granular_non_verbal_reasoning_backup/q3_option_0.png",
+        "/images/granular_non_verbal_reasoning_backup/q3_option_1.png",
+        "/images/granular_non_verbal_reasoning_backup/q3_option_2.png",
+        "/images/granular_non_verbal_reasoning_backup/q3_option_3.png",
+        "/images/granular_non_verbal_reasoning_backup/q3_option_4.png"
+      ]
+    },
+    "answer": {
+      "value": "A"
+    },
+    "explanation": "Answer:\n\nThe correct answer is a) (BGN). B\u00a0=\u00a0four\u2011pointed star, C\u00a0=\u00a0five\u2011pointed star, D\u00a0=\u00a0six\u2011pointed star. F\u00a0=\u00a0black star, G\u00a0=\u00a0white star, H\u00a0=\u00a0grey star. M\u00a0=\u00a0lines on the left, N\u00a0=\u00a0lines on the right.\n\nGlossary (opens in new tab) >",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning_backup",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the option that contains the hidden shape shown below. It should be the same size and orientation.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning_backup/q4_question_0.png",
+      "images": [
+        "/images/granular_non_verbal_reasoning_backup/q4_option_0.png",
+        "/images/granular_non_verbal_reasoning_backup/q4_option_1.png",
+        "/images/granular_non_verbal_reasoning_backup/q4_option_2.png",
+        "/images/granular_non_verbal_reasoning_backup/q4_option_3.png",
+        "/images/granular_non_verbal_reasoning_backup/q4_option_4.png"
+      ],
+      "option_images": [
+        "/images/granular_non_verbal_reasoning_backup/q4_option_0.png",
+        "/images/granular_non_verbal_reasoning_backup/q4_option_1.png",
+        "/images/granular_non_verbal_reasoning_backup/q4_option_2.png",
+        "/images/granular_non_verbal_reasoning_backup/q4_option_3.png",
+        "/images/granular_non_verbal_reasoning_backup/q4_option_4.png"
+      ]
+    },
+    "answer": {
+      "value": "C"
+    },
+    "explanation": "Answer:\n\nThe correct answer is c).\n\nGlossary (opens in new tab) >",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning_backup",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the option which is most unlike the others.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "images": [
+        "/images/granular_non_verbal_reasoning_backup/q5_option_0.png",
+        "/images/granular_non_verbal_reasoning_backup/q5_option_1.png",
+        "/images/granular_non_verbal_reasoning_backup/q5_option_2.png",
+        "/images/granular_non_verbal_reasoning_backup/q5_option_3.png",
+        "/images/granular_non_verbal_reasoning_backup/q5_option_4.png"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning_backup/q5_option_0.png",
+      "option_images": [
+        "/images/granular_non_verbal_reasoning_backup/q5_option_0.png",
+        "/images/granular_non_verbal_reasoning_backup/q5_option_1.png",
+        "/images/granular_non_verbal_reasoning_backup/q5_option_2.png",
+        "/images/granular_non_verbal_reasoning_backup/q5_option_3.png",
+        "/images/granular_non_verbal_reasoning_backup/q5_option_4.png"
+      ]
+    },
+    "answer": {
+      "value": "D"
+    },
+    "explanation": "Answer:\n\nThe correct answer is d). In all other figures, the outer shape is a larger downwards reflection of the inner shape.\n\nGlossary (opens in new tab) >",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning_backup",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the option that shows how the three shapes will look when they are joined by matching the sides with the same letter.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning_backup/q23_question_0.png"
+    },
+    "answer": {
+      "value": "B"
+    },
+    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning_backup",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Look at how the first figure changes to become the second figure. Then choose the option which would look like the third figure if you changed it in the same way.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning_backup/q7_question_0.png",
+      "images": [
+        "/images/granular_non_verbal_reasoning_backup/q7_option_0.png",
+        "/images/granular_non_verbal_reasoning_backup/q7_option_1.png",
+        "/images/granular_non_verbal_reasoning_backup/q7_option_2.png",
+        "/images/granular_non_verbal_reasoning_backup/q7_option_3.png",
+        "/images/granular_non_verbal_reasoning_backup/q7_option_4.png"
+      ],
+      "option_images": [
+        "/images/granular_non_verbal_reasoning_backup/q7_option_0.png",
+        "/images/granular_non_verbal_reasoning_backup/q7_option_1.png",
+        "/images/granular_non_verbal_reasoning_backup/q7_option_2.png",
+        "/images/granular_non_verbal_reasoning_backup/q7_option_3.png",
+        "/images/granular_non_verbal_reasoning_backup/q7_option_4.png"
+      ]
+    },
+    "answer": {
+      "value": "B"
+    },
+    "explanation": "Answer:\n\nThe correct answer is b). The outer small shape gets bigger and the long line gets smaller and moves inside it. The inner small shape moves to the right of the figure and gets taller.\n\nGlossary (opens in new tab) >",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning_backup",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the option which is most like the three figures below.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning_backup/q8_question_0.png",
+      "images": [
+        "/images/granular_non_verbal_reasoning_backup/q8_option_0.png",
+        "/images/granular_non_verbal_reasoning_backup/q8_option_1.png",
+        "/images/granular_non_verbal_reasoning_backup/q8_option_2.png",
+        "/images/granular_non_verbal_reasoning_backup/q8_option_3.png",
+        "/images/granular_non_verbal_reasoning_backup/q8_option_4.png"
+      ],
+      "option_images": [
+        "/images/granular_non_verbal_reasoning_backup/q8_option_0.png",
+        "/images/granular_non_verbal_reasoning_backup/q8_option_1.png",
+        "/images/granular_non_verbal_reasoning_backup/q8_option_2.png",
+        "/images/granular_non_verbal_reasoning_backup/q8_option_3.png",
+        "/images/granular_non_verbal_reasoning_backup/q8_option_4.png"
+      ]
+    },
+    "answer": {
+      "value": "A"
+    },
+    "explanation": "Answer:\n\nThe correct answer is a). The shading of the rectangles must alternate between grey and white. The number of circles must be equal to the number of rectangles and their shading must match the shading of the smallest rectangle.\n\nGlossary (opens in new tab) >",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning_backup",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the option which best fits in place of the missing square in the series.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning_backup/q26_question_0.png"
+    },
+    "answer": {
+      "value": "B"
+    },
+    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning_backup",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the option which should replace the empty square in the grid.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning_backup/q10_question_0.png",
+      "images": [
+        "/images/granular_non_verbal_reasoning_backup/q10_option_0.png",
+        "/images/granular_non_verbal_reasoning_backup/q10_option_1.png",
+        "/images/granular_non_verbal_reasoning_backup/q10_option_2.png",
+        "/images/granular_non_verbal_reasoning_backup/q10_option_3.png",
+        "/images/granular_non_verbal_reasoning_backup/q10_option_4.png"
+      ],
+      "option_images": [
+        "/images/granular_non_verbal_reasoning_backup/q10_option_0.png",
+        "/images/granular_non_verbal_reasoning_backup/q10_option_1.png",
+        "/images/granular_non_verbal_reasoning_backup/q10_option_2.png",
+        "/images/granular_non_verbal_reasoning_backup/q10_option_3.png",
+        "/images/granular_non_verbal_reasoning_backup/q10_option_4.png"
+      ]
+    },
+    "answer": {
+      "value": "B"
+    },
+    "explanation": "Answer:\n\nThe correct answer is b). Working from left to right, the shape rotates 30\u00a0degrees clockwise and the dot alternates between black and white.\n\nGlossary (opens in new tab) >",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning_backup",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the option which is most like the two figures below.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning_backup/q21_question_0.png"
+    },
+    "answer": {
+      "value": "B"
+    },
+    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning_backup",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the 3D figure that has been rotated to make the 3D figure below.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)",
+        "f)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning_backup/q22_question_0.png"
+    },
+    "answer": {
+      "value": "B"
+    },
+    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning_backup",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Look at how the first figure changes to become the second figure. Then choose the option which would look like the third figure if you changed it in the same way.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning_backup/q24_question_0.png"
+    },
+    "answer": {
+      "value": "B"
+    },
+    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning_backup",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the option that shows the figure below when it has been folded along the dashed line.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning_backup/q25_question_0.png"
+    },
+    "answer": {
+      "value": "B"
+    },
+    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning_backup",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the cube which can be made from the net below.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning_backup/q27_question_0.png"
+    },
+    "answer": {
+      "value": "B"
+    },
+    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning_backup",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "In the boxes below are figures with code letters. The top letters have a different meaning to the bottom ones. Work out how the letters go with the figures, then choose the code for the new figure.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning_backup/q29_question_0.png"
+    },
+    "answer": {
+      "value": "B"
+    },
+    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning_backup",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the option which is most unlike the others.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ]
+    },
+    "answer": {
+      "value": "B"
+    },
+    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_visual",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the option\u00a0which is a top\u2011down 2D view of the 3D figure below.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning/q1_question_0.png",
+      "images": [
+        "/images/granular_non_verbal_reasoning/q1_option_0.png",
+        "/images/granular_non_verbal_reasoning/q1_option_1.png",
+        "/images/granular_non_verbal_reasoning/q1_option_2.png",
+        "/images/granular_non_verbal_reasoning/q1_option_3.png",
+        "/images/granular_non_verbal_reasoning/q1_option_4.png"
+      ],
+      "option_images": [
+        "/images/granular_non_verbal_reasoning/q1_option_0.png",
+        "/images/granular_non_verbal_reasoning/q1_option_1.png",
+        "/images/granular_non_verbal_reasoning/q1_option_2.png",
+        "/images/granular_non_verbal_reasoning/q1_option_3.png",
+        "/images/granular_non_verbal_reasoning/q1_option_4.png"
+      ]
+    },
+    "answer": {
+      "value": "C"
+    },
+    "explanation": "The correct answer is c). There are five blocks visible from above, which rules out option\u00a0e). There is only one blue block visible from above, which rules out option\u00a0d). There are two blocks visible on the left\u2011hand side, which rules out option\u00a0b). There are only two blocks visible at the front, which rules out option\u00a0a).\n\nGlossary (opens in new tab) >",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_visual",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the option which is most like the two figures below.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning/q2_question_0.png",
+      "images": [
+        "/images/granular_non_verbal_reasoning/q2_option_0.png",
+        "/images/granular_non_verbal_reasoning/q2_option_1.png",
+        "/images/granular_non_verbal_reasoning/q2_option_2.png",
+        "/images/granular_non_verbal_reasoning/q2_option_3.png",
+        "/images/granular_non_verbal_reasoning/q2_option_4.png"
+      ],
+      "option_images": [
+        "/images/granular_non_verbal_reasoning/q2_option_0.png",
+        "/images/granular_non_verbal_reasoning/q2_option_1.png",
+        "/images/granular_non_verbal_reasoning/q2_option_2.png",
+        "/images/granular_non_verbal_reasoning/q2_option_3.png",
+        "/images/granular_non_verbal_reasoning/q2_option_4.png"
+      ]
+    },
+    "answer": {
+      "value": "D"
+    },
+    "explanation": "The correct answer is d). In all figures, there must be one black shape and two white shapes. An arrow must point towards the black shape. The white shapes must be identical apart from size.\n\nGlossary (opens in new tab) >",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_visual",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Each of the figures on the left has code letters to describe it. Work out how the letters go with the figures, then choose the code for the new figure on the right.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning/q3_question_0.png",
+      "images": [
+        "/images/granular_non_verbal_reasoning/q3_option_0.png",
+        "/images/granular_non_verbal_reasoning/q3_option_1.png",
+        "/images/granular_non_verbal_reasoning/q3_option_2.png",
+        "/images/granular_non_verbal_reasoning/q3_option_3.png",
+        "/images/granular_non_verbal_reasoning/q3_option_4.png"
+      ],
+      "option_images": [
+        "/images/granular_non_verbal_reasoning/q3_option_0.png",
+        "/images/granular_non_verbal_reasoning/q3_option_1.png",
+        "/images/granular_non_verbal_reasoning/q3_option_2.png",
+        "/images/granular_non_verbal_reasoning/q3_option_3.png",
+        "/images/granular_non_verbal_reasoning/q3_option_4.png"
+      ]
+    },
+    "answer": {
+      "value": "A"
+    },
+    "explanation": "The correct answer is a) (BGN). B\u00a0=\u00a0four\u2011pointed star, C\u00a0=\u00a0five\u2011pointed star, D\u00a0=\u00a0six\u2011pointed star. F\u00a0=\u00a0black star, G\u00a0=\u00a0white star, H\u00a0=\u00a0grey star. M\u00a0=\u00a0lines on the left, N\u00a0=\u00a0lines on the right.\n\nGlossary (opens in new tab) >",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_visual",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the option that contains the hidden shape shown below. It should be the same size and orientation.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning/q4_question_0.png",
+      "images": [
+        "/images/granular_non_verbal_reasoning/q4_option_0.png",
+        "/images/granular_non_verbal_reasoning/q4_option_1.png",
+        "/images/granular_non_verbal_reasoning/q4_option_2.png",
+        "/images/granular_non_verbal_reasoning/q4_option_3.png",
+        "/images/granular_non_verbal_reasoning/q4_option_4.png"
+      ],
+      "option_images": [
+        "/images/granular_non_verbal_reasoning/q4_option_0.png",
+        "/images/granular_non_verbal_reasoning/q4_option_1.png",
+        "/images/granular_non_verbal_reasoning/q4_option_2.png",
+        "/images/granular_non_verbal_reasoning/q4_option_3.png",
+        "/images/granular_non_verbal_reasoning/q4_option_4.png"
+      ]
+    },
+    "answer": {
+      "value": "C"
+    },
+    "explanation": "The correct answer is c).\n\nGlossary (opens in new tab) >",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_visual",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the option which is most unlike the others.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "images": [
+        "/images/granular_non_verbal_reasoning/q5_option_0.png",
+        "/images/granular_non_verbal_reasoning/q5_option_1.png",
+        "/images/granular_non_verbal_reasoning/q5_option_2.png",
+        "/images/granular_non_verbal_reasoning/q5_option_3.png",
+        "/images/granular_non_verbal_reasoning/q5_option_4.png"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning/q5_option_0.png",
+      "option_images": [
+        "/images/granular_non_verbal_reasoning/q5_option_0.png",
+        "/images/granular_non_verbal_reasoning/q5_option_1.png",
+        "/images/granular_non_verbal_reasoning/q5_option_2.png",
+        "/images/granular_non_verbal_reasoning/q5_option_3.png",
+        "/images/granular_non_verbal_reasoning/q5_option_4.png"
+      ]
+    },
+    "answer": {
+      "value": "D"
+    },
+    "explanation": "The correct answer is d). In all other figures, the outer shape is a larger downwards reflection of the inner shape.\n\nGlossary (opens in new tab) >",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_visual",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the option that shows how the three shapes will look when they are joined by matching the sides with the same letter.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning/q6_question_0.png",
+      "images": [
+        "/images/granular_non_verbal_reasoning/q6_option_0.png",
+        "/images/granular_non_verbal_reasoning/q6_option_1.png",
+        "/images/granular_non_verbal_reasoning/q6_option_2.png",
+        "/images/granular_non_verbal_reasoning/q6_option_3.png",
+        "/images/granular_non_verbal_reasoning/q6_option_4.png"
+      ],
+      "option_images": [
+        "/images/granular_non_verbal_reasoning/q6_option_0.png",
+        "/images/granular_non_verbal_reasoning/q6_option_1.png",
+        "/images/granular_non_verbal_reasoning/q6_option_2.png",
+        "/images/granular_non_verbal_reasoning/q6_option_3.png",
+        "/images/granular_non_verbal_reasoning/q6_option_4.png"
+      ]
+    },
+    "answer": {
+      "value": "E"
+    },
+    "explanation": "The correct answer is e). Option\u00a0b) is ruled out because the wrong side of the rectangle is connected to the thin triangle. Option\u00a0c) is ruled out because the rectangle is connected to the wrong side of the thin triangle. Option\u00a0a) is ruled out because the wide triangle is connected to the wrong side of the thin triangle. Option\u00a0d) is ruled out because the rectangle is not connected to the thin triangle.\n\nGlossary (opens in new tab) >",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_visual",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Look at how the first figure changes to become the second figure. Then choose the option which would look like the third figure if you changed it in the same way.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning/q7_question_0.png",
+      "images": [
+        "/images/granular_non_verbal_reasoning/q7_option_0.png",
+        "/images/granular_non_verbal_reasoning/q7_option_1.png",
+        "/images/granular_non_verbal_reasoning/q7_option_2.png",
+        "/images/granular_non_verbal_reasoning/q7_option_3.png",
+        "/images/granular_non_verbal_reasoning/q7_option_4.png"
+      ],
+      "option_images": [
+        "/images/granular_non_verbal_reasoning/q7_option_0.png",
+        "/images/granular_non_verbal_reasoning/q7_option_1.png",
+        "/images/granular_non_verbal_reasoning/q7_option_2.png",
+        "/images/granular_non_verbal_reasoning/q7_option_3.png",
+        "/images/granular_non_verbal_reasoning/q7_option_4.png"
+      ]
+    },
+    "answer": {
+      "value": "B"
+    },
+    "explanation": "The correct answer is b). The outer small shape gets bigger and the long line gets smaller and moves inside it. The inner small shape moves to the right of the figure and gets taller.\n\nGlossary (opens in new tab) >",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_visual",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the option which is most like the three figures below.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning/q8_question_0.png",
+      "images": [
+        "/images/granular_non_verbal_reasoning/q8_option_0.png",
+        "/images/granular_non_verbal_reasoning/q8_option_1.png",
+        "/images/granular_non_verbal_reasoning/q8_option_2.png",
+        "/images/granular_non_verbal_reasoning/q8_option_3.png",
+        "/images/granular_non_verbal_reasoning/q8_option_4.png"
+      ],
+      "option_images": [
+        "/images/granular_non_verbal_reasoning/q8_option_0.png",
+        "/images/granular_non_verbal_reasoning/q8_option_1.png",
+        "/images/granular_non_verbal_reasoning/q8_option_2.png",
+        "/images/granular_non_verbal_reasoning/q8_option_3.png",
+        "/images/granular_non_verbal_reasoning/q8_option_4.png"
+      ]
+    },
+    "answer": {
+      "value": "A"
+    },
+    "explanation": "The correct answer is a). The shading of the rectangles must alternate between grey and white. The number of circles must be equal to the number of rectangles and their shading must match the shading of the smallest rectangle.\n\nGlossary (opens in new tab) >",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_visual",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the option which best fits in place of the missing square in the series.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning/q9_question_0.png",
+      "images": [
+        "/images/granular_non_verbal_reasoning/q9_option_0.png",
+        "/images/granular_non_verbal_reasoning/q9_option_1.png",
+        "/images/granular_non_verbal_reasoning/q9_option_2.png",
+        "/images/granular_non_verbal_reasoning/q9_option_3.png",
+        "/images/granular_non_verbal_reasoning/q9_option_4.png"
+      ],
+      "option_images": [
+        "/images/granular_non_verbal_reasoning/q9_option_0.png",
+        "/images/granular_non_verbal_reasoning/q9_option_1.png",
+        "/images/granular_non_verbal_reasoning/q9_option_2.png",
+        "/images/granular_non_verbal_reasoning/q9_option_3.png",
+        "/images/granular_non_verbal_reasoning/q9_option_4.png"
+      ]
+    },
+    "answer": {
+      "value": "D"
+    },
+    "explanation": "The correct answer is d). In each series square, the star gains an additional point. The star takes the shading of the small square in the previous series square. The small square moves clockwise around the corners of the series square.\n\nGlossary (opens in new tab) >",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_visual",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the option which should replace the empty square in the grid.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning/q10_question_0.png",
+      "images": [
+        "/images/granular_non_verbal_reasoning/q10_option_0.png",
+        "/images/granular_non_verbal_reasoning/q10_option_1.png",
+        "/images/granular_non_verbal_reasoning/q10_option_2.png",
+        "/images/granular_non_verbal_reasoning/q10_option_3.png",
+        "/images/granular_non_verbal_reasoning/q10_option_4.png"
+      ],
+      "option_images": [
+        "/images/granular_non_verbal_reasoning/q10_option_0.png",
+        "/images/granular_non_verbal_reasoning/q10_option_1.png",
+        "/images/granular_non_verbal_reasoning/q10_option_2.png",
+        "/images/granular_non_verbal_reasoning/q10_option_3.png",
+        "/images/granular_non_verbal_reasoning/q10_option_4.png"
+      ]
+    },
+    "answer": {
+      "value": "B"
+    },
+    "explanation": "The correct answer is b). Working from left to right, the shape rotates 30\u00a0degrees clockwise and the dot alternates between black and white.\n\nGlossary (opens in new tab) >",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"

@@ -242,7 +242,7 @@ async def extract_unified(subject_key: str):
 
                     // Options images: Strictly look inside answer containers
                     // CGP structure: .answer-content or .keyboard-key (for NVR)
-                    const optionContainers = document.querySelectorAll('.answer-content, .keyboard-key, .option-container');
+                    const optionContainers = document.querySelectorAll('.answer-content, .keyboard-key, .option-container, .answer-container, .answer-item, .param-container');
                     let optionImageSrcs = [];
                     
                     optionContainers.forEach(container => {

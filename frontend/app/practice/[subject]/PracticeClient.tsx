@@ -542,8 +542,8 @@ export default function PracticeClient() {
             </div>
           )}
 
-          {/* Option Images (for NVR questions with image array) */}
-          {currentQuestion.content.images && currentQuestion.content.images.length > 0 && (
+          {/* Option Images (REMOVED: Duplicates the interactive buttons below) */}
+          {/* {currentQuestion.content.images && currentQuestion.content.images.length > 0 && (
             <div className="grid grid-cols-5 gap-3 mb-6">
               {currentQuestion.content.images.map((imgUrl, idx) => (
                 <div key={idx} className="flex flex-col items-center">
@@ -556,13 +556,13 @@ export default function PracticeClient() {
                 </div>
               ))}
             </div>
-          )}
+          )} */}
 
           {/* Answer Options */}
           {currentQuestion.content.options ? (
             <div className={cn(
-              currentQuestion.content.options.some(opt => isImageUrl(opt))
-                ? "grid grid-cols-2 sm:grid-cols-5 gap-4"
+              (subject === 'non_verbal_reasoning' || currentQuestion.content.options.some(opt => isImageUrl(opt)))
+                ? "grid grid-cols-2 sm:grid-cols-5 gap-8 gap-y-10 justify-items-center mx-auto max-w-5xl" // Increased space & centered
                 : "space-y-3"
             )}>
               {currentQuestion.content.options.map((option, index) => {
@@ -575,6 +575,9 @@ export default function PracticeClient() {
                 const optionImage = currentQuestion.content.option_images?.[index];
                 const isImageOption = !!optionImage || isImageUrl(option);
                 const displayImage = optionImage ? getImageUrl(optionImage) : getImageUrl(option);
+
+                // Clean option text (remove "A)", "a.", etc)
+                const cleanOptionText = option.replace(/^[A-Ea-e][.)]?\s*/, "");
 
                 return (
                   <button
@@ -595,12 +598,12 @@ export default function PracticeClient() {
                         <img
                           src={displayImage}
                           alt={`Option ${String.fromCharCode(65 + index)}`}
-                          className="w-20 h-20 object-contain bg-white"
+                          className="w-full h-auto max-h-32 object-contain bg-white"
                         />
                         <div className="flex items-center gap-2">
                           <span
                             className={cn(
-                              "w-6 h-6 rounded-full flex items-center justify-center text-xs font-medium",
+                              "w-6 h-6 rounded-full flex items-center justify-center text-xs font-medium shrink-0",
                               !showResult && !isSelected && "bg-gray-100 text-gray-600",
                               !showResult && isSelected && "bg-indigo-500 text-white",
                               isCorrect && "bg-green-500 text-white",
@@ -617,7 +620,7 @@ export default function PracticeClient() {
                       <div className="flex items-center gap-3">
                         <span
                           className={cn(
-                            "w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium",
+                            "w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium shrink-0",
                             !showResult && !isSelected && "bg-gray-100 text-gray-600",
                             !showResult && isSelected && "bg-indigo-500 text-white",
                             isCorrect && "bg-green-500 text-white",
@@ -626,7 +629,7 @@ export default function PracticeClient() {
                         >
                           {String.fromCharCode(65 + index)}
                         </span>
-                        <span className="flex-1">{option}</span>
+                        <span className="flex-1">{cleanOptionText}</span>
                         {isCorrect && <CheckCircle2 className="w-5 h-5 text-green-600" />}
                         {isWrong && <XCircle className="w-5 h-5 text-red-600" />}
                       </div>

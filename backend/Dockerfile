@@ -32,11 +32,11 @@ COPY data/questions/deployment_dump.json ./data/questions/seed.json
 RUN mkdir -p /data
 
 # Set environment variables
-ENV DATABASE_URL="sqlite+aiosqlite:////data/tutor.db"
+ENV DATABASE_URL="sqlite+aiosqlite:////tmp/tutor.db"
 ENV PYTHONUNBUFFERED=1
 
 # Expose port
 EXPOSE 8080
 
-# Run uvicorn directly - seeding happens in lifespan
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8080"]
+# Run uvicorn using shell to expand PORT variable
+CMD sh -c "uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8080}"

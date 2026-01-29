@@ -2,7 +2,15 @@
  * API client for the 11+ Deep Tutor backend.
  */
 
-export const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+export const API_BASE =
+  process.env.NEXT_PUBLIC_API_URL ||
+  (typeof window !== "undefined" && window.location.hostname === "localhost"
+    ? "http://localhost:8000"
+    : "");
+
+if (typeof window !== "undefined" && !API_BASE && window.location.hostname !== "localhost") {
+  console.warn("⚠️ API_BASE is empty. Set NEXT_PUBLIC_API_URL environment variable.");
+}
 
 /**
  * Get the full URL for an image path.

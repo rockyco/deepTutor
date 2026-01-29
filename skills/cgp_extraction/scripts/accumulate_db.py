@@ -69,6 +69,32 @@ async def accumulate_questions():
                      content["images"] = [f"/images/{dir_name}/{img}" for img in q_data["images"]]
                      if "image_url" not in content and content["images"]:
                          content["image_url"] = content["images"][0]
+                     
+                     # Reconstruct option_images map
+                     q_num = q_data.get("question_num")
+                     if q_num and content.get("options"):
+                         opt_imgs = [None] * len(content["options"])
+                         has_opt_img = False
+                         for img_path in content["images"]:
+                             # Expected format: .../q{num}_option_{idx}.png
+                             # We check the filename at end of path
+                             fname = img_path.split("/")[-1]
+                             if f"q{q_num}_option_" in fname:
+                                 try:
+                                     # Extract index between "option_" and ".png"
+                                     # Simplest: split by "_" then take last part? No.
+                                     # regex is safer but let's do simple string parsing
+                                     # q1_option_0.png
+                                     idx_part = fname.split("_option_")[1].split(".")[0]
+                                     idx = int(idx_part)
+                                     if 0 <= idx < len(opt_imgs):
+                                         opt_imgs[idx] = img_path
+                                         has_opt_img = True
+                                 except:
+                                     pass
+                         
+                         if has_opt_img:
+                             content["option_images"] = opt_imgs
                 
                 # 2. Prepare Answer
                 answer_val = q_data.get("answer", "A")
