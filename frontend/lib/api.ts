@@ -4,9 +4,7 @@
 
 export const API_BASE =
   process.env.NEXT_PUBLIC_API_URL ||
-  (typeof window !== "undefined" && window.location.hostname === "localhost"
-    ? "http://localhost:8000"
-    : "");
+  "https://deeptutor-backend-400481200537.us-central1.run.app";
 
 if (typeof window !== "undefined" && !API_BASE && window.location.hostname !== "localhost") {
   console.warn("⚠️ API_BASE is empty. Set NEXT_PUBLIC_API_URL environment variable.");
