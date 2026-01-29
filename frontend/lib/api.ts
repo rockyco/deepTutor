@@ -138,6 +138,11 @@ export interface User {
   current_streak: number;
   longest_streak: number;
   total_practice_time_minutes: number;
+  ai_settings?: {
+    ai_provider?: string;
+    model_name?: string;
+    api_key?: string;
+  };
 }
 
 export interface PracticeSession {
@@ -228,12 +233,19 @@ async function fetchAPI<T>(
   endpoint: string,
   options: RequestInit = {}
 ): Promise<T> {
+  const headers: HeadersInit = {
+    "Content-Type": "application/json",
+    ...options.headers,
+  };
+
+  const token = typeof window !== 'undefined' ? localStorage.getItem('token') : null;
+  if (token) {
+    (headers as Record<string, string>)["Authorization"] = `Bearer ${token}`;
+  }
+
   const response = await fetch(`${API_BASE}${endpoint}`, {
     ...options,
-    headers: {
-      "Content-Type": "application/json",
-      ...options.headers,
-    },
+    headers,
   });
 
   if (!response.ok) {
@@ -243,6 +255,31 @@ async function fetchAPI<T>(
 
   return response.json();
 }
+
+// Auth API
+export const authAPI = {
+  login: (email: string, password: string) =>
+    fetchAPI<{ access_token: string; token_type: string }>("/api/auth/login", {
+      method: "POST",
+      // OAuth2PasswordRequestForm expects form data, not JSON
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams({ username: email, password }).toString(),
+    }),
+
+  register: (email: string, password: string, name: string, yearGroup: number) =>
+    fetchAPI<{ access_token: string; token_type: string }>("/api/auth/register", {
+      method: "POST",
+      body: JSON.stringify({ email, password, name, year_group: yearGroup }),
+    }),
+
+  getMe: () => fetchAPI<User & { ai_settings?: any }>("/api/auth/me"),
+
+  updateSettings: (settings: { ai_provider?: string; model_name?: string; api_key?: string }) =>
+    fetchAPI<{ status: string }>("/api/auth/settings", {
+      method: "POST",
+      body: JSON.stringify(settings),
+    }),
+};
 
 // Questions API
 export const questionsAPI = {
@@ -280,6 +317,12 @@ export const questionsAPI = {
 
   getHints: (questionId: string, level: number = 1) =>
     fetchAPI<Hint[]>(`/api/questions/${questionId}/hints?level=${level}`),
+
+  getTuition: (question: string, topic: string) =>
+    fetchAPI<{ mermaid: string; explanation: string }>("/api/visualize/tuition", {
+      method: "POST",
+      body: JSON.stringify({ question, topic }),
+    }),
 };
 
 // Practice API

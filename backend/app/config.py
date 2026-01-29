@@ -9,9 +9,11 @@ class Settings(BaseSettings):
 
     app_name: str = "11+ Deep Tutor"
     debug: bool = True
+    google_cloud_project: str | None = "booming-order-424821-m1"
 
     # Database
-    database_url: str = "sqlite+aiosqlite:///data/tutor.db"  # Default for Docker
+    # Default to local path for dev. Dockerfile overrides this via ENV.
+    database_url: str = "sqlite+aiosqlite:////home/amd/UTS/deepTutor/backend/data/tutor.db"
 
     # Paths
     base_dir: Path = Path(__file__).parent.parent
@@ -22,6 +24,7 @@ class Settings(BaseSettings):
     # AI providers (optional - for explanation generation)
     openai_api_key: str | None = None
     anthropic_api_key: str | None = None
+    gemini_api_key: str | None = None
 
     # Practice settings
     default_session_length: int = 10  # questions per session

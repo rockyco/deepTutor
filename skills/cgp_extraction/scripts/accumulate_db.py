@@ -4,7 +4,9 @@ import json
 import sys
 import glob
 from pathlib import Path
+from pathlib import Path
 from uuid import uuid5, NAMESPACE_DNS
+import hashlib
 
 # Add backend to path for imports
 sys.path.append(str(Path.cwd() / "backend"))
@@ -77,9 +79,24 @@ async def accumulate_questions():
                 q_type = DEFAULT_TYPES.get(subject_key, "number_operations")
 
                 # 3. Deterministic ID Generation (Content Hashing)
-                # Using the Question Text + Subject as the seed. 
-                # This ensures Q1 text always generates the same UUID.
+                # Using Question Text + Subject + Image Hash (for NVR uniqueness)
                 unique_string = f"{subject_key}:{content['text'].strip()}"
+                
+                # Add image hash to distinguish NVR questions with identical text
+                img_filename = q_data.get("question_image")
+                if not img_filename and q_data.get("images"):
+                     img_filename = q_data["images"][0]
+                     
+                if img_filename:
+                    img_path = dir_path / img_filename
+                    if img_path.exists():
+                        try:
+                            with open(img_path, "rb") as f:
+                                img_hash = hashlib.md5(f.read()).hexdigest()
+                                unique_string += f":{img_hash}"
+                        except Exception as e:
+                            print(f"Warning: Could not hash image {img_filename}: {e}")
+
                 q_id = str(uuid5(NAMESPACE_DNS, unique_string))
 
                 # 4. Create DB Object

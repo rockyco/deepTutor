@@ -5,7 +5,37 @@ import os
 import re
 import sys
 import argparse
+import glob
 from playwright.async_api import async_playwright
+
+
+def get_next_question_number(output_dir: str) -> int:
+    """Find the highest existing question number and return next available."""
+    max_num = 0
+    
+    # Check existing image files
+    for pattern in ["q*_question*.png", "q*_option*.png"]:
+        for filepath in glob.glob(f"{output_dir}/{pattern}"):
+            filename = os.path.basename(filepath)
+            # Extract number from q123_question_0.png
+            match = re.match(r'q(\d+)_', filename)
+            if match:
+                num = int(match.group(1))
+                max_num = max(max_num, num)
+    
+    # Also check metadata.json for question_num values
+    metadata_file = f"{output_dir}/metadata.json"
+    if os.path.exists(metadata_file):
+        try:
+            with open(metadata_file) as f:
+                existing = json.load(f)
+                for q in existing:
+                    if 'question_num' in q:
+                        max_num = max(max_num, q['question_num'])
+        except:
+            pass
+    
+    return max_num + 1
 
 # --- CONFIGURATION MAP ---
 SUBJECT_CONFIG = {
@@ -39,14 +69,35 @@ async def extract_unified(subject_key: str):
     metadata_file = f"{output_dir}/metadata.json"
     os.makedirs(output_dir, exist_ok=True)
     
+    # Get starting question number (for accumulation)
+    start_q_num = get_next_question_number(output_dir)
+    
     print(f"Starting Extraction for: {subject_key}")
     print(f"Output Directory: {output_dir}")
+    print(f"Starting from question number: {start_q_num}")
 
     async with async_playwright() as p:
-        # Use headless=False for stability
-        browser = await p.chromium.launch(headless=False)
-        context = await browser.new_context()
+        # Use headless=True for stability in this environment
+        # Add anti-bot detection args
+        browser = await p.chromium.launch(
+            headless=True,
+            args=[
+                '--disable-blink-features=AutomationControlled',
+                '--no-sandbox',
+                '--disable-setuid-sandbox'
+            ]
+        )
+        context = await browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        )
         page = await context.new_page()
+        
+        # Add script to mask webdriver
+        await page.add_init_script("""
+            Object.defineProperty(navigator, 'webdriver', {
+                get: () => undefined
+            });
+        """)
 
         print(f"Navigating to {URL}...")
         await page.goto(URL)
@@ -64,8 +115,14 @@ async def extract_unified(subject_key: str):
 
         # Locate iframe
         print("Locating iframe...")
-        iframe_element = await page.locator("iframe.display-app-container").element_handle()
-        frame = await iframe_element.content_frame()
+        try:
+             iframe_element = await page.locator("iframe.display-app-container").element_handle(timeout=30000)
+             frame = await iframe_element.content_frame()
+        except Exception as e:
+             print(f"Error finding iframe: {e}")
+             await page.screenshot(path="debug_iframe_timeout.png")
+             await browser.close()
+             return
 
         # Start Test
         print(f"Selecting test...")
@@ -102,24 +159,25 @@ async def extract_unified(subject_key: str):
         questions_map = {} # Key: q_num, Value: dict
         
         # Determine number of questions (heuristic, stop when navigation fails or loop limit)
-        # We loop 1 to 15 safety
-        for q_num in range(1, 16): 
-            print(f"Processing Q{q_num}...")
+        session_q_count = 0
+        for nav_idx in range(1, 16):
+            q_num = start_q_num + session_q_count
+            print(f"Processing Q{q_num} (session #{nav_idx})...")
             
             # 1. Navigation
             # If not first question, click nav square
-            if q_num > 1:
+            if nav_idx > 1:
                 try:
-                    nav_square = frame.locator(f".nav-square >> text={q_num}")
+                    nav_square = frame.locator(f".nav-square >> text={nav_idx}")
                     # If nav square doesn't exist, we might be done
                     if await nav_square.count() == 0:
-                        print(f"No navigation square for Q{q_num}. Stopping phase 1 loop.")
+                        print(f"No navigation square for #{nav_idx}. Stopping phase 1 loop.")
                         break
                     
                     await nav_square.click()
                     await page.wait_for_timeout(1000)
                 except:
-                    print(f"Navigation failed for Q{q_num}. Stopping.")
+                    print(f"Navigation failed for #{nav_idx}. Stopping.")
                     break
             
             # Check if this is the end (Summary page?)
@@ -171,26 +229,43 @@ async def extract_unified(subject_key: str):
 
 
             # 3. Extract Images (Robust)
+            # 3. Extract Images (Robust Segregation)
             images_data = await frame.evaluate("""
                 () => {
                     const qContainer = document.querySelector('#question-content');
                     // Find ALL images in question container
                     const qImages = qContainer ? Array.from(qContainer.querySelectorAll('img')) : [];
                     
-                    // Filter out likely UI icons if needed, but usually safe to take all data:images
                     const questionImageSrcs = qImages
                         .filter(img => img.src.startsWith('data:image'))
                         .map(img => img.src);
 
-                    // Options images (outside question container)
-                    const allImages = Array.from(document.querySelectorAll('img'));
-                    const optionImages = allImages
-                        .filter(img => !qImages.includes(img) && img.src.startsWith('data:image'))
-                        .map(img => img.src);
+                    // Options images: Strictly look inside answer containers
+                    // CGP structure: .answer-content or .keyboard-key (for NVR)
+                    const optionContainers = document.querySelectorAll('.answer-content, .keyboard-key, .option-container');
+                    let optionImageSrcs = [];
+                    
+                    optionContainers.forEach(container => {
+                        const imgs = Array.from(container.querySelectorAll('img'));
+                        imgs.forEach(img => {
+                            if (img.src.startsWith('data:image') && !qImages.includes(img)) {
+                                optionImageSrcs.push(img.src);
+                            }
+                        });
+                    });
+                    
+                    // Fallback: If no strict option images found, look for all other images NOT in question
+                    if (optionImageSrcs.length === 0) {
+                         // console.log("Fallback: No option images found in standard containers.");
+                         const allImages = Array.from(document.querySelectorAll('img'));
+                         optionImageSrcs = allImages
+                            .filter(img => !qImages.includes(img) && img.src.startsWith('data:image') && img.closest('.answer-area'))
+                            .map(img => img.src);
+                    }
 
                     return {
                         question_images: questionImageSrcs,
-                        option_images: optionImages
+                        option_images: optionImageSrcs
                     };
                 }
             """)
@@ -244,6 +319,7 @@ async def extract_unified(subject_key: str):
             
 
             questions_map[q_num] = q_data
+            session_q_count += 1
             
             # 4. Select an Answer (Option A)
             try:
@@ -373,24 +449,48 @@ async def extract_unified(subject_key: str):
                     if best_idx != -1:
                         matched_chars.append(chr(65 + best_idx))
                     else:
-                        print(f"Warning: Could not match answer text '{c_text}' to options {stored_options}")
+                        # Fallback: check if c_clean is just a letter (a, b, c...)
+                        letter_match = re.match(r'^([a-e])[.)]?$', c_clean)
+                        if letter_match:
+                             letter = letter_match.group(1).upper()
+                             matched_chars.append(letter)
+                        else:
+                             print(f"Warning: Could not match answer text '{c_text}' to options {stored_options}")
 
                 if matched_chars:
                     answer_char = ", ".join(sorted(set(matched_chars)))
                 else:
                     answer_char = "Unknown"
 
+                # If still unknown and we have options, maybe try to match the explanation text?
+                if answer_char == "Unknown" and "The answer is" in full_text:
+                     match = re.search(r"The (?:correct )?answer is ([A-E])", full_text, re.IGNORECASE)
+                     if match:
+                         answer_char = match.group(1).upper()
+
                 questions_map[q_num]["answer"] = answer_char
                 questions_map[q_num]["explanation"] = full_text.strip()
-                print(f"Q{q_num}: {answer_char} (Matched '{correct_texts}' to indices)")
+                print(f"Q{q_num}: {answer_char} (Matched '{correct_texts}' => {matched_chars})")
             except Exception as e:
                 print(f"Error extraction Q{q_num}: {e}")
         # --- SAVE ---
-        all_metadata = list(questions_map.values())
+        # --- SAVE (APPEND MODE) ---
+        new_questions = list(questions_map.values())
+        
+        existing_metadata = []
+        if os.path.exists(metadata_file):
+            try:
+                with open(metadata_file) as f:
+                    existing_metadata = json.load(f)
+            except:
+                pass
+        
+        all_metadata = existing_metadata + new_questions
+        
         with open(metadata_file, "w") as f:
             json.dump(all_metadata, f, indent=2)
             
-        print(f"Saved complete metadata to {metadata_file}")
+        print(f"Saved complete metadata to {metadata_file} (Added {len(new_questions)} questions)")
         await browser.close()
 
 if __name__ == "__main__":

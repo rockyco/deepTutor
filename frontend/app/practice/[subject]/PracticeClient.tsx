@@ -50,7 +50,27 @@ export default function PracticeClient() {
   const [currentHints, setCurrentHints] = useState<Hint[]>([]);
   const [timer, setTimer] = useState(0);
   const [sessionComplete, setSessionComplete] = useState(false);
+  // AI Tuition State
+  const [showTuition, setShowTuition] = useState(false);
+  const [tuitionLoading, setTuitionLoading] = useState(false);
+  const [tuitionContent, setTuitionContent] = useState<{ mermaid: string; explanation: string } | null>(null);
 
+  // Load Mermaid
+  useEffect(() => {
+    import("mermaid").then((m) => {
+      m.default.initialize({ startOnLoad: true, theme: "neutral" });
+    });
+  }, []);
+
+  useEffect(() => {
+    if (showTuition && tuitionContent?.mermaid) {
+      import("mermaid").then((m) => {
+        m.default.contentLoaded();
+      });
+    }
+  }, [showTuition, tuitionContent]);
+
+  // Load questions
   // Load questions
   useEffect(() => {
     async function loadQuestions() {
@@ -185,6 +205,8 @@ export default function PracticeClient() {
     setCurrentResult(null);
     setShowHint(false);
     setCurrentHints([]);
+    setTuitionContent(null);
+    setShowTuition(false);
   };
 
   const handleRestart = useCallback(async () => {
@@ -196,6 +218,8 @@ export default function PracticeClient() {
     setCurrentResult(null);
     setShowHint(false);
     setCurrentHints([]);
+    setTuitionContent(null);
+    setShowTuition(false);
     setTimer(0);
 
     try {
@@ -344,12 +368,80 @@ export default function PracticeClient() {
     );
   }
 
+
+
+  const handleGetTuition = async () => {
+    if (!currentQuestion) return;
+    setTuitionLoading(true);
+    setShowTuition(true);
+    try {
+      if (!tuitionContent) {
+        const data = await questionsAPI.getTuition(currentQuestion.content.text, subject);
+        setTuitionContent(data);
+      }
+    } catch (err) {
+      console.error(err);
+    } finally {
+      setTuitionLoading(false);
+    }
+  };
+
+  const closeTuition = () => {
+    setShowTuition(false);
+  };
+
   if (!currentQuestion || !practice) return null;
 
   const hintsUsedCount = practice.hintsUsed.get(currentQuestion.id) || 0;
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 relative">
+      {/* Tuition Modal */}
+      {showTuition && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4">
+          <div className="bg-white rounded-2xl shadow-2xl w-full max-w-7xl max-h-[90vh] overflow-y-auto transform transition-all scale-100">
+            <div className="sticky top-0 bg-white border-b px-6 py-4 flex items-center justify-between z-10">
+              <div className="flex items-center gap-2 text-indigo-600">
+                <div className="w-8 h-8 rounded-full bg-indigo-100 flex items-center justify-center text-lg">✨</div>
+                <h2 className="text-xl font-bold">AI Visual Tutor</h2>
+              </div>
+              <button onClick={closeTuition} className="p-2 hover:bg-gray-100 rounded-full">
+                <XCircle className="w-6 h-6 text-gray-500" />
+              </button>
+            </div>
+
+            <div className="p-6">
+              {tuitionLoading ? (
+                <div className="flex flex-col items-center justify-center py-12">
+                  <div className="w-12 h-12 border-4 border-indigo-600 border-t-transparent rounded-full animate-spin mb-4"></div>
+                  <p className="text-slate-600 font-medium animate-pulse">Designing your personal lesson...</p>
+                  <p className="text-slate-400 text-sm mt-2">Searching teaching methods & visualizing logic</p>
+                </div>
+              ) : tuitionContent ? (
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
+                    <h3 className="font-bold text-slate-700 mb-4 flex items-center gap-2">
+                      <div className="w-2 h-2 rounded-full bg-blue-500"></div> Visual Logic
+                    </h3>
+                    <div className="mermaid flex justify-center bg-white p-4 rounded-lg border shadow-sm overflow-x-auto">
+                      {tuitionContent.mermaid}
+                    </div>
+                  </div>
+                  <div className="space-y-4">
+                    <h3 className="font-bold text-slate-700 mb-4 flex items-center gap-2">
+                      <div className="w-2 h-2 rounded-full bg-green-500"></div> Step-by-Step Guide
+                    </h3>
+                    <div className="prose prose-indigo" dangerouslySetInnerHTML={{ __html: tuitionContent.explanation }} />
+                  </div>
+                </div>
+              ) : (
+                <p className="text-red-500 text-center">Failed to load tuition. Please try again.</p>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Header */}
       <header className="bg-white shadow-sm border-b sticky top-0 z-10">
         <div className="max-w-4xl mx-auto px-4 py-4">
@@ -415,8 +507,16 @@ export default function PracticeClient() {
             <span className="text-xs text-gray-400">
               - {getDifficultyLabel(currentQuestion.difficulty)}
             </span>
+            {/* AI Tuition Button (Mobile/Inline) */}
+            <button
+              onClick={handleGetTuition}
+              className="ml-auto inline-flex items-center gap-1.5 px-3 py-1 bg-gradient-to-r from-violet-600 to-indigo-600 text-white rounded-full text-xs font-bold shadow-sm hover:shadow-md hover:scale-105 transition-all"
+            >
+              <span>✨</span> Explain with AI
+            </button>
           </div>
 
+          {/* ... (Existing Content Rendering) ... */}
           {/* Passage (for comprehension) */}
           {currentQuestion.content.passage && (
             <div className="bg-gray-50 rounded-lg p-4 mb-6 border-l-4 border-sky-500">
@@ -577,6 +677,7 @@ export default function PracticeClient() {
             </div>
           )}
 
+          {/* ... Explanation Code ... */}
           {/* Result Explanation */}
           {showResult && currentResult && (
             <div

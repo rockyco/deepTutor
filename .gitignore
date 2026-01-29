@@ -78,8 +78,6 @@ htmlcov/
 backend/data/crawled/*.json
 backend/backend/data/crawled/*.json
 **/data/crawled/*.json
-backend/data/images/
-**/data/images/
 !**/data/crawled/.gitkeep
 !**/data/images/.gitkeep
 

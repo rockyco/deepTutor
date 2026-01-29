@@ -17,7 +17,16 @@ from app.config import settings
 from app.db import init_db
 from app.db.database import async_session
 from app.db.models import QuestionDB
-from app.routers import questions_router, practice_router, progress, users_router
+from app.routers import (
+    questions_router,
+    practice_router,
+    progress,
+    users_router,
+    visualize_router,
+    research_router,
+    generator_router,
+)
+from app.api import auth
 
 logger = logging.getLogger(__name__)
 
@@ -110,6 +119,11 @@ app.add_middleware(
 app.include_router(questions_router)
 app.include_router(practice_router)
 app.include_router(progress.router, prefix="/api/progress", tags=["progress"])
+app.include_router(visualize_router)
+app.include_router(research_router)
+app.include_router(generator_router)
+app.include_router(generator_router)
+app.include_router(auth.router, prefix="/api")
 
 # Dev/Temp endpoint for image ingestion
 class ImageUpload(BaseModel):
@@ -119,7 +133,7 @@ class ImageUpload(BaseModel):
 @app.post("/api/dev/upload_image")
 async def upload_image(data: ImageUpload):
     # Save to standard images dir
-    output_dir = "data/images/granular"
+    output_dir = "data/images/granular_non_verbal_reasoning"
     os.makedirs(output_dir, exist_ok=True)
     
     file_path = os.path.join(output_dir, data.filename)
@@ -132,7 +146,7 @@ async def upload_image(data: ImageUpload):
     with open(file_path, "wb") as f:
         f.write(base64.b64decode(content))
         
-    return {"status": "ok", "path": f"/images/granular/{data.filename}"}
+    return {"status": "ok", "path": f"/images/granular_non_verbal_reasoning/{data.filename}"}
 
 # Mount static files for images
 images_dir = Path(__file__).parent.parent / "data" / "images"

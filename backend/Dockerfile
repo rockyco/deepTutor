@@ -20,9 +20,13 @@ RUN uv pip install --system -e .
 
 # Copy application code
 COPY app/ ./app/
+# Copy scripts and images
 COPY scripts/ ./scripts/
-COPY data/questions/ ./data/questions/
 COPY data/images/ ./data/images/
+
+# Copy ONLY the master seed file to ensure clean database state
+# We rename it to seed.json for clarity
+COPY data/questions/deployment_dump.json ./data/questions/seed.json
 
 # Create data directory for SQLite database
 RUN mkdir -p /data

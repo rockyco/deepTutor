@@ -26,6 +26,7 @@ class QuestionType(str, Enum):
     SPELLING = "spelling"
     VOCABULARY = "vocabulary"
     SENTENCE_COMPLETION = "sentence_completion"
+    PUNCTUATION = "punctuation"
 
     # Maths types
     NUMBER_OPERATIONS = "number_operations"

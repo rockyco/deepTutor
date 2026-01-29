@@ -25,9 +25,12 @@ class UserDB(Base):
     __tablename__ = "users"
 
     id: Mapped[str] = mapped_column(String(36), primary_key=True, default=generate_uuid)
+    email: Mapped[str] = mapped_column(String(255), unique=True, nullable=False, index=True)
+    hashed_password: Mapped[str] = mapped_column(String(255), nullable=False)
     name: Mapped[str] = mapped_column(String(100), nullable=False)
     year_group: Mapped[int] = mapped_column(Integer, default=5)
     target_schools: Mapped[str] = mapped_column(Text, default="[]")  # JSON array
+    ai_settings: Mapped[str | None] = mapped_column(Text, nullable=True) # JSON config
     created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
     last_active: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
     total_questions_attempted: Mapped[int] = mapped_column(Integer, default=0)
