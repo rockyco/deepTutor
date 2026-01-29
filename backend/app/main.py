@@ -2,6 +2,7 @@
 
 import json
 import logging
+import os
 from contextlib import asynccontextmanager
 import os
 import base64
@@ -34,6 +35,10 @@ logger = logging.getLogger(__name__)
 async def seed_questions():
     """Seed database with questions from JSON files if empty."""
     async with async_session() as session:
+        if os.getenv("SKIP_SEEDING", "").lower() == "true":
+            logger.info("SKIP_SEEDING is set. Skipping database seed.")
+            return
+
         count = await session.scalar(select(func.count()).select_from(QuestionDB))
         if count and count > 0:
             logger.info(f"Database already has {count} questions. Skipping seed.")

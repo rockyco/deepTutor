@@ -64,12 +64,10 @@ class GeminiProvider(LLMProvider):
             try:
                 vertexai.init(project=project_id, location="us-central1")
                 temp_model = GenerativeModel("gemini-1.5-flash")
-                # Warmup: Validation call to check connectivity/permissions
-                # We use count_tokens as it's lightweight
-                temp_model.count_tokens("Hello")
+                # Warmup removed to prevent startup timeout
                 self.model = temp_model
                 self.use_vertex = True
-                logger.info("GeminiProvider initialized with Vertex AI (Validated).")
+                logger.info("GeminiProvider initialized with Vertex AI.")
             except Exception as e:
                 logger.warning(f"Vertex AI validation failed (Permissions/Quota): {e}. Falling back...")
                 self.use_vertex = False

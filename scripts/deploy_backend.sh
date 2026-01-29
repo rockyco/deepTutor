@@ -30,6 +30,8 @@ gcloud run deploy deeptutor-backend \
     --platform managed \
     --region us-central1 \
     --allow-unauthenticated \
-    --set-env-vars DATABASE_URL="sqlite+aiosqlite:///data/tutor.db"
+    --timeout 300 \
+    --memory 1Gi \
+    --set-env-vars DATABASE_URL="sqlite+aiosqlite:////tmp/tutor.db",SKIP_SEEDING="true"
 
 echo "✅ Backend Deployment Complete!"
