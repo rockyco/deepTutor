@@ -16,9 +16,9 @@
       "image_url": "/images/granular_maths/q1_question_0.png"
     },
     "answer": {
-      "value": "A"
+      "value": "64"
     },
-    "explanation": "Answer:\n\n64 is a square number (8\u00a0\u00d7\u00a08\u00a0=\u00a064) and a cube number (4\u00a0\u00d7\u00a04\u00a0\u00d7\u00a04\u00a0=\u00a064), so it should be in the top\u2011left box.",
+    "explanation": "Answer:\n\n64 is a square number (8 × 8 = 64) and a cube number (4 × 4 × 4 = 64), so it should be in the top‑left box.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -29,7 +29,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "2x\u00b0 is an acute angle and 3x\u00b0 is an obtuse angle.\n\nWhich of the options below could be the value of x?",
+      "text": "2x° is an acute angle and 3x° is an obtuse angle.\n\nWhich of the options below could be the value of x?",
       "options": [
         "23",
         "53",
@@ -39,9 +39,9 @@
       ]
     },
     "answer": {
-      "value": "C"
+      "value": "42"
     },
-    "explanation": "Answer:\n\nAn acute angle is less than 90\u00b0, so 2x\u00a0<\u00a090, which means x\u00a0<\u00a090\u00a0\u00f7\u00a02\u00a0=\u00a045. So it can\u2019t be e) or b). An obtuse angle is greater than 90\u00b0, so 3x\u00a0>\u00a090, which means x\u00a0>\u00a090\u00a0\u00f7\u00a03\u00a0=\u00a030, so it can\u2019t be d) or a). So c) is the only possible value of x.",
+    "explanation": "Answer:\n\nAn acute angle is less than 90°, so 2x < 90, which means x < 90 ÷ 2 = 45. So it can’t be e) or b). An obtuse angle is greater than 90°, so 3x > 90, which means x > 90 ÷ 3 = 30, so it can’t be d) or a). So c) is the only possible value of x.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -52,7 +52,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Lucas asked everyone in Year\u00a06 where they would like to go on a trip. He made a pie chart of the results.\n\nWhat fraction of the children said they wanted to go to either a farm or a zoo?",
+      "text": "Lucas asked everyone in Year 6 where they would like to go on a trip. He made a pie chart of the results.\n\nWhat fraction of the children said they wanted to go to either a farm or a zoo?",
       "options": [
         "7\n2",
         "5\n2",
@@ -63,9 +63,9 @@
       "image_url": "/images/granular_maths/q3_question_0.png"
     },
     "answer": {
-      "value": "C"
+      "value": "9\n4"
     },
-    "explanation": "Answer:\n\nThe farm sector has an angle of\u00a070\u00b0 and the zoo\u00a0sector has an angle of\u00a090\u00b0. The total\u00a0of these angles is 70\u00b0\u00a0+\u00a090\u00b0\u00a0=\u00a0160\u00b0. As a fraction of the whole circle, this is \n3\n6\n0\n1\n6\n0\n. Divide the numerator and denominator by 10 and then by 4 to simplify: \n3\n6\n0\n1\n6\n0\n3\n6\n1\n6\n9\n4\n=\n=\n.",
+    "explanation": "Answer:\n\nThe farm sector has an angle of 70° and the zoo sector has an angle of 90°. The total of these angles is 70° + 90° = 160°. As a fraction of the whole circle, this is \n3\n6\n0\n1\n6\n0\n. Divide the numerator and denominator by 10 and then by 4 to simplify: \n3\n6\n0\n1\n6\n0\n3\n6\n1\n6\n9\n4\n=\n=\n.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -76,7 +76,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Ben has \u00a38 to spend. He buys a chocolate bar for \u00a32.\n\nWhat percentage of his money does Ben spend on the chocolate bar?",
+      "text": "Ben has £8 to spend. He buys a chocolate bar for £2.\n\nWhat percentage of his money does Ben spend on the chocolate bar?",
       "options": [
         "30%",
         "20%",
@@ -86,9 +86,9 @@
       ]
     },
     "answer": {
-      "value": "E"
+      "value": "25%"
     },
-    "explanation": "Answer:\n\n\u00a32 out of \u00a38 \n8\n2\n4\n1\n=\n=\n. So Ben spends \n%\n4\n1\n2\n5\n=\n of his money on the chocolate bar.",
+    "explanation": "Answer:\n\n£2 out of £8 \n8\n2\n4\n1\n=\n=\n. So Ben spends \n%\n4\n1\n2\n5\n=\n of his money on the chocolate bar.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -109,9 +109,9 @@
       ]
     },
     "answer": {
-      "value": "E"
+      "value": "3"
     },
-    "explanation": "Answer:\n\n12\u00a0+\u00a08\u00a0+\u00a020\u00a0=\u00a040. So \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n \n4\n0\n1\n2\n0\n=\n =\u00a0120\u00a0\u00f7\u00a040\u00a0=\u00a03.",
+    "explanation": "Answer:\n\n12 + 8 + 20 = 40. So \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n \n4\n0\n1\n2\n0\n=\n = 120 ÷ 40 = 3.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -124,18 +124,18 @@
     "content": {
       "text": "Look at the shape below.\n\nWhich one of the following shapes has the same area?",
       "options": [
-        "A parallelogram, base 5\u00a0m, vertical height 5\u00a0m.",
-        "A rectangle, width 4\u00a0m, length 5\u00a0m.",
-        "A square, side length 5\u00a0m.",
-        "A parallelogram, base 7\u00a0m, vertical height 3\u00a0m.",
-        "A triangle, base 10\u00a0m, height 4\u00a0m."
+        "A parallelogram, base 5 m, vertical height 5 m.",
+        "A rectangle, width 4 m, length 5 m.",
+        "A square, side length 5 m.",
+        "A parallelogram, base 7 m, vertical height 3 m.",
+        "A triangle, base 10 m, height 4 m."
       ],
       "image_url": "/images/granular_maths/q6_question_0.png"
     },
     "answer": {
-      "value": "D"
+      "value": "A parallelogram, base 7 m, vertical height 3 m."
     },
-    "explanation": "Answer:\n\nThe shape in the diagram can be split into a 3\u00a0m\u00a0by\u00a02\u00a0m rectangle and 3\u00a0m\u00a0by\u00a05\u00a0m rectangle. So the total area is (3\u00a0\u00d7\u00a02)\u00a0+\u00a0(3\u00a0\u00d7\u00a05)\u00a0=\u00a06\u00a0+\u00a015 =\u00a021\u00a0m2. The area of a parallelogram is base\u00a0\u00d7\u00a0vertical\u00a0height, so the shape in option d) also has an area of 7\u00a0\u00d7\u00a03\u00a0=\u00a021\u00a0m2. (Options b) and e) both have areas of 20\u00a0m2. Options c) and a) both have areas of 25\u00a0m2.)",
+    "explanation": "Answer:\n\nThe shape in the diagram can be split into a 3 m by 2 m rectangle and 3 m by 5 m rectangle. So the total area is (3 × 2) + (3 × 5) = 6 + 15 = 21 m2. The area of a parallelogram is base × vertical height, so the shape in option d) also has an area of 7 × 3 = 21 m2. (Options b) and e) both have areas of 20 m2. Options c) and a) both have areas of 25 m2.)",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -146,19 +146,19 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Orange juice is usually priced at \u00a31.50 per bottle.\n\nHow much would a bottle of orange juice cost if the price was reduced by 10%?",
+      "text": "Orange juice is usually priced at £1.50 per bottle.\n\nHow much would a bottle of orange juice cost if the price was reduced by 10%?",
       "options": [
-        "\u00a31.30",
-        "\u00a31.35",
-        "\u00a31.45",
-        "\u00a31.25",
-        "\u00a31.40"
+        "£1.30",
+        "£1.35",
+        "£1.45",
+        "£1.25",
+        "£1.40"
       ]
     },
     "answer": {
-      "value": "B"
+      "value": "£1.35"
     },
-    "explanation": "Answer:\n\n10% of \u00a31.50 is \u00a31.50\u00a0\u00f7\u00a010\u00a0=\u00a0\u00a30.15. So the reduced price would be \u00a31.50\u00a0\u2212\u00a0\u00a30.15\u00a0=\u00a0\u00a31.35.",
+    "explanation": "Answer:\n\n10% of £1.50 is £1.50 ÷ 10 = £0.15. So the reduced price would be £1.50 − £0.15 = £1.35.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -179,7 +179,7 @@
       ]
     },
     "answer": {
-      "value": "D"
+      "value": "d)"
     },
     "explanation": "Answer:\n\nShape d) would have three lines of symmetry, the rest would have one line.",
     "hints": [],
@@ -192,19 +192,19 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "___\u00a0\u00f7\u00a01000\u00a0=\u00a00.2543\n\nWhat number is missing from the calculation above?",
+      "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
       "options": [
         "2.543",
         "2543",
         "25.43",
-        "25\u00a0430",
+        "25 430",
         "254.3"
       ]
     },
     "answer": {
-      "value": "E"
+      "value": "254.3"
     },
-    "explanation": "Answer:\n\nMultiplication is the inverse operation of division, so the answer is 0.2543\u00a0\u00d7\u00a01000\u00a0=\u00a0254.3.",
+    "explanation": "Answer:\n\nMultiplication is the inverse operation of division, so the answer is 0.2543 × 1000 = 254.3.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -215,19 +215,19 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "A book about space contains the following sentence:\n\nThe diameter of the Earth is 12\u00a0756.32\u00a0kilometres.\n\nWhat is the Earth\u2019s diameter rounded to the nearest hundred\u00a0kilometres?",
+      "text": "A book about space contains the following sentence:\n\nThe diameter of the Earth is 12 756.32 kilometres.\n\nWhat is the Earth’s diameter rounded to the nearest hundred kilometres?",
       "options": [
-        "12\u00a0760\u00a0km",
-        "12\u00a0750\u00a0km",
-        "13\u00a0000\u00a0km",
-        "12\u00a0800\u00a0km",
-        "12\u00a0700\u00a0km"
+        "12 760 km",
+        "12 750 km",
+        "13 000 km",
+        "12 800 km",
+        "12 700 km"
       ]
     },
     "answer": {
-      "value": "D"
+      "value": "12 800 km"
     },
-    "explanation": "Answer:\n\nYou are rounding to the nearest hundred, so look at the digit in the tens column. It\u2019s a 5, so round up to 12\u00a0800\u00a0km.",
+    "explanation": "Answer:\n\nYou are rounding to the nearest hundred, so look at the digit in the tens column. It’s a 5, so round up to 12 800 km.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -238,7 +238,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Read the information carefully, then use it to answer the question that follows.\n\nJack, Chioma, India, Ellen and Kwasi all completed a maths quiz. Jack didn\u2019t get the lowest score. Kwasi scored more than Jack. India\u2019s score was lower than Ellen\u2019s. Chioma got the second highest score.\n\nWhich of the sentences below must be true?",
+      "text": "Read the information carefully, then use it to answer the question that follows.\n\nJack, Chioma, India, Ellen and Kwasi all completed a maths quiz. Jack didn’t get the lowest score. Kwasi scored more than Jack. India’s score was lower than Ellen’s. Chioma got the second highest score.\n\nWhich of the sentences below must be true?",
       "options": [
         "Kwasi got the highest score.",
         "India got the lowest score.",
@@ -250,7 +250,7 @@
     "answer": {
       "value": "B"
     },
-    "explanation": "Answer:\n\n\u2018India got the lowest score.\u2019 is correct. Jack didn\u2019t get the lowest score and Kwasi scored more than Jack, so Kwasi didn\u2019t get the lowest score either. India\u2019s score was lower than Ellen\u2019s, so Ellen didn\u2019t get the lowest score. Chioma got the second highest score. Since no one else could have got the lowest score, India must have got the lowest score.",
+    "explanation": "Answer:\n\n‘India got the lowest score.’ is correct. Jack didn’t get the lowest score and Kwasi scored more than Jack, so Kwasi didn’t get the lowest score either. India’s score was lower than Ellen’s, so Ellen didn’t get the lowest score. Chioma got the second highest score. Since no one else could have got the lowest score, India must have got the lowest score.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -261,7 +261,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Find the missing number to complete the sum.\n\n\n\n8 \u00f7 4 + 5 \u2212 1 = 18 \u2212 (?)",
+      "text": "Find the missing number to complete the sum.\n\n\n\n8 ÷ 4 + 5 − 1 = 18 − (?)",
       "options": [
         "4",
         "6",
@@ -273,7 +273,7 @@
     "answer": {
       "value": "E"
     },
-    "explanation": "Answer:\n\n8 \u00f7 4 + 5 \u2212 1 = 6, 6 = 18 \u2212 12",
+    "explanation": "Answer:\n\n8 ÷ 4 + 5 − 1 = 6, 6 = 18 − 12",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -284,7 +284,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Choose two words, one from each set of brackets, that complete the sentence in the most sensible way.\n\n\n\nPrecious is to (destitute\u00a0\u00a0\u00a0worthless\u00a0\u00a0\u00a0adorned) as divide is to (combine\u00a0\u00a0\u00a0scatter\u00a0\u00a0\u00a0arrange).",
+      "text": "Choose two words, one from each set of brackets, that complete the sentence in the most sensible way.\n\n\n\nPrecious is to (destitute   worthless   adorned) as divide is to (combine   scatter   arrange).",
       "options": [
         "destitute",
         "worthless",
@@ -298,7 +298,7 @@
     "answer": {
       "value": "B, D"
     },
-    "explanation": "Answer:\n\nThey are antonyms of \u2018precious\u2019 and \u2018divide\u2019.",
+    "explanation": "Answer:\n\nThey are antonyms of ‘precious’ and ‘divide’.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -309,7 +309,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Choose the number that completes the final set of numbers in the same way as the first two sets.\n\n\n\n12 (4) 8\u00a0\u00a0\u00a0\u00a013 (6) 7\u00a0\u00a0\u00a0\u00a021 (?) 3",
+      "text": "Choose the number that completes the final set of numbers in the same way as the first two sets.\n\n\n\n12 (4) 8    13 (6) 7    21 (?) 3",
       "options": [
         "4",
         "6",
@@ -344,7 +344,7 @@
     "answer": {
       "value": "A"
     },
-    "explanation": "Answer:\n\n\u2018ZONE\u2019 is correct. To get from the code to the word, move the letters in the sequence \u22123, \u22122, \u22121, 0.",
+    "explanation": "Answer:\n\n‘ZONE’ is correct. To get from the code to the word, move the letters in the sequence −3, −2, −1, 0.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -355,7 +355,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Choose the letter that will finish the first word and start the second word of each pair. The same letter must be used for both pairs.\n\n\n\nbea (?) ook\u00a0\u00a0\u00a0\u00a0cha (?) est",
+      "text": "Choose the letter that will finish the first word and start the second word of each pair. The same letter must be used for both pairs.\n\n\n\nbea (?) ook    cha (?) est",
       "options": [
         "s",
         "t",
@@ -367,7 +367,7 @@
     "answer": {
       "value": "B"
     },
-    "explanation": "Answer:\n\n\u2018t\u2019 is the correct letter. The new words are \u2018beat\u2019, \u2018took\u2019, \u2018chat\u2019 and \u2018test\u2019.",
+    "explanation": "Answer:\n\n‘t’ is the correct letter. The new words are ‘beat’, ‘took’, ‘chat’ and ‘test’.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -390,7 +390,7 @@
     "answer": {
       "value": "E"
     },
-    "explanation": "Answer:\n\n\u2018ZP\u2019 is correct. The first letter in the pair moves forward 4 letters. The second letter in the pair moves back 3 letters.",
+    "explanation": "Answer:\n\n‘ZP’ is correct. The first letter in the pair moves forward 4 letters. The second letter in the pair moves back 3 letters.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -401,7 +401,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Choose the number that continues the sequence in the best way.\n\n\n\n3\u00a0\u00a0\u00a03\u00a0\u00a0\u00a06\u00a0\u00a0\u00a018\u00a0\u00a0\u00a0(?)",
+      "text": "Choose the number that continues the sequence in the best way.\n\n\n\n3   3   6   18   (?)",
       "options": [
         "18",
         "36",
@@ -413,7 +413,7 @@
     "answer": {
       "value": "C"
     },
-    "explanation": "Answer:\n\n\u201872\u2019 is correct. Multiply by ascending numbers: \u00d71, \u00d72, \u00d73, \u00d74.",
+    "explanation": "Answer:\n\n‘72’ is correct. Multiply by ascending numbers: ×1, ×2, ×3, ×4.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -438,7 +438,7 @@
     "answer": {
       "value": "A, D"
     },
-    "explanation": "Answer:\n\n\u2018anyone\u2019 is the only correctly spelled word that can be made.",
+    "explanation": "Answer:\n\n‘anyone’ is the only correctly spelled word that can be made.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -484,7 +484,7 @@
     "answer": {
       "value": "D"
     },
-    "explanation": "Answer:\n\n\u2018Few\u2019 is a determiner that shows how many people dislike the taste of chocolate.",
+    "explanation": "Answer:\n\n‘Few’ is a determiner that shows how many people dislike the taste of chocolate.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -507,7 +507,7 @@
     "answer": {
       "value": "A"
     },
-    "explanation": "Answer:\n\n\u2018endearing\u2019 and \u2018lovable\u2019 both mean \u2018charming\u2019.",
+    "explanation": "Answer:\n\n‘endearing’ and ‘lovable’ both mean ‘charming’.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -518,11 +518,11 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "The sentence below contains either one mistake involving punctuation or capital letters or no mistake. Choose the group of words which contains the mistake. If there\u2019s no mistake, choose \u2018No mistake\u2019.\n\nWilliam\u2019s brother hates going to the local woodland \u2014 he\u2019d rather stay inside and read a book.",
+      "text": "The sentence below contains either one mistake involving punctuation or capital letters or no mistake. Choose the group of words which contains the mistake. If there’s no mistake, choose ‘No mistake’.\n\nWilliam’s brother hates going to the local woodland — he’d rather stay inside and read a book.",
       "options": [
-        "William\u2019s brother hates going",
-        "to the local woodland \u2014",
-        "he\u2019d rather stay inside",
+        "William’s brother hates going",
+        "to the local woodland —",
+        "he’d rather stay inside",
         "and read a book.",
         "No mistake"
       ]
@@ -541,11 +541,11 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "The sentence below contains either one spelling mistake or no spelling mistakes. Choose the group of words which contains the mistake. If there\u2019s no mistake, choose \u2018no mistake\u2019.\n\n\u201cAs the air to the throne, you will reign over all of this magnificent land,\u201d proclaimed the king.",
+      "text": "The sentence below contains either one spelling mistake or no spelling mistakes. Choose the group of words which contains the mistake. If there’s no mistake, choose ‘no mistake’.\n\n“As the air to the throne, you will reign over all of this magnificent land,” proclaimed the king.",
       "options": [
-        "\u201cAs the air to the throne,",
+        "“As the air to the throne,",
         "you will reign over",
-        "all of this magnificent land,\u201d",
+        "all of this magnificent land,”",
         "proclaimed the king.",
         "No mistake"
       ]
@@ -553,7 +553,7 @@
     "answer": {
       "value": "A"
     },
-    "explanation": "Answer:\n\n\u2018air\u2019 should be \u2018heir\u2019. An \u2018heir\u2019 is somebody who will take over another person\u2019s responsibilities when they die and \u2018air\u2019 is the gases we breathe.",
+    "explanation": "Answer:\n\n‘air’ should be ‘heir’. An ‘heir’ is somebody who will take over another person’s responsibilities when they die and ‘air’ is the gases we breathe.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -564,19 +564,19 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "The sentence below contains a metaphor. Work out which group of words contains this technique and choose the correct group.\n\nThe song was a key that unlocked a long-forgotten memory in Anna\u2019s mind about her life in Spain.",
+      "text": "The sentence below contains a metaphor. Work out which group of words contains this technique and choose the correct group.\n\nThe song was a key that unlocked a long-forgotten memory in Anna’s mind about her life in Spain.",
       "options": [
         "The song was a key",
         "that unlocked a",
         "long-forgotten memory",
-        "in Anna\u2019s mind about",
+        "in Anna’s mind about",
         "her life in Spain."
       ]
     },
     "answer": {
       "value": "A"
     },
-    "explanation": "Answer:\n\n\u2018The song was a key\u2019 is correct. A metaphor describes something as being something else. In this metaphor, the song is compared to a key to emphasise the effect that it has on Anna, but it is not literally a key.",
+    "explanation": "Answer:\n\n‘The song was a key’ is correct. A metaphor describes something as being something else. In this metaphor, the song is compared to a key to emphasise the effect that it has on Anna, but it is not literally a key.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -598,7 +598,7 @@
     "answer": {
       "value": "C"
     },
-    "explanation": "Answer:\n\nPersonification describes something that\u2019s not human as if it is a person. The shadows have been given human qualities (the ability to creep), so this sentence contains personification.",
+    "explanation": "Answer:\n\nPersonification describes something that’s not human as if it is a person. The shadows have been given human qualities (the ability to creep), so this sentence contains personification.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -621,7 +621,7 @@
     "answer": {
       "value": "A"
     },
-    "explanation": "Answer:\n\n\u2018adorned\u2019 and \u2018decorated\u2019 both mean \u2018to be made more attractive\u2019.",
+    "explanation": "Answer:\n\n‘adorned’ and ‘decorated’ both mean ‘to be made more attractive’.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -643,7 +643,7 @@
     "answer": {
       "value": "D"
     },
-    "explanation": "Answer:\n\nA metaphor describes something as being something else. Serena is not literally a panther stalking in the jungle \u2014 she is described like this to show how she is searching for her friends, so this sentence contains a metaphor.",
+    "explanation": "Answer:\n\nA metaphor describes something as being something else. Serena is not literally a panther stalking in the jungle — she is described like this to show how she is searching for her friends, so this sentence contains a metaphor.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -666,7 +666,7 @@
     "answer": {
       "value": "C"
     },
-    "explanation": "Answer:\n\n\u2018and\u2019 is a co-ordinating conjunction. It links the two main clauses together.",
+    "explanation": "Answer:\n\n‘and’ is a co-ordinating conjunction. It links the two main clauses together.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -677,7 +677,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "What type of word is \u2018freezing\u2019 in the following sentence?\n\nThe group of swimmers plunged into the freezing lake, then quickly regretted their decision.",
+      "text": "What type of word is ‘freezing’ in the following sentence?\n\nThe group of swimmers plunged into the freezing lake, then quickly regretted their decision.",
       "options": [
         "abstract noun",
         "preposition",
@@ -689,7 +689,7 @@
     "answer": {
       "value": "D"
     },
-    "explanation": "Answer:\n\n\u2018freezing\u2019 is an adjective in this sentence. It describes the noun \u2018lake\u2019.",
+    "explanation": "Answer:\n\n‘freezing’ is an adjective in this sentence. It describes the noun ‘lake’.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -700,43 +700,19 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Which number has been put in the wrong place in this sorting diagram?",
+      "text": "Mr Chen is knitting a jumper. It takes him two and a half minutes to knit each row.\nHe starts knitting at 4:15 pm.\n\nAt what time will he have knitted 50 rows?",
       "options": [
-        "1",
-        "100",
-        "64",
-        "8",
-        "27"
-      ],
-      "image_url": "/images/granular_maths/q13_question_0.png"
-    },
-    "answer": {
-      "value": "Unknown"
-    },
-    "explanation": "Answer:\n\n2.5\u00a0minutes\u00a0\u00d7\u00a050\u00a0=\u00a0125\u00a0minutes. 125\u00a0minutes\u00a0=\u00a02\u00a0hours and 5\u00a0minutes. Add this to 4:15\u00a0pm: 4:15\u00a0pm\u00a0+\u00a02\u00a0hours\u00a0=\u00a06:15\u00a0pm, 6:15\u00a0pm\u00a0+\u00a05\u00a0minutes\u00a0=\u00a06:20\u00a0pm.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "2x\u00b0 is an acute angle and 3x\u00b0 is an obtuse angle.\n\nWhich of the options below could be the value of x?",
-      "options": [
-        "23",
-        "53",
-        "42",
-        "30",
-        "60"
+        "5:55 pm",
+        "6:20 pm",
+        "6:00 pm",
+        "6:15 pm",
+        "5:05 pm"
       ]
     },
     "answer": {
-      "value": "C"
+      "value": "6:20 pm"
     },
-    "explanation": "Answer:\n\nAn acute angle is less than 90\u00b0, so 2x\u00a0<\u00a090, which means x\u00a0<\u00a090\u00a0\u00f7\u00a02\u00a0=\u00a045. So it can\u2019t be e) or b). An obtuse angle is greater than 90\u00b0, so 3x\u00a0>\u00a090, which means x\u00a0>\u00a090\u00a0\u00f7\u00a03\u00a0=\u00a030, so it can\u2019t be d) or a). So c) is the only possible value of x.",
+    "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -747,216 +723,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Lucas asked everyone in Year\u00a06 where they would like to go on a trip. He made a pie chart of the results.\n\nWhat fraction of the children said they wanted to go to either a farm or a zoo?",
-      "options": [
-        "7\n2",
-        "5\n2",
-        "9\n4",
-        "3\n1",
-        "9\n5"
-      ],
-      "image_url": "/images/granular_maths/q3_question_0.png"
-    },
-    "answer": {
-      "value": "C"
-    },
-    "explanation": "Answer:\n\nThe farm sector has an angle of\u00a070\u00b0 and the zoo\u00a0sector has an angle of\u00a090\u00b0. The total\u00a0of these angles is 70\u00b0\u00a0+\u00a090\u00b0\u00a0=\u00a0160\u00b0. As a fraction of the whole circle, this is \n3\n6\n0\n1\n6\n0\n. Divide the numerator and denominator by 10 and then by 4 to simplify: \n3\n6\n0\n1\n6\n0\n3\n6\n1\n6\n9\n4\n=\n=\n.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Ben has \u00a38 to spend. He buys a chocolate bar for \u00a32.\n\nWhat percentage of his money does Ben spend on the chocolate bar?",
-      "options": [
-        "30%",
-        "20%",
-        "2%",
-        "10%",
-        "25%"
-      ]
-    },
-    "answer": {
-      "value": "E"
-    },
-    "explanation": "Answer:\n\n\u00a32 out of \u00a38 \n8\n2\n4\n1\n=\n=\n. So Ben spends \n%\n4\n1\n2\n5\n=\n of his money on the chocolate bar.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "What is \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n?",
-      "options": [
-        "26",
-        "4",
-        "6",
-        "38",
-        "3"
-      ]
-    },
-    "answer": {
-      "value": "Unknown"
-    },
-    "explanation": "Answer:\n\n2.5\u00a0minutes\u00a0\u00d7\u00a050\u00a0=\u00a0125\u00a0minutes. 125\u00a0minutes\u00a0=\u00a02\u00a0hours and 5\u00a0minutes. Add this to 4:15\u00a0pm: 4:15\u00a0pm\u00a0+\u00a02\u00a0hours\u00a0=\u00a06:15\u00a0pm, 6:15\u00a0pm\u00a0+\u00a05\u00a0minutes\u00a0=\u00a06:20\u00a0pm.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Look at the shape below.\n\nWhich one of the following shapes has the same area?",
-      "options": [
-        "A parallelogram, base 5\u00a0m, vertical height 5\u00a0m.",
-        "A rectangle, width 4\u00a0m, length 5\u00a0m.",
-        "A square, side length 5\u00a0m.",
-        "A parallelogram, base 7\u00a0m, vertical height 3\u00a0m.",
-        "A triangle, base 10\u00a0m, height 4\u00a0m."
-      ],
-      "image_url": "/images/granular_maths/q6_question_0.png"
-    },
-    "answer": {
-      "value": "D"
-    },
-    "explanation": "Answer:\n\nThe shape in the diagram can be split into a 3\u00a0m\u00a0by\u00a02\u00a0m rectangle and 3\u00a0m\u00a0by\u00a05\u00a0m rectangle. So the total area is (3\u00a0\u00d7\u00a02)\u00a0+\u00a0(3\u00a0\u00d7\u00a05)\u00a0=\u00a06\u00a0+\u00a015 =\u00a021\u00a0m2. The area of a parallelogram is base\u00a0\u00d7\u00a0vertical\u00a0height, so the shape in option d) also has an area of 7\u00a0\u00d7\u00a03\u00a0=\u00a021\u00a0m2. (Options b) and e) both have areas of 20\u00a0m2. Options c) and a) both have areas of 25\u00a0m2.)",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Orange juice is usually priced at \u00a31.50 per bottle.\n\nHow much would a bottle of orange juice cost if the price was reduced by 10%?",
-      "options": [
-        "\u00a31.40",
-        "\u00a31.45",
-        "\u00a31.35",
-        "\u00a31.25",
-        "\u00a31.30"
-      ]
-    },
-    "answer": {
-      "value": "Unknown"
-    },
-    "explanation": "Answer:\n\n2.5\u00a0minutes\u00a0\u00d7\u00a050\u00a0=\u00a0125\u00a0minutes. 125\u00a0minutes\u00a0=\u00a02\u00a0hours and 5\u00a0minutes. Add this to 4:15\u00a0pm: 4:15\u00a0pm\u00a0+\u00a02\u00a0hours\u00a0=\u00a06:15\u00a0pm, 6:15\u00a0pm\u00a0+\u00a05\u00a0minutes\u00a0=\u00a06:20\u00a0pm.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "If the shapes below were not coloured, which one would have the most lines of symmetry?",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ]
-    },
-    "answer": {
-      "value": "D"
-    },
-    "explanation": "Answer:\n\nShape d) would have three lines of symmetry, the rest would have one line.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "___\u00a0\u00f7\u00a01000\u00a0=\u00a00.2543\n\nWhat number is missing from the calculation above?",
-      "options": [
-        "25\u00a0430",
-        "2543",
-        "2.543",
-        "254.3",
-        "25.43"
-      ]
-    },
-    "answer": {
-      "value": "Unknown"
-    },
-    "explanation": "Answer:\n\n2.5\u00a0minutes\u00a0\u00d7\u00a050\u00a0=\u00a0125\u00a0minutes. 125\u00a0minutes\u00a0=\u00a02\u00a0hours and 5\u00a0minutes. Add this to 4:15\u00a0pm: 4:15\u00a0pm\u00a0+\u00a02\u00a0hours\u00a0=\u00a06:15\u00a0pm, 6:15\u00a0pm\u00a0+\u00a05\u00a0minutes\u00a0=\u00a06:20\u00a0pm.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "A book about space contains the following sentence:\n\nThe diameter of the Earth is 12\u00a0756.32\u00a0kilometres.\n\nWhat is the Earth\u2019s diameter rounded to the nearest hundred\u00a0kilometres?",
-      "options": [
-        "12\u00a0760\u00a0km",
-        "12\u00a0750\u00a0km",
-        "13\u00a0000\u00a0km",
-        "12\u00a0800\u00a0km",
-        "12\u00a0700\u00a0km"
-      ]
-    },
-    "answer": {
-      "value": "D"
-    },
-    "explanation": "Answer:\n\nYou are rounding to the nearest hundred, so look at the digit in the tens column. It\u2019s a 5, so round up to 12\u00a0800\u00a0km.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Mr Chen is knitting a jumper. It takes him two and a half minutes to knit each row.\nHe starts knitting at 4:15\u00a0pm.\n\nAt what time will he have knitted 50 rows?",
-      "options": [
-        "5:55\u00a0pm",
-        "6:20\u00a0pm",
-        "6:00\u00a0pm",
-        "6:15\u00a0pm",
-        "5:05\u00a0pm"
-      ]
-    },
-    "answer": {
-      "value": "B"
-    },
-    "explanation": "Answer:\n\n2.5\u00a0minutes\u00a0\u00d7\u00a050\u00a0=\u00a0125\u00a0minutes. 125\u00a0minutes\u00a0=\u00a02\u00a0hours and 5\u00a0minutes. Add this to 4:15\u00a0pm: 4:15\u00a0pm\u00a0+\u00a02\u00a0hours\u00a0=\u00a06:15\u00a0pm, 6:15\u00a0pm\u00a0+\u00a05\u00a0minutes\u00a0=\u00a06:20\u00a0pm.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "41\u00a0\u2212\u00a03h\u00a0=\u00a017\n\nWhat is h?",
+      "text": "41 − 3h = 17\n\nWhat is h?",
       "options": [
         "19",
         "8",
@@ -966,9 +733,9 @@
       ]
     },
     "answer": {
-      "value": "Unknown"
+      "value": "8"
     },
-    "explanation": "Answer:\n\n2.5\u00a0minutes\u00a0\u00d7\u00a050\u00a0=\u00a0125\u00a0minutes. 125\u00a0minutes\u00a0=\u00a02\u00a0hours and 5\u00a0minutes. Add this to 4:15\u00a0pm: 4:15\u00a0pm\u00a0+\u00a02\u00a0hours\u00a0=\u00a06:15\u00a0pm, 6:15\u00a0pm\u00a0+\u00a05\u00a0minutes\u00a0=\u00a06:20\u00a0pm.",
+    "explanation": "3h = 41 - 17 = 24, so h = 24 ÷ 3 = 8.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -981,18 +748,18 @@
     "content": {
       "text": "A chip shop records how many people had salt or vinegar on their chips.\n\nThe results are shown in this bar chart.\n\nWhy is the bar chart misleading?",
       "options": [
-        "The bars don\u2019t begin at 0.",
+        "The bars don’t begin at 0.",
         "The bars should be vertical instead of horizontal.",
         "The numbers should be given as percentages.",
-        "The numbers don\u2019t add up to 100.",
-        "It doesn\u2019t include other options, such as ketchup."
+        "The numbers don’t add up to 100.",
+        "It doesn’t include other options, such as ketchup."
       ],
       "image_url": "/images/granular_maths/q16_question_0.png"
     },
     "answer": {
-      "value": "Unknown"
+      "value": "It doesn’t include other options, such as ketchup."
     },
-    "explanation": "Answer:\n\n2.5\u00a0minutes\u00a0\u00d7\u00a050\u00a0=\u00a0125\u00a0minutes. 125\u00a0minutes\u00a0=\u00a02\u00a0hours and 5\u00a0minutes. Add this to 4:15\u00a0pm: 4:15\u00a0pm\u00a0+\u00a02\u00a0hours\u00a0=\u00a06:15\u00a0pm, 6:15\u00a0pm\u00a0+\u00a05\u00a0minutes\u00a0=\u00a06:20\u00a0pm.",
+    "explanation": "The chart only shows data about salt and vinegar, but people might have other toppings on their chips. A chart that doesn’t show all the options can be misleading because it doesn’t give the full picture.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1005,18 +772,18 @@
     "content": {
       "text": "Marko is at a toy shop. He wants to buy two dinosaurs, three chickens and a tiger. The prices of the toys are shown below.\n\nWhich of the calculations below could Marko use to find out how much the toys will cost?",
       "options": [
-        "2\u00a0\u00d7\u00a0\u00a35.00 +\u00a03\u00a0\u00d7\u00a0\u00a34.00 +\u00a0\u00a33.50\u00a0+\u00a06p",
-        "2\u00a0\u00d7\u00a0\u00a35.00 +\u00a03\u00a0\u00d7\u00a0\u00a34.00 +\u00a0\u00a33.50\u00a0\u2212\u00a06p",
-        "2\u00a0\u00d7\u00a0\u00a35.00 +\u00a03\u00a0\u00d7\u00a0\u00a34.00 +\u00a0\u00a33.50\u00a0\u2212\u00a05p",
-        "2\u00a0\u00d7\u00a0\u00a35.00 +\u00a03\u00a0\u00d7\u00a0\u00a34.00 +\u00a0\u00a33.50\u00a0+\u00a05p",
-        "2\u00a0\u00d7\u00a0\u00a35.00 +\u00a03\u00a0\u00d7\u00a0\u00a34.00 +\u00a0\u00a33.50\u00a0\u2212\u00a03p"
+        "2 × £5.00 + 3 × £4.00 + £3.50 + 6p",
+        "2 × £5.00 + 3 × £4.00 + £3.50 − 6p",
+        "2 × £5.00 + 3 × £4.00 + £3.50 − 5p",
+        "2 × £5.00 + 3 × £4.00 + £3.50 + 5p",
+        "2 × £5.00 + 3 × £4.00 + £3.50 − 3p"
       ],
       "image_url": "/images/granular_maths/q17_question_0.png"
     },
     "answer": {
-      "value": "Unknown"
+      "value": "2 × £5.00 + 3 × £4.00 + £3.50 − 6p"
     },
-    "explanation": "Answer:\n\n2.5\u00a0minutes\u00a0\u00d7\u00a050\u00a0=\u00a0125\u00a0minutes. 125\u00a0minutes\u00a0=\u00a02\u00a0hours and 5\u00a0minutes. Add this to 4:15\u00a0pm: 4:15\u00a0pm\u00a0+\u00a02\u00a0hours\u00a0=\u00a06:15\u00a0pm, 6:15\u00a0pm\u00a0+\u00a05\u00a0minutes\u00a0=\u00a06:20\u00a0pm.",
+    "explanation": "The prices are: Chickens £3.99, Dinosaurs £4.99, Tigers £3.49. Each price is 1p less than a round number. So the cost is 2 × (£5.00 − 1p) + 3 × (£4.00 − 1p) + (£3.50 − 1p) = 2 × £5.00 + 3 × £4.00 + £3.50 − 6p.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1038,9 +805,9 @@
       "image_url": "/images/granular_maths/q18_question_0.png"
     },
     "answer": {
-      "value": "Unknown"
+      "value": "7"
     },
-    "explanation": "Answer:\n\n2.5\u00a0minutes\u00a0\u00d7\u00a050\u00a0=\u00a0125\u00a0minutes. 125\u00a0minutes\u00a0=\u00a02\u00a0hours and 5\u00a0minutes. Add this to 4:15\u00a0pm: 4:15\u00a0pm\u00a0+\u00a02\u00a0hours\u00a0=\u00a06:15\u00a0pm, 6:15\u00a0pm\u00a0+\u00a05\u00a0minutes\u00a0=\u00a06:20\u00a0pm.",
+    "explanation": "Total dogs = 34, Total males = 15, so Total females = 34 − 15 = 19. Female adults = 12, so Female puppies = 19 − 12 = 7.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1061,9 +828,9 @@
       ]
     },
     "answer": {
-      "value": "Unknown"
+      "value": "2"
     },
-    "explanation": "Answer:\n\n2.5\u00a0minutes\u00a0\u00d7\u00a050\u00a0=\u00a0125\u00a0minutes. 125\u00a0minutes\u00a0=\u00a02\u00a0hours and 5\u00a0minutes. Add this to 4:15\u00a0pm: 4:15\u00a0pm\u00a0+\u00a02\u00a0hours\u00a0=\u00a06:15\u00a0pm, 6:15\u00a0pm\u00a0+\u00a05\u00a0minutes\u00a0=\u00a06:20\u00a0pm.",
+    "explanation": "2576 ÷ 9 = 286 remainder 2. Check: 286 × 9 = 2574, and 2576 − 2574 = 2.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1074,7 +841,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Read the information carefully, then use it to answer the question that follows.\n\nJack, Chioma, India, Ellen and Kwasi all completed a maths quiz. Jack didn\u2019t get the lowest score. Kwasi scored more than Jack. India\u2019s score was lower than Ellen\u2019s. Chioma got the second highest score.\n\nWhich of the sentences below must be true?",
+      "text": "Read the information carefully, then use it to answer the question that follows.\n\nJack, Chioma, India, Ellen and Kwasi all completed a maths quiz. Jack didn’t get the lowest score. Kwasi scored more than Jack. India’s score was lower than Ellen’s. Chioma got the second highest score.\n\nWhich of the sentences below must be true?",
       "options": [
         "Kwasi got the highest score.",
         "India got the lowest score.",
@@ -1086,7 +853,7 @@
     "answer": {
       "value": "B"
     },
-    "explanation": "Answer:\n\n\u2018India got the lowest score.\u2019 is correct. Jack didn\u2019t get the lowest score and Kwasi scored more than Jack, so Kwasi didn\u2019t get the lowest score either. India\u2019s score was lower than Ellen\u2019s, so Ellen didn\u2019t get the lowest score. Chioma got the second highest score. Since no one else could have got the lowest score, India must have got the lowest score.",
+    "explanation": "Answer:\n\n‘India got the lowest score.’ is correct. Jack didn’t get the lowest score and Kwasi scored more than Jack, so Kwasi didn’t get the lowest score either. India’s score was lower than Ellen’s, so Ellen didn’t get the lowest score. Chioma got the second highest score. Since no one else could have got the lowest score, India must have got the lowest score.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1097,7 +864,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Find the missing number to complete the sum.\n\n\n\n8 \u00f7 4 + 5 \u2212 1 = 18 \u2212 (?)",
+      "text": "Find the missing number to complete the sum.\n\n\n\n8 ÷ 4 + 5 − 1 = 18 − (?)",
       "options": [
         "4",
         "6",
@@ -1109,7 +876,7 @@
     "answer": {
       "value": "E"
     },
-    "explanation": "Answer:\n\n8 \u00f7 4 + 5 \u2212 1 = 6, 6 = 18 \u2212 12",
+    "explanation": "Answer:\n\n8 ÷ 4 + 5 − 1 = 6, 6 = 18 − 12",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1120,7 +887,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Choose two words, one from each set of brackets, that complete the sentence in the most sensible way.\n\n\n\nPrecious is to (destitute\u00a0\u00a0\u00a0worthless\u00a0\u00a0\u00a0adorned) as divide is to (combine\u00a0\u00a0\u00a0scatter\u00a0\u00a0\u00a0arrange).",
+      "text": "Choose two words, one from each set of brackets, that complete the sentence in the most sensible way.\n\n\n\nPrecious is to (destitute   worthless   adorned) as divide is to (combine   scatter   arrange).",
       "options": [
         "destitute",
         "worthless",
@@ -1134,7 +901,7 @@
     "answer": {
       "value": "B, D"
     },
-    "explanation": "Answer:\n\nThey are antonyms of \u2018precious\u2019 and \u2018divide\u2019.",
+    "explanation": "Answer:\n\nThey are antonyms of ‘precious’ and ‘divide’.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1145,7 +912,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Choose the number that completes the final set of numbers in the same way as the first two sets.\n\n\n\n12 (4) 8\u00a0\u00a0\u00a0\u00a013 (6) 7\u00a0\u00a0\u00a0\u00a021 (?) 3",
+      "text": "Choose the number that completes the final set of numbers in the same way as the first two sets.\n\n\n\n12 (4) 8    13 (6) 7    21 (?) 3",
       "options": [
         "4",
         "6",
@@ -1180,7 +947,7 @@
     "answer": {
       "value": "A"
     },
-    "explanation": "Answer:\n\n\u2018ZONE\u2019 is correct. To get from the code to the word, move the letters in the sequence \u22123, \u22122, \u22121, 0.",
+    "explanation": "Answer:\n\n‘ZONE’ is correct. To get from the code to the word, move the letters in the sequence −3, −2, −1, 0.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1191,7 +958,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Choose the letter that will finish the first word and start the second word of each pair. The same letter must be used for both pairs.\n\n\n\nbea (?) ook\u00a0\u00a0\u00a0\u00a0cha (?) est",
+      "text": "Choose the letter that will finish the first word and start the second word of each pair. The same letter must be used for both pairs.\n\n\n\nbea (?) ook    cha (?) est",
       "options": [
         "s",
         "t",
@@ -1203,7 +970,7 @@
     "answer": {
       "value": "B"
     },
-    "explanation": "Answer:\n\n\u2018t\u2019 is the correct letter. The new words are \u2018beat\u2019, \u2018took\u2019, \u2018chat\u2019 and \u2018test\u2019.",
+    "explanation": "Answer:\n\n‘t’ is the correct letter. The new words are ‘beat’, ‘took’, ‘chat’ and ‘test’.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1226,7 +993,7 @@
     "answer": {
       "value": "E"
     },
-    "explanation": "Answer:\n\n\u2018ZP\u2019 is correct. The first letter in the pair moves forward 4 letters. The second letter in the pair moves back 3 letters.",
+    "explanation": "Answer:\n\n‘ZP’ is correct. The first letter in the pair moves forward 4 letters. The second letter in the pair moves back 3 letters.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1237,7 +1004,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Choose the number that continues the sequence in the best way.\n\n\n\n3\u00a0\u00a0\u00a03\u00a0\u00a0\u00a06\u00a0\u00a0\u00a018\u00a0\u00a0\u00a0(?)",
+      "text": "Choose the number that continues the sequence in the best way.\n\n\n\n3   3   6   18   (?)",
       "options": [
         "18",
         "36",
@@ -1249,7 +1016,7 @@
     "answer": {
       "value": "C"
     },
-    "explanation": "Answer:\n\n\u201872\u2019 is correct. Multiply by ascending numbers: \u00d71, \u00d72, \u00d73, \u00d74.",
+    "explanation": "Answer:\n\n‘72’ is correct. Multiply by ascending numbers: ×1, ×2, ×3, ×4.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1273,7 +1040,7 @@
     "answer": {
       "value": "Unknown"
     },
-    "explanation": "Answer:\n\n\u2018below\u2019 is the only correctly spelled word that can be made.",
+    "explanation": "Answer:\n\n‘below’ is the only correctly spelled word that can be made.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1319,7 +1086,7 @@
     "answer": {
       "value": "D"
     },
-    "explanation": "Answer:\n\n\u2018Few\u2019 is a determiner that shows how many people dislike the taste of chocolate.",
+    "explanation": "Answer:\n\n‘Few’ is a determiner that shows how many people dislike the taste of chocolate.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1342,7 +1109,7 @@
     "answer": {
       "value": "A"
     },
-    "explanation": "Answer:\n\n\u2018endearing\u2019 and \u2018lovable\u2019 both mean \u2018charming\u2019.",
+    "explanation": "Answer:\n\n‘endearing’ and ‘lovable’ both mean ‘charming’.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1353,11 +1120,11 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "The sentence below contains either one mistake involving punctuation or capital letters or no mistake. Choose the group of words which contains the mistake. If there\u2019s no mistake, choose \u2018No mistake\u2019.\n\nWilliam\u2019s brother hates going to the local woodland \u2014 he\u2019d rather stay inside and read a book.",
+      "text": "The sentence below contains either one mistake involving punctuation or capital letters or no mistake. Choose the group of words which contains the mistake. If there’s no mistake, choose ‘No mistake’.\n\nWilliam’s brother hates going to the local woodland — he’d rather stay inside and read a book.",
       "options": [
-        "William\u2019s brother hates going",
-        "to the local woodland \u2014",
-        "he\u2019d rather stay inside",
+        "William’s brother hates going",
+        "to the local woodland —",
+        "he’d rather stay inside",
         "and read a book.",
         "No mistake"
       ]
@@ -1365,7 +1132,7 @@
     "answer": {
       "value": "Unknown"
     },
-    "explanation": "Answer:\n\n\u2018The choral scholars are known for their charismatic performances.\u2019 is correct. The hard \u2018c\u2019 sound is repeated.",
+    "explanation": "Answer:\n\n‘The choral scholars are known for their charismatic performances.’ is correct. The hard ‘c’ sound is repeated.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1376,11 +1143,11 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "The sentence below contains either one spelling mistake or no spelling mistakes. Choose the group of words which contains the mistake. If there\u2019s no mistake, choose \u2018no mistake\u2019.\n\n\u201cAs the air to the throne, you will reign over all of this magnificent land,\u201d proclaimed the king.",
+      "text": "The sentence below contains either one spelling mistake or no spelling mistakes. Choose the group of words which contains the mistake. If there’s no mistake, choose ‘no mistake’.\n\n“As the air to the throne, you will reign over all of this magnificent land,” proclaimed the king.",
       "options": [
-        "\u201cAs the air to the throne,",
+        "“As the air to the throne,",
         "you will reign over",
-        "all of this magnificent land,\u201d",
+        "all of this magnificent land,”",
         "proclaimed the king.",
         "No mistake"
       ]
@@ -1388,7 +1155,7 @@
     "answer": {
       "value": "A"
     },
-    "explanation": "Answer:\n\n\u2018air\u2019 should be \u2018heir\u2019. An \u2018heir\u2019 is somebody who will take over another person\u2019s responsibilities when they die and \u2018air\u2019 is the gases we breathe.",
+    "explanation": "Answer:\n\n‘air’ should be ‘heir’. An ‘heir’ is somebody who will take over another person’s responsibilities when they die and ‘air’ is the gases we breathe.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1399,19 +1166,19 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "The sentence below contains a metaphor. Work out which group of words contains this technique and choose the correct group.\n\nThe song was a key that unlocked a long-forgotten memory in Anna\u2019s mind about her life in Spain.",
+      "text": "The sentence below contains a metaphor. Work out which group of words contains this technique and choose the correct group.\n\nThe song was a key that unlocked a long-forgotten memory in Anna’s mind about her life in Spain.",
       "options": [
         "The song was a key",
         "that unlocked a",
         "long-forgotten memory",
-        "in Anna\u2019s mind about",
+        "in Anna’s mind about",
         "her life in Spain."
       ]
     },
     "answer": {
       "value": "A"
     },
-    "explanation": "Answer:\n\n\u2018The song was a key\u2019 is correct. A metaphor describes something as being something else. In this metaphor, the song is compared to a key to emphasise the effect that it has on Anna, but it is not literally a key.",
+    "explanation": "Answer:\n\n‘The song was a key’ is correct. A metaphor describes something as being something else. In this metaphor, the song is compared to a key to emphasise the effect that it has on Anna, but it is not literally a key.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1433,7 +1200,7 @@
     "answer": {
       "value": "C"
     },
-    "explanation": "Answer:\n\nPersonification describes something that\u2019s not human as if it is a person. The shadows have been given human qualities (the ability to creep), so this sentence contains personification.",
+    "explanation": "Answer:\n\nPersonification describes something that’s not human as if it is a person. The shadows have been given human qualities (the ability to creep), so this sentence contains personification.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1456,7 +1223,7 @@
     "answer": {
       "value": "A"
     },
-    "explanation": "Answer:\n\n\u2018adorned\u2019 and \u2018decorated\u2019 both mean \u2018to be made more attractive\u2019.",
+    "explanation": "Answer:\n\n‘adorned’ and ‘decorated’ both mean ‘to be made more attractive’.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1478,7 +1245,7 @@
     "answer": {
       "value": "Unknown"
     },
-    "explanation": "Answer:\n\n\u2018The choral scholars are known for their charismatic performances.\u2019 is correct. The hard \u2018c\u2019 sound is repeated.",
+    "explanation": "Answer:\n\n‘The choral scholars are known for their charismatic performances.’ is correct. The hard ‘c’ sound is repeated.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1501,7 +1268,7 @@
     "answer": {
       "value": "C"
     },
-    "explanation": "Answer:\n\n\u2018and\u2019 is a co-ordinating conjunction. It links the two main clauses together.",
+    "explanation": "Answer:\n\n‘and’ is a co-ordinating conjunction. It links the two main clauses together.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1512,7 +1279,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "What type of word is \u2018freezing\u2019 in the following sentence?\n\nThe group of swimmers plunged into the freezing lake, then quickly regretted their decision.",
+      "text": "What type of word is ‘freezing’ in the following sentence?\n\nThe group of swimmers plunged into the freezing lake, then quickly regretted their decision.",
       "options": [
         "adverb",
         "abstract noun",
@@ -1524,7 +1291,7 @@
     "answer": {
       "value": "Unknown"
     },
-    "explanation": "Answer:\n\n\u2018The choral scholars are known for their charismatic performances.\u2019 is correct. The hard \u2018c\u2019 sound is repeated.",
+    "explanation": "Answer:\n\n‘The choral scholars are known for their charismatic performances.’ is correct. The hard ‘c’ sound is repeated.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1535,7 +1302,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "The number codes for three of these four words are listed in a random order. Work out the code to answer the question.\n\nFLIP\u00a0\u00a0\u00a0LIPS\u00a0\u00a0\u00a0LIFT\u00a0\u00a0\u00a0FITS\n5236\u00a0\u00a0\u00a05214\u00a0\u00a0\u00a03521\n\nFind the code for the word LIFT.",
+      "text": "The number codes for three of these four words are listed in a random order. Work out the code to answer the question.\n\nFLIP   LIPS   LIFT   FITS\n5236   5214   3521\n\nFind the code for the word LIFT.",
       "options": [
         "5236",
         "5432",
@@ -1547,7 +1314,7 @@
     "answer": {
       "value": "Unknown"
     },
-    "explanation": "Answer:\n\n\u2018below\u2019 is the only correctly spelled word that can be made.",
+    "explanation": "Answer:\n\n‘below’ is the only correctly spelled word that can be made.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1558,7 +1325,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Find the missing number to complete the sum.\n\n\n\n44 \u2212 27 = 68 \u00f7 (?)",
+      "text": "Find the missing number to complete the sum.\n\n\n\n44 − 27 = 68 ÷ (?)",
       "options": [
         "4",
         "5",
@@ -1570,7 +1337,7 @@
     "answer": {
       "value": "Unknown"
     },
-    "explanation": "Answer:\n\n\u2018below\u2019 is the only correctly spelled word that can be made.",
+    "explanation": "Answer:\n\n‘below’ is the only correctly spelled word that can be made.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1581,7 +1348,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Choose the pair of letters that continues the sequence in the best way. Use the alphabet to help you.\n\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n\n\n\nDH\u00a0\u00a0\u00a0HI\u00a0\u00a0\u00a0LJ\u00a0\u00a0\u00a0PK\u00a0\u00a0\u00a0TL\u00a0\u00a0\u00a0(____)",
+      "text": "Choose the pair of letters that continues the sequence in the best way. Use the alphabet to help you.\n\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n\n\n\nDH   HI   LJ   PK   TL   (____)",
       "options": [
         "WN",
         "ZM",
@@ -1593,7 +1360,7 @@
     "answer": {
       "value": "Unknown"
     },
-    "explanation": "Answer:\n\n\u2018below\u2019 is the only correctly spelled word that can be made.",
+    "explanation": "Answer:\n\n‘below’ is the only correctly spelled word that can be made.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1604,7 +1371,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Choose the word that completes the third pair of words so that it follows the same pattern as the first two pairs.\n\n\n\nstrum\u00a0\u00a0must\u00a0\u00a0\u00a0\u00a0 asset\u00a0\u00a0teas\u00a0\u00a0\u00a0\u00a0 ideal\u00a0\u00a0(?)",
+      "text": "Choose the word that completes the third pair of words so that it follows the same pattern as the first two pairs.\n\n\n\nstrum  must     asset  teas     ideal  (?)",
       "options": [
         "laid",
         "deal",
@@ -1616,7 +1383,7 @@
     "answer": {
       "value": "Unknown"
     },
-    "explanation": "Answer:\n\n\u2018below\u2019 is the only correctly spelled word that can be made.",
+    "explanation": "Answer:\n\n‘below’ is the only correctly spelled word that can be made.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1639,7 +1406,7 @@
     "answer": {
       "value": "Unknown"
     },
-    "explanation": "Answer:\n\n\u2018below\u2019 is the only correctly spelled word that can be made.",
+    "explanation": "Answer:\n\n‘below’ is the only correctly spelled word that can be made.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1650,7 +1417,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Choose the number that completes the final set of numbers in the same way as the first two sets.\n\n\n\n5 (16) 4\u00a0\u00a0\u00a0\u00a03 (14) 7\u00a0\u00a0\u00a0\u00a08 (?) 6",
+      "text": "Choose the number that completes the final set of numbers in the same way as the first two sets.\n\n\n\n5 (16) 4    3 (14) 7    8 (?) 6",
       "options": [
         "26",
         "34",
@@ -1662,7 +1429,7 @@
     "answer": {
       "value": "Unknown"
     },
-    "explanation": "Answer:\n\n\u2018below\u2019 is the only correctly spelled word that can be made.",
+    "explanation": "Answer:\n\n‘below’ is the only correctly spelled word that can be made.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1673,7 +1440,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "The words in the second set follow the same pattern as the words in the first set. Choose the missing word to complete the second set.\n\n\n\nyell (dye) head\u00a0\u00a0\u00a0\u00a0 idea\u00a0(?)\u00a0iris",
+      "text": "The words in the second set follow the same pattern as the words in the first set. Choose the missing word to complete the second set.\n\n\n\nyell (dye) head     idea (?) iris",
       "options": [
         "aid",
         "sea",
@@ -1685,7 +1452,7 @@
     "answer": {
       "value": "Unknown"
     },
-    "explanation": "Answer:\n\n\u2018below\u2019 is the only correctly spelled word that can be made.",
+    "explanation": "Answer:\n\n‘below’ is the only correctly spelled word that can be made.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1696,7 +1463,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "The words in the second set follow the same pattern as the words in the first set. Choose the missing word to complete the second set.\n\n\n\ngait (girl) hurl\u00a0\u00a0\u00a0\u00a0 draw\u00a0(?)\u00a0down",
+      "text": "The words in the second set follow the same pattern as the words in the first set. Choose the missing word to complete the second set.\n\n\n\ngait (girl) hurl     draw (?) down",
       "options": [
         "darn",
         "worn",
@@ -1708,7 +1475,7 @@
     "answer": {
       "value": "Unknown"
     },
-    "explanation": "Answer:\n\n\u2018below\u2019 is the only correctly spelled word that can be made.",
+    "explanation": "Answer:\n\n‘below’ is the only correctly spelled word that can be made.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1731,7 +1498,7 @@
     "answer": {
       "value": "D"
     },
-    "explanation": "Answer:\n\n\u2018The choral scholars are known for their charismatic performances.\u2019 is correct. The hard \u2018c\u2019 sound is repeated.",
+    "explanation": "Answer:\n\n‘The choral scholars are known for their charismatic performances.’ is correct. The hard ‘c’ sound is repeated.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1742,19 +1509,19 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "The sentence below contains either one mistake involving punctuation or capital letters or no mistake. Choose the group of words which contains the mistake. If there\u2019s no mistake, choose \u2018No mistake\u2019.\n\n\u201cOur town\u2019s very proud that our womens\u2019 football team has won the championship,\u201d said the mayor.",
+      "text": "The sentence below contains either one mistake involving punctuation or capital letters or no mistake. Choose the group of words which contains the mistake. If there’s no mistake, choose ‘No mistake’.\n\n“Our town’s very proud that our womens’ football team has won the championship,” said the mayor.",
       "options": [
-        "\u201cOur town\u2019s very proud",
-        "that our womens\u2019 football",
+        "“Our town’s very proud",
+        "that our womens’ football",
         "team has won the",
-        "championship,\u201d said the mayor.",
+        "championship,” said the mayor.",
         "No mistake"
       ]
     },
     "answer": {
       "value": "Unknown"
     },
-    "explanation": "Answer:\n\n\u2018The choral scholars are known for their charismatic performances.\u2019 is correct. The hard \u2018c\u2019 sound is repeated.",
+    "explanation": "Answer:\n\n‘The choral scholars are known for their charismatic performances.’ is correct. The hard ‘c’ sound is repeated.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1775,7 +1542,7 @@
     "answer": {
       "value": "Unknown"
     },
-    "explanation": "Answer:\n\n\u2018The choral scholars are known for their charismatic performances.\u2019 is correct. The hard \u2018c\u2019 sound is repeated.",
+    "explanation": "Answer:\n\n‘The choral scholars are known for their charismatic performances.’ is correct. The hard ‘c’ sound is repeated.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1786,19 +1553,19 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "The sentence below contains either one mistake involving punctuation or capital letters or no mistake. Choose the group of words which contains the mistake. If there\u2019s no mistake, choose \u2018No mistake\u2019.\n\nGeoffrey and Margaret the quick-witted parrots, amused everyone by copying Mr Warbrick\u2019s words.",
+      "text": "The sentence below contains either one mistake involving punctuation or capital letters or no mistake. Choose the group of words which contains the mistake. If there’s no mistake, choose ‘No mistake’.\n\nGeoffrey and Margaret the quick-witted parrots, amused everyone by copying Mr Warbrick’s words.",
       "options": [
         "Geoffrey and Margaret the",
         "quick-witted parrots, amused",
         "everyone by copying",
-        "Mr Warbrick\u2019s words.",
+        "Mr Warbrick’s words.",
         "No mistake"
       ]
     },
     "answer": {
       "value": "Unknown"
     },
-    "explanation": "Answer:\n\n\u2018The choral scholars are known for their charismatic performances.\u2019 is correct. The hard \u2018c\u2019 sound is repeated.",
+    "explanation": "Answer:\n\n‘The choral scholars are known for their charismatic performances.’ is correct. The hard ‘c’ sound is repeated.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1809,7 +1576,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "What type of word is \u2018must\u2019 in the following sentence?\n\nAll children must arrive promptly at the train station to ensure a smooth departure.",
+      "text": "What type of word is ‘must’ in the following sentence?\n\nAll children must arrive promptly at the train station to ensure a smooth departure.",
       "options": [
         "adjective",
         "abstract noun",
@@ -1821,7 +1588,7 @@
     "answer": {
       "value": "Unknown"
     },
-    "explanation": "Answer:\n\n\u2018The choral scholars are known for their charismatic performances.\u2019 is correct. The hard \u2018c\u2019 sound is repeated.",
+    "explanation": "Answer:\n\n‘The choral scholars are known for their charismatic performances.’ is correct. The hard ‘c’ sound is repeated.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1844,7 +1611,7 @@
     "answer": {
       "value": "Unknown"
     },
-    "explanation": "Answer:\n\n\u2018The choral scholars are known for their charismatic performances.\u2019 is correct. The hard \u2018c\u2019 sound is repeated.",
+    "explanation": "Answer:\n\n‘The choral scholars are known for their charismatic performances.’ is correct. The hard ‘c’ sound is repeated.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1855,19 +1622,19 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "The sentence below contains either one mistake involving punctuation or capital letters or no mistake. Choose the group of words which contains the mistake. If there\u2019s no mistake, choose \u2018No mistake\u2019.\n\n\u201cIsla\u2019s planned an active day: hiking in the mountains kayaking on a lake and swimming,\u201d said Tim.",
+      "text": "The sentence below contains either one mistake involving punctuation or capital letters or no mistake. Choose the group of words which contains the mistake. If there’s no mistake, choose ‘No mistake’.\n\n“Isla’s planned an active day: hiking in the mountains kayaking on a lake and swimming,” said Tim.",
       "options": [
-        "\u201cIsla\u2019s planned an",
+        "“Isla’s planned an",
         "active day: hiking in the",
         "mountains kayaking on a lake",
-        "and swimming,\u201d said Tim.",
+        "and swimming,” said Tim.",
         "No mistake"
       ]
     },
     "answer": {
       "value": "Unknown"
     },
-    "explanation": "Answer:\n\n\u2018The choral scholars are known for their charismatic performances.\u2019 is correct. The hard \u2018c\u2019 sound is repeated.",
+    "explanation": "Answer:\n\n‘The choral scholars are known for their charismatic performances.’ is correct. The hard ‘c’ sound is repeated.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1878,7 +1645,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Choose the option\u00a0which is a top\u2011down 2D view of the 3D figure below.",
+      "text": "Choose the option which is a top‑down 2D view of the 3D figure below.",
       "options": [
         "a)",
         "b)",
@@ -1967,7 +1734,7 @@
     "answer": {
       "value": "A"
     },
-    "explanation": "Answer:\n\nThe correct answer is a) (BGN). B\u00a0=\u00a0four\u2011pointed star, C\u00a0=\u00a0five\u2011pointed star, D\u00a0=\u00a0six\u2011pointed star. F\u00a0=\u00a0black star, G\u00a0=\u00a0white star, H\u00a0=\u00a0grey star. M\u00a0=\u00a0lines on the left, N\u00a0=\u00a0lines on the right.\n\nGlossary (opens in new tab) >",
+    "explanation": "Answer:\n\nThe correct answer is a) (BGN). B = four‑pointed star, C = five‑pointed star, D = six‑pointed star. F = black star, G = white star, H = grey star. M = lines on the left, N = lines on the right.\n\nGlossary (opens in new tab) >",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -2205,7 +1972,7 @@
     "answer": {
       "value": "B"
     },
-    "explanation": "Answer:\n\nThe correct answer is b). Working from left to right, the shape rotates 30\u00a0degrees clockwise and the dot alternates between black and white.\n\nGlossary (opens in new tab) >",
+    "explanation": "Answer:\n\nThe correct answer is b). Working from left to right, the shape rotates 30 degrees clockwise and the dot alternates between black and white.\n\nGlossary (opens in new tab) >",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -2384,7 +2151,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Choose the option\u00a0which is a top\u2011down 2D view of the 3D figure below.",
+      "text": "Choose the option which is a top‑down 2D view of the 3D figure below.",
       "options": [
         "a)",
         "b)",
@@ -2411,7 +2178,7 @@
     "answer": {
       "value": "C"
     },
-    "explanation": "The correct answer is c). There are five blocks visible from above, which rules out option\u00a0e). There is only one blue block visible from above, which rules out option\u00a0d). There are two blocks visible on the left\u2011hand side, which rules out option\u00a0b). There are only two blocks visible at the front, which rules out option\u00a0a).\n\nGlossary (opens in new tab) >",
+    "explanation": "The correct answer is c). There are five blocks visible from above, which rules out option e). There is only one blue block visible from above, which rules out option d). There are two blocks visible on the left‑hand side, which rules out option b). There are only two blocks visible at the front, which rules out option a).\n\nGlossary (opens in new tab) >",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -2487,7 +2254,7 @@
     "answer": {
       "value": "A"
     },
-    "explanation": "The correct answer is a) (BGN). B\u00a0=\u00a0four\u2011pointed star, C\u00a0=\u00a0five\u2011pointed star, D\u00a0=\u00a0six\u2011pointed star. F\u00a0=\u00a0black star, G\u00a0=\u00a0white star, H\u00a0=\u00a0grey star. M\u00a0=\u00a0lines on the left, N\u00a0=\u00a0lines on the right.\n\nGlossary (opens in new tab) >",
+    "explanation": "The correct answer is a) (BGN). B = four‑pointed star, C = five‑pointed star, D = six‑pointed star. F = black star, G = white star, H = grey star. M = lines on the left, N = lines on the right.\n\nGlossary (opens in new tab) >",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -2601,7 +2368,7 @@
     "answer": {
       "value": "E"
     },
-    "explanation": "The correct answer is e). Option\u00a0b) is ruled out because the wrong side of the rectangle is connected to the thin triangle. Option\u00a0c) is ruled out because the rectangle is connected to the wrong side of the thin triangle. Option\u00a0a) is ruled out because the wide triangle is connected to the wrong side of the thin triangle. Option\u00a0d) is ruled out because the rectangle is not connected to the thin triangle.\n\nGlossary (opens in new tab) >",
+    "explanation": "The correct answer is e). Option b) is ruled out because the wrong side of the rectangle is connected to the thin triangle. Option c) is ruled out because the rectangle is connected to the wrong side of the thin triangle. Option a) is ruled out because the wide triangle is connected to the wrong side of the thin triangle. Option d) is ruled out because the rectangle is not connected to the thin triangle.\n\nGlossary (opens in new tab) >",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -2753,7 +2520,7 @@
     "answer": {
       "value": "B"
     },
-    "explanation": "The correct answer is b). Working from left to right, the shape rotates 30\u00a0degrees clockwise and the dot alternates between black and white.\n\nGlossary (opens in new tab) >",
+    "explanation": "The correct answer is b). Working from left to right, the shape rotates 30 degrees clockwise and the dot alternates between black and white.\n\nGlossary (opens in new tab) >",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
