@@ -248,7 +248,7 @@
       ]
     },
     "answer": {
-      "value": "B"
+      "value": "India got the lowest score."
     },
     "explanation": "Answer:\n\n‘India got the lowest score.’ is correct. Jack didn’t get the lowest score and Kwasi scored more than Jack, so Kwasi didn’t get the lowest score either. India’s score was lower than Ellen’s, so Ellen didn’t get the lowest score. Chioma got the second highest score. Since no one else could have got the lowest score, India must have got the lowest score.",
     "hints": [],
@@ -271,7 +271,7 @@
       ]
     },
     "answer": {
-      "value": "E"
+      "value": "12"
     },
     "explanation": "Answer:\n\n8 ÷ 4 + 5 − 1 = 6, 6 = 18 − 12",
     "hints": [],
@@ -296,7 +296,7 @@
       "multi_select": true
     },
     "answer": {
-      "value": "B, D"
+      "value": "worthless, combine"
     },
     "explanation": "Answer:\n\nThey are antonyms of ‘precious’ and ‘divide’.",
     "hints": [],
@@ -319,7 +319,7 @@
       ]
     },
     "answer": {
-      "value": "E"
+      "value": "18"
     },
     "explanation": "Answer:\n\nSubtract the third number from the first number.",
     "hints": [],
@@ -342,7 +342,7 @@
       ]
     },
     "answer": {
-      "value": "A"
+      "value": "ZONE"
     },
     "explanation": "Answer:\n\n‘ZONE’ is correct. To get from the code to the word, move the letters in the sequence −3, −2, −1, 0.",
     "hints": [],
@@ -365,7 +365,7 @@
       ]
     },
     "answer": {
-      "value": "B"
+      "value": "t"
     },
     "explanation": "Answer:\n\n‘t’ is the correct letter. The new words are ‘beat’, ‘took’, ‘chat’ and ‘test’.",
     "hints": [],
@@ -388,7 +388,7 @@
       ]
     },
     "answer": {
-      "value": "E"
+      "value": "ZP"
     },
     "explanation": "Answer:\n\n‘ZP’ is correct. The first letter in the pair moves forward 4 letters. The second letter in the pair moves back 3 letters.",
     "hints": [],
@@ -411,7 +411,7 @@
       ]
     },
     "answer": {
-      "value": "C"
+      "value": "72"
     },
     "explanation": "Answer:\n\n‘72’ is correct. Multiply by ascending numbers: ×1, ×2, ×3, ×4.",
     "hints": [],
@@ -436,7 +436,7 @@
       "multi_select": true
     },
     "answer": {
-      "value": "A, D"
+      "value": "any, one"
     },
     "explanation": "Answer:\n\n‘anyone’ is the only correctly spelled word that can be made.",
     "hints": [],
@@ -459,7 +459,7 @@
       ]
     },
     "answer": {
-      "value": "E"
+      "value": "Maleek"
     },
     "explanation": "Answer:\n\nPatrick, Sue, Ophelia and Rita can do two swimming strokes. Maleek can do three swimming strokes.",
     "hints": [],
@@ -482,7 +482,7 @@
       ]
     },
     "answer": {
-      "value": "D"
+      "value": "Few"
     },
     "explanation": "Answer:\n\n‘Few’ is a determiner that shows how many people dislike the taste of chocolate.",
     "hints": [],
@@ -505,7 +505,7 @@
       ]
     },
     "answer": {
-      "value": "A"
+      "value": "lovable"
     },
     "explanation": "Answer:\n\n‘endearing’ and ‘lovable’ both mean ‘charming’.",
     "hints": [],
@@ -528,7 +528,7 @@
       ]
     },
     "answer": {
-      "value": "E"
+      "value": "No mistake"
     },
     "explanation": "Answer:\n\nThere are no mistakes in this sentence.",
     "hints": [],
@@ -551,7 +551,7 @@
       ]
     },
     "answer": {
-      "value": "A"
+      "value": "“As the air to the throne,"
     },
     "explanation": "Answer:\n\n‘air’ should be ‘heir’. An ‘heir’ is somebody who will take over another person’s responsibilities when they die and ‘air’ is the gases we breathe.",
     "hints": [],
@@ -574,7 +574,7 @@
       ]
     },
     "answer": {
-      "value": "A"
+      "value": "The song was a key"
     },
     "explanation": "Answer:\n\n‘The song was a key’ is correct. A metaphor describes something as being something else. In this metaphor, the song is compared to a key to emphasise the effect that it has on Anna, but it is not literally a key.",
     "hints": [],
@@ -596,7 +596,7 @@
       ]
     },
     "answer": {
-      "value": "C"
+      "value": "At twilight, the shadows will creep across the lawn towards the house."
     },
     "explanation": "Answer:\n\nPersonification describes something that’s not human as if it is a person. The shadows have been given human qualities (the ability to creep), so this sentence contains personification.",
     "hints": [],
@@ -619,7 +619,7 @@
       ]
     },
     "answer": {
-      "value": "A"
+      "value": "decorated"
     },
     "explanation": "Answer:\n\n‘adorned’ and ‘decorated’ both mean ‘to be made more attractive’.",
     "hints": [],
@@ -641,7 +641,7 @@
       ]
     },
     "answer": {
-      "value": "D"
+      "value": "Serena took games of hide-and-seek very seriously: she was a panther stalking in the jungle."
     },
     "explanation": "Answer:\n\nA metaphor describes something as being something else. Serena is not literally a panther stalking in the jungle — she is described like this to show how she is searching for her friends, so this sentence contains a metaphor.",
     "hints": [],
@@ -664,7 +664,7 @@
       ]
     },
     "answer": {
-      "value": "C"
+      "value": "and"
     },
     "explanation": "Answer:\n\n‘and’ is a co-ordinating conjunction. It links the two main clauses together.",
     "hints": [],
@@ -687,7 +687,7 @@
       ]
     },
     "answer": {
-      "value": "D"
+      "value": "adjective"
     },
     "explanation": "Answer:\n\n‘freezing’ is an adjective in this sentence. It describes the noun ‘lake’.",
     "hints": [],
@@ -841,467 +841,6 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Read the information carefully, then use it to answer the question that follows.\n\nJack, Chioma, India, Ellen and Kwasi all completed a maths quiz. Jack didn’t get the lowest score. Kwasi scored more than Jack. India’s score was lower than Ellen’s. Chioma got the second highest score.\n\nWhich of the sentences below must be true?",
-      "options": [
-        "Kwasi got the highest score.",
-        "India got the lowest score.",
-        "Chioma scored less than India.",
-        "Jack scored more than Ellen.",
-        "Ellen got the highest score."
-      ]
-    },
-    "answer": {
-      "value": "B"
-    },
-    "explanation": "Answer:\n\n‘India got the lowest score.’ is correct. Jack didn’t get the lowest score and Kwasi scored more than Jack, so Kwasi didn’t get the lowest score either. India’s score was lower than Ellen’s, so Ellen didn’t get the lowest score. Chioma got the second highest score. Since no one else could have got the lowest score, India must have got the lowest score.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_multiple_meaning",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Find the missing number to complete the sum.\n\n\n\n8 ÷ 4 + 5 − 1 = 18 − (?)",
-      "options": [
-        "4",
-        "6",
-        "8",
-        "10",
-        "12"
-      ]
-    },
-    "answer": {
-      "value": "E"
-    },
-    "explanation": "Answer:\n\n8 ÷ 4 + 5 − 1 = 6, 6 = 18 − 12",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_multiple_meaning",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose two words, one from each set of brackets, that complete the sentence in the most sensible way.\n\n\n\nPrecious is to (destitute   worthless   adorned) as divide is to (combine   scatter   arrange).",
-      "options": [
-        "destitute",
-        "worthless",
-        "adorned",
-        "combine",
-        "scatter",
-        "arrange"
-      ],
-      "multi_select": true
-    },
-    "answer": {
-      "value": "B, D"
-    },
-    "explanation": "Answer:\n\nThey are antonyms of ‘precious’ and ‘divide’.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_multiple_meaning",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the number that completes the final set of numbers in the same way as the first two sets.\n\n\n\n12 (4) 8    13 (6) 7    21 (?) 3",
-      "options": [
-        "4",
-        "6",
-        "7",
-        "10",
-        "18"
-      ]
-    },
-    "answer": {
-      "value": "E"
-    },
-    "explanation": "Answer:\n\nSubtract the third number from the first number.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_multiple_meaning",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Use the alphabet to help you work out the answer to the question below.\n\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n\n\n\nIf the code for SPOT is VRPT, what is CQOE the code for?",
-      "options": [
-        "ZONE",
-        "YOUR",
-        "ZOOM",
-        "WOKE",
-        "WANE"
-      ]
-    },
-    "answer": {
-      "value": "A"
-    },
-    "explanation": "Answer:\n\n‘ZONE’ is correct. To get from the code to the word, move the letters in the sequence −3, −2, −1, 0.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_multiple_meaning",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the letter that will finish the first word and start the second word of each pair. The same letter must be used for both pairs.\n\n\n\nbea (?) ook    cha (?) est",
-      "options": [
-        "s",
-        "t",
-        "p",
-        "k",
-        "n"
-      ]
-    },
-    "answer": {
-      "value": "B"
-    },
-    "explanation": "Answer:\n\n‘t’ is the correct letter. The new words are ‘beat’, ‘took’, ‘chat’ and ‘test’.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_multiple_meaning",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the pair of letters that completes the sentence in the most sensible way. Use the alphabet to help you.\n\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n\n\n\nLF is to PC as VS is to (?)",
-      "options": [
-        "ZR",
-        "ZN",
-        "ZS",
-        "YM",
-        "ZP"
-      ]
-    },
-    "answer": {
-      "value": "E"
-    },
-    "explanation": "Answer:\n\n‘ZP’ is correct. The first letter in the pair moves forward 4 letters. The second letter in the pair moves back 3 letters.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_multiple_meaning",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the number that continues the sequence in the best way.\n\n\n\n3   3   6   18   (?)",
-      "options": [
-        "18",
-        "36",
-        "72",
-        "80",
-        "84"
-      ]
-    },
-    "answer": {
-      "value": "C"
-    },
-    "explanation": "Answer:\n\n‘72’ is correct. Multiply by ascending numbers: ×1, ×2, ×3, ×4.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_multiple_meaning",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Select a word from the first column, followed by a word from the second column, that go together to form a new word.",
-      "options": [
-        "any",
-        "now",
-        "sum",
-        "one",
-        "ledge",
-        "day"
-      ]
-    },
-    "answer": {
-      "value": "Unknown"
-    },
-    "explanation": "Answer:\n\n‘below’ is the only correctly spelled word that can be made.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_multiple_meaning",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Read the information carefully, then choose the correct answer to the question that follows.\n\nPatrick, Sue, Ophelia, Maleek and Rita have learnt some swimming strokes.\nPatrick, Maleek and Ophelia can do breaststroke. No one but Sue can do butterfly. Everyone but Ophelia can do backstroke, but Ophelia can do front crawl. Maleek can also do front crawl. Rita can do two swimming strokes.\n\nWho can do the most swimming strokes?",
-      "options": [
-        "Sue",
-        "Ophelia",
-        "Rita",
-        "Patrick",
-        "Maleek"
-      ]
-    },
-    "answer": {
-      "value": "E"
-    },
-    "explanation": "Answer:\n\nPatrick, Sue, Ophelia and Rita can do two swimming strokes. Maleek can do three swimming strokes.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "english",
-    "question_type": "grammar",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "In the sentence below, which of the words is a determiner?\n\nFew people I know dislike how chocolate tastes; most think it is irresistible.",
-      "options": [
-        "it",
-        "how",
-        "is",
-        "Few",
-        "most"
-      ]
-    },
-    "answer": {
-      "value": "D"
-    },
-    "explanation": "Answer:\n\n‘Few’ is a determiner that shows how many people dislike the taste of chocolate.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "english",
-    "question_type": "grammar",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Which is the best synonym for the word in bold in the sentence below?\n\nSasha remarked that Veena has an endearing personality.",
-      "options": [
-        "lovable",
-        "belligerent",
-        "confident",
-        "amusing",
-        "annoying"
-      ]
-    },
-    "answer": {
-      "value": "A"
-    },
-    "explanation": "Answer:\n\n‘endearing’ and ‘lovable’ both mean ‘charming’.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "english",
-    "question_type": "grammar",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "The sentence below contains either one mistake involving punctuation or capital letters or no mistake. Choose the group of words which contains the mistake. If there’s no mistake, choose ‘No mistake’.\n\nWilliam’s brother hates going to the local woodland — he’d rather stay inside and read a book.",
-      "options": [
-        "William’s brother hates going",
-        "to the local woodland —",
-        "he’d rather stay inside",
-        "and read a book.",
-        "No mistake"
-      ]
-    },
-    "answer": {
-      "value": "Unknown"
-    },
-    "explanation": "Answer:\n\n‘The choral scholars are known for their charismatic performances.’ is correct. The hard ‘c’ sound is repeated.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "english",
-    "question_type": "grammar",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "The sentence below contains either one spelling mistake or no spelling mistakes. Choose the group of words which contains the mistake. If there’s no mistake, choose ‘no mistake’.\n\n“As the air to the throne, you will reign over all of this magnificent land,” proclaimed the king.",
-      "options": [
-        "“As the air to the throne,",
-        "you will reign over",
-        "all of this magnificent land,”",
-        "proclaimed the king.",
-        "No mistake"
-      ]
-    },
-    "answer": {
-      "value": "A"
-    },
-    "explanation": "Answer:\n\n‘air’ should be ‘heir’. An ‘heir’ is somebody who will take over another person’s responsibilities when they die and ‘air’ is the gases we breathe.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "english",
-    "question_type": "grammar",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "The sentence below contains a metaphor. Work out which group of words contains this technique and choose the correct group.\n\nThe song was a key that unlocked a long-forgotten memory in Anna’s mind about her life in Spain.",
-      "options": [
-        "The song was a key",
-        "that unlocked a",
-        "long-forgotten memory",
-        "in Anna’s mind about",
-        "her life in Spain."
-      ]
-    },
-    "answer": {
-      "value": "A"
-    },
-    "explanation": "Answer:\n\n‘The song was a key’ is correct. A metaphor describes something as being something else. In this metaphor, the song is compared to a key to emphasise the effect that it has on Anna, but it is not literally a key.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "english",
-    "question_type": "grammar",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Which of the sentences below contains personification?",
-      "options": [
-        "From the top-floor balcony, the people on the ground were ants scurrying between tables.",
-        "Keira sank into her luxurious bed, which had pillows like soft marshmallows.",
-        "At twilight, the shadows will creep across the lawn towards the house.",
-        "I can see a dress as black as night in the window of the boutique."
-      ]
-    },
-    "answer": {
-      "value": "C"
-    },
-    "explanation": "Answer:\n\nPersonification describes something that’s not human as if it is a person. The shadows have been given human qualities (the ability to creep), so this sentence contains personification.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "english",
-    "question_type": "grammar",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Which word could best replace the word in bold in the sentence below?\n\nThe tables for the wedding banquet were adorned with daffodils.",
-      "options": [
-        "decorated",
-        "littered",
-        "crowded",
-        "punctuated",
-        "covered"
-      ]
-    },
-    "answer": {
-      "value": "A"
-    },
-    "explanation": "Answer:\n\n‘adorned’ and ‘decorated’ both mean ‘to be made more attractive’.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "english",
-    "question_type": "grammar",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Which of the sentences below contains a metaphor?",
-      "options": [
-        "I lifted up a bottle of perfume and sprayed a fine mist; the strong fragrance smelled like vinegar.",
-        "The calm waves of the ocean lap around her feet like playful children.",
-        "Through the fog, the beaming lighthouse welcomed boats back to the harbour like old friends.",
-        "Serena took games of hide-and-seek very seriously: she was a panther stalking in the jungle."
-      ]
-    },
-    "answer": {
-      "value": "Unknown"
-    },
-    "explanation": "Answer:\n\n‘The choral scholars are known for their charismatic performances.’ is correct. The hard ‘c’ sound is repeated.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "english",
-    "question_type": "grammar",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "In the sentence below, which of the words is a co-ordinating conjunction?\n\nEzra has bought a birthday present for you, and he hopes that you like it.",
-      "options": [
-        "that",
-        "for",
-        "and",
-        "it",
-        "has"
-      ]
-    },
-    "answer": {
-      "value": "C"
-    },
-    "explanation": "Answer:\n\n‘and’ is a co-ordinating conjunction. It links the two main clauses together.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "english",
-    "question_type": "grammar",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "What type of word is ‘freezing’ in the following sentence?\n\nThe group of swimmers plunged into the freezing lake, then quickly regretted their decision.",
-      "options": [
-        "adverb",
-        "abstract noun",
-        "adjective",
-        "verb",
-        "preposition"
-      ]
-    },
-    "answer": {
-      "value": "Unknown"
-    },
-    "explanation": "Answer:\n\n‘The choral scholars are known for their charismatic performances.’ is correct. The hard ‘c’ sound is repeated.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_multiple_meaning",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
       "text": "The number codes for three of these four words are listed in a random order. Work out the code to answer the question.\n\nFLIP   LIPS   LIFT   FITS\n5236   5214   3521\n\nFind the code for the word LIFT.",
       "options": [
         "5236",
@@ -1312,9 +851,9 @@
       ]
     },
     "answer": {
-      "value": "Unknown"
+      "value": "5236"
     },
-    "explanation": "Answer:\n\n‘below’ is the only correctly spelled word that can be made.",
+    "explanation": "Answer:\n\nWork out the letter-number mapping: FLIP=3521 gives F=3, L=5, I=2, P=1. LIPS=5214 gives L=5, I=2, P=1, S=4 (consistent). So LIFT = L,I,F,T = 5,2,3,T. The remaining code 5236 fits with T=6. LIFT = 5236.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1335,9 +874,9 @@
       ]
     },
     "answer": {
-      "value": "Unknown"
+      "value": "4"
     },
-    "explanation": "Answer:\n\n‘below’ is the only correctly spelled word that can be made.",
+    "explanation": "Answer:\n\n44 − 27 = 17. So 68 ÷ (?) = 17, which means (?) = 68 ÷ 17 = 4.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1358,9 +897,9 @@
       ]
     },
     "answer": {
-      "value": "Unknown"
+      "value": "XM"
     },
-    "explanation": "Answer:\n\n‘below’ is the only correctly spelled word that can be made.",
+    "explanation": "Answer:\n\nThe first letter increases by 4 each time: D, H, L, P, T, X. The second letter increases by 1 each time: H, I, J, K, L, M. So the next pair is XM.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1381,9 +920,9 @@
       ]
     },
     "answer": {
-      "value": "Unknown"
+      "value": "laid"
     },
-    "explanation": "Answer:\n\n‘below’ is the only correctly spelled word that can be made.",
+    "explanation": "Answer:\n\nThe pattern takes letters at positions 5, 4, 1, 2 of the first word. strum → m(5), u(4), s(1), t(2) = must. asset → t(5), e(4), a(1), s(2) = teas. ideal → l(5), a(4), i(1), d(2) = laid.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1404,9 +943,9 @@
       ]
     },
     "answer": {
-      "value": "Unknown"
+      "value": "society, community"
     },
-    "explanation": "Answer:\n\n‘below’ is the only correctly spelled word that can be made.",
+    "explanation": "Answer:\n\n‘committee’, ‘panel’ and ‘council’ are all organised groups of people with a specific decision-making purpose. ‘society’ and ‘community’ are broader social groups, so they are the two unrelated words.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1427,9 +966,9 @@
       ]
     },
     "answer": {
-      "value": "Unknown"
+      "value": "42"
     },
-    "explanation": "Answer:\n\n‘below’ is the only correctly spelled word that can be made.",
+    "explanation": "Answer:\n\nThe pattern is: middle = right number × (left number − 1). 5 (16) 4: 4 × (5−1) = 4 × 4 = 16. 3 (14) 7: 7 × (3−1) = 7 × 2 = 14. 8 (?) 6: 6 × (8−1) = 6 × 7 = 42.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1450,9 +989,9 @@
       ]
     },
     "answer": {
-      "value": "Unknown"
+      "value": "sir"
     },
-    "explanation": "Answer:\n\n‘below’ is the only correctly spelled word that can be made.",
+    "explanation": "Answer:\n\nThe middle word takes: last letter of right word, 1st letter of left word, 2nd letter of right word. yell (dye) head: d(last of head), y(1st of yell), e(2nd of head) = dye. idea (?) iris: s(last of iris), i(1st of idea), r(2nd of iris) = sir.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1473,9 +1012,9 @@
       ]
     },
     "answer": {
-      "value": "Unknown"
+      "value": "dawn"
     },
-    "explanation": "Answer:\n\n‘below’ is the only correctly spelled word that can be made.",
+    "explanation": "Answer:\n\nThe middle word takes: 1st and 3rd letters of the left word, 3rd and 4th letters of the right word. gait (girl) hurl: g(1st), i(3rd) from gait; r(3rd), l(4th) from hurl = girl. draw (?) down: d(1st), a(3rd) from draw; w(3rd), n(4th) from down = dawn.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1496,7 +1035,7 @@
       ]
     },
     "answer": {
-      "value": "D"
+      "value": "The choral scholars are known for their charismatic performances."
     },
     "explanation": "Answer:\n\n‘The choral scholars are known for their charismatic performances.’ is correct. The hard ‘c’ sound is repeated.",
     "hints": [],
@@ -1519,9 +1058,9 @@
       ]
     },
     "answer": {
-      "value": "Unknown"
+      "value": "that our womens’ football"
     },
-    "explanation": "Answer:\n\n‘The choral scholars are known for their charismatic performances.’ is correct. The hard ‘c’ sound is repeated.",
+    "explanation": "Answer:\n\n‘womens’’ is wrong. ‘Women’ is already plural, so the possessive is ‘women’s’, not ‘womens’’.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1540,9 +1079,9 @@
       ]
     },
     "answer": {
-      "value": "Unknown"
+      "value": "simile"
     },
-    "explanation": "Answer:\n\n‘The choral scholars are known for their charismatic performances.’ is correct. The hard ‘c’ sound is repeated.",
+    "explanation": "Answer:\n\n‘taste like heaven’ is a simile. A simile compares two things using ‘like’ or ‘as’. Here, the taste of the sandwiches is compared to heaven using ‘like’.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1563,9 +1102,9 @@
       ]
     },
     "answer": {
-      "value": "Unknown"
+      "value": "Geoffrey and Margaret the"
     },
-    "explanation": "Answer:\n\n‘The choral scholars are known for their charismatic performances.’ is correct. The hard ‘c’ sound is repeated.",
+    "explanation": "Answer:\n\n‘the quick-witted parrots’ is extra information about Geoffrey and Margaret, so it should be separated by commas. There should be a comma after ‘Margaret’: ‘Geoffrey and Margaret, the quick-witted parrots, amused everyone...’",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1586,9 +1125,9 @@
       ]
     },
     "answer": {
-      "value": "Unknown"
+      "value": "modal verb"
     },
-    "explanation": "Answer:\n\n‘The choral scholars are known for their charismatic performances.’ is correct. The hard ‘c’ sound is repeated.",
+    "explanation": "Answer:\n\n‘must’ is a modal verb. Modal verbs express necessity, possibility, or permission. Here, ‘must’ expresses that arriving promptly is required.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1609,9 +1148,9 @@
       ]
     },
     "answer": {
-      "value": "Unknown"
+      "value": "soon"
     },
-    "explanation": "Answer:\n\n‘The choral scholars are known for their charismatic performances.’ is correct. The hard ‘c’ sound is repeated.",
+    "explanation": "Answer:\n\n‘soon’ is an adverb. It tells you when the action of going for a stroll will happen. ‘Today’ functions as a noun (subject) in this sentence, ‘gentle’ and ‘lovely’ are adjectives, and ‘will’ is a modal verb.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1632,9 +1171,9 @@
       ]
     },
     "answer": {
-      "value": "Unknown"
+      "value": "mountains kayaking on a lake"
     },
-    "explanation": "Answer:\n\n‘The choral scholars are known for their charismatic performances.’ is correct. The hard ‘c’ sound is repeated.",
+    "explanation": "Answer:\n\nThe list of activities needs commas to separate items: ‘hiking in the mountains, kayaking on a lake, and swimming’. The missing commas are in ‘mountains kayaking on a lake’.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1656,7 +1195,7 @@
       "image_url": "/images/granular_non_verbal_reasoning_backup/q28_question_0.png"
     },
     "answer": {
-      "value": "B"
+      "value": "b)"
     },
     "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
     "hints": [],
@@ -1694,7 +1233,7 @@
       ]
     },
     "answer": {
-      "value": "D"
+      "value": "d)"
     },
     "explanation": "Answer:\n\nThe correct answer is d). In all figures, there must be one black shape and two white shapes. An arrow must point towards the black shape. The white shapes must be identical apart from size.\n\nGlossary (opens in new tab) >",
     "hints": [],
@@ -1732,7 +1271,7 @@
       ]
     },
     "answer": {
-      "value": "A"
+      "value": "a)"
     },
     "explanation": "Answer:\n\nThe correct answer is a) (BGN). B = four‑pointed star, C = five‑pointed star, D = six‑pointed star. F = black star, G = white star, H = grey star. M = lines on the left, N = lines on the right.\n\nGlossary (opens in new tab) >",
     "hints": [],
@@ -1770,7 +1309,7 @@
       ]
     },
     "answer": {
-      "value": "C"
+      "value": "c)"
     },
     "explanation": "Answer:\n\nThe correct answer is c).\n\nGlossary (opens in new tab) >",
     "hints": [],
@@ -1808,7 +1347,7 @@
       ]
     },
     "answer": {
-      "value": "D"
+      "value": "d)"
     },
     "explanation": "Answer:\n\nThe correct answer is d). In all other figures, the outer shape is a larger downwards reflection of the inner shape.\n\nGlossary (opens in new tab) >",
     "hints": [],
@@ -1832,7 +1371,7 @@
       "image_url": "/images/granular_non_verbal_reasoning_backup/q23_question_0.png"
     },
     "answer": {
-      "value": "B"
+      "value": "b)"
     },
     "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
     "hints": [],
@@ -1870,7 +1409,7 @@
       ]
     },
     "answer": {
-      "value": "B"
+      "value": "b)"
     },
     "explanation": "Answer:\n\nThe correct answer is b). The outer small shape gets bigger and the long line gets smaller and moves inside it. The inner small shape moves to the right of the figure and gets taller.\n\nGlossary (opens in new tab) >",
     "hints": [],
@@ -1908,7 +1447,7 @@
       ]
     },
     "answer": {
-      "value": "A"
+      "value": "a)"
     },
     "explanation": "Answer:\n\nThe correct answer is a). The shading of the rectangles must alternate between grey and white. The number of circles must be equal to the number of rectangles and their shading must match the shading of the smallest rectangle.\n\nGlossary (opens in new tab) >",
     "hints": [],
@@ -1932,7 +1471,7 @@
       "image_url": "/images/granular_non_verbal_reasoning_backup/q26_question_0.png"
     },
     "answer": {
-      "value": "B"
+      "value": "b)"
     },
     "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
     "hints": [],
@@ -1970,7 +1509,7 @@
       ]
     },
     "answer": {
-      "value": "B"
+      "value": "b)"
     },
     "explanation": "Answer:\n\nThe correct answer is b). Working from left to right, the shape rotates 30 degrees clockwise and the dot alternates between black and white.\n\nGlossary (opens in new tab) >",
     "hints": [],
@@ -1994,7 +1533,7 @@
       "image_url": "/images/granular_non_verbal_reasoning_backup/q21_question_0.png"
     },
     "answer": {
-      "value": "B"
+      "value": "b)"
     },
     "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
     "hints": [],
@@ -2019,7 +1558,7 @@
       "image_url": "/images/granular_non_verbal_reasoning_backup/q22_question_0.png"
     },
     "answer": {
-      "value": "B"
+      "value": "b)"
     },
     "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
     "hints": [],
@@ -2043,7 +1582,7 @@
       "image_url": "/images/granular_non_verbal_reasoning_backup/q24_question_0.png"
     },
     "answer": {
-      "value": "B"
+      "value": "b)"
     },
     "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
     "hints": [],
@@ -2067,7 +1606,7 @@
       "image_url": "/images/granular_non_verbal_reasoning_backup/q25_question_0.png"
     },
     "answer": {
-      "value": "B"
+      "value": "b)"
     },
     "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
     "hints": [],
@@ -2091,7 +1630,7 @@
       "image_url": "/images/granular_non_verbal_reasoning_backup/q27_question_0.png"
     },
     "answer": {
-      "value": "B"
+      "value": "b)"
     },
     "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
     "hints": [],
@@ -2115,7 +1654,7 @@
       "image_url": "/images/granular_non_verbal_reasoning_backup/q29_question_0.png"
     },
     "answer": {
-      "value": "B"
+      "value": "b)"
     },
     "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
     "hints": [],
@@ -2138,7 +1677,7 @@
       ]
     },
     "answer": {
-      "value": "B"
+      "value": "b)"
     },
     "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
     "hints": [],
@@ -2176,7 +1715,7 @@
       ]
     },
     "answer": {
-      "value": "C"
+      "value": "c)"
     },
     "explanation": "The correct answer is c). There are five blocks visible from above, which rules out option e). There is only one blue block visible from above, which rules out option d). There are two blocks visible on the left‑hand side, which rules out option b). There are only two blocks visible at the front, which rules out option a).\n\nGlossary (opens in new tab) >",
     "hints": [],
@@ -2214,7 +1753,7 @@
       ]
     },
     "answer": {
-      "value": "D"
+      "value": "d)"
     },
     "explanation": "The correct answer is d). In all figures, there must be one black shape and two white shapes. An arrow must point towards the black shape. The white shapes must be identical apart from size.\n\nGlossary (opens in new tab) >",
     "hints": [],
@@ -2252,7 +1791,7 @@
       ]
     },
     "answer": {
-      "value": "A"
+      "value": "a)"
     },
     "explanation": "The correct answer is a) (BGN). B = four‑pointed star, C = five‑pointed star, D = six‑pointed star. F = black star, G = white star, H = grey star. M = lines on the left, N = lines on the right.\n\nGlossary (opens in new tab) >",
     "hints": [],
@@ -2290,7 +1829,7 @@
       ]
     },
     "answer": {
-      "value": "C"
+      "value": "c)"
     },
     "explanation": "The correct answer is c).\n\nGlossary (opens in new tab) >",
     "hints": [],
@@ -2328,7 +1867,7 @@
       ]
     },
     "answer": {
-      "value": "D"
+      "value": "d)"
     },
     "explanation": "The correct answer is d). In all other figures, the outer shape is a larger downwards reflection of the inner shape.\n\nGlossary (opens in new tab) >",
     "hints": [],
@@ -2366,7 +1905,7 @@
       ]
     },
     "answer": {
-      "value": "E"
+      "value": "e)"
     },
     "explanation": "The correct answer is e). Option b) is ruled out because the wrong side of the rectangle is connected to the thin triangle. Option c) is ruled out because the rectangle is connected to the wrong side of the thin triangle. Option a) is ruled out because the wide triangle is connected to the wrong side of the thin triangle. Option d) is ruled out because the rectangle is not connected to the thin triangle.\n\nGlossary (opens in new tab) >",
     "hints": [],
@@ -2404,7 +1943,7 @@
       ]
     },
     "answer": {
-      "value": "B"
+      "value": "b)"
     },
     "explanation": "The correct answer is b). The outer small shape gets bigger and the long line gets smaller and moves inside it. The inner small shape moves to the right of the figure and gets taller.\n\nGlossary (opens in new tab) >",
     "hints": [],
@@ -2442,7 +1981,7 @@
       ]
     },
     "answer": {
-      "value": "A"
+      "value": "a)"
     },
     "explanation": "The correct answer is a). The shading of the rectangles must alternate between grey and white. The number of circles must be equal to the number of rectangles and their shading must match the shading of the smallest rectangle.\n\nGlossary (opens in new tab) >",
     "hints": [],
@@ -2480,7 +2019,7 @@
       ]
     },
     "answer": {
-      "value": "D"
+      "value": "d)"
     },
     "explanation": "The correct answer is d). In each series square, the star gains an additional point. The star takes the shading of the small square in the previous series square. The small square moves clockwise around the corners of the series square.\n\nGlossary (opens in new tab) >",
     "hints": [],
@@ -2518,7 +2057,7 @@
       ]
     },
     "answer": {
-      "value": "B"
+      "value": "b)"
     },
     "explanation": "The correct answer is b). Working from left to right, the shape rotates 30 degrees clockwise and the dot alternates between black and white.\n\nGlossary (opens in new tab) >",
     "hints": [],
