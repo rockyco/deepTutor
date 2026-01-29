@@ -40,6 +40,10 @@ export default function PracticeClient() {
   const subject = params.subject as string;
   const questionType = searchParams.get("type");
 
+  useEffect(() => {
+    console.log("PracticeClient Main Loaded v1.2 (Cloudflare Fix)");
+  }, []);
+
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [practice, setPractice] = useState<PracticeState | null>(null);
@@ -532,6 +536,7 @@ export default function PracticeClient() {
           </h2>
 
           {/* Matrix/Main Image (for NVR questions) */}
+          {/* Main Image */}
           {currentQuestion.content.image_url && (
             <div className="flex justify-center mb-6">
               <img
@@ -542,21 +547,7 @@ export default function PracticeClient() {
             </div>
           )}
 
-          {/* Option Images (REMOVED: Duplicates the interactive buttons below) */}
-          {/* {currentQuestion.content.images && currentQuestion.content.images.length > 0 && (
-            <div className="grid grid-cols-5 gap-3 mb-6">
-              {currentQuestion.content.images.map((imgUrl, idx) => (
-                <div key={idx} className="flex flex-col items-center">
-                  <img
-                    src={getImageUrl(imgUrl)}
-                    alt={`Option ${String.fromCharCode(65 + idx)}`}
-                    className="w-full border border-gray-200 rounded bg-white p-1"
-                  />
-                  <span className="text-xs text-gray-500 mt-1">{String.fromCharCode(65 + idx)}</span>
-                </div>
-              ))}
-            </div>
-          )} */}
+          {/* Option Images block removed (fixed duplication) */}
 
           {/* Answer Options */}
           {currentQuestion.content.options ? (
