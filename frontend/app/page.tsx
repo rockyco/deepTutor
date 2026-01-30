@@ -52,12 +52,12 @@ export default function Home() {
                     <div className="flex items-center gap-4 mb-4">
                       <div className="w-12 h-12 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">📝</div>
                       <div>
-                        <h3 className="text-xl font-bold text-slate-900">Full Mock Exam</h3>
-                        <p className="text-xs text-slate-500">50 mins • 52 Qs</p>
+                        <h3 className="text-xl font-bold text-slate-900">GL Mock Exam</h3>
+                        <p className="text-xs text-slate-500">2 Papers • 180 Qs • GL Format</p>
                       </div>
                     </div>
-                    <p className="text-sm text-slate-600 mb-4 line-clamp-2">Simulate the real GL Assessment experience under timed conditions.</p>
-                    <div className="px-3 py-1.5 bg-indigo-50 text-indigo-700 text-xs font-bold rounded-lg inline-block">Executes Now</div>
+                    <p className="text-sm text-slate-600 mb-4 line-clamp-2">Full Trafford Grammar format: 2 papers, 4 timed sections each, 50 min per paper.</p>
+                    <div className="px-3 py-1.5 bg-indigo-50 text-indigo-700 text-xs font-bold rounded-lg inline-block">Start Exam</div>
                   </div>
                 </Link>
 

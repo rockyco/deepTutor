@@ -395,6 +395,112 @@ export const usersAPI = {
   listUsers: () => fetchAPI<User[]>("/api/users"),
 };
 
+// Mock Exam types
+export interface SectionQuestions {
+  section: string;
+  section_index: number;
+  question_ids: string[];
+  question_count: number;
+  time_seconds: number;
+}
+
+export interface PaperStructure {
+  paper_number: number;
+  sections: SectionQuestions[];
+  total_questions: number;
+}
+
+export interface MockExamSession {
+  id: string;
+  user_id: string;
+  exam_number: number;
+  papers: PaperStructure[];
+  status: string;
+  started_at: string;
+  completed_at?: string;
+  answers: Record<string, string>;
+  answer_times: Record<string, number>;
+}
+
+export interface SectionResult {
+  section: string;
+  total: number;
+  correct: number;
+  accuracy: number;
+  time_used_seconds: number;
+}
+
+export interface PaperResult {
+  paper_number: number;
+  sections: SectionResult[];
+  total_questions: number;
+  total_correct: number;
+  accuracy: number;
+  total_time_seconds: number;
+}
+
+export interface MockExamResult {
+  exam_id: string;
+  user_id: string;
+  papers: PaperResult[];
+  total_questions: number;
+  total_correct: number;
+  overall_accuracy: number;
+  total_time_seconds: number;
+  subject_breakdown: Record<string, { total: number; correct: number; accuracy: number; time_seconds: number }>;
+  completed_at: string;
+}
+
+export interface MockExamQuestion {
+  id: string;
+  subject: string;
+  question_type: string;
+  format: string;
+  difficulty: number;
+  content: QuestionContent;
+  explanation: string;
+}
+
+// Mock Exam API
+export const mockExamAPI = {
+  startExam: (userId: string, examNumber: number = 1) =>
+    fetchAPI<MockExamSession>("/api/mock-exam/start", {
+      method: "POST",
+      body: JSON.stringify({ user_id: userId, exam_number: examNumber }),
+    }),
+
+  getExam: (examId: string) =>
+    fetchAPI<MockExamSession>(`/api/mock-exam/${examId}`),
+
+  getSectionQuestions: (examId: string, paperNum: number, sectionIndex: number) =>
+    fetchAPI<MockExamQuestion[]>(
+      `/api/mock-exam/${examId}/paper/${paperNum}/section/${sectionIndex}`
+    ),
+
+  submitAnswer: (
+    examId: string,
+    questionId: string,
+    userAnswer: string,
+    timeTakenSeconds: number = 0
+  ) =>
+    fetchAPI<{ is_correct: boolean; correct_answer: string; explanation: string }>(
+      `/api/mock-exam/${examId}/answer`,
+      {
+        method: "POST",
+        body: JSON.stringify({
+          question_id: questionId,
+          user_answer: userAnswer,
+          time_taken_seconds: timeTakenSeconds,
+        }),
+      }
+    ),
+
+  completeExam: (examId: string) =>
+    fetchAPI<MockExamResult>(`/api/mock-exam/${examId}/complete`, {
+      method: "POST",
+    }),
+};
+
 // Progress API
 export const progressAPI = {
   getSummary: (userId: string) =>

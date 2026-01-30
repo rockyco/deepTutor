@@ -1,7 +1,7 @@
 """Database layer for the 11+ Tutor application."""
 
 from .database import get_db, init_db, async_session
-from .models import Base, QuestionDB, UserDB, ProgressDB, PracticeSessionDB, UserAnswerDB
+from .models import Base, QuestionDB, UserDB, ProgressDB, PracticeSessionDB, UserAnswerDB, MockExamSessionDB
 
 __all__ = [
     "get_db",
@@ -13,4 +13,5 @@ __all__ = [
     "ProgressDB",
     "PracticeSessionDB",
     "UserAnswerDB",
+    "MockExamSessionDB",
 ]

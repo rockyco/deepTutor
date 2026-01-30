@@ -166,3 +166,20 @@ class ProgressDB(Base):
     __table_args__ = (
         {"sqlite_autoincrement": True},
     )
+
+
+class MockExamSessionDB(Base):
+    """Mock exam session database model.
+
+    Stores the full exam structure and answers as JSON.
+    """
+
+    __tablename__ = "mock_exam_sessions"
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True, default=generate_uuid)
+    user_id: Mapped[str] = mapped_column(String(36), ForeignKey("users.id"), nullable=False)
+    exam_number: Mapped[int] = mapped_column(Integer, default=1)
+    status: Mapped[str] = mapped_column(String(20), default="in_progress")
+    data: Mapped[str] = mapped_column(Text, nullable=False)  # Full JSON structure
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
+    completed_at: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)

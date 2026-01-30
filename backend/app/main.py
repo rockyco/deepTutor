@@ -27,6 +27,7 @@ from app.routers import (
 #     research_router,
 #     generator_router,
 )
+from app.routers.mock_exam import router as mock_exam_router
 from app.api import auth
 
 logger = logging.getLogger(__name__)
@@ -133,6 +134,7 @@ app.include_router(visualize_router)
 # app.include_router(research_router)
 # app.include_router(generator_router)
 app.include_router(auth.router, prefix="/api")
+app.include_router(mock_exam_router)
 
 # Dev/Temp endpoint for image ingestion
 class ImageUpload(BaseModel):
