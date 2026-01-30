@@ -157,6 +157,7 @@ async def extract_unified(subject_key: str):
         print("--- PHASE 1: Image Extraction & Submission ---")
         
         questions_map = {} # Key: q_num, Value: dict
+        q_num_to_nav_idx = {} # Map absolute q_num -> session-relative nav index (1-based)
         
         # Determine number of questions (heuristic, stop when navigation fails or loop limit)
         session_q_count = 0
@@ -319,6 +320,7 @@ async def extract_unified(subject_key: str):
             
 
             questions_map[q_num] = q_data
+            q_num_to_nav_idx[q_num] = nav_idx
             session_q_count += 1
             
             # 4. Select an Answer (Option A)
@@ -390,10 +392,11 @@ async def extract_unified(subject_key: str):
         
         # Iterate over Keys in map to ensure we check specific questions we processed
         for q_num in questions_map.keys():
-            print(f"Extracting Answer Q{q_num}...")
-            # Navigate
+            nav_idx = q_num_to_nav_idx.get(q_num, q_num)
+            print(f"Extracting Answer Q{q_num} (nav #{nav_idx})...")
+            # Navigate using session-relative nav index, not absolute q_num
             try:
-                await frame.locator(f".nav-square >> text={q_num}").click()
+                await frame.locator(f".nav-square >> text={nav_idx}").click()
                 await page.wait_for_timeout(1000)
             except:
                 pass

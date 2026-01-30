@@ -332,5 +332,699 @@
       "38",
       "3"
     ]
+  },
+  {
+    "question_num": 19,
+    "text": "The cost of the activities available at a summer camp are shown below.\n\nMalala spends exactly \u00a368. She doesn\u2019t do any activity more than once.\n\nWhich of these combinations of activities must she have done?",
+    "question_image": "q19_question_0.png",
+    "question_images": [
+      "q19_question_0.png"
+    ],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nPaintball costs \u00a355 by itself, so it\u2019s unlikely to be options d) or e). Try options c), a) and b). Option c) is the only one that adds up to \u00a368. You can use the column method to add the costs:",
+    "options": [
+      "Kayaking, sailing, high\u00a0ropes",
+      "Kayaking, windsurfing and high\u00a0ropes",
+      "Windsurfing, sailing and high\u00a0ropes",
+      "Kayaking, paintball and high\u00a0ropes",
+      "Paintball, windsurfing and sailing"
+    ]
+  },
+  {
+    "question_num": 20,
+    "text": "___\u00a0\u00f7\u00a01000\u00a0=\u00a00.2543\n\nWhat number is missing from the calculation above?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nMultiplication is the inverse operation of division, so the answer is 0.2543\u00a0\u00d7\u00a01000\u00a0=\u00a0254.3.",
+    "options": [
+      "2.543",
+      "2543",
+      "254.3",
+      "25.43",
+      "25\u00a0430"
+    ]
+  },
+  {
+    "question_num": 21,
+    "text": "Milly collected some data on dogs at her local rescue centre. The table below is missing some of her results.\n\nHow many female puppies are there?",
+    "question_image": "q21_question_0.png",
+    "question_images": [
+      "q21_question_0.png"
+    ],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\nThere are 34\u00a0\u2212\u00a015\u00a0=\u00a019\u00a0female dogs in total, so there are 19\u00a0\u2212\u00a012\u00a0=\u00a07\u00a0female puppies.",
+    "options": [
+      "9",
+      "6",
+      "19",
+      "7",
+      "12"
+    ]
+  },
+  {
+    "question_num": 22,
+    "text": "Mr Chen is knitting a jumper. It takes him two and a half minutes to knit each row.\nHe starts knitting at 4:15\u00a0pm.\n\nAt what time will he have knitted 50 rows?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n2.5\u00a0minutes\u00a0\u00d7\u00a050\u00a0=\u00a0125\u00a0minutes. 125\u00a0minutes\u00a0=\u00a02\u00a0hours and 5\u00a0minutes. Add this to 4:15\u00a0pm: 4:15\u00a0pm\u00a0+\u00a02\u00a0hours\u00a0=\u00a06:15\u00a0pm, 6:15\u00a0pm\u00a0+\u00a05\u00a0minutes\u00a0=\u00a06:20\u00a0pm.",
+    "options": [
+      "6:20\u00a0pm",
+      "5:55\u00a0pm",
+      "6:00\u00a0pm",
+      "5:05\u00a0pm",
+      "6:15\u00a0pm"
+    ]
+  },
+  {
+    "question_num": 23,
+    "text": "Rui attended a holiday club for \n2 1/2 hours. The bar chart below shows the percentage of time he spent on each type of activity.\n\nHow long did Rui spend doing drama?",
+    "question_image": "q23_question_0.png",
+    "question_images": [
+      "q23_question_0.png"
+    ],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nReading from the graph, Rui spent 75%\u00a0\u2212\u00a045%\u00a0=\u00a030% of the time doing drama. \n2\n2\n1\n\u00a0hours is 60\u00a0+\u00a060\u00a0+\u00a030\u00a0=\u00a0150\u00a0minutes. 10%\u00a0of\u00a0150 is 150\u00a0\u00f7\u00a010 =\u00a015\u00a0minutes, so 30%\u00a0of\u00a0150\u00a0minutes is 3\u00a0\u00d7\u00a015\u00a0=\u00a045\u00a0minutes.",
+    "options": [
+      "40\u00a0minutes",
+      "15\u00a0minutes",
+      "45\u00a0minutes",
+      "75\u00a0minutes",
+      "30\u00a0minutes"
+    ]
+  },
+  {
+    "question_num": 24,
+    "text": "Orange juice is usually priced at \u00a31.50 per bottle.\n\nHow much would a bottle of orange juice cost if the price was reduced by 10%?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n10% of \u00a31.50 is \u00a31.50\u00a0\u00f7\u00a010\u00a0=\u00a0\u00a30.15. So the reduced price would be \u00a31.50\u00a0\u2212\u00a0\u00a30.15\u00a0=\u00a0\u00a31.35.",
+    "options": [
+      "\u00a31.35",
+      "\u00a31.40",
+      "\u00a31.30",
+      "\u00a31.45",
+      "\u00a31.25"
+    ]
+  },
+  {
+    "question_num": 25,
+    "text": "Saffron draws four identical squares on the axes below. The coordinates of one corner are shown.\n\nWhat are the coordinates of the point marked A?",
+    "question_image": "q25_question_0.png",
+    "question_images": [
+      "q25_question_0.png"
+    ],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\nThe y-axis has an x-coordinate of 0 and the corner of the square furthest to the left has an x\u2011coordinate of \u22126, so the distance between opposite corners of each square is 6 units. So the distance between the centre of a square and one corner of a square is 6\u00a0\u00f7\u00a02\u00a0=\u00a03\u00a0units. The point marked A is 3\u00a0units\u00a0right and 3\u00a0units\u00a0up from point (0,\u00a00). So the coordinates of point A are (3,\u00a03).",
+    "options": [
+      "(6,\u00a06)",
+      "(3,\u00a03)",
+      "(6,\u00a03)",
+      "(\u22123,\u00a0\u22123)",
+      "(3,\u00a09)"
+    ]
+  },
+  {
+    "question_num": 26,
+    "text": "A cuboid has a length of 14\u00a0m, a width of 2\u00a0m and a volume of 280\u00a0m3.\n\nWhat is the cuboid\u2019s height?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\nVolume\u00a0=\u00a0length\u00a0\u00d7\u00a0width\u00a0\u00d7\u00a0height, so 280\u00a0=\u00a014\u00a0\u00d7\u00a02\u00a0\u00d7\u00a0height =\u00a028\u00a0\u00d7\u00a0height. So the height of the cuboid is 280\u00a0\u00f7\u00a028 =\u00a010\u00a0m.",
+    "options": [
+      "20\u00a0m",
+      "10\u00a0m",
+      "14\u00a0m",
+      "15\u00a0m",
+      "20\u00a0m"
+    ]
+  },
+  {
+    "question_num": 27,
+    "text": "Which number has been put in the wrong place in this sorting diagram?",
+    "question_image": "q27_question_0.png",
+    "question_images": [
+      "q27_question_0.png"
+    ],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\n64 is a square number (8\u00a0\u00d7\u00a08\u00a0=\u00a064) and a cube number (4\u00a0\u00d7\u00a04\u00a0\u00d7\u00a04\u00a0=\u00a064), so it should be in the top\u2011left box.",
+    "options": [
+      "1",
+      "27",
+      "64",
+      "8",
+      "100"
+    ]
+  },
+  {
+    "question_num": 28,
+    "text": "Five different coloured horses take part in a race. The time it takes each of them to finish the race is shown in the table.\n\nWhich colour horse wins the race?",
+    "question_image": "q28_question_0.png",
+    "question_images": [
+      "q28_question_0.png"
+    ],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\nThe horse with the shortest time wins the race. The chestnut, bay and dun horses all took at least 61\u00a0seconds, so they couldn\u2019t have won the race. The grey horse\u2019s time has 8 tenths (60.89), and the black horse\u2019s time has 9 tenths (60.981), so the grey horse wins the race.",
+    "options": [
+      "Bay",
+      "Chestnut",
+      "Dun",
+      "Grey",
+      "Black"
+    ]
+  },
+  {
+    "question_num": 29,
+    "text": "A chip shop records how many people had salt or vinegar on their chips.\n\nThe results are shown in this bar chart.\n\nWhy is the bar chart misleading?",
+    "question_image": "q29_question_0.png",
+    "question_images": [
+      "q29_question_0.png"
+    ],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\nThe bars look longer than they should, which makes the differences between the bars look smaller than they actually are. For example, the bar for \u2018Neither\u2019 represents 8\u00a0people, but looks half as long as the bar for \u2018Both\u2019, which represents 26\u00a0people.",
+    "options": [
+      "The bars don\u2019t begin at 0.",
+      "It doesn\u2019t include other options, such as ketchup.",
+      "The bars should be vertical instead of horizontal.",
+      "The numbers should be given as percentages.",
+      "The numbers don\u2019t add up to 100."
+    ]
+  },
+  {
+    "question_num": 30,
+    "text": "Charlotte is buying 12 apples at 6p each. She pays with a \u00a35 note.\n\nHow much change does she get?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\n\u00a35\u00a0=\u00a0500p. 12 apples cost 12\u00a0\u00d7\u00a06p\u00a0=\u00a072p. 500p\u00a0\u2212\u00a072p\u00a0=\u00a0428p. 428p\u00a0=\u00a0\u00a34.28 change.",
+    "options": [
+      "28p",
+      "\u00a32.78",
+      "\u00a33.72",
+      "72p",
+      "\u00a34.28"
+    ]
+  },
+  {
+    "question_num": 31,
+    "text": "Saffron draws four identical squares on the axes below. The coordinates of one corner are shown.\n\nWhat are the coordinates of the point marked A?",
+    "question_image": "q31_question_0.png",
+    "question_images": [
+      "q31_question_0.png"
+    ],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\nThe y-axis has an x-coordinate of 0 and the corner of the square furthest to the left has an x\u2011coordinate of \u22126, so the distance between opposite corners of each square is 6 units. So the distance between the centre of a square and one corner of a square is 6\u00a0\u00f7\u00a02\u00a0=\u00a03\u00a0units. The point marked A is 3\u00a0units\u00a0right and 3\u00a0units\u00a0up from point (0,\u00a00). So the coordinates of point A are (3,\u00a03).",
+    "options": [
+      "(6,\u00a06)",
+      "(3,\u00a09)",
+      "(6,\u00a03)",
+      "(3,\u00a03)",
+      "(\u22123,\u00a0\u22123)"
+    ]
+  },
+  {
+    "question_num": 32,
+    "text": "The cost of the activities available at a summer camp are shown below.\n\nMalala spends exactly \u00a368. She doesn\u2019t do any activity more than once.\n\nWhich of these combinations of activities must she have done?",
+    "question_image": "q32_question_0.png",
+    "question_images": [
+      "q32_question_0.png"
+    ],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\nPaintball costs \u00a355 by itself, so it\u2019s unlikely to be options a) or e). Try options d), b) and c). Option d) is the only one that adds up to \u00a368. You can use the column method to add the costs:",
+    "options": [
+      "Kayaking, paintball and high\u00a0ropes",
+      "Kayaking, sailing, high\u00a0ropes",
+      "Kayaking, windsurfing and high\u00a0ropes",
+      "Windsurfing, sailing and high\u00a0ropes",
+      "Paintball, windsurfing and sailing"
+    ]
+  },
+  {
+    "question_num": 33,
+    "text": "Milly collected some data on dogs at her local rescue centre. The table below is missing some of her results.\n\nHow many female puppies are there?",
+    "question_image": "q33_question_0.png",
+    "question_images": [
+      "q33_question_0.png"
+    ],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\nThere are 34\u00a0\u2212\u00a015\u00a0=\u00a019\u00a0female dogs in total, so there are 19\u00a0\u2212\u00a012\u00a0=\u00a07\u00a0female puppies.",
+    "options": [
+      "7",
+      "9",
+      "19",
+      "6",
+      "12"
+    ]
+  },
+  {
+    "question_num": 34,
+    "text": "___\u00a0\u00f7\u00a01000\u00a0=\u00a00.2543\n\nWhat number is missing from the calculation above?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\nMultiplication is the inverse operation of division, so the answer is 0.2543\u00a0\u00d7\u00a01000\u00a0=\u00a0254.3.",
+    "options": [
+      "25\u00a0430",
+      "2543",
+      "25.43",
+      "2.543",
+      "254.3"
+    ]
+  },
+  {
+    "question_num": 35,
+    "text": "What is the remainder when 2576 is divided by 9?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nYou can use short division to work out 2576\u00a0\u00f7\u00a09:\n\nSo the remainder is 2.",
+    "options": [
+      "5",
+      "1",
+      "2",
+      "6",
+      "4"
+    ]
+  },
+  {
+    "question_num": 36,
+    "text": "Johan takes part in a high jump competition. His best jump is 2.04\u00a0m.\n\nHow high is this in mm?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\n1\u00a0m\u00a0=\u00a0100\u00a0cm, so 2.04\u00a0m =\u00a02.04\u00a0\u00d7\u00a0100 =\u00a0204\u00a0cm. 1\u00a0cm\u00a0=\u00a010\u00a0mm, so 204\u00a0cm =\u00a0204\u00a0\u00d7\u00a010 =\u00a02040\u00a0mm.",
+    "options": [
+      "204\u00a0mm",
+      "240\u00a0000\u00a0mm",
+      "20.4\u00a0mm",
+      "20\u00a0400\u00a0mm",
+      "2040\u00a0mm"
+    ]
+  },
+  {
+    "question_num": 37,
+    "text": "Four children collect animal stickers. Mazana has 120\u00a0stickers, Louis has 140\u00a0stickers, Nadia has 90\u00a0stickers and Connor has 50\u00a0stickers.\n\nWhat is the mean number of stickers owned by the four children?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nThe total number of stickers\u00a0=\u00a0120\u00a0+\u00a0140\u00a0+\u00a090\u00a0+\u00a050\u00a0=\u00a0400. Divide this by the number of children to get the mean: 400\u00a0\u00f7\u00a04\u00a0=\u00a0100.",
+    "options": [
+      "40",
+      "400",
+      "100",
+      "150",
+      "50"
+    ]
+  },
+  {
+    "question_num": 38,
+    "text": "Orange juice is usually priced at \u00a31.50 per bottle.\n\nHow much would a bottle of orange juice cost if the price was reduced by 10%?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\n10% of \u00a31.50 is \u00a31.50\u00a0\u00f7\u00a010\u00a0=\u00a0\u00a30.15. So the reduced price would be \u00a31.50\u00a0\u2212\u00a0\u00a30.15\u00a0=\u00a0\u00a31.35.",
+    "options": [
+      "\u00a31.30",
+      "\u00a31.35",
+      "\u00a31.40",
+      "\u00a31.45",
+      "\u00a31.25"
+    ]
+  },
+  {
+    "question_num": 39,
+    "text": "Mr Chen is knitting a jumper. It takes him two and a half minutes to knit each row.\nHe starts knitting at 4:15\u00a0pm.\n\nAt what time will he have knitted 50 rows?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\n2.5\u00a0minutes\u00a0\u00d7\u00a050\u00a0=\u00a0125\u00a0minutes. 125\u00a0minutes\u00a0=\u00a02\u00a0hours and 5\u00a0minutes. Add this to 4:15\u00a0pm: 4:15\u00a0pm\u00a0+\u00a02\u00a0hours\u00a0=\u00a06:15\u00a0pm, 6:15\u00a0pm\u00a0+\u00a05\u00a0minutes\u00a0=\u00a06:20\u00a0pm.",
+    "options": [
+      "5:55\u00a0pm",
+      "5:05\u00a0pm",
+      "6:20\u00a0pm",
+      "6:15\u00a0pm",
+      "6:00\u00a0pm"
+    ]
+  },
+  {
+    "question_num": 40,
+    "text": "Charlotte is buying 12 apples at 6p each. She pays with a \u00a35 note.\n\nHow much change does she get?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\n\u00a35\u00a0=\u00a0500p. 12 apples cost 12\u00a0\u00d7\u00a06p\u00a0=\u00a072p. 500p\u00a0\u2212\u00a072p\u00a0=\u00a0428p. 428p\u00a0=\u00a0\u00a34.28 change.",
+    "options": [
+      "28p",
+      "\u00a34.28",
+      "\u00a33.72",
+      "72p",
+      "\u00a32.78"
+    ]
+  },
+  {
+    "question_num": 41,
+    "text": "___\u00a0\u00f7\u00a01000\u00a0=\u00a00.2543\n\nWhat number is missing from the calculation above?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\nMultiplication is the inverse operation of division, so the answer is 0.2543\u00a0\u00d7\u00a01000\u00a0=\u00a0254.3.",
+    "options": [
+      "25.43",
+      "2.543",
+      "25\u00a0430",
+      "2543",
+      "254.3"
+    ]
+  },
+  {
+    "question_num": 42,
+    "text": "Four children collect animal stickers. Mazana has 120\u00a0stickers, Louis has 140\u00a0stickers, Nadia has 90\u00a0stickers and Connor has 50\u00a0stickers.\n\nWhat is the mean number of stickers owned by the four children?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\nThe total number of stickers\u00a0=\u00a0120\u00a0+\u00a0140\u00a0+\u00a090\u00a0+\u00a050\u00a0=\u00a0400. Divide this by the number of children to get the mean: 400\u00a0\u00f7\u00a04\u00a0=\u00a0100.",
+    "options": [
+      "100",
+      "150",
+      "400",
+      "50",
+      "40"
+    ]
+  },
+  {
+    "question_num": 43,
+    "text": "A cuboid has a length of 14\u00a0m, a width of 2\u00a0m and a volume of 280\u00a0m3.\n\nWhat is the cuboid\u2019s height?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\nVolume\u00a0=\u00a0length\u00a0\u00d7\u00a0width\u00a0\u00d7\u00a0height, so 280\u00a0=\u00a014\u00a0\u00d7\u00a02\u00a0\u00d7\u00a0height =\u00a028\u00a0\u00d7\u00a0height. So the height of the cuboid is 280\u00a0\u00f7\u00a028 =\u00a010\u00a0m.",
+    "options": [
+      "20\u00a0m",
+      "15\u00a0m",
+      "14\u00a0m",
+      "10\u00a0m",
+      "20\u00a0m"
+    ]
+  },
+  {
+    "question_num": 44,
+    "text": "Which number has been put in the wrong place in this sorting diagram?",
+    "question_image": "q44_question_0.png",
+    "question_images": [
+      "q44_question_0.png"
+    ],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n64 is a square number (8\u00a0\u00d7\u00a08\u00a0=\u00a064) and a cube number (4\u00a0\u00d7\u00a04\u00a0\u00d7\u00a04\u00a0=\u00a064), so it should be in the top\u2011left box.",
+    "options": [
+      "64",
+      "27",
+      "100",
+      "8",
+      "1"
+    ]
+  },
+  {
+    "question_num": 45,
+    "text": "Johan takes part in a high jump competition. His best jump is 2.04\u00a0m.\n\nHow high is this in mm?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\n1\u00a0m\u00a0=\u00a0100\u00a0cm, so 2.04\u00a0m =\u00a02.04\u00a0\u00d7\u00a0100 =\u00a0204\u00a0cm. 1\u00a0cm\u00a0=\u00a010\u00a0mm, so 204\u00a0cm =\u00a0204\u00a0\u00d7\u00a010 =\u00a02040\u00a0mm.",
+    "options": [
+      "240\u00a0000\u00a0mm",
+      "2040\u00a0mm",
+      "204\u00a0mm",
+      "20.4\u00a0mm",
+      "20\u00a0400\u00a0mm"
+    ]
+  },
+  {
+    "question_num": 46,
+    "text": "Jenna has made this shape out of blocks.\n\nWhich of the shapes below is identical to Jenna\u2019s shape?",
+    "question_image": "q46_question_0.png",
+    "question_images": [
+      "q46_question_0.png"
+    ],
+    "images": [
+      "q46_option_0.png",
+      "q46_option_1.png",
+      "q46_option_2.png",
+      "q46_option_3.png",
+      "q46_option_4.png"
+    ],
+    "answer": "E",
+    "explanation": "Answer:\n\nIf Jenna\u2019s shape was rotated 90\u00b0\u00a0anticlockwise, and then rotated 180\u00b0\u00a0left\u2011to\u2011right, it would look like option e).",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 47,
+    "text": "Lucas asked everyone in Year\u00a06 where they would like to go on a trip. He made a pie chart of the results.\n\nWhat fraction of the children said they wanted to go to either a farm or a zoo?",
+    "question_image": "q47_question_0.png",
+    "question_images": [
+      "q47_question_0.png"
+    ],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nThe farm sector has an angle of\u00a070\u00b0 and the zoo\u00a0sector has an angle of\u00a090\u00b0. The total\u00a0of these angles is 70\u00b0\u00a0+\u00a090\u00b0\u00a0=\u00a0160\u00b0. As a fraction of the whole circle, this is \n3\n6\n0\n1\n6\n0\n. Divide the numerator and denominator by 10 and then by 4 to simplify: \n3\n6\n0\n1\n6\n0\n3\n6\n1\n6\n9\n4\n=\n=\n.",
+    "options": [
+      "7\n2",
+      "3\n1",
+      "9\n4",
+      "5\n2",
+      "9\n5"
+    ]
+  },
+  {
+    "question_num": 48,
+    "text": "Shyam owns 6 brown rabbits and 2 black rabbits.\n\nWhat is the ratio of brown rabbits to black rabbits in its simplest form?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nThe ratio of brown rabbits\u00a0:\u00a0black rabbits is 6\u00a0:\u00a02. Divide both parts of the ratio by 2 to simplify to 3\u00a0:\u00a01.",
+    "options": [
+      "2\u00a0:\u00a01",
+      "1\u00a0:\u00a02",
+      "3\u00a0:\u00a01",
+      "6\u00a0:\u00a01",
+      "1\u00a0:\u00a03"
+    ]
+  },
+  {
+    "question_num": 49,
+    "text": "What is \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\n12\u00a0+\u00a08\u00a0+\u00a020\u00a0=\u00a040. So \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n \n4\n0\n1\n2\n0\n=\n =\u00a0120\u00a0\u00f7\u00a040\u00a0=\u00a03.",
+    "options": [
+      "38",
+      "6",
+      "3",
+      "4",
+      "26"
+    ]
+  },
+  {
+    "question_num": 50,
+    "text": "Mr Chen is knitting a jumper. It takes him two and a half minutes to knit each row.\nHe starts knitting at 4:15\u00a0pm.\n\nAt what time will he have knitted 50 rows?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n2.5\u00a0minutes\u00a0\u00d7\u00a050\u00a0=\u00a0125\u00a0minutes. 125\u00a0minutes\u00a0=\u00a02\u00a0hours and 5\u00a0minutes. Add this to 4:15\u00a0pm: 4:15\u00a0pm\u00a0+\u00a02\u00a0hours\u00a0=\u00a06:15\u00a0pm, 6:15\u00a0pm\u00a0+\u00a05\u00a0minutes\u00a0=\u00a06:20\u00a0pm.",
+    "options": [
+      "6:20\u00a0pm",
+      "5:55\u00a0pm",
+      "6:15\u00a0pm",
+      "6:00\u00a0pm",
+      "5:05\u00a0pm"
+    ]
+  },
+  {
+    "question_num": 51,
+    "text": "What is the size of angle b in the diagram below?",
+    "question_image": "q51_question_0.png",
+    "question_images": [
+      "q51_question_0.png"
+    ],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\nAngles in a triangle add up to 180\u00b0, so the missing angle in the triangle is 180\u00b0\u00a0\u2212\u00a090\u00b0\u00a0\u2212\u00a061\u00b0\u00a0=\u00a029\u00b0. Angles on a straight line add up to 180\u00b0, so angle\u00a0b\u00a0=\u00a0180\u00b0\u00a0\u2212\u00a029\u00b0\u00a0=\u00a0151\u00b0.",
+    "options": [
+      "139\u00b0",
+      "61\u00b0",
+      "161\u00b0",
+      "29\u00b0",
+      "151\u00b0"
+    ]
+  },
+  {
+    "question_num": 52,
+    "text": "Rui attended a holiday club for \n2 1/2 hours. The bar chart below shows the percentage of time he spent on each type of activity.\n\nHow long did Rui spend doing drama?",
+    "question_image": "q52_question_0.png",
+    "question_images": [
+      "q52_question_0.png"
+    ],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nReading from the graph, Rui spent 75%\u00a0\u2212\u00a045%\u00a0=\u00a030% of the time doing drama. \n2\n2\n1\n\u00a0hours is 60\u00a0+\u00a060\u00a0+\u00a030\u00a0=\u00a0150\u00a0minutes. 10%\u00a0of\u00a0150 is 150\u00a0\u00f7\u00a010 =\u00a015\u00a0minutes, so 30%\u00a0of\u00a0150\u00a0minutes is 3\u00a0\u00d7\u00a015\u00a0=\u00a045\u00a0minutes.",
+    "options": [
+      "15\u00a0minutes",
+      "75\u00a0minutes",
+      "45\u00a0minutes",
+      "40\u00a0minutes",
+      "30\u00a0minutes"
+    ]
+  },
+  {
+    "question_num": 53,
+    "text": "Orange juice is usually priced at \u00a31.50 per bottle.\n\nHow much would a bottle of orange juice cost if the price was reduced by 10%?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\n10% of \u00a31.50 is \u00a31.50\u00a0\u00f7\u00a010\u00a0=\u00a0\u00a30.15. So the reduced price would be \u00a31.50\u00a0\u2212\u00a0\u00a30.15\u00a0=\u00a0\u00a31.35.",
+    "options": [
+      "\u00a31.30",
+      "\u00a31.45",
+      "\u00a31.25",
+      "\u00a31.40",
+      "\u00a31.35"
+    ]
+  },
+  {
+    "question_num": 54,
+    "text": "41\u00a0\u2212\u00a03h\u00a0=\u00a017\n\nWhat is h?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\n41\u00a0\u2212\u00a03h\u00a0=\u00a017, so 3h\u00a0=\u00a041\u00a0\u2212\u00a017\u00a0=\u00a024. 3h\u00a0=\u00a024, so h\u00a0=\u00a024\u00a0\u00f7\u00a03\u00a0=\u00a08.",
+    "options": [
+      "6",
+      "24",
+      "8",
+      "19",
+      "12"
+    ]
+  },
+  {
+    "question_num": 55,
+    "text": "Marko is at a toy shop. He wants to buy two dinosaurs, three chickens and a tiger. The prices of the toys are shown below.\n\nWhich of the calculations below could Marko use to find out how much the toys will cost?",
+    "question_image": "q55_question_0.png",
+    "question_images": [
+      "q55_question_0.png"
+    ],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nThe calculations show the prices rounded to the nearest 10p, so each item has 1p added on to its price. There are 2\u00a0+\u00a03\u00a0+\u00a01\u00a0=\u00a06\u00a0items, so 6p has been added to the total cost. Option c) is the correct answer as Marko needs to take 6p off the total to get the right amount.",
+    "options": [
+      "2\u00a0\u00d7\u00a0\u00a35.00 +\u00a03\u00a0\u00d7\u00a0\u00a34.00 +\u00a0\u00a33.50\u00a0\u2212\u00a05p",
+      "2\u00a0\u00d7\u00a0\u00a35.00 +\u00a03\u00a0\u00d7\u00a0\u00a34.00 +\u00a0\u00a33.50\u00a0+\u00a06p",
+      "2\u00a0\u00d7\u00a0\u00a35.00 +\u00a03\u00a0\u00d7\u00a0\u00a34.00 +\u00a0\u00a33.50\u00a0\u2212\u00a06p",
+      "2\u00a0\u00d7\u00a0\u00a35.00 +\u00a03\u00a0\u00d7\u00a0\u00a34.00 +\u00a0\u00a33.50\u00a0+\u00a05p",
+      "2\u00a0\u00d7\u00a0\u00a35.00 +\u00a03\u00a0\u00d7\u00a0\u00a34.00 +\u00a0\u00a33.50\u00a0\u2212\u00a03p"
+    ]
+  },
+  {
+    "question_num": 56,
+    "text": "Jenna has made this shape out of blocks.\n\nWhich of the shapes below is identical to Jenna\u2019s shape?",
+    "question_image": "q56_question_0.png",
+    "question_images": [
+      "q56_question_0.png"
+    ],
+    "images": [
+      "q56_option_0.png",
+      "q56_option_1.png",
+      "q56_option_2.png",
+      "q56_option_3.png",
+      "q56_option_4.png"
+    ],
+    "answer": "B",
+    "explanation": "Answer:\n\nIf Jenna\u2019s shape was rotated 90\u00b0\u00a0anticlockwise, and then rotated 180\u00b0\u00a0left\u2011to\u2011right, it would look like option b).",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 57,
+    "text": "Which of the shapes below is not a regular polygon?",
+    "question_image": null,
+    "question_images": [],
+    "images": [
+      "q57_option_0.png",
+      "q57_option_1.png",
+      "q57_option_2.png",
+      "q57_option_3.png",
+      "q57_option_4.png"
+    ],
+    "answer": "C",
+    "explanation": "Answer:\n\nRegular polygons have equal\u2011length sides and equal angles, so c) isn\u2019t regular.",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 58,
+    "text": "The cost of the activities available at a summer camp are shown below.\n\nMalala spends exactly \u00a368. She doesn\u2019t do any activity more than once.\n\nWhich of these combinations of activities must she have done?",
+    "question_image": "q58_question_0.png",
+    "question_images": [
+      "q58_question_0.png"
+    ],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\nPaintball costs \u00a355 by itself, so it\u2019s unlikely to be options e) or c). Try options d), b) and a). Option d) is the only one that adds up to \u00a368. You can use the column method to add the costs:",
+    "options": [
+      "Kayaking, windsurfing and high\u00a0ropes",
+      "Kayaking, sailing, high\u00a0ropes",
+      "Paintball, windsurfing and sailing",
+      "Windsurfing, sailing and high\u00a0ropes",
+      "Kayaking, paintball and high\u00a0ropes"
+    ]
   }
 ]

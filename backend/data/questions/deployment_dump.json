@@ -65,7 +65,7 @@
     "answer": {
       "value": "4/9"
     },
-    "explanation": "Answer:\n\nThe farm sector has an angle of 70° and the zoo sector has an angle of 90°. The total of these angles is 70° + 90° = 160°. As a fraction of the whole circle, this is 160/360. Divide the numerator and denominator by 10 and then by 4 to simplify: 160/360 = 16/36 = 4/9.",
+    "explanation": "Answer:\n\nThe farm sector has an angle of 70° and the zoo sector has an angle of 90°. The total of these angles is 70° + 90° = 160°. As a fraction of the whole circle, this is \n3\n6\n0\n1\n6\n0\n. Divide the numerator and denominator by 10 and then by 4 to simplify: \n3\n6\n0\n1\n6\n0\n3\n6\n1\n6\n9\n4\n=\n=\n.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -88,7 +88,7 @@
     "answer": {
       "value": "25%"
     },
-    "explanation": "Answer:\n\n£2 out of £8 = 2/8 = 1/4. So Ben spends 1/4 = 25% of his money on the chocolate bar.",
+    "explanation": "Answer:\n\n£2 out of £8 \n8\n2\n4\n1\n=\n=\n. So Ben spends \n%\n4\n1\n2\n5\n=\n of his money on the chocolate bar.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -111,7 +111,7 @@
     "answer": {
       "value": "3"
     },
-    "explanation": "Answer:\n\n12 + 8 + 20 = 40. So 120 ÷ (12 + 8 + 20) = 120 ÷ 40 = 3.",
+    "explanation": "Answer:\n\n12 + 8 + 20 = 40. So \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n \n4\n0\n1\n2\n0\n=\n = 120 ÷ 40 = 3.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -228,6 +228,867 @@
       "value": "12 800 km"
     },
     "explanation": "Answer:\n\nYou are rounding to the nearest hundred, so look at the digit in the tens column. It’s a 5, so round up to 12 800 km.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Mr Chen is knitting a jumper. It takes him two and a half minutes to knit each row.\nHe starts knitting at 4:15 pm.\n\nAt what time will he have knitted 50 rows?",
+      "options": [
+        "5:55 pm",
+        "6:20 pm",
+        "6:00 pm",
+        "6:15 pm",
+        "5:05 pm"
+      ]
+    },
+    "answer": {
+      "value": "6:20 pm"
+    },
+    "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "The cost of the activities available at a summer camp are shown below.\n\nMalala spends exactly £68. She doesn’t do any activity more than once.\n\nWhich of these combinations of activities must she have done?",
+      "options": [
+        "Kayaking, sailing, high ropes",
+        "Kayaking, windsurfing and high ropes",
+        "Windsurfing, sailing and high ropes",
+        "Kayaking, paintball and high ropes",
+        "Paintball, windsurfing and sailing"
+      ],
+      "image_url": "/images/granular_maths/q19_question_0.png"
+    },
+    "answer": {
+      "value": "Windsurfing, sailing and high ropes"
+    },
+    "explanation": "Answer:\n\nPaintball costs £55 by itself, so it’s unlikely to be options d) or e). Try options c), a) and b). Option c) is the only one that adds up to £68. You can use the column method to add the costs:",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Milly collected some data on dogs at her local rescue centre. The table below is missing some of her results.\n\nHow many female puppies are there?",
+      "options": [
+        "9",
+        "6",
+        "19",
+        "7",
+        "12"
+      ],
+      "image_url": "/images/granular_maths/q21_question_0.png"
+    },
+    "answer": {
+      "value": "7"
+    },
+    "explanation": "Answer:\n\nThere are 34 − 15 = 19 female dogs in total, so there are 19 − 12 = 7 female puppies.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Rui attended a holiday club for \n2 1/2 hours. The bar chart below shows the percentage of time he spent on each type of activity.\n\nHow long did Rui spend doing drama?",
+      "options": [
+        "40 minutes",
+        "15 minutes",
+        "45 minutes",
+        "75 minutes",
+        "30 minutes"
+      ],
+      "image_url": "/images/granular_maths/q23_question_0.png"
+    },
+    "answer": {
+      "value": "45 minutes"
+    },
+    "explanation": "Answer:\n\nReading from the graph, Rui spent 75% − 45% = 30% of the time doing drama. \n2\n2\n1\n hours is 60 + 60 + 30 = 150 minutes. 10% of 150 is 150 ÷ 10 = 15 minutes, so 30% of 150 minutes is 3 × 15 = 45 minutes.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Saffron draws four identical squares on the axes below. The coordinates of one corner are shown.\n\nWhat are the coordinates of the point marked A?",
+      "options": [
+        "(6, 6)",
+        "(3, 3)",
+        "(6, 3)",
+        "(−3, −3)",
+        "(3, 9)"
+      ],
+      "image_url": "/images/granular_maths/q25_question_0.png"
+    },
+    "answer": {
+      "value": "(3, 3)"
+    },
+    "explanation": "Answer:\n\nThe y-axis has an x-coordinate of 0 and the corner of the square furthest to the left has an x‑coordinate of −6, so the distance between opposite corners of each square is 6 units. So the distance between the centre of a square and one corner of a square is 6 ÷ 2 = 3 units. The point marked A is 3 units right and 3 units up from point (0, 0). So the coordinates of point A are (3, 3).",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A cuboid has a length of 14 m, a width of 2 m and a volume of 280 m3.\n\nWhat is the cuboid’s height?",
+      "options": [
+        "20 m",
+        "10 m",
+        "14 m",
+        "15 m",
+        "20 m"
+      ]
+    },
+    "answer": {
+      "value": "10 m"
+    },
+    "explanation": "Answer:\n\nVolume = length × width × height, so 280 = 14 × 2 × height = 28 × height. So the height of the cuboid is 280 ÷ 28 = 10 m.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Five different coloured horses take part in a race. The time it takes each of them to finish the race is shown in the table.\n\nWhich colour horse wins the race?",
+      "options": [
+        "Bay",
+        "Chestnut",
+        "Dun",
+        "Grey",
+        "Black"
+      ],
+      "image_url": "/images/granular_maths/q28_question_0.png"
+    },
+    "answer": {
+      "value": "Grey"
+    },
+    "explanation": "Answer:\n\nThe horse with the shortest time wins the race. The chestnut, bay and dun horses all took at least 61 seconds, so they couldn’t have won the race. The grey horse’s time has 8 tenths (60.89), and the black horse’s time has 9 tenths (60.981), so the grey horse wins the race.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A chip shop records how many people had salt or vinegar on their chips.\n\nThe results are shown in this bar chart.\n\nWhy is the bar chart misleading?",
+      "options": [
+        "The bars don’t begin at 0.",
+        "It doesn’t include other options, such as ketchup.",
+        "The bars should be vertical instead of horizontal.",
+        "The numbers should be given as percentages.",
+        "The numbers don’t add up to 100."
+      ],
+      "image_url": "/images/granular_maths/q29_question_0.png"
+    },
+    "answer": {
+      "value": "The bars don’t begin at 0."
+    },
+    "explanation": "Answer:\n\nThe bars look longer than they should, which makes the differences between the bars look smaller than they actually are. For example, the bar for ‘Neither’ represents 8 people, but looks half as long as the bar for ‘Both’, which represents 26 people.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Charlotte is buying 12 apples at 6p each. She pays with a £5 note.\n\nHow much change does she get?",
+      "options": [
+        "28p",
+        "£2.78",
+        "£3.72",
+        "72p",
+        "£4.28"
+      ]
+    },
+    "answer": {
+      "value": "£4.28"
+    },
+    "explanation": "Answer:\n\n£5 = 500p. 12 apples cost 12 × 6p = 72p. 500p − 72p = 428p. 428p = £4.28 change.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What is the remainder when 2576 is divided by 9?",
+      "options": [
+        "5",
+        "1",
+        "2",
+        "6",
+        "4"
+      ]
+    },
+    "answer": {
+      "value": "2"
+    },
+    "explanation": "Answer:\n\nYou can use short division to work out 2576 ÷ 9:\n\nSo the remainder is 2.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Johan takes part in a high jump competition. His best jump is 2.04 m.\n\nHow high is this in mm?",
+      "options": [
+        "204 mm",
+        "240 000 mm",
+        "20.4 mm",
+        "20 400 mm",
+        "2040 mm"
+      ]
+    },
+    "answer": {
+      "value": "2040 mm"
+    },
+    "explanation": "Answer:\n\n1 m = 100 cm, so 2.04 m = 2.04 × 100 = 204 cm. 1 cm = 10 mm, so 204 cm = 204 × 10 = 2040 mm.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Four children collect animal stickers. Mazana has 120 stickers, Louis has 140 stickers, Nadia has 90 stickers and Connor has 50 stickers.\n\nWhat is the mean number of stickers owned by the four children?",
+      "options": [
+        "40",
+        "400",
+        "100",
+        "150",
+        "50"
+      ]
+    },
+    "answer": {
+      "value": "100"
+    },
+    "explanation": "Answer:\n\nThe total number of stickers = 120 + 140 + 90 + 50 = 400. Divide this by the number of children to get the mean: 400 ÷ 4 = 100.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Jenna has made this shape out of blocks.\n\nWhich of the shapes below is identical to Jenna’s shape?",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_maths/q46_question_0.png",
+      "option_images": [
+        "/images/granular_maths/q46_option_0.png",
+        "/images/granular_maths/q46_option_1.png",
+        "/images/granular_maths/q46_option_2.png",
+        "/images/granular_maths/q46_option_3.png",
+        "/images/granular_maths/q46_option_4.png"
+      ],
+      "images": [
+        "/images/granular_maths/q46_option_0.png",
+        "/images/granular_maths/q46_option_1.png",
+        "/images/granular_maths/q46_option_2.png",
+        "/images/granular_maths/q46_option_3.png",
+        "/images/granular_maths/q46_option_4.png"
+      ]
+    },
+    "answer": {
+      "value": "e)"
+    },
+    "explanation": "Answer:\n\nIf Jenna’s shape was rotated 90° anticlockwise, and then rotated 180° left‑to‑right, it would look like option e).",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Shyam owns 6 brown rabbits and 2 black rabbits.\n\nWhat is the ratio of brown rabbits to black rabbits in its simplest form?",
+      "options": [
+        "2 : 1",
+        "1 : 2",
+        "3 : 1",
+        "6 : 1",
+        "1 : 3"
+      ]
+    },
+    "answer": {
+      "value": "3 : 1"
+    },
+    "explanation": "Answer:\n\nThe ratio of brown rabbits : black rabbits is 6 : 2. Divide both parts of the ratio by 2 to simplify to 3 : 1.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What is the size of angle b in the diagram below?",
+      "options": [
+        "139°",
+        "61°",
+        "161°",
+        "29°",
+        "151°"
+      ],
+      "image_url": "/images/granular_maths/q51_question_0.png"
+    },
+    "answer": {
+      "value": "151°"
+    },
+    "explanation": "Answer:\n\nAngles in a triangle add up to 180°, so the missing angle in the triangle is 180° − 90° − 61° = 29°. Angles on a straight line add up to 180°, so angle b = 180° − 29° = 151°.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "41 − 3h = 17\n\nWhat is h?",
+      "options": [
+        "6",
+        "24",
+        "8",
+        "19",
+        "12"
+      ]
+    },
+    "answer": {
+      "value": "8"
+    },
+    "explanation": "Answer:\n\n41 − 3h = 17, so 3h = 41 − 17 = 24. 3h = 24, so h = 24 ÷ 3 = 8.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Marko is at a toy shop. He wants to buy two dinosaurs, three chickens and a tiger. The prices of the toys are shown below.\n\nWhich of the calculations below could Marko use to find out how much the toys will cost?",
+      "options": [
+        "2 × £5.00 + 3 × £4.00 + £3.50 − 5p",
+        "2 × £5.00 + 3 × £4.00 + £3.50 + 6p",
+        "2 × £5.00 + 3 × £4.00 + £3.50 − 6p",
+        "2 × £5.00 + 3 × £4.00 + £3.50 + 5p",
+        "2 × £5.00 + 3 × £4.00 + £3.50 − 3p"
+      ],
+      "image_url": "/images/granular_maths/q55_question_0.png"
+    },
+    "answer": {
+      "value": "2 × £5.00 + 3 × £4.00 + £3.50 − 6p"
+    },
+    "explanation": "Answer:\n\nThe calculations show the prices rounded to the nearest 10p, so each item has 1p added on to its price. There are 2 + 3 + 1 = 6 items, so 6p has been added to the total cost. Option c) is the correct answer as Marko needs to take 6p off the total to get the right amount.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which of the shapes below is not a regular polygon?",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "option_images": [
+        "/images/granular_maths/q57_option_0.png",
+        "/images/granular_maths/q57_option_1.png",
+        "/images/granular_maths/q57_option_2.png",
+        "/images/granular_maths/q57_option_3.png",
+        "/images/granular_maths/q57_option_4.png"
+      ],
+      "images": [
+        "/images/granular_maths/q57_option_0.png",
+        "/images/granular_maths/q57_option_1.png",
+        "/images/granular_maths/q57_option_2.png",
+        "/images/granular_maths/q57_option_3.png",
+        "/images/granular_maths/q57_option_4.png"
+      ]
+    },
+    "answer": {
+      "value": "c)"
+    },
+    "explanation": "Answer:\n\nRegular polygons have equal‑length sides and equal angles, so c) isn’t regular.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "english",
+    "question_type": "grammar",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "In the sentence below, which of the words is a determiner?\n\nFew people I know dislike how chocolate tastes; most think it is irresistible.",
+      "options": [
+        "it",
+        "how",
+        "is",
+        "Few",
+        "most"
+      ]
+    },
+    "answer": {
+      "value": "Few"
+    },
+    "explanation": "Answer:\n\n‘Few’ is a determiner that shows how many people dislike the taste of chocolate.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "english",
+    "question_type": "grammar",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which is the best synonym for the word in bold in the sentence below?\n\nSasha remarked that Veena has an endearing personality.",
+      "options": [
+        "lovable",
+        "belligerent",
+        "confident",
+        "amusing",
+        "annoying"
+      ]
+    },
+    "answer": {
+      "value": "lovable"
+    },
+    "explanation": "Answer:\n\n‘endearing’ and ‘lovable’ both mean ‘charming’.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "english",
+    "question_type": "grammar",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "The sentence below contains either one mistake involving punctuation or capital letters or no mistake. Choose the group of words which contains the mistake. If there’s no mistake, choose ‘No mistake’.\n\nWilliam’s brother hates going to the local woodland — he’d rather stay inside and read a book.",
+      "options": [
+        "William’s brother hates going",
+        "to the local woodland —",
+        "he’d rather stay inside",
+        "and read a book.",
+        "No mistake"
+      ]
+    },
+    "answer": {
+      "value": "No mistake"
+    },
+    "explanation": "Answer:\n\nThere are no mistakes in this sentence.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "english",
+    "question_type": "grammar",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "The sentence below contains either one spelling mistake or no spelling mistakes. Choose the group of words which contains the mistake. If there’s no mistake, choose ‘no mistake’.\n\n“As the air to the throne, you will reign over all of this magnificent land,” proclaimed the king.",
+      "options": [
+        "“As the air to the throne,",
+        "you will reign over",
+        "all of this magnificent land,”",
+        "proclaimed the king.",
+        "No mistake"
+      ]
+    },
+    "answer": {
+      "value": "“As the air to the throne,"
+    },
+    "explanation": "Answer:\n\n‘air’ should be ‘heir’. An ‘heir’ is somebody who will take over another person’s responsibilities when they die and ‘air’ is the gases we breathe.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "english",
+    "question_type": "grammar",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "The sentence below contains a metaphor. Work out which group of words contains this technique and choose the correct group.\n\nThe song was a key that unlocked a long-forgotten memory in Anna’s mind about her life in Spain.",
+      "options": [
+        "The song was a key",
+        "that unlocked a",
+        "long-forgotten memory",
+        "in Anna’s mind about",
+        "her life in Spain."
+      ]
+    },
+    "answer": {
+      "value": "The song was a key"
+    },
+    "explanation": "Answer:\n\n‘The song was a key’ is correct. A metaphor describes something as being something else. In this metaphor, the song is compared to a key to emphasise the effect that it has on Anna, but it is not literally a key.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "english",
+    "question_type": "grammar",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which of the sentences below contains personification?",
+      "options": [
+        "From the top-floor balcony, the people on the ground were ants scurrying between tables.",
+        "Keira sank into her luxurious bed, which had pillows like soft marshmallows.",
+        "At twilight, the shadows will creep across the lawn towards the house.",
+        "I can see a dress as black as night in the window of the boutique."
+      ]
+    },
+    "answer": {
+      "value": "At twilight, the shadows will creep across the lawn towards the house."
+    },
+    "explanation": "Answer:\n\nPersonification describes something that’s not human as if it is a person. The shadows have been given human qualities (the ability to creep), so this sentence contains personification.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "english",
+    "question_type": "grammar",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which word could best replace the word in bold in the sentence below?\n\nThe tables for the wedding banquet were adorned with daffodils.",
+      "options": [
+        "decorated",
+        "littered",
+        "crowded",
+        "punctuated",
+        "covered"
+      ]
+    },
+    "answer": {
+      "value": "decorated"
+    },
+    "explanation": "Answer:\n\n‘adorned’ and ‘decorated’ both mean ‘to be made more attractive’.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "english",
+    "question_type": "grammar",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which of the sentences below contains a metaphor?",
+      "options": [
+        "I lifted up a bottle of perfume and sprayed a fine mist; the strong fragrance smelled like vinegar.",
+        "The calm waves of the ocean lap around her feet like playful children.",
+        "Through the fog, the beaming lighthouse welcomed boats back to the harbour like old friends.",
+        "Serena took games of hide-and-seek very seriously: she was a panther stalking in the jungle."
+      ]
+    },
+    "answer": {
+      "value": "Serena took games of hide-and-seek very seriously: she was a panther stalking in the jungle."
+    },
+    "explanation": "Answer:\n\nA metaphor describes something as being something else. Serena is not literally a panther stalking in the jungle — she is described like this to show how she is searching for her friends, so this sentence contains a metaphor.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "english",
+    "question_type": "grammar",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "In the sentence below, which of the words is a co-ordinating conjunction?\n\nEzra has bought a birthday present for you, and he hopes that you like it.",
+      "options": [
+        "that",
+        "for",
+        "and",
+        "it",
+        "has"
+      ]
+    },
+    "answer": {
+      "value": "and"
+    },
+    "explanation": "Answer:\n\n‘and’ is a co-ordinating conjunction. It links the two main clauses together.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "english",
+    "question_type": "grammar",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What type of word is ‘freezing’ in the following sentence?\n\nThe group of swimmers plunged into the freezing lake, then quickly regretted their decision.",
+      "options": [
+        "abstract noun",
+        "preposition",
+        "adverb",
+        "adjective",
+        "verb"
+      ]
+    },
+    "answer": {
+      "value": "adjective"
+    },
+    "explanation": "Answer:\n\n‘freezing’ is an adjective in this sentence. It describes the noun ‘lake’.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "english",
+    "question_type": "grammar",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which of the following sentences contains alliteration?",
+      "options": [
+        "Loud drones from the organ resonate around the stone walls.",
+        "Carols are the perfect way to bring festive cheer to a December evening.",
+        "These hymns contain many challenging notes, even for accomplished singers.",
+        "The choral scholars are known for their charismatic performances.",
+        "wonderful chorus of voices fills the old church."
+      ]
+    },
+    "answer": {
+      "value": "The choral scholars are known for their charismatic performances."
+    },
+    "explanation": "Answer:\n\n‘The choral scholars are known for their charismatic performances.’ is correct. The hard ‘c’ sound is repeated.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "english",
+    "question_type": "grammar",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the word which completes the sentence correctly.\n\nRiley and Nasreen claimed that the sweets were _______, but I knew that they belonged to Tilly.",
+      "options": [
+        "theirs",
+        "they’re",
+        "their’s",
+        "their",
+        "there’s"
+      ]
+    },
+    "answer": {
+      "value": "theirs"
+    },
+    "explanation": "Answer:\n\n‘theirs’ is the correct pronoun. The pronoun shows that the sweets belong to Riley and Nasreen.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "english",
+    "question_type": "grammar",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which is the onomatopoeic word in this sentence?\n\nIn the corner of the room, a small log fire crackled gently.",
+      "options": [
+        "fire",
+        "corner",
+        "room",
+        "crackled",
+        "gently"
+      ]
+    },
+    "answer": {
+      "value": "crackled"
+    },
+    "explanation": "Answer:\n\n‘crackled’ is correct. ‘crackled’ sounds like the noise the fire makes.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "english",
+    "question_type": "grammar",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Identify the imagery technique in the sentence below.\n\nAfter hiking for several hours, the squashed sandwiches will taste like heaven.",
+      "options": [
+        "simile",
+        "metaphor",
+        "personification"
+      ]
+    },
+    "answer": {
+      "value": "simile"
+    },
+    "explanation": "Answer:\n\nThis sentence contains a simile — ‘like heaven’. The sandwiches are compared to heaven using the word ‘like’ to emphasise how good they will taste.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "english",
+    "question_type": "grammar",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the group of words which completes the sentence correctly.\n\nThe abandoned lighthouse must _______ built over 100 years ago.",
+      "options": [
+        "has been",
+        "had been",
+        "have been",
+        "of been",
+        "have being"
+      ]
+    },
+    "answer": {
+      "value": "have been"
+    },
+    "explanation": "Answer:\n\n‘have been’ is correct because it completes the phrase ‘must have been’ and is consistent with the tense of the sentence.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "english",
+    "question_type": "grammar",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which is the best antonym for the word in bold in the sentence below?\n\nThe freshly baked chocolate cake looked enticing.",
+      "options": [
+        "disappointing",
+        "excessive",
+        "unusual",
+        "repulsive",
+        "pleasing"
+      ]
+    },
+    "answer": {
+      "value": "repulsive"
+    },
+    "explanation": "Answer:\n\n‘enticing’ means ‘appealing’, whereas ‘repulsive’ means ‘unappealing’.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "english",
+    "question_type": "grammar",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which is the best antonym for the word in bold in the sentence below?\n\nPatrick spoke soberly about his day to his parents.",
+      "options": [
+        "chaotically",
+        "disrespectfully",
+        "eloquently",
+        "vividly",
+        "excitedly"
+      ]
+    },
+    "answer": {
+      "value": "excitedly"
+    },
+    "explanation": "Answer:\n\n‘soberly’ means ‘gravely’, whereas ‘excitedly’ means ‘enthusiastically’.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "english",
+    "question_type": "grammar",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the word which completes the sentence correctly.\n\nChristina poured the chemical into the test tube _______ it reached the brim.",
+      "options": [
+        "during",
+        "after",
+        "towards",
+        "under",
+        "until"
+      ]
+    },
+    "answer": {
+      "value": "until"
+    },
+    "explanation": "Answer:\n\n‘until’ is correct because it is the conjunction that makes the most sense in this sentence.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -467,370 +1328,26 @@
     "source": "CGP Sample"
   },
   {
-    "subject": "english",
-    "question_type": "grammar",
+    "subject": "verbal_reasoning",
+    "question_type": "vr_multiple_meaning",
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "In the sentence below, which of the words is a determiner?\n\nFew people I know dislike how chocolate tastes; most think it is irresistible.",
+      "text": "Select two words, one from each column, that have the most opposite meaning.",
       "options": [
-        "it",
-        "how",
-        "is",
-        "Few",
-        "most"
-      ]
-    },
-    "answer": {
-      "value": "Few"
-    },
-    "explanation": "Answer:\n\n‘Few’ is a determiner that shows how many people dislike the taste of chocolate.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "english",
-    "question_type": "grammar",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Which is the best synonym for the word in bold in the sentence below?\n\nSasha remarked that Veena has an endearing personality.",
-      "options": [
-        "lovable",
-        "belligerent",
-        "confident",
-        "amusing",
-        "annoying"
-      ]
-    },
-    "answer": {
-      "value": "lovable"
-    },
-    "explanation": "Answer:\n\n‘endearing’ and ‘lovable’ both mean ‘charming’.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "english",
-    "question_type": "grammar",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "The sentence below contains either one mistake involving punctuation or capital letters or no mistake. Choose the group of words which contains the mistake. If there’s no mistake, choose ‘No mistake’.\n\nWilliam’s brother hates going to the local woodland — he’d rather stay inside and read a book.",
-      "options": [
-        "William’s brother hates going",
-        "to the local woodland —",
-        "he’d rather stay inside",
-        "and read a book.",
-        "No mistake"
-      ]
-    },
-    "answer": {
-      "value": "No mistake"
-    },
-    "explanation": "Answer:\n\nThere are no mistakes in this sentence.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "english",
-    "question_type": "grammar",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "The sentence below contains either one spelling mistake or no spelling mistakes. Choose the group of words which contains the mistake. If there’s no mistake, choose ‘no mistake’.\n\n“As the air to the throne, you will reign over all of this magnificent land,” proclaimed the king.",
-      "options": [
-        "“As the air to the throne,",
-        "you will reign over",
-        "all of this magnificent land,”",
-        "proclaimed the king.",
-        "No mistake"
-      ]
-    },
-    "answer": {
-      "value": "“As the air to the throne,"
-    },
-    "explanation": "Answer:\n\n‘air’ should be ‘heir’. An ‘heir’ is somebody who will take over another person’s responsibilities when they die and ‘air’ is the gases we breathe.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "english",
-    "question_type": "grammar",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "The sentence below contains a metaphor. Work out which group of words contains this technique and choose the correct group.\n\nThe song was a key that unlocked a long-forgotten memory in Anna’s mind about her life in Spain.",
-      "options": [
-        "The song was a key",
-        "that unlocked a",
-        "long-forgotten memory",
-        "in Anna’s mind about",
-        "her life in Spain."
-      ]
-    },
-    "answer": {
-      "value": "The song was a key"
-    },
-    "explanation": "Answer:\n\n‘The song was a key’ is correct. A metaphor describes something as being something else. In this metaphor, the song is compared to a key to emphasise the effect that it has on Anna, but it is not literally a key.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "english",
-    "question_type": "grammar",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Which of the sentences below contains personification?",
-      "options": [
-        "From the top-floor balcony, the people on the ground were ants scurrying between tables.",
-        "Keira sank into her luxurious bed, which had pillows like soft marshmallows.",
-        "At twilight, the shadows will creep across the lawn towards the house.",
-        "I can see a dress as black as night in the window of the boutique."
-      ]
-    },
-    "answer": {
-      "value": "At twilight, the shadows will creep across the lawn towards the house."
-    },
-    "explanation": "Answer:\n\nPersonification describes something that’s not human as if it is a person. The shadows have been given human qualities (the ability to creep), so this sentence contains personification.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "english",
-    "question_type": "grammar",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Which word could best replace the word in bold in the sentence below?\n\nThe tables for the wedding banquet were adorned with daffodils.",
-      "options": [
-        "decorated",
-        "littered",
-        "crowded",
-        "punctuated",
-        "covered"
-      ]
-    },
-    "answer": {
-      "value": "decorated"
-    },
-    "explanation": "Answer:\n\n‘adorned’ and ‘decorated’ both mean ‘to be made more attractive’.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "english",
-    "question_type": "grammar",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Which of the sentences below contains a metaphor?",
-      "options": [
-        "I lifted up a bottle of perfume and sprayed a fine mist; the strong fragrance smelled like vinegar.",
-        "The calm waves of the ocean lap around her feet like playful children.",
-        "Through the fog, the beaming lighthouse welcomed boats back to the harbour like old friends.",
-        "Serena took games of hide-and-seek very seriously: she was a panther stalking in the jungle."
-      ]
-    },
-    "answer": {
-      "value": "Serena took games of hide-and-seek very seriously: she was a panther stalking in the jungle."
-    },
-    "explanation": "Answer:\n\nA metaphor describes something as being something else. Serena is not literally a panther stalking in the jungle — she is described like this to show how she is searching for her friends, so this sentence contains a metaphor.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "english",
-    "question_type": "grammar",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "In the sentence below, which of the words is a co-ordinating conjunction?\n\nEzra has bought a birthday present for you, and he hopes that you like it.",
-      "options": [
-        "that",
-        "for",
-        "and",
-        "it",
-        "has"
-      ]
-    },
-    "answer": {
-      "value": "and"
-    },
-    "explanation": "Answer:\n\n‘and’ is a co-ordinating conjunction. It links the two main clauses together.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "english",
-    "question_type": "grammar",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "What type of word is ‘freezing’ in the following sentence?\n\nThe group of swimmers plunged into the freezing lake, then quickly regretted their decision.",
-      "options": [
-        "abstract noun",
-        "preposition",
-        "adverb",
-        "adjective",
-        "verb"
-      ]
-    },
-    "answer": {
-      "value": "adjective"
-    },
-    "explanation": "Answer:\n\n‘freezing’ is an adjective in this sentence. It describes the noun ‘lake’.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Mr Chen is knitting a jumper. It takes him two and a half minutes to knit each row.\nHe starts knitting at 4:15 pm.\n\nAt what time will he have knitted 50 rows?",
-      "options": [
-        "5:55 pm",
-        "6:20 pm",
-        "6:00 pm",
-        "6:15 pm",
-        "5:05 pm"
-      ]
-    },
-    "answer": {
-      "value": "6:20 pm"
-    },
-    "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "41 − 3h = 17\n\nWhat is h?",
-      "options": [
-        "19",
-        "8",
-        "12",
-        "6",
-        "24"
-      ]
-    },
-    "answer": {
-      "value": "8"
-    },
-    "explanation": "3h = 41 - 17 = 24, so h = 24 ÷ 3 = 8.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "A chip shop records how many people had salt or vinegar on their chips.\n\nThe results are shown in this bar chart.\n\nWhy is the bar chart misleading?",
-      "options": [
-        "The bars don’t begin at 0.",
-        "The bars should be vertical instead of horizontal.",
-        "The numbers should be given as percentages.",
-        "The numbers don’t add up to 100.",
-        "It doesn’t include other options, such as ketchup."
+        "discredit",
+        "satirise",
+        "patronise",
+        "compliment",
+        "prove",
+        "concur"
       ],
-      "image_url": "/images/granular_maths/q16_question_0.png"
+      "multi_select": true
     },
     "answer": {
-      "value": "It doesn’t include other options, such as ketchup."
+      "value": "discredit, prove"
     },
-    "explanation": "The chart only shows data about salt and vinegar, but people might have other toppings on their chips. A chart that doesn’t show all the options can be misleading because it doesn’t give the full picture.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Marko is at a toy shop. He wants to buy two dinosaurs, three chickens and a tiger. The prices of the toys are shown below.\n\nWhich of the calculations below could Marko use to find out how much the toys will cost?",
-      "options": [
-        "2 × £5.00 + 3 × £4.00 + £3.50 + 6p",
-        "2 × £5.00 + 3 × £4.00 + £3.50 − 6p",
-        "2 × £5.00 + 3 × £4.00 + £3.50 − 5p",
-        "2 × £5.00 + 3 × £4.00 + £3.50 + 5p",
-        "2 × £5.00 + 3 × £4.00 + £3.50 − 3p"
-      ],
-      "image_url": "/images/granular_maths/q17_question_0.png"
-    },
-    "answer": {
-      "value": "2 × £5.00 + 3 × £4.00 + £3.50 − 6p"
-    },
-    "explanation": "The prices are: Chickens £3.99, Dinosaurs £4.99, Tigers £3.49. Each price is 1p less than a round number. So the cost is 2 × (£5.00 − 1p) + 3 × (£4.00 − 1p) + (£3.50 − 1p) = 2 × £5.00 + 3 × £4.00 + £3.50 − 6p.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Milly collected some data on dogs at her local rescue centre. The table below is missing some of her results.\n\nHow many female puppies are there?",
-      "options": [
-        "9",
-        "7",
-        "19",
-        "12",
-        "6"
-      ],
-      "image_url": "/images/granular_maths/q18_question_0.png"
-    },
-    "answer": {
-      "value": "7"
-    },
-    "explanation": "Total dogs = 34, Total males = 15, so Total females = 34 − 15 = 19. Female adults = 12, so Female puppies = 19 − 12 = 7.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "What is the remainder when 2576 is divided by 9?",
-      "options": [
-        "1",
-        "4",
-        "5",
-        "6",
-        "2"
-      ]
-    },
-    "answer": {
-      "value": "2"
-    },
-    "explanation": "2576 ÷ 9 = 286 remainder 2. Check: 286 × 9 = 2574, and 2576 − 2574 = 2.",
+    "explanation": "Answer:\n\n‘discredit’ means ‘to cause an idea to appear false’, whereas ‘prove’ means ‘to show something is true’.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -841,19 +1358,88 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "The number codes for three of these four words are listed in a random order. Work out the code to answer the question.\n\nFLIP   LIPS   LIFT   FITS\n5236   5214   3521\n\nFind the code for the word LIFT.",
+      "text": "Each letter stands for a number. Work out the answer to each sum as a letter. Choose the correct letter as your answer.\n\n\n\nA = 2   B = 3   C = 7   D = 19   E = 21\n\nC × B − A = ?",
       "options": [
-        "5236",
-        "5432",
-        "5214",
-        "3521",
-        "3152"
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
       ]
     },
     "answer": {
-      "value": "5236"
+      "value": "D"
     },
-    "explanation": "Answer:\n\nWork out the letter-number mapping: FLIP=3521 gives F=3, L=5, I=2, P=1. LIPS=5214 gives L=5, I=2, P=1, S=4 (consistent). So LIFT = L,I,F,T = 5,2,3,T. The remaining code 5236 fits with T=6. LIFT = 5236.",
+    "explanation": "Answer:\n\n7 × 3 − 2 = 19, D = 19",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_multiple_meaning",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the three-letter word that completes the word in capital letters, and so finishes the sentence in a sensible way.\n\n\n\nThe lord was determined to DED the castle.",
+      "options": [
+        "POT",
+        "HOW",
+        "FEN",
+        "MAN",
+        "LAW"
+      ]
+    },
+    "answer": {
+      "value": "FEN"
+    },
+    "explanation": "Answer:\n\n‘FEN’ is correct. The complete word is DEFEND.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_multiple_meaning",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the pair of letters that continues the sequence in the best way. Use the alphabet to help you.\n\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n\n\n\nDH   HI   LJ   PK   TL   (____)",
+      "options": [
+        "ZM",
+        "WN",
+        "WM",
+        "XN",
+        "XM"
+      ]
+    },
+    "answer": {
+      "value": "XM"
+    },
+    "explanation": "Answer:\n\n‘XM’ is correct. The first letter in the pair moves forward 4 letters each time. The second letter moves forward 1 letter each time.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_multiple_meaning",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the word that has the most similar meaning to the words in both sets of brackets.\n\n\n\n(hint   pinch)     (hurry   rush)",
+      "options": [
+        "race",
+        "scurry",
+        "dash",
+        "touch",
+        "drop"
+      ]
+    },
+    "answer": {
+      "value": "dash"
+    },
+    "explanation": "Answer:\n\n‘dash’ is correct. ‘dash’ can mean ‘a small amount’ or ‘to move quickly’.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -876,7 +1462,7 @@
     "answer": {
       "value": "4"
     },
-    "explanation": "Answer:\n\n44 − 27 = 17. So 68 ÷ (?) = 17, which means (?) = 68 ÷ 17 = 4.",
+    "explanation": "Answer:\n\n44 − 27 = 17, 17 = 68 ÷ 4",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -887,19 +1473,21 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Choose the pair of letters that continues the sequence in the best way. Use the alphabet to help you.\n\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n\n\n\nDH   HI   LJ   PK   TL   (____)",
+      "text": "Choose two words, one from each column, that have the most similar meaning.",
       "options": [
-        "WN",
-        "ZM",
-        "XN",
-        "WM",
-        "XM"
-      ]
+        "immune",
+        "irresistible",
+        "vaccinated",
+        "infectious",
+        "repellent",
+        "exempt"
+      ],
+      "multi_select": true
     },
     "answer": {
-      "value": "XM"
+      "value": "immune, exempt"
     },
-    "explanation": "Answer:\n\nThe first letter increases by 4 each time: D, H, L, P, T, X. The second letter increases by 1 each time: H, I, J, K, L, M. So the next pair is XM.",
+    "explanation": "Answer:\n\n‘immune’ and ‘exempt’ have the most similar meaning. Both of these mean ‘to be free from an obligation’.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -910,88 +1498,19 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Choose the word that completes the third pair of words so that it follows the same pattern as the first two pairs.\n\n\n\nstrum  must     asset  teas     ideal  (?)",
+      "text": "In the sentence below, a four-letter word is hidden at the end of one word and at the start of the next. Choose the option that contains the hidden word.\n\n\n\nA huge grin gradually spread across his face.",
       "options": [
-        "laid",
-        "deal",
-        "dial",
-        "lead",
-        "aide"
+        "huge",
+        "huge grin",
+        "grin gradually",
+        "spread across",
+        "his face"
       ]
     },
     "answer": {
-      "value": "laid"
+      "value": "grin gradually"
     },
-    "explanation": "Answer:\n\nThe pattern takes letters at positions 5, 4, 1, 2 of the first word. strum → m(5), u(4), s(1), t(2) = must. asset → t(5), e(4), a(1), s(2) = teas. ideal → l(5), a(4), i(1), d(2) = laid.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_multiple_meaning",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Three of the words below are linked. Find the two words that are not related to these three and select them both.",
-      "options": [
-        "society",
-        "committee",
-        "panel",
-        "community",
-        "council"
-      ]
-    },
-    "answer": {
-      "value": "society, community"
-    },
-    "explanation": "Answer:\n\n‘committee’, ‘panel’ and ‘council’ are all organised groups of people with a specific decision-making purpose. ‘society’ and ‘community’ are broader social groups, so they are the two unrelated words.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_multiple_meaning",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the number that completes the final set of numbers in the same way as the first two sets.\n\n\n\n5 (16) 4    3 (14) 7    8 (?) 6",
-      "options": [
-        "26",
-        "34",
-        "38",
-        "42",
-        "44"
-      ]
-    },
-    "answer": {
-      "value": "42"
-    },
-    "explanation": "Answer:\n\nThe pattern is: middle = right number × (left number − 1). 5 (16) 4: 4 × (5−1) = 4 × 4 = 16. 3 (14) 7: 7 × (3−1) = 7 × 2 = 14. 8 (?) 6: 6 × (8−1) = 6 × 7 = 42.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_multiple_meaning",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "The words in the second set follow the same pattern as the words in the first set. Choose the missing word to complete the second set.\n\n\n\nyell (dye) head     idea (?) iris",
-      "options": [
-        "aid",
-        "sea",
-        "sir",
-        "red",
-        "sad"
-      ]
-    },
-    "answer": {
-      "value": "sir"
-    },
-    "explanation": "Answer:\n\nThe middle word takes: last letter of right word, 1st letter of left word, 2nd letter of right word. yell (dye) head: d(last of head), y(1st of yell), e(2nd of head) = dye. idea (?) iris: s(last of iris), i(1st of idea), r(2nd of iris) = sir.",
+    "explanation": "Answer:\n\nThe hidden word is ‘ring’. The word is hidden in the phrase ‘grin gradually’.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1004,682 +1523,63 @@
     "content": {
       "text": "The words in the second set follow the same pattern as the words in the first set. Choose the missing word to complete the second set.\n\n\n\ngait (girl) hurl     draw (?) down",
       "options": [
-        "darn",
+        "dawn",
         "worn",
-        "wand",
         "road",
-        "dawn"
+        "wand",
+        "darn"
       ]
     },
     "answer": {
       "value": "dawn"
     },
-    "explanation": "Answer:\n\nThe middle word takes: 1st and 3rd letters of the left word, 3rd and 4th letters of the right word. gait (girl) hurl: g(1st), i(3rd) from gait; r(3rd), l(4th) from hurl = girl. draw (?) down: d(1st), a(3rd) from draw; w(3rd), n(4th) from down = dawn.",
+    "explanation": "Answer:\n\n‘dawn’ is the correct word. Take letters 1 and 3 from the first word, followed by letters 3 and 4 from the second word.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
   },
   {
-    "subject": "english",
-    "question_type": "grammar",
+    "subject": "verbal_reasoning",
+    "question_type": "vr_multiple_meaning",
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Which of the following sentences contains alliteration?",
+      "text": "Choose the word that completes the third pair of words so that it follows the same pattern as the first two pairs.\n\n\n\nstrum  must     asset  teas     ideal  (?)",
       "options": [
-        "Loud drones from the organ resonate around the stone walls.",
-        "Carols are the perfect way to bring festive cheer to a December evening.",
-        "These hymns contain many challenging notes, even for accomplished singers.",
-        "The choral scholars are known for their charismatic performances.",
-        "wonderful chorus of voices fills the old church."
+        "aide",
+        "deal",
+        "lead",
+        "dial",
+        "laid"
       ]
     },
     "answer": {
-      "value": "The choral scholars are known for their charismatic performances."
+      "value": "laid"
     },
-    "explanation": "Answer:\n\n‘The choral scholars are known for their charismatic performances.’ is correct. The hard ‘c’ sound is repeated.",
+    "explanation": "Answer:\n\n‘laid’ is the correct word. Rearrange letters 1, 2, 4 and 5 in the order 5, 4, 1, 2.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
   },
   {
-    "subject": "english",
-    "question_type": "grammar",
+    "subject": "verbal_reasoning",
+    "question_type": "vr_multiple_meaning",
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "The sentence below contains either one mistake involving punctuation or capital letters or no mistake. Choose the group of words which contains the mistake. If there’s no mistake, choose ‘No mistake’.\n\n“Our town’s very proud that our womens’ football team has won the championship,” said the mayor.",
+      "text": "The number codes for three of these four words are listed in a random order. Work out the code to answer the question.\n\nFLIP   LIPS   LIFT   FITS\n5236   5214   3521\n\nFind the code for the word LIFT.",
       "options": [
-        "“Our town’s very proud",
-        "that our womens’ football",
-        "team has won the",
-        "championship,” said the mayor.",
-        "No mistake"
+        "3152",
+        "3521",
+        "5432",
+        "5236",
+        "5214"
       ]
     },
     "answer": {
-      "value": "that our womens’ football"
+      "value": "5236"
     },
-    "explanation": "Answer:\n\n‘womens’’ is wrong. ‘Women’ is already plural, so the possessive is ‘women’s’, not ‘womens’’.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "english",
-    "question_type": "grammar",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Identify the imagery technique in the sentence below.\n\nAfter hiking for several hours, the squashed sandwiches will taste like heaven.",
-      "options": [
-        "simile",
-        "metaphor",
-        "personification"
-      ]
-    },
-    "answer": {
-      "value": "simile"
-    },
-    "explanation": "Answer:\n\n‘taste like heaven’ is a simile. A simile compares two things using ‘like’ or ‘as’. Here, the taste of the sandwiches is compared to heaven using ‘like’.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "english",
-    "question_type": "grammar",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "The sentence below contains either one mistake involving punctuation or capital letters or no mistake. Choose the group of words which contains the mistake. If there’s no mistake, choose ‘No mistake’.\n\nGeoffrey and Margaret the quick-witted parrots, amused everyone by copying Mr Warbrick’s words.",
-      "options": [
-        "Geoffrey and Margaret the",
-        "quick-witted parrots, amused",
-        "everyone by copying",
-        "Mr Warbrick’s words.",
-        "No mistake"
-      ]
-    },
-    "answer": {
-      "value": "Geoffrey and Margaret the"
-    },
-    "explanation": "Answer:\n\n‘the quick-witted parrots’ is extra information about Geoffrey and Margaret, so it should be separated by commas. There should be a comma after ‘Margaret’: ‘Geoffrey and Margaret, the quick-witted parrots, amused everyone...’",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "english",
-    "question_type": "grammar",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "What type of word is ‘must’ in the following sentence?\n\nAll children must arrive promptly at the train station to ensure a smooth departure.",
-      "options": [
-        "adjective",
-        "abstract noun",
-        "determiner",
-        "adverb",
-        "modal verb"
-      ]
-    },
-    "answer": {
-      "value": "modal verb"
-    },
-    "explanation": "Answer:\n\n‘must’ is a modal verb. Modal verbs express necessity, possibility, or permission. Here, ‘must’ expresses that arriving promptly is required.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "english",
-    "question_type": "grammar",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "In the sentence below, which of the words is an adverb?\n\nToday is a lovely spring morning, so I will go for a gentle stroll around the park soon.",
-      "options": [
-        "will",
-        "soon",
-        "gentle",
-        "lovely",
-        "Today"
-      ]
-    },
-    "answer": {
-      "value": "soon"
-    },
-    "explanation": "Answer:\n\n‘soon’ is an adverb. It tells you when the action of going for a stroll will happen. ‘Today’ functions as a noun (subject) in this sentence, ‘gentle’ and ‘lovely’ are adjectives, and ‘will’ is a modal verb.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "english",
-    "question_type": "grammar",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "The sentence below contains either one mistake involving punctuation or capital letters or no mistake. Choose the group of words which contains the mistake. If there’s no mistake, choose ‘No mistake’.\n\n“Isla’s planned an active day: hiking in the mountains kayaking on a lake and swimming,” said Tim.",
-      "options": [
-        "“Isla’s planned an",
-        "active day: hiking in the",
-        "mountains kayaking on a lake",
-        "and swimming,” said Tim.",
-        "No mistake"
-      ]
-    },
-    "answer": {
-      "value": "mountains kayaking on a lake"
-    },
-    "explanation": "Answer:\n\nThe list of activities needs commas to separate items: ‘hiking in the mountains, kayaking on a lake, and swimming’. The missing commas are in ‘mountains kayaking on a lake’.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning_backup",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option which is a top‑down 2D view of the 3D figure below.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning_backup/q28_question_0.png"
-    },
-    "answer": {
-      "value": "b)"
-    },
-    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning_backup",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option which is most like the two figures below.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning_backup/q2_question_0.png",
-      "images": [
-        "/images/granular_non_verbal_reasoning_backup/q2_option_0.png",
-        "/images/granular_non_verbal_reasoning_backup/q2_option_1.png",
-        "/images/granular_non_verbal_reasoning_backup/q2_option_2.png",
-        "/images/granular_non_verbal_reasoning_backup/q2_option_3.png",
-        "/images/granular_non_verbal_reasoning_backup/q2_option_4.png"
-      ],
-      "option_images": [
-        "/images/granular_non_verbal_reasoning_backup/q2_option_0.png",
-        "/images/granular_non_verbal_reasoning_backup/q2_option_1.png",
-        "/images/granular_non_verbal_reasoning_backup/q2_option_2.png",
-        "/images/granular_non_verbal_reasoning_backup/q2_option_3.png",
-        "/images/granular_non_verbal_reasoning_backup/q2_option_4.png"
-      ]
-    },
-    "answer": {
-      "value": "d)"
-    },
-    "explanation": "Answer:\n\nThe correct answer is d). In all figures, there must be one black shape and two white shapes. An arrow must point towards the black shape. The white shapes must be identical apart from size.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning_backup",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Each of the figures on the left has code letters to describe it. Work out how the letters go with the figures, then choose the code for the new figure on the right.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning_backup/q3_question_0.png",
-      "images": [
-        "/images/granular_non_verbal_reasoning_backup/q3_option_0.png",
-        "/images/granular_non_verbal_reasoning_backup/q3_option_1.png",
-        "/images/granular_non_verbal_reasoning_backup/q3_option_2.png",
-        "/images/granular_non_verbal_reasoning_backup/q3_option_3.png",
-        "/images/granular_non_verbal_reasoning_backup/q3_option_4.png"
-      ],
-      "option_images": [
-        "/images/granular_non_verbal_reasoning_backup/q3_option_0.png",
-        "/images/granular_non_verbal_reasoning_backup/q3_option_1.png",
-        "/images/granular_non_verbal_reasoning_backup/q3_option_2.png",
-        "/images/granular_non_verbal_reasoning_backup/q3_option_3.png",
-        "/images/granular_non_verbal_reasoning_backup/q3_option_4.png"
-      ]
-    },
-    "answer": {
-      "value": "a)"
-    },
-    "explanation": "Answer:\n\nThe correct answer is a) (BGN). B = four‑pointed star, C = five‑pointed star, D = six‑pointed star. F = black star, G = white star, H = grey star. M = lines on the left, N = lines on the right.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning_backup",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option that contains the hidden shape shown below. It should be the same size and orientation.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning_backup/q4_question_0.png",
-      "images": [
-        "/images/granular_non_verbal_reasoning_backup/q4_option_0.png",
-        "/images/granular_non_verbal_reasoning_backup/q4_option_1.png",
-        "/images/granular_non_verbal_reasoning_backup/q4_option_2.png",
-        "/images/granular_non_verbal_reasoning_backup/q4_option_3.png",
-        "/images/granular_non_verbal_reasoning_backup/q4_option_4.png"
-      ],
-      "option_images": [
-        "/images/granular_non_verbal_reasoning_backup/q4_option_0.png",
-        "/images/granular_non_verbal_reasoning_backup/q4_option_1.png",
-        "/images/granular_non_verbal_reasoning_backup/q4_option_2.png",
-        "/images/granular_non_verbal_reasoning_backup/q4_option_3.png",
-        "/images/granular_non_verbal_reasoning_backup/q4_option_4.png"
-      ]
-    },
-    "answer": {
-      "value": "c)"
-    },
-    "explanation": "Answer:\n\nThe correct answer is c).\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning_backup",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option which is most unlike the others.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "images": [
-        "/images/granular_non_verbal_reasoning_backup/q5_option_0.png",
-        "/images/granular_non_verbal_reasoning_backup/q5_option_1.png",
-        "/images/granular_non_verbal_reasoning_backup/q5_option_2.png",
-        "/images/granular_non_verbal_reasoning_backup/q5_option_3.png",
-        "/images/granular_non_verbal_reasoning_backup/q5_option_4.png"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning_backup/q5_option_0.png",
-      "option_images": [
-        "/images/granular_non_verbal_reasoning_backup/q5_option_0.png",
-        "/images/granular_non_verbal_reasoning_backup/q5_option_1.png",
-        "/images/granular_non_verbal_reasoning_backup/q5_option_2.png",
-        "/images/granular_non_verbal_reasoning_backup/q5_option_3.png",
-        "/images/granular_non_verbal_reasoning_backup/q5_option_4.png"
-      ]
-    },
-    "answer": {
-      "value": "d)"
-    },
-    "explanation": "Answer:\n\nThe correct answer is d). In all other figures, the outer shape is a larger downwards reflection of the inner shape.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning_backup",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option that shows how the three shapes will look when they are joined by matching the sides with the same letter.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning_backup/q23_question_0.png"
-    },
-    "answer": {
-      "value": "b)"
-    },
-    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning_backup",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Look at how the first figure changes to become the second figure. Then choose the option which would look like the third figure if you changed it in the same way.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning_backup/q7_question_0.png",
-      "images": [
-        "/images/granular_non_verbal_reasoning_backup/q7_option_0.png",
-        "/images/granular_non_verbal_reasoning_backup/q7_option_1.png",
-        "/images/granular_non_verbal_reasoning_backup/q7_option_2.png",
-        "/images/granular_non_verbal_reasoning_backup/q7_option_3.png",
-        "/images/granular_non_verbal_reasoning_backup/q7_option_4.png"
-      ],
-      "option_images": [
-        "/images/granular_non_verbal_reasoning_backup/q7_option_0.png",
-        "/images/granular_non_verbal_reasoning_backup/q7_option_1.png",
-        "/images/granular_non_verbal_reasoning_backup/q7_option_2.png",
-        "/images/granular_non_verbal_reasoning_backup/q7_option_3.png",
-        "/images/granular_non_verbal_reasoning_backup/q7_option_4.png"
-      ]
-    },
-    "answer": {
-      "value": "b)"
-    },
-    "explanation": "Answer:\n\nThe correct answer is b). The outer small shape gets bigger and the long line gets smaller and moves inside it. The inner small shape moves to the right of the figure and gets taller.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning_backup",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option which is most like the three figures below.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning_backup/q8_question_0.png",
-      "images": [
-        "/images/granular_non_verbal_reasoning_backup/q8_option_0.png",
-        "/images/granular_non_verbal_reasoning_backup/q8_option_1.png",
-        "/images/granular_non_verbal_reasoning_backup/q8_option_2.png",
-        "/images/granular_non_verbal_reasoning_backup/q8_option_3.png",
-        "/images/granular_non_verbal_reasoning_backup/q8_option_4.png"
-      ],
-      "option_images": [
-        "/images/granular_non_verbal_reasoning_backup/q8_option_0.png",
-        "/images/granular_non_verbal_reasoning_backup/q8_option_1.png",
-        "/images/granular_non_verbal_reasoning_backup/q8_option_2.png",
-        "/images/granular_non_verbal_reasoning_backup/q8_option_3.png",
-        "/images/granular_non_verbal_reasoning_backup/q8_option_4.png"
-      ]
-    },
-    "answer": {
-      "value": "a)"
-    },
-    "explanation": "Answer:\n\nThe correct answer is a). The shading of the rectangles must alternate between grey and white. The number of circles must be equal to the number of rectangles and their shading must match the shading of the smallest rectangle.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning_backup",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option which best fits in place of the missing square in the series.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning_backup/q26_question_0.png"
-    },
-    "answer": {
-      "value": "b)"
-    },
-    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning_backup",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option which should replace the empty square in the grid.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning_backup/q10_question_0.png",
-      "images": [
-        "/images/granular_non_verbal_reasoning_backup/q10_option_0.png",
-        "/images/granular_non_verbal_reasoning_backup/q10_option_1.png",
-        "/images/granular_non_verbal_reasoning_backup/q10_option_2.png",
-        "/images/granular_non_verbal_reasoning_backup/q10_option_3.png",
-        "/images/granular_non_verbal_reasoning_backup/q10_option_4.png"
-      ],
-      "option_images": [
-        "/images/granular_non_verbal_reasoning_backup/q10_option_0.png",
-        "/images/granular_non_verbal_reasoning_backup/q10_option_1.png",
-        "/images/granular_non_verbal_reasoning_backup/q10_option_2.png",
-        "/images/granular_non_verbal_reasoning_backup/q10_option_3.png",
-        "/images/granular_non_verbal_reasoning_backup/q10_option_4.png"
-      ]
-    },
-    "answer": {
-      "value": "b)"
-    },
-    "explanation": "Answer:\n\nThe correct answer is b). Working from left to right, the shape rotates 30 degrees clockwise and the dot alternates between black and white.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning_backup",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option which is most like the two figures below.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning_backup/q21_question_0.png"
-    },
-    "answer": {
-      "value": "b)"
-    },
-    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning_backup",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the 3D figure that has been rotated to make the 3D figure below.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)",
-        "f)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning_backup/q22_question_0.png"
-    },
-    "answer": {
-      "value": "b)"
-    },
-    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning_backup",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Look at how the first figure changes to become the second figure. Then choose the option which would look like the third figure if you changed it in the same way.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning_backup/q24_question_0.png"
-    },
-    "answer": {
-      "value": "b)"
-    },
-    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning_backup",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option that shows the figure below when it has been folded along the dashed line.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning_backup/q25_question_0.png"
-    },
-    "answer": {
-      "value": "b)"
-    },
-    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning_backup",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the cube which can be made from the net below.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning_backup/q27_question_0.png"
-    },
-    "answer": {
-      "value": "b)"
-    },
-    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning_backup",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "In the boxes below are figures with code letters. The top letters have a different meaning to the bottom ones. Work out how the letters go with the figures, then choose the code for the new figure.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "image_url": "/images/granular_non_verbal_reasoning_backup/q29_question_0.png"
-    },
-    "answer": {
-      "value": "b)"
-    },
-    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "non_verbal_reasoning_backup",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Choose the option which is most unlike the others.",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ]
-    },
-    "answer": {
-      "value": "b)"
-    },
-    "explanation": "Answer:\n\nThe correct answer is b). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
+    "explanation": "Answer:\n\nL = 5, I = 2, F = 3, T = 6.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1699,14 +1599,14 @@
         "e)"
       ],
       "image_url": "/images/granular_non_verbal_reasoning/q1_question_0.png",
-      "images": [
+      "option_images": [
         "/images/granular_non_verbal_reasoning/q1_option_0.png",
         "/images/granular_non_verbal_reasoning/q1_option_1.png",
         "/images/granular_non_verbal_reasoning/q1_option_2.png",
         "/images/granular_non_verbal_reasoning/q1_option_3.png",
         "/images/granular_non_verbal_reasoning/q1_option_4.png"
       ],
-      "option_images": [
+      "images": [
         "/images/granular_non_verbal_reasoning/q1_option_0.png",
         "/images/granular_non_verbal_reasoning/q1_option_1.png",
         "/images/granular_non_verbal_reasoning/q1_option_2.png",
@@ -1717,7 +1617,7 @@
     "answer": {
       "value": "c)"
     },
-    "explanation": "The correct answer is c). There are five blocks visible from above, which rules out option e). There is only one blue block visible from above, which rules out option d). There are two blocks visible on the left‑hand side, which rules out option b). There are only two blocks visible at the front, which rules out option a).\n\nGlossary (opens in new tab) >",
+    "explanation": "The correct answer is c). There are five blocks visible from above, which rules out option e). There is only one blue block visible from above, which rules out option d). There are two blocks visible on the left‑hand side, which rules out option b). There are only two blocks visible at the front, which rules out option a).",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1737,14 +1637,14 @@
         "e)"
       ],
       "image_url": "/images/granular_non_verbal_reasoning/q2_question_0.png",
-      "images": [
+      "option_images": [
         "/images/granular_non_verbal_reasoning/q2_option_0.png",
         "/images/granular_non_verbal_reasoning/q2_option_1.png",
         "/images/granular_non_verbal_reasoning/q2_option_2.png",
         "/images/granular_non_verbal_reasoning/q2_option_3.png",
         "/images/granular_non_verbal_reasoning/q2_option_4.png"
       ],
-      "option_images": [
+      "images": [
         "/images/granular_non_verbal_reasoning/q2_option_0.png",
         "/images/granular_non_verbal_reasoning/q2_option_1.png",
         "/images/granular_non_verbal_reasoning/q2_option_2.png",
@@ -1755,7 +1655,7 @@
     "answer": {
       "value": "d)"
     },
-    "explanation": "The correct answer is d). In all figures, there must be one black shape and two white shapes. An arrow must point towards the black shape. The white shapes must be identical apart from size.\n\nGlossary (opens in new tab) >",
+    "explanation": "The correct answer is d). In all figures, there must be one black shape and two white shapes. An arrow must point towards the black shape. The white shapes must be identical apart from size.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1775,14 +1675,14 @@
         "e)"
       ],
       "image_url": "/images/granular_non_verbal_reasoning/q3_question_0.png",
-      "images": [
+      "option_images": [
         "/images/granular_non_verbal_reasoning/q3_option_0.png",
         "/images/granular_non_verbal_reasoning/q3_option_1.png",
         "/images/granular_non_verbal_reasoning/q3_option_2.png",
         "/images/granular_non_verbal_reasoning/q3_option_3.png",
         "/images/granular_non_verbal_reasoning/q3_option_4.png"
       ],
-      "option_images": [
+      "images": [
         "/images/granular_non_verbal_reasoning/q3_option_0.png",
         "/images/granular_non_verbal_reasoning/q3_option_1.png",
         "/images/granular_non_verbal_reasoning/q3_option_2.png",
@@ -1793,7 +1693,7 @@
     "answer": {
       "value": "a)"
     },
-    "explanation": "The correct answer is a) (BGN). B = four‑pointed star, C = five‑pointed star, D = six‑pointed star. F = black star, G = white star, H = grey star. M = lines on the left, N = lines on the right.\n\nGlossary (opens in new tab) >",
+    "explanation": "The correct answer is a) (BGN). B = four‑pointed star, C = five‑pointed star, D = six‑pointed star. F = black star, G = white star, H = grey star. M = lines on the left, N = lines on the right.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1813,14 +1713,14 @@
         "e)"
       ],
       "image_url": "/images/granular_non_verbal_reasoning/q4_question_0.png",
-      "images": [
+      "option_images": [
         "/images/granular_non_verbal_reasoning/q4_option_0.png",
         "/images/granular_non_verbal_reasoning/q4_option_1.png",
         "/images/granular_non_verbal_reasoning/q4_option_2.png",
         "/images/granular_non_verbal_reasoning/q4_option_3.png",
         "/images/granular_non_verbal_reasoning/q4_option_4.png"
       ],
-      "option_images": [
+      "images": [
         "/images/granular_non_verbal_reasoning/q4_option_0.png",
         "/images/granular_non_verbal_reasoning/q4_option_1.png",
         "/images/granular_non_verbal_reasoning/q4_option_2.png",
@@ -1831,7 +1731,7 @@
     "answer": {
       "value": "c)"
     },
-    "explanation": "The correct answer is c).\n\nGlossary (opens in new tab) >",
+    "explanation": "The correct answer is c).",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1850,15 +1750,14 @@
         "d)",
         "e)"
       ],
-      "images": [
+      "option_images": [
         "/images/granular_non_verbal_reasoning/q5_option_0.png",
         "/images/granular_non_verbal_reasoning/q5_option_1.png",
         "/images/granular_non_verbal_reasoning/q5_option_2.png",
         "/images/granular_non_verbal_reasoning/q5_option_3.png",
         "/images/granular_non_verbal_reasoning/q5_option_4.png"
       ],
-      "image_url": "/images/granular_non_verbal_reasoning/q5_option_0.png",
-      "option_images": [
+      "images": [
         "/images/granular_non_verbal_reasoning/q5_option_0.png",
         "/images/granular_non_verbal_reasoning/q5_option_1.png",
         "/images/granular_non_verbal_reasoning/q5_option_2.png",
@@ -1869,7 +1768,7 @@
     "answer": {
       "value": "d)"
     },
-    "explanation": "The correct answer is d). In all other figures, the outer shape is a larger downwards reflection of the inner shape.\n\nGlossary (opens in new tab) >",
+    "explanation": "The correct answer is d). In all other figures, the outer shape is a larger downwards reflection of the inner shape.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1889,14 +1788,14 @@
         "e)"
       ],
       "image_url": "/images/granular_non_verbal_reasoning/q6_question_0.png",
-      "images": [
+      "option_images": [
         "/images/granular_non_verbal_reasoning/q6_option_0.png",
         "/images/granular_non_verbal_reasoning/q6_option_1.png",
         "/images/granular_non_verbal_reasoning/q6_option_2.png",
         "/images/granular_non_verbal_reasoning/q6_option_3.png",
         "/images/granular_non_verbal_reasoning/q6_option_4.png"
       ],
-      "option_images": [
+      "images": [
         "/images/granular_non_verbal_reasoning/q6_option_0.png",
         "/images/granular_non_verbal_reasoning/q6_option_1.png",
         "/images/granular_non_verbal_reasoning/q6_option_2.png",
@@ -1907,7 +1806,7 @@
     "answer": {
       "value": "e)"
     },
-    "explanation": "The correct answer is e). Option b) is ruled out because the wrong side of the rectangle is connected to the thin triangle. Option c) is ruled out because the rectangle is connected to the wrong side of the thin triangle. Option a) is ruled out because the wide triangle is connected to the wrong side of the thin triangle. Option d) is ruled out because the rectangle is not connected to the thin triangle.\n\nGlossary (opens in new tab) >",
+    "explanation": "The correct answer is e). Option b) is ruled out because the wrong side of the rectangle is connected to the thin triangle. Option c) is ruled out because the rectangle is connected to the wrong side of the thin triangle. Option a) is ruled out because the wide triangle is connected to the wrong side of the thin triangle. Option d) is ruled out because the rectangle is not connected to the thin triangle.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1927,14 +1826,14 @@
         "e)"
       ],
       "image_url": "/images/granular_non_verbal_reasoning/q7_question_0.png",
-      "images": [
+      "option_images": [
         "/images/granular_non_verbal_reasoning/q7_option_0.png",
         "/images/granular_non_verbal_reasoning/q7_option_1.png",
         "/images/granular_non_verbal_reasoning/q7_option_2.png",
         "/images/granular_non_verbal_reasoning/q7_option_3.png",
         "/images/granular_non_verbal_reasoning/q7_option_4.png"
       ],
-      "option_images": [
+      "images": [
         "/images/granular_non_verbal_reasoning/q7_option_0.png",
         "/images/granular_non_verbal_reasoning/q7_option_1.png",
         "/images/granular_non_verbal_reasoning/q7_option_2.png",
@@ -1945,7 +1844,7 @@
     "answer": {
       "value": "b)"
     },
-    "explanation": "The correct answer is b). The outer small shape gets bigger and the long line gets smaller and moves inside it. The inner small shape moves to the right of the figure and gets taller.\n\nGlossary (opens in new tab) >",
+    "explanation": "The correct answer is b). The outer small shape gets bigger and the long line gets smaller and moves inside it. The inner small shape moves to the right of the figure and gets taller.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -1965,14 +1864,14 @@
         "e)"
       ],
       "image_url": "/images/granular_non_verbal_reasoning/q8_question_0.png",
-      "images": [
+      "option_images": [
         "/images/granular_non_verbal_reasoning/q8_option_0.png",
         "/images/granular_non_verbal_reasoning/q8_option_1.png",
         "/images/granular_non_verbal_reasoning/q8_option_2.png",
         "/images/granular_non_verbal_reasoning/q8_option_3.png",
         "/images/granular_non_verbal_reasoning/q8_option_4.png"
       ],
-      "option_images": [
+      "images": [
         "/images/granular_non_verbal_reasoning/q8_option_0.png",
         "/images/granular_non_verbal_reasoning/q8_option_1.png",
         "/images/granular_non_verbal_reasoning/q8_option_2.png",
@@ -1983,7 +1882,7 @@
     "answer": {
       "value": "a)"
     },
-    "explanation": "The correct answer is a). The shading of the rectangles must alternate between grey and white. The number of circles must be equal to the number of rectangles and their shading must match the shading of the smallest rectangle.\n\nGlossary (opens in new tab) >",
+    "explanation": "The correct answer is a). The shading of the rectangles must alternate between grey and white. The number of circles must be equal to the number of rectangles and their shading must match the shading of the smallest rectangle.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -2003,14 +1902,14 @@
         "e)"
       ],
       "image_url": "/images/granular_non_verbal_reasoning/q9_question_0.png",
-      "images": [
+      "option_images": [
         "/images/granular_non_verbal_reasoning/q9_option_0.png",
         "/images/granular_non_verbal_reasoning/q9_option_1.png",
         "/images/granular_non_verbal_reasoning/q9_option_2.png",
         "/images/granular_non_verbal_reasoning/q9_option_3.png",
         "/images/granular_non_verbal_reasoning/q9_option_4.png"
       ],
-      "option_images": [
+      "images": [
         "/images/granular_non_verbal_reasoning/q9_option_0.png",
         "/images/granular_non_verbal_reasoning/q9_option_1.png",
         "/images/granular_non_verbal_reasoning/q9_option_2.png",
@@ -2021,7 +1920,7 @@
     "answer": {
       "value": "d)"
     },
-    "explanation": "The correct answer is d). In each series square, the star gains an additional point. The star takes the shading of the small square in the previous series square. The small square moves clockwise around the corners of the series square.\n\nGlossary (opens in new tab) >",
+    "explanation": "The correct answer is d). In each series square, the star gains an additional point. The star takes the shading of the small square in the previous series square. The small square moves clockwise around the corners of the series square.",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"
@@ -2041,14 +1940,14 @@
         "e)"
       ],
       "image_url": "/images/granular_non_verbal_reasoning/q10_question_0.png",
-      "images": [
+      "option_images": [
         "/images/granular_non_verbal_reasoning/q10_option_0.png",
         "/images/granular_non_verbal_reasoning/q10_option_1.png",
         "/images/granular_non_verbal_reasoning/q10_option_2.png",
         "/images/granular_non_verbal_reasoning/q10_option_3.png",
         "/images/granular_non_verbal_reasoning/q10_option_4.png"
       ],
-      "option_images": [
+      "images": [
         "/images/granular_non_verbal_reasoning/q10_option_0.png",
         "/images/granular_non_verbal_reasoning/q10_option_1.png",
         "/images/granular_non_verbal_reasoning/q10_option_2.png",
@@ -2059,7 +1958,238 @@
     "answer": {
       "value": "b)"
     },
-    "explanation": "The correct answer is b). Working from left to right, the shape rotates 30 degrees clockwise and the dot alternates between black and white.\n\nGlossary (opens in new tab) >",
+    "explanation": "The correct answer is b). Working from left to right, the shape rotates 30 degrees clockwise and the dot alternates between black and white.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_visual",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the 3D figure that has been rotated to make the 3D figure below.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)",
+        "f)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning/q43_question_0.png",
+      "option_images": [
+        "/images/granular_non_verbal_reasoning/q43_option_0.png",
+        "/images/granular_non_verbal_reasoning/q43_option_1.png",
+        "/images/granular_non_verbal_reasoning/q43_option_2.png",
+        "/images/granular_non_verbal_reasoning/q43_option_3.png",
+        "/images/granular_non_verbal_reasoning/q43_option_4.png",
+        "/images/granular_non_verbal_reasoning/q43_option_5.png"
+      ],
+      "images": [
+        "/images/granular_non_verbal_reasoning/q43_option_0.png",
+        "/images/granular_non_verbal_reasoning/q43_option_1.png",
+        "/images/granular_non_verbal_reasoning/q43_option_2.png",
+        "/images/granular_non_verbal_reasoning/q43_option_3.png",
+        "/images/granular_non_verbal_reasoning/q43_option_4.png",
+        "/images/granular_non_verbal_reasoning/q43_option_5.png"
+      ]
+    },
+    "answer": {
+      "value": "d)"
+    },
+    "explanation": "Answer:\n\nThe correct answer is d). Shape d) has been rotated 90 degrees towards you, top‑to‑bottom.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_visual",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the set of blocks that can be put together to make the 3D figure below.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning/q45_question_0.png",
+      "option_images": [
+        "/images/granular_non_verbal_reasoning/q45_option_0.png",
+        "/images/granular_non_verbal_reasoning/q45_option_1.png",
+        "/images/granular_non_verbal_reasoning/q45_option_2.png",
+        "/images/granular_non_verbal_reasoning/q45_option_3.png",
+        "/images/granular_non_verbal_reasoning/q45_option_4.png"
+      ],
+      "images": [
+        "/images/granular_non_verbal_reasoning/q45_option_0.png",
+        "/images/granular_non_verbal_reasoning/q45_option_1.png",
+        "/images/granular_non_verbal_reasoning/q45_option_2.png",
+        "/images/granular_non_verbal_reasoning/q45_option_3.png",
+        "/images/granular_non_verbal_reasoning/q45_option_4.png"
+      ]
+    },
+    "answer": {
+      "value": "e)"
+    },
+    "explanation": "Answer:\n\nThe correct answer is e). The block at the top of set e) is rotated 90 degrees left‑to‑right to become the block on the right‑hand side of the figure. The block at the bottom of set e) goes on the left‑hand side of the figure, at the back. The remaining block in set e) goes on top of this block.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_visual",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the cube which can be made from the net below.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning/q51_question_0.png",
+      "option_images": [
+        "/images/granular_non_verbal_reasoning/q51_option_0.png",
+        "/images/granular_non_verbal_reasoning/q51_option_1.png",
+        "/images/granular_non_verbal_reasoning/q51_option_2.png",
+        "/images/granular_non_verbal_reasoning/q51_option_3.png",
+        "/images/granular_non_verbal_reasoning/q51_option_4.png"
+      ],
+      "images": [
+        "/images/granular_non_verbal_reasoning/q51_option_0.png",
+        "/images/granular_non_verbal_reasoning/q51_option_1.png",
+        "/images/granular_non_verbal_reasoning/q51_option_2.png",
+        "/images/granular_non_verbal_reasoning/q51_option_3.png",
+        "/images/granular_non_verbal_reasoning/q51_option_4.png"
+      ]
+    },
+    "answer": {
+      "value": "b)"
+    },
+    "explanation": "Answer:\n\nThe correct answer is b). Option c) is ruled out because the arrow and the grey shape must be on opposite sides. Option d) is ruled out because the two black dots have the wrong rotation. Option e) is ruled out because the grey shape has the wrong rotation. Option a) is ruled out because the semicircle and the ladder shape must be on opposite sides.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_visual",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "In the boxes below are figures with code letters. The top letters have a different meaning to the bottom ones. Work out how the letters go with the figures, then choose the code for the new figure.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning/q52_question_0.png",
+      "option_images": [
+        "/images/granular_non_verbal_reasoning/q52_option_0.png",
+        "/images/granular_non_verbal_reasoning/q52_option_1.png",
+        "/images/granular_non_verbal_reasoning/q52_option_2.png",
+        "/images/granular_non_verbal_reasoning/q52_option_3.png",
+        "/images/granular_non_verbal_reasoning/q52_option_4.png"
+      ],
+      "images": [
+        "/images/granular_non_verbal_reasoning/q52_option_0.png",
+        "/images/granular_non_verbal_reasoning/q52_option_1.png",
+        "/images/granular_non_verbal_reasoning/q52_option_2.png",
+        "/images/granular_non_verbal_reasoning/q52_option_3.png",
+        "/images/granular_non_verbal_reasoning/q52_option_4.png"
+      ]
+    },
+    "answer": {
+      "value": "a)"
+    },
+    "explanation": "Answer:\n\nThe correct answer is a) (YB). X = diagonal inner lines, Y = horizontal and vertical inner lines. B = one grey section, C = two grey sections.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_visual",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the option that shows the figure below when it has been folded along the dashed line.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning/q55_question_0.png",
+      "option_images": [
+        "/images/granular_non_verbal_reasoning/q55_option_0.png",
+        "/images/granular_non_verbal_reasoning/q55_option_1.png",
+        "/images/granular_non_verbal_reasoning/q55_option_2.png",
+        "/images/granular_non_verbal_reasoning/q55_option_3.png",
+        "/images/granular_non_verbal_reasoning/q55_option_4.png"
+      ],
+      "images": [
+        "/images/granular_non_verbal_reasoning/q55_option_0.png",
+        "/images/granular_non_verbal_reasoning/q55_option_1.png",
+        "/images/granular_non_verbal_reasoning/q55_option_2.png",
+        "/images/granular_non_verbal_reasoning/q55_option_3.png",
+        "/images/granular_non_verbal_reasoning/q55_option_4.png"
+      ]
+    },
+    "answer": {
+      "value": "c)"
+    },
+    "explanation": "Answer:\n\nThe correct answer is c). Option d) is ruled out because the fold line has moved. Options b) and e) are ruled out because the part of the figure that has been folded is the wrong shape. Option a) is ruled out because the figure has been broken apart along the fold line.",
+    "hints": [],
+    "tags": [],
+    "source": "CGP Sample"
+  },
+  {
+    "subject": "non_verbal_reasoning",
+    "question_type": "nvr_visual",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A square is folded and then a hole is punched, as shown below. Choose the option that shows the square when unfolded.",
+      "options": [
+        "a)",
+        "b)",
+        "c)",
+        "d)",
+        "e)"
+      ],
+      "image_url": "/images/granular_non_verbal_reasoning/q65_question_0.png",
+      "option_images": [
+        "/images/granular_non_verbal_reasoning/q65_option_0.png",
+        "/images/granular_non_verbal_reasoning/q65_option_1.png",
+        "/images/granular_non_verbal_reasoning/q65_option_2.png",
+        "/images/granular_non_verbal_reasoning/q65_option_3.png",
+        "/images/granular_non_verbal_reasoning/q65_option_4.png"
+      ],
+      "images": [
+        "/images/granular_non_verbal_reasoning/q65_option_0.png",
+        "/images/granular_non_verbal_reasoning/q65_option_1.png",
+        "/images/granular_non_verbal_reasoning/q65_option_2.png",
+        "/images/granular_non_verbal_reasoning/q65_option_3.png",
+        "/images/granular_non_verbal_reasoning/q65_option_4.png"
+      ]
+    },
+    "answer": {
+      "value": "e)"
+    },
+    "explanation": "Answer:\n\nThe correct answer is e).",
     "hints": [],
     "tags": [],
     "source": "CGP Sample"

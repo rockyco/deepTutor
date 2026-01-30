@@ -322,5 +322,492 @@
       "road",
       "dawn"
     ]
+  },
+  {
+    "question_num": 21,
+    "text": "Choose the letter that will finish the first word and start the second word of each pair. The same letter must be used for both pairs.\n\n\n\nbea (?) ook\u00a0\u00a0\u00a0\u00a0cha (?) est",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\n\u2018t\u2019 is the correct letter. The new words are \u2018beat\u2019, \u2018took\u2019, \u2018chat\u2019 and \u2018test\u2019.",
+    "options": [
+      "p",
+      "k",
+      "t",
+      "n",
+      "s"
+    ]
+  },
+  {
+    "question_num": 22,
+    "text": "Select two words, one from each column, that have the most opposite meaning.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A, E",
+    "explanation": "Answer:\n\n\u2018discredit\u2019 means \u2018to cause an idea to appear false\u2019, whereas \u2018prove\u2019 means \u2018to show something is true\u2019.",
+    "options": [
+      "discredit",
+      "satirise",
+      "patronise",
+      "compliment",
+      "prove",
+      "concur"
+    ]
+  },
+  {
+    "question_num": 23,
+    "text": "Each letter stands for a number. Work out the answer to each sum as a letter. Choose the correct letter as your answer.\n\n\n\nA\u00a0=\u00a02\u00a0\u00a0 B\u00a0=\u00a03\u00a0\u00a0 C\u00a0=\u00a07\u00a0\u00a0 D\u00a0=\u00a019\u00a0\u00a0 E\u00a0=\u00a021\n\nC \u00d7 B \u2212 A = ?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\n7 \u00d7 3 \u2212 2 = 19, D = 19",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "question_num": 24,
+    "text": "Choose the pair of letters that completes the sentence in the most sensible way. Use the alphabet to help you.\n\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n\n\n\nFP is to UK as GQ is to (?)",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n\u2018TJ\u2019 is correct. \u2018FP\u2019 and \u2018UK\u2019 are mirror pairs, where the two letters are an equal distance from the centre of the alphabet. The answer will be the mirror pairs for G and Q, which are T and J.",
+    "options": [
+      "TJ",
+      "TH",
+      "VJ",
+      "SL",
+      "SH"
+    ]
+  },
+  {
+    "question_num": 25,
+    "text": "Choose the three-letter word that completes the word in capital letters, and so finishes the sentence in a sensible way.\n\n\n\nThe lord was determined to DED the castle.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\n\u2018FEN\u2019 is correct. The complete word is DEFEND.",
+    "options": [
+      "POT",
+      "HOW",
+      "FEN",
+      "MAN",
+      "LAW"
+    ]
+  },
+  {
+    "question_num": 26,
+    "text": "Choose the pair of letters that continues the sequence in the best way. Use the alphabet to help you.\n\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n\n\n\nDH\u00a0\u00a0\u00a0HI\u00a0\u00a0\u00a0LJ\u00a0\u00a0\u00a0PK\u00a0\u00a0\u00a0TL\u00a0\u00a0\u00a0(____)",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\n\u2018XM\u2019 is correct. The first letter in the pair moves forward 4 letters each time. The second letter moves forward 1 letter each time.",
+    "options": [
+      "ZM",
+      "WN",
+      "WM",
+      "XN",
+      "XM"
+    ]
+  },
+  {
+    "question_num": 27,
+    "text": "Find the missing number to complete the sum.\n\n\n\n8 \u00f7 4 + 5 \u2212 1 = 18 \u2212 (?)",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\n8 \u00f7 4 + 5 \u2212 1 = 6, 6 = 18 \u2212 12",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "10",
+      "12"
+    ]
+  },
+  {
+    "question_num": 28,
+    "text": "Choose the word that has the most similar meaning to the words in both sets of brackets.\n\n\n\n(hint\u00a0\u00a0\u00a0pinch)\u00a0\u00a0\u00a0\u00a0 (hurry\u00a0\u00a0\u00a0rush)",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\n\u2018dash\u2019 is correct. \u2018dash\u2019 can mean \u2018a small amount\u2019 or \u2018to move quickly\u2019.",
+    "options": [
+      "race",
+      "scurry",
+      "dash",
+      "touch",
+      "drop"
+    ]
+  },
+  {
+    "question_num": 29,
+    "text": "Find the missing number to complete the sum.\n\n\n\n44 \u2212 27 = 68 \u00f7 (?)",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n44 \u2212 27 = 17, 17 = 68 \u00f7 4",
+    "options": [
+      "4",
+      "5",
+      "7",
+      "8",
+      "17"
+    ]
+  },
+  {
+    "question_num": 30,
+    "text": "Choose two words, one from each column, that have the most similar meaning.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A, F",
+    "explanation": "Answer:\n\n\u2018immune\u2019 and \u2018exempt\u2019 have the most similar meaning. Both of these mean \u2018to be free from an obligation\u2019.",
+    "options": [
+      "immune",
+      "irresistible",
+      "vaccinated",
+      "infectious",
+      "repellent",
+      "exempt"
+    ]
+  },
+  {
+    "question_num": 31,
+    "text": "In the sentence below, a four-letter word is hidden at the end of one word and at the start of the next. Choose the option that contains the hidden word.\n\n\n\nA huge grin gradually spread across his face.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nThe hidden word is \u2018ring\u2019. The word is hidden in the phrase \u2018grin gradually\u2019.",
+    "options": [
+      "huge",
+      "huge grin",
+      "grin gradually",
+      "spread across",
+      "his face"
+    ]
+  },
+  {
+    "question_num": 32,
+    "text": "Use the alphabet to help you work out the answer to the question below.\n\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n\n\n\nIf the code for AWAY is BSBU, what is the code for TERM?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n\u2018UASI\u2019 is correct. To get from the word to the code, move the letters in the sequence +1, \u22124, +1, \u22124.",
+    "options": [
+      "UASI",
+      "TBSI",
+      "TASJ",
+      "VCTI",
+      "UBTI"
+    ]
+  },
+  {
+    "question_num": 33,
+    "text": "The words in the second set follow the same pattern as the words in the first set. Choose the missing word to complete the second set.\n\n\n\ngait (girl) hurl\u00a0\u00a0\u00a0\u00a0 draw\u00a0(?)\u00a0down",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n\u2018dawn\u2019 is the correct word. Take letters 1 and 3 from the first word, followed by letters 3 and 4 from the second word.",
+    "options": [
+      "dawn",
+      "worn",
+      "road",
+      "wand",
+      "darn"
+    ]
+  },
+  {
+    "question_num": 34,
+    "text": "Select a word from the first column, followed by a word from the second column, that go together to form a new word.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C, E",
+    "explanation": "Answer:\n\n\u2018anyone\u2019 is the only correctly spelled word that can be made.",
+    "options": [
+      "now",
+      "sum",
+      "any",
+      "ledge",
+      "one",
+      "day"
+    ]
+  },
+  {
+    "question_num": 35,
+    "text": "Read the information carefully, then choose the correct answer to the question that follows.\n\nPatrick, Sue, Ophelia, Maleek and Rita have learnt some swimming strokes.\nPatrick, Maleek and Ophelia can do breaststroke. No one but Sue can do butterfly. Everyone but Ophelia can do backstroke, but Ophelia can do front crawl. Maleek can also do front crawl. Rita can do two swimming strokes.\n\nWho can do the most swimming strokes?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\nPatrick, Sue, Ophelia and Rita can do two swimming strokes. Maleek can do three swimming strokes.",
+    "options": [
+      "Sue",
+      "Maleek",
+      "Patrick",
+      "Rita",
+      "Ophelia"
+    ]
+  },
+  {
+    "question_num": 36,
+    "text": "Select a word from the first column, followed by a word from the second column, that go together to form a new word.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B, D",
+    "explanation": "Answer:\n\n\u2018below\u2019 is the only correctly spelled word that can be made.",
+    "options": [
+      "all",
+      "be",
+      "shall",
+      "low",
+      "eat",
+      "four"
+    ]
+  },
+  {
+    "question_num": 37,
+    "text": "In the sentence below, a four-letter word is hidden at the end of one word and at the start of the next. Choose the option that contains the hidden word.\n\n\n\nThe complex item has many different components.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\nThe hidden word is \u2018exit\u2019. The word is hidden in the phrase \u2018complex item\u2019.",
+    "options": [
+      "The complex",
+      "complex item",
+      "item has",
+      "many different",
+      "different components"
+    ]
+  },
+  {
+    "question_num": 38,
+    "text": "Choose the letter that will finish the first word and start the second word of each pair. The same letter must be used for both pairs.\n\n\n\nbea (?) ook\u00a0\u00a0\u00a0\u00a0cha (?) est",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\n\u2018t\u2019 is the correct letter. The new words are \u2018beat\u2019, \u2018took\u2019, \u2018chat\u2019 and \u2018test\u2019.",
+    "options": [
+      "n",
+      "k",
+      "s",
+      "p",
+      "t"
+    ]
+  },
+  {
+    "question_num": 39,
+    "text": "Choose two words, one from each set of brackets, that complete the sentence in the most sensible way.\n\n\n\nRock is to (pebble\u00a0\u00a0\u00a0solid\u00a0\u00a0\u00a0mineral) as water is to (liquid\u00a0\u00a0\u00a0moisture\u00a0\u00a0\u00a0humid).",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B, D",
+    "explanation": "Answer:\n\nThey are the types of substances that rocks and water are.",
+    "options": [
+      "pebble",
+      "solid",
+      "mineral",
+      "liquid",
+      "moisture",
+      "humid"
+    ]
+  },
+  {
+    "question_num": 40,
+    "text": "Choose the pair of letters that completes the sentence in the most sensible way. Use the alphabet to help you.\n\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n\n\n\nFP is to UK as GQ is to (?)",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\n\u2018TJ\u2019 is correct. \u2018FP\u2019 and \u2018UK\u2019 are mirror pairs, where the two letters are an equal distance from the centre of the alphabet. The answer will be the mirror pairs for G and Q, which are T and J.",
+    "options": [
+      "VJ",
+      "SH",
+      "SL",
+      "TJ",
+      "TH"
+    ]
+  },
+  {
+    "question_num": 41,
+    "text": "Choose the three-letter word that completes the word in capital letters, and so finishes the sentence in a sensible way.\n\n\n\nThe lord was determined to DED the castle.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\n\u2018FEN\u2019 is correct. The complete word is DEFEND.",
+    "options": [
+      "MAN",
+      "LAW",
+      "HOW",
+      "FEN",
+      "POT"
+    ]
+  },
+  {
+    "question_num": 42,
+    "text": "Choose the word that completes the third pair of words so that it follows the same pattern as the first two pairs.\n\n\n\nstrum\u00a0\u00a0must\u00a0\u00a0\u00a0\u00a0 asset\u00a0\u00a0teas\u00a0\u00a0\u00a0\u00a0 ideal\u00a0\u00a0(?)",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\n\u2018laid\u2019 is the correct word. Rearrange letters 1,\u00a02,\u00a04 and 5 in the order 5,\u00a04,\u00a01,\u00a02.",
+    "options": [
+      "aide",
+      "deal",
+      "lead",
+      "dial",
+      "laid"
+    ]
+  },
+  {
+    "question_num": 43,
+    "text": "Use the alphabet to help you work out the answer to the question below.\n\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n\n\n\nIf the code for SPOT is VRPT, what is CQOE the code for?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\n\u2018ZONE\u2019 is correct. To get from the code to the word, move the letters in the sequence \u22123, \u22122, \u22121, 0.",
+    "options": [
+      "ZOOM",
+      "WANE",
+      "WOKE",
+      "ZONE",
+      "YOUR"
+    ]
+  },
+  {
+    "question_num": 44,
+    "text": "Select a word from the first column, followed by a word from the second column, that go together to form a new word.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A, E",
+    "explanation": "Answer:\n\n\u2018anyone\u2019 is the only correctly spelled word that can be made.",
+    "options": [
+      "any",
+      "now",
+      "sum",
+      "ledge",
+      "one",
+      "day"
+    ]
+  },
+  {
+    "question_num": 45,
+    "text": "Choose the letter that will finish the first word and start the second word of each pair. The same letter must be used for both pairs.\n\n\n\nbea (?) ook\u00a0\u00a0\u00a0\u00a0cha (?) est",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\n\u2018t\u2019 is the correct letter. The new words are \u2018beat\u2019, \u2018took\u2019, \u2018chat\u2019 and \u2018test\u2019.",
+    "options": [
+      "n",
+      "p",
+      "t",
+      "s",
+      "k"
+    ]
+  },
+  {
+    "question_num": 46,
+    "text": "Find the missing number to complete the sum.\n\n\n\n44 \u2212 27 = 68 \u00f7 (?)",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n44 \u2212 27 = 17, 17 = 68 \u00f7 4",
+    "options": [
+      "4",
+      "5",
+      "7",
+      "8",
+      "17"
+    ]
+  },
+  {
+    "question_num": 47,
+    "text": "Choose the number that continues the sequence in the best way.\n\n\n\n3\u00a0\u00a0\u00a03\u00a0\u00a0\u00a06\u00a0\u00a0\u00a018\u00a0\u00a0\u00a0(?)",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\n\u201872\u2019 is correct. Multiply by ascending numbers: \u00d71, \u00d72, \u00d73, \u00d74.",
+    "options": [
+      "18",
+      "36",
+      "72",
+      "80",
+      "84"
+    ]
+  },
+  {
+    "question_num": 48,
+    "text": "Choose two words, one from each column, that have the most similar meaning.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A, F",
+    "explanation": "Answer:\n\n\u2018immune\u2019 and \u2018exempt\u2019 have the most similar meaning. Both of these mean \u2018to be free from an obligation\u2019.",
+    "options": [
+      "immune",
+      "irresistible",
+      "vaccinated",
+      "infectious",
+      "repellent",
+      "exempt"
+    ]
+  },
+  {
+    "question_num": 49,
+    "text": "Find the missing number to complete the sum.\n\n\n\n8 \u00f7 4 + 5 \u2212 1 = 18 \u2212 (?)",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\n8 \u00f7 4 + 5 \u2212 1 = 6, 6 = 18 \u2212 12",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "10",
+      "12"
+    ]
+  },
+  {
+    "question_num": 50,
+    "text": "The number codes for three of these four words are listed in a random order. Work out the code to answer the question.\n\nFLIP\u00a0\u00a0\u00a0LIPS\u00a0\u00a0\u00a0LIFT\u00a0\u00a0\u00a0FITS\n5236\u00a0\u00a0\u00a05214\u00a0\u00a0\u00a03521\n\nFind the code for the word LIFT.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\nL = 5, I = 2, F = 3, T = 6.",
+    "options": [
+      "3152",
+      "3521",
+      "5432",
+      "5236",
+      "5214"
+    ]
   }
 ]

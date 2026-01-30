@@ -567,8 +567,8 @@ export default function PracticeClient() {
                 const isImageOption = !!optionImage || isImageUrl(option);
                 const displayImage = optionImage ? getImageUrl(optionImage) : getImageUrl(option);
 
-                // Clean option text (remove "A)", "a.", etc)
-                const cleanOptionText = option.replace(/^[A-Ea-e][.)]?\s*/, "");
+                // Clean option text (remove "A)", "a.", etc - require punctuation to avoid stripping words)
+                const cleanOptionText = option.replace(/^[A-Ea-e][.)]\s*/, "");
 
                 return (
                   <button

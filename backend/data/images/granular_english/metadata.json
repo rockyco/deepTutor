@@ -313,5 +313,482 @@
       "and swimming,\u201d said Tim.",
       "No mistake"
     ]
+  },
+  {
+    "question_num": 21,
+    "text": "The sentence below contains a metaphor. Work out which group of words contains this technique and choose the correct group.\n\nThe song was a key that unlocked a long-forgotten memory in Anna\u2019s mind about her life in Spain.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n\u2018The song was a key\u2019 is correct. A metaphor describes something as being something else. In this metaphor, the song is compared to a key to emphasise the effect that it has on Anna, but it is not literally a key.",
+    "options": [
+      "The song was a key",
+      "that unlocked a",
+      "long-forgotten memory",
+      "in Anna\u2019s mind about",
+      "her life in Spain."
+    ]
+  },
+  {
+    "question_num": 22,
+    "text": "The sentence below contains either one mistake involving punctuation or capital letters or no mistake. Choose the group of words which contains the mistake. If there\u2019s no mistake, choose \u2018No mistake\u2019.\n\n\u201cIsla\u2019s planned an active day: hiking in the mountains kayaking on a lake and swimming,\u201d said Tim.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nA comma is needed between \u2018mountains\u2019 and \u2018kayaking\u2019 to separate each item in the list.",
+    "options": [
+      "\u201cIsla\u2019s planned an",
+      "active day: hiking in the",
+      "mountains kayaking on a lake",
+      "and swimming,\u201d said Tim.",
+      "No mistake"
+    ]
+  },
+  {
+    "question_num": 23,
+    "text": "The sentence below contains either one spelling mistake or no spelling mistakes. Choose the group of words which contains the mistake. If there\u2019s no mistake, choose \u2018no mistake\u2019.\n\nThe entire team knew that their next match would be against a formidable opponent.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\nThere are no mistakes in this sentence.",
+    "options": [
+      "The entire team",
+      "knew that their next",
+      "match would be against",
+      "formidable opponent.",
+      "No mistake"
+    ]
+  },
+  {
+    "question_num": 24,
+    "text": "Which of the sentences below contains personification?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nPersonification describes something that\u2019s not human as if it is a person. The shadows have been given human qualities (the ability to creep), so this sentence contains personification.",
+    "options": [
+      "From the top-floor balcony, the people on the ground were ants scurrying between tables.",
+      "Keira sank into her luxurious bed, which had pillows like soft marshmallows.",
+      "At twilight, the shadows will creep across the lawn towards the house.",
+      "I can see a dress as black as night in the window of the boutique."
+    ]
+  },
+  {
+    "question_num": 25,
+    "text": "The sentence below contains either one mistake involving punctuation or capital letters or no mistake. Choose the group of words which contains the mistake. If there\u2019s no mistake, choose \u2018No mistake\u2019.\n\n\u201cOur town\u2019s very proud that our womens\u2019 football team has won the championship,\u201d said the mayor.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\n\u2018women\u2019 is a plural word, but it doesn\u2019t end in \u2018s\u2019, so the possessive apostrophe should go before the \u2018s\u2019.",
+    "options": [
+      "\u201cOur town\u2019s very proud",
+      "that our womens\u2019 football",
+      "team has won the",
+      "championship,\u201d said the mayor.",
+      "No mistake"
+    ]
+  },
+  {
+    "question_num": 26,
+    "text": "Which of the following sentences contains alliteration?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n\u2018The choral scholars are known for their charismatic performances.\u2019 is correct. The hard \u2018c\u2019 sound is repeated.",
+    "options": [
+      "The choral scholars are known for their charismatic performances.",
+      "These hymns contain many challenging notes, even for accomplished singers.",
+      "Carols are the perfect way to bring festive cheer to a December evening.",
+      "wonderful chorus of voices fills the old church.",
+      "Loud drones from the organ resonate around the stone walls."
+    ]
+  },
+  {
+    "question_num": 27,
+    "text": "The sentence below contains either one mistake involving punctuation or capital letters or no mistake. Choose the group of words which contains the mistake. If there\u2019s no mistake, choose \u2018No mistake\u2019.\n\nThe Johnstones from next door wont be coming to the barbecue: they\u2019re looking after their nieces.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\n\u2018wont\u2019 should be \u2018won\u2019t\u2019. It is a contraction of \u2018will not\u2019.",
+    "options": [
+      "The Johnstones from next",
+      "door wont be coming to the",
+      "barbecue: they\u2019re looking",
+      "after their nieces.",
+      "No mistake"
+    ]
+  },
+  {
+    "question_num": 28,
+    "text": "In the sentence below, which of the words is a co-ordinating conjunction?\n\nEzra has bought a birthday present for you, and he hopes that you like it.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n\u2018and\u2019 is a co-ordinating conjunction. It links the two main clauses together.",
+    "options": [
+      "and",
+      "it",
+      "for",
+      "that",
+      "has"
+    ]
+  },
+  {
+    "question_num": 29,
+    "text": "Choose the word which completes the sentence correctly.\n\nRiley and Nasreen claimed that the sweets were _______, but I knew that they belonged to Tilly.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n\u2018theirs\u2019 is the correct pronoun. The pronoun shows that the sweets belong to Riley and Nasreen.",
+    "options": [
+      "theirs",
+      "they\u2019re",
+      "their\u2019s",
+      "their",
+      "there\u2019s"
+    ]
+  },
+  {
+    "question_num": 30,
+    "text": "Which is the onomatopoeic word in this sentence?\n\nIn the corner of the room, a small log fire crackled gently.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\n\u2018crackled\u2019 is correct. \u2018crackled\u2019 sounds like the noise the fire makes.",
+    "options": [
+      "fire",
+      "corner",
+      "room",
+      "crackled",
+      "gently"
+    ]
+  },
+  {
+    "question_num": 31,
+    "text": "Which of the following sentences contains alliteration?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\n\u2018The trembling astronaut accidentally pressed the alarm.\u2019 is correct. The \u2018a\u2019 sound is repeated.",
+    "options": [
+      "Astronomers have observed the moon since time immemorial.",
+      "The powerful rocket zoomed through space like an eagle.",
+      "The planet is notorious for its abundance of volcanoes.",
+      "carpet of bright stars flickered enchantingly in the night sky.",
+      "The trembling astronaut accidentally pressed the alarm."
+    ]
+  },
+  {
+    "question_num": 32,
+    "text": "Identify the imagery technique in the sentence below.\n\nAfter hiking for several hours, the squashed sandwiches will taste like heaven.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\nThis sentence contains a simile \u2014 \u2018like heaven\u2019. The sandwiches are compared to heaven using the word \u2018like\u2019 to emphasise how good they will taste.",
+    "options": [
+      "simile",
+      "metaphor",
+      "personification"
+    ]
+  },
+  {
+    "question_num": 33,
+    "text": "The sentence below contains a metaphor. Work out which group of words contains this technique and choose the correct group.\n\nThe song was a key that unlocked a long-forgotten memory in Anna\u2019s mind about her life in Spain.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n\u2018The song was a key\u2019 is correct. A metaphor describes something as being something else. In this metaphor, the song is compared to a key to emphasise the effect that it has on Anna, but it is not literally a key.",
+    "options": [
+      "The song was a key",
+      "that unlocked a",
+      "long-forgotten memory",
+      "in Anna\u2019s mind about",
+      "her life in Spain."
+    ]
+  },
+  {
+    "question_num": 34,
+    "text": "Which is the best synonym for the word in bold in the sentence below?\n\nSasha remarked that Veena has an endearing personality.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\n\u2018endearing\u2019 and \u2018lovable\u2019 both mean \u2018charming\u2019.",
+    "options": [
+      "confident",
+      "lovable",
+      "belligerent",
+      "amusing",
+      "annoying"
+    ]
+  },
+  {
+    "question_num": 35,
+    "text": "Which is the onomatopoeic word in this sentence?\n\nIn the corner of the room, a small log fire crackled gently.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\n\u2018crackled\u2019 is correct. \u2018crackled\u2019 sounds like the noise the fire makes.",
+    "options": [
+      "gently",
+      "room",
+      "crackled",
+      "corner",
+      "fire"
+    ]
+  },
+  {
+    "question_num": 36,
+    "text": "The sentence below contains either one spelling mistake or no spelling mistakes. Choose the group of words which contains the mistake. If there\u2019s no mistake, choose \u2018no mistake\u2019.\n\n\u201cAs the air to the throne, you will reign over all of this magnificent land,\u201d proclaimed the king.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n\u2018air\u2019 should be \u2018heir\u2019. An \u2018heir\u2019 is somebody who will take over another person\u2019s responsibilities when they die and \u2018air\u2019 is the gases we breathe.",
+    "options": [
+      "\u201cAs the air to the throne,",
+      "you will reign over",
+      "all of this magnificent land,\u201d",
+      "proclaimed the king.",
+      "No mistake"
+    ]
+  },
+  {
+    "question_num": 37,
+    "text": "Choose the group of words which completes the sentence correctly.\n\nThe abandoned lighthouse must _______ built over 100 years ago.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\n\u2018have been\u2019 is correct because it completes the phrase \u2018must have been\u2019 and is consistent with the tense of the sentence.",
+    "options": [
+      "has been",
+      "had been",
+      "have been",
+      "of been",
+      "have being"
+    ]
+  },
+  {
+    "question_num": 38,
+    "text": "What type of word is \u2018freezing\u2019 in the following sentence?\n\nThe group of swimmers plunged into the freezing lake, then quickly regretted their decision.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n\u2018freezing\u2019 is an adjective in this sentence. It describes the noun \u2018lake\u2019.",
+    "options": [
+      "adjective",
+      "verb",
+      "adverb",
+      "preposition",
+      "abstract noun"
+    ]
+  },
+  {
+    "question_num": 39,
+    "text": "Which is the best antonym for the word in bold in the sentence below?\n\nThe freshly baked chocolate cake looked enticing.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\n\u2018enticing\u2019 means \u2018appealing\u2019, whereas \u2018repulsive\u2019 means \u2018unappealing\u2019.",
+    "options": [
+      "disappointing",
+      "excessive",
+      "unusual",
+      "repulsive",
+      "pleasing"
+    ]
+  },
+  {
+    "question_num": 40,
+    "text": "The sentence below contains either one spelling mistake or no spelling mistakes. Choose the group of words which contains the mistake. If there\u2019s no mistake, choose \u2018no mistake\u2019.\n\nThe shopkeeper guaranteed his price could not be beaten by other manufaturers.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\n\u2018manufaturers\u2019 should be \u2018manufacturers\u2019.",
+    "options": [
+      "The shopkeeper guaranteed",
+      "his price could not",
+      "be beaten by",
+      "other manufaturers.",
+      "No mistake"
+    ]
+  },
+  {
+    "question_num": 41,
+    "text": "The sentence below contains either one spelling mistake or no spelling mistakes. Choose the group of words which contains the mistake. If there\u2019s no mistake, choose \u2018no mistake\u2019.\n\n\u201cAs the air to the throne, you will reign over all of this magnificent land,\u201d proclaimed the king.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n\u2018air\u2019 should be \u2018heir\u2019. An \u2018heir\u2019 is somebody who will take over another person\u2019s responsibilities when they die and \u2018air\u2019 is the gases we breathe.",
+    "options": [
+      "\u201cAs the air to the throne,",
+      "you will reign over",
+      "all of this magnificent land,\u201d",
+      "proclaimed the king.",
+      "No mistake"
+    ]
+  },
+  {
+    "question_num": 42,
+    "text": "Which is the best antonym for the word in bold in the sentence below?\n\nPatrick spoke soberly about his day to his parents.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\n\u2018soberly\u2019 means \u2018gravely\u2019, whereas \u2018excitedly\u2019 means \u2018enthusiastically\u2019.",
+    "options": [
+      "chaotically",
+      "disrespectfully",
+      "eloquently",
+      "vividly",
+      "excitedly"
+    ]
+  },
+  {
+    "question_num": 43,
+    "text": "What type of word is \u2018freezing\u2019 in the following sentence?\n\nThe group of swimmers plunged into the freezing lake, then quickly regretted their decision.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\n\u2018freezing\u2019 is an adjective in this sentence. It describes the noun \u2018lake\u2019.",
+    "options": [
+      "adverb",
+      "preposition",
+      "abstract noun",
+      "verb",
+      "adjective"
+    ]
+  },
+  {
+    "question_num": 44,
+    "text": "The sentence below contains either one spelling mistake or no spelling mistakes. Choose the group of words which contains the mistake. If there\u2019s no mistake, choose \u2018no mistake\u2019.\n\nThe shopkeeper guaranteed his price could not be beaten by other manufaturers.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\n\u2018manufaturers\u2019 should be \u2018manufacturers\u2019.",
+    "options": [
+      "The shopkeeper guaranteed",
+      "his price could not",
+      "be beaten by",
+      "other manufaturers.",
+      "No mistake"
+    ]
+  },
+  {
+    "question_num": 45,
+    "text": "Choose the word which completes the sentence correctly.\n\nChristina poured the chemical into the test tube _______ it reached the brim.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\n\u2018until\u2019 is correct because it is the conjunction that makes the most sense in this sentence.",
+    "options": [
+      "during",
+      "after",
+      "towards",
+      "under",
+      "until"
+    ]
+  },
+  {
+    "question_num": 46,
+    "text": "The sentence below contains either one mistake involving punctuation or capital letters or no mistake. Choose the group of words which contains the mistake. If there\u2019s no mistake, choose \u2018No mistake\u2019.\n\nGeoffrey and Margaret the quick-witted parrots, amused everyone by copying Mr Warbrick\u2019s words.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\nThere should be a comma after \u2018Margaret\u2019 to separate the extra information from the rest of the sentence.",
+    "options": [
+      "Geoffrey and Margaret the",
+      "quick-witted parrots, amused",
+      "everyone by copying",
+      "Mr Warbrick\u2019s words.",
+      "No mistake"
+    ]
+  },
+  {
+    "question_num": 47,
+    "text": "In the sentence below, which of the words is a determiner?\n\nFew people I know dislike how chocolate tastes; most think it is irresistible.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\n\u2018Few\u2019 is a determiner that shows how many people dislike the taste of chocolate.",
+    "options": [
+      "most",
+      "Few",
+      "it",
+      "is",
+      "how"
+    ]
+  },
+  {
+    "question_num": 48,
+    "text": "Which of the following sentences contains alliteration?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\n\u2018The trembling astronaut accidentally pressed the alarm.\u2019 is correct. The \u2018a\u2019 sound is repeated.",
+    "options": [
+      "The planet is notorious for its abundance of volcanoes.",
+      "The powerful rocket zoomed through space like an eagle.",
+      "Astronomers have observed the moon since time immemorial.",
+      "The trembling astronaut accidentally pressed the alarm.",
+      "carpet of bright stars flickered enchantingly in the night sky."
+    ]
+  },
+  {
+    "question_num": 49,
+    "text": "Choose the group of words which completes the sentence correctly.\n\nThe abandoned lighthouse must _______ built over 100 years ago.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\n\u2018have been\u2019 is correct because it completes the phrase \u2018must have been\u2019 and is consistent with the tense of the sentence.",
+    "options": [
+      "have being",
+      "have been",
+      "had been",
+      "of been",
+      "has been"
+    ]
+  },
+  {
+    "question_num": 50,
+    "text": "The sentence below contains either one mistake involving punctuation or capital letters or no mistake. Choose the group of words which contains the mistake. If there\u2019s no mistake, choose \u2018No mistake\u2019.\n\n\u201cOur town\u2019s very proud that our womens\u2019 football team has won the championship,\u201d said the mayor.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\n\u2018women\u2019 is a plural word, but it doesn\u2019t end in \u2018s\u2019, so the possessive apostrophe should go before the \u2018s\u2019.",
+    "options": [
+      "\u201cOur town\u2019s very proud",
+      "that our womens\u2019 football",
+      "team has won the",
+      "championship,\u201d said the mayor.",
+      "No mistake"
+    ]
   }
 ]
