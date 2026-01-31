@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import mermaid from "mermaid";
 import Link from "next/link";
 import { ArrowLeft, Sparkles, Loader2, Download } from "lucide-react";
+import { API_BASE } from "@/lib/api";
 
 export default function VisualizePage() {
     const [topic, setTopic] = useState("");
@@ -43,8 +44,7 @@ export default function VisualizePage() {
         setDiagramCode("");
 
         try {
-            const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
-            const res = await fetch(`${API_URL}/visualize/generate`, {
+            const res = await fetch(`${API_BASE}/visualize/generate`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ topic }),

@@ -1,7 +1,7 @@
 [
   {
     "question_num": 1,
-    "text": "Choose the option\u00a0which is a top\u2011down 2D view of the 3D figure below.",
+    "text": "Choose the option which is a top‑down 2D view of the 3D figure below.",
     "question_image": "q1_question_0.png",
     "question_images": [
       "q1_question_0.png"
@@ -14,7 +14,7 @@
       "q1_option_4.png"
     ],
     "answer": "C",
-    "explanation": "The correct answer is c). There are five blocks visible from above, which rules out option\u00a0e). There is only one blue block visible from above, which rules out option\u00a0d). There are two blocks visible on the left\u2011hand side, which rules out option\u00a0b). There are only two blocks visible at the front, which rules out option\u00a0a).\n\nGlossary (opens in new tab) >",
+    "explanation": "The correct answer is c). There are five blocks visible from above, which rules out option e). There is only one blue block visible from above, which rules out option d). There are two blocks visible on the left‑hand side, which rules out option b). There are only two blocks visible at the front, which rules out option a).\n\nGlossary (opens in new tab) >",
     "options": [
       "a)",
       "b)",
@@ -62,7 +62,7 @@
       "q3_option_4.png"
     ],
     "answer": "A",
-    "explanation": "The correct answer is a) (BGN). B\u00a0=\u00a0four\u2011pointed star, C\u00a0=\u00a0five\u2011pointed star, D\u00a0=\u00a0six\u2011pointed star. F\u00a0=\u00a0black star, G\u00a0=\u00a0white star, H\u00a0=\u00a0grey star. M\u00a0=\u00a0lines on the left, N\u00a0=\u00a0lines on the right.\n\nGlossary (opens in new tab) >",
+    "explanation": "The correct answer is a) (BGN). B = four‑pointed star, C = five‑pointed star, D = six‑pointed star. F = black star, G = white star, H = grey star. M = lines on the left, N = lines on the right.\n\nGlossary (opens in new tab) >",
     "options": [
       "a)",
       "b)",
@@ -132,7 +132,7 @@
       "q6_option_4.png"
     ],
     "answer": "E",
-    "explanation": "The correct answer is e). Option\u00a0b) is ruled out because the wrong side of the rectangle is connected to the thin triangle. Option\u00a0c) is ruled out because the rectangle is connected to the wrong side of the thin triangle. Option\u00a0a) is ruled out because the wide triangle is connected to the wrong side of the thin triangle. Option\u00a0d) is ruled out because the rectangle is not connected to the thin triangle.\n\nGlossary (opens in new tab) >",
+    "explanation": "The correct answer is e). Option b) is ruled out because the wrong side of the rectangle is connected to the thin triangle. Option c) is ruled out because the rectangle is connected to the wrong side of the thin triangle. Option a) is ruled out because the wide triangle is connected to the wrong side of the thin triangle. Option d) is ruled out because the rectangle is not connected to the thin triangle.\n\nGlossary (opens in new tab) >",
     "options": [
       "a)",
       "b)",
@@ -228,7 +228,7 @@
       "q10_option_4.png"
     ],
     "answer": "B",
-    "explanation": "The correct answer is b). Working from left to right, the shape rotates 30\u00a0degrees clockwise and the dot alternates between black and white.\n\nGlossary (opens in new tab) >",
+    "explanation": "The correct answer is b). Working from left to right, the shape rotates 30 degrees clockwise and the dot alternates between black and white.\n\nGlossary (opens in new tab) >",
     "options": [
       "a)",
       "b)",
@@ -276,7 +276,7 @@
       "q42_option_4.png"
     ],
     "answer": "B",
-    "explanation": "Answer:\n\nThe correct answer is b). Working from left to right, the entire grid square rotates 180\u00a0degrees. The hatching then rotates 90\u00a0degrees.\n\nGlossary (opens in new tab) >",
+    "explanation": "Answer:\n\nThe correct answer is b). Working from left to right, the entire grid square rotates 180 degrees. The hatching then rotates 90 degrees.\n\nGlossary (opens in new tab) >",
     "options": [
       "a)",
       "b)",
@@ -301,7 +301,7 @@
       "q43_option_5.png"
     ],
     "answer": "D",
-    "explanation": "Answer:\n\nThe correct answer is d). Shape\u00a0d) has been rotated 90\u00a0degrees towards you, top\u2011to\u2011bottom.\n\nGlossary (opens in new tab) >",
+    "explanation": "Answer:\n\nThe correct answer is d). Shape d) has been rotated 90 degrees towards you, top‑to‑bottom.\n\nGlossary (opens in new tab) >",
     "options": [
       "a)",
       "b)",
@@ -350,7 +350,7 @@
       "q45_option_4.png"
     ],
     "answer": "E",
-    "explanation": "Answer:\n\nThe correct answer is e). The block at the top of set\u00a0e) is rotated 90\u00a0degrees left\u2011to\u2011right to become the block on the right\u2011hand side of the figure. The block at the bottom of set\u00a0e) goes on the left\u2011hand side of the figure, at the back. The remaining block in set\u00a0e) goes on top of this block.\n\nGlossary (opens in new tab) >",
+    "explanation": "Answer:\n\nThe correct answer is e). The block at the top of set e) is rotated 90 degrees left‑to‑right to become the block on the right‑hand side of the figure. The block at the bottom of set e) goes on the left‑hand side of the figure, at the back. The remaining block in set e) goes on top of this block.\n\nGlossary (opens in new tab) >",
     "options": [
       "a)",
       "b)",
@@ -398,7 +398,7 @@
       "q47_option_4.png"
     ],
     "answer": "D",
-    "explanation": "Answer:\n\nThe correct answer is d). Working from left to right, the shape rotates 30\u00a0degrees clockwise and the dot alternates between black and white.\n\nGlossary (opens in new tab) >",
+    "explanation": "Answer:\n\nThe correct answer is d). Working from left to right, the shape rotates 30 degrees clockwise and the dot alternates between black and white.\n\nGlossary (opens in new tab) >",
     "options": [
       "a)",
       "b)",
@@ -446,7 +446,7 @@
       "q49_option_4.png"
     ],
     "answer": "C",
-    "explanation": "Answer:\n\nThe correct answer is c). Option\u00a0b) is ruled out because the wrong side of the rectangle is connected to the thin triangle. Option\u00a0e) is ruled out because the rectangle is connected to the wrong side of the thin triangle. Option\u00a0d) is ruled out because the wide triangle is connected to the wrong side of the thin triangle. Option\u00a0a) is ruled out because the rectangle is not connected to the thin triangle.\n\nGlossary (opens in new tab) >",
+    "explanation": "Answer:\n\nThe correct answer is c). Option b) is ruled out because the wrong side of the rectangle is connected to the thin triangle. Option e) is ruled out because the rectangle is connected to the wrong side of the thin triangle. Option d) is ruled out because the wide triangle is connected to the wrong side of the thin triangle. Option a) is ruled out because the rectangle is not connected to the thin triangle.\n\nGlossary (opens in new tab) >",
     "options": [
       "a)",
       "b)",
@@ -470,7 +470,7 @@
       "q50_option_4.png"
     ],
     "answer": "A",
-    "explanation": "Answer:\n\nThe correct answer is a) (BGN). B\u00a0=\u00a0four\u2011pointed star, C\u00a0=\u00a0five\u2011pointed star, D\u00a0=\u00a0six\u2011pointed star. F\u00a0=\u00a0black star, G\u00a0=\u00a0white star, H\u00a0=\u00a0grey star. M\u00a0=\u00a0lines on the left, N\u00a0=\u00a0lines on the right.\n\nGlossary (opens in new tab) >",
+    "explanation": "Answer:\n\nThe correct answer is a) (BGN). B = four‑pointed star, C = five‑pointed star, D = six‑pointed star. F = black star, G = white star, H = grey star. M = lines on the left, N = lines on the right.\n\nGlossary (opens in new tab) >",
     "options": [
       "a)",
       "b)",
@@ -494,7 +494,7 @@
       "q51_option_4.png"
     ],
     "answer": "B",
-    "explanation": "Answer:\n\nThe correct answer is b). Option\u00a0c) is ruled out because the arrow and the grey shape must be on opposite sides. Option\u00a0d) is ruled out because the two black dots have the wrong rotation. Option\u00a0e) is ruled out because the grey shape has the wrong rotation. Option\u00a0a) is ruled out because the semicircle and the ladder shape must be on opposite sides.\n\nGlossary (opens in new tab) >",
+    "explanation": "Answer:\n\nThe correct answer is b). Option c) is ruled out because the arrow and the grey shape must be on opposite sides. Option d) is ruled out because the two black dots have the wrong rotation. Option e) is ruled out because the grey shape has the wrong rotation. Option a) is ruled out because the semicircle and the ladder shape must be on opposite sides.\n\nGlossary (opens in new tab) >",
     "options": [
       "a)",
       "b)",
@@ -518,7 +518,7 @@
       "q52_option_4.png"
     ],
     "answer": "A",
-    "explanation": "Answer:\n\nThe correct answer is a) (YB). X\u00a0=\u00a0diagonal inner lines, Y\u00a0=\u00a0horizontal and vertical inner lines. B\u00a0=\u00a0one grey section, C\u00a0=\u00a0two grey sections.\n\nGlossary (opens in new tab) >",
+    "explanation": "Answer:\n\nThe correct answer is a) (YB). X = diagonal inner lines, Y = horizontal and vertical inner lines. B = one grey section, C = two grey sections.\n\nGlossary (opens in new tab) >",
     "options": [
       "a)",
       "b)",
@@ -542,7 +542,7 @@
       "q53_option_4.png"
     ],
     "answer": "B",
-    "explanation": "Answer:\n\nThe correct answer is b). Option\u00a0e) is ruled out because the wrong side of the rectangle is connected to the thin triangle. Option\u00a0c) is ruled out because the rectangle is connected to the wrong side of the thin triangle. Option\u00a0d) is ruled out because the wide triangle is connected to the wrong side of the thin triangle. Option\u00a0a) is ruled out because the rectangle is not connected to the thin triangle.\n\nGlossary (opens in new tab) >",
+    "explanation": "Answer:\n\nThe correct answer is b). Option e) is ruled out because the wrong side of the rectangle is connected to the thin triangle. Option c) is ruled out because the rectangle is connected to the wrong side of the thin triangle. Option d) is ruled out because the wide triangle is connected to the wrong side of the thin triangle. Option a) is ruled out because the rectangle is not connected to the thin triangle.\n\nGlossary (opens in new tab) >",
     "options": [
       "a)",
       "b)",
@@ -590,7 +590,7 @@
       "q55_option_4.png"
     ],
     "answer": "C",
-    "explanation": "Answer:\n\nThe correct answer is c). Option\u00a0d) is ruled out because the fold line has moved. Options\u00a0b) and e) are ruled out because the part of the figure that has been folded is the wrong shape. Option\u00a0a) is ruled out because the figure has been broken apart along the fold line.\n\nGlossary (opens in new tab) >",
+    "explanation": "Answer:\n\nThe correct answer is c). Option d) is ruled out because the fold line has moved. Options b) and e) are ruled out because the part of the figure that has been folded is the wrong shape. Option a) is ruled out because the figure has been broken apart along the fold line.\n\nGlossary (opens in new tab) >",
     "options": [
       "a)",
       "b)",
@@ -636,7 +636,7 @@
       "q57_option_4.png"
     ],
     "answer": "C",
-    "explanation": "Answer:\n\nThe correct answer is c). Working from left to right, the shape rotates 30\u00a0degrees clockwise and the dot alternates between black and white.\n\nGlossary (opens in new tab) >",
+    "explanation": "Answer:\n\nThe correct answer is c). Working from left to right, the shape rotates 30 degrees clockwise and the dot alternates between black and white.\n\nGlossary (opens in new tab) >",
     "options": [
       "a)",
       "b)",
@@ -660,7 +660,7 @@
       "q58_option_4.png"
     ],
     "answer": "E",
-    "explanation": "Answer:\n\nThe correct answer is e) (EZ). E\u00a0=\u00a0the edges of the two ovals do not overlap, F\u00a0=\u00a0the edges of the two ovals overlap. Y\u00a0=\u00a0large oval has a dotted outline, small oval has a dashed outline, Z\u00a0=\u00a0large oval has a dashed outline, small oval has a dotted outline.\n\nGlossary (opens in new tab) >",
+    "explanation": "Answer:\n\nThe correct answer is e) (EZ). E = the edges of the two ovals do not overlap, F = the edges of the two ovals overlap. Y = large oval has a dotted outline, small oval has a dashed outline, Z = large oval has a dashed outline, small oval has a dotted outline.\n\nGlossary (opens in new tab) >",
     "options": [
       "a)",
       "b)",
@@ -684,7 +684,7 @@
       "q59_option_4.png"
     ],
     "answer": "C",
-    "explanation": "Answer:\n\nThe correct answer is c). The block at the top of set\u00a0c) is rotated 90\u00a0degrees left\u2011to\u2011right to become the block on the right\u2011hand side of the figure. The block at the bottom of set\u00a0c) goes on the left\u2011hand side of the figure, at the back. The remaining block in set\u00a0c) goes on top of this block.\n\nGlossary (opens in new tab) >",
+    "explanation": "Answer:\n\nThe correct answer is c). The block at the top of set c) is rotated 90 degrees left‑to‑right to become the block on the right‑hand side of the figure. The block at the bottom of set c) goes on the left‑hand side of the figure, at the back. The remaining block in set c) goes on top of this block.\n\nGlossary (opens in new tab) >",
     "options": [
       "a)",
       "b)",
@@ -709,7 +709,7 @@
       "q60_option_5.png"
     ],
     "answer": "B",
-    "explanation": "Answer:\n\nThe correct answer is b). Shape\u00a0b) has been rotated 180\u00a0degrees in the plane of the screen. It has then been rotated 90\u00a0degrees towards you, top\u2011to\u2011bottom.\n\nGlossary (opens in new tab) >",
+    "explanation": "Answer:\n\nThe correct answer is b). Shape b) has been rotated 180 degrees in the plane of the screen. It has then been rotated 90 degrees towards you, top‑to‑bottom.\n\nGlossary (opens in new tab) >",
     "options": [
       "a)",
       "b)",
@@ -721,7 +721,7 @@
   },
   {
     "question_num": 61,
-    "text": "Choose the option\u00a0which is a top\u2011down 2D view of the 3D figure below.",
+    "text": "Choose the option which is a top‑down 2D view of the 3D figure below.",
     "question_image": "q61_question_0.png",
     "question_images": [
       "q61_question_0.png"
@@ -734,7 +734,7 @@
       "q61_option_4.png"
     ],
     "answer": "A",
-    "explanation": "Answer:\n\nThe correct answer is a). There are five blocks visible from above, which rules out options\u00a0c) and b). There are two blocks visible in the middle row, which rules out options\u00a0d) and e).\n\nGlossary (opens in new tab) >",
+    "explanation": "Answer:\n\nThe correct answer is a). There are five blocks visible from above, which rules out options c) and b). There are two blocks visible in the middle row, which rules out options d) and e).\n\nGlossary (opens in new tab) >",
     "options": [
       "a)",
       "b)",
@@ -758,7 +758,7 @@
       "q62_option_4.png"
     ],
     "answer": "D",
-    "explanation": "Answer:\n\nThe correct answer is d). Working from left to right, the shape rotates 30\u00a0degrees clockwise and the dot alternates between black and white.\n\nGlossary (opens in new tab) >",
+    "explanation": "Answer:\n\nThe correct answer is d). Working from left to right, the shape rotates 30 degrees clockwise and the dot alternates between black and white.\n\nGlossary (opens in new tab) >",
     "options": [
       "a)",
       "b)",
@@ -806,7 +806,7 @@
       "q64_option_4.png"
     ],
     "answer": "A",
-    "explanation": "Answer:\n\nThe correct answer is a) (EZ). E\u00a0=\u00a0the edges of the two ovals do not overlap, F\u00a0=\u00a0the edges of the two ovals overlap. Y\u00a0=\u00a0large oval has a dotted outline, small oval has a dashed outline, Z\u00a0=\u00a0large oval has a dashed outline, small oval has a dotted outline.\n\nGlossary (opens in new tab) >",
+    "explanation": "Answer:\n\nThe correct answer is a) (EZ). E = the edges of the two ovals do not overlap, F = the edges of the two ovals overlap. Y = large oval has a dotted outline, small oval has a dashed outline, Z = large oval has a dashed outline, small oval has a dotted outline.\n\nGlossary (opens in new tab) >",
     "options": [
       "a)",
       "b)",
@@ -854,7 +854,7 @@
       "q66_option_4.png"
     ],
     "answer": "C",
-    "explanation": "Answer:\n\nThe correct answer is c) (KY). K\u00a0=\u00a0a triangle, L\u00a0=\u00a0a circle. X, Y and Z\u00a0=\u00a0the direction of the arrow.\n\nGlossary (opens in new tab) >",
+    "explanation": "Answer:\n\nThe correct answer is c) (KY). K = a triangle, L = a circle. X, Y and Z = the direction of the arrow.\n\nGlossary (opens in new tab) >",
     "options": [
       "a)",
       "b)",
@@ -900,7 +900,7 @@
       "q68_option_4.png"
     ],
     "answer": "A",
-    "explanation": "Answer:\n\nThe correct answer is a) (BGN). B\u00a0=\u00a0four\u2011pointed star, C\u00a0=\u00a0five\u2011pointed star, D\u00a0=\u00a0six\u2011pointed star. F\u00a0=\u00a0black star, G\u00a0=\u00a0white star, H\u00a0=\u00a0grey star. M\u00a0=\u00a0lines on the left, N\u00a0=\u00a0lines on the right.\n\nGlossary (opens in new tab) >",
+    "explanation": "Answer:\n\nThe correct answer is a) (BGN). B = four‑pointed star, C = five‑pointed star, D = six‑pointed star. F = black star, G = white star, H = grey star. M = lines on the left, N = lines on the right.\n\nGlossary (opens in new tab) >",
     "options": [
       "a)",
       "b)",
@@ -925,7 +925,7 @@
       "q69_option_5.png"
     ],
     "answer": "F",
-    "explanation": "Answer:\n\nThe correct answer is f). Shape\u00a0f) has been rotated 90\u00a0degrees towards you, top\u2011to\u2011bottom.\n\nGlossary (opens in new tab) >",
+    "explanation": "Answer:\n\nThe correct answer is f). Shape f) has been rotated 90 degrees towards you, top‑to‑bottom.\n\nGlossary (opens in new tab) >",
     "options": [
       "a)",
       "b)",
@@ -950,7 +950,7 @@
       "q70_option_4.png"
     ],
     "answer": "D",
-    "explanation": "Answer:\n\nThe correct answer is d). Option\u00a0b) is ruled out because the arrow and the grey shape must be on opposite sides. Option\u00a0c) is ruled out because the two black dots have the wrong rotation. Option\u00a0e) is ruled out because the grey shape has the wrong rotation. Option\u00a0a) is ruled out because the semicircle and the ladder shape must be on opposite sides.\n\nGlossary (opens in new tab) >",
+    "explanation": "Answer:\n\nThe correct answer is d). Option b) is ruled out because the arrow and the grey shape must be on opposite sides. Option c) is ruled out because the two black dots have the wrong rotation. Option e) is ruled out because the grey shape has the wrong rotation. Option a) is ruled out because the semicircle and the ladder shape must be on opposite sides.\n\nGlossary (opens in new tab) >",
     "options": [
       "a)",
       "b)",
@@ -958,5 +958,7129 @@
       "d)",
       "e)"
     ]
+  },
+  {
+    "question_num": 1,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q1_qonly.png",
+    "question_images": [
+      "gl_nvr1_q1_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q1_opt0.png",
+      "gl_nvr1_q1_opt1.png",
+      "gl_nvr1_q1_opt2.png",
+      "gl_nvr1_q1_opt3.png",
+      "gl_nvr1_q1_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 10,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q10_qonly.png",
+    "question_images": [
+      "gl_nvr1_q10_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q10_opt0.png",
+      "gl_nvr1_q10_opt1.png",
+      "gl_nvr1_q10_opt2.png",
+      "gl_nvr1_q10_opt3.png",
+      "gl_nvr1_q10_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 11,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q11_qonly.png",
+    "question_images": [
+      "gl_nvr1_q11_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q11_opt0.png",
+      "gl_nvr1_q11_opt1.png",
+      "gl_nvr1_q11_opt2.png",
+      "gl_nvr1_q11_opt3.png",
+      "gl_nvr1_q11_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 12,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q12_qonly.png",
+    "question_images": [
+      "gl_nvr1_q12_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q12_opt0.png",
+      "gl_nvr1_q12_opt1.png",
+      "gl_nvr1_q12_opt2.png",
+      "gl_nvr1_q12_opt3.png",
+      "gl_nvr1_q12_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 13,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q13_qonly.png",
+    "question_images": [
+      "gl_nvr1_q13_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q13_opt0.png",
+      "gl_nvr1_q13_opt1.png",
+      "gl_nvr1_q13_opt2.png",
+      "gl_nvr1_q13_opt3.png",
+      "gl_nvr1_q13_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 14,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q14_qonly.png",
+    "question_images": [
+      "gl_nvr1_q14_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q14_opt0.png",
+      "gl_nvr1_q14_opt1.png",
+      "gl_nvr1_q14_opt2.png",
+      "gl_nvr1_q14_opt3.png",
+      "gl_nvr1_q14_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 15,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q15_qonly.png",
+    "question_images": [
+      "gl_nvr1_q15_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q15_opt0.png",
+      "gl_nvr1_q15_opt1.png",
+      "gl_nvr1_q15_opt2.png",
+      "gl_nvr1_q15_opt3.png",
+      "gl_nvr1_q15_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 16,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q16_qonly.png",
+    "question_images": [
+      "gl_nvr1_q16_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q16_opt0.png",
+      "gl_nvr1_q16_opt1.png",
+      "gl_nvr1_q16_opt2.png",
+      "gl_nvr1_q16_opt3.png",
+      "gl_nvr1_q16_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 17,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q17_qonly.png",
+    "question_images": [
+      "gl_nvr1_q17_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q17_opt0.png",
+      "gl_nvr1_q17_opt1.png",
+      "gl_nvr1_q17_opt2.png",
+      "gl_nvr1_q17_opt3.png",
+      "gl_nvr1_q17_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 18,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q18_qonly.png",
+    "question_images": [
+      "gl_nvr1_q18_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q18_opt0.png",
+      "gl_nvr1_q18_opt1.png",
+      "gl_nvr1_q18_opt2.png",
+      "gl_nvr1_q18_opt3.png",
+      "gl_nvr1_q18_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 19,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q19_qonly.png",
+    "question_images": [
+      "gl_nvr1_q19_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q19_opt0.png",
+      "gl_nvr1_q19_opt1.png",
+      "gl_nvr1_q19_opt2.png",
+      "gl_nvr1_q19_opt3.png",
+      "gl_nvr1_q19_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 2,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q2_qonly.png",
+    "question_images": [
+      "gl_nvr1_q2_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q2_opt0.png",
+      "gl_nvr1_q2_opt1.png",
+      "gl_nvr1_q2_opt2.png",
+      "gl_nvr1_q2_opt3.png",
+      "gl_nvr1_q2_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 20,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q20_qonly.png",
+    "question_images": [
+      "gl_nvr1_q20_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q20_opt0.png",
+      "gl_nvr1_q20_opt1.png",
+      "gl_nvr1_q20_opt2.png",
+      "gl_nvr1_q20_opt3.png",
+      "gl_nvr1_q20_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 21,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q21_qonly.png",
+    "question_images": [
+      "gl_nvr1_q21_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q21_opt0.png",
+      "gl_nvr1_q21_opt1.png",
+      "gl_nvr1_q21_opt2.png",
+      "gl_nvr1_q21_opt3.png",
+      "gl_nvr1_q21_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 22,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q22_qonly.png",
+    "question_images": [
+      "gl_nvr1_q22_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q22_opt0.png",
+      "gl_nvr1_q22_opt1.png",
+      "gl_nvr1_q22_opt2.png",
+      "gl_nvr1_q22_opt3.png",
+      "gl_nvr1_q22_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 23,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q23_qonly.png",
+    "question_images": [
+      "gl_nvr1_q23_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q23_opt0.png",
+      "gl_nvr1_q23_opt1.png",
+      "gl_nvr1_q23_opt2.png",
+      "gl_nvr1_q23_opt3.png",
+      "gl_nvr1_q23_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 24,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q24_qonly.png",
+    "question_images": [
+      "gl_nvr1_q24_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q24_opt0.png",
+      "gl_nvr1_q24_opt1.png",
+      "gl_nvr1_q24_opt2.png",
+      "gl_nvr1_q24_opt3.png",
+      "gl_nvr1_q24_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 25,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q25_qonly.png",
+    "question_images": [
+      "gl_nvr1_q25_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q25_opt0.png",
+      "gl_nvr1_q25_opt1.png",
+      "gl_nvr1_q25_opt2.png",
+      "gl_nvr1_q25_opt3.png",
+      "gl_nvr1_q25_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 26,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q26_qonly.png",
+    "question_images": [
+      "gl_nvr1_q26_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q26_opt0.png",
+      "gl_nvr1_q26_opt1.png",
+      "gl_nvr1_q26_opt2.png",
+      "gl_nvr1_q26_opt3.png",
+      "gl_nvr1_q26_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 27,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q27_qonly.png",
+    "question_images": [
+      "gl_nvr1_q27_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q27_opt0.png",
+      "gl_nvr1_q27_opt1.png",
+      "gl_nvr1_q27_opt2.png",
+      "gl_nvr1_q27_opt3.png",
+      "gl_nvr1_q27_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 28,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q28_qonly.png",
+    "question_images": [
+      "gl_nvr1_q28_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q28_opt0.png",
+      "gl_nvr1_q28_opt1.png",
+      "gl_nvr1_q28_opt2.png",
+      "gl_nvr1_q28_opt3.png",
+      "gl_nvr1_q28_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 29,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q29_qonly.png",
+    "question_images": [
+      "gl_nvr1_q29_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q29_opt0.png",
+      "gl_nvr1_q29_opt1.png",
+      "gl_nvr1_q29_opt2.png",
+      "gl_nvr1_q29_opt3.png",
+      "gl_nvr1_q29_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 3,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q3_qonly.png",
+    "question_images": [
+      "gl_nvr1_q3_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q3_opt0.png",
+      "gl_nvr1_q3_opt1.png",
+      "gl_nvr1_q3_opt2.png",
+      "gl_nvr1_q3_opt3.png",
+      "gl_nvr1_q3_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 30,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q30_qonly.png",
+    "question_images": [
+      "gl_nvr1_q30_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q30_opt0.png",
+      "gl_nvr1_q30_opt1.png",
+      "gl_nvr1_q30_opt2.png",
+      "gl_nvr1_q30_opt3.png",
+      "gl_nvr1_q30_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 31,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q31_qonly.png",
+    "question_images": [
+      "gl_nvr1_q31_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q31_opt0.png",
+      "gl_nvr1_q31_opt1.png",
+      "gl_nvr1_q31_opt2.png",
+      "gl_nvr1_q31_opt3.png",
+      "gl_nvr1_q31_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 32,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q32_qonly.png",
+    "question_images": [
+      "gl_nvr1_q32_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q32_opt0.png",
+      "gl_nvr1_q32_opt1.png",
+      "gl_nvr1_q32_opt2.png",
+      "gl_nvr1_q32_opt3.png",
+      "gl_nvr1_q32_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 33,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q33_qonly.png",
+    "question_images": [
+      "gl_nvr1_q33_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q33_opt0.png",
+      "gl_nvr1_q33_opt1.png",
+      "gl_nvr1_q33_opt2.png",
+      "gl_nvr1_q33_opt3.png",
+      "gl_nvr1_q33_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 34,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q34_qonly.png",
+    "question_images": [
+      "gl_nvr1_q34_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q34_opt0.png",
+      "gl_nvr1_q34_opt1.png",
+      "gl_nvr1_q34_opt2.png",
+      "gl_nvr1_q34_opt3.png",
+      "gl_nvr1_q34_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 35,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q35_qonly.png",
+    "question_images": [
+      "gl_nvr1_q35_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q35_opt0.png",
+      "gl_nvr1_q35_opt1.png",
+      "gl_nvr1_q35_opt2.png",
+      "gl_nvr1_q35_opt3.png",
+      "gl_nvr1_q35_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 36,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q36_qonly.png",
+    "question_images": [
+      "gl_nvr1_q36_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q36_opt0.png",
+      "gl_nvr1_q36_opt1.png",
+      "gl_nvr1_q36_opt2.png",
+      "gl_nvr1_q36_opt3.png",
+      "gl_nvr1_q36_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 37,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q37_qonly.png",
+    "question_images": [
+      "gl_nvr1_q37_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q37_opt0.png",
+      "gl_nvr1_q37_opt1.png",
+      "gl_nvr1_q37_opt2.png",
+      "gl_nvr1_q37_opt3.png",
+      "gl_nvr1_q37_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 38,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q38_qonly.png",
+    "question_images": [
+      "gl_nvr1_q38_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q38_opt0.png",
+      "gl_nvr1_q38_opt1.png",
+      "gl_nvr1_q38_opt2.png",
+      "gl_nvr1_q38_opt3.png",
+      "gl_nvr1_q38_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 39,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q39_qonly.png",
+    "question_images": [
+      "gl_nvr1_q39_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q39_opt0.png",
+      "gl_nvr1_q39_opt1.png",
+      "gl_nvr1_q39_opt2.png",
+      "gl_nvr1_q39_opt3.png",
+      "gl_nvr1_q39_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 4,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q4_qonly.png",
+    "question_images": [
+      "gl_nvr1_q4_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q4_opt0.png",
+      "gl_nvr1_q4_opt1.png",
+      "gl_nvr1_q4_opt2.png",
+      "gl_nvr1_q4_opt3.png",
+      "gl_nvr1_q4_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 40,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q40_qonly.png",
+    "question_images": [
+      "gl_nvr1_q40_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q40_opt0.png",
+      "gl_nvr1_q40_opt1.png",
+      "gl_nvr1_q40_opt2.png",
+      "gl_nvr1_q40_opt3.png",
+      "gl_nvr1_q40_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 41,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q41_qonly.png",
+    "question_images": [
+      "gl_nvr1_q41_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q41_opt0.png",
+      "gl_nvr1_q41_opt1.png",
+      "gl_nvr1_q41_opt2.png",
+      "gl_nvr1_q41_opt3.png",
+      "gl_nvr1_q41_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 42,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q42_qonly.png",
+    "question_images": [
+      "gl_nvr1_q42_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q42_opt0.png",
+      "gl_nvr1_q42_opt1.png",
+      "gl_nvr1_q42_opt2.png",
+      "gl_nvr1_q42_opt3.png",
+      "gl_nvr1_q42_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 43,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q43_qonly.png",
+    "question_images": [
+      "gl_nvr1_q43_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q43_opt0.png",
+      "gl_nvr1_q43_opt1.png",
+      "gl_nvr1_q43_opt2.png",
+      "gl_nvr1_q43_opt3.png",
+      "gl_nvr1_q43_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 44,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q44_qonly.png",
+    "question_images": [
+      "gl_nvr1_q44_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q44_opt0.png",
+      "gl_nvr1_q44_opt1.png",
+      "gl_nvr1_q44_opt2.png",
+      "gl_nvr1_q44_opt3.png",
+      "gl_nvr1_q44_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 45,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q45_qonly.png",
+    "question_images": [
+      "gl_nvr1_q45_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q45_opt0.png",
+      "gl_nvr1_q45_opt1.png",
+      "gl_nvr1_q45_opt2.png",
+      "gl_nvr1_q45_opt3.png",
+      "gl_nvr1_q45_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 46,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q46_qonly.png",
+    "question_images": [
+      "gl_nvr1_q46_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q46_opt0.png",
+      "gl_nvr1_q46_opt1.png",
+      "gl_nvr1_q46_opt2.png",
+      "gl_nvr1_q46_opt3.png",
+      "gl_nvr1_q46_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 47,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q47_qonly.png",
+    "question_images": [
+      "gl_nvr1_q47_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q47_opt0.png",
+      "gl_nvr1_q47_opt1.png",
+      "gl_nvr1_q47_opt2.png",
+      "gl_nvr1_q47_opt3.png",
+      "gl_nvr1_q47_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 48,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q48_qonly.png",
+    "question_images": [
+      "gl_nvr1_q48_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q48_opt0.png",
+      "gl_nvr1_q48_opt1.png",
+      "gl_nvr1_q48_opt2.png",
+      "gl_nvr1_q48_opt3.png",
+      "gl_nvr1_q48_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 49,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q49_qonly.png",
+    "question_images": [
+      "gl_nvr1_q49_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q49_opt0.png",
+      "gl_nvr1_q49_opt1.png",
+      "gl_nvr1_q49_opt2.png",
+      "gl_nvr1_q49_opt3.png",
+      "gl_nvr1_q49_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 5,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q5_qonly.png",
+    "question_images": [
+      "gl_nvr1_q5_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q5_opt0.png",
+      "gl_nvr1_q5_opt1.png",
+      "gl_nvr1_q5_opt2.png",
+      "gl_nvr1_q5_opt3.png",
+      "gl_nvr1_q5_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 50,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q50_qonly.png",
+    "question_images": [
+      "gl_nvr1_q50_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q50_opt0.png",
+      "gl_nvr1_q50_opt1.png",
+      "gl_nvr1_q50_opt2.png",
+      "gl_nvr1_q50_opt3.png",
+      "gl_nvr1_q50_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 51,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q51_qonly.png",
+    "question_images": [
+      "gl_nvr1_q51_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q51_opt0.png",
+      "gl_nvr1_q51_opt1.png",
+      "gl_nvr1_q51_opt2.png",
+      "gl_nvr1_q51_opt3.png",
+      "gl_nvr1_q51_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 52,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q52_qonly.png",
+    "question_images": [
+      "gl_nvr1_q52_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q52_opt0.png",
+      "gl_nvr1_q52_opt1.png",
+      "gl_nvr1_q52_opt2.png",
+      "gl_nvr1_q52_opt3.png",
+      "gl_nvr1_q52_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 53,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q53_qonly.png",
+    "question_images": [
+      "gl_nvr1_q53_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q53_opt0.png",
+      "gl_nvr1_q53_opt1.png",
+      "gl_nvr1_q53_opt2.png",
+      "gl_nvr1_q53_opt3.png",
+      "gl_nvr1_q53_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 54,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q54_qonly.png",
+    "question_images": [
+      "gl_nvr1_q54_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q54_opt0.png",
+      "gl_nvr1_q54_opt1.png",
+      "gl_nvr1_q54_opt2.png",
+      "gl_nvr1_q54_opt3.png",
+      "gl_nvr1_q54_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 55,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q55_qonly.png",
+    "question_images": [
+      "gl_nvr1_q55_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q55_opt0.png",
+      "gl_nvr1_q55_opt1.png",
+      "gl_nvr1_q55_opt2.png",
+      "gl_nvr1_q55_opt3.png",
+      "gl_nvr1_q55_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 56,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q56_qonly.png",
+    "question_images": [
+      "gl_nvr1_q56_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q56_opt0.png",
+      "gl_nvr1_q56_opt1.png",
+      "gl_nvr1_q56_opt2.png",
+      "gl_nvr1_q56_opt3.png",
+      "gl_nvr1_q56_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 57,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q57_qonly.png",
+    "question_images": [
+      "gl_nvr1_q57_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q57_opt0.png",
+      "gl_nvr1_q57_opt1.png",
+      "gl_nvr1_q57_opt2.png",
+      "gl_nvr1_q57_opt3.png",
+      "gl_nvr1_q57_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 58,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q58_qonly.png",
+    "question_images": [
+      "gl_nvr1_q58_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q58_opt0.png",
+      "gl_nvr1_q58_opt1.png",
+      "gl_nvr1_q58_opt2.png",
+      "gl_nvr1_q58_opt3.png",
+      "gl_nvr1_q58_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 59,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q59_qonly.png",
+    "question_images": [
+      "gl_nvr1_q59_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q59_opt0.png",
+      "gl_nvr1_q59_opt1.png",
+      "gl_nvr1_q59_opt2.png",
+      "gl_nvr1_q59_opt3.png",
+      "gl_nvr1_q59_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 6,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q6_qonly.png",
+    "question_images": [
+      "gl_nvr1_q6_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q6_opt0.png",
+      "gl_nvr1_q6_opt1.png",
+      "gl_nvr1_q6_opt2.png",
+      "gl_nvr1_q6_opt3.png",
+      "gl_nvr1_q6_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 60,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q60_qonly.png",
+    "question_images": [
+      "gl_nvr1_q60_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q60_opt0.png",
+      "gl_nvr1_q60_opt1.png",
+      "gl_nvr1_q60_opt2.png",
+      "gl_nvr1_q60_opt3.png",
+      "gl_nvr1_q60_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 61,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q61_qonly.png",
+    "question_images": [
+      "gl_nvr1_q61_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q61_opt0.png",
+      "gl_nvr1_q61_opt1.png",
+      "gl_nvr1_q61_opt2.png",
+      "gl_nvr1_q61_opt3.png",
+      "gl_nvr1_q61_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 62,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q62_qonly.png",
+    "question_images": [
+      "gl_nvr1_q62_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q62_opt0.png",
+      "gl_nvr1_q62_opt1.png",
+      "gl_nvr1_q62_opt2.png",
+      "gl_nvr1_q62_opt3.png",
+      "gl_nvr1_q62_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 63,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q63_qonly.png",
+    "question_images": [
+      "gl_nvr1_q63_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q63_opt0.png",
+      "gl_nvr1_q63_opt1.png",
+      "gl_nvr1_q63_opt2.png",
+      "gl_nvr1_q63_opt3.png",
+      "gl_nvr1_q63_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 64,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q64_qonly.png",
+    "question_images": [
+      "gl_nvr1_q64_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q64_opt0.png",
+      "gl_nvr1_q64_opt1.png",
+      "gl_nvr1_q64_opt2.png",
+      "gl_nvr1_q64_opt3.png",
+      "gl_nvr1_q64_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 65,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q65_qonly.png",
+    "question_images": [
+      "gl_nvr1_q65_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q65_opt0.png",
+      "gl_nvr1_q65_opt1.png",
+      "gl_nvr1_q65_opt2.png",
+      "gl_nvr1_q65_opt3.png",
+      "gl_nvr1_q65_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 66,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q66_qonly.png",
+    "question_images": [
+      "gl_nvr1_q66_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q66_opt0.png",
+      "gl_nvr1_q66_opt1.png",
+      "gl_nvr1_q66_opt2.png",
+      "gl_nvr1_q66_opt3.png",
+      "gl_nvr1_q66_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 67,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q67_qonly.png",
+    "question_images": [
+      "gl_nvr1_q67_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q67_opt0.png",
+      "gl_nvr1_q67_opt1.png",
+      "gl_nvr1_q67_opt2.png",
+      "gl_nvr1_q67_opt3.png",
+      "gl_nvr1_q67_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 68,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q68_qonly.png",
+    "question_images": [
+      "gl_nvr1_q68_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q68_opt0.png",
+      "gl_nvr1_q68_opt1.png",
+      "gl_nvr1_q68_opt2.png",
+      "gl_nvr1_q68_opt3.png",
+      "gl_nvr1_q68_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 69,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q69_qonly.png",
+    "question_images": [
+      "gl_nvr1_q69_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q69_opt0.png",
+      "gl_nvr1_q69_opt1.png",
+      "gl_nvr1_q69_opt2.png",
+      "gl_nvr1_q69_opt3.png",
+      "gl_nvr1_q69_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 7,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q7_qonly.png",
+    "question_images": [
+      "gl_nvr1_q7_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q7_opt0.png",
+      "gl_nvr1_q7_opt1.png",
+      "gl_nvr1_q7_opt2.png",
+      "gl_nvr1_q7_opt3.png",
+      "gl_nvr1_q7_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 70,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q70_qonly.png",
+    "question_images": [
+      "gl_nvr1_q70_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q70_opt0.png",
+      "gl_nvr1_q70_opt1.png",
+      "gl_nvr1_q70_opt2.png",
+      "gl_nvr1_q70_opt3.png",
+      "gl_nvr1_q70_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 71,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q71_qonly.png",
+    "question_images": [
+      "gl_nvr1_q71_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q71_opt0.png",
+      "gl_nvr1_q71_opt1.png",
+      "gl_nvr1_q71_opt2.png",
+      "gl_nvr1_q71_opt3.png",
+      "gl_nvr1_q71_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 72,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q72_qonly.png",
+    "question_images": [
+      "gl_nvr1_q72_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q72_opt0.png",
+      "gl_nvr1_q72_opt1.png",
+      "gl_nvr1_q72_opt2.png",
+      "gl_nvr1_q72_opt3.png",
+      "gl_nvr1_q72_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 73,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q73_qonly.png",
+    "question_images": [
+      "gl_nvr1_q73_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q73_opt0.png",
+      "gl_nvr1_q73_opt1.png",
+      "gl_nvr1_q73_opt2.png",
+      "gl_nvr1_q73_opt3.png",
+      "gl_nvr1_q73_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 74,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q74_qonly.png",
+    "question_images": [
+      "gl_nvr1_q74_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q74_opt0.png",
+      "gl_nvr1_q74_opt1.png",
+      "gl_nvr1_q74_opt2.png",
+      "gl_nvr1_q74_opt3.png",
+      "gl_nvr1_q74_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 75,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q75_qonly.png",
+    "question_images": [
+      "gl_nvr1_q75_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q75_opt0.png",
+      "gl_nvr1_q75_opt1.png",
+      "gl_nvr1_q75_opt2.png",
+      "gl_nvr1_q75_opt3.png",
+      "gl_nvr1_q75_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 76,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q76_qonly.png",
+    "question_images": [
+      "gl_nvr1_q76_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q76_opt0.png",
+      "gl_nvr1_q76_opt1.png",
+      "gl_nvr1_q76_opt2.png",
+      "gl_nvr1_q76_opt3.png",
+      "gl_nvr1_q76_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 77,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q77_qonly.png",
+    "question_images": [
+      "gl_nvr1_q77_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q77_opt0.png",
+      "gl_nvr1_q77_opt1.png",
+      "gl_nvr1_q77_opt2.png",
+      "gl_nvr1_q77_opt3.png",
+      "gl_nvr1_q77_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 78,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q78_qonly.png",
+    "question_images": [
+      "gl_nvr1_q78_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q78_opt0.png",
+      "gl_nvr1_q78_opt1.png",
+      "gl_nvr1_q78_opt2.png",
+      "gl_nvr1_q78_opt3.png",
+      "gl_nvr1_q78_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 79,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q79_qonly.png",
+    "question_images": [
+      "gl_nvr1_q79_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q79_opt0.png",
+      "gl_nvr1_q79_opt1.png",
+      "gl_nvr1_q79_opt2.png",
+      "gl_nvr1_q79_opt3.png",
+      "gl_nvr1_q79_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 8,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q8_qonly.png",
+    "question_images": [
+      "gl_nvr1_q8_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q8_opt0.png",
+      "gl_nvr1_q8_opt1.png",
+      "gl_nvr1_q8_opt2.png",
+      "gl_nvr1_q8_opt3.png",
+      "gl_nvr1_q8_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 80,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q80_qonly.png",
+    "question_images": [
+      "gl_nvr1_q80_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q80_opt0.png",
+      "gl_nvr1_q80_opt1.png",
+      "gl_nvr1_q80_opt2.png",
+      "gl_nvr1_q80_opt3.png",
+      "gl_nvr1_q80_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 9,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr1_q9_qonly.png",
+    "question_images": [
+      "gl_nvr1_q9_qonly.png"
+    ],
+    "images": [
+      "gl_nvr1_q9_opt0.png",
+      "gl_nvr1_q9_opt1.png",
+      "gl_nvr1_q9_opt2.png",
+      "gl_nvr1_q9_opt3.png",
+      "gl_nvr1_q9_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 1",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 10,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q10_qonly.png",
+    "question_images": [
+      "gl_nvr11_q10_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q10_opt0.png",
+      "gl_nvr11_q10_opt1.png",
+      "gl_nvr11_q10_opt2.png",
+      "gl_nvr11_q10_opt3.png",
+      "gl_nvr11_q10_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 11,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q11_qonly.png",
+    "question_images": [
+      "gl_nvr11_q11_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q11_opt0.png",
+      "gl_nvr11_q11_opt1.png",
+      "gl_nvr11_q11_opt2.png",
+      "gl_nvr11_q11_opt3.png",
+      "gl_nvr11_q11_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 12,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q12_qonly.png",
+    "question_images": [
+      "gl_nvr11_q12_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q12_opt0.png",
+      "gl_nvr11_q12_opt1.png",
+      "gl_nvr11_q12_opt2.png",
+      "gl_nvr11_q12_opt3.png",
+      "gl_nvr11_q12_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 13,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q13_qonly.png",
+    "question_images": [
+      "gl_nvr11_q13_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q13_opt0.png",
+      "gl_nvr11_q13_opt1.png",
+      "gl_nvr11_q13_opt2.png",
+      "gl_nvr11_q13_opt3.png",
+      "gl_nvr11_q13_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 14,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q14_qonly.png",
+    "question_images": [
+      "gl_nvr11_q14_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q14_opt0.png",
+      "gl_nvr11_q14_opt1.png",
+      "gl_nvr11_q14_opt2.png",
+      "gl_nvr11_q14_opt3.png",
+      "gl_nvr11_q14_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 15,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q15_qonly.png",
+    "question_images": [
+      "gl_nvr11_q15_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q15_opt0.png",
+      "gl_nvr11_q15_opt1.png",
+      "gl_nvr11_q15_opt2.png",
+      "gl_nvr11_q15_opt3.png",
+      "gl_nvr11_q15_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 16,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q16_qonly.png",
+    "question_images": [
+      "gl_nvr11_q16_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q16_opt0.png",
+      "gl_nvr11_q16_opt1.png",
+      "gl_nvr11_q16_opt2.png",
+      "gl_nvr11_q16_opt3.png",
+      "gl_nvr11_q16_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 17,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q17_qonly.png",
+    "question_images": [
+      "gl_nvr11_q17_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q17_opt0.png",
+      "gl_nvr11_q17_opt1.png",
+      "gl_nvr11_q17_opt2.png",
+      "gl_nvr11_q17_opt3.png",
+      "gl_nvr11_q17_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 18,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q18_qonly.png",
+    "question_images": [
+      "gl_nvr11_q18_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q18_opt0.png",
+      "gl_nvr11_q18_opt1.png",
+      "gl_nvr11_q18_opt2.png",
+      "gl_nvr11_q18_opt3.png",
+      "gl_nvr11_q18_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 19,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q19_qonly.png",
+    "question_images": [
+      "gl_nvr11_q19_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q19_opt0.png",
+      "gl_nvr11_q19_opt1.png",
+      "gl_nvr11_q19_opt2.png",
+      "gl_nvr11_q19_opt3.png",
+      "gl_nvr11_q19_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 20,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q20_qonly.png",
+    "question_images": [
+      "gl_nvr11_q20_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q20_opt0.png",
+      "gl_nvr11_q20_opt1.png",
+      "gl_nvr11_q20_opt2.png",
+      "gl_nvr11_q20_opt3.png",
+      "gl_nvr11_q20_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 21,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q21_qonly.png",
+    "question_images": [
+      "gl_nvr11_q21_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q21_opt0.png",
+      "gl_nvr11_q21_opt1.png",
+      "gl_nvr11_q21_opt2.png",
+      "gl_nvr11_q21_opt3.png",
+      "gl_nvr11_q21_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 22,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q22_qonly.png",
+    "question_images": [
+      "gl_nvr11_q22_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q22_opt0.png",
+      "gl_nvr11_q22_opt1.png",
+      "gl_nvr11_q22_opt2.png",
+      "gl_nvr11_q22_opt3.png",
+      "gl_nvr11_q22_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 23,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q23_qonly.png",
+    "question_images": [
+      "gl_nvr11_q23_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q23_opt0.png",
+      "gl_nvr11_q23_opt1.png",
+      "gl_nvr11_q23_opt2.png",
+      "gl_nvr11_q23_opt3.png",
+      "gl_nvr11_q23_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 24,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q24_qonly.png",
+    "question_images": [
+      "gl_nvr11_q24_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q24_opt0.png",
+      "gl_nvr11_q24_opt1.png",
+      "gl_nvr11_q24_opt2.png",
+      "gl_nvr11_q24_opt3.png",
+      "gl_nvr11_q24_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 25,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q25_qonly.png",
+    "question_images": [
+      "gl_nvr11_q25_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q25_opt0.png",
+      "gl_nvr11_q25_opt1.png",
+      "gl_nvr11_q25_opt2.png",
+      "gl_nvr11_q25_opt3.png",
+      "gl_nvr11_q25_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 26,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q26_qonly.png",
+    "question_images": [
+      "gl_nvr11_q26_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q26_opt0.png",
+      "gl_nvr11_q26_opt1.png",
+      "gl_nvr11_q26_opt2.png",
+      "gl_nvr11_q26_opt3.png",
+      "gl_nvr11_q26_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 27,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q27_qonly.png",
+    "question_images": [
+      "gl_nvr11_q27_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q27_opt0.png",
+      "gl_nvr11_q27_opt1.png",
+      "gl_nvr11_q27_opt2.png",
+      "gl_nvr11_q27_opt3.png",
+      "gl_nvr11_q27_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 28,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q28_qonly.png",
+    "question_images": [
+      "gl_nvr11_q28_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q28_opt0.png",
+      "gl_nvr11_q28_opt1.png",
+      "gl_nvr11_q28_opt2.png",
+      "gl_nvr11_q28_opt3.png",
+      "gl_nvr11_q28_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 29,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q29_qonly.png",
+    "question_images": [
+      "gl_nvr11_q29_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q29_opt0.png",
+      "gl_nvr11_q29_opt1.png",
+      "gl_nvr11_q29_opt2.png",
+      "gl_nvr11_q29_opt3.png",
+      "gl_nvr11_q29_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 31,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q31_qonly.png",
+    "question_images": [
+      "gl_nvr11_q31_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q31_opt0.png",
+      "gl_nvr11_q31_opt1.png",
+      "gl_nvr11_q31_opt2.png",
+      "gl_nvr11_q31_opt3.png",
+      "gl_nvr11_q31_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 32,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q32_qonly.png",
+    "question_images": [
+      "gl_nvr11_q32_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q32_opt0.png",
+      "gl_nvr11_q32_opt1.png",
+      "gl_nvr11_q32_opt2.png",
+      "gl_nvr11_q32_opt3.png",
+      "gl_nvr11_q32_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 33,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q33_qonly.png",
+    "question_images": [
+      "gl_nvr11_q33_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q33_opt0.png",
+      "gl_nvr11_q33_opt1.png",
+      "gl_nvr11_q33_opt2.png",
+      "gl_nvr11_q33_opt3.png",
+      "gl_nvr11_q33_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 34,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q34_qonly.png",
+    "question_images": [
+      "gl_nvr11_q34_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q34_opt0.png",
+      "gl_nvr11_q34_opt1.png",
+      "gl_nvr11_q34_opt2.png",
+      "gl_nvr11_q34_opt3.png",
+      "gl_nvr11_q34_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 35,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q35_qonly.png",
+    "question_images": [
+      "gl_nvr11_q35_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q35_opt0.png",
+      "gl_nvr11_q35_opt1.png",
+      "gl_nvr11_q35_opt2.png",
+      "gl_nvr11_q35_opt3.png",
+      "gl_nvr11_q35_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 36,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q36_qonly.png",
+    "question_images": [
+      "gl_nvr11_q36_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q36_opt0.png",
+      "gl_nvr11_q36_opt1.png",
+      "gl_nvr11_q36_opt2.png",
+      "gl_nvr11_q36_opt3.png",
+      "gl_nvr11_q36_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 37,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q37_qonly.png",
+    "question_images": [
+      "gl_nvr11_q37_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q37_opt0.png",
+      "gl_nvr11_q37_opt1.png",
+      "gl_nvr11_q37_opt2.png",
+      "gl_nvr11_q37_opt3.png",
+      "gl_nvr11_q37_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 38,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q38_qonly.png",
+    "question_images": [
+      "gl_nvr11_q38_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q38_opt0.png",
+      "gl_nvr11_q38_opt1.png",
+      "gl_nvr11_q38_opt2.png",
+      "gl_nvr11_q38_opt3.png",
+      "gl_nvr11_q38_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 39,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q39_qonly.png",
+    "question_images": [
+      "gl_nvr11_q39_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q39_opt0.png",
+      "gl_nvr11_q39_opt1.png",
+      "gl_nvr11_q39_opt2.png",
+      "gl_nvr11_q39_opt3.png",
+      "gl_nvr11_q39_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 40,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q40_qonly.png",
+    "question_images": [
+      "gl_nvr11_q40_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q40_opt0.png",
+      "gl_nvr11_q40_opt1.png",
+      "gl_nvr11_q40_opt2.png",
+      "gl_nvr11_q40_opt3.png",
+      "gl_nvr11_q40_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 50,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q50_qonly.png",
+    "question_images": [
+      "gl_nvr11_q50_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q50_opt0.png",
+      "gl_nvr11_q50_opt1.png",
+      "gl_nvr11_q50_opt2.png",
+      "gl_nvr11_q50_opt3.png",
+      "gl_nvr11_q50_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 6,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q6_qonly.png",
+    "question_images": [
+      "gl_nvr11_q6_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q6_opt0.png",
+      "gl_nvr11_q6_opt1.png",
+      "gl_nvr11_q6_opt2.png",
+      "gl_nvr11_q6_opt3.png",
+      "gl_nvr11_q6_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 7,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q7_qonly.png",
+    "question_images": [
+      "gl_nvr11_q7_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q7_opt0.png",
+      "gl_nvr11_q7_opt1.png",
+      "gl_nvr11_q7_opt2.png",
+      "gl_nvr11_q7_opt3.png",
+      "gl_nvr11_q7_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 8,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q8_qonly.png",
+    "question_images": [
+      "gl_nvr11_q8_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q8_opt0.png",
+      "gl_nvr11_q8_opt1.png",
+      "gl_nvr11_q8_opt2.png",
+      "gl_nvr11_q8_opt3.png",
+      "gl_nvr11_q8_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 9,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr11_q9_qonly.png",
+    "question_images": [
+      "gl_nvr11_q9_qonly.png"
+    ],
+    "images": [
+      "gl_nvr11_q9_opt0.png",
+      "gl_nvr11_q9_opt1.png",
+      "gl_nvr11_q9_opt2.png",
+      "gl_nvr11_q9_opt3.png",
+      "gl_nvr11_q9_opt4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 11",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 1,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q1_qonly.png",
+    "question_images": [
+      "gl_nvr2_q1_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q1_opt0.png",
+      "gl_nvr2_q1_opt1.png",
+      "gl_nvr2_q1_opt2.png",
+      "gl_nvr2_q1_opt3.png",
+      "gl_nvr2_q1_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 10,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q10_qonly.png",
+    "question_images": [
+      "gl_nvr2_q10_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q10_opt0.png",
+      "gl_nvr2_q10_opt1.png",
+      "gl_nvr2_q10_opt2.png",
+      "gl_nvr2_q10_opt3.png",
+      "gl_nvr2_q10_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 11,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q11_qonly.png",
+    "question_images": [
+      "gl_nvr2_q11_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q11_opt0.png",
+      "gl_nvr2_q11_opt1.png",
+      "gl_nvr2_q11_opt2.png",
+      "gl_nvr2_q11_opt3.png",
+      "gl_nvr2_q11_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 12,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q12_qonly.png",
+    "question_images": [
+      "gl_nvr2_q12_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q12_opt0.png",
+      "gl_nvr2_q12_opt1.png",
+      "gl_nvr2_q12_opt2.png",
+      "gl_nvr2_q12_opt3.png",
+      "gl_nvr2_q12_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 13,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q13_qonly.png",
+    "question_images": [
+      "gl_nvr2_q13_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q13_opt0.png",
+      "gl_nvr2_q13_opt1.png",
+      "gl_nvr2_q13_opt2.png",
+      "gl_nvr2_q13_opt3.png",
+      "gl_nvr2_q13_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 14,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q14_qonly.png",
+    "question_images": [
+      "gl_nvr2_q14_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q14_opt0.png",
+      "gl_nvr2_q14_opt1.png",
+      "gl_nvr2_q14_opt2.png",
+      "gl_nvr2_q14_opt3.png",
+      "gl_nvr2_q14_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 15,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q15_qonly.png",
+    "question_images": [
+      "gl_nvr2_q15_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q15_opt0.png",
+      "gl_nvr2_q15_opt1.png",
+      "gl_nvr2_q15_opt2.png",
+      "gl_nvr2_q15_opt3.png",
+      "gl_nvr2_q15_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 16,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q16_qonly.png",
+    "question_images": [
+      "gl_nvr2_q16_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q16_opt0.png",
+      "gl_nvr2_q16_opt1.png",
+      "gl_nvr2_q16_opt2.png",
+      "gl_nvr2_q16_opt3.png",
+      "gl_nvr2_q16_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 17,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q17_qonly.png",
+    "question_images": [
+      "gl_nvr2_q17_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q17_opt0.png",
+      "gl_nvr2_q17_opt1.png",
+      "gl_nvr2_q17_opt2.png",
+      "gl_nvr2_q17_opt3.png",
+      "gl_nvr2_q17_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 18,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q18_qonly.png",
+    "question_images": [
+      "gl_nvr2_q18_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q18_opt0.png",
+      "gl_nvr2_q18_opt1.png",
+      "gl_nvr2_q18_opt2.png",
+      "gl_nvr2_q18_opt3.png",
+      "gl_nvr2_q18_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 19,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q19_qonly.png",
+    "question_images": [
+      "gl_nvr2_q19_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q19_opt0.png",
+      "gl_nvr2_q19_opt1.png",
+      "gl_nvr2_q19_opt2.png",
+      "gl_nvr2_q19_opt3.png",
+      "gl_nvr2_q19_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 2,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q2_qonly.png",
+    "question_images": [
+      "gl_nvr2_q2_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q2_opt0.png",
+      "gl_nvr2_q2_opt1.png",
+      "gl_nvr2_q2_opt2.png",
+      "gl_nvr2_q2_opt3.png",
+      "gl_nvr2_q2_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 20,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q20_qonly.png",
+    "question_images": [
+      "gl_nvr2_q20_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q20_opt0.png",
+      "gl_nvr2_q20_opt1.png",
+      "gl_nvr2_q20_opt2.png",
+      "gl_nvr2_q20_opt3.png",
+      "gl_nvr2_q20_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 21,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q21_qonly.png",
+    "question_images": [
+      "gl_nvr2_q21_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q21_opt0.png",
+      "gl_nvr2_q21_opt1.png",
+      "gl_nvr2_q21_opt2.png",
+      "gl_nvr2_q21_opt3.png",
+      "gl_nvr2_q21_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 22,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q22_qonly.png",
+    "question_images": [
+      "gl_nvr2_q22_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q22_opt0.png",
+      "gl_nvr2_q22_opt1.png",
+      "gl_nvr2_q22_opt2.png",
+      "gl_nvr2_q22_opt3.png",
+      "gl_nvr2_q22_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 23,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q23_qonly.png",
+    "question_images": [
+      "gl_nvr2_q23_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q23_opt0.png",
+      "gl_nvr2_q23_opt1.png",
+      "gl_nvr2_q23_opt2.png",
+      "gl_nvr2_q23_opt3.png",
+      "gl_nvr2_q23_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 24,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q24_qonly.png",
+    "question_images": [
+      "gl_nvr2_q24_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q24_opt0.png",
+      "gl_nvr2_q24_opt1.png",
+      "gl_nvr2_q24_opt2.png",
+      "gl_nvr2_q24_opt3.png",
+      "gl_nvr2_q24_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 25,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q25_qonly.png",
+    "question_images": [
+      "gl_nvr2_q25_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q25_opt0.png",
+      "gl_nvr2_q25_opt1.png",
+      "gl_nvr2_q25_opt2.png",
+      "gl_nvr2_q25_opt3.png",
+      "gl_nvr2_q25_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 26,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q26_qonly.png",
+    "question_images": [
+      "gl_nvr2_q26_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q26_opt0.png",
+      "gl_nvr2_q26_opt1.png",
+      "gl_nvr2_q26_opt2.png",
+      "gl_nvr2_q26_opt3.png",
+      "gl_nvr2_q26_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 27,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q27_qonly.png",
+    "question_images": [
+      "gl_nvr2_q27_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q27_opt0.png",
+      "gl_nvr2_q27_opt1.png",
+      "gl_nvr2_q27_opt2.png",
+      "gl_nvr2_q27_opt3.png",
+      "gl_nvr2_q27_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 28,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q28_qonly.png",
+    "question_images": [
+      "gl_nvr2_q28_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q28_opt0.png",
+      "gl_nvr2_q28_opt1.png",
+      "gl_nvr2_q28_opt2.png",
+      "gl_nvr2_q28_opt3.png",
+      "gl_nvr2_q28_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 29,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q29_qonly.png",
+    "question_images": [
+      "gl_nvr2_q29_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q29_opt0.png",
+      "gl_nvr2_q29_opt1.png",
+      "gl_nvr2_q29_opt2.png",
+      "gl_nvr2_q29_opt3.png",
+      "gl_nvr2_q29_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 3,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q3_qonly.png",
+    "question_images": [
+      "gl_nvr2_q3_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q3_opt0.png",
+      "gl_nvr2_q3_opt1.png",
+      "gl_nvr2_q3_opt2.png",
+      "gl_nvr2_q3_opt3.png",
+      "gl_nvr2_q3_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 30,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q30_qonly.png",
+    "question_images": [
+      "gl_nvr2_q30_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q30_opt0.png",
+      "gl_nvr2_q30_opt1.png",
+      "gl_nvr2_q30_opt2.png",
+      "gl_nvr2_q30_opt3.png",
+      "gl_nvr2_q30_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 31,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q31_qonly.png",
+    "question_images": [
+      "gl_nvr2_q31_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q31_opt0.png",
+      "gl_nvr2_q31_opt1.png",
+      "gl_nvr2_q31_opt2.png",
+      "gl_nvr2_q31_opt3.png",
+      "gl_nvr2_q31_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 32,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q32_qonly.png",
+    "question_images": [
+      "gl_nvr2_q32_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q32_opt0.png",
+      "gl_nvr2_q32_opt1.png",
+      "gl_nvr2_q32_opt2.png",
+      "gl_nvr2_q32_opt3.png",
+      "gl_nvr2_q32_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 33,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q33_qonly.png",
+    "question_images": [
+      "gl_nvr2_q33_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q33_opt0.png",
+      "gl_nvr2_q33_opt1.png",
+      "gl_nvr2_q33_opt2.png",
+      "gl_nvr2_q33_opt3.png",
+      "gl_nvr2_q33_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 34,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q34_qonly.png",
+    "question_images": [
+      "gl_nvr2_q34_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q34_opt0.png",
+      "gl_nvr2_q34_opt1.png",
+      "gl_nvr2_q34_opt2.png",
+      "gl_nvr2_q34_opt3.png",
+      "gl_nvr2_q34_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 35,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q35_qonly.png",
+    "question_images": [
+      "gl_nvr2_q35_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q35_opt0.png",
+      "gl_nvr2_q35_opt1.png",
+      "gl_nvr2_q35_opt2.png",
+      "gl_nvr2_q35_opt3.png",
+      "gl_nvr2_q35_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 36,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q36_qonly.png",
+    "question_images": [
+      "gl_nvr2_q36_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q36_opt0.png",
+      "gl_nvr2_q36_opt1.png",
+      "gl_nvr2_q36_opt2.png",
+      "gl_nvr2_q36_opt3.png",
+      "gl_nvr2_q36_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 37,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q37_qonly.png",
+    "question_images": [
+      "gl_nvr2_q37_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q37_opt0.png",
+      "gl_nvr2_q37_opt1.png",
+      "gl_nvr2_q37_opt2.png",
+      "gl_nvr2_q37_opt3.png",
+      "gl_nvr2_q37_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 38,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q38_qonly.png",
+    "question_images": [
+      "gl_nvr2_q38_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q38_opt0.png",
+      "gl_nvr2_q38_opt1.png",
+      "gl_nvr2_q38_opt2.png",
+      "gl_nvr2_q38_opt3.png",
+      "gl_nvr2_q38_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 39,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q39_qonly.png",
+    "question_images": [
+      "gl_nvr2_q39_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q39_opt0.png",
+      "gl_nvr2_q39_opt1.png",
+      "gl_nvr2_q39_opt2.png",
+      "gl_nvr2_q39_opt3.png",
+      "gl_nvr2_q39_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 4,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q4_qonly.png",
+    "question_images": [
+      "gl_nvr2_q4_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q4_opt0.png",
+      "gl_nvr2_q4_opt1.png",
+      "gl_nvr2_q4_opt2.png",
+      "gl_nvr2_q4_opt3.png",
+      "gl_nvr2_q4_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 40,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q40_qonly.png",
+    "question_images": [
+      "gl_nvr2_q40_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q40_opt0.png",
+      "gl_nvr2_q40_opt1.png",
+      "gl_nvr2_q40_opt2.png",
+      "gl_nvr2_q40_opt3.png",
+      "gl_nvr2_q40_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 41,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q41.png",
+    "question_images": [
+      "gl_nvr2_q41.png"
+    ],
+    "images": [
+      "gl_nvr2_q41_opt0.png",
+      "gl_nvr2_q41_opt1.png",
+      "gl_nvr2_q41_opt2.png",
+      "gl_nvr2_q41_opt3.png",
+      "gl_nvr2_q41_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 42,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q42_qonly.png",
+    "question_images": [
+      "gl_nvr2_q42_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q42_opt0.png",
+      "gl_nvr2_q42_opt1.png",
+      "gl_nvr2_q42_opt2.png",
+      "gl_nvr2_q42_opt3.png",
+      "gl_nvr2_q42_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 43,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q43_qonly.png",
+    "question_images": [
+      "gl_nvr2_q43_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q43_opt0.png",
+      "gl_nvr2_q43_opt1.png",
+      "gl_nvr2_q43_opt2.png",
+      "gl_nvr2_q43_opt3.png",
+      "gl_nvr2_q43_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 44,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q44.png",
+    "question_images": [
+      "gl_nvr2_q44.png"
+    ],
+    "images": [
+      "gl_nvr2_q44_opt0.png",
+      "gl_nvr2_q44_opt1.png",
+      "gl_nvr2_q44_opt2.png",
+      "gl_nvr2_q44_opt3.png",
+      "gl_nvr2_q44_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 45,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q45.png",
+    "question_images": [
+      "gl_nvr2_q45.png"
+    ],
+    "images": [
+      "gl_nvr2_q45_opt0.png",
+      "gl_nvr2_q45_opt1.png",
+      "gl_nvr2_q45_opt2.png",
+      "gl_nvr2_q45_opt3.png",
+      "gl_nvr2_q45_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 46,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q46.png",
+    "question_images": [
+      "gl_nvr2_q46.png"
+    ],
+    "images": [
+      "gl_nvr2_q46_opt0.png",
+      "gl_nvr2_q46_opt1.png",
+      "gl_nvr2_q46_opt2.png",
+      "gl_nvr2_q46_opt3.png",
+      "gl_nvr2_q46_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 47,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q47_qonly.png",
+    "question_images": [
+      "gl_nvr2_q47_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q47_opt0.png",
+      "gl_nvr2_q47_opt1.png",
+      "gl_nvr2_q47_opt2.png",
+      "gl_nvr2_q47_opt3.png",
+      "gl_nvr2_q47_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 48,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q48.png",
+    "question_images": [
+      "gl_nvr2_q48.png"
+    ],
+    "images": [
+      "gl_nvr2_q48_opt0.png",
+      "gl_nvr2_q48_opt1.png",
+      "gl_nvr2_q48_opt2.png",
+      "gl_nvr2_q48_opt3.png",
+      "gl_nvr2_q48_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 49,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q49_qonly.png",
+    "question_images": [
+      "gl_nvr2_q49_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q49_opt0.png",
+      "gl_nvr2_q49_opt1.png",
+      "gl_nvr2_q49_opt2.png",
+      "gl_nvr2_q49_opt3.png",
+      "gl_nvr2_q49_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 5,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q5_qonly.png",
+    "question_images": [
+      "gl_nvr2_q5_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q5_opt0.png",
+      "gl_nvr2_q5_opt1.png",
+      "gl_nvr2_q5_opt2.png",
+      "gl_nvr2_q5_opt3.png",
+      "gl_nvr2_q5_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 50,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q50.png",
+    "question_images": [
+      "gl_nvr2_q50.png"
+    ],
+    "images": [
+      "gl_nvr2_q50_opt0.png",
+      "gl_nvr2_q50_opt1.png",
+      "gl_nvr2_q50_opt2.png",
+      "gl_nvr2_q50_opt3.png",
+      "gl_nvr2_q50_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 51,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q51.png",
+    "question_images": [
+      "gl_nvr2_q51.png"
+    ],
+    "images": [
+      "gl_nvr2_q51_opt0.png",
+      "gl_nvr2_q51_opt1.png",
+      "gl_nvr2_q51_opt2.png",
+      "gl_nvr2_q51_opt3.png",
+      "gl_nvr2_q51_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 52,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q52.png",
+    "question_images": [
+      "gl_nvr2_q52.png"
+    ],
+    "images": [
+      "gl_nvr2_q52_opt0.png",
+      "gl_nvr2_q52_opt1.png",
+      "gl_nvr2_q52_opt2.png",
+      "gl_nvr2_q52_opt3.png",
+      "gl_nvr2_q52_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 53,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q53.png",
+    "question_images": [
+      "gl_nvr2_q53.png"
+    ],
+    "images": [
+      "gl_nvr2_q53_opt0.png",
+      "gl_nvr2_q53_opt1.png",
+      "gl_nvr2_q53_opt2.png",
+      "gl_nvr2_q53_opt3.png",
+      "gl_nvr2_q53_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 54,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q54.png",
+    "question_images": [
+      "gl_nvr2_q54.png"
+    ],
+    "images": [
+      "gl_nvr2_q54_opt0.png",
+      "gl_nvr2_q54_opt1.png",
+      "gl_nvr2_q54_opt2.png",
+      "gl_nvr2_q54_opt3.png",
+      "gl_nvr2_q54_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 55,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q55.png",
+    "question_images": [
+      "gl_nvr2_q55.png"
+    ],
+    "images": [
+      "gl_nvr2_q55_opt0.png",
+      "gl_nvr2_q55_opt1.png",
+      "gl_nvr2_q55_opt2.png",
+      "gl_nvr2_q55_opt3.png",
+      "gl_nvr2_q55_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 56,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q56.png",
+    "question_images": [
+      "gl_nvr2_q56.png"
+    ],
+    "images": [
+      "gl_nvr2_q56_opt0.png",
+      "gl_nvr2_q56_opt1.png",
+      "gl_nvr2_q56_opt2.png",
+      "gl_nvr2_q56_opt3.png",
+      "gl_nvr2_q56_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 57,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q57_qonly.png",
+    "question_images": [
+      "gl_nvr2_q57_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q57_opt0.png",
+      "gl_nvr2_q57_opt1.png",
+      "gl_nvr2_q57_opt2.png",
+      "gl_nvr2_q57_opt3.png",
+      "gl_nvr2_q57_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 58,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q58.png",
+    "question_images": [
+      "gl_nvr2_q58.png"
+    ],
+    "images": [
+      "gl_nvr2_q58_opt0.png",
+      "gl_nvr2_q58_opt1.png",
+      "gl_nvr2_q58_opt2.png",
+      "gl_nvr2_q58_opt3.png",
+      "gl_nvr2_q58_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 59,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q59_qonly.png",
+    "question_images": [
+      "gl_nvr2_q59_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q59_opt0.png",
+      "gl_nvr2_q59_opt1.png",
+      "gl_nvr2_q59_opt2.png",
+      "gl_nvr2_q59_opt3.png",
+      "gl_nvr2_q59_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 6,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q6_qonly.png",
+    "question_images": [
+      "gl_nvr2_q6_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q6_opt0.png",
+      "gl_nvr2_q6_opt1.png",
+      "gl_nvr2_q6_opt2.png",
+      "gl_nvr2_q6_opt3.png",
+      "gl_nvr2_q6_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 60,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q60.png",
+    "question_images": [
+      "gl_nvr2_q60.png"
+    ],
+    "images": [
+      "gl_nvr2_q60_opt0.png",
+      "gl_nvr2_q60_opt1.png",
+      "gl_nvr2_q60_opt2.png",
+      "gl_nvr2_q60_opt3.png",
+      "gl_nvr2_q60_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 61,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q61_qonly.png",
+    "question_images": [
+      "gl_nvr2_q61_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q61_opt0.png",
+      "gl_nvr2_q61_opt1.png",
+      "gl_nvr2_q61_opt2.png",
+      "gl_nvr2_q61_opt3.png",
+      "gl_nvr2_q61_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 62,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q62_qonly.png",
+    "question_images": [
+      "gl_nvr2_q62_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q62_opt0.png",
+      "gl_nvr2_q62_opt1.png",
+      "gl_nvr2_q62_opt2.png",
+      "gl_nvr2_q62_opt3.png",
+      "gl_nvr2_q62_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 63,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q63_qonly.png",
+    "question_images": [
+      "gl_nvr2_q63_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q63_opt0.png",
+      "gl_nvr2_q63_opt1.png",
+      "gl_nvr2_q63_opt2.png",
+      "gl_nvr2_q63_opt3.png",
+      "gl_nvr2_q63_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 64,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q64_qonly.png",
+    "question_images": [
+      "gl_nvr2_q64_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q64_opt0.png",
+      "gl_nvr2_q64_opt1.png",
+      "gl_nvr2_q64_opt2.png",
+      "gl_nvr2_q64_opt3.png",
+      "gl_nvr2_q64_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 65,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q65_qonly.png",
+    "question_images": [
+      "gl_nvr2_q65_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q65_opt0.png",
+      "gl_nvr2_q65_opt1.png",
+      "gl_nvr2_q65_opt2.png",
+      "gl_nvr2_q65_opt3.png",
+      "gl_nvr2_q65_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 66,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q66_qonly.png",
+    "question_images": [
+      "gl_nvr2_q66_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q66_opt0.png",
+      "gl_nvr2_q66_opt1.png",
+      "gl_nvr2_q66_opt2.png",
+      "gl_nvr2_q66_opt3.png",
+      "gl_nvr2_q66_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 67,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q67_qonly.png",
+    "question_images": [
+      "gl_nvr2_q67_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q67_opt0.png",
+      "gl_nvr2_q67_opt1.png",
+      "gl_nvr2_q67_opt2.png",
+      "gl_nvr2_q67_opt3.png",
+      "gl_nvr2_q67_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 68,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q68_qonly.png",
+    "question_images": [
+      "gl_nvr2_q68_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q68_opt0.png",
+      "gl_nvr2_q68_opt1.png",
+      "gl_nvr2_q68_opt2.png",
+      "gl_nvr2_q68_opt3.png",
+      "gl_nvr2_q68_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 69,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q69_qonly.png",
+    "question_images": [
+      "gl_nvr2_q69_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q69_opt0.png",
+      "gl_nvr2_q69_opt1.png",
+      "gl_nvr2_q69_opt2.png",
+      "gl_nvr2_q69_opt3.png",
+      "gl_nvr2_q69_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 7,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q7_qonly.png",
+    "question_images": [
+      "gl_nvr2_q7_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q7_opt0.png",
+      "gl_nvr2_q7_opt1.png",
+      "gl_nvr2_q7_opt2.png",
+      "gl_nvr2_q7_opt3.png",
+      "gl_nvr2_q7_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 70,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q70_qonly.png",
+    "question_images": [
+      "gl_nvr2_q70_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q70_opt0.png",
+      "gl_nvr2_q70_opt1.png",
+      "gl_nvr2_q70_opt2.png",
+      "gl_nvr2_q70_opt3.png",
+      "gl_nvr2_q70_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 71,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q71_qonly.png",
+    "question_images": [
+      "gl_nvr2_q71_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q71_opt0.png",
+      "gl_nvr2_q71_opt1.png",
+      "gl_nvr2_q71_opt2.png",
+      "gl_nvr2_q71_opt3.png",
+      "gl_nvr2_q71_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 72,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q72_qonly.png",
+    "question_images": [
+      "gl_nvr2_q72_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q72_opt0.png",
+      "gl_nvr2_q72_opt1.png",
+      "gl_nvr2_q72_opt2.png",
+      "gl_nvr2_q72_opt3.png",
+      "gl_nvr2_q72_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 73,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q73_qonly.png",
+    "question_images": [
+      "gl_nvr2_q73_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q73_opt0.png",
+      "gl_nvr2_q73_opt1.png",
+      "gl_nvr2_q73_opt2.png",
+      "gl_nvr2_q73_opt3.png",
+      "gl_nvr2_q73_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 74,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q74_qonly.png",
+    "question_images": [
+      "gl_nvr2_q74_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q74_opt0.png",
+      "gl_nvr2_q74_opt1.png",
+      "gl_nvr2_q74_opt2.png",
+      "gl_nvr2_q74_opt3.png",
+      "gl_nvr2_q74_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 75,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q75_qonly.png",
+    "question_images": [
+      "gl_nvr2_q75_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q75_opt0.png",
+      "gl_nvr2_q75_opt1.png",
+      "gl_nvr2_q75_opt2.png",
+      "gl_nvr2_q75_opt3.png",
+      "gl_nvr2_q75_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 76,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q76_qonly.png",
+    "question_images": [
+      "gl_nvr2_q76_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q76_opt0.png",
+      "gl_nvr2_q76_opt1.png",
+      "gl_nvr2_q76_opt2.png",
+      "gl_nvr2_q76_opt3.png",
+      "gl_nvr2_q76_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 77,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q77_qonly.png",
+    "question_images": [
+      "gl_nvr2_q77_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q77_opt0.png",
+      "gl_nvr2_q77_opt1.png",
+      "gl_nvr2_q77_opt2.png",
+      "gl_nvr2_q77_opt3.png",
+      "gl_nvr2_q77_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 79,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q79_qonly.png",
+    "question_images": [
+      "gl_nvr2_q79_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q79_opt0.png",
+      "gl_nvr2_q79_opt1.png",
+      "gl_nvr2_q79_opt2.png",
+      "gl_nvr2_q79_opt3.png",
+      "gl_nvr2_q79_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 8,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q8_qonly.png",
+    "question_images": [
+      "gl_nvr2_q8_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q8_opt0.png",
+      "gl_nvr2_q8_opt1.png",
+      "gl_nvr2_q8_opt2.png",
+      "gl_nvr2_q8_opt3.png",
+      "gl_nvr2_q8_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 80,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q80_qonly.png",
+    "question_images": [
+      "gl_nvr2_q80_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q80_opt0.png",
+      "gl_nvr2_q80_opt1.png",
+      "gl_nvr2_q80_opt2.png",
+      "gl_nvr2_q80_opt3.png",
+      "gl_nvr2_q80_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 9,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr2_q9_qonly.png",
+    "question_images": [
+      "gl_nvr2_q9_qonly.png"
+    ],
+    "images": [
+      "gl_nvr2_q9_opt0.png",
+      "gl_nvr2_q9_opt1.png",
+      "gl_nvr2_q9_opt2.png",
+      "gl_nvr2_q9_opt3.png",
+      "gl_nvr2_q9_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 2",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 1,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q1_qonly.png",
+    "question_images": [
+      "gl_nvr3_q1_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q1_opt0.png",
+      "gl_nvr3_q1_opt1.png",
+      "gl_nvr3_q1_opt2.png",
+      "gl_nvr3_q1_opt3.png",
+      "gl_nvr3_q1_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 10,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q10_qonly.png",
+    "question_images": [
+      "gl_nvr3_q10_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q10_opt0.png",
+      "gl_nvr3_q10_opt1.png",
+      "gl_nvr3_q10_opt2.png",
+      "gl_nvr3_q10_opt3.png",
+      "gl_nvr3_q10_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 11,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q11_qonly.png",
+    "question_images": [
+      "gl_nvr3_q11_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q11_opt0.png",
+      "gl_nvr3_q11_opt1.png",
+      "gl_nvr3_q11_opt2.png",
+      "gl_nvr3_q11_opt3.png",
+      "gl_nvr3_q11_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 12,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q12_qonly.png",
+    "question_images": [
+      "gl_nvr3_q12_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q12_opt0.png",
+      "gl_nvr3_q12_opt1.png",
+      "gl_nvr3_q12_opt2.png",
+      "gl_nvr3_q12_opt3.png",
+      "gl_nvr3_q12_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 13,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q13_qonly.png",
+    "question_images": [
+      "gl_nvr3_q13_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q13_opt0.png",
+      "gl_nvr3_q13_opt1.png",
+      "gl_nvr3_q13_opt2.png",
+      "gl_nvr3_q13_opt3.png",
+      "gl_nvr3_q13_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 14,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q14_qonly.png",
+    "question_images": [
+      "gl_nvr3_q14_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q14_opt0.png",
+      "gl_nvr3_q14_opt1.png",
+      "gl_nvr3_q14_opt2.png",
+      "gl_nvr3_q14_opt3.png",
+      "gl_nvr3_q14_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 15,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q15_qonly.png",
+    "question_images": [
+      "gl_nvr3_q15_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q15_opt0.png",
+      "gl_nvr3_q15_opt1.png",
+      "gl_nvr3_q15_opt2.png",
+      "gl_nvr3_q15_opt3.png",
+      "gl_nvr3_q15_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 16,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q16_qonly.png",
+    "question_images": [
+      "gl_nvr3_q16_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q16_opt0.png",
+      "gl_nvr3_q16_opt1.png",
+      "gl_nvr3_q16_opt2.png",
+      "gl_nvr3_q16_opt3.png",
+      "gl_nvr3_q16_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 17,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q17_qonly.png",
+    "question_images": [
+      "gl_nvr3_q17_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q17_opt0.png",
+      "gl_nvr3_q17_opt1.png",
+      "gl_nvr3_q17_opt2.png",
+      "gl_nvr3_q17_opt3.png",
+      "gl_nvr3_q17_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 18,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q18_qonly.png",
+    "question_images": [
+      "gl_nvr3_q18_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q18_opt0.png",
+      "gl_nvr3_q18_opt1.png",
+      "gl_nvr3_q18_opt2.png",
+      "gl_nvr3_q18_opt3.png",
+      "gl_nvr3_q18_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 19,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q19_qonly.png",
+    "question_images": [
+      "gl_nvr3_q19_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q19_opt0.png",
+      "gl_nvr3_q19_opt1.png",
+      "gl_nvr3_q19_opt2.png",
+      "gl_nvr3_q19_opt3.png",
+      "gl_nvr3_q19_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 2,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q2_qonly.png",
+    "question_images": [
+      "gl_nvr3_q2_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q2_opt0.png",
+      "gl_nvr3_q2_opt1.png",
+      "gl_nvr3_q2_opt2.png",
+      "gl_nvr3_q2_opt3.png",
+      "gl_nvr3_q2_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 20,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q20_qonly.png",
+    "question_images": [
+      "gl_nvr3_q20_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q20_opt0.png",
+      "gl_nvr3_q20_opt1.png",
+      "gl_nvr3_q20_opt2.png",
+      "gl_nvr3_q20_opt3.png",
+      "gl_nvr3_q20_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 21,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q21_qonly.png",
+    "question_images": [
+      "gl_nvr3_q21_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q21_opt0.png",
+      "gl_nvr3_q21_opt1.png",
+      "gl_nvr3_q21_opt2.png",
+      "gl_nvr3_q21_opt3.png",
+      "gl_nvr3_q21_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 22,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q22_qonly.png",
+    "question_images": [
+      "gl_nvr3_q22_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q22_opt0.png",
+      "gl_nvr3_q22_opt1.png",
+      "gl_nvr3_q22_opt2.png",
+      "gl_nvr3_q22_opt3.png",
+      "gl_nvr3_q22_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 23,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q23_qonly.png",
+    "question_images": [
+      "gl_nvr3_q23_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q23_opt0.png",
+      "gl_nvr3_q23_opt1.png",
+      "gl_nvr3_q23_opt2.png",
+      "gl_nvr3_q23_opt3.png",
+      "gl_nvr3_q23_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 24,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q24_qonly.png",
+    "question_images": [
+      "gl_nvr3_q24_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q24_opt0.png",
+      "gl_nvr3_q24_opt1.png",
+      "gl_nvr3_q24_opt2.png",
+      "gl_nvr3_q24_opt3.png",
+      "gl_nvr3_q24_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 25,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q25_qonly.png",
+    "question_images": [
+      "gl_nvr3_q25_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q25_opt0.png",
+      "gl_nvr3_q25_opt1.png",
+      "gl_nvr3_q25_opt2.png",
+      "gl_nvr3_q25_opt3.png",
+      "gl_nvr3_q25_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 26,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q26_qonly.png",
+    "question_images": [
+      "gl_nvr3_q26_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q26_opt0.png",
+      "gl_nvr3_q26_opt1.png",
+      "gl_nvr3_q26_opt2.png",
+      "gl_nvr3_q26_opt3.png",
+      "gl_nvr3_q26_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 27,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q27_qonly.png",
+    "question_images": [
+      "gl_nvr3_q27_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q27_opt0.png",
+      "gl_nvr3_q27_opt1.png",
+      "gl_nvr3_q27_opt2.png",
+      "gl_nvr3_q27_opt3.png",
+      "gl_nvr3_q27_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 28,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q28_qonly.png",
+    "question_images": [
+      "gl_nvr3_q28_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q28_opt0.png",
+      "gl_nvr3_q28_opt1.png",
+      "gl_nvr3_q28_opt2.png",
+      "gl_nvr3_q28_opt3.png",
+      "gl_nvr3_q28_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 29,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q29_qonly.png",
+    "question_images": [
+      "gl_nvr3_q29_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q29_opt0.png",
+      "gl_nvr3_q29_opt1.png",
+      "gl_nvr3_q29_opt2.png",
+      "gl_nvr3_q29_opt3.png",
+      "gl_nvr3_q29_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 3,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q3_qonly.png",
+    "question_images": [
+      "gl_nvr3_q3_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q3_opt0.png",
+      "gl_nvr3_q3_opt1.png",
+      "gl_nvr3_q3_opt2.png",
+      "gl_nvr3_q3_opt3.png",
+      "gl_nvr3_q3_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 30,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q30_qonly.png",
+    "question_images": [
+      "gl_nvr3_q30_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q30_opt0.png",
+      "gl_nvr3_q30_opt1.png",
+      "gl_nvr3_q30_opt2.png",
+      "gl_nvr3_q30_opt3.png",
+      "gl_nvr3_q30_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 31,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q31_qonly.png",
+    "question_images": [
+      "gl_nvr3_q31_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q31_opt0.png",
+      "gl_nvr3_q31_opt1.png",
+      "gl_nvr3_q31_opt2.png",
+      "gl_nvr3_q31_opt3.png",
+      "gl_nvr3_q31_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 32,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q32_qonly.png",
+    "question_images": [
+      "gl_nvr3_q32_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q32_opt0.png",
+      "gl_nvr3_q32_opt1.png",
+      "gl_nvr3_q32_opt2.png",
+      "gl_nvr3_q32_opt3.png",
+      "gl_nvr3_q32_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 33,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q33_qonly.png",
+    "question_images": [
+      "gl_nvr3_q33_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q33_opt0.png",
+      "gl_nvr3_q33_opt1.png",
+      "gl_nvr3_q33_opt2.png",
+      "gl_nvr3_q33_opt3.png",
+      "gl_nvr3_q33_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 34,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q34_qonly.png",
+    "question_images": [
+      "gl_nvr3_q34_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q34_opt0.png",
+      "gl_nvr3_q34_opt1.png",
+      "gl_nvr3_q34_opt2.png",
+      "gl_nvr3_q34_opt3.png",
+      "gl_nvr3_q34_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 35,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q35_qonly.png",
+    "question_images": [
+      "gl_nvr3_q35_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q35_opt0.png",
+      "gl_nvr3_q35_opt1.png",
+      "gl_nvr3_q35_opt2.png",
+      "gl_nvr3_q35_opt3.png",
+      "gl_nvr3_q35_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 36,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q36_qonly.png",
+    "question_images": [
+      "gl_nvr3_q36_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q36_opt0.png",
+      "gl_nvr3_q36_opt1.png",
+      "gl_nvr3_q36_opt2.png",
+      "gl_nvr3_q36_opt3.png",
+      "gl_nvr3_q36_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 37,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q37_qonly.png",
+    "question_images": [
+      "gl_nvr3_q37_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q37_opt0.png",
+      "gl_nvr3_q37_opt1.png",
+      "gl_nvr3_q37_opt2.png",
+      "gl_nvr3_q37_opt3.png",
+      "gl_nvr3_q37_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 38,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q38_qonly.png",
+    "question_images": [
+      "gl_nvr3_q38_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q38_opt0.png",
+      "gl_nvr3_q38_opt1.png",
+      "gl_nvr3_q38_opt2.png",
+      "gl_nvr3_q38_opt3.png",
+      "gl_nvr3_q38_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 39,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q39_qonly.png",
+    "question_images": [
+      "gl_nvr3_q39_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q39_opt0.png",
+      "gl_nvr3_q39_opt1.png",
+      "gl_nvr3_q39_opt2.png",
+      "gl_nvr3_q39_opt3.png",
+      "gl_nvr3_q39_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 4,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q4_qonly.png",
+    "question_images": [
+      "gl_nvr3_q4_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q4_opt0.png",
+      "gl_nvr3_q4_opt1.png",
+      "gl_nvr3_q4_opt2.png",
+      "gl_nvr3_q4_opt3.png",
+      "gl_nvr3_q4_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 40,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q40_qonly.png",
+    "question_images": [
+      "gl_nvr3_q40_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q40_opt0.png",
+      "gl_nvr3_q40_opt1.png",
+      "gl_nvr3_q40_opt2.png",
+      "gl_nvr3_q40_opt3.png",
+      "gl_nvr3_q40_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 41,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q41_qonly.png",
+    "question_images": [
+      "gl_nvr3_q41_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q41_opt0.png",
+      "gl_nvr3_q41_opt1.png",
+      "gl_nvr3_q41_opt2.png",
+      "gl_nvr3_q41_opt3.png",
+      "gl_nvr3_q41_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 42,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q42_qonly.png",
+    "question_images": [
+      "gl_nvr3_q42_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q42_opt0.png",
+      "gl_nvr3_q42_opt1.png",
+      "gl_nvr3_q42_opt2.png",
+      "gl_nvr3_q42_opt3.png",
+      "gl_nvr3_q42_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 43,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q43_qonly.png",
+    "question_images": [
+      "gl_nvr3_q43_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q43_opt0.png",
+      "gl_nvr3_q43_opt1.png",
+      "gl_nvr3_q43_opt2.png",
+      "gl_nvr3_q43_opt3.png",
+      "gl_nvr3_q43_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 44,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q44_qonly.png",
+    "question_images": [
+      "gl_nvr3_q44_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q44_opt0.png",
+      "gl_nvr3_q44_opt1.png",
+      "gl_nvr3_q44_opt2.png",
+      "gl_nvr3_q44_opt3.png",
+      "gl_nvr3_q44_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 45,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q45_qonly.png",
+    "question_images": [
+      "gl_nvr3_q45_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q45_opt0.png",
+      "gl_nvr3_q45_opt1.png",
+      "gl_nvr3_q45_opt2.png",
+      "gl_nvr3_q45_opt3.png",
+      "gl_nvr3_q45_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 46,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q46_qonly.png",
+    "question_images": [
+      "gl_nvr3_q46_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q46_opt0.png",
+      "gl_nvr3_q46_opt1.png",
+      "gl_nvr3_q46_opt2.png",
+      "gl_nvr3_q46_opt3.png",
+      "gl_nvr3_q46_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 47,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q47_qonly.png",
+    "question_images": [
+      "gl_nvr3_q47_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q47_opt0.png",
+      "gl_nvr3_q47_opt1.png",
+      "gl_nvr3_q47_opt2.png",
+      "gl_nvr3_q47_opt3.png",
+      "gl_nvr3_q47_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 48,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q48_qonly.png",
+    "question_images": [
+      "gl_nvr3_q48_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q48_opt0.png",
+      "gl_nvr3_q48_opt1.png",
+      "gl_nvr3_q48_opt2.png",
+      "gl_nvr3_q48_opt3.png",
+      "gl_nvr3_q48_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 49,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q49_qonly.png",
+    "question_images": [
+      "gl_nvr3_q49_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q49_opt0.png",
+      "gl_nvr3_q49_opt1.png",
+      "gl_nvr3_q49_opt2.png",
+      "gl_nvr3_q49_opt3.png",
+      "gl_nvr3_q49_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 5,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q5_qonly.png",
+    "question_images": [
+      "gl_nvr3_q5_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q5_opt0.png",
+      "gl_nvr3_q5_opt1.png",
+      "gl_nvr3_q5_opt2.png",
+      "gl_nvr3_q5_opt3.png",
+      "gl_nvr3_q5_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 50,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q50_qonly.png",
+    "question_images": [
+      "gl_nvr3_q50_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q50_opt0.png",
+      "gl_nvr3_q50_opt1.png",
+      "gl_nvr3_q50_opt2.png",
+      "gl_nvr3_q50_opt3.png",
+      "gl_nvr3_q50_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 51,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q51_qonly.png",
+    "question_images": [
+      "gl_nvr3_q51_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q51_opt0.png",
+      "gl_nvr3_q51_opt1.png",
+      "gl_nvr3_q51_opt2.png",
+      "gl_nvr3_q51_opt3.png",
+      "gl_nvr3_q51_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 52,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q52_qonly.png",
+    "question_images": [
+      "gl_nvr3_q52_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q52_opt0.png",
+      "gl_nvr3_q52_opt1.png",
+      "gl_nvr3_q52_opt2.png",
+      "gl_nvr3_q52_opt3.png",
+      "gl_nvr3_q52_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 53,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q53_qonly.png",
+    "question_images": [
+      "gl_nvr3_q53_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q53_opt0.png",
+      "gl_nvr3_q53_opt1.png",
+      "gl_nvr3_q53_opt2.png",
+      "gl_nvr3_q53_opt3.png",
+      "gl_nvr3_q53_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 54,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q54_qonly.png",
+    "question_images": [
+      "gl_nvr3_q54_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q54_opt0.png",
+      "gl_nvr3_q54_opt1.png",
+      "gl_nvr3_q54_opt2.png",
+      "gl_nvr3_q54_opt3.png",
+      "gl_nvr3_q54_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 55,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q55_qonly.png",
+    "question_images": [
+      "gl_nvr3_q55_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q55_opt0.png",
+      "gl_nvr3_q55_opt1.png",
+      "gl_nvr3_q55_opt2.png",
+      "gl_nvr3_q55_opt3.png",
+      "gl_nvr3_q55_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 56,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q56_qonly.png",
+    "question_images": [
+      "gl_nvr3_q56_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q56_opt0.png",
+      "gl_nvr3_q56_opt1.png",
+      "gl_nvr3_q56_opt2.png",
+      "gl_nvr3_q56_opt3.png",
+      "gl_nvr3_q56_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 57,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q57_qonly.png",
+    "question_images": [
+      "gl_nvr3_q57_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q57_opt0.png",
+      "gl_nvr3_q57_opt1.png",
+      "gl_nvr3_q57_opt2.png",
+      "gl_nvr3_q57_opt3.png",
+      "gl_nvr3_q57_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 58,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q58_qonly.png",
+    "question_images": [
+      "gl_nvr3_q58_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q58_opt0.png",
+      "gl_nvr3_q58_opt1.png",
+      "gl_nvr3_q58_opt2.png",
+      "gl_nvr3_q58_opt3.png",
+      "gl_nvr3_q58_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 59,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q59_qonly.png",
+    "question_images": [
+      "gl_nvr3_q59_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q59_opt0.png",
+      "gl_nvr3_q59_opt1.png",
+      "gl_nvr3_q59_opt2.png",
+      "gl_nvr3_q59_opt3.png",
+      "gl_nvr3_q59_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 6,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q6_qonly.png",
+    "question_images": [
+      "gl_nvr3_q6_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q6_opt0.png",
+      "gl_nvr3_q6_opt1.png",
+      "gl_nvr3_q6_opt2.png",
+      "gl_nvr3_q6_opt3.png",
+      "gl_nvr3_q6_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 60,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q60_qonly.png",
+    "question_images": [
+      "gl_nvr3_q60_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q60_opt0.png",
+      "gl_nvr3_q60_opt1.png",
+      "gl_nvr3_q60_opt2.png",
+      "gl_nvr3_q60_opt3.png",
+      "gl_nvr3_q60_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 61,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q61_qonly.png",
+    "question_images": [
+      "gl_nvr3_q61_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q61_opt0.png",
+      "gl_nvr3_q61_opt1.png",
+      "gl_nvr3_q61_opt2.png",
+      "gl_nvr3_q61_opt3.png",
+      "gl_nvr3_q61_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 62,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q62_qonly.png",
+    "question_images": [
+      "gl_nvr3_q62_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q62_opt0.png",
+      "gl_nvr3_q62_opt1.png",
+      "gl_nvr3_q62_opt2.png",
+      "gl_nvr3_q62_opt3.png",
+      "gl_nvr3_q62_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 63,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q63_qonly.png",
+    "question_images": [
+      "gl_nvr3_q63_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q63_opt0.png",
+      "gl_nvr3_q63_opt1.png",
+      "gl_nvr3_q63_opt2.png",
+      "gl_nvr3_q63_opt3.png",
+      "gl_nvr3_q63_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 64,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q64_qonly.png",
+    "question_images": [
+      "gl_nvr3_q64_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q64_opt0.png",
+      "gl_nvr3_q64_opt1.png",
+      "gl_nvr3_q64_opt2.png",
+      "gl_nvr3_q64_opt3.png",
+      "gl_nvr3_q64_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 65,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q65_qonly.png",
+    "question_images": [
+      "gl_nvr3_q65_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q65_opt0.png",
+      "gl_nvr3_q65_opt1.png",
+      "gl_nvr3_q65_opt2.png",
+      "gl_nvr3_q65_opt3.png",
+      "gl_nvr3_q65_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 66,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q66_qonly.png",
+    "question_images": [
+      "gl_nvr3_q66_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q66_opt0.png",
+      "gl_nvr3_q66_opt1.png",
+      "gl_nvr3_q66_opt2.png",
+      "gl_nvr3_q66_opt3.png",
+      "gl_nvr3_q66_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 67,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q67_qonly.png",
+    "question_images": [
+      "gl_nvr3_q67_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q67_opt0.png",
+      "gl_nvr3_q67_opt1.png",
+      "gl_nvr3_q67_opt2.png",
+      "gl_nvr3_q67_opt3.png",
+      "gl_nvr3_q67_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 68,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q68_qonly.png",
+    "question_images": [
+      "gl_nvr3_q68_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q68_opt0.png",
+      "gl_nvr3_q68_opt1.png",
+      "gl_nvr3_q68_opt2.png",
+      "gl_nvr3_q68_opt3.png",
+      "gl_nvr3_q68_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 69,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q69_qonly.png",
+    "question_images": [
+      "gl_nvr3_q69_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q69_opt0.png",
+      "gl_nvr3_q69_opt1.png",
+      "gl_nvr3_q69_opt2.png",
+      "gl_nvr3_q69_opt3.png",
+      "gl_nvr3_q69_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 7,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q7_qonly.png",
+    "question_images": [
+      "gl_nvr3_q7_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q7_opt0.png",
+      "gl_nvr3_q7_opt1.png",
+      "gl_nvr3_q7_opt2.png",
+      "gl_nvr3_q7_opt3.png",
+      "gl_nvr3_q7_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 70,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q70_qonly.png",
+    "question_images": [
+      "gl_nvr3_q70_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q70_opt0.png",
+      "gl_nvr3_q70_opt1.png",
+      "gl_nvr3_q70_opt2.png",
+      "gl_nvr3_q70_opt3.png",
+      "gl_nvr3_q70_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 71,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q71_qonly.png",
+    "question_images": [
+      "gl_nvr3_q71_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q71_opt0.png",
+      "gl_nvr3_q71_opt1.png",
+      "gl_nvr3_q71_opt2.png",
+      "gl_nvr3_q71_opt3.png",
+      "gl_nvr3_q71_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 72,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q72_qonly.png",
+    "question_images": [
+      "gl_nvr3_q72_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q72_opt0.png",
+      "gl_nvr3_q72_opt1.png",
+      "gl_nvr3_q72_opt2.png",
+      "gl_nvr3_q72_opt3.png",
+      "gl_nvr3_q72_opt4.png"
+    ],
+    "answer": "C",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 73,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q73_qonly.png",
+    "question_images": [
+      "gl_nvr3_q73_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q73_opt0.png",
+      "gl_nvr3_q73_opt1.png",
+      "gl_nvr3_q73_opt2.png",
+      "gl_nvr3_q73_opt3.png",
+      "gl_nvr3_q73_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 74,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q74_qonly.png",
+    "question_images": [
+      "gl_nvr3_q74_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q74_opt0.png",
+      "gl_nvr3_q74_opt1.png",
+      "gl_nvr3_q74_opt2.png",
+      "gl_nvr3_q74_opt3.png",
+      "gl_nvr3_q74_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 75,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q75_qonly.png",
+    "question_images": [
+      "gl_nvr3_q75_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q75_opt0.png",
+      "gl_nvr3_q75_opt1.png",
+      "gl_nvr3_q75_opt2.png",
+      "gl_nvr3_q75_opt3.png",
+      "gl_nvr3_q75_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 76,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q76_qonly.png",
+    "question_images": [
+      "gl_nvr3_q76_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q76_opt0.png",
+      "gl_nvr3_q76_opt1.png",
+      "gl_nvr3_q76_opt2.png",
+      "gl_nvr3_q76_opt3.png",
+      "gl_nvr3_q76_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 77,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q77_qonly.png",
+    "question_images": [
+      "gl_nvr3_q77_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q77_opt0.png",
+      "gl_nvr3_q77_opt1.png",
+      "gl_nvr3_q77_opt2.png",
+      "gl_nvr3_q77_opt3.png",
+      "gl_nvr3_q77_opt4.png"
+    ],
+    "answer": "A",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 78,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q78_qonly.png",
+    "question_images": [
+      "gl_nvr3_q78_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q78_opt0.png",
+      "gl_nvr3_q78_opt1.png",
+      "gl_nvr3_q78_opt2.png",
+      "gl_nvr3_q78_opt3.png",
+      "gl_nvr3_q78_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 79,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q79_qonly.png",
+    "question_images": [
+      "gl_nvr3_q79_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q79_opt0.png",
+      "gl_nvr3_q79_opt1.png",
+      "gl_nvr3_q79_opt2.png",
+      "gl_nvr3_q79_opt3.png",
+      "gl_nvr3_q79_opt4.png"
+    ],
+    "answer": "E",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 8,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q8_qonly.png",
+    "question_images": [
+      "gl_nvr3_q8_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q8_opt0.png",
+      "gl_nvr3_q8_opt1.png",
+      "gl_nvr3_q8_opt2.png",
+      "gl_nvr3_q8_opt3.png",
+      "gl_nvr3_q8_opt4.png"
+    ],
+    "answer": "D",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 80,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q80_qonly.png",
+    "question_images": [
+      "gl_nvr3_q80_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q80_opt0.png",
+      "gl_nvr3_q80_opt1.png",
+      "gl_nvr3_q80_opt2.png",
+      "gl_nvr3_q80_opt3.png",
+      "gl_nvr3_q80_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
+  },
+  {
+    "question_num": 9,
+    "text": "Look at the shapes. Choose the correct answer.",
+    "question_image": "gl_nvr3_q9_qonly.png",
+    "question_images": [
+      "gl_nvr3_q9_qonly.png"
+    ],
+    "images": [
+      "gl_nvr3_q9_opt0.png",
+      "gl_nvr3_q9_opt1.png",
+      "gl_nvr3_q9_opt2.png",
+      "gl_nvr3_q9_opt3.png",
+      "gl_nvr3_q9_opt4.png"
+    ],
+    "answer": "B",
+    "explanation": "",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ],
+    "source": "GL Assessment NVR 3",
+    "nvr_type": "nvr_visual"
   }
 ]

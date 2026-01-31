@@ -8,7 +8,7 @@
     ],
     "images": [],
     "answer": "A",
-    "explanation": "Answer:\n\n64 is a square number (8\u00a0\u00d7\u00a08\u00a0=\u00a064) and a cube number (4\u00a0\u00d7\u00a04\u00a0\u00d7\u00a04\u00a0=\u00a064), so it should be in the top\u2011left box.",
+    "explanation": "Answer:\n\n64 is a square number (8 × 8 = 64) and a cube number (4 × 4 × 4 = 64), so it should be in the top‑left box.",
     "options": [
       "64",
       "1",
@@ -19,12 +19,12 @@
   },
   {
     "question_num": 2,
-    "text": "2x\u00b0 is an acute angle and 3x\u00b0 is an obtuse angle.\n\nWhich of the options below could be the value of x?",
+    "text": "2x° is an acute angle and 3x° is an obtuse angle.\n\nWhich of the options below could be the value of x?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "C",
-    "explanation": "Answer:\n\nAn acute angle is less than 90\u00b0, so 2x\u00a0<\u00a090, which means x\u00a0<\u00a090\u00a0\u00f7\u00a02\u00a0=\u00a045. So it can\u2019t be e) or b). An obtuse angle is greater than 90\u00b0, so 3x\u00a0>\u00a090, which means x\u00a0>\u00a090\u00a0\u00f7\u00a03\u00a0=\u00a030, so it can\u2019t be d) or a). So c) is the only possible value of x.",
+    "explanation": "Answer:\n\nAn acute angle is less than 90°, so 2x < 90, which means x < 90 ÷ 2 = 45. So it can’t be e) or b). An obtuse angle is greater than 90°, so 3x > 90, which means x > 90 ÷ 3 = 30, so it can’t be d) or a). So c) is the only possible value of x.",
     "options": [
       "23",
       "53",
@@ -35,14 +35,14 @@
   },
   {
     "question_num": 3,
-    "text": "Lucas asked everyone in Year\u00a06 where they would like to go on a trip. He made a pie chart of the results.\n\nWhat fraction of the children said they wanted to go to either a farm or a zoo?",
+    "text": "Lucas asked everyone in Year 6 where they would like to go on a trip. He made a pie chart of the results.\n\nWhat fraction of the children said they wanted to go to either a farm or a zoo?",
     "question_image": "q3_question_0.png",
     "question_images": [
       "q3_question_0.png"
     ],
     "images": [],
     "answer": "C",
-    "explanation": "Answer:\n\nThe farm sector has an angle of\u00a070\u00b0 and the zoo\u00a0sector has an angle of\u00a090\u00b0. The total\u00a0of these angles is 70\u00b0\u00a0+\u00a090\u00b0\u00a0=\u00a0160\u00b0. As a fraction of the whole circle, this is \n3\n6\n0\n1\n6\n0\n. Divide the numerator and denominator by 10 and then by 4 to simplify: \n3\n6\n0\n1\n6\n0\n3\n6\n1\n6\n9\n4\n=\n=\n.",
+    "explanation": "Answer:\n\nThe farm sector has an angle of 70° and the zoo sector has an angle of 90°. The total of these angles is 70° + 90° = 160°. As a fraction of the whole circle, this is \n3\n6\n0\n1\n6\n0\n. Divide the numerator and denominator by 10 and then by 4 to simplify: \n3\n6\n0\n1\n6\n0\n3\n6\n1\n6\n9\n4\n=\n=\n.",
     "options": [
       "7\n2",
       "5\n2",
@@ -53,12 +53,12 @@
   },
   {
     "question_num": 4,
-    "text": "Ben has \u00a38 to spend. He buys a chocolate bar for \u00a32.\n\nWhat percentage of his money does Ben spend on the chocolate bar?",
+    "text": "Ben has £8 to spend. He buys a chocolate bar for £2.\n\nWhat percentage of his money does Ben spend on the chocolate bar?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "E",
-    "explanation": "Answer:\n\n\u00a32 out of \u00a38 \n8\n2\n4\n1\n=\n=\n. So Ben spends \n%\n4\n1\n2\n5\n=\n of his money on the chocolate bar.",
+    "explanation": "Answer:\n\n£2 out of £8 \n8\n2\n4\n1\n=\n=\n. So Ben spends \n%\n4\n1\n2\n5\n=\n of his money on the chocolate bar.",
     "options": [
       "30%",
       "20%",
@@ -74,7 +74,7 @@
     "question_images": [],
     "images": [],
     "answer": "E",
-    "explanation": "Answer:\n\n12\u00a0+\u00a08\u00a0+\u00a020\u00a0=\u00a040. So \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n \n4\n0\n1\n2\n0\n=\n =\u00a0120\u00a0\u00f7\u00a040\u00a0=\u00a03.",
+    "explanation": "Answer:\n\n12 + 8 + 20 = 40. So \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n \n4\n0\n1\n2\n0\n=\n = 120 ÷ 40 = 3.",
     "options": [
       "6",
       "26",
@@ -92,29 +92,29 @@
     ],
     "images": [],
     "answer": "D",
-    "explanation": "Answer:\n\nThe shape in the diagram can be split into a 3\u00a0m\u00a0by\u00a02\u00a0m rectangle and 3\u00a0m\u00a0by\u00a05\u00a0m rectangle. So the total area is (3\u00a0\u00d7\u00a02)\u00a0+\u00a0(3\u00a0\u00d7\u00a05)\u00a0=\u00a06\u00a0+\u00a015 =\u00a021\u00a0m2. The area of a parallelogram is base\u00a0\u00d7\u00a0vertical\u00a0height, so the shape in option d) also has an area of 7\u00a0\u00d7\u00a03\u00a0=\u00a021\u00a0m2. (Options b) and e) both have areas of 20\u00a0m2. Options c) and a) both have areas of 25\u00a0m2.)",
+    "explanation": "Answer:\n\nThe shape in the diagram can be split into a 3 m by 2 m rectangle and 3 m by 5 m rectangle. So the total area is (3 × 2) + (3 × 5) = 6 + 15 = 21 m2. The area of a parallelogram is base × vertical height, so the shape in option d) also has an area of 7 × 3 = 21 m2. (Options b) and e) both have areas of 20 m2. Options c) and a) both have areas of 25 m2.)",
     "options": [
-      "A parallelogram, base 5\u00a0m, vertical height 5\u00a0m.",
-      "A rectangle, width 4\u00a0m, length 5\u00a0m.",
-      "A square, side length 5\u00a0m.",
-      "A parallelogram, base 7\u00a0m, vertical height 3\u00a0m.",
-      "A triangle, base 10\u00a0m, height 4\u00a0m."
+      "A parallelogram, base 5 m, vertical height 5 m.",
+      "A rectangle, width 4 m, length 5 m.",
+      "A square, side length 5 m.",
+      "A parallelogram, base 7 m, vertical height 3 m.",
+      "A triangle, base 10 m, height 4 m."
     ]
   },
   {
     "question_num": 7,
-    "text": "Orange juice is usually priced at \u00a31.50 per bottle.\n\nHow much would a bottle of orange juice cost if the price was reduced by 10%?",
+    "text": "Orange juice is usually priced at £1.50 per bottle.\n\nHow much would a bottle of orange juice cost if the price was reduced by 10%?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "B",
-    "explanation": "Answer:\n\n10% of \u00a31.50 is \u00a31.50\u00a0\u00f7\u00a010\u00a0=\u00a0\u00a30.15. So the reduced price would be \u00a31.50\u00a0\u2212\u00a0\u00a30.15\u00a0=\u00a0\u00a31.35.",
+    "explanation": "Answer:\n\n10% of £1.50 is £1.50 ÷ 10 = £0.15. So the reduced price would be £1.50 − £0.15 = £1.35.",
     "options": [
-      "\u00a31.30",
-      "\u00a31.35",
-      "\u00a31.45",
-      "\u00a31.25",
-      "\u00a31.40"
+      "£1.30",
+      "£1.35",
+      "£1.45",
+      "£1.25",
+      "£1.40"
     ]
   },
   {
@@ -135,60 +135,60 @@
   },
   {
     "question_num": 9,
-    "text": "___\u00a0\u00f7\u00a01000\u00a0=\u00a00.2543\n\nWhat number is missing from the calculation above?",
+    "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "E",
-    "explanation": "Answer:\n\nMultiplication is the inverse operation of division, so the answer is 0.2543\u00a0\u00d7\u00a01000\u00a0=\u00a0254.3.",
+    "explanation": "Answer:\n\nMultiplication is the inverse operation of division, so the answer is 0.2543 × 1000 = 254.3.",
     "options": [
       "2.543",
       "2543",
       "25.43",
-      "25\u00a0430",
+      "25 430",
       "254.3"
     ]
   },
   {
     "question_num": 10,
-    "text": "A book about space contains the following sentence:\n\nThe diameter of the Earth is 12\u00a0756.32\u00a0kilometres.\n\nWhat is the Earth\u2019s diameter rounded to the nearest hundred\u00a0kilometres?",
+    "text": "A book about space contains the following sentence:\n\nThe diameter of the Earth is 12 756.32 kilometres.\n\nWhat is the Earth’s diameter rounded to the nearest hundred kilometres?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "D",
-    "explanation": "Answer:\n\nYou are rounding to the nearest hundred, so look at the digit in the tens column. It\u2019s a 5, so round up to 12\u00a0800\u00a0km.",
+    "explanation": "Answer:\n\nYou are rounding to the nearest hundred, so look at the digit in the tens column. It’s a 5, so round up to 12 800 km.",
     "options": [
-      "12\u00a0760\u00a0km",
-      "12\u00a0750\u00a0km",
-      "13\u00a0000\u00a0km",
-      "12\u00a0800\u00a0km",
-      "12\u00a0700\u00a0km"
+      "12 760 km",
+      "12 750 km",
+      "13 000 km",
+      "12 800 km",
+      "12 700 km"
     ]
   },
   {
     "question_num": 11,
-    "text": "Mr Chen is knitting a jumper. It takes him two and a half minutes to knit each row.\nHe starts knitting at 4:15\u00a0pm.\n\nAt what time will he have knitted 50 rows?",
+    "text": "Mr Chen is knitting a jumper. It takes him two and a half minutes to knit each row.\nHe starts knitting at 4:15 pm.\n\nAt what time will he have knitted 50 rows?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "B",
-    "explanation": "Answer:\n\n2.5\u00a0minutes\u00a0\u00d7\u00a050\u00a0=\u00a0125\u00a0minutes. 125\u00a0minutes\u00a0=\u00a02\u00a0hours and 5\u00a0minutes. Add this to 4:15\u00a0pm: 4:15\u00a0pm\u00a0+\u00a02\u00a0hours\u00a0=\u00a06:15\u00a0pm, 6:15\u00a0pm\u00a0+\u00a05\u00a0minutes\u00a0=\u00a06:20\u00a0pm.",
+    "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
     "options": [
-      "5:55\u00a0pm",
-      "6:20\u00a0pm",
-      "6:00\u00a0pm",
-      "6:15\u00a0pm",
-      "5:05\u00a0pm"
+      "5:55 pm",
+      "6:20 pm",
+      "6:00 pm",
+      "6:15 pm",
+      "5:05 pm"
     ]
   },
   {
     "question_num": 12,
-    "text": "41\u00a0\u2212\u00a03h\u00a0=\u00a017\n\nWhat is h?",
+    "text": "41 − 3h = 17\n\nWhat is h?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "Unknown",
-    "explanation": "Answer:\n\n2.5\u00a0minutes\u00a0\u00d7\u00a050\u00a0=\u00a0125\u00a0minutes. 125\u00a0minutes\u00a0=\u00a02\u00a0hours and 5\u00a0minutes. Add this to 4:15\u00a0pm: 4:15\u00a0pm\u00a0+\u00a02\u00a0hours\u00a0=\u00a06:15\u00a0pm, 6:15\u00a0pm\u00a0+\u00a05\u00a0minutes\u00a0=\u00a06:20\u00a0pm.",
+    "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
     "options": [
       "19",
       "8",
@@ -206,7 +206,7 @@
     ],
     "images": [],
     "answer": "Unknown",
-    "explanation": "Answer:\n\n2.5\u00a0minutes\u00a0\u00d7\u00a050\u00a0=\u00a0125\u00a0minutes. 125\u00a0minutes\u00a0=\u00a02\u00a0hours and 5\u00a0minutes. Add this to 4:15\u00a0pm: 4:15\u00a0pm\u00a0+\u00a02\u00a0hours\u00a0=\u00a06:15\u00a0pm, 6:15\u00a0pm\u00a0+\u00a05\u00a0minutes\u00a0=\u00a06:20\u00a0pm.",
+    "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
     "options": [
       "1",
       "100",
@@ -217,30 +217,30 @@
   },
   {
     "question_num": 14,
-    "text": "Orange juice is usually priced at \u00a31.50 per bottle.\n\nHow much would a bottle of orange juice cost if the price was reduced by 10%?",
+    "text": "Orange juice is usually priced at £1.50 per bottle.\n\nHow much would a bottle of orange juice cost if the price was reduced by 10%?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "Unknown",
-    "explanation": "Answer:\n\n2.5\u00a0minutes\u00a0\u00d7\u00a050\u00a0=\u00a0125\u00a0minutes. 125\u00a0minutes\u00a0=\u00a02\u00a0hours and 5\u00a0minutes. Add this to 4:15\u00a0pm: 4:15\u00a0pm\u00a0+\u00a02\u00a0hours\u00a0=\u00a06:15\u00a0pm, 6:15\u00a0pm\u00a0+\u00a05\u00a0minutes\u00a0=\u00a06:20\u00a0pm.",
+    "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
     "options": [
-      "\u00a31.40",
-      "\u00a31.45",
-      "\u00a31.35",
-      "\u00a31.25",
-      "\u00a31.30"
+      "£1.40",
+      "£1.45",
+      "£1.35",
+      "£1.25",
+      "£1.30"
     ]
   },
   {
     "question_num": 15,
-    "text": "___\u00a0\u00f7\u00a01000\u00a0=\u00a00.2543\n\nWhat number is missing from the calculation above?",
+    "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "Unknown",
-    "explanation": "Answer:\n\n2.5\u00a0minutes\u00a0\u00d7\u00a050\u00a0=\u00a0125\u00a0minutes. 125\u00a0minutes\u00a0=\u00a02\u00a0hours and 5\u00a0minutes. Add this to 4:15\u00a0pm: 4:15\u00a0pm\u00a0+\u00a02\u00a0hours\u00a0=\u00a06:15\u00a0pm, 6:15\u00a0pm\u00a0+\u00a05\u00a0minutes\u00a0=\u00a06:20\u00a0pm.",
+    "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
     "options": [
-      "25\u00a0430",
+      "25 430",
       "2543",
       "2.543",
       "254.3",
@@ -256,13 +256,13 @@
     ],
     "images": [],
     "answer": "Unknown",
-    "explanation": "Answer:\n\n2.5\u00a0minutes\u00a0\u00d7\u00a050\u00a0=\u00a0125\u00a0minutes. 125\u00a0minutes\u00a0=\u00a02\u00a0hours and 5\u00a0minutes. Add this to 4:15\u00a0pm: 4:15\u00a0pm\u00a0+\u00a02\u00a0hours\u00a0=\u00a06:15\u00a0pm, 6:15\u00a0pm\u00a0+\u00a05\u00a0minutes\u00a0=\u00a06:20\u00a0pm.",
+    "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
     "options": [
-      "The bars don\u2019t begin at 0.",
+      "The bars don’t begin at 0.",
       "The bars should be vertical instead of horizontal.",
       "The numbers should be given as percentages.",
-      "The numbers don\u2019t add up to 100.",
-      "It doesn\u2019t include other options, such as ketchup."
+      "The numbers don’t add up to 100.",
+      "It doesn’t include other options, such as ketchup."
     ]
   },
   {
@@ -274,13 +274,13 @@
     ],
     "images": [],
     "answer": "Unknown",
-    "explanation": "Answer:\n\n2.5\u00a0minutes\u00a0\u00d7\u00a050\u00a0=\u00a0125\u00a0minutes. 125\u00a0minutes\u00a0=\u00a02\u00a0hours and 5\u00a0minutes. Add this to 4:15\u00a0pm: 4:15\u00a0pm\u00a0+\u00a02\u00a0hours\u00a0=\u00a06:15\u00a0pm, 6:15\u00a0pm\u00a0+\u00a05\u00a0minutes\u00a0=\u00a06:20\u00a0pm.",
+    "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
     "options": [
-      "2\u00a0\u00d7\u00a0\u00a35.00 +\u00a03\u00a0\u00d7\u00a0\u00a34.00 +\u00a0\u00a33.50\u00a0+\u00a06p",
-      "2\u00a0\u00d7\u00a0\u00a35.00 +\u00a03\u00a0\u00d7\u00a0\u00a34.00 +\u00a0\u00a33.50\u00a0\u2212\u00a06p",
-      "2\u00a0\u00d7\u00a0\u00a35.00 +\u00a03\u00a0\u00d7\u00a0\u00a34.00 +\u00a0\u00a33.50\u00a0\u2212\u00a05p",
-      "2\u00a0\u00d7\u00a0\u00a35.00 +\u00a03\u00a0\u00d7\u00a0\u00a34.00 +\u00a0\u00a33.50\u00a0+\u00a05p",
-      "2\u00a0\u00d7\u00a0\u00a35.00 +\u00a03\u00a0\u00d7\u00a0\u00a34.00 +\u00a0\u00a33.50\u00a0\u2212\u00a03p"
+      "2 × £5.00 + 3 × £4.00 + £3.50 + 6p",
+      "2 × £5.00 + 3 × £4.00 + £3.50 − 6p",
+      "2 × £5.00 + 3 × £4.00 + £3.50 − 5p",
+      "2 × £5.00 + 3 × £4.00 + £3.50 + 5p",
+      "2 × £5.00 + 3 × £4.00 + £3.50 − 3p"
     ]
   },
   {
@@ -292,7 +292,7 @@
     ],
     "images": [],
     "answer": "Unknown",
-    "explanation": "Answer:\n\n2.5\u00a0minutes\u00a0\u00d7\u00a050\u00a0=\u00a0125\u00a0minutes. 125\u00a0minutes\u00a0=\u00a02\u00a0hours and 5\u00a0minutes. Add this to 4:15\u00a0pm: 4:15\u00a0pm\u00a0+\u00a02\u00a0hours\u00a0=\u00a06:15\u00a0pm, 6:15\u00a0pm\u00a0+\u00a05\u00a0minutes\u00a0=\u00a06:20\u00a0pm.",
+    "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
     "options": [
       "9",
       "7",
@@ -308,7 +308,7 @@
     "question_images": [],
     "images": [],
     "answer": "Unknown",
-    "explanation": "Answer:\n\n2.5\u00a0minutes\u00a0\u00d7\u00a050\u00a0=\u00a0125\u00a0minutes. 125\u00a0minutes\u00a0=\u00a02\u00a0hours and 5\u00a0minutes. Add this to 4:15\u00a0pm: 4:15\u00a0pm\u00a0+\u00a02\u00a0hours\u00a0=\u00a06:15\u00a0pm, 6:15\u00a0pm\u00a0+\u00a05\u00a0minutes\u00a0=\u00a06:20\u00a0pm.",
+    "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
     "options": [
       "1",
       "4",
@@ -324,7 +324,7 @@
     "question_images": [],
     "images": [],
     "answer": "Unknown",
-    "explanation": "Answer:\n\n2.5\u00a0minutes\u00a0\u00d7\u00a050\u00a0=\u00a0125\u00a0minutes. 125\u00a0minutes\u00a0=\u00a02\u00a0hours and 5\u00a0minutes. Add this to 4:15\u00a0pm: 4:15\u00a0pm\u00a0+\u00a02\u00a0hours\u00a0=\u00a06:15\u00a0pm, 6:15\u00a0pm\u00a0+\u00a05\u00a0minutes\u00a0=\u00a06:20\u00a0pm.",
+    "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
     "options": [
       "26",
       "4",
@@ -335,36 +335,36 @@
   },
   {
     "question_num": 19,
-    "text": "The cost of the activities available at a summer camp are shown below.\n\nMalala spends exactly \u00a368. She doesn\u2019t do any activity more than once.\n\nWhich of these combinations of activities must she have done?",
+    "text": "The cost of the activities available at a summer camp are shown below.\n\nMalala spends exactly £68. She doesn’t do any activity more than once.\n\nWhich of these combinations of activities must she have done?",
     "question_image": "q19_question_0.png",
     "question_images": [
       "q19_question_0.png"
     ],
     "images": [],
     "answer": "C",
-    "explanation": "Answer:\n\nPaintball costs \u00a355 by itself, so it\u2019s unlikely to be options d) or e). Try options c), a) and b). Option c) is the only one that adds up to \u00a368. You can use the column method to add the costs:",
+    "explanation": "Answer:\n\nPaintball costs £55 by itself, so it’s unlikely to be options d) or e). Try options c), a) and b). Option c) is the only one that adds up to £68. You can use the column method to add the costs:",
     "options": [
-      "Kayaking, sailing, high\u00a0ropes",
-      "Kayaking, windsurfing and high\u00a0ropes",
-      "Windsurfing, sailing and high\u00a0ropes",
-      "Kayaking, paintball and high\u00a0ropes",
+      "Kayaking, sailing, high ropes",
+      "Kayaking, windsurfing and high ropes",
+      "Windsurfing, sailing and high ropes",
+      "Kayaking, paintball and high ropes",
       "Paintball, windsurfing and sailing"
     ]
   },
   {
     "question_num": 20,
-    "text": "___\u00a0\u00f7\u00a01000\u00a0=\u00a00.2543\n\nWhat number is missing from the calculation above?",
+    "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "C",
-    "explanation": "Answer:\n\nMultiplication is the inverse operation of division, so the answer is 0.2543\u00a0\u00d7\u00a01000\u00a0=\u00a0254.3.",
+    "explanation": "Answer:\n\nMultiplication is the inverse operation of division, so the answer is 0.2543 × 1000 = 254.3.",
     "options": [
       "2.543",
       "2543",
       "254.3",
       "25.43",
-      "25\u00a0430"
+      "25 430"
     ]
   },
   {
@@ -376,7 +376,7 @@
     ],
     "images": [],
     "answer": "D",
-    "explanation": "Answer:\n\nThere are 34\u00a0\u2212\u00a015\u00a0=\u00a019\u00a0female dogs in total, so there are 19\u00a0\u2212\u00a012\u00a0=\u00a07\u00a0female puppies.",
+    "explanation": "Answer:\n\nThere are 34 − 15 = 19 female dogs in total, so there are 19 − 12 = 7 female puppies.",
     "options": [
       "9",
       "6",
@@ -387,18 +387,18 @@
   },
   {
     "question_num": 22,
-    "text": "Mr Chen is knitting a jumper. It takes him two and a half minutes to knit each row.\nHe starts knitting at 4:15\u00a0pm.\n\nAt what time will he have knitted 50 rows?",
+    "text": "Mr Chen is knitting a jumper. It takes him two and a half minutes to knit each row.\nHe starts knitting at 4:15 pm.\n\nAt what time will he have knitted 50 rows?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "A",
-    "explanation": "Answer:\n\n2.5\u00a0minutes\u00a0\u00d7\u00a050\u00a0=\u00a0125\u00a0minutes. 125\u00a0minutes\u00a0=\u00a02\u00a0hours and 5\u00a0minutes. Add this to 4:15\u00a0pm: 4:15\u00a0pm\u00a0+\u00a02\u00a0hours\u00a0=\u00a06:15\u00a0pm, 6:15\u00a0pm\u00a0+\u00a05\u00a0minutes\u00a0=\u00a06:20\u00a0pm.",
+    "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
     "options": [
-      "6:20\u00a0pm",
-      "5:55\u00a0pm",
-      "6:00\u00a0pm",
-      "5:05\u00a0pm",
-      "6:15\u00a0pm"
+      "6:20 pm",
+      "5:55 pm",
+      "6:00 pm",
+      "5:05 pm",
+      "6:15 pm"
     ]
   },
   {
@@ -410,29 +410,29 @@
     ],
     "images": [],
     "answer": "C",
-    "explanation": "Answer:\n\nReading from the graph, Rui spent 75%\u00a0\u2212\u00a045%\u00a0=\u00a030% of the time doing drama. \n2\n2\n1\n\u00a0hours is 60\u00a0+\u00a060\u00a0+\u00a030\u00a0=\u00a0150\u00a0minutes. 10%\u00a0of\u00a0150 is 150\u00a0\u00f7\u00a010 =\u00a015\u00a0minutes, so 30%\u00a0of\u00a0150\u00a0minutes is 3\u00a0\u00d7\u00a015\u00a0=\u00a045\u00a0minutes.",
+    "explanation": "Answer:\n\nReading from the graph, Rui spent 75% − 45% = 30% of the time doing drama. \n2\n2\n1\n hours is 60 + 60 + 30 = 150 minutes. 10% of 150 is 150 ÷ 10 = 15 minutes, so 30% of 150 minutes is 3 × 15 = 45 minutes.",
     "options": [
-      "40\u00a0minutes",
-      "15\u00a0minutes",
-      "45\u00a0minutes",
-      "75\u00a0minutes",
-      "30\u00a0minutes"
+      "40 minutes",
+      "15 minutes",
+      "45 minutes",
+      "75 minutes",
+      "30 minutes"
     ]
   },
   {
     "question_num": 24,
-    "text": "Orange juice is usually priced at \u00a31.50 per bottle.\n\nHow much would a bottle of orange juice cost if the price was reduced by 10%?",
+    "text": "Orange juice is usually priced at £1.50 per bottle.\n\nHow much would a bottle of orange juice cost if the price was reduced by 10%?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "A",
-    "explanation": "Answer:\n\n10% of \u00a31.50 is \u00a31.50\u00a0\u00f7\u00a010\u00a0=\u00a0\u00a30.15. So the reduced price would be \u00a31.50\u00a0\u2212\u00a0\u00a30.15\u00a0=\u00a0\u00a31.35.",
+    "explanation": "Answer:\n\n10% of £1.50 is £1.50 ÷ 10 = £0.15. So the reduced price would be £1.50 − £0.15 = £1.35.",
     "options": [
-      "\u00a31.35",
-      "\u00a31.40",
-      "\u00a31.30",
-      "\u00a31.45",
-      "\u00a31.25"
+      "£1.35",
+      "£1.40",
+      "£1.30",
+      "£1.45",
+      "£1.25"
     ]
   },
   {
@@ -444,29 +444,29 @@
     ],
     "images": [],
     "answer": "B",
-    "explanation": "Answer:\n\nThe y-axis has an x-coordinate of 0 and the corner of the square furthest to the left has an x\u2011coordinate of \u22126, so the distance between opposite corners of each square is 6 units. So the distance between the centre of a square and one corner of a square is 6\u00a0\u00f7\u00a02\u00a0=\u00a03\u00a0units. The point marked A is 3\u00a0units\u00a0right and 3\u00a0units\u00a0up from point (0,\u00a00). So the coordinates of point A are (3,\u00a03).",
+    "explanation": "Answer:\n\nThe y-axis has an x-coordinate of 0 and the corner of the square furthest to the left has an x‑coordinate of −6, so the distance between opposite corners of each square is 6 units. So the distance between the centre of a square and one corner of a square is 6 ÷ 2 = 3 units. The point marked A is 3 units right and 3 units up from point (0, 0). So the coordinates of point A are (3, 3).",
     "options": [
-      "(6,\u00a06)",
-      "(3,\u00a03)",
-      "(6,\u00a03)",
-      "(\u22123,\u00a0\u22123)",
-      "(3,\u00a09)"
+      "(6, 6)",
+      "(3, 3)",
+      "(6, 3)",
+      "(−3, −3)",
+      "(3, 9)"
     ]
   },
   {
     "question_num": 26,
-    "text": "A cuboid has a length of 14\u00a0m, a width of 2\u00a0m and a volume of 280\u00a0m3.\n\nWhat is the cuboid\u2019s height?",
+    "text": "A cuboid has a length of 14 m, a width of 2 m and a volume of 280 m3.\n\nWhat is the cuboid’s height?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "B",
-    "explanation": "Answer:\n\nVolume\u00a0=\u00a0length\u00a0\u00d7\u00a0width\u00a0\u00d7\u00a0height, so 280\u00a0=\u00a014\u00a0\u00d7\u00a02\u00a0\u00d7\u00a0height =\u00a028\u00a0\u00d7\u00a0height. So the height of the cuboid is 280\u00a0\u00f7\u00a028 =\u00a010\u00a0m.",
+    "explanation": "Answer:\n\nVolume = length × width × height, so 280 = 14 × 2 × height = 28 × height. So the height of the cuboid is 280 ÷ 28 = 10 m.",
     "options": [
-      "20\u00a0m",
-      "10\u00a0m",
-      "14\u00a0m",
-      "15\u00a0m",
-      "20\u00a0m"
+      "20 m",
+      "10 m",
+      "14 m",
+      "15 m",
+      "20 m"
     ]
   },
   {
@@ -478,7 +478,7 @@
     ],
     "images": [],
     "answer": "C",
-    "explanation": "Answer:\n\n64 is a square number (8\u00a0\u00d7\u00a08\u00a0=\u00a064) and a cube number (4\u00a0\u00d7\u00a04\u00a0\u00d7\u00a04\u00a0=\u00a064), so it should be in the top\u2011left box.",
+    "explanation": "Answer:\n\n64 is a square number (8 × 8 = 64) and a cube number (4 × 4 × 4 = 64), so it should be in the top‑left box.",
     "options": [
       "1",
       "27",
@@ -496,7 +496,7 @@
     ],
     "images": [],
     "answer": "D",
-    "explanation": "Answer:\n\nThe horse with the shortest time wins the race. The chestnut, bay and dun horses all took at least 61\u00a0seconds, so they couldn\u2019t have won the race. The grey horse\u2019s time has 8 tenths (60.89), and the black horse\u2019s time has 9 tenths (60.981), so the grey horse wins the race.",
+    "explanation": "Answer:\n\nThe horse with the shortest time wins the race. The chestnut, bay and dun horses all took at least 61 seconds, so they couldn’t have won the race. The grey horse’s time has 8 tenths (60.89), and the black horse’s time has 9 tenths (60.981), so the grey horse wins the race.",
     "options": [
       "Bay",
       "Chestnut",
@@ -514,29 +514,29 @@
     ],
     "images": [],
     "answer": "A",
-    "explanation": "Answer:\n\nThe bars look longer than they should, which makes the differences between the bars look smaller than they actually are. For example, the bar for \u2018Neither\u2019 represents 8\u00a0people, but looks half as long as the bar for \u2018Both\u2019, which represents 26\u00a0people.",
+    "explanation": "Answer:\n\nThe bars look longer than they should, which makes the differences between the bars look smaller than they actually are. For example, the bar for ‘Neither’ represents 8 people, but looks half as long as the bar for ‘Both’, which represents 26 people.",
     "options": [
-      "The bars don\u2019t begin at 0.",
-      "It doesn\u2019t include other options, such as ketchup.",
+      "The bars don’t begin at 0.",
+      "It doesn’t include other options, such as ketchup.",
       "The bars should be vertical instead of horizontal.",
       "The numbers should be given as percentages.",
-      "The numbers don\u2019t add up to 100."
+      "The numbers don’t add up to 100."
     ]
   },
   {
     "question_num": 30,
-    "text": "Charlotte is buying 12 apples at 6p each. She pays with a \u00a35 note.\n\nHow much change does she get?",
+    "text": "Charlotte is buying 12 apples at 6p each. She pays with a £5 note.\n\nHow much change does she get?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "E",
-    "explanation": "Answer:\n\n\u00a35\u00a0=\u00a0500p. 12 apples cost 12\u00a0\u00d7\u00a06p\u00a0=\u00a072p. 500p\u00a0\u2212\u00a072p\u00a0=\u00a0428p. 428p\u00a0=\u00a0\u00a34.28 change.",
+    "explanation": "Answer:\n\n£5 = 500p. 12 apples cost 12 × 6p = 72p. 500p − 72p = 428p. 428p = £4.28 change.",
     "options": [
       "28p",
-      "\u00a32.78",
-      "\u00a33.72",
+      "£2.78",
+      "£3.72",
       "72p",
-      "\u00a34.28"
+      "£4.28"
     ]
   },
   {
@@ -548,30 +548,30 @@
     ],
     "images": [],
     "answer": "D",
-    "explanation": "Answer:\n\nThe y-axis has an x-coordinate of 0 and the corner of the square furthest to the left has an x\u2011coordinate of \u22126, so the distance between opposite corners of each square is 6 units. So the distance between the centre of a square and one corner of a square is 6\u00a0\u00f7\u00a02\u00a0=\u00a03\u00a0units. The point marked A is 3\u00a0units\u00a0right and 3\u00a0units\u00a0up from point (0,\u00a00). So the coordinates of point A are (3,\u00a03).",
+    "explanation": "Answer:\n\nThe y-axis has an x-coordinate of 0 and the corner of the square furthest to the left has an x‑coordinate of −6, so the distance between opposite corners of each square is 6 units. So the distance between the centre of a square and one corner of a square is 6 ÷ 2 = 3 units. The point marked A is 3 units right and 3 units up from point (0, 0). So the coordinates of point A are (3, 3).",
     "options": [
-      "(6,\u00a06)",
-      "(3,\u00a09)",
-      "(6,\u00a03)",
-      "(3,\u00a03)",
-      "(\u22123,\u00a0\u22123)"
+      "(6, 6)",
+      "(3, 9)",
+      "(6, 3)",
+      "(3, 3)",
+      "(−3, −3)"
     ]
   },
   {
     "question_num": 32,
-    "text": "The cost of the activities available at a summer camp are shown below.\n\nMalala spends exactly \u00a368. She doesn\u2019t do any activity more than once.\n\nWhich of these combinations of activities must she have done?",
+    "text": "The cost of the activities available at a summer camp are shown below.\n\nMalala spends exactly £68. She doesn’t do any activity more than once.\n\nWhich of these combinations of activities must she have done?",
     "question_image": "q32_question_0.png",
     "question_images": [
       "q32_question_0.png"
     ],
     "images": [],
     "answer": "D",
-    "explanation": "Answer:\n\nPaintball costs \u00a355 by itself, so it\u2019s unlikely to be options a) or e). Try options d), b) and c). Option d) is the only one that adds up to \u00a368. You can use the column method to add the costs:",
+    "explanation": "Answer:\n\nPaintball costs £55 by itself, so it’s unlikely to be options a) or e). Try options d), b) and c). Option d) is the only one that adds up to £68. You can use the column method to add the costs:",
     "options": [
-      "Kayaking, paintball and high\u00a0ropes",
-      "Kayaking, sailing, high\u00a0ropes",
-      "Kayaking, windsurfing and high\u00a0ropes",
-      "Windsurfing, sailing and high\u00a0ropes",
+      "Kayaking, paintball and high ropes",
+      "Kayaking, sailing, high ropes",
+      "Kayaking, windsurfing and high ropes",
+      "Windsurfing, sailing and high ropes",
       "Paintball, windsurfing and sailing"
     ]
   },
@@ -584,7 +584,7 @@
     ],
     "images": [],
     "answer": "A",
-    "explanation": "Answer:\n\nThere are 34\u00a0\u2212\u00a015\u00a0=\u00a019\u00a0female dogs in total, so there are 19\u00a0\u2212\u00a012\u00a0=\u00a07\u00a0female puppies.",
+    "explanation": "Answer:\n\nThere are 34 − 15 = 19 female dogs in total, so there are 19 − 12 = 7 female puppies.",
     "options": [
       "7",
       "9",
@@ -595,14 +595,14 @@
   },
   {
     "question_num": 34,
-    "text": "___\u00a0\u00f7\u00a01000\u00a0=\u00a00.2543\n\nWhat number is missing from the calculation above?",
+    "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "E",
-    "explanation": "Answer:\n\nMultiplication is the inverse operation of division, so the answer is 0.2543\u00a0\u00d7\u00a01000\u00a0=\u00a0254.3.",
+    "explanation": "Answer:\n\nMultiplication is the inverse operation of division, so the answer is 0.2543 × 1000 = 254.3.",
     "options": [
-      "25\u00a0430",
+      "25 430",
       "2543",
       "25.43",
       "2.543",
@@ -616,7 +616,7 @@
     "question_images": [],
     "images": [],
     "answer": "C",
-    "explanation": "Answer:\n\nYou can use short division to work out 2576\u00a0\u00f7\u00a09:\n\nSo the remainder is 2.",
+    "explanation": "Answer:\n\nYou can use short division to work out 2576 ÷ 9:\n\nSo the remainder is 2.",
     "options": [
       "5",
       "1",
@@ -627,28 +627,28 @@
   },
   {
     "question_num": 36,
-    "text": "Johan takes part in a high jump competition. His best jump is 2.04\u00a0m.\n\nHow high is this in mm?",
+    "text": "Johan takes part in a high jump competition. His best jump is 2.04 m.\n\nHow high is this in mm?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "E",
-    "explanation": "Answer:\n\n1\u00a0m\u00a0=\u00a0100\u00a0cm, so 2.04\u00a0m =\u00a02.04\u00a0\u00d7\u00a0100 =\u00a0204\u00a0cm. 1\u00a0cm\u00a0=\u00a010\u00a0mm, so 204\u00a0cm =\u00a0204\u00a0\u00d7\u00a010 =\u00a02040\u00a0mm.",
+    "explanation": "Answer:\n\n1 m = 100 cm, so 2.04 m = 2.04 × 100 = 204 cm. 1 cm = 10 mm, so 204 cm = 204 × 10 = 2040 mm.",
     "options": [
-      "204\u00a0mm",
-      "240\u00a0000\u00a0mm",
-      "20.4\u00a0mm",
-      "20\u00a0400\u00a0mm",
-      "2040\u00a0mm"
+      "204 mm",
+      "240 000 mm",
+      "20.4 mm",
+      "20 400 mm",
+      "2040 mm"
     ]
   },
   {
     "question_num": 37,
-    "text": "Four children collect animal stickers. Mazana has 120\u00a0stickers, Louis has 140\u00a0stickers, Nadia has 90\u00a0stickers and Connor has 50\u00a0stickers.\n\nWhat is the mean number of stickers owned by the four children?",
+    "text": "Four children collect animal stickers. Mazana has 120 stickers, Louis has 140 stickers, Nadia has 90 stickers and Connor has 50 stickers.\n\nWhat is the mean number of stickers owned by the four children?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "C",
-    "explanation": "Answer:\n\nThe total number of stickers\u00a0=\u00a0120\u00a0+\u00a0140\u00a0+\u00a090\u00a0+\u00a050\u00a0=\u00a0400. Divide this by the number of children to get the mean: 400\u00a0\u00f7\u00a04\u00a0=\u00a0100.",
+    "explanation": "Answer:\n\nThe total number of stickers = 120 + 140 + 90 + 50 = 400. Divide this by the number of children to get the mean: 400 ÷ 4 = 100.",
     "options": [
       "40",
       "400",
@@ -659,76 +659,76 @@
   },
   {
     "question_num": 38,
-    "text": "Orange juice is usually priced at \u00a31.50 per bottle.\n\nHow much would a bottle of orange juice cost if the price was reduced by 10%?",
+    "text": "Orange juice is usually priced at £1.50 per bottle.\n\nHow much would a bottle of orange juice cost if the price was reduced by 10%?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "B",
-    "explanation": "Answer:\n\n10% of \u00a31.50 is \u00a31.50\u00a0\u00f7\u00a010\u00a0=\u00a0\u00a30.15. So the reduced price would be \u00a31.50\u00a0\u2212\u00a0\u00a30.15\u00a0=\u00a0\u00a31.35.",
+    "explanation": "Answer:\n\n10% of £1.50 is £1.50 ÷ 10 = £0.15. So the reduced price would be £1.50 − £0.15 = £1.35.",
     "options": [
-      "\u00a31.30",
-      "\u00a31.35",
-      "\u00a31.40",
-      "\u00a31.45",
-      "\u00a31.25"
+      "£1.30",
+      "£1.35",
+      "£1.40",
+      "£1.45",
+      "£1.25"
     ]
   },
   {
     "question_num": 39,
-    "text": "Mr Chen is knitting a jumper. It takes him two and a half minutes to knit each row.\nHe starts knitting at 4:15\u00a0pm.\n\nAt what time will he have knitted 50 rows?",
+    "text": "Mr Chen is knitting a jumper. It takes him two and a half minutes to knit each row.\nHe starts knitting at 4:15 pm.\n\nAt what time will he have knitted 50 rows?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "C",
-    "explanation": "Answer:\n\n2.5\u00a0minutes\u00a0\u00d7\u00a050\u00a0=\u00a0125\u00a0minutes. 125\u00a0minutes\u00a0=\u00a02\u00a0hours and 5\u00a0minutes. Add this to 4:15\u00a0pm: 4:15\u00a0pm\u00a0+\u00a02\u00a0hours\u00a0=\u00a06:15\u00a0pm, 6:15\u00a0pm\u00a0+\u00a05\u00a0minutes\u00a0=\u00a06:20\u00a0pm.",
+    "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
     "options": [
-      "5:55\u00a0pm",
-      "5:05\u00a0pm",
-      "6:20\u00a0pm",
-      "6:15\u00a0pm",
-      "6:00\u00a0pm"
+      "5:55 pm",
+      "5:05 pm",
+      "6:20 pm",
+      "6:15 pm",
+      "6:00 pm"
     ]
   },
   {
     "question_num": 40,
-    "text": "Charlotte is buying 12 apples at 6p each. She pays with a \u00a35 note.\n\nHow much change does she get?",
+    "text": "Charlotte is buying 12 apples at 6p each. She pays with a £5 note.\n\nHow much change does she get?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "B",
-    "explanation": "Answer:\n\n\u00a35\u00a0=\u00a0500p. 12 apples cost 12\u00a0\u00d7\u00a06p\u00a0=\u00a072p. 500p\u00a0\u2212\u00a072p\u00a0=\u00a0428p. 428p\u00a0=\u00a0\u00a34.28 change.",
+    "explanation": "Answer:\n\n£5 = 500p. 12 apples cost 12 × 6p = 72p. 500p − 72p = 428p. 428p = £4.28 change.",
     "options": [
       "28p",
-      "\u00a34.28",
-      "\u00a33.72",
+      "£4.28",
+      "£3.72",
       "72p",
-      "\u00a32.78"
+      "£2.78"
     ]
   },
   {
     "question_num": 41,
-    "text": "___\u00a0\u00f7\u00a01000\u00a0=\u00a00.2543\n\nWhat number is missing from the calculation above?",
+    "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "E",
-    "explanation": "Answer:\n\nMultiplication is the inverse operation of division, so the answer is 0.2543\u00a0\u00d7\u00a01000\u00a0=\u00a0254.3.",
+    "explanation": "Answer:\n\nMultiplication is the inverse operation of division, so the answer is 0.2543 × 1000 = 254.3.",
     "options": [
       "25.43",
       "2.543",
-      "25\u00a0430",
+      "25 430",
       "2543",
       "254.3"
     ]
   },
   {
     "question_num": 42,
-    "text": "Four children collect animal stickers. Mazana has 120\u00a0stickers, Louis has 140\u00a0stickers, Nadia has 90\u00a0stickers and Connor has 50\u00a0stickers.\n\nWhat is the mean number of stickers owned by the four children?",
+    "text": "Four children collect animal stickers. Mazana has 120 stickers, Louis has 140 stickers, Nadia has 90 stickers and Connor has 50 stickers.\n\nWhat is the mean number of stickers owned by the four children?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "A",
-    "explanation": "Answer:\n\nThe total number of stickers\u00a0=\u00a0120\u00a0+\u00a0140\u00a0+\u00a090\u00a0+\u00a050\u00a0=\u00a0400. Divide this by the number of children to get the mean: 400\u00a0\u00f7\u00a04\u00a0=\u00a0100.",
+    "explanation": "Answer:\n\nThe total number of stickers = 120 + 140 + 90 + 50 = 400. Divide this by the number of children to get the mean: 400 ÷ 4 = 100.",
     "options": [
       "100",
       "150",
@@ -739,18 +739,18 @@
   },
   {
     "question_num": 43,
-    "text": "A cuboid has a length of 14\u00a0m, a width of 2\u00a0m and a volume of 280\u00a0m3.\n\nWhat is the cuboid\u2019s height?",
+    "text": "A cuboid has a length of 14 m, a width of 2 m and a volume of 280 m3.\n\nWhat is the cuboid’s height?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "D",
-    "explanation": "Answer:\n\nVolume\u00a0=\u00a0length\u00a0\u00d7\u00a0width\u00a0\u00d7\u00a0height, so 280\u00a0=\u00a014\u00a0\u00d7\u00a02\u00a0\u00d7\u00a0height =\u00a028\u00a0\u00d7\u00a0height. So the height of the cuboid is 280\u00a0\u00f7\u00a028 =\u00a010\u00a0m.",
+    "explanation": "Answer:\n\nVolume = length × width × height, so 280 = 14 × 2 × height = 28 × height. So the height of the cuboid is 280 ÷ 28 = 10 m.",
     "options": [
-      "20\u00a0m",
-      "15\u00a0m",
-      "14\u00a0m",
-      "10\u00a0m",
-      "20\u00a0m"
+      "20 m",
+      "15 m",
+      "14 m",
+      "10 m",
+      "20 m"
     ]
   },
   {
@@ -762,7 +762,7 @@
     ],
     "images": [],
     "answer": "A",
-    "explanation": "Answer:\n\n64 is a square number (8\u00a0\u00d7\u00a08\u00a0=\u00a064) and a cube number (4\u00a0\u00d7\u00a04\u00a0\u00d7\u00a04\u00a0=\u00a064), so it should be in the top\u2011left box.",
+    "explanation": "Answer:\n\n64 is a square number (8 × 8 = 64) and a cube number (4 × 4 × 4 = 64), so it should be in the top‑left box.",
     "options": [
       "64",
       "27",
@@ -773,23 +773,23 @@
   },
   {
     "question_num": 45,
-    "text": "Johan takes part in a high jump competition. His best jump is 2.04\u00a0m.\n\nHow high is this in mm?",
+    "text": "Johan takes part in a high jump competition. His best jump is 2.04 m.\n\nHow high is this in mm?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "B",
-    "explanation": "Answer:\n\n1\u00a0m\u00a0=\u00a0100\u00a0cm, so 2.04\u00a0m =\u00a02.04\u00a0\u00d7\u00a0100 =\u00a0204\u00a0cm. 1\u00a0cm\u00a0=\u00a010\u00a0mm, so 204\u00a0cm =\u00a0204\u00a0\u00d7\u00a010 =\u00a02040\u00a0mm.",
+    "explanation": "Answer:\n\n1 m = 100 cm, so 2.04 m = 2.04 × 100 = 204 cm. 1 cm = 10 mm, so 204 cm = 204 × 10 = 2040 mm.",
     "options": [
-      "240\u00a0000\u00a0mm",
-      "2040\u00a0mm",
-      "204\u00a0mm",
-      "20.4\u00a0mm",
-      "20\u00a0400\u00a0mm"
+      "240 000 mm",
+      "2040 mm",
+      "204 mm",
+      "20.4 mm",
+      "20 400 mm"
     ]
   },
   {
     "question_num": 46,
-    "text": "Jenna has made this shape out of blocks.\n\nWhich of the shapes below is identical to Jenna\u2019s shape?",
+    "text": "Jenna has made this shape out of blocks.\n\nWhich of the shapes below is identical to Jenna’s shape?",
     "question_image": "q46_question_0.png",
     "question_images": [
       "q46_question_0.png"
@@ -802,7 +802,7 @@
       "q46_option_4.png"
     ],
     "answer": "E",
-    "explanation": "Answer:\n\nIf Jenna\u2019s shape was rotated 90\u00b0\u00a0anticlockwise, and then rotated 180\u00b0\u00a0left\u2011to\u2011right, it would look like option e).",
+    "explanation": "Answer:\n\nIf Jenna’s shape was rotated 90° anticlockwise, and then rotated 180° left‑to‑right, it would look like option e).",
     "options": [
       "a)",
       "b)",
@@ -813,14 +813,14 @@
   },
   {
     "question_num": 47,
-    "text": "Lucas asked everyone in Year\u00a06 where they would like to go on a trip. He made a pie chart of the results.\n\nWhat fraction of the children said they wanted to go to either a farm or a zoo?",
+    "text": "Lucas asked everyone in Year 6 where they would like to go on a trip. He made a pie chart of the results.\n\nWhat fraction of the children said they wanted to go to either a farm or a zoo?",
     "question_image": "q47_question_0.png",
     "question_images": [
       "q47_question_0.png"
     ],
     "images": [],
     "answer": "C",
-    "explanation": "Answer:\n\nThe farm sector has an angle of\u00a070\u00b0 and the zoo\u00a0sector has an angle of\u00a090\u00b0. The total\u00a0of these angles is 70\u00b0\u00a0+\u00a090\u00b0\u00a0=\u00a0160\u00b0. As a fraction of the whole circle, this is \n3\n6\n0\n1\n6\n0\n. Divide the numerator and denominator by 10 and then by 4 to simplify: \n3\n6\n0\n1\n6\n0\n3\n6\n1\n6\n9\n4\n=\n=\n.",
+    "explanation": "Answer:\n\nThe farm sector has an angle of 70° and the zoo sector has an angle of 90°. The total of these angles is 70° + 90° = 160°. As a fraction of the whole circle, this is \n3\n6\n0\n1\n6\n0\n. Divide the numerator and denominator by 10 and then by 4 to simplify: \n3\n6\n0\n1\n6\n0\n3\n6\n1\n6\n9\n4\n=\n=\n.",
     "options": [
       "7\n2",
       "3\n1",
@@ -836,13 +836,13 @@
     "question_images": [],
     "images": [],
     "answer": "C",
-    "explanation": "Answer:\n\nThe ratio of brown rabbits\u00a0:\u00a0black rabbits is 6\u00a0:\u00a02. Divide both parts of the ratio by 2 to simplify to 3\u00a0:\u00a01.",
+    "explanation": "Answer:\n\nThe ratio of brown rabbits : black rabbits is 6 : 2. Divide both parts of the ratio by 2 to simplify to 3 : 1.",
     "options": [
-      "2\u00a0:\u00a01",
-      "1\u00a0:\u00a02",
-      "3\u00a0:\u00a01",
-      "6\u00a0:\u00a01",
-      "1\u00a0:\u00a03"
+      "2 : 1",
+      "1 : 2",
+      "3 : 1",
+      "6 : 1",
+      "1 : 3"
     ]
   },
   {
@@ -852,7 +852,7 @@
     "question_images": [],
     "images": [],
     "answer": "C",
-    "explanation": "Answer:\n\n12\u00a0+\u00a08\u00a0+\u00a020\u00a0=\u00a040. So \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n \n4\n0\n1\n2\n0\n=\n =\u00a0120\u00a0\u00f7\u00a040\u00a0=\u00a03.",
+    "explanation": "Answer:\n\n12 + 8 + 20 = 40. So \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n \n4\n0\n1\n2\n0\n=\n = 120 ÷ 40 = 3.",
     "options": [
       "38",
       "6",
@@ -863,18 +863,18 @@
   },
   {
     "question_num": 50,
-    "text": "Mr Chen is knitting a jumper. It takes him two and a half minutes to knit each row.\nHe starts knitting at 4:15\u00a0pm.\n\nAt what time will he have knitted 50 rows?",
+    "text": "Mr Chen is knitting a jumper. It takes him two and a half minutes to knit each row.\nHe starts knitting at 4:15 pm.\n\nAt what time will he have knitted 50 rows?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "A",
-    "explanation": "Answer:\n\n2.5\u00a0minutes\u00a0\u00d7\u00a050\u00a0=\u00a0125\u00a0minutes. 125\u00a0minutes\u00a0=\u00a02\u00a0hours and 5\u00a0minutes. Add this to 4:15\u00a0pm: 4:15\u00a0pm\u00a0+\u00a02\u00a0hours\u00a0=\u00a06:15\u00a0pm, 6:15\u00a0pm\u00a0+\u00a05\u00a0minutes\u00a0=\u00a06:20\u00a0pm.",
+    "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
     "options": [
-      "6:20\u00a0pm",
-      "5:55\u00a0pm",
-      "6:15\u00a0pm",
-      "6:00\u00a0pm",
-      "5:05\u00a0pm"
+      "6:20 pm",
+      "5:55 pm",
+      "6:15 pm",
+      "6:00 pm",
+      "5:05 pm"
     ]
   },
   {
@@ -886,13 +886,13 @@
     ],
     "images": [],
     "answer": "E",
-    "explanation": "Answer:\n\nAngles in a triangle add up to 180\u00b0, so the missing angle in the triangle is 180\u00b0\u00a0\u2212\u00a090\u00b0\u00a0\u2212\u00a061\u00b0\u00a0=\u00a029\u00b0. Angles on a straight line add up to 180\u00b0, so angle\u00a0b\u00a0=\u00a0180\u00b0\u00a0\u2212\u00a029\u00b0\u00a0=\u00a0151\u00b0.",
+    "explanation": "Answer:\n\nAngles in a triangle add up to 180°, so the missing angle in the triangle is 180° − 90° − 61° = 29°. Angles on a straight line add up to 180°, so angle b = 180° − 29° = 151°.",
     "options": [
-      "139\u00b0",
-      "61\u00b0",
-      "161\u00b0",
-      "29\u00b0",
-      "151\u00b0"
+      "139°",
+      "61°",
+      "161°",
+      "29°",
+      "151°"
     ]
   },
   {
@@ -904,39 +904,39 @@
     ],
     "images": [],
     "answer": "C",
-    "explanation": "Answer:\n\nReading from the graph, Rui spent 75%\u00a0\u2212\u00a045%\u00a0=\u00a030% of the time doing drama. \n2\n2\n1\n\u00a0hours is 60\u00a0+\u00a060\u00a0+\u00a030\u00a0=\u00a0150\u00a0minutes. 10%\u00a0of\u00a0150 is 150\u00a0\u00f7\u00a010 =\u00a015\u00a0minutes, so 30%\u00a0of\u00a0150\u00a0minutes is 3\u00a0\u00d7\u00a015\u00a0=\u00a045\u00a0minutes.",
+    "explanation": "Answer:\n\nReading from the graph, Rui spent 75% − 45% = 30% of the time doing drama. \n2\n2\n1\n hours is 60 + 60 + 30 = 150 minutes. 10% of 150 is 150 ÷ 10 = 15 minutes, so 30% of 150 minutes is 3 × 15 = 45 minutes.",
     "options": [
-      "15\u00a0minutes",
-      "75\u00a0minutes",
-      "45\u00a0minutes",
-      "40\u00a0minutes",
-      "30\u00a0minutes"
+      "15 minutes",
+      "75 minutes",
+      "45 minutes",
+      "40 minutes",
+      "30 minutes"
     ]
   },
   {
     "question_num": 53,
-    "text": "Orange juice is usually priced at \u00a31.50 per bottle.\n\nHow much would a bottle of orange juice cost if the price was reduced by 10%?",
+    "text": "Orange juice is usually priced at £1.50 per bottle.\n\nHow much would a bottle of orange juice cost if the price was reduced by 10%?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "E",
-    "explanation": "Answer:\n\n10% of \u00a31.50 is \u00a31.50\u00a0\u00f7\u00a010\u00a0=\u00a0\u00a30.15. So the reduced price would be \u00a31.50\u00a0\u2212\u00a0\u00a30.15\u00a0=\u00a0\u00a31.35.",
+    "explanation": "Answer:\n\n10% of £1.50 is £1.50 ÷ 10 = £0.15. So the reduced price would be £1.50 − £0.15 = £1.35.",
     "options": [
-      "\u00a31.30",
-      "\u00a31.45",
-      "\u00a31.25",
-      "\u00a31.40",
-      "\u00a31.35"
+      "£1.30",
+      "£1.45",
+      "£1.25",
+      "£1.40",
+      "£1.35"
     ]
   },
   {
     "question_num": 54,
-    "text": "41\u00a0\u2212\u00a03h\u00a0=\u00a017\n\nWhat is h?",
+    "text": "41 − 3h = 17\n\nWhat is h?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "C",
-    "explanation": "Answer:\n\n41\u00a0\u2212\u00a03h\u00a0=\u00a017, so 3h\u00a0=\u00a041\u00a0\u2212\u00a017\u00a0=\u00a024. 3h\u00a0=\u00a024, so h\u00a0=\u00a024\u00a0\u00f7\u00a03\u00a0=\u00a08.",
+    "explanation": "Answer:\n\n41 − 3h = 17, so 3h = 41 − 17 = 24. 3h = 24, so h = 24 ÷ 3 = 8.",
     "options": [
       "6",
       "24",
@@ -954,18 +954,18 @@
     ],
     "images": [],
     "answer": "C",
-    "explanation": "Answer:\n\nThe calculations show the prices rounded to the nearest 10p, so each item has 1p added on to its price. There are 2\u00a0+\u00a03\u00a0+\u00a01\u00a0=\u00a06\u00a0items, so 6p has been added to the total cost. Option c) is the correct answer as Marko needs to take 6p off the total to get the right amount.",
+    "explanation": "Answer:\n\nThe calculations show the prices rounded to the nearest 10p, so each item has 1p added on to its price. There are 2 + 3 + 1 = 6 items, so 6p has been added to the total cost. Option c) is the correct answer as Marko needs to take 6p off the total to get the right amount.",
     "options": [
-      "2\u00a0\u00d7\u00a0\u00a35.00 +\u00a03\u00a0\u00d7\u00a0\u00a34.00 +\u00a0\u00a33.50\u00a0\u2212\u00a05p",
-      "2\u00a0\u00d7\u00a0\u00a35.00 +\u00a03\u00a0\u00d7\u00a0\u00a34.00 +\u00a0\u00a33.50\u00a0+\u00a06p",
-      "2\u00a0\u00d7\u00a0\u00a35.00 +\u00a03\u00a0\u00d7\u00a0\u00a34.00 +\u00a0\u00a33.50\u00a0\u2212\u00a06p",
-      "2\u00a0\u00d7\u00a0\u00a35.00 +\u00a03\u00a0\u00d7\u00a0\u00a34.00 +\u00a0\u00a33.50\u00a0+\u00a05p",
-      "2\u00a0\u00d7\u00a0\u00a35.00 +\u00a03\u00a0\u00d7\u00a0\u00a34.00 +\u00a0\u00a33.50\u00a0\u2212\u00a03p"
+      "2 × £5.00 + 3 × £4.00 + £3.50 − 5p",
+      "2 × £5.00 + 3 × £4.00 + £3.50 + 6p",
+      "2 × £5.00 + 3 × £4.00 + £3.50 − 6p",
+      "2 × £5.00 + 3 × £4.00 + £3.50 + 5p",
+      "2 × £5.00 + 3 × £4.00 + £3.50 − 3p"
     ]
   },
   {
     "question_num": 56,
-    "text": "Jenna has made this shape out of blocks.\n\nWhich of the shapes below is identical to Jenna\u2019s shape?",
+    "text": "Jenna has made this shape out of blocks.\n\nWhich of the shapes below is identical to Jenna’s shape?",
     "question_image": "q56_question_0.png",
     "question_images": [
       "q56_question_0.png"
@@ -978,7 +978,7 @@
       "q56_option_4.png"
     ],
     "answer": "B",
-    "explanation": "Answer:\n\nIf Jenna\u2019s shape was rotated 90\u00b0\u00a0anticlockwise, and then rotated 180\u00b0\u00a0left\u2011to\u2011right, it would look like option b).",
+    "explanation": "Answer:\n\nIf Jenna’s shape was rotated 90° anticlockwise, and then rotated 180° left‑to‑right, it would look like option b).",
     "options": [
       "a)",
       "b)",
@@ -1000,7 +1000,7 @@
       "q57_option_4.png"
     ],
     "answer": "C",
-    "explanation": "Answer:\n\nRegular polygons have equal\u2011length sides and equal angles, so c) isn\u2019t regular.",
+    "explanation": "Answer:\n\nRegular polygons have equal‑length sides and equal angles, so c) isn’t regular.",
     "options": [
       "a)",
       "b)",
@@ -1011,20 +1011,3609 @@
   },
   {
     "question_num": 58,
-    "text": "The cost of the activities available at a summer camp are shown below.\n\nMalala spends exactly \u00a368. She doesn\u2019t do any activity more than once.\n\nWhich of these combinations of activities must she have done?",
+    "text": "The cost of the activities available at a summer camp are shown below.\n\nMalala spends exactly £68. She doesn’t do any activity more than once.\n\nWhich of these combinations of activities must she have done?",
     "question_image": "q58_question_0.png",
     "question_images": [
       "q58_question_0.png"
     ],
     "images": [],
     "answer": "D",
-    "explanation": "Answer:\n\nPaintball costs \u00a355 by itself, so it\u2019s unlikely to be options e) or c). Try options d), b) and a). Option d) is the only one that adds up to \u00a368. You can use the column method to add the costs:",
+    "explanation": "Answer:\n\nPaintball costs £55 by itself, so it’s unlikely to be options e) or c). Try options d), b) and a). Option d) is the only one that adds up to £68. You can use the column method to add the costs:",
     "options": [
-      "Kayaking, windsurfing and high\u00a0ropes",
-      "Kayaking, sailing, high\u00a0ropes",
+      "Kayaking, windsurfing and high ropes",
+      "Kayaking, sailing, high ropes",
       "Paintball, windsurfing and sailing",
-      "Windsurfing, sailing and high\u00a0ropes",
-      "Kayaking, paintball and high\u00a0ropes"
+      "Windsurfing, sailing and high ropes",
+      "Kayaking, paintball and high ropes"
     ]
+  },
+  {
+    "question_num": 175,
+    "text": "41 − 3h = 17\n\nWhat is h?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\n41 − 3h = 17, so 3h = 41 − 17 = 24. 3h = 24, so h = 24 ÷ 3 = 8.",
+    "options": [
+      "6",
+      "12",
+      "8",
+      "19",
+      "24"
+    ]
+  },
+  {
+    "question_num": 176,
+    "text": "Which number has been put in the wrong place in this sorting diagram?",
+    "question_image": "q176_question_0.png",
+    "question_images": [
+      "q176_question_0.png"
+    ],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\n64 is a square number (8 × 8 = 64) and a cube number (4 × 4 × 4 = 64), so it should be in the top‑left box.",
+    "options": [
+      "1",
+      "8",
+      "27",
+      "64",
+      "100"
+    ]
+  },
+  {
+    "question_num": 177,
+    "text": "Which of the shapes below is not a regular polygon?",
+    "question_image": null,
+    "question_images": [],
+    "images": [
+      "q177_option_0.png",
+      "q177_option_1.png",
+      "q177_option_2.png",
+      "q177_option_3.png",
+      "q177_option_4.png"
+    ],
+    "answer": "C",
+    "explanation": "Answer:\n\nRegular polygons have equal‑length sides and equal angles, so c) isn’t regular.",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 178,
+    "text": "A cuboid has a length of 14 m, a width of 2 m and a volume of 280 m3.\n\nWhat is the cuboid’s height?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\nVolume = length × width × height, so 280 = 14 × 2 × height = 28 × height. So the height of the cuboid is 280 ÷ 28 = 10 m.",
+    "options": [
+      "20 m",
+      "10 m",
+      "14 m",
+      "15 m",
+      "20 m"
+    ]
+  },
+  {
+    "question_num": 179,
+    "text": "Saffron draws four identical squares on the axes below. The coordinates of one corner are shown.\n\nWhat are the coordinates of the point marked A?",
+    "question_image": "q179_question_0.png",
+    "question_images": [
+      "q179_question_0.png"
+    ],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nThe y-axis has an x-coordinate of 0 and the corner of the square furthest to the left has an x‑coordinate of −6, so the distance between opposite corners of each square is 6 units. So the distance between the centre of a square and one corner of a square is 6 ÷ 2 = 3 units. The point marked A is 3 units right and 3 units up from point (0, 0). So the coordinates of point A are (3, 3).",
+    "options": [
+      "(3, 9)",
+      "(−3, −3)",
+      "(3, 3)",
+      "(6, 3)",
+      "(6, 6)"
+    ]
+  },
+  {
+    "question_num": 180,
+    "text": "Look at the shape below.\n\nWhich one of the following shapes has the same area?",
+    "question_image": "q180_question_0.png",
+    "question_images": [
+      "q180_question_0.png"
+    ],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nThe shape in the diagram can be split into a 3 m by 2 m rectangle and 3 m by 5 m rectangle. So the total area is (3 × 2) + (3 × 5) = 6 + 15 = 21 m2. The area of a parallelogram is base × vertical height, so the shape in option c) also has an area of 7 × 3 = 21 m2. (Options a) and d) both have areas of 20 m2. Options e) and b) both have areas of 25 m2.)",
+    "options": [
+      "A rectangle, width 4 m, length 5 m.",
+      "A parallelogram, base 5 m, vertical height 5 m.",
+      "A parallelogram, base 7 m, vertical height 3 m.",
+      "A triangle, base 10 m, height 4 m.",
+      "A square, side length 5 m."
+    ]
+  },
+  {
+    "question_num": 181,
+    "text": "What is \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\n12 + 8 + 20 = 40. So \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n \n4\n0\n1\n2\n0\n=\n = 120 ÷ 40 = 3.",
+    "options": [
+      "6",
+      "38",
+      "3",
+      "26",
+      "4"
+    ]
+  },
+  {
+    "question_num": 182,
+    "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nMultiplication is the inverse operation of division, so the answer is 0.2543 × 1000 = 254.3.",
+    "options": [
+      "25.43",
+      "2543",
+      "254.3",
+      "2.543",
+      "25 430"
+    ]
+  },
+  {
+    "question_num": 183,
+    "text": "Lucas asked everyone in Year 6 where they would like to go on a trip. He made a pie chart of the results.\n\nWhat fraction of the children said they wanted to go to either a farm or a zoo?",
+    "question_image": "q183_question_0.png",
+    "question_images": [
+      "q183_question_0.png"
+    ],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\nThe farm sector has an angle of 70° and the zoo sector has an angle of 90°. The total of these angles is 70° + 90° = 160°. As a fraction of the whole circle, this is \n3\n6\n0\n1\n6\n0\n. Divide the numerator and denominator by 10 and then by 4 to simplify: \n3\n6\n0\n1\n6\n0\n3\n6\n1\n6\n9\n4\n=\n=\n.",
+    "options": [
+      "7\n2",
+      "3\n1",
+      "9\n5",
+      "5\n2",
+      "9\n4"
+    ]
+  },
+  {
+    "question_num": 184,
+    "text": "Ben has £8 to spend. He buys a chocolate bar for £2.\n\nWhat percentage of his money does Ben spend on the chocolate bar?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\n£2 out of £8 \n8\n2\n4\n1\n=\n=\n. So Ben spends \n%\n4\n1\n2\n5\n=\n of his money on the chocolate bar.",
+    "options": [
+      "20%",
+      "25%",
+      "10%",
+      "2%",
+      "30%"
+    ]
+  },
+  {
+    "question_num": 185,
+    "text": "Four children collect animal stickers. Mazana has 120 stickers, Louis has 140 stickers, Nadia has 90 stickers and Connor has 50 stickers.\n\nWhat is the mean number of stickers owned by the four children?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\nThe total number of stickers = 120 + 140 + 90 + 50 = 400. Divide this by the number of children to get the mean: 400 ÷ 4 = 100.",
+    "options": [
+      "150",
+      "400",
+      "40",
+      "50",
+      "100"
+    ]
+  },
+  {
+    "question_num": 186,
+    "text": "Which of the shapes below is not a regular polygon?",
+    "question_image": null,
+    "question_images": [],
+    "images": [
+      "q186_option_0.png",
+      "q186_option_1.png",
+      "q186_option_2.png",
+      "q186_option_3.png",
+      "q186_option_4.png"
+    ],
+    "answer": "B",
+    "explanation": "Answer:\n\nRegular polygons have equal‑length sides and equal angles, so b) isn’t regular.",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 187,
+    "text": "A cuboid has a length of 14 m, a width of 2 m and a volume of 280 m3.\n\nWhat is the cuboid’s height?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\nVolume = length × width × height, so 280 = 14 × 2 × height = 28 × height. So the height of the cuboid is 280 ÷ 28 = 10 m.",
+    "options": [
+      "10 m",
+      "14 m",
+      "20 m",
+      "15 m",
+      "20 m"
+    ]
+  },
+  {
+    "question_num": 188,
+    "text": "The cost of the activities available at a summer camp are shown below.\n\nMalala spends exactly £68. She doesn’t do any activity more than once.\n\nWhich of these combinations of activities must she have done?",
+    "question_image": "q188_question_0.png",
+    "question_images": [
+      "q188_question_0.png"
+    ],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nPaintball costs £55 by itself, so it’s unlikely to be options d) or b). Try options c), e) and a). Option c) is the only one that adds up to £68. You can use the column method to add the costs:",
+    "options": [
+      "Kayaking, windsurfing and high ropes",
+      "Paintball, windsurfing and sailing",
+      "Windsurfing, sailing and high ropes",
+      "Kayaking, paintball and high ropes",
+      "Kayaking, sailing, high ropes"
+    ]
+  },
+  {
+    "question_num": 189,
+    "text": "Saffron draws four identical squares on the axes below. The coordinates of one corner are shown.\n\nWhat are the coordinates of the point marked A?",
+    "question_image": "q189_question_0.png",
+    "question_images": [
+      "q189_question_0.png"
+    ],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\nThe y-axis has an x-coordinate of 0 and the corner of the square furthest to the left has an x‑coordinate of −6, so the distance between opposite corners of each square is 6 units. So the distance between the centre of a square and one corner of a square is 6 ÷ 2 = 3 units. The point marked A is 3 units right and 3 units up from point (0, 0). So the coordinates of point A are (3, 3).",
+    "options": [
+      "(−3, −3)",
+      "(6, 3)",
+      "(6, 6)",
+      "(3, 9)",
+      "(3, 3)"
+    ]
+  },
+  {
+    "question_num": 190,
+    "text": "2x° is an acute angle and 3x° is an obtuse angle.\n\nWhich of the options below could be the value of x?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\nAn acute angle is less than 90°, so 2x < 90, which means x < 90 ÷ 2 = 45. So it can’t be a) or c). An obtuse angle is greater than 90°, so 3x > 90, which means x > 90 ÷ 3 = 30, so it can’t be b) or e). So d) is the only possible value of x.",
+    "options": [
+      "60",
+      "30",
+      "53",
+      "42",
+      "23"
+    ]
+  },
+  {
+    "question_num": 191,
+    "text": "Ben has £8 to spend. He buys a chocolate bar for £2.\n\nWhat percentage of his money does Ben spend on the chocolate bar?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n£2 out of £8 \n8\n2\n4\n1\n=\n=\n. So Ben spends \n%\n4\n1\n2\n5\n=\n of his money on the chocolate bar.",
+    "options": [
+      "25%",
+      "20%",
+      "2%",
+      "30%",
+      "10%"
+    ]
+  },
+  {
+    "question_num": 192,
+    "text": "Lucas asked everyone in Year 6 where they would like to go on a trip. He made a pie chart of the results.\n\nWhat fraction of the children said they wanted to go to either a farm or a zoo?",
+    "question_image": "q192_question_0.png",
+    "question_images": [
+      "q192_question_0.png"
+    ],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\nThe farm sector has an angle of 70° and the zoo sector has an angle of 90°. The total of these angles is 70° + 90° = 160°. As a fraction of the whole circle, this is \n3\n6\n0\n1\n6\n0\n. Divide the numerator and denominator by 10 and then by 4 to simplify: \n3\n6\n0\n1\n6\n0\n3\n6\n1\n6\n9\n4\n=\n=\n.",
+    "options": [
+      "9\n5",
+      "9\n4",
+      "3\n1",
+      "5\n2",
+      "7\n2"
+    ]
+  },
+  {
+    "question_num": 193,
+    "text": "What is \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\n12 + 8 + 20 = 40. So \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n \n4\n0\n1\n2\n0\n=\n = 120 ÷ 40 = 3.",
+    "options": [
+      "26",
+      "6",
+      "4",
+      "3",
+      "38"
+    ]
+  },
+  {
+    "question_num": 194,
+    "text": "Look at the shape below.\n\nWhich one of the following shapes has the same area?",
+    "question_image": "q194_question_0.png",
+    "question_images": [
+      "q194_question_0.png"
+    ],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\nThe shape in the diagram can be split into a 3 m by 2 m rectangle and 3 m by 5 m rectangle. So the total area is (3 × 2) + (3 × 5) = 6 + 15 = 21 m2. The area of a parallelogram is base × vertical height, so the shape in option e) also has an area of 7 × 3 = 21 m2. (Options c) and b) both have areas of 20 m2. Options d) and a) both have areas of 25 m2.)",
+    "options": [
+      "A parallelogram, base 5 m, vertical height 5 m.",
+      "A triangle, base 10 m, height 4 m.",
+      "A rectangle, width 4 m, length 5 m.",
+      "A square, side length 5 m.",
+      "A parallelogram, base 7 m, vertical height 3 m."
+    ]
+  },
+  {
+    "question_num": 195,
+    "text": "If the shapes below were not coloured, which one would have the most lines of symmetry?",
+    "question_image": null,
+    "question_images": [],
+    "images": [
+      "q195_option_0.png",
+      "q195_option_1.png",
+      "q195_option_2.png",
+      "q195_option_3.png",
+      "q195_option_4.png"
+    ],
+    "answer": "C",
+    "explanation": "Answer:\n\nShape c) would have three lines of symmetry, the rest would have one line.",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 196,
+    "text": "Johan takes part in a high jump competition. His best jump is 2.04 m.\n\nHow high is this in mm?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\n1 m = 100 cm, so 2.04 m = 2.04 × 100 = 204 cm. 1 cm = 10 mm, so 204 cm = 204 × 10 = 2040 mm.",
+    "options": [
+      "20 400 mm",
+      "20.4 mm",
+      "240 000 mm",
+      "204 mm",
+      "2040 mm"
+    ]
+  },
+  {
+    "question_num": 197,
+    "text": "What is \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\n12 + 8 + 20 = 40. So \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n \n4\n0\n1\n2\n0\n=\n = 120 ÷ 40 = 3.",
+    "options": [
+      "38",
+      "3",
+      "4",
+      "6",
+      "26"
+    ]
+  },
+  {
+    "question_num": 198,
+    "text": "The cost of the activities available at a summer camp are shown below.\n\nMalala spends exactly £68. She doesn’t do any activity more than once.\n\nWhich of these combinations of activities must she have done?",
+    "question_image": "q198_question_0.png",
+    "question_images": [
+      "q198_question_0.png"
+    ],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\nPaintball costs £55 by itself, so it’s unlikely to be options d) or c). Try options a), e) and b). Option a) is the only one that adds up to £68. You can use the column method to add the costs:",
+    "options": [
+      "Windsurfing, sailing and high ropes",
+      "Kayaking, windsurfing and high ropes",
+      "Paintball, windsurfing and sailing",
+      "Kayaking, paintball and high ropes",
+      "Kayaking, sailing, high ropes"
+    ]
+  },
+  {
+    "question_num": 199,
+    "text": "Ben has £8 to spend. He buys a chocolate bar for £2.\n\nWhat percentage of his money does Ben spend on the chocolate bar?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\n£2 out of £8 \n8\n2\n4\n1\n=\n=\n. So Ben spends \n%\n4\n1\n2\n5\n=\n of his money on the chocolate bar.",
+    "options": [
+      "30%",
+      "20%",
+      "25%",
+      "2%",
+      "10%"
+    ]
+  },
+  {
+    "question_num": 200,
+    "text": "Lucas asked everyone in Year 6 where they would like to go on a trip. He made a pie chart of the results.\n\nWhat fraction of the children said they wanted to go to either a farm or a zoo?",
+    "question_image": "q200_question_0.png",
+    "question_images": [
+      "q200_question_0.png"
+    ],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\nThe farm sector has an angle of 70° and the zoo sector has an angle of 90°. The total of these angles is 70° + 90° = 160°. As a fraction of the whole circle, this is \n3\n6\n0\n1\n6\n0\n. Divide the numerator and denominator by 10 and then by 4 to simplify: \n3\n6\n0\n1\n6\n0\n3\n6\n1\n6\n9\n4\n=\n=\n.",
+    "options": [
+      "9\n5",
+      "9\n4",
+      "3\n1",
+      "5\n2",
+      "7\n2"
+    ]
+  },
+  {
+    "question_num": 201,
+    "text": "Five different coloured horses take part in a race. The time it takes each of them to finish the race is shown in the table.\n\nWhich colour horse wins the race?",
+    "question_image": "q201_question_0.png",
+    "question_images": [
+      "q201_question_0.png"
+    ],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\nThe horse with the shortest time wins the race. The chestnut, bay and dun horses all took at least 61 seconds, so they couldn’t have won the race. The grey horse’s time has 8 tenths (60.89), and the black horse’s time has 9 tenths (60.981), so the grey horse wins the race.",
+    "options": [
+      "Chestnut",
+      "Dun",
+      "Black",
+      "Grey",
+      "Bay"
+    ]
+  },
+  {
+    "question_num": 202,
+    "text": "A cuboid has a length of 14 m, a width of 2 m and a volume of 280 m3.\n\nWhat is the cuboid’s height?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\nVolume = length × width × height, so 280 = 14 × 2 × height = 28 × height. So the height of the cuboid is 280 ÷ 28 = 10 m.",
+    "options": [
+      "10 m",
+      "15 m",
+      "20 m",
+      "14 m",
+      "20 m"
+    ]
+  },
+  {
+    "question_num": 203,
+    "text": "41 − 3h = 17\n\nWhat is h?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n41 − 3h = 17, so 3h = 41 − 17 = 24. 3h = 24, so h = 24 ÷ 3 = 8.",
+    "options": [
+      "8",
+      "19",
+      "12",
+      "6",
+      "24"
+    ]
+  },
+  {
+    "question_num": 204,
+    "text": "Look at the shape below.\n\nWhich one of the following shapes has the same area?",
+    "question_image": "q204_question_0.png",
+    "question_images": [
+      "q204_question_0.png"
+    ],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nThe shape in the diagram can be split into a 3 m by 2 m rectangle and 3 m by 5 m rectangle. So the total area is (3 × 2) + (3 × 5) = 6 + 15 = 21 m2. The area of a parallelogram is base × vertical height, so the shape in option c) also has an area of 7 × 3 = 21 m2. (Options d) and b) both have areas of 20 m2. Options e) and a) both have areas of 25 m2.)",
+    "options": [
+      "A parallelogram, base 5 m, vertical height 5 m.",
+      "A triangle, base 10 m, height 4 m.",
+      "A parallelogram, base 7 m, vertical height 3 m.",
+      "A rectangle, width 4 m, length 5 m.",
+      "A square, side length 5 m."
+    ]
+  },
+  {
+    "question_num": 205,
+    "text": "Ben has £8 to spend. He buys a chocolate bar for £2.\n\nWhat percentage of his money does Ben spend on the chocolate bar?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\n£2 out of £8 \n8\n2\n4\n1\n=\n=\n. So Ben spends \n%\n4\n1\n2\n5\n=\n of his money on the chocolate bar.",
+    "options": [
+      "30%",
+      "25%",
+      "10%",
+      "20%",
+      "2%"
+    ]
+  },
+  {
+    "question_num": 206,
+    "text": "Johan takes part in a high jump competition. His best jump is 2.04 m.\n\nHow high is this in mm?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\n1 m = 100 cm, so 2.04 m = 2.04 × 100 = 204 cm. 1 cm = 10 mm, so 204 cm = 204 × 10 = 2040 mm.",
+    "options": [
+      "20 400 mm",
+      "204 mm",
+      "240 000 mm",
+      "2040 mm",
+      "20.4 mm"
+    ]
+  },
+  {
+    "question_num": 207,
+    "text": "2x° is an acute angle and 3x° is an obtuse angle.\n\nWhich of the options below could be the value of x?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\nAn acute angle is less than 90°, so 2x < 90, which means x < 90 ÷ 2 = 45. So it can’t be c) or e). An obtuse angle is greater than 90°, so 3x > 90, which means x > 90 ÷ 3 = 30, so it can’t be d) or a). So b) is the only possible value of x.",
+    "options": [
+      "23",
+      "42",
+      "60",
+      "30",
+      "53"
+    ]
+  },
+  {
+    "question_num": 208,
+    "text": "A cuboid has a length of 14 m, a width of 2 m and a volume of 280 m3.\n\nWhat is the cuboid’s height?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\nVolume = length × width × height, so 280 = 14 × 2 × height = 28 × height. So the height of the cuboid is 280 ÷ 28 = 10 m.",
+    "options": [
+      "10 m",
+      "14 m",
+      "20 m",
+      "15 m",
+      "20 m"
+    ]
+  },
+  {
+    "question_num": 209,
+    "text": "What is the size of angle b in the diagram below?",
+    "question_image": "q209_question_0.png",
+    "question_images": [
+      "q209_question_0.png"
+    ],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\nAngles in a triangle add up to 180°, so the missing angle in the triangle is 180° − 90° − 61° = 29°. Angles on a straight line add up to 180°, so angle b = 180° − 29° = 151°.",
+    "options": [
+      "151°",
+      "61°",
+      "161°",
+      "139°",
+      "29°"
+    ]
+  },
+  {
+    "question_num": 210,
+    "text": "What is \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\n12 + 8 + 20 = 40. So \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n \n4\n0\n1\n2\n0\n=\n = 120 ÷ 40 = 3.",
+    "options": [
+      "38",
+      "26",
+      "4",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "question_num": 211,
+    "text": "41 − 3h = 17\n\nWhat is h?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\n41 − 3h = 17, so 3h = 41 − 17 = 24. 3h = 24, so h = 24 ÷ 3 = 8.",
+    "options": [
+      "6",
+      "19",
+      "24",
+      "8",
+      "12"
+    ]
+  },
+  {
+    "question_num": 212,
+    "text": "Five different coloured horses take part in a race. The time it takes each of them to finish the race is shown in the table.\n\nWhich colour horse wins the race?",
+    "question_image": "q212_question_0.png",
+    "question_images": [
+      "q212_question_0.png"
+    ],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\nThe horse with the shortest time wins the race. The chestnut, bay and dun horses all took at least 61 seconds, so they couldn’t have won the race. The grey horse’s time has 8 tenths (60.89), and the black horse’s time has 9 tenths (60.981), so the grey horse wins the race.",
+    "options": [
+      "Black",
+      "Bay",
+      "Chestnut",
+      "Grey",
+      "Dun"
+    ]
+  },
+  {
+    "question_num": 213,
+    "text": "Which number has been put in the wrong place in this sorting diagram?",
+    "question_image": "q213_question_0.png",
+    "question_images": [
+      "q213_question_0.png"
+    ],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\n64 is a square number (8 × 8 = 64) and a cube number (4 × 4 × 4 = 64), so it should be in the top‑left box.",
+    "options": [
+      "1",
+      "27",
+      "64",
+      "100",
+      "8"
+    ]
+  },
+  {
+    "question_num": 214,
+    "text": "Four children collect animal stickers. Mazana has 120 stickers, Louis has 140 stickers, Nadia has 90 stickers and Connor has 50 stickers.\n\nWhat is the mean number of stickers owned by the four children?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\nThe total number of stickers = 120 + 140 + 90 + 50 = 400. Divide this by the number of children to get the mean: 400 ÷ 4 = 100.",
+    "options": [
+      "50",
+      "100",
+      "40",
+      "150",
+      "400"
+    ]
+  },
+  {
+    "question_num": 215,
+    "text": "What is \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\n12 + 8 + 20 = 40. So \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n \n4\n0\n1\n2\n0\n=\n = 120 ÷ 40 = 3.",
+    "options": [
+      "4",
+      "38",
+      "3",
+      "26",
+      "6"
+    ]
+  },
+  {
+    "question_num": 216,
+    "text": "Marko is at a toy shop. He wants to buy two dinosaurs, three chickens and a tiger. The prices of the toys are shown below.\n\nWhich of the calculations below could Marko use to find out how much the toys will cost?",
+    "question_image": "q216_question_0.png",
+    "question_images": [
+      "q216_question_0.png"
+    ],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\nThe calculations show the prices rounded to the nearest 10p, so each item has 1p added on to its price. There are 2 + 3 + 1 = 6 items, so 6p has been added to the total cost. Option b) is the correct answer as Marko needs to take 6p off the total to get the right amount.",
+    "options": [
+      "2 × £5.00 + 3 × £4.00 + £3.50 − 3p",
+      "2 × £5.00 + 3 × £4.00 + £3.50 − 6p",
+      "2 × £5.00 + 3 × £4.00 + £3.50 + 6p",
+      "2 × £5.00 + 3 × £4.00 + £3.50 + 5p",
+      "2 × £5.00 + 3 × £4.00 + £3.50 − 5p"
+    ]
+  },
+  {
+    "question_num": 217,
+    "text": "If the shapes below were not coloured, which one would have the most lines of symmetry?",
+    "question_image": null,
+    "question_images": [],
+    "images": [
+      "q217_option_0.png",
+      "q217_option_1.png",
+      "q217_option_2.png",
+      "q217_option_3.png",
+      "q217_option_4.png"
+    ],
+    "answer": "D",
+    "explanation": "Answer:\n\nShape d) would have three lines of symmetry, the rest would have one line.",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 218,
+    "text": "What is the size of angle b in the diagram below?",
+    "question_image": "q218_question_0.png",
+    "question_images": [
+      "q218_question_0.png"
+    ],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\nAngles in a triangle add up to 180°, so the missing angle in the triangle is 180° − 90° − 61° = 29°. Angles on a straight line add up to 180°, so angle b = 180° − 29° = 151°.",
+    "options": [
+      "29°",
+      "161°",
+      "61°",
+      "139°",
+      "151°"
+    ]
+  },
+  {
+    "question_num": 219,
+    "text": "Milly collected some data on dogs at her local rescue centre. The table below is missing some of her results.\n\nHow many female puppies are there?",
+    "question_image": "q219_question_0.png",
+    "question_images": [
+      "q219_question_0.png"
+    ],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\nThere are 34 − 15 = 19 female dogs in total, so there are 19 − 12 = 7 female puppies.",
+    "options": [
+      "6",
+      "9",
+      "12",
+      "19",
+      "7"
+    ]
+  },
+  {
+    "question_num": 220,
+    "text": "What is the remainder when 2576 is divided by 9?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\nYou can use short division to work out 2576 ÷ 9:\n\nSo the remainder is 2.",
+    "options": [
+      "2",
+      "6",
+      "5",
+      "1",
+      "4"
+    ]
+  },
+  {
+    "question_num": 221,
+    "text": "Shyam owns 6 brown rabbits and 2 black rabbits.\n\nWhat is the ratio of brown rabbits to black rabbits in its simplest form?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nThe ratio of brown rabbits : black rabbits is 6 : 2. Divide both parts of the ratio by 2 to simplify to 3 : 1.",
+    "options": [
+      "6 : 1",
+      "1 : 3",
+      "3 : 1",
+      "2 : 1",
+      "1 : 2"
+    ]
+  },
+  {
+    "question_num": 222,
+    "text": "Lucas asked everyone in Year 6 where they would like to go on a trip. He made a pie chart of the results.\n\nWhat fraction of the children said they wanted to go to either a farm or a zoo?",
+    "question_image": "q222_question_0.png",
+    "question_images": [
+      "q222_question_0.png"
+    ],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\nThe farm sector has an angle of 70° and the zoo sector has an angle of 90°. The total of these angles is 70° + 90° = 160°. As a fraction of the whole circle, this is \n3\n6\n0\n1\n6\n0\n. Divide the numerator and denominator by 10 and then by 4 to simplify: \n3\n6\n0\n1\n6\n0\n3\n6\n1\n6\n9\n4\n=\n=\n.",
+    "options": [
+      "5\n2",
+      "7\n2",
+      "3\n1",
+      "9\n5",
+      "9\n4"
+    ]
+  },
+  {
+    "question_num": 223,
+    "text": "Johan takes part in a high jump competition. His best jump is 2.04 m.\n\nHow high is this in mm?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n1 m = 100 cm, so 2.04 m = 2.04 × 100 = 204 cm. 1 cm = 10 mm, so 204 cm = 204 × 10 = 2040 mm.",
+    "options": [
+      "2040 mm",
+      "204 mm",
+      "240 000 mm",
+      "20.4 mm",
+      "20 400 mm"
+    ]
+  },
+  {
+    "question_num": 224,
+    "text": "Which number has been put in the wrong place in this sorting diagram?",
+    "question_image": "q224_question_0.png",
+    "question_images": [
+      "q224_question_0.png"
+    ],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\n64 is a square number (8 × 8 = 64) and a cube number (4 × 4 × 4 = 64), so it should be in the top‑left box.",
+    "options": [
+      "100",
+      "27",
+      "64",
+      "8",
+      "1"
+    ]
+  },
+  {
+    "question_num": 225,
+    "text": "Milly collected some data on dogs at her local rescue centre. The table below is missing some of her results.\n\nHow many female puppies are there?",
+    "question_image": "q225_question_0.png",
+    "question_images": [
+      "q225_question_0.png"
+    ],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nThere are 34 − 15 = 19 female dogs in total, so there are 19 − 12 = 7 female puppies.",
+    "options": [
+      "12",
+      "19",
+      "7",
+      "9",
+      "6"
+    ]
+  },
+  {
+    "question_num": 226,
+    "text": "The cost of the activities available at a summer camp are shown below.\n\nMalala spends exactly £68. She doesn’t do any activity more than once.\n\nWhich of these combinations of activities must she have done?",
+    "question_image": "q226_question_0.png",
+    "question_images": [
+      "q226_question_0.png"
+    ],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\nPaintball costs £55 by itself, so it’s unlikely to be options c) or b). Try options a), e) and d). Option a) is the only one that adds up to £68. You can use the column method to add the costs:",
+    "options": [
+      "Windsurfing, sailing and high ropes",
+      "Paintball, windsurfing and sailing",
+      "Kayaking, paintball and high ropes",
+      "Kayaking, windsurfing and high ropes",
+      "Kayaking, sailing, high ropes"
+    ]
+  },
+  {
+    "question_num": 227,
+    "text": "Look at the shape below.\n\nWhich one of the following shapes has the same area?",
+    "question_image": "q227_question_0.png",
+    "question_images": [
+      "q227_question_0.png"
+    ],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\nThe shape in the diagram can be split into a 3 m by 2 m rectangle and 3 m by 5 m rectangle. So the total area is (3 × 2) + (3 × 5) = 6 + 15 = 21 m2. The area of a parallelogram is base × vertical height, so the shape in option e) also has an area of 7 × 3 = 21 m2. (Options b) and c) both have areas of 20 m2. Options a) and d) both have areas of 25 m2.)",
+    "options": [
+      "A square, side length 5 m.",
+      "A rectangle, width 4 m, length 5 m.",
+      "A triangle, base 10 m, height 4 m.",
+      "A parallelogram, base 5 m, vertical height 5 m.",
+      "A parallelogram, base 7 m, vertical height 3 m."
+    ]
+  },
+  {
+    "question_num": 228,
+    "text": "What is \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\n12 + 8 + 20 = 40. So \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n \n4\n0\n1\n2\n0\n=\n = 120 ÷ 40 = 3.",
+    "options": [
+      "38",
+      "26",
+      "4",
+      "3",
+      "6"
+    ]
+  },
+  {
+    "question_num": 229,
+    "text": "Johan takes part in a high jump competition. His best jump is 2.04 m.\n\nHow high is this in mm?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n1 m = 100 cm, so 2.04 m = 2.04 × 100 = 204 cm. 1 cm = 10 mm, so 204 cm = 204 × 10 = 2040 mm.",
+    "options": [
+      "2040 mm",
+      "204 mm",
+      "240 000 mm",
+      "20 400 mm",
+      "20.4 mm"
+    ]
+  },
+  {
+    "question_num": 230,
+    "text": "2x° is an acute angle and 3x° is an obtuse angle.\n\nWhich of the options below could be the value of x?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\nAn acute angle is less than 90°, so 2x < 90, which means x < 90 ÷ 2 = 45. So it can’t be a) or c). An obtuse angle is greater than 90°, so 3x > 90, which means x > 90 ÷ 3 = 30, so it can’t be b) or d). So e) is the only possible value of x.",
+    "options": [
+      "60",
+      "30",
+      "53",
+      "23",
+      "42"
+    ]
+  },
+  {
+    "question_num": 231,
+    "text": "Five different coloured horses take part in a race. The time it takes each of them to finish the race is shown in the table.\n\nWhich colour horse wins the race?",
+    "question_image": "q231_question_0.png",
+    "question_images": [
+      "q231_question_0.png"
+    ],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\nThe horse with the shortest time wins the race. The chestnut, bay and dun horses all took at least 61 seconds, so they couldn’t have won the race. The grey horse’s time has 8 tenths (60.89), and the black horse’s time has 9 tenths (60.981), so the grey horse wins the race.",
+    "options": [
+      "Grey",
+      "Dun",
+      "Bay",
+      "Black",
+      "Chestnut"
+    ]
+  },
+  {
+    "question_num": 232,
+    "text": "Which of the shapes below is not a regular polygon?",
+    "question_image": null,
+    "question_images": [],
+    "images": [
+      "q232_option_0.png",
+      "q232_option_1.png",
+      "q232_option_2.png",
+      "q232_option_3.png",
+      "q232_option_4.png"
+    ],
+    "answer": "C",
+    "explanation": "Answer:\n\nRegular polygons have equal‑length sides and equal angles, so c) isn’t regular.",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 233,
+    "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\nMultiplication is the inverse operation of division, so the answer is 0.2543 × 1000 = 254.3.",
+    "options": [
+      "2543",
+      "25 430",
+      "25.43",
+      "2.543",
+      "254.3"
+    ]
+  },
+  {
+    "question_num": 234,
+    "text": "Charlotte is buying 12 apples at 6p each. She pays with a £5 note.\n\nHow much change does she get?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\n£5 = 500p. 12 apples cost 12 × 6p = 72p. 500p − 72p = 428p. 428p = £4.28 change.",
+    "options": [
+      "£2.78",
+      "28p",
+      "£4.28",
+      "72p",
+      "£3.72"
+    ]
+  },
+  {
+    "question_num": 235,
+    "text": "41 − 3h = 17\n\nWhat is h?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n41 − 3h = 17, so 3h = 41 − 17 = 24. 3h = 24, so h = 24 ÷ 3 = 8.",
+    "options": [
+      "8",
+      "6",
+      "24",
+      "12",
+      "19"
+    ]
+  },
+  {
+    "question_num": 236,
+    "text": "A sequence begins 73, 71, 68, 64...\n\nWhat is the sixth term in the sequence?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\nThe difference between the terms increases by 1 each time. So first you subtract 2, then you subtract 3, then you subtract 4 and so on. So the fifth term is 64 − 5 = 59, and the sixth term is 59 − 6 = 53.",
+    "options": [
+      "59",
+      "60",
+      "56",
+      "62",
+      "53"
+    ]
+  },
+  {
+    "question_num": 237,
+    "text": "What is the size of angle b in the diagram below?",
+    "question_image": "q237_question_0.png",
+    "question_images": [
+      "q237_question_0.png"
+    ],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\nAngles in a triangle add up to 180°, so the missing angle in the triangle is 180° − 90° − 61° = 29°. Angles on a straight line add up to 180°, so angle b = 180° − 29° = 151°.",
+    "options": [
+      "61°",
+      "161°",
+      "139°",
+      "29°",
+      "151°"
+    ]
+  },
+  {
+    "question_num": 238,
+    "text": "Karen is buying some fabric that costs £4.80 per metre.\n\nHow much would 5 m of this fabric cost?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\nFor example, using partitioning: £4.80 = £4 + 80p. 5 × £4 = £20. 5 × 80p = 5 × 8 × 10 = 40 × 10 = 400p = £4. So 5 m of fabric costs £20 + £4 = £24.",
+    "options": [
+      "£26.20",
+      "£22.80",
+      "£28.60",
+      "£29",
+      "£24"
+    ]
+  },
+  {
+    "question_num": 239,
+    "text": "Five different coloured horses take part in a race. The time it takes each of them to finish the race is shown in the table.\n\nWhich colour horse wins the race?",
+    "question_image": "q239_question_0.png",
+    "question_images": [
+      "q239_question_0.png"
+    ],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\nThe horse with the shortest time wins the race. The chestnut, bay and dun horses all took at least 61 seconds, so they couldn’t have won the race. The grey horse’s time has 8 tenths (60.89), and the black horse’s time has 9 tenths (60.981), so the grey horse wins the race.",
+    "options": [
+      "Chestnut",
+      "Grey",
+      "Dun",
+      "Black",
+      "Bay"
+    ]
+  },
+  {
+    "question_num": 240,
+    "text": "Look at the shape below.\n\nWhich one of the following shapes has the same area?",
+    "question_image": "q240_question_0.png",
+    "question_images": [
+      "q240_question_0.png"
+    ],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\nThe shape in the diagram can be split into a 3 m by 2 m rectangle and 3 m by 5 m rectangle. So the total area is (3 × 2) + (3 × 5) = 6 + 15 = 21 m2. The area of a parallelogram is base × vertical height, so the shape in option e) also has an area of 7 × 3 = 21 m2. (Options d) and a) both have areas of 20 m2. Options c) and b) both have areas of 25 m2.)",
+    "options": [
+      "A triangle, base 10 m, height 4 m.",
+      "A parallelogram, base 5 m, vertical height 5 m.",
+      "A square, side length 5 m.",
+      "A rectangle, width 4 m, length 5 m.",
+      "A parallelogram, base 7 m, vertical height 3 m."
+    ]
+  },
+  {
+    "question_num": 241,
+    "text": "A chip shop records how many people had salt or vinegar on their chips.\n\nThe results are shown in this bar chart.\n\nWhy is the bar chart misleading?",
+    "question_image": "q241_question_0.png",
+    "question_images": [
+      "q241_question_0.png"
+    ],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nThe bars look longer than they should, which makes the differences between the bars look smaller than they actually are. For example, the bar for ‘Neither’ represents 8 people, but looks half as long as the bar for ‘Both’, which represents 26 people.",
+    "options": [
+      "The numbers don’t add up to 100.",
+      "It doesn’t include other options, such as ketchup.",
+      "The bars don’t begin at 0.",
+      "The bars should be vertical instead of horizontal.",
+      "The numbers should be given as percentages."
+    ]
+  },
+  {
+    "question_num": 242,
+    "text": "A book about space contains the following sentence:\n\nThe diameter of the Earth is 12 756.32 kilometres.\n\nWhat is the Earth’s diameter rounded to the nearest hundred kilometres?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\nYou are rounding to the nearest hundred, so look at the digit in the tens column. It’s a 5, so round up to 12 800 km.",
+    "options": [
+      "12 700 km",
+      "12 760 km",
+      "13 000 km",
+      "12 800 km",
+      "12 750 km"
+    ]
+  },
+  {
+    "question_num": 243,
+    "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nMultiplication is the inverse operation of division, so the answer is 0.2543 × 1000 = 254.3.",
+    "options": [
+      "25.43",
+      "25 430",
+      "254.3",
+      "2.543",
+      "2543"
+    ]
+  },
+  {
+    "question_num": 244,
+    "text": "Charlotte is buying 12 apples at 6p each. She pays with a £5 note.\n\nHow much change does she get?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n£5 = 500p. 12 apples cost 12 × 6p = 72p. 500p − 72p = 428p. 428p = £4.28 change.",
+    "options": [
+      "£4.28",
+      "72p",
+      "£2.78",
+      "£3.72",
+      "28p"
+    ]
+  },
+  {
+    "question_num": 245,
+    "text": "Five different coloured horses take part in a race. The time it takes each of them to finish the race is shown in the table.\n\nWhich colour horse wins the race?",
+    "question_image": "q245_question_0.png",
+    "question_images": [
+      "q245_question_0.png"
+    ],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\nThe horse with the shortest time wins the race. The chestnut, bay and dun horses all took at least 61 seconds, so they couldn’t have won the race. The grey horse’s time has 8 tenths (60.89), and the black horse’s time has 9 tenths (60.981), so the grey horse wins the race.",
+    "options": [
+      "Black",
+      "Dun",
+      "Bay",
+      "Grey",
+      "Chestnut"
+    ]
+  },
+  {
+    "question_num": 246,
+    "text": "If the shapes below were not coloured, which one would have the most lines of symmetry?",
+    "question_image": null,
+    "question_images": [],
+    "images": [
+      "q246_option_0.png",
+      "q246_option_1.png",
+      "q246_option_2.png",
+      "q246_option_3.png",
+      "q246_option_4.png"
+    ],
+    "answer": "D",
+    "explanation": "Answer:\n\nShape d) would have three lines of symmetry, the rest would have one line.",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 247,
+    "text": "Look at the shape below.\n\nWhich one of the following shapes has the same area?",
+    "question_image": "q247_question_0.png",
+    "question_images": [
+      "q247_question_0.png"
+    ],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nThe shape in the diagram can be split into a 3 m by 2 m rectangle and 3 m by 5 m rectangle. So the total area is (3 × 2) + (3 × 5) = 6 + 15 = 21 m2. The area of a parallelogram is base × vertical height, so the shape in option c) also has an area of 7 × 3 = 21 m2. (Options a) and d) both have areas of 20 m2. Options e) and b) both have areas of 25 m2.)",
+    "options": [
+      "A rectangle, width 4 m, length 5 m.",
+      "A parallelogram, base 5 m, vertical height 5 m.",
+      "A parallelogram, base 7 m, vertical height 3 m.",
+      "A triangle, base 10 m, height 4 m.",
+      "A square, side length 5 m."
+    ]
+  },
+  {
+    "question_num": 248,
+    "text": "The cost of the activities available at a summer camp are shown below.\n\nMalala spends exactly £68. She doesn’t do any activity more than once.\n\nWhich of these combinations of activities must she have done?",
+    "question_image": "q248_question_0.png",
+    "question_images": [
+      "q248_question_0.png"
+    ],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\nPaintball costs £55 by itself, so it’s unlikely to be options b) or e). Try options a), c) and d). Option a) is the only one that adds up to £68. You can use the column method to add the costs:",
+    "options": [
+      "Windsurfing, sailing and high ropes",
+      "Kayaking, paintball and high ropes",
+      "Kayaking, sailing, high ropes",
+      "Kayaking, windsurfing and high ropes",
+      "Paintball, windsurfing and sailing"
+    ]
+  },
+  {
+    "question_num": 249,
+    "text": "Marko is at a toy shop. He wants to buy two dinosaurs, three chickens and a tiger. The prices of the toys are shown below.\n\nWhich of the calculations below could Marko use to find out how much the toys will cost?",
+    "question_image": "q249_question_0.png",
+    "question_images": [
+      "q249_question_0.png"
+    ],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\nThe calculations show the prices rounded to the nearest 10p, so each item has 1p added on to its price. There are 2 + 3 + 1 = 6 items, so 6p has been added to the total cost. Option e) is the correct answer as Marko needs to take 6p off the total to get the right amount.",
+    "options": [
+      "2 × £5.00 + 3 × £4.00 + £3.50 + 6p",
+      "2 × £5.00 + 3 × £4.00 + £3.50 − 5p",
+      "2 × £5.00 + 3 × £4.00 + £3.50 − 3p",
+      "2 × £5.00 + 3 × £4.00 + £3.50 + 5p",
+      "2 × £5.00 + 3 × £4.00 + £3.50 − 6p"
+    ]
+  },
+  {
+    "question_num": 250,
+    "text": "Jenna has made this shape out of blocks.\n\nWhich of the shapes below is identical to Jenna’s shape?",
+    "question_image": "q250_question_0.png",
+    "question_images": [
+      "q250_question_0.png"
+    ],
+    "images": [
+      "q250_option_0.png",
+      "q250_option_1.png",
+      "q250_option_2.png",
+      "q250_option_3.png",
+      "q250_option_4.png"
+    ],
+    "answer": "D",
+    "explanation": "Answer:\n\nIf Jenna’s shape was rotated 90° anticlockwise, and then rotated 180° left‑to‑right, it would look like option d).",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 251,
+    "text": "Shyam owns 6 brown rabbits and 2 black rabbits.\n\nWhat is the ratio of brown rabbits to black rabbits in its simplest form?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\nThe ratio of brown rabbits : black rabbits is 6 : 2. Divide both parts of the ratio by 2 to simplify to 3 : 1.",
+    "options": [
+      "3 : 1",
+      "6 : 1",
+      "1 : 3",
+      "2 : 1",
+      "1 : 2"
+    ]
+  },
+  {
+    "question_num": 252,
+    "text": "Charlotte is buying 12 apples at 6p each. She pays with a £5 note.\n\nHow much change does she get?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n£5 = 500p. 12 apples cost 12 × 6p = 72p. 500p − 72p = 428p. 428p = £4.28 change.",
+    "options": [
+      "£4.28",
+      "72p",
+      "£2.78",
+      "£3.72",
+      "28p"
+    ]
+  },
+  {
+    "question_num": 253,
+    "text": "Which of the shapes below is not a regular polygon?",
+    "question_image": null,
+    "question_images": [],
+    "images": [
+      "q253_option_0.png",
+      "q253_option_1.png",
+      "q253_option_2.png",
+      "q253_option_3.png",
+      "q253_option_4.png"
+    ],
+    "answer": "D",
+    "explanation": "Answer:\n\nRegular polygons have equal‑length sides and equal angles, so d) isn’t regular.",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 254,
+    "text": "Karen is buying some fabric that costs £4.80 per metre.\n\nHow much would 5 m of this fabric cost?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\nFor example, using partitioning: £4.80 = £4 + 80p. 5 × £4 = £20. 5 × 80p = 5 × 8 × 10 = 40 × 10 = 400p = £4. So 5 m of fabric costs £20 + £4 = £24.",
+    "options": [
+      "£22.80",
+      "£26.20",
+      "£29",
+      "£28.60",
+      "£24"
+    ]
+  },
+  {
+    "question_num": 255,
+    "text": "Four children collect animal stickers. Mazana has 120 stickers, Louis has 140 stickers, Nadia has 90 stickers and Connor has 50 stickers.\n\nWhat is the mean number of stickers owned by the four children?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\nThe total number of stickers = 120 + 140 + 90 + 50 = 400. Divide this by the number of children to get the mean: 400 ÷ 4 = 100.",
+    "options": [
+      "100",
+      "150",
+      "50",
+      "400",
+      "40"
+    ]
+  },
+  {
+    "question_num": 256,
+    "text": "41 − 3h = 17\n\nWhat is h?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\n41 − 3h = 17, so 3h = 41 − 17 = 24. 3h = 24, so h = 24 ÷ 3 = 8.",
+    "options": [
+      "19",
+      "6",
+      "24",
+      "8",
+      "12"
+    ]
+  },
+  {
+    "question_num": 257,
+    "text": "Jenna has made this shape out of blocks.\n\nWhich of the shapes below is identical to Jenna’s shape?",
+    "question_image": "q257_question_0.png",
+    "question_images": [
+      "q257_question_0.png"
+    ],
+    "images": [
+      "q257_option_0.png",
+      "q257_option_1.png",
+      "q257_option_2.png",
+      "q257_option_3.png",
+      "q257_option_4.png"
+    ],
+    "answer": "C",
+    "explanation": "Answer:\n\nIf Jenna’s shape was rotated 90° anticlockwise, and then rotated 180° left‑to‑right, it would look like option c).",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 258,
+    "text": "Ben has £8 to spend. He buys a chocolate bar for £2.\n\nWhat percentage of his money does Ben spend on the chocolate bar?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n£2 out of £8 \n8\n2\n4\n1\n=\n=\n. So Ben spends \n%\n4\n1\n2\n5\n=\n of his money on the chocolate bar.",
+    "options": [
+      "25%",
+      "30%",
+      "10%",
+      "2%",
+      "20%"
+    ]
+  },
+  {
+    "question_num": 259,
+    "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\nMultiplication is the inverse operation of division, so the answer is 0.2543 × 1000 = 254.3.",
+    "options": [
+      "2.543",
+      "254.3",
+      "25 430",
+      "2543",
+      "25.43"
+    ]
+  },
+  {
+    "question_num": 260,
+    "text": "Orange juice is usually priced at £1.50 per bottle.\n\nHow much would a bottle of orange juice cost if the price was reduced by 10%?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\n10% of £1.50 is £1.50 ÷ 10 = £0.15. So the reduced price would be £1.50 − £0.15 = £1.35.",
+    "options": [
+      "£1.25",
+      "£1.40",
+      "£1.35",
+      "£1.45",
+      "£1.30"
+    ]
+  },
+  {
+    "question_num": 261,
+    "text": "Look at the shape below.\n\nWhich one of the following shapes has the same area?",
+    "question_image": "q261_question_0.png",
+    "question_images": [
+      "q261_question_0.png"
+    ],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\nThe shape in the diagram can be split into a 3 m by 2 m rectangle and 3 m by 5 m rectangle. So the total area is (3 × 2) + (3 × 5) = 6 + 15 = 21 m2. The area of a parallelogram is base × vertical height, so the shape in option e) also has an area of 7 × 3 = 21 m2. (Options c) and a) both have areas of 20 m2. Options d) and b) both have areas of 25 m2.)",
+    "options": [
+      "A triangle, base 10 m, height 4 m.",
+      "A parallelogram, base 5 m, vertical height 5 m.",
+      "A rectangle, width 4 m, length 5 m.",
+      "A square, side length 5 m.",
+      "A parallelogram, base 7 m, vertical height 3 m."
+    ]
+  },
+  {
+    "question_num": 262,
+    "text": "The cost of the activities available at a summer camp are shown below.\n\nMalala spends exactly £68. She doesn’t do any activity more than once.\n\nWhich of these combinations of activities must she have done?",
+    "question_image": "q262_question_0.png",
+    "question_images": [
+      "q262_question_0.png"
+    ],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\nPaintball costs £55 by itself, so it’s unlikely to be options c) or b). Try options a), e) and d). Option a) is the only one that adds up to £68. You can use the column method to add the costs:",
+    "options": [
+      "Windsurfing, sailing and high ropes",
+      "Paintball, windsurfing and sailing",
+      "Kayaking, paintball and high ropes",
+      "Kayaking, windsurfing and high ropes",
+      "Kayaking, sailing, high ropes"
+    ]
+  },
+  {
+    "question_num": 263,
+    "text": "Which number has been put in the wrong place in this sorting diagram?",
+    "question_image": "q263_question_0.png",
+    "question_images": [
+      "q263_question_0.png"
+    ],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\n64 is a square number (8 × 8 = 64) and a cube number (4 × 4 × 4 = 64), so it should be in the top‑left box.",
+    "options": [
+      "1",
+      "64",
+      "100",
+      "8",
+      "27"
+    ]
+  },
+  {
+    "question_num": 264,
+    "text": "A chip shop records how many people had salt or vinegar on their chips.\n\nThe results are shown in this bar chart.\n\nWhy is the bar chart misleading?",
+    "question_image": "q264_question_0.png",
+    "question_images": [
+      "q264_question_0.png"
+    ],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nThe bars look longer than they should, which makes the differences between the bars look smaller than they actually are. For example, the bar for ‘Neither’ represents 8 people, but looks half as long as the bar for ‘Both’, which represents 26 people.",
+    "options": [
+      "The bars should be vertical instead of horizontal.",
+      "The numbers should be given as percentages.",
+      "The bars don’t begin at 0.",
+      "It doesn’t include other options, such as ketchup.",
+      "The numbers don’t add up to 100."
+    ]
+  },
+  {
+    "question_num": 265,
+    "text": "Which of the shapes below is not a regular polygon?",
+    "question_image": null,
+    "question_images": [],
+    "images": [
+      "q265_option_0.png",
+      "q265_option_1.png",
+      "q265_option_2.png",
+      "q265_option_3.png",
+      "q265_option_4.png"
+    ],
+    "answer": "Unknown",
+    "explanation": "Answer:",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 266,
+    "text": "If the shapes below were not coloured, which one would have the most lines of symmetry?",
+    "question_image": null,
+    "question_images": [],
+    "images": [
+      "q266_option_0.png",
+      "q266_option_1.png",
+      "q266_option_2.png",
+      "q266_option_3.png",
+      "q266_option_4.png"
+    ],
+    "answer": "A",
+    "explanation": "Answer:\n\nShape a) would have three lines of symmetry, the rest would have one line.",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 267,
+    "text": "Which number has been put in the wrong place in this sorting diagram?",
+    "question_image": "q267_question_0.png",
+    "question_images": [
+      "q267_question_0.png"
+    ],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n64 is a square number (8 × 8 = 64) and a cube number (4 × 4 × 4 = 64), so it should be in the top‑left box.",
+    "options": [
+      "64",
+      "8",
+      "100",
+      "1",
+      "27"
+    ]
+  },
+  {
+    "question_num": 268,
+    "text": "What is the size of angle b in the diagram below?",
+    "question_image": "q268_question_0.png",
+    "question_images": [
+      "q268_question_0.png"
+    ],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\nAngles in a triangle add up to 180°, so the missing angle in the triangle is 180° − 90° − 61° = 29°. Angles on a straight line add up to 180°, so angle b = 180° − 29° = 151°.",
+    "options": [
+      "161°",
+      "61°",
+      "29°",
+      "151°",
+      "139°"
+    ]
+  },
+  {
+    "question_num": 269,
+    "text": "Shyam owns 6 brown rabbits and 2 black rabbits.\n\nWhat is the ratio of brown rabbits to black rabbits in its simplest form?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\nThe ratio of brown rabbits : black rabbits is 6 : 2. Divide both parts of the ratio by 2 to simplify to 3 : 1.",
+    "options": [
+      "6 : 1",
+      "3 : 1",
+      "1 : 2",
+      "1 : 3",
+      "2 : 1"
+    ]
+  },
+  {
+    "question_num": 270,
+    "text": "Ben has £8 to spend. He buys a chocolate bar for £2.\n\nWhat percentage of his money does Ben spend on the chocolate bar?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\n£2 out of £8 \n8\n2\n4\n1\n=\n=\n. So Ben spends \n%\n4\n1\n2\n5\n=\n of his money on the chocolate bar.",
+    "options": [
+      "2%",
+      "10%",
+      "20%",
+      "30%",
+      "25%"
+    ]
+  },
+  {
+    "question_num": 271,
+    "text": "Orange juice is usually priced at £1.50 per bottle.\n\nHow much would a bottle of orange juice cost if the price was reduced by 10%?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\n10% of £1.50 is £1.50 ÷ 10 = £0.15. So the reduced price would be £1.50 − £0.15 = £1.35.",
+    "options": [
+      "£1.25",
+      "£1.30",
+      "£1.35",
+      "£1.40",
+      "£1.45"
+    ]
+  },
+  {
+    "question_num": 272,
+    "text": "A book about space contains the following sentence:\n\nThe diameter of the Earth is 12 756.32 kilometres.\n\nWhat is the Earth’s diameter rounded to the nearest hundred kilometres?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\nYou are rounding to the nearest hundred, so look at the digit in the tens column. It’s a 5, so round up to 12 800 km.",
+    "options": [
+      "12 760 km",
+      "12 800 km",
+      "13 000 km",
+      "12 700 km",
+      "12 750 km"
+    ]
+  },
+  {
+    "question_num": 273,
+    "text": "The cost of the activities available at a summer camp are shown below.\n\nMalala spends exactly £68. She doesn’t do any activity more than once.\n\nWhich of these combinations of activities must she have done?",
+    "question_image": "q273_question_0.png",
+    "question_images": [
+      "q273_question_0.png"
+    ],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nPaintball costs £55 by itself, so it’s unlikely to be options a) or b). Try options c), e) and d). Option c) is the only one that adds up to £68. You can use the column method to add the costs:",
+    "options": [
+      "Kayaking, paintball and high ropes",
+      "Paintball, windsurfing and sailing",
+      "Windsurfing, sailing and high ropes",
+      "Kayaking, windsurfing and high ropes",
+      "Kayaking, sailing, high ropes"
+    ]
+  },
+  {
+    "question_num": 274,
+    "text": "Jenna has made this shape out of blocks.\n\nWhich of the shapes below is identical to Jenna’s shape?",
+    "question_image": "q274_question_0.png",
+    "question_images": [
+      "q274_question_0.png"
+    ],
+    "images": [
+      "q274_option_0.png",
+      "q274_option_1.png",
+      "q274_option_2.png",
+      "q274_option_3.png",
+      "q274_option_4.png"
+    ],
+    "answer": "B",
+    "explanation": "Answer:\n\nIf Jenna’s shape was rotated 90° anticlockwise, and then rotated 180° left‑to‑right, it would look like option b).",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 275,
+    "text": "Jenna has made this shape out of blocks.\n\nWhich of the shapes below is identical to Jenna’s shape?",
+    "question_image": "q275_question_0.png",
+    "question_images": [
+      "q275_question_0.png"
+    ],
+    "images": [
+      "q275_option_0.png",
+      "q275_option_1.png",
+      "q275_option_2.png",
+      "q275_option_3.png",
+      "q275_option_4.png"
+    ],
+    "answer": "E",
+    "explanation": "Answer:\n\nIf Jenna’s shape was rotated 90° anticlockwise, and then rotated 180° left‑to‑right, it would look like option e).",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 276,
+    "text": "Four children collect animal stickers. Mazana has 120 stickers, Louis has 140 stickers, Nadia has 90 stickers and Connor has 50 stickers.\n\nWhat is the mean number of stickers owned by the four children?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nThe total number of stickers = 120 + 140 + 90 + 50 = 400. Divide this by the number of children to get the mean: 400 ÷ 4 = 100.",
+    "options": [
+      "400",
+      "150",
+      "100",
+      "50",
+      "40"
+    ]
+  },
+  {
+    "question_num": 277,
+    "text": "Saffron draws four identical squares on the axes below. The coordinates of one corner are shown.\n\nWhat are the coordinates of the point marked A?",
+    "question_image": "q277_question_0.png",
+    "question_images": [
+      "q277_question_0.png"
+    ],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\nThe y-axis has an x-coordinate of 0 and the corner of the square furthest to the left has an x‑coordinate of −6, so the distance between opposite corners of each square is 6 units. So the distance between the centre of a square and one corner of a square is 6 ÷ 2 = 3 units. The point marked A is 3 units right and 3 units up from point (0, 0). So the coordinates of point A are (3, 3).",
+    "options": [
+      "(3, 3)",
+      "(−3, −3)",
+      "(6, 3)",
+      "(3, 9)",
+      "(6, 6)"
+    ]
+  },
+  {
+    "question_num": 278,
+    "text": "If the shapes below were not coloured, which one would have the most lines of symmetry?",
+    "question_image": null,
+    "question_images": [],
+    "images": [
+      "q278_option_0.png",
+      "q278_option_1.png",
+      "q278_option_2.png",
+      "q278_option_3.png",
+      "q278_option_4.png"
+    ],
+    "answer": "D",
+    "explanation": "Answer:\n\nShape d) would have three lines of symmetry, the rest would have one line.",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 279,
+    "text": "41 − 3h = 17\n\nWhat is h?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\n41 − 3h = 17, so 3h = 41 − 17 = 24. 3h = 24, so h = 24 ÷ 3 = 8.",
+    "options": [
+      "12",
+      "24",
+      "6",
+      "19",
+      "8"
+    ]
+  },
+  {
+    "question_num": 280,
+    "text": "Orange juice is usually priced at £1.50 per bottle.\n\nHow much would a bottle of orange juice cost if the price was reduced by 10%?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\n10% of £1.50 is £1.50 ÷ 10 = £0.15. So the reduced price would be £1.50 − £0.15 = £1.35.",
+    "options": [
+      "£1.30",
+      "£1.25",
+      "£1.45",
+      "£1.35",
+      "£1.40"
+    ]
+  },
+  {
+    "question_num": 281,
+    "text": "Look at the shape below.\n\nWhich one of the following shapes has the same area?",
+    "question_image": "q281_question_0.png",
+    "question_images": [
+      "q281_question_0.png"
+    ],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\nThe shape in the diagram can be split into a 3 m by 2 m rectangle and 3 m by 5 m rectangle. So the total area is (3 × 2) + (3 × 5) = 6 + 15 = 21 m2. The area of a parallelogram is base × vertical height, so the shape in option a) also has an area of 7 × 3 = 21 m2. (Options d) and c) both have areas of 20 m2. Options e) and b) both have areas of 25 m2.)",
+    "options": [
+      "A parallelogram, base 7 m, vertical height 3 m.",
+      "A parallelogram, base 5 m, vertical height 5 m.",
+      "A triangle, base 10 m, height 4 m.",
+      "A rectangle, width 4 m, length 5 m.",
+      "A square, side length 5 m."
+    ]
+  },
+  {
+    "question_num": 282,
+    "text": "A chip shop records how many people had salt or vinegar on their chips.\n\nThe results are shown in this bar chart.\n\nWhy is the bar chart misleading?",
+    "question_image": "q282_question_0.png",
+    "question_images": [
+      "q282_question_0.png"
+    ],
+    "images": [],
+    "answer": "E",
+    "explanation": "Answer:\n\nThe bars look longer than they should, which makes the differences between the bars look smaller than they actually are. For example, the bar for ‘Neither’ represents 8 people, but looks half as long as the bar for ‘Both’, which represents 26 people.",
+    "options": [
+      "It doesn’t include other options, such as ketchup.",
+      "The numbers don’t add up to 100.",
+      "The bars should be vertical instead of horizontal.",
+      "The numbers should be given as percentages.",
+      "The bars don’t begin at 0."
+    ]
+  },
+  {
+    "question_num": 283,
+    "text": "What is the size of angle b in the diagram below?",
+    "question_image": "q283_question_0.png",
+    "question_images": [
+      "q283_question_0.png"
+    ],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\nAngles in a triangle add up to 180°, so the missing angle in the triangle is 180° − 90° − 61° = 29°. Angles on a straight line add up to 180°, so angle b = 180° − 29° = 151°.",
+    "options": [
+      "139°",
+      "61°",
+      "151°",
+      "29°",
+      "161°"
+    ]
+  },
+  {
+    "question_num": 284,
+    "text": "The cost of the activities available at a summer camp are shown below.\n\nMalala spends exactly £68. She doesn’t do any activity more than once.\n\nWhich of these combinations of activities must she have done?",
+    "question_image": "q284_question_0.png",
+    "question_images": [
+      "q284_question_0.png"
+    ],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\nPaintball costs £55 by itself, so it’s unlikely to be options c) or a). Try options d), b) and e). Option d) is the only one that adds up to £68. You can use the column method to add the costs:",
+    "options": [
+      "Paintball, windsurfing and sailing",
+      "Kayaking, sailing, high ropes",
+      "Kayaking, paintball and high ropes",
+      "Windsurfing, sailing and high ropes",
+      "Kayaking, windsurfing and high ropes"
+    ]
+  },
+  {
+    "question_num": 285,
+    "text": "Jenna has made this shape out of blocks.\n\nWhich of the shapes below is identical to Jenna’s shape?",
+    "question_image": "q285_question_0.png",
+    "question_images": [
+      "q285_question_0.png"
+    ],
+    "images": [
+      "q285_option_0.png",
+      "q285_option_1.png",
+      "q285_option_2.png",
+      "q285_option_3.png",
+      "q285_option_4.png"
+    ],
+    "answer": "E",
+    "explanation": "Answer:\n\nIf Jenna’s shape was rotated 90° anticlockwise, and then rotated 180° left‑to‑right, it would look like option e).",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 286,
+    "text": "Ben has £8 to spend. He buys a chocolate bar for £2.\n\nWhat percentage of his money does Ben spend on the chocolate bar?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\n£2 out of £8 \n8\n2\n4\n1\n=\n=\n. So Ben spends \n%\n4\n1\n2\n5\n=\n of his money on the chocolate bar.",
+    "options": [
+      "30%",
+      "25%",
+      "2%",
+      "10%",
+      "20%"
+    ]
+  },
+  {
+    "question_num": 287,
+    "text": "Rui attended a holiday club for \n2 1/2 hours. The bar chart below shows the percentage of time he spent on each type of activity.\n\nHow long did Rui spend doing drama?",
+    "question_image": "q287_question_0.png",
+    "question_images": [
+      "q287_question_0.png"
+    ],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\nReading from the graph, Rui spent 75% − 45% = 30% of the time doing drama. \n2\n2\n1\n hours is 60 + 60 + 30 = 150 minutes. 10% of 150 is 150 ÷ 10 = 15 minutes, so 30% of 150 minutes is 3 × 15 = 45 minutes.",
+    "options": [
+      "40 minutes",
+      "45 minutes",
+      "75 minutes",
+      "15 minutes",
+      "30 minutes"
+    ]
+  },
+  {
+    "question_num": 288,
+    "text": "Orange juice is usually priced at £1.50 per bottle.\n\nHow much would a bottle of orange juice cost if the price was reduced by 10%?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\n10% of £1.50 is £1.50 ÷ 10 = £0.15. So the reduced price would be £1.50 − £0.15 = £1.35.",
+    "options": [
+      "£1.35",
+      "£1.30",
+      "£1.40",
+      "£1.25",
+      "£1.45"
+    ]
+  },
+  {
+    "question_num": 289,
+    "text": "Saffron draws four identical squares on the axes below. The coordinates of one corner are shown.\n\nWhat are the coordinates of the point marked A?",
+    "question_image": "q289_question_0.png",
+    "question_images": [
+      "q289_question_0.png"
+    ],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\nThe y-axis has an x-coordinate of 0 and the corner of the square furthest to the left has an x‑coordinate of −6, so the distance between opposite corners of each square is 6 units. So the distance between the centre of a square and one corner of a square is 6 ÷ 2 = 3 units. The point marked A is 3 units right and 3 units up from point (0, 0). So the coordinates of point A are (3, 3).",
+    "options": [
+      "(6, 6)",
+      "(6, 3)",
+      "(−3, −3)",
+      "(3, 3)",
+      "(3, 9)"
+    ]
+  },
+  {
+    "question_num": 290,
+    "text": "Charlotte is buying 12 apples at 6p each. She pays with a £5 note.\n\nHow much change does she get?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "B",
+    "explanation": "Answer:\n\n£5 = 500p. 12 apples cost 12 × 6p = 72p. 500p − 72p = 428p. 428p = £4.28 change.",
+    "options": [
+      "72p",
+      "£4.28",
+      "28p",
+      "£2.78",
+      "£3.72"
+    ]
+  },
+  {
+    "question_num": 291,
+    "text": "A book about space contains the following sentence:\n\nThe diameter of the Earth is 12 756.32 kilometres.\n\nWhat is the Earth’s diameter rounded to the nearest hundred kilometres?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\nYou are rounding to the nearest hundred, so look at the digit in the tens column. It’s a 5, so round up to 12 800 km.",
+    "options": [
+      "12 700 km",
+      "12 750 km",
+      "12 760 km",
+      "12 800 km",
+      "13 000 km"
+    ]
+  },
+  {
+    "question_num": 292,
+    "text": "Johan takes part in a high jump competition. His best jump is 2.04 m.\n\nHow high is this in mm?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "C",
+    "explanation": "Answer:\n\n1 m = 100 cm, so 2.04 m = 2.04 × 100 = 204 cm. 1 cm = 10 mm, so 204 cm = 204 × 10 = 2040 mm.",
+    "options": [
+      "204 mm",
+      "240 000 mm",
+      "2040 mm",
+      "20.4 mm",
+      "20 400 mm"
+    ]
+  },
+  {
+    "question_num": 293,
+    "text": "A chip shop records how many people had salt or vinegar on their chips.\n\nThe results are shown in this bar chart.\n\nWhy is the bar chart misleading?",
+    "question_image": "q293_question_0.png",
+    "question_images": [
+      "q293_question_0.png"
+    ],
+    "images": [],
+    "answer": "D",
+    "explanation": "Answer:\n\nThe bars look longer than they should, which makes the differences between the bars look smaller than they actually are. For example, the bar for ‘Neither’ represents 8 people, but looks half as long as the bar for ‘Both’, which represents 26 people.",
+    "options": [
+      "The numbers don’t add up to 100.",
+      "The bars should be vertical instead of horizontal.",
+      "It doesn’t include other options, such as ketchup.",
+      "The bars don’t begin at 0.",
+      "The numbers should be given as percentages."
+    ]
+  },
+  {
+    "question_num": 294,
+    "text": "Four children collect animal stickers. Mazana has 120 stickers, Louis has 140 stickers, Nadia has 90 stickers and Connor has 50 stickers.\n\nWhat is the mean number of stickers owned by the four children?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "answer": "A",
+    "explanation": "Answer:\n\nThe total number of stickers = 120 + 140 + 90 + 50 = 400. Divide this by the number of children to get the mean: 400 ÷ 4 = 100.",
+    "options": [
+      "100",
+      "50",
+      "150",
+      "400",
+      "40"
+    ]
+  },
+  {
+    "question_num": 295,
+    "text": "Watching Playing Reading Fishing Cycling TV football How many hours did he spend out of doors? (playing football, fishing and cycling) E hours Page 6 Please go on to the next page >>>",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "6.5 hours",
+      "7 hours",
+      "7.5 hours",
+      "8 hours",
+      "8.5"
+    ],
+    "answer": "Unknown",
+    "explanation": "The correct answer is Unknown.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 296,
+    "text": "What is this number in figures? five thousand, one hundred and nine.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "5190",
+      "5019",
+      "519",
+      "51009",
+      "5109"
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is 5109.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 297,
+    "text": "stands for 2 ships. Look at this table. Dock Number of Ships C How many more ships are in dock A than dock C?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "0.5",
+      "1",
+      "3",
+      "4",
+      "6"
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is 6.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 298,
+    "text": "What is the value of the in this number? 240 E thousandths Page 3 Please go on to the next page >>> 4 8 6 5 4 3 2 1 1 2 3 4 5 6 8 The hills are at (3 , 4). The lighthouse is at ( , ). A (6 , 1) B (1 , 6) C (5 , 6) D (6 , 3) E (1 , )",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "7 thousands",
+      "7 hundreds",
+      "7 tens",
+      "7 ones",
+      "7"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is 7 thousands.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 299,
+    "text": "Number of hours 3 2 1",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "(1 , 6)"
+    ],
+    "answer": "(1 , 6)",
+    "explanation": "The correct answer is (1 , 6).",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 300,
+    "text": "What is the missing number in this sequence? 393 384 375 357",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "367",
+      "368",
+      "365",
+      "369",
+      "366"
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is 366.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 301,
+    "text": "How many of the triangles will fill the hexagon? E Page Please go on to the next page >>>",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "10",
+      "9",
+      "8",
+      "6",
+      "4"
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is 6.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 302,
+    "text": "Iveta was 1.43 metres tall. She grew 2 centimetres more. How tall was she then in metres? E m",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "1.45 m",
+      "1.63 m",
+      "1.65 m",
+      "1.405 m",
+      "1.603"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is 1.45 m.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 303,
+    "text": "What fraction of the whole shape is shaded? E 10 3 8 4 11",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "— 3",
+      "— 1",
+      "— 3",
+      "— 1",
+      "—"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is — 1.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 304,
+    "text": "Write the correct number in the box. ÷ = C . D .5",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "123",
+      "0",
+      "0.1",
+      "0.5",
+      "1"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is 1.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 305,
+    "text": "a – 9 = 0 a = ? C – D 2 E – Page 5 Please go on to the next page >>>",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "19",
+      "1",
+      "–1",
+      "21",
+      "–19"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is 19.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 306,
+    "text": "A jug holding 1 litre of water An empty jar = 700 millilitres 11 lliittrree 700 ml The jug holds 1 litre of water. The jar is filled from the jug. How much water will be left in the jug? E millilitres",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "0.3 litres",
+      "0.25 litres",
+      "400 millilitres",
+      "0.35 litres",
+      "200"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is 0.3 litres.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 307,
+    "text": "This chart shows how Kai spent his spare time last week. 7 6 5",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "7.5 hours"
+    ],
+    "answer": "7.5 hours",
+    "explanation": "The correct answer is 7.5 hours.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 308,
+    "text": "Wendy saved £2.50 a week. How many weeks did it take her to save £20? E 1 6 cm",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "4 weeks",
+      "8 weeks",
+      "9 weeks",
+      "10 weeks",
+      "14"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is 8 weeks.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 309,
+    "text": "Which of these digital alarm clocks shows that it is quarter past seven in the evening? E Page 7 Please go on to the next page >>>",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "7:15",
+      "7:25",
+      "19:25",
+      "19:15",
+      "21:15"
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is 19:15.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 310,
+    "text": "Matthew thinks of a number. He multiplies his number by 2. Then he subtracts 4. The answer is . What number did Matthew first think of?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "3",
+      "7",
+      "10",
+      "12",
+      "14"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is 7.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 311,
+    "text": "A train left at 10.20. It arrived at 11.15. How long did the journey take, in minutes? E mins",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "45 mins",
+      "55 mins",
+      "65 mins",
+      "75 mins",
+      "95"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is 55 mins.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 312,
+    "text": "Join Heritage today! Take advantage of this great offer now. Type of membership Normal price Offer price Individual member £47.90 £35.63 Joint membership (2 adults) £79.50 £59.63 Family group (2 adults and children under 18) Family one adult (1 adult and children under 18) Young person – aged 13–25 £21.50 £16.13 Mrs Ward wants to join Heritage with her three children, aged 10, 12 and 15. How much must she pay? E Page 8 Please go on to the next page >>>",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "£82.00",
+      "£62.63",
+      "£62.00",
+      "£61.50",
+      "£46.50"
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is £46.50.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 313,
+    "text": "About how much does an ordinary mug hold? E litres",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "30 millilitres",
+      "300 millilitres",
+      "3 litres",
+      "30 litres",
+      "300"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is 300 millilitres.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 314,
+    "text": "Which of these is NOT a quadrilateral?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 315,
+    "text": "Here is part of a train timetable. Purley . . . . . . . . . . . . 23:21 . . . . East Croydon 22:56 23:01 23:10 23:27 23:30 Norwood Junc. . . . . . . . . . . . . . . . . . . . . London Bridge . . . . . . . . . . . . . . . . . . . . Clapham Junc. 23:07 23:13 23:21 23:37 23:40 Victoria 23:12 23:18 23:27 23:43 23:45 A train leaves East Croydon at 23:27. How long does it take to get to Victoria? D 1 E 2 Page 9 Please go on to the next page >>>",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "6 mins",
+      "10 mins",
+      "13 mins",
+      "16 mins",
+      "26"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is 16 mins.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 316,
+    "text": "What percentage of £5 is 50p?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "1%",
+      "5%",
+      "10%",
+      "20%",
+      "50%"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is 10%.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 317,
+    "text": "The graph shows the weight of a baby girl in the first weeks of her life. 5.00 4.50 4.00 Weight in kilograms 3.50 3.00 2.50 1 2 3 4 5 6 7 Age in weeks How old was the baby at the end of the week in which she gained most weight? E weeks Page 10 Please go on to the next page >>> htriB",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "2 weeks",
+      "3 weeks",
+      "4 weeks",
+      "7 weeks",
+      "8"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is 4 weeks.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 318,
+    "text": "Which of these shapes is NOT a cuboid?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is D.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 319,
+    "text": "Look at this angle. x Which of the following statements is correct? E x is 180 degrees. 26 105 ÷ = 21 What number does stand for? A 4 B 5 C 6 D 7 E 15 Page 11 Please go on to the next page >>>",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "Angle x is less than 90 degrees.",
+      "Angle x is a right angle.",
+      "Angle x is more than 180 degrees.",
+      "Angle x is between 90 and 180 degrees.",
+      "Angle"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is D.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 320,
+    "text": "A swimming pool charges £3.60 for entry. You can save — 1 of the entry fee with a membership card.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "5"
+    ],
+    "answer": "5",
+    "explanation": "The correct answer is 5.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 321,
+    "text": "A boy delivered newspapers. He was paid £1.40 for every 100 papers he delivered. How much was he paid for delivering 250 papers? E 29 3.6 Í 10 = A 0.36 B 0.036 C 36 D 360 E 36.6 Page 12 Please go on to the next page >>>",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "£2.80",
+      "£3.40",
+      "£3.50",
+      "£4.20",
+      "£4.40"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is £3.50.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 322,
+    "text": "The graph shows the population of Britain from 1700. 50 40",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "1875"
+    ],
+    "answer": "1875",
+    "explanation": "The correct answer is 1875.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 323,
+    "text": "A bag had 36 sweets in it. Ethan took out — 2 of them.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "24"
+    ],
+    "answer": "24",
+    "explanation": "The correct answer is 24.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 324,
+    "text": "A ship travels 528 nautical miles in one day. How many nautical miles does it travel in 15 days? E Page 13 Please go on to the next page >>> 33 9 36 81 The three numbers above are alike in some ways. Select ONE of the following to say one way in which they are alike. A They are all even numbers. B They are all two-figure numbers. C They are all prime numbers. D They are all square numbers. E They can all be divided by 2 without a remainder.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "3168",
+      "3173",
+      "7920",
+      "7925",
+      "7950"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is 7920.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 325,
+    "text": "Mateo’s temperature is 37.5°C. When he was ill it rose 3°C. What was his temperature when he was ill?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "37.8°C",
+      "47.5°C",
+      "34.5°C",
+      "37.2°C",
+      "40.5°C"
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is 40.5°C.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 326,
+    "text": "Put these fractions in order of size, starting with the largest first. — 3 — 5 — 1 — 7 — 1 4 8 2 8 4 A — 7 — 3 — 5 — 1 — 1 8 4 8 2 4 B — 7 — 5 — 3 — 1 — 1 8 8 4 2 4 C — 3 — 7 — 5 — 1 — 1 4 8 8 2 4 D — 7 — 3 — 1 — 5 — 1 8 4 2 8 4 E — 7 — 5 — 1 — 3 — 1 8 8 2 4 4 Page 14 Please go on to the next page >>>",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "A"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is A.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 327,
+    "text": "Ava had 5 boxes. Each box weighed 800 grams. How many KILOGRAMS was this altogether? E kg",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "4 kg",
+      "4.5 kg",
+      "40 kg",
+      "4000 kg",
+      "4500"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is 4 kg.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 328,
+    "text": "What is 32 ?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "5",
+      "6",
+      "9",
+      "18",
+      "27"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is 9.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 329,
+    "text": "There were 27 children in a class. There were twice as many boys as girls. How many boys were there? E boys",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "21 boys",
+      "18 boys",
+      "16 boys",
+      "14 boys",
+      "9"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is 18 boys.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 330,
+    "text": "What is 60% of 0? B 2 D . E Page 1 Please go on to the next page >>>",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "5",
+      "25",
+      "27",
+      "27.5",
+      "30"
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is 30.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 331,
+    "text": "Look at the diagram. Multiples of 4 5 4 8 3",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "12"
+    ],
+    "answer": "12",
+    "explanation": "The correct answer is 12.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 332,
+    "text": "Work out XXVI multiplied by XLI.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "CMLXXXIV",
+      "MLXVI",
+      "DCCCLXXXIV",
+      "MCDLXIV",
+      "MDLXXXVI"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is MLXVI.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 333,
+    "text": "Which letter is pointing at 1250? 1200 1400 Page 16 Please go on to the next page >>>",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 334,
+    "text": "A frog starts jumping from the middle of a circular pond. The pond is 12 metres across, from one side to the other. The frog starts jumping towards the edge of the pond. Each jump is in the same direction. Each jump halves his distance from the edge of the pond. How far is the frog from the edge after 3 jumps?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "10.5m",
+      "75cm",
+      "150cm",
+      "5.25m",
+      "125cm"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is 75cm.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 335,
+    "text": "Zac starts with the number 5. Which of these instructions does not give him an answer of 17? E by ten, subtract sixteen, then halve. Page 17 Please go on to the next page >>>",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "Halve your value, add six, then double.",
+      "Multiply by four, then subtract three.",
+      "Triple your value, then add two.",
+      "Add three and double.",
+      "Multiply"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is D.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 336,
+    "text": "This chart shows the weather for 1 on one day. How many hours was it dry? E hours",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "2 hours",
+      "4 hours",
+      "6 hours",
+      "8 hours",
+      "10"
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is 8 hours.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 337,
+    "text": "Put the correct number in the box Í 99 = 00 – C 1 D 1 E Page 18 Please go on to the next page >>>",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "27",
+      "37",
+      "127",
+      "137",
+      "687"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is 27.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 338,
+    "text": "The chart shows the proportions of children in a class who go to school using various forms of transport. There are no numbers along the y-axis but we know that there are 28 children in the class in total. Number of children Bicycle Bus Car Train Walk Forms of transport Which form of transport is taken by a total of 4 children? E Page 19 Please go on to the next page >>>",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "bicycle",
+      "bus",
+      "car",
+      "train",
+      "walk"
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is walk.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 339,
+    "text": "Ali and his sister share a pizza cut into six equal pieces. Ali eats of all the pieces. His sister eats of the remaining pieces. 3 4 After both Ali and his sister have eaten, what fraction of the pizza is left? E 12 2 4 12 6",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "— 5",
+      "— 1",
+      "— 1",
+      "— 1",
+      "—"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is — 1.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 340,
+    "text": "Instructions for roasting meat: Cook for 30 minutes at 230°C. Turn down the heat to 180°C. Allow 30 minutes cooking time for every 450g. A piece of meat takes 2—",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "1.8kg"
+    ],
+    "answer": "1.8kg",
+    "explanation": "The correct answer is 1.8kg.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 341,
+    "text": "To make brown paint, you mix parts red, 17 parts yellow and 1 part blue. How much red paint is needed to make 40 litres of brown paint? E litres Page 1 END OF FAMILIARISATION PAPER Copyright © GL Assessment, 01. All rights reserved, including translation. No part of this publication may be reproduced or transmitted in any form or by any means, electronic or mechanical, recording or duplication in any information storage and retrieval system, without permission in writing from the publishers. Published by GL Assessment, 1st Floor, Vantage London, Great West Road, Brentford TW8 9AG. Printed in Great Britain. Code 6853 915 (08.1) PF",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "20 litres",
+      "34 litres",
+      "1.5 litres",
+      "4 litres",
+      "2"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is 4 litres.",
+    "source": "GL Assessment Maths 1"
+  },
+  {
+    "question_num": 342,
+    "text": "Jan Feb Mar Apr May Jun Aug Sept Oct Nov Dec This bar chart shows during which months the children in a class have their birthdays. During which month are there most birthdays?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "April",
+      "December",
+      "January",
+      "July",
+      "November"
+    ],
+    "answer": "Unknown",
+    "explanation": "The correct answer is Unknown.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 343,
+    "text": "How many 10p coins can I get for £1.80? E coins 2 6 5",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "10 coins",
+      "18 coins",
+      "88 coins",
+      "108 coins",
+      "180"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is 18 coins.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 344,
+    "text": "A 1",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "July"
+    ],
+    "answer": "July",
+    "explanation": "The correct answer is July.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 345,
+    "text": "of birthdays 2 1",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "8650"
+    ],
+    "answer": "8650",
+    "explanation": "The correct answer is 8650.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 346,
+    "text": "Number",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "04:00"
+    ],
+    "answer": "04:00",
+    "explanation": "The correct answer is 04:00.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 347,
+    "text": "Write this number in figures: eight thousand and twenty-five",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "8250",
+      "80025",
+      "8205",
+      "8025",
+      "800025"
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is 8025.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 348,
+    "text": "Share 2 into 4 equal parts. How much is one part? E Page 3 Please go on to the next page >>>",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "80",
+      "60",
+      "65",
+      "40",
+      "70"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is 60.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 349,
+    "text": "What fraction of this circle is shaded? E 12 5 4 6 8",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "— 1",
+      "— 1",
+      "— 1",
+      "— 1",
+      "—"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is — 1.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 350,
+    "text": "In the number 86, what does the stand for? E tens",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "3 hundreds",
+      "3 ones",
+      "3 thousands",
+      "3 hundredths",
+      "3"
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is 3 tens.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 351,
+    "text": "What number would go in the box? 3 = 4 8 E Page 4 Please go on to the next page >>>",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "5",
+      "6",
+      "7",
+      "9",
+      "12"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is 6.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 352,
+    "text": "Sati records how many children visit the school library each day. This is the bar chart Sati draws to show her data. How many children visited the library over the five days?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "55",
+      "54",
+      "53",
+      "52",
+      "51"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is 55.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 353,
+    "text": "Three pieces of wood are cut from a plank 1 metre long. Each piece is 30 cm long. How long is the piece left over? D 9 E 9 Page 5 Please go on to the next page >>> yadnoM yadseuT yadsendeW yadsruhT yadirF 16 12 8 4",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "10 cm",
+      "40 cm",
+      "70 cm",
+      "910 cm",
+      "970"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is 10 cm.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 354,
+    "text": "These three angles fit together to make a straight line: Look at the angle below. 0º How many of these 0° angles will fit together to make a straight line?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is 6.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 355,
+    "text": "Callum is thinking of a two-digit number. Its digits add up to 5. It is a prime number. Its square is a three-digit number. What number is he thinking of? E Page 6 Please go on to the next page >>>",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "31",
+      "14",
+      "23",
+      "13",
+      "41"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is 23.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 356,
+    "text": "What is the next number in this sequence? 49 43 37 31 ______ E 16 5 0 –5 The thermometer shows the temperature in Kiev. London is 18°C warmer. What is the temperature in London? A 17°B 16°C 15°D 14°E 13°C 17 324 ÷ 6 = A 44 B 54 C 56 D 58 E 64 Page 7 Please go on to the next page >>>",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "27",
+      "21",
+      "25",
+      "23",
+      "29"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is 25.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 357,
+    "text": "Look at these bottles.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "4 times"
+    ],
+    "answer": "4 times",
+    "explanation": "The correct answer is 4 times.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 358,
+    "text": "There were 24 marbles in a bag. I took out — 1 of the marbles.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "8"
+    ],
+    "answer": "8",
+    "explanation": "The correct answer is 8.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 359,
+    "text": "Karen wants to buy a guitar. She has saved £43.95 The guitar costs £65.00 How much more money does she need? E Page 8 Please go on to the next page >>>",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "£22.05",
+      "£21.05",
+      "£20.05",
+      "£12.05",
+      "£11.05"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is £21.05.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 360,
+    "text": "Put these numbers in order from the smallest to the biggest. 0.525 0.7 0.35 0.175 E 0.35, 0.7, 0.525 22 8 chocolate bars cost £5.20. How much do 6 chocolate bars cost? A £3.75 B £3.80 C £3.85 D £3.90 E £3.95",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "0.7, 0.525, 0.35, 0.175",
+      "0.175, 0.525, 0.35, 0.7",
+      "0.175, 0.35, 0.525, 0.7",
+      "0.7, 0.35, 0.175, 0.525",
+      "0.175,"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 361,
+    "text": "What is 50% of 40? E 1 Page 9 Please go on to the next page >>>",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "16",
+      "20",
+      "25",
+      "8",
+      "18"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is 20.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 362,
+    "text": "The bar chart shows the heights of a class of pupils. Which statement MUST be true? E children have a height of less than 139cm.",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "1 child is exactly 165cm tall.",
+      "5 children have a height between 120cm and 129cm.",
+      "No children have a height less than 111cm.",
+      "7 children have a height more than 140cm but less than 150cm.",
+      "8"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 363,
+    "text": "A television programme finished at 4.55 pm. It lasted for three-quarters of an hour. At what time did it start? E pm Page 10 Please go on to the next page >>> 911 – 011 921 – 021 931 – 031 941 – 041 951 – 051 961 – 061 Height in cm nerdlihc fo rebmuN 8 6 4 2",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "4.15 pm",
+      "4.10 pm",
+      "4.05 pm",
+      "4.25 pm",
+      "4.20"
+    ],
+    "answer": "4.10pm",
+    "explanation": "The correct answer is 4.10pm.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 364,
+    "text": "Which of these moves is not a translation? 3 6 2 4 5 E g 6",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "3 g 5",
+      "4 g 1",
+      "6 g 4",
+      "5 g 2",
+      "1"
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is 5 g 2.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 365,
+    "text": "Zoey has a large carpet in her room. It is 5 metres long and 4 metres wide. What is the distance all around the edge of the carpet?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "14m",
+      "16m",
+      "18m",
+      "19m",
+      "20m"
+    ],
+    "answer": "18 m",
+    "explanation": "The correct answer is 18 m.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 366,
+    "text": "Ella paid £780 per month in rent. How much rent did she pay in 12 months? E Page 11 Please go on to the next page >>>",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "£2340",
+      "£8360",
+      "£8580",
+      "£9260",
+      "£9360"
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is £9360.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 367,
+    "text": "Jenny is wallpapering her bedroom. She starts with a 6 metre roll but has to cut off 1.75 metres because it is damaged. If she needs 33.75 metres of wallpaper in total, how many more rolls of",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "5"
+    ],
+    "answer": "5",
+    "explanation": "The correct answer is 5.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 368,
+    "text": "An empty box weighs 150 grams. When it is filled with paper it weighs 1 kilogram. How much does the paper weigh? E 9",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "350g",
+      "750g",
+      "850g",
+      "950g",
+      "9850g"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is 850g.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 369,
+    "text": "Mrs Shaw has 175ml of liquid. She needs a container for it. Which one suits her needs best? E Page 12 Please go on to the next page >>>",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "Bath",
+      "Mug",
+      "Large saucepan",
+      "Egg cup",
+      "Bucket"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is Mug.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 370,
+    "text": "The vertices of two squares below are labelled with letters. Which of following lines is perpendicular to line connecting P and R? E line connecting Q and R",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "the line connecting X and Y",
+      "the line connecting P and S",
+      "the line connecting Q and S",
+      "the line connecting S and W",
+      "the"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is C.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 371,
+    "text": "If X stands for a whole number and 3 lots of X are equal to 36, what are",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "24"
+    ],
+    "answer": "24",
+    "explanation": "The correct answer is 24.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 372,
+    "text": "A rectangle is drawn with corner A at (1 , 1). All sides of the rectangle are then doubled in length. y 5 4",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "(5 , 3)"
+    ],
+    "answer": "(5 , 3)",
+    "explanation": "The correct answer is (5 , 3).",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 373,
+    "text": "Emily has six sticks. Their lengths are: 3cm 5cm 8cm 9cm 11cm Emily can lay the sticks end to end to make triangles, like this: Emily wants to make the smallest triangle she can using the 11cm stick Which two other lengths of stick should she use? E and 8cm",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "3cm and 5cm",
+      "3cm and 6cm",
+      "5cm and 6cm",
+      "5cm and 8cm",
+      "6cm"
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is 5cm and 8cm.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 374,
+    "text": "Muhammed must get up at 07.30 hours. He goes to bed at 22.38 hours the night before. How long does he spend in bed? E hours 52 minutes Page 15 Please go on to the next page >>>",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "8 hours 22 minutes",
+      "8 hours 42 minutes",
+      "8 hours 52 minutes",
+      "9 hours 42 minutes",
+      "9"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is 8 hours 52 minutes.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 375,
+    "text": "Liam carried ten parcels. Each parcel weighed 250 grams. How many KILOGRAMS was this altogether? C 2. D 0. E 0.0",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "25kg",
+      "2.50kg",
+      "2.25kg",
+      "0.25kg",
+      "0.025kg"
+    ],
+    "answer": "2.50 kg",
+    "explanation": "The correct answer is 2.50 kg.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 376,
+    "text": "This graph converts British Pounds (£) to United States Dollars ($). 5",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "$42.50"
+    ],
+    "answer": "$42.50",
+    "explanation": "The correct answer is $42.50.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 377,
+    "text": "To add up all the angles inside a polygon, you subtract 2 from the number of sides and multiply this by 180. An octagon has 8 sides. What do the angles inside an octagon add up to? E degrees",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "1438 degrees",
+      "1086 degrees",
+      "186 degrees",
+      "1080 degrees",
+      "1806"
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is 1080 degrees.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 378,
+    "text": "The bar chart shows the amount of money Lewis, and Zoe have in their savings accounts. Which one of these is NOT true? E has £10 less than Zoe. Page 17 Please go on to the next page >>>",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "Lewis and Jordan have £35 altogether.",
+      "Lewis has half as much as Jordan.",
+      "The children have £65 altogether.",
+      "Zoe has twice as much as Lewis.",
+      "Jordan"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is B.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 379,
+    "text": "The end points of five lines are shown in the answer options below. 7 6 5 4 3 2 1 1 2 3 4 5 6 7 Which line is parallel to the line in the diagram? E , 2) and (1 , 6)",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "(3 , 1) and (1 , 4)",
+      "(2 , 6) and (4 , 3)",
+      "(5 , 1) and (1 , 5)",
+      "(2 , 5) and (4 , 2)",
+      "(5"
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is (5 , 2) and (1 , 6).",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 380,
+    "text": "What is the area of this rectangle? 0.8m 0.3m E Page 18 Please go on to the next page >>>",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "0.24cm2",
+      "2.4cm2",
+      "24cm2",
+      "240cm2",
+      "2400cm2"
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is 2400cm2.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 381,
+    "text": "What is 1.7 as a fraction? C 0 E 10 17 17 100 11",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "— 17",
+      "— 1",
+      "— 10",
+      "— 17",
+      "—"
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is —17.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 382,
+    "text": "Greg thinks of a number, multiplies it by 3, subtracts and then multiplies by 2. His answer is 2. What number did Greg think of?",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "9",
+      "8",
+      "7",
+      "6",
+      "5"
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is 6.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 383,
+    "text": "Henry says that to change from kilometres to miles you divide the number of kilometres by 8 and then multiply by 5. Which of these is NOT correct? E kilometres is 165 miles. Page 19 Please go on to the next page >>>",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "168 kilometres is 105 miles.",
+      "248 kilometres is 155 miles.",
+      "192 kilometres is 125 miles.",
+      "216 kilometres is 135 miles.",
+      "264"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 384,
+    "text": "A shape, PQRS is shown on a coordinate grid. y",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "C"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C.",
+    "source": "GL Assessment Maths 2"
+  },
+  {
+    "question_num": 385,
+    "text": "The area of a rectangular playground is 210 metres squared. Which of the following could be the playground’s perimeter? E metres 50 43 Í 4 Í 32 is NOT the same as which of the following? A 9 Í 82 Í 4 B 32 Í 42 Í 42 C 43 Í 62 D 6 Í 12 Í 16 E 36 Í 64 Page 21 END OF FAMILIARISATION PAPER Copyright © GL Assessment, 2021. All rights reserved, including translation. No part of this publication may be reproduced or transmitted in any form or by any means, electronic or mechanical, recording or duplication in any information storage and retrieval system, without permission in writing from the publishers. Published by GL Assessment, 1st Floor, Vantage London, Great West Road, Brentford TW8 9AG. Printed in Great Britain. Code 6853 917 2(08.21) PF",
+    "question_image": null,
+    "question_images": [],
+    "images": [],
+    "options": [
+      "44 metres",
+      "52 metres",
+      "64 metres",
+      "72 metres",
+      "74"
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is 74 metres.",
+    "source": "GL Assessment Maths 2"
   }
 ]

@@ -46,6 +46,7 @@ class QuestionBankService:
         question_type: QuestionType | None = None,
         difficulty: int | None = None,
         limit: int = 10,
+        offset: int = 0,
         random_order: bool = True,
         exclude_ids: list[UUID] | None = None,
     ) -> list[Question]:
@@ -62,6 +63,13 @@ class QuestionBankService:
             exclude_str = [str(id) for id in exclude_ids]
             query = query.where(~QuestionDB.id.in_(exclude_str))
 
+        if random_order and offset == 0:
+            from sqlalchemy import func
+            query = query.order_by(func.random())
+        else:
+            query = query.order_by(QuestionDB.created_at)
+
+        query = query.offset(offset).limit(limit)
         result = await self.db.execute(query)
         db_questions = result.scalars().all()
 
@@ -75,10 +83,7 @@ class QuestionBankService:
                 print(f"Error converting question {q.id}: {e}")
                 continue
 
-        if random_order:
-            random.shuffle(questions)
-
-        return questions[:limit]
+        return questions
 
     async def create_question(self, question: QuestionCreate) -> Question:
         """Create a new question."""

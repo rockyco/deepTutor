@@ -1,0 +1,962 @@
+[
+  {
+    "question_num": 1,
+    "text": "Choose the option\u00a0which is a top\u2011down 2D view of the 3D figure below.",
+    "question_image": "q1_question_0.png",
+    "question_images": [
+      "q1_question_0.png"
+    ],
+    "images": [
+      "q1_option_0.png",
+      "q1_option_1.png",
+      "q1_option_2.png",
+      "q1_option_3.png",
+      "q1_option_4.png"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is c). There are five blocks visible from above, which rules out option\u00a0e). There is only one blue block visible from above, which rules out option\u00a0d). There are two blocks visible on the left\u2011hand side, which rules out option\u00a0b). There are only two blocks visible at the front, which rules out option\u00a0a).\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 2,
+    "text": "Choose the option which is most like the two figures below.",
+    "question_image": "q2_question_0.png",
+    "question_images": [
+      "q2_question_0.png"
+    ],
+    "images": [
+      "q2_option_0.png",
+      "q2_option_1.png",
+      "q2_option_2.png",
+      "q2_option_3.png",
+      "q2_option_4.png"
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is d). In all figures, there must be one black shape and two white shapes. An arrow must point towards the black shape. The white shapes must be identical apart from size.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 3,
+    "text": "Each of the figures on the left has code letters to describe it. Work out how the letters go with the figures, then choose the code for the new figure on the right.",
+    "question_image": "q3_question_0.png",
+    "question_images": [
+      "q3_question_0.png"
+    ],
+    "images": [
+      "q3_option_0.png",
+      "q3_option_1.png",
+      "q3_option_2.png",
+      "q3_option_3.png",
+      "q3_option_4.png"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is a) (BGN). B\u00a0=\u00a0four\u2011pointed star, C\u00a0=\u00a0five\u2011pointed star, D\u00a0=\u00a0six\u2011pointed star. F\u00a0=\u00a0black star, G\u00a0=\u00a0white star, H\u00a0=\u00a0grey star. M\u00a0=\u00a0lines on the left, N\u00a0=\u00a0lines on the right.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 4,
+    "text": "Choose the option that contains the hidden shape shown below. It should be the same size and orientation.",
+    "question_image": "q4_question_0.png",
+    "question_images": [
+      "q4_question_0.png"
+    ],
+    "images": [
+      "q4_option_0.png",
+      "q4_option_1.png",
+      "q4_option_2.png",
+      "q4_option_3.png",
+      "q4_option_4.png"
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is c).\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 5,
+    "text": "Choose the option which is most unlike the others.",
+    "question_image": null,
+    "question_images": [],
+    "images": [
+      "q5_option_0.png",
+      "q5_option_1.png",
+      "q5_option_2.png",
+      "q5_option_3.png",
+      "q5_option_4.png"
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is d). In all other figures, the outer shape is a larger downwards reflection of the inner shape.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 6,
+    "text": "Choose the option that shows how the three shapes will look when they are joined by matching the sides with the same letter.",
+    "question_image": "q6_question_0.png",
+    "question_images": [
+      "q6_question_0.png"
+    ],
+    "images": [
+      "q6_option_0.png",
+      "q6_option_1.png",
+      "q6_option_2.png",
+      "q6_option_3.png",
+      "q6_option_4.png"
+    ],
+    "answer": "E",
+    "explanation": "The correct answer is e). Option\u00a0b) is ruled out because the wrong side of the rectangle is connected to the thin triangle. Option\u00a0c) is ruled out because the rectangle is connected to the wrong side of the thin triangle. Option\u00a0a) is ruled out because the wide triangle is connected to the wrong side of the thin triangle. Option\u00a0d) is ruled out because the rectangle is not connected to the thin triangle.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 7,
+    "text": "Look at how the first figure changes to become the second figure. Then choose the option which would look like the third figure if you changed it in the same way.",
+    "question_image": "q7_question_0.png",
+    "question_images": [
+      "q7_question_0.png"
+    ],
+    "images": [
+      "q7_option_0.png",
+      "q7_option_1.png",
+      "q7_option_2.png",
+      "q7_option_3.png",
+      "q7_option_4.png"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is b). The outer small shape gets bigger and the long line gets smaller and moves inside it. The inner small shape moves to the right of the figure and gets taller.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 8,
+    "text": "Choose the option which is most like the three figures below.",
+    "question_image": "q8_question_0.png",
+    "question_images": [
+      "q8_question_0.png"
+    ],
+    "images": [
+      "q8_option_0.png",
+      "q8_option_1.png",
+      "q8_option_2.png",
+      "q8_option_3.png",
+      "q8_option_4.png"
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is a). The shading of the rectangles must alternate between grey and white. The number of circles must be equal to the number of rectangles and their shading must match the shading of the smallest rectangle.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 9,
+    "text": "Choose the option which best fits in place of the missing square in the series.",
+    "question_image": "q9_question_0.png",
+    "question_images": [
+      "q9_question_0.png"
+    ],
+    "images": [
+      "q9_option_0.png",
+      "q9_option_1.png",
+      "q9_option_2.png",
+      "q9_option_3.png",
+      "q9_option_4.png"
+    ],
+    "answer": "D",
+    "explanation": "The correct answer is d). In each series square, the star gains an additional point. The star takes the shading of the small square in the previous series square. The small square moves clockwise around the corners of the series square.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 10,
+    "text": "Choose the option which should replace the empty square in the grid.",
+    "question_image": "q10_question_0.png",
+    "question_images": [
+      "q10_question_0.png"
+    ],
+    "images": [
+      "q10_option_0.png",
+      "q10_option_1.png",
+      "q10_option_2.png",
+      "q10_option_3.png",
+      "q10_option_4.png"
+    ],
+    "answer": "B",
+    "explanation": "The correct answer is b). Working from left to right, the shape rotates 30\u00a0degrees clockwise and the dot alternates between black and white.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 41,
+    "text": "Choose the option which is most like the three figures below.",
+    "question_image": "q41_question_0.png",
+    "question_images": [
+      "q41_question_0.png"
+    ],
+    "images": [
+      "q41_option_0.png",
+      "q41_option_1.png",
+      "q41_option_2.png",
+      "q41_option_3.png",
+      "q41_option_4.png"
+    ],
+    "answer": "C",
+    "explanation": "Answer:\n\nThe correct answer is c). In all figures, the spiral must go anticlockwise (working from the centre outwards). A dashed line must overlap the spiral.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 42,
+    "text": "Choose the option which should replace the empty square in the grid.",
+    "question_image": "q42_question_0.png",
+    "question_images": [
+      "q42_question_0.png"
+    ],
+    "images": [
+      "q42_option_0.png",
+      "q42_option_1.png",
+      "q42_option_2.png",
+      "q42_option_3.png",
+      "q42_option_4.png"
+    ],
+    "answer": "B",
+    "explanation": "Answer:\n\nThe correct answer is b). Working from left to right, the entire grid square rotates 180\u00a0degrees. The hatching then rotates 90\u00a0degrees.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 43,
+    "text": "Choose the 3D figure that has been rotated to make the 3D figure below.",
+    "question_image": "q43_question_0.png",
+    "question_images": [
+      "q43_question_0.png"
+    ],
+    "images": [
+      "q43_option_0.png",
+      "q43_option_1.png",
+      "q43_option_2.png",
+      "q43_option_3.png",
+      "q43_option_4.png",
+      "q43_option_5.png"
+    ],
+    "answer": "D",
+    "explanation": "Answer:\n\nThe correct answer is d). Shape\u00a0d) has been rotated 90\u00a0degrees towards you, top\u2011to\u2011bottom.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)",
+      "f)"
+    ]
+  },
+  {
+    "question_num": 44,
+    "text": "Choose the option which is most like the two figures below.",
+    "question_image": "q44_question_0.png",
+    "question_images": [
+      "q44_question_0.png"
+    ],
+    "images": [
+      "q44_option_0.png",
+      "q44_option_1.png",
+      "q44_option_2.png",
+      "q44_option_3.png",
+      "q44_option_4.png"
+    ],
+    "answer": "A",
+    "explanation": "Answer:\n\nThe correct answer is a). All figures must contain a grey square, a white triangle and a black circle. All parallel lines must be in length order. The shapes must all be in separate sections.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 45,
+    "text": "Choose the set of blocks that can be put together to make the 3D figure below.",
+    "question_image": "q45_question_0.png",
+    "question_images": [
+      "q45_question_0.png"
+    ],
+    "images": [
+      "q45_option_0.png",
+      "q45_option_1.png",
+      "q45_option_2.png",
+      "q45_option_3.png",
+      "q45_option_4.png"
+    ],
+    "answer": "E",
+    "explanation": "Answer:\n\nThe correct answer is e). The block at the top of set\u00a0e) is rotated 90\u00a0degrees left\u2011to\u2011right to become the block on the right\u2011hand side of the figure. The block at the bottom of set\u00a0e) goes on the left\u2011hand side of the figure, at the back. The remaining block in set\u00a0e) goes on top of this block.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 46,
+    "text": "Look at how the first figure changes to become the second figure. Then choose the option which would look like the third figure if you changed it in the same way.",
+    "question_image": "q46_question_0.png",
+    "question_images": [
+      "q46_question_0.png"
+    ],
+    "images": [
+      "q46_option_0.png",
+      "q46_option_1.png",
+      "q46_option_2.png",
+      "q46_option_3.png",
+      "q46_option_4.png"
+    ],
+    "answer": "B",
+    "explanation": "Answer:\n\nThe correct answer is b). The number of sides of the black shape becomes the number of white circles. The white shape gets smaller and turns black.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 47,
+    "text": "Choose the option which should replace the empty square in the grid.",
+    "question_image": "q47_question_0.png",
+    "question_images": [
+      "q47_question_0.png"
+    ],
+    "images": [
+      "q47_option_0.png",
+      "q47_option_1.png",
+      "q47_option_2.png",
+      "q47_option_3.png",
+      "q47_option_4.png"
+    ],
+    "answer": "D",
+    "explanation": "Answer:\n\nThe correct answer is d). Working from left to right, the shape rotates 30\u00a0degrees clockwise and the dot alternates between black and white.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 48,
+    "text": "Choose the option which is most like the three figures below.",
+    "question_image": "q48_question_0.png",
+    "question_images": [
+      "q48_question_0.png"
+    ],
+    "images": [
+      "q48_option_0.png",
+      "q48_option_1.png",
+      "q48_option_2.png",
+      "q48_option_3.png",
+      "q48_option_4.png"
+    ],
+    "answer": "A",
+    "explanation": "Answer:\n\nThe correct answer is a). The shading of the rectangles must alternate between grey and white. The number of circles must be equal to the number of rectangles and their shading must match the shading of the smallest rectangle.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 49,
+    "text": "Choose the option that shows how the three shapes will look when they are joined by matching the sides with the same letter.",
+    "question_image": "q49_question_0.png",
+    "question_images": [
+      "q49_question_0.png"
+    ],
+    "images": [
+      "q49_option_0.png",
+      "q49_option_1.png",
+      "q49_option_2.png",
+      "q49_option_3.png",
+      "q49_option_4.png"
+    ],
+    "answer": "C",
+    "explanation": "Answer:\n\nThe correct answer is c). Option\u00a0b) is ruled out because the wrong side of the rectangle is connected to the thin triangle. Option\u00a0e) is ruled out because the rectangle is connected to the wrong side of the thin triangle. Option\u00a0d) is ruled out because the wide triangle is connected to the wrong side of the thin triangle. Option\u00a0a) is ruled out because the rectangle is not connected to the thin triangle.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 50,
+    "text": "Each of the figures on the left has code letters to describe it. Work out how the letters go with the figures, then choose the code for the new figure on the right.",
+    "question_image": "q50_question_0.png",
+    "question_images": [
+      "q50_question_0.png"
+    ],
+    "images": [
+      "q50_option_0.png",
+      "q50_option_1.png",
+      "q50_option_2.png",
+      "q50_option_3.png",
+      "q50_option_4.png"
+    ],
+    "answer": "A",
+    "explanation": "Answer:\n\nThe correct answer is a) (BGN). B\u00a0=\u00a0four\u2011pointed star, C\u00a0=\u00a0five\u2011pointed star, D\u00a0=\u00a0six\u2011pointed star. F\u00a0=\u00a0black star, G\u00a0=\u00a0white star, H\u00a0=\u00a0grey star. M\u00a0=\u00a0lines on the left, N\u00a0=\u00a0lines on the right.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 51,
+    "text": "Choose the cube which can be made from the net below.",
+    "question_image": "q51_question_0.png",
+    "question_images": [
+      "q51_question_0.png"
+    ],
+    "images": [
+      "q51_option_0.png",
+      "q51_option_1.png",
+      "q51_option_2.png",
+      "q51_option_3.png",
+      "q51_option_4.png"
+    ],
+    "answer": "B",
+    "explanation": "Answer:\n\nThe correct answer is b). Option\u00a0c) is ruled out because the arrow and the grey shape must be on opposite sides. Option\u00a0d) is ruled out because the two black dots have the wrong rotation. Option\u00a0e) is ruled out because the grey shape has the wrong rotation. Option\u00a0a) is ruled out because the semicircle and the ladder shape must be on opposite sides.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 52,
+    "text": "In the boxes below are figures with code letters. The top letters have a different meaning to the bottom ones. Work out how the letters go with the figures, then choose the code for the new figure.",
+    "question_image": "q52_question_0.png",
+    "question_images": [
+      "q52_question_0.png"
+    ],
+    "images": [
+      "q52_option_0.png",
+      "q52_option_1.png",
+      "q52_option_2.png",
+      "q52_option_3.png",
+      "q52_option_4.png"
+    ],
+    "answer": "A",
+    "explanation": "Answer:\n\nThe correct answer is a) (YB). X\u00a0=\u00a0diagonal inner lines, Y\u00a0=\u00a0horizontal and vertical inner lines. B\u00a0=\u00a0one grey section, C\u00a0=\u00a0two grey sections.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 53,
+    "text": "Choose the option that shows how the three shapes will look when they are joined by matching the sides with the same letter.",
+    "question_image": "q53_question_0.png",
+    "question_images": [
+      "q53_question_0.png"
+    ],
+    "images": [
+      "q53_option_0.png",
+      "q53_option_1.png",
+      "q53_option_2.png",
+      "q53_option_3.png",
+      "q53_option_4.png"
+    ],
+    "answer": "B",
+    "explanation": "Answer:\n\nThe correct answer is b). Option\u00a0e) is ruled out because the wrong side of the rectangle is connected to the thin triangle. Option\u00a0c) is ruled out because the rectangle is connected to the wrong side of the thin triangle. Option\u00a0d) is ruled out because the wide triangle is connected to the wrong side of the thin triangle. Option\u00a0a) is ruled out because the rectangle is not connected to the thin triangle.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 54,
+    "text": "Look at how the first figure changes to become the second figure. Then choose the option which would look like the third figure if you changed it in the same way.",
+    "question_image": "q54_question_0.png",
+    "question_images": [
+      "q54_question_0.png"
+    ],
+    "images": [
+      "q54_option_0.png",
+      "q54_option_1.png",
+      "q54_option_2.png",
+      "q54_option_3.png",
+      "q54_option_4.png"
+    ],
+    "answer": "B",
+    "explanation": "Answer:\n\nThe correct answer is b). The outer small shape gets bigger and the long line gets smaller and moves inside it. The inner small shape moves to the right of the figure and gets taller.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 55,
+    "text": "Choose the option that shows the figure below when it has been folded along the dashed line.",
+    "question_image": "q55_question_0.png",
+    "question_images": [
+      "q55_question_0.png"
+    ],
+    "images": [
+      "q55_option_0.png",
+      "q55_option_1.png",
+      "q55_option_2.png",
+      "q55_option_3.png",
+      "q55_option_4.png"
+    ],
+    "answer": "C",
+    "explanation": "Answer:\n\nThe correct answer is c). Option\u00a0d) is ruled out because the fold line has moved. Options\u00a0b) and e) are ruled out because the part of the figure that has been folded is the wrong shape. Option\u00a0a) is ruled out because the figure has been broken apart along the fold line.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 56,
+    "text": "Choose the option which is most unlike the others.",
+    "question_image": null,
+    "question_images": [],
+    "images": [
+      "q56_option_0.png",
+      "q56_option_1.png",
+      "q56_option_2.png",
+      "q56_option_3.png",
+      "q56_option_4.png"
+    ],
+    "answer": "B",
+    "explanation": "Answer:\n\nThe correct answer is b). In all other figures, the outer shape is a larger downwards reflection of the inner shape.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 57,
+    "text": "Choose the option which should replace the empty square in the grid.",
+    "question_image": "q57_question_0.png",
+    "question_images": [
+      "q57_question_0.png"
+    ],
+    "images": [
+      "q57_option_0.png",
+      "q57_option_1.png",
+      "q57_option_2.png",
+      "q57_option_3.png",
+      "q57_option_4.png"
+    ],
+    "answer": "C",
+    "explanation": "Answer:\n\nThe correct answer is c). Working from left to right, the shape rotates 30\u00a0degrees clockwise and the dot alternates between black and white.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 58,
+    "text": "In the boxes below are figures with code letters. The top letters have a different meaning to the bottom ones. Work out how the letters go with the figures, then choose the code for the new figure.",
+    "question_image": "q58_question_0.png",
+    "question_images": [
+      "q58_question_0.png"
+    ],
+    "images": [
+      "q58_option_0.png",
+      "q58_option_1.png",
+      "q58_option_2.png",
+      "q58_option_3.png",
+      "q58_option_4.png"
+    ],
+    "answer": "E",
+    "explanation": "Answer:\n\nThe correct answer is e) (EZ). E\u00a0=\u00a0the edges of the two ovals do not overlap, F\u00a0=\u00a0the edges of the two ovals overlap. Y\u00a0=\u00a0large oval has a dotted outline, small oval has a dashed outline, Z\u00a0=\u00a0large oval has a dashed outline, small oval has a dotted outline.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 59,
+    "text": "Choose the set of blocks that can be put together to make the 3D figure below.",
+    "question_image": "q59_question_0.png",
+    "question_images": [
+      "q59_question_0.png"
+    ],
+    "images": [
+      "q59_option_0.png",
+      "q59_option_1.png",
+      "q59_option_2.png",
+      "q59_option_3.png",
+      "q59_option_4.png"
+    ],
+    "answer": "C",
+    "explanation": "Answer:\n\nThe correct answer is c). The block at the top of set\u00a0c) is rotated 90\u00a0degrees left\u2011to\u2011right to become the block on the right\u2011hand side of the figure. The block at the bottom of set\u00a0c) goes on the left\u2011hand side of the figure, at the back. The remaining block in set\u00a0c) goes on top of this block.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 60,
+    "text": "Choose the 3D figure that has been rotated to make the 3D figure below.",
+    "question_image": "q60_question_0.png",
+    "question_images": [
+      "q60_question_0.png"
+    ],
+    "images": [
+      "q60_option_0.png",
+      "q60_option_1.png",
+      "q60_option_2.png",
+      "q60_option_3.png",
+      "q60_option_4.png",
+      "q60_option_5.png"
+    ],
+    "answer": "B",
+    "explanation": "Answer:\n\nThe correct answer is b). Shape\u00a0b) has been rotated 180\u00a0degrees in the plane of the screen. It has then been rotated 90\u00a0degrees towards you, top\u2011to\u2011bottom.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)",
+      "f)"
+    ]
+  },
+  {
+    "question_num": 61,
+    "text": "Choose the option\u00a0which is a top\u2011down 2D view of the 3D figure below.",
+    "question_image": "q61_question_0.png",
+    "question_images": [
+      "q61_question_0.png"
+    ],
+    "images": [
+      "q61_option_0.png",
+      "q61_option_1.png",
+      "q61_option_2.png",
+      "q61_option_3.png",
+      "q61_option_4.png"
+    ],
+    "answer": "A",
+    "explanation": "Answer:\n\nThe correct answer is a). There are five blocks visible from above, which rules out options\u00a0c) and b). There are two blocks visible in the middle row, which rules out options\u00a0d) and e).\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 62,
+    "text": "Choose the option which should replace the empty square in the grid.",
+    "question_image": "q62_question_0.png",
+    "question_images": [
+      "q62_question_0.png"
+    ],
+    "images": [
+      "q62_option_0.png",
+      "q62_option_1.png",
+      "q62_option_2.png",
+      "q62_option_3.png",
+      "q62_option_4.png"
+    ],
+    "answer": "D",
+    "explanation": "Answer:\n\nThe correct answer is d). Working from left to right, the shape rotates 30\u00a0degrees clockwise and the dot alternates between black and white.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 63,
+    "text": "Choose the option which is most like the three figures below.",
+    "question_image": "q63_question_0.png",
+    "question_images": [
+      "q63_question_0.png"
+    ],
+    "images": [
+      "q63_option_0.png",
+      "q63_option_1.png",
+      "q63_option_2.png",
+      "q63_option_3.png",
+      "q63_option_4.png"
+    ],
+    "answer": "B",
+    "explanation": "Answer:\n\nThe correct answer is b). In all figures, the spiral must go anticlockwise (working from the centre outwards). A dashed line must overlap the spiral.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 64,
+    "text": "In the boxes below are figures with code letters. The top letters have a different meaning to the bottom ones. Work out how the letters go with the figures, then choose the code for the new figure.",
+    "question_image": "q64_question_0.png",
+    "question_images": [
+      "q64_question_0.png"
+    ],
+    "images": [
+      "q64_option_0.png",
+      "q64_option_1.png",
+      "q64_option_2.png",
+      "q64_option_3.png",
+      "q64_option_4.png"
+    ],
+    "answer": "A",
+    "explanation": "Answer:\n\nThe correct answer is a) (EZ). E\u00a0=\u00a0the edges of the two ovals do not overlap, F\u00a0=\u00a0the edges of the two ovals overlap. Y\u00a0=\u00a0large oval has a dotted outline, small oval has a dashed outline, Z\u00a0=\u00a0large oval has a dashed outline, small oval has a dotted outline.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 65,
+    "text": "A square is folded and then a hole is punched, as shown below. Choose the option that shows the square when unfolded.",
+    "question_image": "q65_question_0.png",
+    "question_images": [
+      "q65_question_0.png"
+    ],
+    "images": [
+      "q65_option_0.png",
+      "q65_option_1.png",
+      "q65_option_2.png",
+      "q65_option_3.png",
+      "q65_option_4.png"
+    ],
+    "answer": "E",
+    "explanation": "Answer:\n\nThe correct answer is e).\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 66,
+    "text": "Each of the figures on the left has code letters to describe it. Work out how the letters go with the figures, then choose the code for the new figure on the right.",
+    "question_image": "q66_question_0.png",
+    "question_images": [
+      "q66_question_0.png"
+    ],
+    "images": [
+      "q66_option_0.png",
+      "q66_option_1.png",
+      "q66_option_2.png",
+      "q66_option_3.png",
+      "q66_option_4.png"
+    ],
+    "answer": "C",
+    "explanation": "Answer:\n\nThe correct answer is c) (KY). K\u00a0=\u00a0a triangle, L\u00a0=\u00a0a circle. X, Y and Z\u00a0=\u00a0the direction of the arrow.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 67,
+    "text": "Choose the option which is most unlike the others.",
+    "question_image": null,
+    "question_images": [],
+    "images": [
+      "q67_option_0.png",
+      "q67_option_1.png",
+      "q67_option_2.png",
+      "q67_option_3.png",
+      "q67_option_4.png"
+    ],
+    "answer": "D",
+    "explanation": "Answer:\n\nThe correct answer is d). In all other figures, the outer shape is a larger downwards reflection of the inner shape.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 68,
+    "text": "Each of the figures on the left has code letters to describe it. Work out how the letters go with the figures, then choose the code for the new figure on the right.",
+    "question_image": "q68_question_0.png",
+    "question_images": [
+      "q68_question_0.png"
+    ],
+    "images": [
+      "q68_option_0.png",
+      "q68_option_1.png",
+      "q68_option_2.png",
+      "q68_option_3.png",
+      "q68_option_4.png"
+    ],
+    "answer": "A",
+    "explanation": "Answer:\n\nThe correct answer is a) (BGN). B\u00a0=\u00a0four\u2011pointed star, C\u00a0=\u00a0five\u2011pointed star, D\u00a0=\u00a0six\u2011pointed star. F\u00a0=\u00a0black star, G\u00a0=\u00a0white star, H\u00a0=\u00a0grey star. M\u00a0=\u00a0lines on the left, N\u00a0=\u00a0lines on the right.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  },
+  {
+    "question_num": 69,
+    "text": "Choose the 3D figure that has been rotated to make the 3D figure below.",
+    "question_image": "q69_question_0.png",
+    "question_images": [
+      "q69_question_0.png"
+    ],
+    "images": [
+      "q69_option_0.png",
+      "q69_option_1.png",
+      "q69_option_2.png",
+      "q69_option_3.png",
+      "q69_option_4.png",
+      "q69_option_5.png"
+    ],
+    "answer": "F",
+    "explanation": "Answer:\n\nThe correct answer is f). Shape\u00a0f) has been rotated 90\u00a0degrees towards you, top\u2011to\u2011bottom.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)",
+      "f)"
+    ]
+  },
+  {
+    "question_num": 70,
+    "text": "Choose the cube which can be made from the net below.",
+    "question_image": "q70_question_0.png",
+    "question_images": [
+      "q70_question_0.png"
+    ],
+    "images": [
+      "q70_option_0.png",
+      "q70_option_1.png",
+      "q70_option_2.png",
+      "q70_option_3.png",
+      "q70_option_4.png"
+    ],
+    "answer": "D",
+    "explanation": "Answer:\n\nThe correct answer is d). Option\u00a0b) is ruled out because the arrow and the grey shape must be on opposite sides. Option\u00a0c) is ruled out because the two black dots have the wrong rotation. Option\u00a0e) is ruled out because the grey shape has the wrong rotation. Option\u00a0a) is ruled out because the semicircle and the ladder shape must be on opposite sides.\n\nGlossary (opens in new tab) >",
+    "options": [
+      "a)",
+      "b)",
+      "c)",
+      "d)",
+      "e)"
+    ]
+  }
+]

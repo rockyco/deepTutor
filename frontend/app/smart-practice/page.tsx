@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { ArrowLeft, BrainCircuit, Loader2, CheckCircle } from "lucide-react";
+import { API_BASE } from "@/lib/api";
 
 type Question = {
     question: string;
@@ -26,8 +27,7 @@ export default function GeneratorPage() {
         setLoading(true);
 
         try {
-            const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
-            const res = await fetch(`${API_URL}/generator/quiz`, {
+            const res = await fetch(`${API_BASE}/generator/quiz`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ topic, difficulty: "Medium" }),

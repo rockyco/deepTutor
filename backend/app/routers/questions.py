@@ -26,6 +26,8 @@ async def get_questions(
     question_type: QuestionType | None = None,
     difficulty: int | None = Query(None, ge=1, le=5),
     limit: int = Query(10, ge=1, le=100),
+    offset: int = Query(0, ge=0),
+    random: bool = Query(True),
     db: AsyncSession = Depends(get_db),
 ):
     """Get questions with optional filtering."""
@@ -35,6 +37,8 @@ async def get_questions(
         question_type=question_type,
         difficulty=difficulty,
         limit=limit,
+        offset=offset,
+        random_order=(random and offset == 0),
     )
     return questions
 

@@ -294,6 +294,8 @@ export const questionsAPI = {
     question_type?: QuestionType;
     difficulty?: number;
     limit?: number;
+    offset?: number;
+    random?: boolean;
   }) => {
     const searchParams = new URLSearchParams();
     if (params?.subject) searchParams.set("subject", params.subject);
@@ -302,6 +304,8 @@ export const questionsAPI = {
     if (params?.difficulty)
       searchParams.set("difficulty", String(params.difficulty));
     if (params?.limit) searchParams.set("limit", String(params.limit));
+    if (params?.offset) searchParams.set("offset", String(params.offset));
+    if (params?.random === false) searchParams.set("random", "false");
     // Add cache-busting parameter to ensure fresh randomized questions each request
     searchParams.set("_t", String(Date.now()));
     return fetchAPI<Question[]>(`/api/questions?${searchParams}`, {

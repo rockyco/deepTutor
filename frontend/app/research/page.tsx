@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { ArrowLeft, Search, Loader2, Globe, BookOpen } from "lucide-react";
+import { API_BASE } from "@/lib/api";
 
 type Source = {
     title: string;
@@ -24,8 +25,7 @@ export default function ResearchPage() {
         setSources([]);
 
         try {
-            const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
-            const res = await fetch(`${API_URL}/research/query`, {
+            const res = await fetch(`${API_BASE}/research/query`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ query }),
