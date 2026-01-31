@@ -84,22 +84,6 @@
     ]
   },
   {
-    "question_num": 8,
-    "text": "If the shapes below were not coloured, which one would have the most lines of symmetry?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "answer": "D",
-    "explanation": "Answer:\n\nShape d) would have three lines of symmetry, the rest would have one line.",
-    "options": [
-      "a)",
-      "b)",
-      "c)",
-      "d)",
-      "e)"
-    ]
-  },
-  {
     "question_num": 9,
     "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
     "question_image": null,
@@ -768,28 +752,6 @@
     ]
   },
   {
-    "question_num": 57,
-    "text": "Which of the shapes below is not a regular polygon?",
-    "question_image": null,
-    "question_images": [],
-    "images": [
-      "q57_option_0.png",
-      "q57_option_1.png",
-      "q57_option_2.png",
-      "q57_option_3.png",
-      "q57_option_4.png"
-    ],
-    "answer": "C",
-    "explanation": "Answer:\n\nRegular polygons have equal‑length sides and equal angles, so c) isn’t regular.",
-    "options": [
-      "a)",
-      "b)",
-      "c)",
-      "d)",
-      "e)"
-    ]
-  },
-  {
     "question_num": 58,
     "text": "The cost of the activities available at a summer camp are shown below.\n\nMalala spends exactly £68. She doesn’t do any activity more than once.\n\nWhich of these combinations of activities must she have done?",
     "question_image": "q58_question_0.png",
@@ -839,28 +801,6 @@
       "27",
       "64",
       "100"
-    ]
-  },
-  {
-    "question_num": 177,
-    "text": "Which of the shapes below is not a regular polygon?",
-    "question_image": null,
-    "question_images": [],
-    "images": [
-      "q177_option_0.png",
-      "q177_option_1.png",
-      "q177_option_2.png",
-      "q177_option_3.png",
-      "q177_option_4.png"
-    ],
-    "answer": "C",
-    "explanation": "Answer:\n\nRegular polygons have equal‑length sides and equal angles, so c) isn’t regular.",
-    "options": [
-      "a)",
-      "b)",
-      "c)",
-      "d)",
-      "e)"
     ]
   },
   {
@@ -964,28 +904,6 @@
     ]
   },
   {
-    "question_num": 186,
-    "text": "Which of the shapes below is not a regular polygon?",
-    "question_image": null,
-    "question_images": [],
-    "images": [
-      "q186_option_0.png",
-      "q186_option_1.png",
-      "q186_option_2.png",
-      "q186_option_3.png",
-      "q186_option_4.png"
-    ],
-    "answer": "B",
-    "explanation": "Answer:\n\nRegular polygons have equal‑length sides and equal angles, so b) isn’t regular.",
-    "options": [
-      "a)",
-      "b)",
-      "c)",
-      "d)",
-      "e)"
-    ]
-  },
-  {
     "question_num": 187,
     "text": "A cuboid has a length of 14 m, a width of 2 m and a volume of 280 m3.\n\nWhat is the cuboid’s height?",
     "question_image": null,
@@ -1085,28 +1003,6 @@
       "A rectangle, width 4 m, length 5 m.",
       "A square, side length 5 m.",
       "A parallelogram, base 7 m, vertical height 3 m."
-    ]
-  },
-  {
-    "question_num": 195,
-    "text": "If the shapes below were not coloured, which one would have the most lines of symmetry?",
-    "question_image": null,
-    "question_images": [],
-    "images": [
-      "q195_option_0.png",
-      "q195_option_1.png",
-      "q195_option_2.png",
-      "q195_option_3.png",
-      "q195_option_4.png"
-    ],
-    "answer": "C",
-    "explanation": "Answer:\n\nShape c) would have three lines of symmetry, the rest would have one line.",
-    "options": [
-      "a)",
-      "b)",
-      "c)",
-      "d)",
-      "e)"
     ]
   },
   {
@@ -1396,28 +1292,6 @@
     ]
   },
   {
-    "question_num": 217,
-    "text": "If the shapes below were not coloured, which one would have the most lines of symmetry?",
-    "question_image": null,
-    "question_images": [],
-    "images": [
-      "q217_option_0.png",
-      "q217_option_1.png",
-      "q217_option_2.png",
-      "q217_option_3.png",
-      "q217_option_4.png"
-    ],
-    "answer": "D",
-    "explanation": "Answer:\n\nShape d) would have three lines of symmetry, the rest would have one line.",
-    "options": [
-      "a)",
-      "b)",
-      "c)",
-      "d)",
-      "e)"
-    ]
-  },
-  {
     "question_num": 218,
     "text": "What is the size of angle b in the diagram below?",
     "question_image": "q218_question_0.png",
@@ -1621,28 +1495,6 @@
       "Bay",
       "Black",
       "Chestnut"
-    ]
-  },
-  {
-    "question_num": 232,
-    "text": "Which of the shapes below is not a regular polygon?",
-    "question_image": null,
-    "question_images": [],
-    "images": [
-      "q232_option_0.png",
-      "q232_option_1.png",
-      "q232_option_2.png",
-      "q232_option_3.png",
-      "q232_option_4.png"
-    ],
-    "answer": "C",
-    "explanation": "Answer:\n\nRegular polygons have equal‑length sides and equal angles, so c) isn’t regular.",
-    "options": [
-      "a)",
-      "b)",
-      "c)",
-      "d)",
-      "e)"
     ]
   },
   {
@@ -1864,28 +1716,6 @@
     ]
   },
   {
-    "question_num": 246,
-    "text": "If the shapes below were not coloured, which one would have the most lines of symmetry?",
-    "question_image": null,
-    "question_images": [],
-    "images": [
-      "q246_option_0.png",
-      "q246_option_1.png",
-      "q246_option_2.png",
-      "q246_option_3.png",
-      "q246_option_4.png"
-    ],
-    "answer": "D",
-    "explanation": "Answer:\n\nShape d) would have three lines of symmetry, the rest would have one line.",
-    "options": [
-      "a)",
-      "b)",
-      "c)",
-      "d)",
-      "e)"
-    ]
-  },
-  {
     "question_num": 247,
     "text": "Look at the shape below.\n\nWhich one of the following shapes has the same area?",
     "question_image": "q247_question_0.png",
@@ -1993,28 +1823,6 @@
       "£2.78",
       "£3.72",
       "28p"
-    ]
-  },
-  {
-    "question_num": 253,
-    "text": "Which of the shapes below is not a regular polygon?",
-    "question_image": null,
-    "question_images": [],
-    "images": [
-      "q253_option_0.png",
-      "q253_option_1.png",
-      "q253_option_2.png",
-      "q253_option_3.png",
-      "q253_option_4.png"
-    ],
-    "answer": "D",
-    "explanation": "Answer:\n\nRegular polygons have equal‑length sides and equal angles, so d) isn’t regular.",
-    "options": [
-      "a)",
-      "b)",
-      "c)",
-      "d)",
-      "e)"
     ]
   },
   {
@@ -2207,28 +2015,6 @@
       "The bars don’t begin at 0.",
       "It doesn’t include other options, such as ketchup.",
       "The numbers don’t add up to 100."
-    ]
-  },
-  {
-    "question_num": 266,
-    "text": "If the shapes below were not coloured, which one would have the most lines of symmetry?",
-    "question_image": null,
-    "question_images": [],
-    "images": [
-      "q266_option_0.png",
-      "q266_option_1.png",
-      "q266_option_2.png",
-      "q266_option_3.png",
-      "q266_option_4.png"
-    ],
-    "answer": "A",
-    "explanation": "Answer:\n\nShape a) would have three lines of symmetry, the rest would have one line.",
-    "options": [
-      "a)",
-      "b)",
-      "c)",
-      "d)",
-      "e)"
     ]
   },
   {
@@ -2429,28 +2215,6 @@
       "(6, 3)",
       "(3, 9)",
       "(6, 6)"
-    ]
-  },
-  {
-    "question_num": 278,
-    "text": "If the shapes below were not coloured, which one would have the most lines of symmetry?",
-    "question_image": null,
-    "question_images": [],
-    "images": [
-      "q278_option_0.png",
-      "q278_option_1.png",
-      "q278_option_2.png",
-      "q278_option_3.png",
-      "q278_option_4.png"
-    ],
-    "answer": "D",
-    "explanation": "Answer:\n\nShape d) would have three lines of symmetry, the rest would have one line.",
-    "options": [
-      "a)",
-      "b)",
-      "c)",
-      "d)",
-      "e)"
     ]
   },
   {
@@ -2749,23 +2513,6 @@
     "source": "GL Assessment Maths 1"
   },
   {
-    "question_num": 297,
-    "text": "stands for 2 ships. Look at this table. Dock Number of Ships C How many more ships are in dock A than dock C?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "0.5",
-      "1",
-      "3",
-      "4",
-      "6"
-    ],
-    "answer": "E",
-    "explanation": "The correct answer is 6.",
-    "source": "GL Assessment Maths 1"
-  },
-  {
     "question_num": 300,
     "text": "What is the missing number in this sequence? 393 384 375 357",
     "question_image": null,
@@ -2817,40 +2564,6 @@
     "source": "GL Assessment Maths 1"
   },
   {
-    "question_num": 303,
-    "text": "What fraction of the whole shape is shaded?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "— 3",
-      "— 1",
-      "— 3",
-      "— 1",
-      "—"
-    ],
-    "answer": "B",
-    "explanation": "The correct answer is — 1.",
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "question_num": 304,
-    "text": "Write the correct number in the box. ÷ = C . D .5",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "123",
-      "0",
-      "0.1",
-      "0.5",
-      "1"
-    ],
-    "answer": "A",
-    "explanation": "The correct answer is 1.",
-    "source": "GL Assessment Maths 1"
-  },
-  {
     "question_num": 305,
     "text": "a – 9 = 0 a = ? C – D 2 E –",
     "question_image": null,
@@ -2878,7 +2591,7 @@
       "8 weeks",
       "9 weeks",
       "10 weeks",
-      "14"
+      "14 1 6 cm"
     ],
     "answer": "B",
     "explanation": "The correct answer is 8 weeks.",
@@ -2899,23 +2612,6 @@
     ],
     "answer": "D",
     "explanation": "The correct answer is 19:15.",
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "question_num": 310,
-    "text": "Matthew thinks of a number. He multiplies his number by 2. Then he subtracts 4. The answer is . What number did Matthew first think of?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "3",
-      "7",
-      "10",
-      "12",
-      "14"
-    ],
-    "answer": "B",
-    "explanation": "The correct answer is 7.",
     "source": "GL Assessment Maths 1"
   },
   {
@@ -2980,7 +2676,7 @@
       "Angle x is a right angle.",
       "Angle x is more than 180 degrees.",
       "Angle x is between 90 and 180 degrees.",
-      "Angle x is 180 degrees. 26 105 ÷ = 21 What number does stand for? A 4 B 5 C 6 D 7"
+      "Angle"
     ],
     "answer": "A",
     "explanation": "The correct answer is D.",
@@ -3055,23 +2751,6 @@
     "source": "GL Assessment Maths 1"
   },
   {
-    "question_num": 328,
-    "text": "What is 32 ?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "5",
-      "6",
-      "9",
-      "18",
-      "27"
-    ],
-    "answer": "C",
-    "explanation": "The correct answer is 9.",
-    "source": "GL Assessment Maths 1"
-  },
-  {
     "question_num": 329,
     "text": "There were 27 children in a class. There were twice as many boys as girls. How many boys were there?",
     "question_image": null,
@@ -3140,23 +2819,6 @@
     "source": "GL Assessment Maths 1"
   },
   {
-    "question_num": 336,
-    "text": "This chart shows the weather for 1 on one day. How many hours was it dry?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "2 hours",
-      "4 hours",
-      "6 hours",
-      "8 hours",
-      "10 hours"
-    ],
-    "answer": "D",
-    "explanation": "The correct answer is 8 hours.",
-    "source": "GL Assessment Maths 1"
-  },
-  {
     "question_num": 341,
     "text": "To make brown paint, you mix parts red, 17 parts yellow and 1 part blue. How much red paint is needed to make 40 litres of brown paint?",
     "question_image": null,
@@ -3167,7 +2829,7 @@
       "34 litres",
       "1.5 litres",
       "4 litres",
-      "2 litres Page 1"
+      "2"
     ],
     "answer": "B",
     "explanation": "The correct answer is 4 litres.",
@@ -3184,7 +2846,7 @@
       "18 coins",
       "88 coins",
       "108 coins",
-      "180 coins 2 6 5"
+      "180 coins"
     ],
     "answer": "B",
     "explanation": "The correct answer is 18 coins.",
@@ -3205,74 +2867,6 @@
     ],
     "answer": "D",
     "explanation": "The correct answer is 8025.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "question_num": 348,
-    "text": "Share 2 into 4 equal parts. How much is one part?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "80",
-      "60",
-      "65",
-      "40",
-      "70"
-    ],
-    "answer": "B",
-    "explanation": "The correct answer is 60.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "question_num": 349,
-    "text": "What fraction of this circle is shaded?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "— 1",
-      "— 1",
-      "— 1",
-      "— 1",
-      "—"
-    ],
-    "answer": "A",
-    "explanation": "The correct answer is — 1.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "question_num": 350,
-    "text": "In the number 86, what does the stand for?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "3 hundreds",
-      "3 ones",
-      "3 thousands",
-      "3 hundredths",
-      "3 tens"
-    ],
-    "answer": "E",
-    "explanation": "The correct answer is 3 tens.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "question_num": 351,
-    "text": "What number would go in the box? 3 = 4 8",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "5",
-      "6",
-      "7",
-      "9",
-      "12"
-    ],
-    "answer": "B",
-    "explanation": "The correct answer is 6.",
     "source": "GL Assessment Maths 2"
   },
   {
@@ -3324,23 +2918,6 @@
     ],
     "answer": "B",
     "explanation": "The correct answer is B.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "question_num": 364,
-    "text": "Which of these moves is not a translation? 3 6 2 4 5 E g 6",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "3 g 5",
-      "4 g 1",
-      "6 g 4",
-      "5 g 2",
-      "1"
-    ],
-    "answer": "D",
-    "explanation": "The correct answer is 5 g 2.",
     "source": "GL Assessment Maths 2"
   },
   {
@@ -3446,74 +3023,6 @@
     "source": "GL Assessment Maths 2"
   },
   {
-    "question_num": 379,
-    "text": "The end points of five lines are shown in the answer options below. 7 6 5 4 3 2 1 1 2 3 4 5 6 7 Which line is parallel to the line in the diagram?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "(3 , 1) and (1 , 4)",
-      "(2 , 6) and (4 , 3)",
-      "(5 , 1) and (1 , 5)",
-      "(2 , 5) and (4 , 2)",
-      "(5 , 2) and (1 , 6)"
-    ],
-    "answer": "E",
-    "explanation": "The correct answer is (5 , 2) and (1 , 6).",
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "question_num": 380,
-    "text": "What is the area of this rectangle? 0.8m 0.3m",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "0.24cm2",
-      "2.4cm2",
-      "24cm2",
-      "240cm2",
-      "2400cm2"
-    ],
-    "answer": "E",
-    "explanation": "The correct answer is 2400cm2.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "question_num": 381,
-    "text": "What is 1.7 as a fraction? C 0",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "— 17",
-      "— 1",
-      "— 10",
-      "— 17",
-      "—"
-    ],
-    "answer": "E",
-    "explanation": "The correct answer is —17.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "question_num": 382,
-    "text": "Greg thinks of a number, multiplies it by 3, subtracts and then multiplies by 2. His answer is 2. What number did Greg think of?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "9",
-      "8",
-      "7",
-      "6",
-      "5"
-    ],
-    "answer": "D",
-    "explanation": "The correct answer is 6.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
     "question_num": 383,
     "text": "Henry says that to change from kilometres to miles you divide the number of kilometres by 8 and then multiply by 5. Which of these is NOT correct?",
     "question_image": null,
@@ -3541,7 +3050,7 @@
       "52 metres",
       "64 metres",
       "72 metres",
-      "74 metres 50 43 Í 4 Í 32 is NOT the same as which of the following? A 9 Í 82 Í 4 B 32 Í 42 Í 42 C 43 Í 62 D 6 Í 12 Í 16 E 36 Í 64 Page 21"
+      "74"
     ],
     "answer": "E",
     "explanation": "The correct answer is 74 metres.",

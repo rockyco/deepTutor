@@ -118,29 +118,6 @@
   },
   {
     "subject": "maths",
-    "question_type": "geometry",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "If the shapes below were not coloured, which one would have the most lines of symmetry?",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ]
-    },
-    "answer": {
-      "value": "d)"
-    },
-    "explanation": "Answer:\n\nShape d) would have three lines of symmetry, the rest would have one line.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "maths",
     "question_type": "decimals",
     "format": "multiple_choice",
     "difficulty": 3,
@@ -594,36 +571,6 @@
   },
   {
     "subject": "maths",
-    "question_type": "geometry",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Which of the shapes below is not a regular polygon?",
-      "options": [
-        "a)",
-        "b)",
-        "c)",
-        "d)",
-        "e)"
-      ],
-      "option_images": [
-        "/images/granular_maths/q57_option_0.png",
-        "/images/granular_maths/q57_option_1.png",
-        "/images/granular_maths/q57_option_2.png",
-        "/images/granular_maths/q57_option_3.png",
-        "/images/granular_maths/q57_option_4.png"
-      ]
-    },
-    "answer": {
-      "value": "c)"
-    },
-    "explanation": "Answer:\n\nRegular polygons have equal‑length sides and equal angles, so c) isn’t regular.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "maths",
     "question_type": "number_operations",
     "format": "multiple_choice",
     "difficulty": 3,
@@ -687,29 +634,6 @@
       "value": "5109"
     },
     "explanation": "The correct answer is 5109.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "subject": "maths",
-    "question_type": "data_handling",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "stands for 2 ships. Look at this table. Dock Number of Ships C How many more ships are in dock A than dock C?",
-      "options": [
-        "0.5",
-        "1",
-        "3",
-        "4",
-        "6"
-      ]
-    },
-    "answer": {
-      "value": "6"
-    },
-    "explanation": "The correct answer is 6.",
     "hints": [],
     "tags": [],
     "source": "GL Assessment Maths 1"
@@ -785,52 +709,6 @@
   },
   {
     "subject": "maths",
-    "question_type": "geometry",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "What fraction of the whole shape is shaded?",
-      "options": [
-        "— 3",
-        "— 1",
-        "— 3",
-        "— 1",
-        "—"
-      ]
-    },
-    "answer": {
-      "value": "— 1"
-    },
-    "explanation": "The correct answer is — 1.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Write the correct number in the box. ÷ = C . D .5",
-      "options": [
-        "123",
-        "0",
-        "0.1",
-        "0.5",
-        "1"
-      ]
-    },
-    "answer": {
-      "value": "123"
-    },
-    "explanation": "The correct answer is 1.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "subject": "maths",
     "question_type": "number_operations",
     "format": "multiple_choice",
     "difficulty": 3,
@@ -864,7 +742,7 @@
         "8 weeks",
         "9 weeks",
         "10 weeks",
-        "14"
+        "14 1 6 cm"
       ]
     },
     "answer": {
@@ -894,29 +772,6 @@
       "value": "19:15"
     },
     "explanation": "The correct answer is 19:15.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Matthew thinks of a number. He multiplies his number by 2. Then he subtracts 4. The answer is . What number did Matthew first think of?",
-      "options": [
-        "3",
-        "7",
-        "10",
-        "12",
-        "14"
-      ]
-    },
-    "answer": {
-      "value": "7"
-    },
-    "explanation": "The correct answer is 7.",
     "hints": [],
     "tags": [],
     "source": "GL Assessment Maths 1"
@@ -1002,7 +857,7 @@
         "Angle x is a right angle.",
         "Angle x is more than 180 degrees.",
         "Angle x is between 90 and 180 degrees.",
-        "Angle x is 180 degrees. 26 105 ÷ = 21 What number does stand for? A 4 B 5 C 6 D 7"
+        "Angle"
       ]
     },
     "answer": {
@@ -1107,29 +962,6 @@
   },
   {
     "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "What is 32 ?",
-      "options": [
-        "5",
-        "6",
-        "9",
-        "18",
-        "27"
-      ]
-    },
-    "answer": {
-      "value": "9"
-    },
-    "explanation": "The correct answer is 9.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "subject": "maths",
     "question_type": "word_problems",
     "format": "multiple_choice",
     "difficulty": 3,
@@ -1222,29 +1054,6 @@
   },
   {
     "subject": "maths",
-    "question_type": "data_handling",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "This chart shows the weather for 1 on one day. How many hours was it dry?",
-      "options": [
-        "2 hours",
-        "4 hours",
-        "6 hours",
-        "8 hours",
-        "10 hours"
-      ]
-    },
-    "answer": {
-      "value": "8 hours"
-    },
-    "explanation": "The correct answer is 8 hours.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "subject": "maths",
     "question_type": "measurement",
     "format": "multiple_choice",
     "difficulty": 3,
@@ -1255,7 +1064,7 @@
         "34 litres",
         "1.5 litres",
         "4 litres",
-        "2 litres Page 1"
+        "2"
       ]
     },
     "answer": {
@@ -1278,7 +1087,7 @@
         "18 coins",
         "88 coins",
         "108 coins",
-        "180 coins 2 6 5"
+        "180 coins"
       ]
     },
     "answer": {
@@ -1308,98 +1117,6 @@
       "value": "8025"
     },
     "explanation": "The correct answer is 8025.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "subject": "maths",
-    "question_type": "word_problems",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Share 2 into 4 equal parts. How much is one part?",
-      "options": [
-        "80",
-        "60",
-        "65",
-        "40",
-        "70"
-      ]
-    },
-    "answer": {
-      "value": "60"
-    },
-    "explanation": "The correct answer is 60.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "subject": "maths",
-    "question_type": "geometry",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "What fraction of this circle is shaded?",
-      "options": [
-        "— 1",
-        "— 1",
-        "— 1",
-        "— 1",
-        "—"
-      ]
-    },
-    "answer": {
-      "value": "— 1"
-    },
-    "explanation": "The correct answer is — 1.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "In the number 86, what does the stand for?",
-      "options": [
-        "3 hundreds",
-        "3 ones",
-        "3 thousands",
-        "3 hundredths",
-        "3 tens"
-      ]
-    },
-    "answer": {
-      "value": "3 tens"
-    },
-    "explanation": "The correct answer is 3 tens.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "What number would go in the box? 3 = 4 8",
-      "options": [
-        "5",
-        "6",
-        "7",
-        "9",
-        "12"
-      ]
-    },
-    "answer": {
-      "value": "6"
-    },
-    "explanation": "The correct answer is 6.",
     "hints": [],
     "tags": [],
     "source": "GL Assessment Maths 2"
@@ -1469,29 +1186,6 @@
       "value": "5 children have a height between 120cm and 129cm."
     },
     "explanation": "The correct answer is B.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Which of these moves is not a translation? 3 6 2 4 5 E g 6",
-      "options": [
-        "3 g 5",
-        "4 g 1",
-        "6 g 4",
-        "5 g 2",
-        "1"
-      ]
-    },
-    "answer": {
-      "value": "5 g 2"
-    },
-    "explanation": "The correct answer is 5 g 2.",
     "hints": [],
     "tags": [],
     "source": "GL Assessment Maths 2"
@@ -1636,98 +1330,6 @@
   },
   {
     "subject": "maths",
-    "question_type": "geometry",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "The end points of five lines are shown in the answer options below. 7 6 5 4 3 2 1 1 2 3 4 5 6 7 Which line is parallel to the line in the diagram?",
-      "options": [
-        "(3 , 1) and (1 , 4)",
-        "(2 , 6) and (4 , 3)",
-        "(5 , 1) and (1 , 5)",
-        "(2 , 5) and (4 , 2)",
-        "(5 , 2) and (1 , 6)"
-      ]
-    },
-    "answer": {
-      "value": "(5 , 2) and (1 , 6)"
-    },
-    "explanation": "The correct answer is (5 , 2) and (1 , 6).",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "subject": "maths",
-    "question_type": "geometry",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "What is the area of this rectangle? 0.8m 0.3m",
-      "options": [
-        "0.24cm2",
-        "2.4cm2",
-        "24cm2",
-        "240cm2",
-        "2400cm2"
-      ]
-    },
-    "answer": {
-      "value": "2400cm2"
-    },
-    "explanation": "The correct answer is 2400cm2.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "subject": "maths",
-    "question_type": "fractions",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "What is 1.7 as a fraction? C 0",
-      "options": [
-        "— 17",
-        "— 1",
-        "— 10",
-        "— 17",
-        "—"
-      ]
-    },
-    "answer": {
-      "value": "—"
-    },
-    "explanation": "The correct answer is —17.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Greg thinks of a number, multiplies it by 3, subtracts and then multiplies by 2. His answer is 2. What number did Greg think of?",
-      "options": [
-        "9",
-        "8",
-        "7",
-        "6",
-        "5"
-      ]
-    },
-    "answer": {
-      "value": "6"
-    },
-    "explanation": "The correct answer is 6.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "subject": "maths",
     "question_type": "measurement",
     "format": "multiple_choice",
     "difficulty": 3,
@@ -1761,11 +1363,11 @@
         "52 metres",
         "64 metres",
         "72 metres",
-        "74 metres 50 43 Í 4 Í 32 is NOT the same as which of the following? A 9 Í 82 Í 4 B 32 Í 42 Í 42 C 43 Í 62 D 6 Í 12 Í 16 E 36 Í 64 Page 21"
+        "74"
       ]
     },
     "answer": {
-      "value": "74 metres 50 43 Í 4 Í 32 is NOT the same as which of the following? A 9 Í 82 Í 4 B 32 Í 42 Í 42 C 43 Í 62 D 6 Í 12 Í 16 E 36 Í 64 Page 21"
+      "value": "74"
     },
     "explanation": "The correct answer is 74 metres.",
     "hints": [],
@@ -2361,7 +1963,7 @@
       "passage": "Read this passage carefully, then answer the questions that follow.\nThe Swiss Family Robinson\nby Johann David Wyss\nThis story is told by a father who has been shipwrecked on an island along with his\nwife and sons, Jack and Fritz, and their pet dogs. They have spent the winter safely\nin Falconhurst which is the home that they built. The weather has recently improved,\nand it is time to find out what effect the winter storms have had on their tree house\nand tents.\nThe winds at length were lulled, the sun shot his brilliant rays through the clouds, the rain\n1.\nceased to fall – spring had come. No prisoners set free could have felt more joy than we\ndid as we stepped out from our winter home. We refreshed our eyes with the pleasant\ngreenery around us, and our ears with the merry songs of a thousand happy birds, and\ndrank in the pure air of spring.\n5.\nOur tree house was our first care: filled with leaves and broken and torn by the wind, it\nlooked indeed dilapidated. We worked hard, and in a few days it was again habitable.\nI was anxious to visit the tent, for I feared that much of our precious stores might have\nsuffered. The damage done to Falconhurst was nothing compared to the scene that\nawaited us. The tent was blown to the ground, the canvas torn to rags, and the provisions\n10.\nsoaked. We immediately spread the things that we hoped to preserve in the sun to dry.\nThe irreparable damage we had suffered made me resolve to find some safer and more\nstable winter-quarters before the arrival of the next rainy season. Fritz proposed that we\nshould hollow out a cave in the rock. The difficulties such a task would present appeared\nalmost insurmountable, yet I was determined to make the attempt. We might not, I\n15.\nthought, cut out a cavern of sufficient size to serve as a room, but we might at least make\na cellar for the more valuable and perishable of our stores.\nSome days afterwards we left Falconhurst with the cart laden with a cargo of spades,\nhammers, chisels, pickaxes and crowbars, and began the work. On the smooth face of the\nrock I drew out in chalk the size of the proposed entrance, and then, with minds bent on\n20.\nsuccess, we battered away.\nSix days of hard and incessant toil made little impression; I do not think that the hole\nwould have been a satisfactory shelter for even our smallest dog. But we still did not\ndespair, and were soon rewarded by coming to a softer and more yielding substance; our\nwork progressed, and our minds were relieved.\n25.\n \nCopyright © GL Assessment, 2017.\nAll rights reserved, including translation. No part of this publication may\nbe reproduced or transmitted in any form or by any means, electronic\nor mechanical, recording or duplication in any information storage and\nretrieval system, without permission in writing from the publishers.\nPublished by GL Assessment, 1st Floor, Vantage London, Great West Road,\nBrentford TW8 9AG.\nPrinted in Great Britain.\nCode 6853 910\n1(06.17) PF"
     },
     "answer": {
-      "value": "They had been trapped in their cave."
+      "value": "They had been trapped in their house due to stormy weather."
     },
     "explanation": "The correct answer is C.",
     "hints": [],
@@ -2457,7 +2059,7 @@
       "passage": "Read this passage carefully, then answer the questions that follow.\nThe Swiss Family Robinson\nby Johann David Wyss\nThis story is told by a father who has been shipwrecked on an island along with his\nwife and sons, Jack and Fritz, and their pet dogs. They have spent the winter safely\nin Falconhurst which is the home that they built. The weather has recently improved,\nand it is time to find out what effect the winter storms have had on their tree house\nand tents.\nThe winds at length were lulled, the sun shot his brilliant rays through the clouds, the rain\n1.\nceased to fall – spring had come. No prisoners set free could have felt more joy than we\ndid as we stepped out from our winter home. We refreshed our eyes with the pleasant\ngreenery around us, and our ears with the merry songs of a thousand happy birds, and\ndrank in the pure air of spring.\n5.\nOur tree house was our first care: filled with leaves and broken and torn by the wind, it\nlooked indeed dilapidated. We worked hard, and in a few days it was again habitable.\nI was anxious to visit the tent, for I feared that much of our precious stores might have\nsuffered. The damage done to Falconhurst was nothing compared to the scene that\nawaited us. The tent was blown to the ground, the canvas torn to rags, and the provisions\n10.\nsoaked. We immediately spread the things that we hoped to preserve in the sun to dry.\nThe irreparable damage we had suffered made me resolve to find some safer and more\nstable winter-quarters before the arrival of the next rainy season. Fritz proposed that we\nshould hollow out a cave in the rock. The difficulties such a task would present appeared\nalmost insurmountable, yet I was determined to make the attempt. We might not, I\n15.\nthought, cut out a cavern of sufficient size to serve as a room, but we might at least make\na cellar for the more valuable and perishable of our stores.\nSome days afterwards we left Falconhurst with the cart laden with a cargo of spades,\nhammers, chisels, pickaxes and crowbars, and began the work. On the smooth face of the\nrock I drew out in chalk the size of the proposed entrance, and then, with minds bent on\n20.\nsuccess, we battered away.\nSix days of hard and incessant toil made little impression; I do not think that the hole\nwould have been a satisfactory shelter for even our smallest dog. But we still did not\ndespair, and were soon rewarded by coming to a softer and more yielding substance; our\nwork progressed, and our minds were relieved.\n25.\n \nCopyright © GL Assessment, 2017.\nAll rights reserved, including translation. No part of this publication may\nbe reproduced or transmitted in any form or by any means, electronic\nor mechanical, recording or duplication in any information storage and\nretrieval system, without permission in writing from the publishers.\nPublished by GL Assessment, 1st Floor, Vantage London, Great West Road,\nBrentford TW8 9AG.\nPrinted in Great Britain.\nCode 6853 910\n1(06.17) PF"
     },
     "answer": {
-      "value": "The tree-house quickly dried out by itself."
+      "value": "The family were soon able to live in the tree-house again."
     },
     "explanation": "The correct answer is C.",
     "hints": [],
@@ -2481,7 +2083,7 @@
       "passage": "Read this passage carefully, then answer the questions that follow.\nThe Swiss Family Robinson\nby Johann David Wyss\nThis story is told by a father who has been shipwrecked on an island along with his\nwife and sons, Jack and Fritz, and their pet dogs. They have spent the winter safely\nin Falconhurst which is the home that they built. The weather has recently improved,\nand it is time to find out what effect the winter storms have had on their tree house\nand tents.\nThe winds at length were lulled, the sun shot his brilliant rays through the clouds, the rain\n1.\nceased to fall – spring had come. No prisoners set free could have felt more joy than we\ndid as we stepped out from our winter home. We refreshed our eyes with the pleasant\ngreenery around us, and our ears with the merry songs of a thousand happy birds, and\ndrank in the pure air of spring.\n5.\nOur tree house was our first care: filled with leaves and broken and torn by the wind, it\nlooked indeed dilapidated. We worked hard, and in a few days it was again habitable.\nI was anxious to visit the tent, for I feared that much of our precious stores might have\nsuffered. The damage done to Falconhurst was nothing compared to the scene that\nawaited us. The tent was blown to the ground, the canvas torn to rags, and the provisions\n10.\nsoaked. We immediately spread the things that we hoped to preserve in the sun to dry.\nThe irreparable damage we had suffered made me resolve to find some safer and more\nstable winter-quarters before the arrival of the next rainy season. Fritz proposed that we\nshould hollow out a cave in the rock. The difficulties such a task would present appeared\nalmost insurmountable, yet I was determined to make the attempt. We might not, I\n15.\nthought, cut out a cavern of sufficient size to serve as a room, but we might at least make\na cellar for the more valuable and perishable of our stores.\nSome days afterwards we left Falconhurst with the cart laden with a cargo of spades,\nhammers, chisels, pickaxes and crowbars, and began the work. On the smooth face of the\nrock I drew out in chalk the size of the proposed entrance, and then, with minds bent on\n20.\nsuccess, we battered away.\nSix days of hard and incessant toil made little impression; I do not think that the hole\nwould have been a satisfactory shelter for even our smallest dog. But we still did not\ndespair, and were soon rewarded by coming to a softer and more yielding substance; our\nwork progressed, and our minds were relieved.\n25.\n \nCopyright © GL Assessment, 2017.\nAll rights reserved, including translation. No part of this publication may\nbe reproduced or transmitted in any form or by any means, electronic\nor mechanical, recording or duplication in any information storage and\nretrieval system, without permission in writing from the publishers.\nPublished by GL Assessment, 1st Floor, Vantage London, Great West Road,\nBrentford TW8 9AG.\nPrinted in Great Britain.\nCode 6853 910\n1(06.17) PF"
     },
     "answer": {
-      "value": "in a cellar"
+      "value": "in their tent"
     },
     "explanation": "The correct answer is C.",
     "hints": [],
@@ -2505,7 +2107,7 @@
       "passage": "Read this passage carefully, then answer the questions that follow.\nThe Swiss Family Robinson\nby Johann David Wyss\nThis story is told by a father who has been shipwrecked on an island along with his\nwife and sons, Jack and Fritz, and their pet dogs. They have spent the winter safely\nin Falconhurst which is the home that they built. The weather has recently improved,\nand it is time to find out what effect the winter storms have had on their tree house\nand tents.\nThe winds at length were lulled, the sun shot his brilliant rays through the clouds, the rain\n1.\nceased to fall – spring had come. No prisoners set free could have felt more joy than we\ndid as we stepped out from our winter home. We refreshed our eyes with the pleasant\ngreenery around us, and our ears with the merry songs of a thousand happy birds, and\ndrank in the pure air of spring.\n5.\nOur tree house was our first care: filled with leaves and broken and torn by the wind, it\nlooked indeed dilapidated. We worked hard, and in a few days it was again habitable.\nI was anxious to visit the tent, for I feared that much of our precious stores might have\nsuffered. The damage done to Falconhurst was nothing compared to the scene that\nawaited us. The tent was blown to the ground, the canvas torn to rags, and the provisions\n10.\nsoaked. We immediately spread the things that we hoped to preserve in the sun to dry.\nThe irreparable damage we had suffered made me resolve to find some safer and more\nstable winter-quarters before the arrival of the next rainy season. Fritz proposed that we\nshould hollow out a cave in the rock. The difficulties such a task would present appeared\nalmost insurmountable, yet I was determined to make the attempt. We might not, I\n15.\nthought, cut out a cavern of sufficient size to serve as a room, but we might at least make\na cellar for the more valuable and perishable of our stores.\nSome days afterwards we left Falconhurst with the cart laden with a cargo of spades,\nhammers, chisels, pickaxes and crowbars, and began the work. On the smooth face of the\nrock I drew out in chalk the size of the proposed entrance, and then, with minds bent on\n20.\nsuccess, we battered away.\nSix days of hard and incessant toil made little impression; I do not think that the hole\nwould have been a satisfactory shelter for even our smallest dog. But we still did not\ndespair, and were soon rewarded by coming to a softer and more yielding substance; our\nwork progressed, and our minds were relieved.\n25.\n \nCopyright © GL Assessment, 2017.\nAll rights reserved, including translation. No part of this publication may\nbe reproduced or transmitted in any form or by any means, electronic\nor mechanical, recording or duplication in any information storage and\nretrieval system, without permission in writing from the publishers.\nPublished by GL Assessment, 1st Floor, Vantage London, Great West Road,\nBrentford TW8 9AG.\nPrinted in Great Britain.\nCode 6853 910\n1(06.17) PF"
     },
     "answer": {
-      "value": "They shook all of the water off them."
+      "value": "They placed them out in the sun to dry."
     },
     "explanation": "The correct answer is E.",
     "hints": [],
@@ -2529,7 +2131,7 @@
       "passage": "Read this passage carefully, then answer the questions that follow.\nThe Swiss Family Robinson\nby Johann David Wyss\nThis story is told by a father who has been shipwrecked on an island along with his\nwife and sons, Jack and Fritz, and their pet dogs. They have spent the winter safely\nin Falconhurst which is the home that they built. The weather has recently improved,\nand it is time to find out what effect the winter storms have had on their tree house\nand tents.\nThe winds at length were lulled, the sun shot his brilliant rays through the clouds, the rain\n1.\nceased to fall – spring had come. No prisoners set free could have felt more joy than we\ndid as we stepped out from our winter home. We refreshed our eyes with the pleasant\ngreenery around us, and our ears with the merry songs of a thousand happy birds, and\ndrank in the pure air of spring.\n5.\nOur tree house was our first care: filled with leaves and broken and torn by the wind, it\nlooked indeed dilapidated. We worked hard, and in a few days it was again habitable.\nI was anxious to visit the tent, for I feared that much of our precious stores might have\nsuffered. The damage done to Falconhurst was nothing compared to the scene that\nawaited us. The tent was blown to the ground, the canvas torn to rags, and the provisions\n10.\nsoaked. We immediately spread the things that we hoped to preserve in the sun to dry.\nThe irreparable damage we had suffered made me resolve to find some safer and more\nstable winter-quarters before the arrival of the next rainy season. Fritz proposed that we\nshould hollow out a cave in the rock. The difficulties such a task would present appeared\nalmost insurmountable, yet I was determined to make the attempt. We might not, I\n15.\nthought, cut out a cavern of sufficient size to serve as a room, but we might at least make\na cellar for the more valuable and perishable of our stores.\nSome days afterwards we left Falconhurst with the cart laden with a cargo of spades,\nhammers, chisels, pickaxes and crowbars, and began the work. On the smooth face of the\nrock I drew out in chalk the size of the proposed entrance, and then, with minds bent on\n20.\nsuccess, we battered away.\nSix days of hard and incessant toil made little impression; I do not think that the hole\nwould have been a satisfactory shelter for even our smallest dog. But we still did not\ndespair, and were soon rewarded by coming to a softer and more yielding substance; our\nwork progressed, and our minds were relieved.\n25.\n \nCopyright © GL Assessment, 2017.\nAll rights reserved, including translation. No part of this publication may\nbe reproduced or transmitted in any form or by any means, electronic\nor mechanical, recording or duplication in any information storage and\nretrieval system, without permission in writing from the publishers.\nPublished by GL Assessment, 1st Floor, Vantage London, Great West Road,\nBrentford TW8 9AG.\nPrinted in Great Britain.\nCode 6853 910\n1(06.17) PF"
     },
     "answer": {
-      "value": "It would be easy to repair the damage."
+      "value": "It would be impossible to repair all of the damage."
     },
     "explanation": "The correct answer is D.",
     "hints": [],
@@ -2553,7 +2155,7 @@
       "passage": "Read this passage carefully, then answer the questions that follow.\nThe Swiss Family Robinson\nby Johann David Wyss\nThis story is told by a father who has been shipwrecked on an island along with his\nwife and sons, Jack and Fritz, and their pet dogs. They have spent the winter safely\nin Falconhurst which is the home that they built. The weather has recently improved,\nand it is time to find out what effect the winter storms have had on their tree house\nand tents.\nThe winds at length were lulled, the sun shot his brilliant rays through the clouds, the rain\n1.\nceased to fall – spring had come. No prisoners set free could have felt more joy than we\ndid as we stepped out from our winter home. We refreshed our eyes with the pleasant\ngreenery around us, and our ears with the merry songs of a thousand happy birds, and\ndrank in the pure air of spring.\n5.\nOur tree house was our first care: filled with leaves and broken and torn by the wind, it\nlooked indeed dilapidated. We worked hard, and in a few days it was again habitable.\nI was anxious to visit the tent, for I feared that much of our precious stores might have\nsuffered. The damage done to Falconhurst was nothing compared to the scene that\nawaited us. The tent was blown to the ground, the canvas torn to rags, and the provisions\n10.\nsoaked. We immediately spread the things that we hoped to preserve in the sun to dry.\nThe irreparable damage we had suffered made me resolve to find some safer and more\nstable winter-quarters before the arrival of the next rainy season. Fritz proposed that we\nshould hollow out a cave in the rock. The difficulties such a task would present appeared\nalmost insurmountable, yet I was determined to make the attempt. We might not, I\n15.\nthought, cut out a cavern of sufficient size to serve as a room, but we might at least make\na cellar for the more valuable and perishable of our stores.\nSome days afterwards we left Falconhurst with the cart laden with a cargo of spades,\nhammers, chisels, pickaxes and crowbars, and began the work. On the smooth face of the\nrock I drew out in chalk the size of the proposed entrance, and then, with minds bent on\n20.\nsuccess, we battered away.\nSix days of hard and incessant toil made little impression; I do not think that the hole\nwould have been a satisfactory shelter for even our smallest dog. But we still did not\ndespair, and were soon rewarded by coming to a softer and more yielding substance; our\nwork progressed, and our minds were relieved.\n25.\n \nCopyright © GL Assessment, 2017.\nAll rights reserved, including translation. No part of this publication may\nbe reproduced or transmitted in any form or by any means, electronic\nor mechanical, recording or duplication in any information storage and\nretrieval system, without permission in writing from the publishers.\nPublished by GL Assessment, 1st Floor, Vantage London, Great West Road,\nBrentford TW8 9AG.\nPrinted in Great Britain.\nCode 6853 910\n1(06.17) PF"
     },
     "answer": {
-      "value": "stables"
+      "value": "lodgings"
     },
     "explanation": "The correct answer is B.",
     "hints": [],
@@ -2601,7 +2203,7 @@
       "passage": "Read this passage carefully, then answer the questions that follow.\nThe Swiss Family Robinson\nby Johann David Wyss\nThis story is told by a father who has been shipwrecked on an island along with his\nwife and sons, Jack and Fritz, and their pet dogs. They have spent the winter safely\nin Falconhurst which is the home that they built. The weather has recently improved,\nand it is time to find out what effect the winter storms have had on their tree house\nand tents.\nThe winds at length were lulled, the sun shot his brilliant rays through the clouds, the rain\n1.\nceased to fall – spring had come. No prisoners set free could have felt more joy than we\ndid as we stepped out from our winter home. We refreshed our eyes with the pleasant\ngreenery around us, and our ears with the merry songs of a thousand happy birds, and\ndrank in the pure air of spring.\n5.\nOur tree house was our first care: filled with leaves and broken and torn by the wind, it\nlooked indeed dilapidated. We worked hard, and in a few days it was again habitable.\nI was anxious to visit the tent, for I feared that much of our precious stores might have\nsuffered. The damage done to Falconhurst was nothing compared to the scene that\nawaited us. The tent was blown to the ground, the canvas torn to rags, and the provisions\n10.\nsoaked. We immediately spread the things that we hoped to preserve in the sun to dry.\nThe irreparable damage we had suffered made me resolve to find some safer and more\nstable winter-quarters before the arrival of the next rainy season. Fritz proposed that we\nshould hollow out a cave in the rock. The difficulties such a task would present appeared\nalmost insurmountable, yet I was determined to make the attempt. We might not, I\n15.\nthought, cut out a cavern of sufficient size to serve as a room, but we might at least make\na cellar for the more valuable and perishable of our stores.\nSome days afterwards we left Falconhurst with the cart laden with a cargo of spades,\nhammers, chisels, pickaxes and crowbars, and began the work. On the smooth face of the\nrock I drew out in chalk the size of the proposed entrance, and then, with minds bent on\n20.\nsuccess, we battered away.\nSix days of hard and incessant toil made little impression; I do not think that the hole\nwould have been a satisfactory shelter for even our smallest dog. But we still did not\ndespair, and were soon rewarded by coming to a softer and more yielding substance; our\nwork progressed, and our minds were relieved.\n25.\n \nCopyright © GL Assessment, 2017.\nAll rights reserved, including translation. No part of this publication may\nbe reproduced or transmitted in any form or by any means, electronic\nor mechanical, recording or duplication in any information storage and\nretrieval system, without permission in writing from the publishers.\nPublished by GL Assessment, 1st Floor, Vantage London, Great West Road,\nBrentford TW8 9AG.\nPrinted in Great Britain.\nCode 6853 910\n1(06.17) PF"
     },
     "answer": {
-      "value": "to provide a look-out point to watch for enemies"
+      "value": "to provide accommodation for the winter season"
     },
     "explanation": "The correct answer is E.",
     "hints": [],
@@ -2625,7 +2227,7 @@
       "passage": "Read this passage carefully, then answer the questions that follow.\nThe Swiss Family Robinson\nby Johann David Wyss\nThis story is told by a father who has been shipwrecked on an island along with his\nwife and sons, Jack and Fritz, and their pet dogs. They have spent the winter safely\nin Falconhurst which is the home that they built. The weather has recently improved,\nand it is time to find out what effect the winter storms have had on their tree house\nand tents.\nThe winds at length were lulled, the sun shot his brilliant rays through the clouds, the rain\n1.\nceased to fall – spring had come. No prisoners set free could have felt more joy than we\ndid as we stepped out from our winter home. We refreshed our eyes with the pleasant\ngreenery around us, and our ears with the merry songs of a thousand happy birds, and\ndrank in the pure air of spring.\n5.\nOur tree house was our first care: filled with leaves and broken and torn by the wind, it\nlooked indeed dilapidated. We worked hard, and in a few days it was again habitable.\nI was anxious to visit the tent, for I feared that much of our precious stores might have\nsuffered. The damage done to Falconhurst was nothing compared to the scene that\nawaited us. The tent was blown to the ground, the canvas torn to rags, and the provisions\n10.\nsoaked. We immediately spread the things that we hoped to preserve in the sun to dry.\nThe irreparable damage we had suffered made me resolve to find some safer and more\nstable winter-quarters before the arrival of the next rainy season. Fritz proposed that we\nshould hollow out a cave in the rock. The difficulties such a task would present appeared\nalmost insurmountable, yet I was determined to make the attempt. We might not, I\n15.\nthought, cut out a cavern of sufficient size to serve as a room, but we might at least make\na cellar for the more valuable and perishable of our stores.\nSome days afterwards we left Falconhurst with the cart laden with a cargo of spades,\nhammers, chisels, pickaxes and crowbars, and began the work. On the smooth face of the\nrock I drew out in chalk the size of the proposed entrance, and then, with minds bent on\n20.\nsuccess, we battered away.\nSix days of hard and incessant toil made little impression; I do not think that the hole\nwould have been a satisfactory shelter for even our smallest dog. But we still did not\ndespair, and were soon rewarded by coming to a softer and more yielding substance; our\nwork progressed, and our minds were relieved.\n25.\n \nCopyright © GL Assessment, 2017.\nAll rights reserved, including translation. No part of this publication may\nbe reproduced or transmitted in any form or by any means, electronic\nor mechanical, recording or duplication in any information storage and\nretrieval system, without permission in writing from the publishers.\nPublished by GL Assessment, 1st Floor, Vantage London, Great West Road,\nBrentford TW8 9AG.\nPrinted in Great Britain.\nCode 6853 910\n1(06.17) PF"
     },
     "answer": {
-      "value": "a house for their dog"
+      "value": "a storage space for supplies"
     },
     "explanation": "The correct answer is D.",
     "hints": [],
@@ -2649,7 +2251,7 @@
       "passage": "Read this passage carefully, then answer the questions that follow.\nThe Swiss Family Robinson\nby Johann David Wyss\nThis story is told by a father who has been shipwrecked on an island along with his\nwife and sons, Jack and Fritz, and their pet dogs. They have spent the winter safely\nin Falconhurst which is the home that they built. The weather has recently improved,\nand it is time to find out what effect the winter storms have had on their tree house\nand tents.\nThe winds at length were lulled, the sun shot his brilliant rays through the clouds, the rain\n1.\nceased to fall – spring had come. No prisoners set free could have felt more joy than we\ndid as we stepped out from our winter home. We refreshed our eyes with the pleasant\ngreenery around us, and our ears with the merry songs of a thousand happy birds, and\ndrank in the pure air of spring.\n5.\nOur tree house was our first care: filled with leaves and broken and torn by the wind, it\nlooked indeed dilapidated. We worked hard, and in a few days it was again habitable.\nI was anxious to visit the tent, for I feared that much of our precious stores might have\nsuffered. The damage done to Falconhurst was nothing compared to the scene that\nawaited us. The tent was blown to the ground, the canvas torn to rags, and the provisions\n10.\nsoaked. We immediately spread the things that we hoped to preserve in the sun to dry.\nThe irreparable damage we had suffered made me resolve to find some safer and more\nstable winter-quarters before the arrival of the next rainy season. Fritz proposed that we\nshould hollow out a cave in the rock. The difficulties such a task would present appeared\nalmost insurmountable, yet I was determined to make the attempt. We might not, I\n15.\nthought, cut out a cavern of sufficient size to serve as a room, but we might at least make\na cellar for the more valuable and perishable of our stores.\nSome days afterwards we left Falconhurst with the cart laden with a cargo of spades,\nhammers, chisels, pickaxes and crowbars, and began the work. On the smooth face of the\nrock I drew out in chalk the size of the proposed entrance, and then, with minds bent on\n20.\nsuccess, we battered away.\nSix days of hard and incessant toil made little impression; I do not think that the hole\nwould have been a satisfactory shelter for even our smallest dog. But we still did not\ndespair, and were soon rewarded by coming to a softer and more yielding substance; our\nwork progressed, and our minds were relieved.\n25.\n \nCopyright © GL Assessment, 2017.\nAll rights reserved, including translation. No part of this publication may\nbe reproduced or transmitted in any form or by any means, electronic\nor mechanical, recording or duplication in any information storage and\nretrieval system, without permission in writing from the publishers.\nPublished by GL Assessment, 1st Floor, Vantage London, Great West Road,\nBrentford TW8 9AG.\nPrinted in Great Britain.\nCode 6853 910\n1(06.17) PF"
     },
     "answer": {
-      "value": "easy as long as they set their minds to it"
+      "value": "so difficult it was nearly impossible"
     },
     "explanation": "The correct answer is D.",
     "hints": [],
@@ -2662,7 +2264,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "‘with minds bent on success’ (lines 20–21) What does this imply about their attitude to the work? succeed.",
+      "text": "‘with minds bent on success’ (lines 20–21) What does this imply about their attitude to the work?",
       "options": [
         "They were indifferent as to whether they succeeded.",
         "They wanted to succeed but struggled to believe they could.",
@@ -2673,7 +2275,7 @@
       "passage": "Read this passage carefully, then answer the questions that follow.\nThe Swiss Family Robinson\nby Johann David Wyss\nThis story is told by a father who has been shipwrecked on an island along with his\nwife and sons, Jack and Fritz, and their pet dogs. They have spent the winter safely\nin Falconhurst which is the home that they built. The weather has recently improved,\nand it is time to find out what effect the winter storms have had on their tree house\nand tents.\nThe winds at length were lulled, the sun shot his brilliant rays through the clouds, the rain\n1.\nceased to fall – spring had come. No prisoners set free could have felt more joy than we\ndid as we stepped out from our winter home. We refreshed our eyes with the pleasant\ngreenery around us, and our ears with the merry songs of a thousand happy birds, and\ndrank in the pure air of spring.\n5.\nOur tree house was our first care: filled with leaves and broken and torn by the wind, it\nlooked indeed dilapidated. We worked hard, and in a few days it was again habitable.\nI was anxious to visit the tent, for I feared that much of our precious stores might have\nsuffered. The damage done to Falconhurst was nothing compared to the scene that\nawaited us. The tent was blown to the ground, the canvas torn to rags, and the provisions\n10.\nsoaked. We immediately spread the things that we hoped to preserve in the sun to dry.\nThe irreparable damage we had suffered made me resolve to find some safer and more\nstable winter-quarters before the arrival of the next rainy season. Fritz proposed that we\nshould hollow out a cave in the rock. The difficulties such a task would present appeared\nalmost insurmountable, yet I was determined to make the attempt. We might not, I\n15.\nthought, cut out a cavern of sufficient size to serve as a room, but we might at least make\na cellar for the more valuable and perishable of our stores.\nSome days afterwards we left Falconhurst with the cart laden with a cargo of spades,\nhammers, chisels, pickaxes and crowbars, and began the work. On the smooth face of the\nrock I drew out in chalk the size of the proposed entrance, and then, with minds bent on\n20.\nsuccess, we battered away.\nSix days of hard and incessant toil made little impression; I do not think that the hole\nwould have been a satisfactory shelter for even our smallest dog. But we still did not\ndespair, and were soon rewarded by coming to a softer and more yielding substance; our\nwork progressed, and our minds were relieved.\n25.\n \nCopyright © GL Assessment, 2017.\nAll rights reserved, including translation. No part of this publication may\nbe reproduced or transmitted in any form or by any means, electronic\nor mechanical, recording or duplication in any information storage and\nretrieval system, without permission in writing from the publishers.\nPublished by GL Assessment, 1st Floor, Vantage London, Great West Road,\nBrentford TW8 9AG.\nPrinted in Great Britain.\nCode 6853 910\n1(06.17) PF"
     },
     "answer": {
-      "value": "They were indifferent as to whether they succeeded."
+      "value": "They were absolutely determined to see it through."
     },
     "explanation": "The correct answer is C.",
     "hints": [],
@@ -2734,7 +2336,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Why did the family feel ‘relieved’ after they had started their work? (line 25) of time.",
+      "text": "Why did the family feel ‘relieved’ after they had started their work? (line 25)",
       "options": [
         "They knew they couldn’t get any further and could stop working.",
         "They had finally begun to make progress.",
@@ -2793,7 +2395,7 @@
       "passage": "Read this passage carefully, then answer the questions that follow.\nThe Swiss Family Robinson\nby Johann David Wyss\nThis story is told by a father who has been shipwrecked on an island along with his\nwife and sons, Jack and Fritz, and their pet dogs. They have spent the winter safely\nin Falconhurst which is the home that they built. The weather has recently improved,\nand it is time to find out what effect the winter storms have had on their tree house\nand tents.\nThe winds at length were lulled, the sun shot his brilliant rays through the clouds, the rain\n1.\nceased to fall – spring had come. No prisoners set free could have felt more joy than we\ndid as we stepped out from our winter home. We refreshed our eyes with the pleasant\ngreenery around us, and our ears with the merry songs of a thousand happy birds, and\ndrank in the pure air of spring.\n5.\nOur tree house was our first care: filled with leaves and broken and torn by the wind, it\nlooked indeed dilapidated. We worked hard, and in a few days it was again habitable.\nI was anxious to visit the tent, for I feared that much of our precious stores might have\nsuffered. The damage done to Falconhurst was nothing compared to the scene that\nawaited us. The tent was blown to the ground, the canvas torn to rags, and the provisions\n10.\nsoaked. We immediately spread the things that we hoped to preserve in the sun to dry.\nThe irreparable damage we had suffered made me resolve to find some safer and more\nstable winter-quarters before the arrival of the next rainy season. Fritz proposed that we\nshould hollow out a cave in the rock. The difficulties such a task would present appeared\nalmost insurmountable, yet I was determined to make the attempt. We might not, I\n15.\nthought, cut out a cavern of sufficient size to serve as a room, but we might at least make\na cellar for the more valuable and perishable of our stores.\nSome days afterwards we left Falconhurst with the cart laden with a cargo of spades,\nhammers, chisels, pickaxes and crowbars, and began the work. On the smooth face of the\nrock I drew out in chalk the size of the proposed entrance, and then, with minds bent on\n20.\nsuccess, we battered away.\nSix days of hard and incessant toil made little impression; I do not think that the hole\nwould have been a satisfactory shelter for even our smallest dog. But we still did not\ndespair, and were soon rewarded by coming to a softer and more yielding substance; our\nwork progressed, and our minds were relieved.\n25.\n \nCopyright © GL Assessment, 2017.\nAll rights reserved, including translation. No part of this publication may\nbe reproduced or transmitted in any form or by any means, electronic\nor mechanical, recording or duplication in any information storage and\nretrieval system, without permission in writing from the publishers.\nPublished by GL Assessment, 1st Floor, Vantage London, Great West Road,\nBrentford TW8 9AG.\nPrinted in Great Britain.\nCode 6853 910\n1(06.17) PF"
     },
     "answer": {
-      "value": "adjectives"
+      "value": "adverbs"
     },
     "explanation": "The correct answer is D.",
     "hints": [],
@@ -2806,7 +2408,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "What was the reaction when Jack lost his crowbar? expect.",
+      "text": "What was the reaction when Jack lost his crowbar?",
       "options": [
         "Jack’s father was angry because Jack had lost one of their tools.",
         "Jack was embarrassed because he looked incompetent.",
@@ -2962,30 +2564,6 @@
     },
     "answer": {
       "value": "a simile"
-    },
-    "explanation": "The correct answer is D.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment English 1"
-  },
-  {
-    "subject": "english",
-    "question_type": "comprehension",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Why was the cave considered suitable as a home? Spelling Exercises In these sentences there are some spelling mistakes. On each numbered line there is either one mistake or no mistake. Find the group of words with the mistake in it and mark its letter on your answer sheet. If there is no mistake, mark N.",
-      "options": [
-        "because it resembled the family’s previous home",
-        "because it was high and hidden from animals",
-        "because the crystal made it brighter inside",
-        "because the hard, dry sand would protect against damp",
-        "because it was warm inside"
-      ],
-      "passage": "Read this passage carefully, then answer the questions that follow.\nThe Swiss Family Robinson\nby Johann David Wyss\nThis story is told by a father who has been shipwrecked on an island along with his\nwife and sons, Jack and Fritz, and their pet dogs. They have spent the winter safely\nin Falconhurst which is the home that they built. The weather has recently improved,\nand it is time to find out what effect the winter storms have had on their tree house\nand tents.\nThe winds at length were lulled, the sun shot his brilliant rays through the clouds, the rain\n1.\nceased to fall – spring had come. No prisoners set free could have felt more joy than we\ndid as we stepped out from our winter home. We refreshed our eyes with the pleasant\ngreenery around us, and our ears with the merry songs of a thousand happy birds, and\ndrank in the pure air of spring.\n5.\nOur tree house was our first care: filled with leaves and broken and torn by the wind, it\nlooked indeed dilapidated. We worked hard, and in a few days it was again habitable.\nI was anxious to visit the tent, for I feared that much of our precious stores might have\nsuffered. The damage done to Falconhurst was nothing compared to the scene that\nawaited us. The tent was blown to the ground, the canvas torn to rags, and the provisions\n10.\nsoaked. We immediately spread the things that we hoped to preserve in the sun to dry.\nThe irreparable damage we had suffered made me resolve to find some safer and more\nstable winter-quarters before the arrival of the next rainy season. Fritz proposed that we\nshould hollow out a cave in the rock. The difficulties such a task would present appeared\nalmost insurmountable, yet I was determined to make the attempt. We might not, I\n15.\nthought, cut out a cavern of sufficient size to serve as a room, but we might at least make\na cellar for the more valuable and perishable of our stores.\nSome days afterwards we left Falconhurst with the cart laden with a cargo of spades,\nhammers, chisels, pickaxes and crowbars, and began the work. On the smooth face of the\nrock I drew out in chalk the size of the proposed entrance, and then, with minds bent on\n20.\nsuccess, we battered away.\nSix days of hard and incessant toil made little impression; I do not think that the hole\nwould have been a satisfactory shelter for even our smallest dog. But we still did not\ndespair, and were soon rewarded by coming to a softer and more yielding substance; our\nwork progressed, and our minds were relieved.\n25.\n \nCopyright © GL Assessment, 2017.\nAll rights reserved, including translation. No part of this publication may\nbe reproduced or transmitted in any form or by any means, electronic\nor mechanical, recording or duplication in any information storage and\nretrieval system, without permission in writing from the publishers.\nPublished by GL Assessment, 1st Floor, Vantage London, Great West Road,\nBrentford TW8 9AG.\nPrinted in Great Britain.\nCode 6853 910\n1(06.17) PF"
-    },
-    "answer": {
-      "value": "because it resembled the family’s previous home"
     },
     "explanation": "The correct answer is D.",
     "hints": [],
@@ -3369,7 +2947,7 @@
       "passage": "Read this passage carefully, then answer the questions that follow.\nThe Secret Garden\nby Frances Hodgson Burnett\nWhile walking in the garden Mary watched a robin and, after following it, discovered\na key on the ground.\nShe looked at the key quite a long time. She turned it over and over, and thought about\n1.\nit. All she thought about the key was that if it was the key to the closed garden, and she\ncould find out where the door was, she could perhaps open it and see what was inside the\nwalls, and what had happened to the old rose-trees. It was because it had been shut\nup so long that she wanted to see it. It seemed as if it must be different from other places\n5.\nand that something strange must have happened to it during ten years. Besides that, if she\nliked it she could go into it every day and shut the door behind her, and she could make\nup some play of her own and play it quite alone, because nobody would ever know where\nshe was, but would think the door was still locked and the key buried in the earth. The\nthought of that pleased her very much.\n10.\nLiving in a house with a hundred mysteriously closed rooms and having nothing whatever\nto do to amuse herself, had set her inactive brain to working and was actually awakening\nher imagination.\nShe put the key in her pocket and walked up and down her path. No one but herself\never seemed to come there, so she could walk slowly and look at the wall, or, rather,\n15.\nat the ivy growing on it. The ivy was the baffling thing. Howsoever carefully she looked\nshe could see nothing but thickly growing, glossy, dark green leaves. She was very much\ndisappointed as she paced the path and looked over it at the tree-tops inside. It seemed so\nsilly, she said to herself, to be near it and not be able to get in. She took the key in her\npocket when she went back to the house, and she made up her mind that she would\n20.\nalways carry it with her when she went out, so that if she ever should find the hidden door\nshe would be ready.\n* * *\nThe skipping-rope was a wonderful thing. The sun was shining and a little wind was\nblowing – not a rough wind, but one which came in delightful little gusts and brought a\nfresh scent of newly turned earth with it.\n25.\nMary skipped round all the gardens and round the orchard, resting every few minutes. At\nlength she went to her own special path and made up her mind to try if she could skip the\nwhole length of it. It was a good long skip and she began slowly, but before she had gone\nhalf-way down the path she was so hot and breathless that she was obliged to stop. She\n \ndid not mind much, because she had already counted up to thirty. She stopped with a little\n30.\nlaugh of pleasure, and there, lo and behold, was the robin swaying on a long branch of ivy.\nHe had followed her and he greeted her with a chirp. As Mary had skipped toward him she\nfelt something heavy in her pocket strike against her at each jump, and when she saw the\nrobin she laughed again.\n“You showed me where the key was yesterday,” she said. “You ought to show me the door\n35.\ntoday; but I don’t believe you know!”\nThe robin flew from his swinging spray of ivy on to the top of the wall and he opened\nhis beak and sang a loud, lovely trill, merely to show off. Nothing in the world is quite as\nadorably lovely as a robin when he shows off – and they are nearly always doing it.\nOne of the nice little gusts of wind rushed down the path, and it was a stronger one than\n40.\nthe rest. It was strong enough to wave the branches of the trees, and it was more than\nstrong enough to sway the trailing sprays of untrimmed ivy hanging from the wall. Mary\nhad stepped close to the robin, and suddenly the gust of wind swung aside some loose ivy\ntrails, and more suddenly still she jumped toward it and caught it in her hand. This she did\nbecause she had seen something under it – a round knob which had been covered by the\n45.\nleaves hanging over it. It was the knob of a door.\nShe put her hands under the leaves and began to pull and push them aside. Thick as the\nivy hung, it nearly all was a loose and swinging curtain, though some had crept over wood\nand iron. Mary’s heart began to thump and her hands to shake a little in her delight and\nexcitement. The robin kept singing and twittering away and tilting his head on one side,\n50.\nas if he were as excited as she was. What was this under her hands which was square and\nmade of iron and which her fingers found a hole in?\nIt was the lock of the door which had been closed ten years and she put her hand in her\npocket, drew out the key and found it fitted the keyhole. She put the key in and turned it.\nIt took two hands to do it, but it did turn.\n55.\nAnd then she took a long breath and looked behind her up the long path to see if anyone\nwas coming. No one was coming. No one ever did come, it seemed, and she took another\nlong breath, because she could not help it, and she held back the swinging curtain of ivy\nand pushed back the door which opened slowly – slowly.\nThen she slipped through it, and shut it behind her, and stood with her back against it,\n60.\nlooking about her and breathing quite fast with excitement, and wonder, and delight.\nShe was standing inside the secret garden.\n \nCopyright © GL Assessment, 2017.\nAll rights reserved, including translation. No part of this publication may\nbe reproduced or transmitted in any form or by any means, electronic\nor mechanical, recording or duplication in any information storage and\nretrieval system, without permission in writing from the publishers.\nPublished by GL Assessment, 1st Floor, Vantage London, Great West Road,\nBrentford TW8 9AG.\nPrinted in Great Britain.\nCode 6853 912\n1(06.17) PF"
     },
     "answer": {
-      "value": "“thickly growing, glossy, dark green leaves” (line 17)"
+      "value": "“trailing sprays of untrimmed ivy” (line 42)"
     },
     "explanation": "The correct answer is E.",
     "hints": [],
@@ -3478,7 +3056,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Why is there an emphasis on Mary’s breathing in the last seven lines of the passage? strength.",
+      "text": "Why is there an emphasis on Mary’s breathing in the last seven lines of the passage?",
       "options": [
         "Mary had been skipping a lot and was out of breath.",
         "The key was very hard to turn so Mary had to breathe deeply to give her",
@@ -3513,33 +3091,9 @@
       "passage": "Read this passage carefully, then answer the questions that follow.\nThe Secret Garden\nby Frances Hodgson Burnett\nWhile walking in the garden Mary watched a robin and, after following it, discovered\na key on the ground.\nShe looked at the key quite a long time. She turned it over and over, and thought about\n1.\nit. All she thought about the key was that if it was the key to the closed garden, and she\ncould find out where the door was, she could perhaps open it and see what was inside the\nwalls, and what had happened to the old rose-trees. It was because it had been shut\nup so long that she wanted to see it. It seemed as if it must be different from other places\n5.\nand that something strange must have happened to it during ten years. Besides that, if she\nliked it she could go into it every day and shut the door behind her, and she could make\nup some play of her own and play it quite alone, because nobody would ever know where\nshe was, but would think the door was still locked and the key buried in the earth. The\nthought of that pleased her very much.\n10.\nLiving in a house with a hundred mysteriously closed rooms and having nothing whatever\nto do to amuse herself, had set her inactive brain to working and was actually awakening\nher imagination.\nShe put the key in her pocket and walked up and down her path. No one but herself\never seemed to come there, so she could walk slowly and look at the wall, or, rather,\n15.\nat the ivy growing on it. The ivy was the baffling thing. Howsoever carefully she looked\nshe could see nothing but thickly growing, glossy, dark green leaves. She was very much\ndisappointed as she paced the path and looked over it at the tree-tops inside. It seemed so\nsilly, she said to herself, to be near it and not be able to get in. She took the key in her\npocket when she went back to the house, and she made up her mind that she would\n20.\nalways carry it with her when she went out, so that if she ever should find the hidden door\nshe would be ready.\n* * *\nThe skipping-rope was a wonderful thing. The sun was shining and a little wind was\nblowing – not a rough wind, but one which came in delightful little gusts and brought a\nfresh scent of newly turned earth with it.\n25.\nMary skipped round all the gardens and round the orchard, resting every few minutes. At\nlength she went to her own special path and made up her mind to try if she could skip the\nwhole length of it. It was a good long skip and she began slowly, but before she had gone\nhalf-way down the path she was so hot and breathless that she was obliged to stop. She\n \ndid not mind much, because she had already counted up to thirty. She stopped with a little\n30.\nlaugh of pleasure, and there, lo and behold, was the robin swaying on a long branch of ivy.\nHe had followed her and he greeted her with a chirp. As Mary had skipped toward him she\nfelt something heavy in her pocket strike against her at each jump, and when she saw the\nrobin she laughed again.\n“You showed me where the key was yesterday,” she said. “You ought to show me the door\n35.\ntoday; but I don’t believe you know!”\nThe robin flew from his swinging spray of ivy on to the top of the wall and he opened\nhis beak and sang a loud, lovely trill, merely to show off. Nothing in the world is quite as\nadorably lovely as a robin when he shows off – and they are nearly always doing it.\nOne of the nice little gusts of wind rushed down the path, and it was a stronger one than\n40.\nthe rest. It was strong enough to wave the branches of the trees, and it was more than\nstrong enough to sway the trailing sprays of untrimmed ivy hanging from the wall. Mary\nhad stepped close to the robin, and suddenly the gust of wind swung aside some loose ivy\ntrails, and more suddenly still she jumped toward it and caught it in her hand. This she did\nbecause she had seen something under it – a round knob which had been covered by the\n45.\nleaves hanging over it. It was the knob of a door.\nShe put her hands under the leaves and began to pull and push them aside. Thick as the\nivy hung, it nearly all was a loose and swinging curtain, though some had crept over wood\nand iron. Mary’s heart began to thump and her hands to shake a little in her delight and\nexcitement. The robin kept singing and twittering away and tilting his head on one side,\n50.\nas if he were as excited as she was. What was this under her hands which was square and\nmade of iron and which her fingers found a hole in?\nIt was the lock of the door which had been closed ten years and she put her hand in her\npocket, drew out the key and found it fitted the keyhole. She put the key in and turned it.\nIt took two hands to do it, but it did turn.\n55.\nAnd then she took a long breath and looked behind her up the long path to see if anyone\nwas coming. No one was coming. No one ever did come, it seemed, and she took another\nlong breath, because she could not help it, and she held back the swinging curtain of ivy\nand pushed back the door which opened slowly – slowly.\nThen she slipped through it, and shut it behind her, and stood with her back against it,\n60.\nlooking about her and breathing quite fast with excitement, and wonder, and delight.\nShe was standing inside the secret garden.\n \nCopyright © GL Assessment, 2017.\nAll rights reserved, including translation. No part of this publication may\nbe reproduced or transmitted in any form or by any means, electronic\nor mechanical, recording or duplication in any information storage and\nretrieval system, without permission in writing from the publishers.\nPublished by GL Assessment, 1st Floor, Vantage London, Great West Road,\nBrentford TW8 9AG.\nPrinted in Great Britain.\nCode 6853 912\n1(06.17) PF"
     },
     "answer": {
-      "value": "adjectives"
+      "value": "adverbs"
     },
     "explanation": "The correct answer is D.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment English 2"
-  },
-  {
-    "subject": "english",
-    "question_type": "comprehension",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Which of these words is an adjective? Punctuation In these sentences there are some punctuation mistakes. On each numbered line there is either one mistake or no mistake. Find the group of words with the mistake in it and mark its letter on your answer sheet. If there is no mistake, mark N.",
-      "options": [
-        "swaying (line 31)",
-        "trailing (line 42)",
-        "singing (line 50)",
-        "tilting (line 50)",
-        "standing (line 62)"
-      ],
-      "passage": "Read this passage carefully, then answer the questions that follow.\nThe Secret Garden\nby Frances Hodgson Burnett\nWhile walking in the garden Mary watched a robin and, after following it, discovered\na key on the ground.\nShe looked at the key quite a long time. She turned it over and over, and thought about\n1.\nit. All she thought about the key was that if it was the key to the closed garden, and she\ncould find out where the door was, she could perhaps open it and see what was inside the\nwalls, and what had happened to the old rose-trees. It was because it had been shut\nup so long that she wanted to see it. It seemed as if it must be different from other places\n5.\nand that something strange must have happened to it during ten years. Besides that, if she\nliked it she could go into it every day and shut the door behind her, and she could make\nup some play of her own and play it quite alone, because nobody would ever know where\nshe was, but would think the door was still locked and the key buried in the earth. The\nthought of that pleased her very much.\n10.\nLiving in a house with a hundred mysteriously closed rooms and having nothing whatever\nto do to amuse herself, had set her inactive brain to working and was actually awakening\nher imagination.\nShe put the key in her pocket and walked up and down her path. No one but herself\never seemed to come there, so she could walk slowly and look at the wall, or, rather,\n15.\nat the ivy growing on it. The ivy was the baffling thing. Howsoever carefully she looked\nshe could see nothing but thickly growing, glossy, dark green leaves. She was very much\ndisappointed as she paced the path and looked over it at the tree-tops inside. It seemed so\nsilly, she said to herself, to be near it and not be able to get in. She took the key in her\npocket when she went back to the house, and she made up her mind that she would\n20.\nalways carry it with her when she went out, so that if she ever should find the hidden door\nshe would be ready.\n* * *\nThe skipping-rope was a wonderful thing. The sun was shining and a little wind was\nblowing – not a rough wind, but one which came in delightful little gusts and brought a\nfresh scent of newly turned earth with it.\n25.\nMary skipped round all the gardens and round the orchard, resting every few minutes. At\nlength she went to her own special path and made up her mind to try if she could skip the\nwhole length of it. It was a good long skip and she began slowly, but before she had gone\nhalf-way down the path she was so hot and breathless that she was obliged to stop. She\n \ndid not mind much, because she had already counted up to thirty. She stopped with a little\n30.\nlaugh of pleasure, and there, lo and behold, was the robin swaying on a long branch of ivy.\nHe had followed her and he greeted her with a chirp. As Mary had skipped toward him she\nfelt something heavy in her pocket strike against her at each jump, and when she saw the\nrobin she laughed again.\n“You showed me where the key was yesterday,” she said. “You ought to show me the door\n35.\ntoday; but I don’t believe you know!”\nThe robin flew from his swinging spray of ivy on to the top of the wall and he opened\nhis beak and sang a loud, lovely trill, merely to show off. Nothing in the world is quite as\nadorably lovely as a robin when he shows off – and they are nearly always doing it.\nOne of the nice little gusts of wind rushed down the path, and it was a stronger one than\n40.\nthe rest. It was strong enough to wave the branches of the trees, and it was more than\nstrong enough to sway the trailing sprays of untrimmed ivy hanging from the wall. Mary\nhad stepped close to the robin, and suddenly the gust of wind swung aside some loose ivy\ntrails, and more suddenly still she jumped toward it and caught it in her hand. This she did\nbecause she had seen something under it – a round knob which had been covered by the\n45.\nleaves hanging over it. It was the knob of a door.\nShe put her hands under the leaves and began to pull and push them aside. Thick as the\nivy hung, it nearly all was a loose and swinging curtain, though some had crept over wood\nand iron. Mary’s heart began to thump and her hands to shake a little in her delight and\nexcitement. The robin kept singing and twittering away and tilting his head on one side,\n50.\nas if he were as excited as she was. What was this under her hands which was square and\nmade of iron and which her fingers found a hole in?\nIt was the lock of the door which had been closed ten years and she put her hand in her\npocket, drew out the key and found it fitted the keyhole. She put the key in and turned it.\nIt took two hands to do it, but it did turn.\n55.\nAnd then she took a long breath and looked behind her up the long path to see if anyone\nwas coming. No one was coming. No one ever did come, it seemed, and she took another\nlong breath, because she could not help it, and she held back the swinging curtain of ivy\nand pushed back the door which opened slowly – slowly.\nThen she slipped through it, and shut it behind her, and stood with her back against it,\n60.\nlooking about her and breathing quite fast with excitement, and wonder, and delight.\nShe was standing inside the secret garden.\n \nCopyright © GL Assessment, 2017.\nAll rights reserved, including translation. No part of this publication may\nbe reproduced or transmitted in any form or by any means, electronic\nor mechanical, recording or duplication in any information storage and\nretrieval system, without permission in writing from the publishers.\nPublished by GL Assessment, 1st Floor, Vantage London, Great West Road,\nBrentford TW8 9AG.\nPrinted in Great Britain.\nCode 6853 912\n1(06.17) PF"
-    },
-    "answer": {
-      "value": "trailing (line 42)"
-    },
-    "explanation": "The correct answer is B.",
     "hints": [],
     "tags": [],
     "source": "GL Assessment English 2"
@@ -5045,27 +4599,6 @@
       "value": "NMJP"
     },
     "explanation": "The correct answer is NMJP.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment VR 3"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_alphabet_code",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "In these questions, three of the five words are related in some way.\nFind the two words that do not go with these three and mark them both on the answer sheet.\nExample black mouse red green hut\nA black B mouse C red D green E hut\nAnswer mouse hut\nSolution The words ‘black’, ‘red’ and ‘green’ are related because they are all colours; the\nwords ‘mouse’ and ‘hut’ do not go with these three words.\n\nIf the code for TRIP is SNHL, what is the code for CARS? 78 If the code for MEAN is NGDR, what does ETLT mean?",
-      "options": [
-        "B",
-        "D",
-        "F"
-      ]
-    },
-    "answer": {
-      "value": "B"
-    },
-    "explanation": "The correct answer is BWQO.",
     "hints": [],
     "tags": [],
     "source": "GL Assessment VR 3"

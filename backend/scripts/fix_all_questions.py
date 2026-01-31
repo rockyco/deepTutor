@@ -1,10 +1,14 @@
 """Audit and fix all metadata.json files, then rebuild deployment_dump.json.
 
-Fixes:
-  Maths:   Remove broken GL questions (page markers, merged text, single options),
-           remove garbled fraction duplicates from CGP.
-  VR:      Remove questions with Unknown answers or answer-option mismatches.
-  English: Remove broken GL questions (B C D only options, Unknown answers).
+Comprehensive fixes based on manual review of all 538 questions:
+
+  Maths:   Remove garbled GL questions (fractions, merged text, leaked coords,
+           missing numbers, em-dash options, letter-only visual without images).
+           Fix E-unit leak pattern, strip page markers, clean nbsp.
+  VR:      Remove Unknown answers, answer-option mismatches, < 5 options.
+           Strip page markers.
+  English: Remove Unknown answers, broken "B C D" options, leaked section headers.
+           Fix 13 wrong GL comprehension answers. Clean leaked answer text.
   NVR:     Keep odd-one-out questions (no question image but valid option images).
 
 Usage:
@@ -12,7 +16,6 @@ Usage:
 """
 
 import json
-import os
 import re
 import sys
 from pathlib import Path
@@ -21,6 +24,34 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 IMAGES_DIR = PROJECT_ROOT / "backend" / "data" / "images"
 
 LETTERS = "ABCDEFGH"
+
+# ---------------------------------------------------------------------------
+# Known wrong GL English comprehension answers (metadata index -> correct letter)
+# Verified by reading each question against the passage text.
+# ---------------------------------------------------------------------------
+ENGLISH_ANSWER_FIXES = {
+    # English 1 (Swiss Family Robinson)
+    51: "C",   # "prisoners set free": trapped in house by storms, not cave
+    55: "C",   # "habitable" = able to live in, not "dried out by itself"
+    56: "C",   # supplies were in their tent, not a cellar
+    57: "E",   # "spread things in sun to dry", not "shook water off"
+    58: "D",   # "irreparable" = impossible to repair, not "easy to repair"
+    59: "B",   # "quarters" = lodgings, not stables
+    61: "E",   # goal was winter accommodation, not "look-out point"
+    62: "D",   # smaller cave -> "storage space for supplies", not "house for dog"
+    63: "D",   # "almost insurmountable" = nearly impossible, not "easy"
+    64: "C",   # "minds bent on success" = determined, not "indifferent"
+    69: "D",   # heavily/vigorously/quickly are adverbs, not adjectives
+    # English 2 (Secret Garden)
+    119: "E",  # "untrimmed ivy" suggests neglect, not "glossy dark green leaves"
+    125: "D",  # mysteriously/carefully/thickly/adorably are adverbs, not adjectives
+}
+
+# Metadata indices with leaked text that should be cleaned from answer field
+ENGLISH_ANSWER_CLEAN = {
+    60: "B",   # "B Hippos" -> "B" (next section text leaked into answer)
+    113: "A",  # "A A Ghostly Encounter" -> "A" (passage title leaked)
+}
 
 
 def resolve_answer(answer_raw: str, options: list[str]) -> str:
@@ -34,7 +65,7 @@ def resolve_answer(answer_raw: str, options: list[str]) -> str:
         if idx < len(options):
             return options[idx]
 
-    # "B Hippos" format
+    # "B Hippos" format - letter + space + leaked text
     if len(str(answer_raw)) > 1 and answer_raw[0] in LETTERS and answer_raw[1] == " ":
         idx = LETTERS.index(answer_raw[0])
         if idx < len(options):
@@ -82,12 +113,13 @@ def fix_maths(data: list[dict]) -> tuple[list[dict], dict]:
     """Fix maths metadata. Returns (cleaned_data, stats)."""
     stats = {
         "total": len(data),
-        "removed_page_markers": 0,
-        "removed_merged": 0,
+        "removed_unknown": 0,
         "removed_single_option": 0,
-        "removed_garbled_fractions": 0,
+        "removed_garbled": 0,
+        "removed_merged": 0,
         "removed_no_options": 0,
-        "cleaned_page_text": 0,
+        "cleaned_text": 0,
+        "cleaned_opts": 0,
         "cleaned_nbsp": 0,
         "kept": 0,
     }
@@ -98,118 +130,236 @@ def fix_maths(data: list[dict]) -> tuple[list[dict], dict]:
         opts = q.get("options", [])
         source = q.get("source", "")
         has_img = bool(q.get("question_image") or q.get("question_images"))
+        is_gl = "GL" in source
 
-        # 1. Remove questions with Unknown answer
+        # --- REMOVAL FILTERS ---
+
+        # 1. Remove Unknown answer
         if q.get("answer") == "Unknown":
-            stats["removed_no_options"] += 1
+            stats["removed_unknown"] += 1
             continue
 
-        # 2. Remove questions with single option (broken GL extraction)
+        # 2. Remove single option (broken extraction)
         if len(opts) <= 1:
             stats["removed_single_option"] += 1
             continue
 
         # 3. Remove garbled fraction options (newlines in options)
         if any("\n" in str(o) for o in opts):
-            stats["removed_garbled_fractions"] += 1
+            stats["removed_garbled"] += 1
             continue
 
-        # 3b. Remove garbled fraction text (single chars on consecutive newlines)
+        # 4. Remove garbled fraction text (consecutive single-char newlines)
         if re.search(r"(?:\n.){4,}", text):
-            stats["removed_garbled_fractions"] += 1
+            stats["removed_garbled"] += 1
             continue
 
-        # 3c. Remove visual questions with letter-only options but no image
-        #     (the actual options are in an image that wasn't extracted)
-        if (
-            not has_img
-            and opts
-            and all(re.match(r"^[A-E]$", str(o).strip()) for o in opts)
-        ):
-            stats["removed_no_options"] += 1
+        # 5. Remove em-dash fraction options (GL PDF fraction rendering failure)
+        #    Pattern: options like "-- 3", "-- 1", "--" where fractions weren't extracted
+        em_dash_opts = sum(1 for o in opts if re.match(r"^[—\-]{1,2}\s*\d*$", str(o).strip()))
+        if em_dash_opts >= 3:
+            stats["removed_garbled"] += 1
             continue
 
-        # 4. Strip page markers from text
+        # 6. Remove visual questions with letter-only options but no image
+        #    Catches both "A","B","C" and "a)","b)","c)" formats
+        if not has_img and opts:
+            all_letter_labels = all(
+                re.match(r"^[a-eA-E][\).]?$", str(o).strip()) for o in opts
+            )
+            if all_letter_labels:
+                stats["removed_no_options"] += 1
+                continue
+
+        # 7. Remove questions with garbled text containing leaked option markers
+        #    GL extraction artifact: "÷ = C . D .5" or "a = ? C -- D 2 E --"
+        if is_gl and re.search(r"[?=]\s*[A-E]\s*[.—\-]", text):
+            stats["removed_garbled"] += 1
+            continue
+
+        # 8. Remove questions with "stands for N" pictogram garbling
+        if "stands for" in text.lower() and ("table" in text.lower() or "Dock" in text):
+            stats["removed_garbled"] += 1
+            continue
+
+        # 9. Remove questions with coordinate grid numbers leaked into text
+        if re.search(r"\b7\s+6\s+5\s+4\s+3\s+2\s+1\b", text):
+            stats["removed_garbled"] += 1
+            continue
+        if re.search(r"\b1\s+2\s+3\s+4\s+5\s+6\s+7\b", text):
+            stats["removed_garbled"] += 1
+            continue
+
+        # 10. Remove questions with "g N" garbled coordinate notation
+        if is_gl and re.search(r"\bg\s+\d", text) and "translation" in text.lower():
+            stats["removed_garbled"] += 1
+            continue
+
+        # 11. Remove questions with missing numbers in text
+        #     "what does the stand for?" or "the answer is . What number"
+        if is_gl and ("the stand for" in text.lower() or "the answer is ." in text.lower()):
+            stats["removed_garbled"] += 1
+            continue
+
+        # 12. Remove "What is 32 ?" (garbled superscript 3^2)
+        if "is 32 ?" in text or "is 32?" in text:
+            # Only if options suggest it was 3^2 (answer 9)
+            if "9" in [str(o).strip() for o in opts]:
+                stats["removed_garbled"] += 1
+                continue
+
+        # 13. Remove "weather for 1 on one day" (garbled chart reference)
+        if "weather for 1" in text:
+            stats["removed_garbled"] += 1
+            continue
+
+        # 14. Remove "Share 2 into N equal parts" (garbled fraction)
+        if re.search(r"Share\s+\d\s+into\s+\d", text) and is_gl:
+            stats["removed_garbled"] += 1
+            continue
+
+        # 15. Remove garbled fraction equations: "3 = 4 8" without proper formatting
+        if re.search(r"\b\d\s+=\s+\d\s+\d\b", text) and is_gl and "box" in text.lower():
+            stats["removed_garbled"] += 1
+            continue
+
+        # 16. Remove "subtracts and then multiplies" (missing operand number)
+        if "subtracts and then multiplies" in text and is_gl:
+            stats["removed_garbled"] += 1
+            continue
+
+        # 17. Remove questions with dimensions in text that should be in image
+        if re.search(r"\d+\.\d+m\s+\d+\.\d+m", text) and is_gl:
+            stats["removed_garbled"] += 1
+            continue
+
+        # 18. Remove "What is 1.7 as a fraction? C 0" (garbled fraction question)
+        if re.search(r"as a fraction\?\s*[A-E]\s*\d", text):
+            stats["removed_garbled"] += 1
+            continue
+
+        # --- TEXT CLEANING ---
+
         text_clean = text
+
+        # Strip page markers
         text_clean = re.sub(
             r"\s*Page\s+\d+\s*Please go on to the next page\s*>{2,}", "", text_clean
         )
         text_clean = re.sub(r"\s*END OF FAMILIARISATION PAPER.*$", "", text_clean)
         text_clean = re.sub(r"\s*Copyright GL Asse.*$", "", text_clean)
-        # Strip trailing "E Page ..." patterns (partial page markers)
         text_clean = re.sub(r"\s+E\s+Page\s+\d+\s*Please go on.*$", "", text_clean)
         text_clean = re.sub(r"\s+E\s+Page\s+.*$", "", text_clean)
-        # Strip trailing single letter artifacts after page marker removal
         text_clean = re.sub(r"\s+E\s*$", "", text_clean)
-        # Strip trailing "E <num> <num>..." (answer choices from next question leaked in)
         text_clean = re.sub(r"\s+E\s+\d+[\s\d,\.]+$", "", text_clean)
-        # Strip page navigation arrows
         text_clean = re.sub(r"\s*>{3,}.*$", "", text_clean)
 
+        # Strip leaked fraction numbers after question text
+        # e.g. "What fraction... shaded? E 10 3 8 4 11"
+        text_clean = re.sub(r"\?\s+E\s+[\d\s]+$", "?", text_clean)
+
         if text_clean != text:
-            stats["cleaned_page_text"] += 1
+            stats["cleaned_text"] += 1
             text = text_clean
 
-        # 4b. Fix "E <unit>" leaked into question text from option E
-        #     GL extraction artifact: option E's prefix leaked into question text.
-        #     E.g. "How tall? E m" with opts[4]="1.603" -> fix to "1.603 m"
-        #     Only fix when leaked text looks like a unit suffix (not a number).
+        # Fix "E <text>" leaked into question text from option E
+        # The GL extraction sometimes splits option E across the question text
+        # and the option field. Reconstruct when safe; strip always.
         e_leak = re.search(r"(\?)\s+E\s+(.+)$", text)
         if e_leak and len(opts) >= 5:
             leaked = e_leak.group(2).strip()
             last_opt = str(opts[4]).strip()
-            # Only reconstruct if leaked text is a plausible suffix (not starting with digits)
-            # and option E looks truncated vs other options
-            is_unit_suffix = not re.match(r"^\d", leaked)
+            combined = f"{last_opt} {leaked}" if last_opt else leaked
+            combined_len = len(combined)
+
+            # Determine if reconstruction is safe:
+            # - No option markers in leaked text (indicates merged next question)
+            # - No "Page" or ">>>" (page navigation artifacts)
+            # - Combined length reasonable (< 80 chars)
+            has_option_markers = bool(
+                re.search(r"\b[A-E]\s+\d+\s+[A-E]\s+\d+", leaked)
+                or re.search(r"\bPage\b", leaked)
+                or ">>>" in leaked
+            )
+            safe_to_reconstruct = (
+                not has_option_markers
+                and combined_len < 80
+            )
             other_opts_longer = any(
                 len(str(opts[j]).strip()) > len(last_opt) * 1.5
                 for j in range(min(4, len(opts)))
             )
-            # Strip the leaked text from question text
-            text = text[: e_leak.start()] + "?"
-            stats["cleaned_page_text"] += 1
-            if is_unit_suffix and other_opts_longer:
-                # Reconstruct: "9" + "boys" -> "9 boys"
-                opts = list(opts)
-                opts[4] = f"{last_opt} {leaked}" if last_opt else leaked
 
-        # 5. Remove merged/garbled questions
-        is_gl = "GL" in source
+            # Always strip the leaked text from question text
+            text = text[: e_leak.start()] + "?"
+            stats["cleaned_text"] += 1
+
+            # Reconstruct option E if safe and it appears truncated
+            if safe_to_reconstruct and other_opts_longer:
+                opts = list(opts)
+                opts[4] = combined
+                stats["cleaned_opts"] += 1
+
+        # --- MERGED TEXT DETECTION (after cleaning) ---
+
         is_merged = (
-            # GL questions: stricter - 150 chars usually means merged
             (is_gl and len(text.strip()) > 150)
-            # Any source: absolute limit
             or len(text.strip()) > 250
-            # Merged question indicators (answer choices from adjacent question)
-            or re.search(r"\b[A-E]\s+\d+\s+[A-E]\s+\d+", text)  # "A 3 B 5"
+            or re.search(r"\b[A-E]\s+\d+\s+[A-E]\s+\d+", text)
             or re.search(r"\bE\s+Page\b", text)
             or ">>>" in text
-            or re.search(r"\bE\s+\d+\s+\d+\s+\d+", text)  # "E 33 9 36"
+            or re.search(r"\bE\s+\d+\s+\d+\s+\d+", text)
         )
         if is_merged:
             stats["removed_merged"] += 1
             continue
 
-        # 6. Remove questions with very short remaining text (<10 chars)
+        # Remove very short text (< 10 chars)
         if len(text.strip()) < 10:
             stats["removed_merged"] += 1
             continue
 
-        # 7. Clean non-breaking spaces
+        # --- OPTION CLEANING ---
+
+        cleaned_opts = []
+        opts_modified = False
+        for o in opts:
+            o_str = str(o)
+            # Clean nbsp
+            if "\xa0" in o_str:
+                o_str = o_str.replace("\xa0", " ")
+                opts_modified = True
+            # Strip "Page N" from end of options
+            o_clean = re.sub(r"\s*Page\s+\d+\s*$", "", o_str)
+            if o_clean != o_str:
+                o_str = o_clean
+                opts_modified = True
+            # Strip trailing digit junk from options (e.g. "180 coins 2 6 5")
+            # Only if the option has a clear value followed by unrelated numbers
+            if is_gl and re.search(r"(\w+)\s+\d+\s+\d+\s+\d+$", o_str):
+                o_clean = re.sub(r"\s+\d+\s+\d+\s+\d+$", "", o_str)
+                if len(o_clean) > 2:
+                    o_str = o_clean
+                    opts_modified = True
+            cleaned_opts.append(o_str)
+
+        if opts_modified:
+            stats["cleaned_opts"] += 1
+
+        # Remove questions where any option is excessively long (merged content)
+        if any(len(str(o)) > 80 for o in cleaned_opts):
+            stats["removed_merged"] += 1
+            continue
+
+        # Clean nbsp in text
         if "\xa0" in text:
             text = text.replace("\xa0", " ")
             stats["cleaned_nbsp"] += 1
-        cleaned_opts = []
-        for o in opts:
-            o_str = str(o)
-            if "\xa0" in o_str:
-                o_str = o_str.replace("\xa0", " ")
-            cleaned_opts.append(o_str)
 
-        # 8. Verify answer resolves correctly
+        # --- ANSWER VERIFICATION ---
+
         answer_value = resolve_answer(q.get("answer", ""), cleaned_opts)
         if not answer_in_options(answer_value, cleaned_opts):
-            # For questions with images, letter answers are OK (the image IS the option)
             if not has_img:
                 stats["removed_no_options"] += 1
                 continue
@@ -232,8 +382,9 @@ def fix_vr(data: list[dict]) -> tuple[list[dict], dict]:
     """Fix verbal reasoning metadata."""
     stats = {
         "total": len(data),
-        "removed_unknown_answer": 0,
+        "removed_unknown": 0,
         "removed_answer_mismatch": 0,
+        "removed_few_options": 0,
         "cleaned_page_text": 0,
         "cleaned_nbsp": 0,
         "kept": 0,
@@ -246,15 +397,24 @@ def fix_vr(data: list[dict]) -> tuple[list[dict], dict]:
 
         # 1. Remove Unknown answers
         if answer_raw == "Unknown":
-            stats["removed_unknown_answer"] += 1
+            stats["removed_unknown"] += 1
             continue
 
-        # 2. Remove if no options
-        if not opts or len(opts) < 2:
-            stats["removed_answer_mismatch"] += 1
+        # 2. Remove non-standard answer codes (e.g. "NC")
+        if answer_raw not in LETTERS and not any(
+            c in LETTERS for c in str(answer_raw).split(", ")
+        ):
+            # Check if it's a direct option match
+            if not answer_in_options(answer_raw, opts):
+                stats["removed_answer_mismatch"] += 1
+                continue
+
+        # 3. Remove if fewer than 4 options (GL VR should have 5)
+        if len(opts) < 4:
+            stats["removed_few_options"] += 1
             continue
 
-        # 3. Resolve answer and check it's in options
+        # 4. Resolve answer and check it's in options
         answer_value = resolve_answer(answer_raw, opts)
         if not answer_in_options(answer_value, opts):
             stats["removed_answer_mismatch"] += 1
@@ -263,7 +423,7 @@ def fix_vr(data: list[dict]) -> tuple[list[dict], dict]:
         q_out = dict(q)
         text = q_out.get("text", "")
 
-        # 4. Strip page markers from text
+        # 5. Strip page markers
         text_clean = re.sub(
             r"\s*Page\s+\d+\s*Please go on to the next page\s*>{2,}", "", text
         )
@@ -272,7 +432,7 @@ def fix_vr(data: list[dict]) -> tuple[list[dict], dict]:
             text = text_clean
             stats["cleaned_page_text"] += 1
 
-        # 5. Clean non-breaking spaces
+        # 6. Clean nbsp
         if "\xa0" in text:
             text = text.replace("\xa0", " ")
             stats["cleaned_nbsp"] += 1
@@ -293,24 +453,27 @@ def fix_english(data: list[dict]) -> tuple[list[dict], dict]:
     """Fix English metadata."""
     stats = {
         "total": len(data),
-        "removed_unknown_answer": 0,
+        "removed_unknown": 0,
         "removed_broken_options": 0,
+        "removed_leaked_section": 0,
+        "fixed_answers": 0,
+        "cleaned_answer": 0,
+        "cleaned_text": 0,
         "cleaned_nbsp": 0,
         "kept": 0,
     }
 
     result = []
-    for q in data:
+    for i, q in enumerate(data):
         opts = q.get("options", [])
         answer_raw = q.get("answer", "")
 
         # 1. Remove Unknown answers
         if answer_raw == "Unknown":
-            stats["removed_unknown_answer"] += 1
+            stats["removed_unknown"] += 1
             continue
 
         # 2. Remove broken GL extraction: options are just "B C D" or "B C D E"
-        #    These are line-by-line comprehension/cloze extractions that don't form valid MCQs
         if opts and all(
             re.match(r"^[A-E](\s+[A-E])*$", str(o).strip()) for o in opts
         ):
@@ -322,13 +485,50 @@ def fix_english(data: list[dict]) -> tuple[list[dict], dict]:
             stats["removed_broken_options"] += 1
             continue
 
-        # 4. Clean non-breaking spaces
         q_out = dict(q)
         text = q_out.get("text", "")
+
+        # 4. Remove questions with leaked section headers in text
+        #    e.g. "Spelling Exercises In these sentences..."
+        #    or "Punctuation In these sentences..."
+        if re.search(
+            r"(Spelling Exercises|Punctuation)\s+In these sentences", text
+        ):
+            stats["removed_leaked_section"] += 1
+            continue
+
+        # 5. Fix known wrong answers
+        if i in ENGLISH_ANSWER_FIXES:
+            q_out["answer"] = ENGLISH_ANSWER_FIXES[i]
+            stats["fixed_answers"] += 1
+
+        # 6. Clean leaked text from answer field
+        if i in ENGLISH_ANSWER_CLEAN:
+            q_out["answer"] = ENGLISH_ANSWER_CLEAN[i]
+            stats["cleaned_answer"] += 1
+
+        # 7. Clean leaked trailing words from question text
+        #    Pattern: question ending in "?" or ")" followed by a stray word
+        #    e.g. "Why? (lines 2-3) been dropped." or "attitude? succeed."
+        text_clean = text
+        # Remove trailing leaked word after closing paren or question mark
+        # Only if it's a short stray fragment (< 20 chars after the marker)
+        text_clean = re.sub(
+            r"(\?\s*(?:\([^)]+\))?\s*)\b[a-z]\w*\.?\s*$", r"\1", text_clean
+        )
+        # Remove "of time." "expect." "strength." trailing fragments
+        text_clean = re.sub(r"\b(of time|expect|succeed|strength)\.\s*$", "", text_clean)
+
+        if text_clean != text:
+            text = text_clean.rstrip()
+            stats["cleaned_text"] += 1
+
+        # 8. Clean nbsp
         if "\xa0" in text:
-            q_out["text"] = text.replace("\xa0", " ")
+            text = text.replace("\xa0", " ")
             stats["cleaned_nbsp"] += 1
 
+        q_out["text"] = text
         result.append(q_out)
         stats["kept"] += 1
 
@@ -351,7 +551,6 @@ def fix_nvr(data: list[dict]) -> tuple[list[dict], dict]:
     img_dir = IMAGES_DIR / "granular_non_verbal_reasoning"
     result = []
     for q in data:
-        # Check image files exist
         missing = False
         for img in q.get("question_images", []):
             if img and not (img_dir / img).exists():
@@ -366,8 +565,6 @@ def fix_nvr(data: list[dict]) -> tuple[list[dict], dict]:
             stats["removed_missing_images"] += 1
             continue
 
-        # NVR questions with no question_image but with option images are valid
-        # (odd-one-out type where you pick the different option image)
         result.append(q)
         stats["kept"] += 1
 
@@ -389,61 +586,83 @@ def validate_dump(dump: list[dict]) -> list[str]:
         opts = content.get("options", [])
         answer_val = q.get("answer", {}).get("value", "")
 
-        # 1. Answer value in options (skip NVR which uses letter labels)
+        # 1. Answer in options (skip NVR)
         if subj != "non_verbal_reasoning":
             if answer_val and opts:
                 opt_strs = [str(o).strip() for o in opts]
                 opt_lower = [o.lower() for o in opt_strs]
                 ans = str(answer_val).strip()
 
-                # First try direct match (handles answers containing commas)
                 if ans in opt_strs or ans.lower() in opt_lower:
-                    pass  # OK
+                    pass
                 else:
-                    # Try multi-answer: each comma-separated part in options
                     ans_parts = [p.strip() for p in ans.split(", ")]
                     if not all(
                         p in opt_strs or p.lower() in opt_lower for p in ans_parts
                     ):
                         issues.append(
-                            f"[{i}] {subj}: answer {ans!r} not in options {opt_strs[:5]}"
+                            f"[{i}] {subj}: answer {ans!r} not in opts {opt_strs[:3]}..."
                         )
 
         # 2. No newlines in options
         for j, o in enumerate(opts):
             if "\n" in str(o):
-                issues.append(f"[{i}] {subj}: option {j} has newline: {repr(str(o)[:50])}")
+                issues.append(f"[{i}] {subj}: opt {j} newline: {repr(str(o)[:40])}")
 
         # 3. No page markers in text
         if re.search(r"Page\s+\d+\s*Please go on", text):
-            issues.append(f"[{i}] {subj}: page marker in text")
+            issues.append(f"[{i}] {subj}: page marker")
 
-        # 3b. No garbled fraction rendering in text
+        # 4. No garbled fraction text
         if re.search(r"(?:\n.){4,}", text):
             issues.append(f"[{i}] {subj}: garbled fraction text")
 
-        # 3c. No trailing "E <word>" artifact in question text
+        # 5. No trailing "E <word>" artifact
         if re.search(r"\?\s+E\s+\w+\s*$", text):
-            issues.append(f"[{i}] {subj}: trailing E artifact in text")
+            issues.append(f"[{i}] {subj}: trailing E artifact")
 
-        # 4. Text length (skip NVR)
+        # 6. Text length (skip NVR)
         if subj != "non_verbal_reasoning" and len(text.strip()) < 10:
-            issues.append(f"[{i}] {subj}: text too short ({len(text.strip())} chars)")
+            issues.append(f"[{i}] {subj}: text too short ({len(text.strip())}ch)")
 
-        # 5. NVR must have image_url or option_images
+        # 7. NVR must have images
         if subj == "non_verbal_reasoning":
-            has_img = content.get("image_url") or content.get("option_images")
-            if not has_img:
-                issues.append(f"[{i}] NVR: no images at all")
+            if not (content.get("image_url") or content.get("option_images")):
+                issues.append(f"[{i}] NVR: no images")
 
-        # 6. Options count
+        # 8. Options count
         if len(opts) < 2:
-            issues.append(f"[{i}] {subj}: only {len(opts)} option(s)")
+            issues.append(f"[{i}] {subj}: only {len(opts)} opt(s)")
 
-        # 7. Maths: no letter-only options without images
+        # 9. Maths: no letter-only options without images
         if subj == "maths" and not content.get("image_url"):
-            if opts and all(re.match(r"^[A-E]$", str(o).strip()) for o in opts):
-                issues.append(f"[{i}] maths: letter-only options with no image")
+            if opts and all(re.match(r"^[a-eA-E][\).]?$", str(o).strip()) for o in opts):
+                issues.append(f"[{i}] maths: letter-only opts no image")
+
+        # 10. Em-dash fraction options
+        if subj == "maths":
+            em_count = sum(
+                1 for o in opts if re.match(r"^[—\-]{1,2}\s*\d*$", str(o).strip())
+            )
+            if em_count >= 3:
+                issues.append(f"[{i}] maths: em-dash fraction opts")
+
+        # 11. Garbled text indicators
+        if subj == "maths":
+            if "the stand for" in text.lower():
+                issues.append(f"[{i}] maths: missing number in text")
+            if "stands for" in text.lower() and "table" in text.lower():
+                issues.append(f"[{i}] maths: garbled pictogram")
+
+        # 12. Leaked section headers in English
+        if subj == "english":
+            if re.search(r"(Spelling Exercises|Punctuation)\s+In these", text):
+                issues.append(f"[{i}] english: leaked section header")
+
+        # 13. Options with 'Page' text
+        for j, o in enumerate(opts):
+            if "Page " in str(o) and re.search(r"Page\s+\d+", str(o)):
+                issues.append(f"[{i}] {subj}: 'Page N' in opt {j}")
 
     return issues
 
@@ -455,7 +674,7 @@ def validate_dump(dump: list[dict]) -> list[str]:
 
 def main():
     print("=" * 60)
-    print("Question Content Audit and Fix")
+    print("Question Content Audit and Fix (Comprehensive)")
     print("=" * 60)
 
     all_stats = {}
@@ -525,7 +744,6 @@ def main():
     print("Rebuilding deployment_dump.json...")
     print("=" * 60)
 
-    # Import and run the build script
     sys.path.insert(0, str(Path(__file__).parent))
     from build_verified_dump import build_dump
 
@@ -550,9 +768,9 @@ def main():
     total_before = sum(s["total"] for s in all_stats.values())
     total_after = sum(s["kept"] for s in all_stats.values())
     print(f"  Metadata before: {total_before}")
-    print(f"  Metadata after: {total_after}")
-    print(f"  Removed: {total_before - total_after}")
-    print(f"  Dump questions: {len(dump)}")
+    print(f"  Metadata after:  {total_after}")
+    print(f"  Removed:         {total_before - total_after}")
+    print(f"  Dump questions:  {len(dump)}")
 
     return len(issues)
 
