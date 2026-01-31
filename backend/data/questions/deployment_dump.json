@@ -709,29 +709,6 @@
   },
   {
     "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "a – 9 = 0 a = ? C – D 2 E –",
-      "options": [
-        "19",
-        "1",
-        "–1",
-        "21",
-        "–19"
-      ]
-    },
-    "answer": {
-      "value": "19"
-    },
-    "explanation": "The correct answer is 19.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "subject": "maths",
     "question_type": "word_problems",
     "format": "multiple_choice",
     "difficulty": 3,
@@ -841,29 +818,6 @@
       "value": "10%"
     },
     "explanation": "The correct answer is 10%.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "subject": "maths",
-    "question_type": "geometry",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Look at this angle. x Which of the following statements is correct?",
-      "options": [
-        "Angle x is less than 90 degrees.",
-        "Angle x is a right angle.",
-        "Angle x is more than 180 degrees.",
-        "Angle x is between 90 and 180 degrees.",
-        "Angle"
-      ]
-    },
-    "answer": {
-      "value": "Angle x is less than 90 degrees."
-    },
-    "explanation": "The correct answer is D.",
     "hints": [],
     "tags": [],
     "source": "GL Assessment Maths 1"

@@ -156,7 +156,7 @@ def fix_maths(data: list[dict]) -> tuple[list[dict], dict]:
 
         # 5. Remove em-dash fraction options (GL PDF fraction rendering failure)
         #    Pattern: options like "-- 3", "-- 1", "--" where fractions weren't extracted
-        em_dash_opts = sum(1 for o in opts if re.match(r"^[—\-]{1,2}\s*\d*$", str(o).strip()))
+        em_dash_opts = sum(1 for o in opts if re.match(r"^[—–\-]{1,2}\s*\d*$", str(o).strip()))
         if em_dash_opts >= 3:
             stats["removed_garbled"] += 1
             continue
@@ -173,7 +173,8 @@ def fix_maths(data: list[dict]) -> tuple[list[dict], dict]:
 
         # 7. Remove questions with garbled text containing leaked option markers
         #    GL extraction artifact: "÷ = C . D .5" or "a = ? C -- D 2 E --"
-        if is_gl and re.search(r"[?=]\s*[A-E]\s*[.—\-]", text):
+        #    Note: must match both em-dash (U+2014), en-dash (U+2013), and hyphen
+        if is_gl and re.search(r"[?=]\s*[A-E]\s*[.—–\-]", text):
             stats["removed_garbled"] += 1
             continue
 
@@ -350,6 +351,15 @@ def fix_maths(data: list[dict]) -> tuple[list[dict], dict]:
         if any(len(str(o)) > 80 for o in cleaned_opts):
             stats["removed_merged"] += 1
             continue
+
+        # Remove questions with truncated options (one option much shorter than rest)
+        if len(cleaned_opts) >= 5:
+            opt_lens = sorted(len(str(o)) for o in cleaned_opts)
+            min_len = opt_lens[0]
+            median_len = opt_lens[len(opt_lens) // 2]
+            if min_len <= 5 and median_len > 15:
+                stats["removed_garbled"] += 1
+                continue
 
         # Clean nbsp in text
         if "\xa0" in text:

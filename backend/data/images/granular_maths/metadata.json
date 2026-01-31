@@ -2564,23 +2564,6 @@
     "source": "GL Assessment Maths 1"
   },
   {
-    "question_num": 305,
-    "text": "a – 9 = 0 a = ? C – D 2 E –",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "19",
-      "1",
-      "–1",
-      "21",
-      "–19"
-    ],
-    "answer": "A",
-    "explanation": "The correct answer is 19.",
-    "source": "GL Assessment Maths 1"
-  },
-  {
     "question_num": 308,
     "text": "Wendy saved £2.50 a week. How many weeks did it take her to save £20?",
     "question_image": null,
@@ -2663,23 +2646,6 @@
     ],
     "answer": "C",
     "explanation": "The correct answer is 10%.",
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "question_num": 319,
-    "text": "Look at this angle. x Which of the following statements is correct?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "Angle x is less than 90 degrees.",
-      "Angle x is a right angle.",
-      "Angle x is more than 180 degrees.",
-      "Angle x is between 90 and 180 degrees.",
-      "Angle"
-    ],
-    "answer": "A",
-    "explanation": "The correct answer is D.",
     "source": "GL Assessment Maths 1"
   },
   {
