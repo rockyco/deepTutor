@@ -48,30 +48,6 @@
   },
   {
     "subject": "maths",
-    "question_type": "fractions",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Lucas asked everyone in Year 6 where they would like to go on a trip. He made a pie chart of the results.\n\nWhat fraction of the children said they wanted to go to either a farm or a zoo?",
-      "options": [
-        "7\n2",
-        "5\n2",
-        "9\n4",
-        "3\n1",
-        "9\n5"
-      ],
-      "image_url": "/images/granular_maths/q3_question_0.png"
-    },
-    "answer": {
-      "value": "9\n4"
-    },
-    "explanation": "Answer:\n\nThe farm sector has an angle of 70° and the zoo sector has an angle of 90°. The total of these angles is 70° + 90° = 160°. As a fraction of the whole circle, this is \n3\n6\n0\n1\n6\n0\n. Divide the numerator and denominator by 10 and then by 4 to simplify: \n3\n6\n0\n1\n6\n0\n3\n6\n1\n6\n9\n4\n=\n=\n.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "maths",
     "question_type": "percentages",
     "format": "multiple_choice",
     "difficulty": 3,
@@ -95,45 +71,22 @@
   },
   {
     "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "What is \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n?",
-      "options": [
-        "6",
-        "26",
-        "4",
-        "38",
-        "3"
-      ]
-    },
-    "answer": {
-      "value": "3"
-    },
-    "explanation": "Answer:\n\n12 + 8 + 20 = 40. So \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n \n4\n0\n1\n2\n0\n=\n = 120 ÷ 40 = 3.",
-    "hints": [],
-    "tags": [],
-    "source": "CGP Sample"
-  },
-  {
-    "subject": "maths",
     "question_type": "geometry",
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
       "text": "Look at the shape below.\n\nWhich one of the following shapes has the same area?",
       "options": [
-        "A parallelogram, base 5 m, vertical height 5 m.",
-        "A rectangle, width 4 m, length 5 m.",
-        "A square, side length 5 m.",
-        "A parallelogram, base 7 m, vertical height 3 m.",
-        "A triangle, base 10 m, height 4 m."
+        "A parallelogram, base 5 m, vertical height 5 m.",
+        "A rectangle, width 4 m, length 5 m.",
+        "A square, side length 5 m.",
+        "A parallelogram, base 7 m, vertical height 3 m.",
+        "A triangle, base 10 m, height 4 m."
       ],
       "image_url": "/images/granular_maths/q6_question_0.png"
     },
     "answer": {
-      "value": "A parallelogram, base 7 m, vertical height 3 m."
+      "value": "A parallelogram, base 7 m, vertical height 3 m."
     },
     "explanation": "Answer:\n\nThe shape in the diagram can be split into a 3 m by 2 m rectangle and 3 m by 5 m rectangle. So the total area is (3 × 2) + (3 × 5) = 6 + 15 = 21 m2. The area of a parallelogram is base × vertical height, so the shape in option d) also has an area of 7 × 3 = 21 m2. (Options b) and e) both have areas of 20 m2. Options c) and a) both have areas of 25 m2.)",
     "hints": [],
@@ -192,12 +145,12 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
+      "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
       "options": [
         "2.543",
         "2543",
         "25.43",
-        "25 430",
+        "25 430",
         "254.3"
       ]
     },
@@ -215,17 +168,17 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "A book about space contains the following sentence:\n\nThe diameter of the Earth is 12 756.32 kilometres.\n\nWhat is the Earth’s diameter rounded to the nearest hundred kilometres?",
+      "text": "A book about space contains the following sentence:\n\nThe diameter of the Earth is 12 756.32 kilometres.\n\nWhat is the Earth’s diameter rounded to the nearest hundred kilometres?",
       "options": [
-        "12 760 km",
-        "12 750 km",
-        "13 000 km",
-        "12 800 km",
-        "12 700 km"
+        "12 760 km",
+        "12 750 km",
+        "13 000 km",
+        "12 800 km",
+        "12 700 km"
       ]
     },
     "answer": {
-      "value": "12 800 km"
+      "value": "12 800 km"
     },
     "explanation": "Answer:\n\nYou are rounding to the nearest hundred, so look at the digit in the tens column. It’s a 5, so round up to 12 800 km.",
     "hints": [],
@@ -238,17 +191,17 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Mr Chen is knitting a jumper. It takes him two and a half minutes to knit each row.\nHe starts knitting at 4:15 pm.\n\nAt what time will he have knitted 50 rows?",
+      "text": "Mr Chen is knitting a jumper. It takes him two and a half minutes to knit each row.\nHe starts knitting at 4:15 pm.\n\nAt what time will he have knitted 50 rows?",
       "options": [
-        "5:55 pm",
-        "6:20 pm",
-        "6:00 pm",
-        "6:15 pm",
-        "5:05 pm"
+        "5:55 pm",
+        "6:20 pm",
+        "6:00 pm",
+        "6:15 pm",
+        "5:05 pm"
       ]
     },
     "answer": {
-      "value": "6:20 pm"
+      "value": "6:20 pm"
     },
     "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
     "hints": [],
@@ -263,16 +216,16 @@
     "content": {
       "text": "The cost of the activities available at a summer camp are shown below.\n\nMalala spends exactly £68. She doesn’t do any activity more than once.\n\nWhich of these combinations of activities must she have done?",
       "options": [
-        "Kayaking, sailing, high ropes",
-        "Kayaking, windsurfing and high ropes",
-        "Windsurfing, sailing and high ropes",
-        "Kayaking, paintball and high ropes",
+        "Kayaking, sailing, high ropes",
+        "Kayaking, windsurfing and high ropes",
+        "Windsurfing, sailing and high ropes",
+        "Kayaking, paintball and high ropes",
         "Paintball, windsurfing and sailing"
       ],
       "image_url": "/images/granular_maths/q19_question_0.png"
     },
     "answer": {
-      "value": "Windsurfing, sailing and high ropes"
+      "value": "Windsurfing, sailing and high ropes"
     },
     "explanation": "Answer:\n\nPaintball costs £55 by itself, so it’s unlikely to be options d) or e). Try options c), a) and b). Option c) is the only one that adds up to £68. You can use the column method to add the costs:",
     "hints": [],
@@ -311,16 +264,16 @@
     "content": {
       "text": "Rui attended a holiday club for \n2 1/2 hours. The bar chart below shows the percentage of time he spent on each type of activity.\n\nHow long did Rui spend doing drama?",
       "options": [
-        "40 minutes",
-        "15 minutes",
-        "45 minutes",
-        "75 minutes",
-        "30 minutes"
+        "40 minutes",
+        "15 minutes",
+        "45 minutes",
+        "75 minutes",
+        "30 minutes"
       ],
       "image_url": "/images/granular_maths/q23_question_0.png"
     },
     "answer": {
-      "value": "45 minutes"
+      "value": "45 minutes"
     },
     "explanation": "Answer:\n\nReading from the graph, Rui spent 75% − 45% = 30% of the time doing drama. \n2\n2\n1\n hours is 60 + 60 + 30 = 150 minutes. 10% of 150 is 150 ÷ 10 = 15 minutes, so 30% of 150 minutes is 3 × 15 = 45 minutes.",
     "hints": [],
@@ -335,16 +288,16 @@
     "content": {
       "text": "Saffron draws four identical squares on the axes below. The coordinates of one corner are shown.\n\nWhat are the coordinates of the point marked A?",
       "options": [
-        "(6, 6)",
-        "(3, 3)",
-        "(6, 3)",
-        "(−3, −3)",
-        "(3, 9)"
+        "(6, 6)",
+        "(3, 3)",
+        "(6, 3)",
+        "(−3, −3)",
+        "(3, 9)"
       ],
       "image_url": "/images/granular_maths/q25_question_0.png"
     },
     "answer": {
-      "value": "(3, 3)"
+      "value": "(3, 3)"
     },
     "explanation": "Answer:\n\nThe y-axis has an x-coordinate of 0 and the corner of the square furthest to the left has an x‑coordinate of −6, so the distance between opposite corners of each square is 6 units. So the distance between the centre of a square and one corner of a square is 6 ÷ 2 = 3 units. The point marked A is 3 units right and 3 units up from point (0, 0). So the coordinates of point A are (3, 3).",
     "hints": [],
@@ -357,17 +310,17 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "A cuboid has a length of 14 m, a width of 2 m and a volume of 280 m3.\n\nWhat is the cuboid’s height?",
+      "text": "A cuboid has a length of 14 m, a width of 2 m and a volume of 280 m3.\n\nWhat is the cuboid’s height?",
       "options": [
-        "20 m",
-        "10 m",
-        "14 m",
-        "15 m",
-        "20 m"
+        "20 m",
+        "10 m",
+        "14 m",
+        "15 m",
+        "20 m"
       ]
     },
     "answer": {
-      "value": "10 m"
+      "value": "10 m"
     },
     "explanation": "Answer:\n\nVolume = length × width × height, so 280 = 14 × 2 × height = 28 × height. So the height of the cuboid is 280 ÷ 28 = 10 m.",
     "hints": [],
@@ -474,17 +427,17 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Johan takes part in a high jump competition. His best jump is 2.04 m.\n\nHow high is this in mm?",
+      "text": "Johan takes part in a high jump competition. His best jump is 2.04 m.\n\nHow high is this in mm?",
       "options": [
-        "204 mm",
-        "240 000 mm",
-        "20.4 mm",
-        "20 400 mm",
-        "2040 mm"
+        "204 mm",
+        "240 000 mm",
+        "20.4 mm",
+        "20 400 mm",
+        "2040 mm"
       ]
     },
     "answer": {
-      "value": "2040 mm"
+      "value": "2040 mm"
     },
     "explanation": "Answer:\n\n1 m = 100 cm, so 2.04 m = 2.04 × 100 = 204 cm. 1 cm = 10 mm, so 204 cm = 204 × 10 = 2040 mm.",
     "hints": [],
@@ -497,7 +450,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Four children collect animal stickers. Mazana has 120 stickers, Louis has 140 stickers, Nadia has 90 stickers and Connor has 50 stickers.\n\nWhat is the mean number of stickers owned by the four children?",
+      "text": "Four children collect animal stickers. Mazana has 120 stickers, Louis has 140 stickers, Nadia has 90 stickers and Connor has 50 stickers.\n\nWhat is the mean number of stickers owned by the four children?",
       "options": [
         "40",
         "400",
@@ -553,15 +506,15 @@
     "content": {
       "text": "Shyam owns 6 brown rabbits and 2 black rabbits.\n\nWhat is the ratio of brown rabbits to black rabbits in its simplest form?",
       "options": [
-        "2 : 1",
-        "1 : 2",
-        "3 : 1",
-        "6 : 1",
-        "1 : 3"
+        "2 : 1",
+        "1 : 2",
+        "3 : 1",
+        "6 : 1",
+        "1 : 3"
       ]
     },
     "answer": {
-      "value": "3 : 1"
+      "value": "3 : 1"
     },
     "explanation": "Answer:\n\nThe ratio of brown rabbits : black rabbits is 6 : 2. Divide both parts of the ratio by 2 to simplify to 3 : 1.",
     "hints": [],
@@ -598,7 +551,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "41 − 3h = 17\n\nWhat is h?",
+      "text": "41 − 3h = 17\n\nWhat is h?",
       "options": [
         "6",
         "24",
@@ -623,16 +576,16 @@
     "content": {
       "text": "Marko is at a toy shop. He wants to buy two dinosaurs, three chickens and a tiger. The prices of the toys are shown below.\n\nWhich of the calculations below could Marko use to find out how much the toys will cost?",
       "options": [
-        "2 × £5.00 + 3 × £4.00 + £3.50 − 5p",
-        "2 × £5.00 + 3 × £4.00 + £3.50 + 6p",
-        "2 × £5.00 + 3 × £4.00 + £3.50 − 6p",
-        "2 × £5.00 + 3 × £4.00 + £3.50 + 5p",
-        "2 × £5.00 + 3 × £4.00 + £3.50 − 3p"
+        "2 × £5.00 + 3 × £4.00 + £3.50 − 5p",
+        "2 × £5.00 + 3 × £4.00 + £3.50 + 6p",
+        "2 × £5.00 + 3 × £4.00 + £3.50 − 6p",
+        "2 × £5.00 + 3 × £4.00 + £3.50 + 5p",
+        "2 × £5.00 + 3 × £4.00 + £3.50 − 3p"
       ],
       "image_url": "/images/granular_maths/q55_question_0.png"
     },
     "answer": {
-      "value": "2 × £5.00 + 3 × £4.00 + £3.50 − 6p"
+      "value": "2 × £5.00 + 3 × £4.00 + £3.50 − 6p"
     },
     "explanation": "Answer:\n\nThe calculations show the prices rounded to the nearest 10p, so each item has 1p added on to its price. There are 2 + 3 + 1 = 6 items, so 6p has been added to the total cost. Option c) is the correct answer as Marko needs to take 6p off the total to get the right amount.",
     "hints": [],
@@ -698,7 +651,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Karen is buying some fabric that costs £4.80 per metre.\n\nHow much would 5 m of this fabric cost?",
+      "text": "Karen is buying some fabric that costs £4.80 per metre.\n\nHow much would 5 m of this fabric cost?",
       "options": [
         "£26.20",
         "£22.80",
@@ -767,29 +720,6 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "What is the value of the in this number? 240 E thousandths Page 3 Please go on to the next page >>> 4 8 6 5 4 3 2 1 1 2 3 4 5 6 8 The hills are at (3 , 4). The lighthouse is at ( , ). A (6 , 1) B (1 , 6) C (5 , 6) D (6 , 3) E (1 , )",
-      "options": [
-        "7 thousands",
-        "7 hundreds",
-        "7 tens",
-        "7 ones",
-        "7"
-      ]
-    },
-    "answer": {
-      "value": "7 thousands"
-    },
-    "explanation": "The correct answer is 7 thousands.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
       "text": "What is the missing number in this sequence? 393 384 375 357",
       "options": [
         "367",
@@ -813,7 +743,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "How many of the triangles will fill the hexagon? E Page Please go on to the next page >>>",
+      "text": "How many of the triangles will fill the hexagon?",
       "options": [
         "10",
         "9",
@@ -836,7 +766,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Iveta was 1.43 metres tall. She grew 2 centimetres more. How tall was she then in metres? E m",
+      "text": "Iveta was 1.43 metres tall. She grew 2 centimetres more. How tall was she then in metres?",
       "options": [
         "1.45 m",
         "1.63 m",
@@ -859,7 +789,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "What fraction of the whole shape is shaded? E 10 3 8 4 11",
+      "text": "What fraction of the whole shape is shaded?",
       "options": [
         "— 3",
         "— 1",
@@ -905,7 +835,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "a – 9 = 0 a = ? C – D 2 E – Page 5 Please go on to the next page >>>",
+      "text": "a – 9 = 0 a = ? C – D 2 E –",
       "options": [
         "19",
         "1",
@@ -924,34 +854,11 @@
   },
   {
     "subject": "maths",
-    "question_type": "measurement",
+    "question_type": "word_problems",
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "A jug holding 1 litre of water An empty jar = 700 millilitres 11 lliittrree 700 ml The jug holds 1 litre of water. The jar is filled from the jug. How much water will be left in the jug? E millilitres",
-      "options": [
-        "0.3 litres",
-        "0.25 litres",
-        "400 millilitres",
-        "0.35 litres",
-        "200"
-      ]
-    },
-    "answer": {
-      "value": "0.3 litres"
-    },
-    "explanation": "The correct answer is 0.3 litres.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "subject": "maths",
-    "question_type": "measurement",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Wendy saved £2.50 a week. How many weeks did it take her to save £20? E 1 6 cm",
+      "text": "Wendy saved £2.50 a week. How many weeks did it take her to save £20?",
       "options": [
         "4 weeks",
         "8 weeks",
@@ -974,7 +881,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Which of these digital alarm clocks shows that it is quarter past seven in the evening? E Page 7 Please go on to the next page >>>",
+      "text": "Which of these digital alarm clocks shows that it is quarter past seven in the evening?",
       "options": [
         "7:15",
         "7:25",
@@ -1020,13 +927,13 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "A train left at 10.20. It arrived at 11.15. How long did the journey take, in minutes? E mins",
+      "text": "A train left at 10.20. It arrived at 11.15. How long did the journey take, in minutes?",
       "options": [
         "45 mins",
         "55 mins",
         "65 mins",
         "75 mins",
-        "95"
+        "95 mins"
       ]
     },
     "answer": {
@@ -1043,88 +950,19 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Join Heritage today! Take advantage of this great offer now. Type of membership Normal price Offer price Individual member £47.90 £35.63 Joint membership (2 adults) £79.50 £59.63 Family group (2 adults and children under 18) Family one adult (1 adult and children under 18) Young person – aged 13–25 £21.50 £16.13 Mrs Ward wants to join Heritage with her three children, aged 10, 12 and 15. How much must she pay? E Page 8 Please go on to the next page >>>",
-      "options": [
-        "£82.00",
-        "£62.63",
-        "£62.00",
-        "£61.50",
-        "£46.50"
-      ]
-    },
-    "answer": {
-      "value": "£46.50"
-    },
-    "explanation": "The correct answer is £46.50.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "subject": "maths",
-    "question_type": "measurement",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "About how much does an ordinary mug hold? E litres",
+      "text": "About how much does an ordinary mug hold?",
       "options": [
         "30 millilitres",
         "300 millilitres",
         "3 litres",
         "30 litres",
-        "300"
+        "300 litres"
       ]
     },
     "answer": {
       "value": "300 millilitres"
     },
     "explanation": "The correct answer is 300 millilitres.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Which of these is NOT a quadrilateral?",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ]
-    },
-    "answer": {
-      "value": "A"
-    },
-    "explanation": "The correct answer is A.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "subject": "maths",
-    "question_type": "data_handling",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Here is part of a train timetable. Purley . . . . . . . . . . . . 23:21 . . . . East Croydon 22:56 23:01 23:10 23:27 23:30 Norwood Junc. . . . . . . . . . . . . . . . . . . . . London Bridge . . . . . . . . . . . . . . . . . . . . Clapham Junc. 23:07 23:13 23:21 23:37 23:40 Victoria 23:12 23:18 23:27 23:43 23:45 A train leaves East Croydon at 23:27. How long does it take to get to Victoria? D 1 E 2 Page 9 Please go on to the next page >>>",
-      "options": [
-        "6 mins",
-        "10 mins",
-        "13 mins",
-        "16 mins",
-        "26"
-      ]
-    },
-    "answer": {
-      "value": "6 mins"
-    },
-    "explanation": "The correct answer is 16 mins.",
     "hints": [],
     "tags": [],
     "source": "GL Assessment Maths 1"
@@ -1154,63 +992,17 @@
   },
   {
     "subject": "maths",
-    "question_type": "data_handling",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "The graph shows the weight of a baby girl in the first weeks of her life. 5.00 4.50 4.00 Weight in kilograms 3.50 3.00 2.50 1 2 3 4 5 6 7 Age in weeks How old was the baby at the end of the week in which she gained most weight? E weeks Page 10 Please go on to the next page >>> htriB",
-      "options": [
-        "2 weeks",
-        "3 weeks",
-        "4 weeks",
-        "7 weeks",
-        "8"
-      ]
-    },
-    "answer": {
-      "value": "4 weeks"
-    },
-    "explanation": "The correct answer is 4 weeks.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "subject": "maths",
     "question_type": "geometry",
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Which of these shapes is NOT a cuboid?",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ]
-    },
-    "answer": {
-      "value": "D"
-    },
-    "explanation": "The correct answer is D.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "subject": "maths",
-    "question_type": "geometry",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Look at this angle. x Which of the following statements is correct? E x is 180 degrees. 26 105 ÷ = 21 What number does stand for? A 4 B 5 C 6 D 7 E 15 Page 11 Please go on to the next page >>>",
+      "text": "Look at this angle. x Which of the following statements is correct?",
       "options": [
         "Angle x is less than 90 degrees.",
         "Angle x is a right angle.",
         "Angle x is more than 180 degrees.",
         "Angle x is between 90 and 180 degrees.",
-        "Angle"
+        "Angle x is 180 degrees. 26 105 ÷ = 21 What number does stand for? A 4 B 5 C 6 D 7"
       ]
     },
     "answer": {
@@ -1223,11 +1015,11 @@
   },
   {
     "subject": "maths",
-    "question_type": "decimals",
+    "question_type": "word_problems",
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "A boy delivered newspapers. He was paid £1.40 for every 100 papers he delivered. How much was he paid for delivering 250 papers? E 29 3.6 Í 10 = A 0.36 B 0.036 C 36 D 360 E 36.6 Page 12 Please go on to the next page >>>",
+      "text": "A boy delivered newspapers. He was paid £1.40 for every 100 papers he delivered. How much was he paid for delivering 250 papers?",
       "options": [
         "£2.80",
         "£3.40",
@@ -1250,7 +1042,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "A ship travels 528 nautical miles in one day. How many nautical miles does it travel in 15 days? E Page 13 Please go on to the next page >>> 33 9 36 81 The three numbers above are alike in some ways. Select ONE of the following to say one way in which they are alike. A They are all even numbers. B They are all two-figure numbers. C They are all prime numbers. D They are all square numbers. E They can all be divided by 2 without a remainder.",
+      "text": "A ship travels 528 nautical miles in one day. How many nautical miles does it travel in 15 days?",
       "options": [
         "3168",
         "3173",
@@ -1296,13 +1088,13 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Ava had 5 boxes. Each box weighed 800 grams. How many KILOGRAMS was this altogether? E kg",
+      "text": "Ava had 5 boxes. Each box weighed 800 grams. How many KILOGRAMS was this altogether?",
       "options": [
         "4 kg",
         "4.5 kg",
         "40 kg",
         "4000 kg",
-        "4500"
+        "4500 kg"
       ]
     },
     "answer": {
@@ -1342,13 +1134,13 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "There were 27 children in a class. There were twice as many boys as girls. How many boys were there? E boys",
+      "text": "There were 27 children in a class. There were twice as many boys as girls. How many boys were there?",
       "options": [
         "21 boys",
         "18 boys",
         "16 boys",
         "14 boys",
-        "9"
+        "9 boys"
       ]
     },
     "answer": {
@@ -1365,7 +1157,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "What is 60% of 0? B 2 D . E Page 1 Please go on to the next page >>>",
+      "text": "What is 60% of 0? B 2 D .",
       "options": [
         "5",
         "25",
@@ -1411,59 +1203,13 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Which letter is pointing at 1250? 1200 1400 Page 16 Please go on to the next page >>>",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ]
-    },
-    "answer": {
-      "value": "B"
-    },
-    "explanation": "The correct answer is B.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "subject": "maths",
-    "question_type": "measurement",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "A frog starts jumping from the middle of a circular pond. The pond is 12 metres across, from one side to the other. The frog starts jumping towards the edge of the pond. Each jump is in the same direction. Each jump halves his distance from the edge of the pond. How far is the frog from the edge after 3 jumps?",
-      "options": [
-        "10.5m",
-        "75cm",
-        "150cm",
-        "5.25m",
-        "125cm"
-      ]
-    },
-    "answer": {
-      "value": "75cm"
-    },
-    "explanation": "The correct answer is 75cm.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Zac starts with the number 5. Which of these instructions does not give him an answer of 17? E by ten, subtract sixteen, then halve. Page 17 Please go on to the next page >>>",
+      "text": "Zac starts with the number 5. Which of these instructions does not give him an answer of 17?",
       "options": [
         "Halve your value, add six, then double.",
         "Multiply by four, then subtract three.",
         "Triple your value, then add two.",
         "Add three and double.",
-        "Multiply"
+        "Multiply by ten, subtract sixteen, then halve."
       ]
     },
     "answer": {
@@ -1480,13 +1226,13 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "This chart shows the weather for 1 on one day. How many hours was it dry? E hours",
+      "text": "This chart shows the weather for 1 on one day. How many hours was it dry?",
       "options": [
         "2 hours",
         "4 hours",
         "6 hours",
         "8 hours",
-        "10"
+        "10 hours"
       ]
     },
     "answer": {
@@ -1499,86 +1245,17 @@
   },
   {
     "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Put the correct number in the box Í 99 = 00 – C 1 D 1 E Page 18 Please go on to the next page >>>",
-      "options": [
-        "27",
-        "37",
-        "127",
-        "137",
-        "687"
-      ]
-    },
-    "answer": {
-      "value": "27"
-    },
-    "explanation": "The correct answer is 27.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "subject": "maths",
-    "question_type": "data_handling",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "The chart shows the proportions of children in a class who go to school using various forms of transport. There are no numbers along the y-axis but we know that there are 28 children in the class in total. Number of children Bicycle Bus Car Train Walk Forms of transport Which form of transport is taken by a total of 4 children? E Page 19 Please go on to the next page >>>",
-      "options": [
-        "bicycle",
-        "bus",
-        "car",
-        "train",
-        "walk"
-      ]
-    },
-    "answer": {
-      "value": "walk"
-    },
-    "explanation": "The correct answer is walk.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "subject": "maths",
-    "question_type": "fractions",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Ali and his sister share a pizza cut into six equal pieces. Ali eats of all the pieces. His sister eats of the remaining pieces. 3 4 After both Ali and his sister have eaten, what fraction of the pizza is left? E 12 2 4 12 6",
-      "options": [
-        "— 5",
-        "— 1",
-        "— 1",
-        "— 1",
-        "—"
-      ]
-    },
-    "answer": {
-      "value": "— 1"
-    },
-    "explanation": "The correct answer is — 1.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "subject": "maths",
     "question_type": "measurement",
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "To make brown paint, you mix parts red, 17 parts yellow and 1 part blue. How much red paint is needed to make 40 litres of brown paint? E litres Page 1 END OF FAMILIARISATION PAPER Copyright © GL Assessment, 01. All rights reserved, including translation. No part of this publication may be reproduced or transmitted in any form or by any means, electronic or mechanical, recording or duplication in any information storage and retrieval system, without permission in writing from the publishers. Published by GL Assessment, 1st Floor, Vantage London, Great West Road, Brentford TW8 9AG. Printed in Great Britain. Code 6853 915 (08.1) PF",
+      "text": "To make brown paint, you mix parts red, 17 parts yellow and 1 part blue. How much red paint is needed to make 40 litres of brown paint?",
       "options": [
         "20 litres",
         "34 litres",
         "1.5 litres",
         "4 litres",
-        "2"
+        "2 litres Page 1"
       ]
     },
     "answer": {
@@ -1595,13 +1272,13 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "How many 10p coins can I get for £1.80? E coins 2 6 5",
+      "text": "How many 10p coins can I get for £1.80?",
       "options": [
         "10 coins",
         "18 coins",
         "88 coins",
         "108 coins",
-        "180"
+        "180 coins 2 6 5"
       ]
     },
     "answer": {
@@ -1641,7 +1318,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Share 2 into 4 equal parts. How much is one part? E Page 3 Please go on to the next page >>>",
+      "text": "Share 2 into 4 equal parts. How much is one part?",
       "options": [
         "80",
         "60",
@@ -1664,7 +1341,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "What fraction of this circle is shaded? E 12 5 4 6 8",
+      "text": "What fraction of this circle is shaded?",
       "options": [
         "— 1",
         "— 1",
@@ -1687,17 +1364,17 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "In the number 86, what does the stand for? E tens",
+      "text": "In the number 86, what does the stand for?",
       "options": [
         "3 hundreds",
         "3 ones",
         "3 thousands",
         "3 hundredths",
-        "3"
+        "3 tens"
       ]
     },
     "answer": {
-      "value": "3"
+      "value": "3 tens"
     },
     "explanation": "The correct answer is 3 tens.",
     "hints": [],
@@ -1710,7 +1387,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "What number would go in the box? 3 = 4 8 E Page 4 Please go on to the next page >>>",
+      "text": "What number would go in the box? 3 = 4 8",
       "options": [
         "5",
         "6",
@@ -1729,126 +1406,11 @@
   },
   {
     "subject": "maths",
-    "question_type": "data_handling",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Sati records how many children visit the school library each day. This is the bar chart Sati draws to show her data. How many children visited the library over the five days?",
-      "options": [
-        "55",
-        "54",
-        "53",
-        "52",
-        "51"
-      ]
-    },
-    "answer": {
-      "value": "55"
-    },
-    "explanation": "The correct answer is 55.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "subject": "maths",
-    "question_type": "measurement",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Three pieces of wood are cut from a plank 1 metre long. Each piece is 30 cm long. How long is the piece left over? D 9 E 9 Page 5 Please go on to the next page >>> yadnoM yadseuT yadsendeW yadsruhT yadirF 16 12 8 4",
-      "options": [
-        "10 cm",
-        "40 cm",
-        "70 cm",
-        "910 cm",
-        "970"
-      ]
-    },
-    "answer": {
-      "value": "10 cm"
-    },
-    "explanation": "The correct answer is 10 cm.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "subject": "maths",
-    "question_type": "geometry",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "These three angles fit together to make a straight line: Look at the angle below. 0º How many of these 0° angles will fit together to make a straight line?",
-      "options": [
-        "3",
-        "4",
-        "5",
-        "6",
-        "7"
-      ]
-    },
-    "answer": {
-      "value": "6"
-    },
-    "explanation": "The correct answer is 6.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "subject": "maths",
-    "question_type": "number_operations",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Callum is thinking of a two-digit number. Its digits add up to 5. It is a prime number. Its square is a three-digit number. What number is he thinking of? E Page 6 Please go on to the next page >>>",
-      "options": [
-        "31",
-        "14",
-        "23",
-        "13",
-        "41"
-      ]
-    },
-    "answer": {
-      "value": "23"
-    },
-    "explanation": "The correct answer is 23.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "subject": "maths",
-    "question_type": "measurement",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "What is the next number in this sequence? 49 43 37 31 ______ E 16 5 0 –5 The thermometer shows the temperature in Kiev. London is 18°C warmer. What is the temperature in London? A 17°B 16°C 15°D 14°E 13°C 17 324 ÷ 6 = A 44 B 54 C 56 D 58 E 64 Page 7 Please go on to the next page >>>",
-      "options": [
-        "27",
-        "21",
-        "25",
-        "23",
-        "29"
-      ]
-    },
-    "answer": {
-      "value": "25"
-    },
-    "explanation": "The correct answer is 25.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "subject": "maths",
     "question_type": "word_problems",
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Karen wants to buy a guitar. She has saved £43.95 The guitar costs £65.00 How much more money does she need? E Page 8 Please go on to the next page >>>",
+      "text": "Karen wants to buy a guitar. She has saved £43.95 The guitar costs £65.00 How much more money does she need?",
       "options": [
         "£22.05",
         "£21.05",
@@ -1867,34 +1429,11 @@
   },
   {
     "subject": "maths",
-    "question_type": "decimals",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Put these numbers in order from the smallest to the biggest. 0.525 0.7 0.35 0.175 E 0.35, 0.7, 0.525 22 8 chocolate bars cost £5.20. How much do 6 chocolate bars cost? A £3.75 B £3.80 C £3.85 D £3.90 E £3.95",
-      "options": [
-        "0.7, 0.525, 0.35, 0.175",
-        "0.175, 0.525, 0.35, 0.7",
-        "0.175, 0.35, 0.525, 0.7",
-        "0.7, 0.35, 0.175, 0.525",
-        "0.175,"
-      ]
-    },
-    "answer": {
-      "value": "0.175, 0.35, 0.525, 0.7"
-    },
-    "explanation": "The correct answer is C.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "subject": "maths",
     "question_type": "percentages",
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "What is 50% of 40? E 1 Page 9 Please go on to the next page >>>",
+      "text": "What is 50% of 40?",
       "options": [
         "16",
         "20",
@@ -1917,42 +1456,19 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "The bar chart shows the heights of a class of pupils. Which statement MUST be true? E children have a height of less than 139cm.",
+      "text": "The bar chart shows the heights of a class of pupils. Which statement MUST be true?",
       "options": [
         "1 child is exactly 165cm tall.",
         "5 children have a height between 120cm and 129cm.",
         "No children have a height less than 111cm.",
         "7 children have a height more than 140cm but less than 150cm.",
-        "8"
+        "8 children have a height of less than 139cm."
       ]
     },
     "answer": {
       "value": "5 children have a height between 120cm and 129cm."
     },
     "explanation": "The correct answer is B.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "subject": "maths",
-    "question_type": "measurement",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "A television programme finished at 4.55 pm. It lasted for three-quarters of an hour. At what time did it start? E pm Page 10 Please go on to the next page >>> 911 – 011 921 – 021 931 – 031 941 – 041 951 – 051 961 – 061 Height in cm nerdlihc fo rebmuN 8 6 4 2",
-      "options": [
-        "4.15 pm",
-        "4.10 pm",
-        "4.05 pm",
-        "4.25 pm",
-        "4.20"
-      ]
-    },
-    "answer": {
-      "value": "4.10 pm"
-    },
-    "explanation": "The correct answer is 4.10pm.",
     "hints": [],
     "tags": [],
     "source": "GL Assessment Maths 2"
@@ -1982,34 +1498,11 @@
   },
   {
     "subject": "maths",
-    "question_type": "measurement",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Zoey has a large carpet in her room. It is 5 metres long and 4 metres wide. What is the distance all around the edge of the carpet?",
-      "options": [
-        "14m",
-        "16m",
-        "18m",
-        "19m",
-        "20m"
-      ]
-    },
-    "answer": {
-      "value": "18m"
-    },
-    "explanation": "The correct answer is 18 m.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "subject": "maths",
     "question_type": "word_problems",
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Ella paid £780 per month in rent. How much rent did she pay in 12 months? E Page 11 Please go on to the next page >>>",
+      "text": "Ella paid £780 per month in rent. How much rent did she pay in 12 months?",
       "options": [
         "£2340",
         "£8360",
@@ -2032,7 +1525,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "An empty box weighs 150 grams. When it is filled with paper it weighs 1 kilogram. How much does the paper weigh? E 9",
+      "text": "An empty box weighs 150 grams. When it is filled with paper it weighs 1 kilogram. How much does the paper weigh?",
       "options": [
         "350g",
         "750g",
@@ -2055,7 +1548,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Mrs Shaw has 175ml of liquid. She needs a container for it. Which one suits her needs best? E Page 12 Please go on to the next page >>>",
+      "text": "Mrs Shaw has 175ml of liquid. She needs a container for it. Which one suits her needs best?",
       "options": [
         "Bath",
         "Mug",
@@ -2078,13 +1571,13 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "The vertices of two squares below are labelled with letters. Which of following lines is perpendicular to line connecting P and R? E line connecting Q and R",
+      "text": "The vertices of two squares below are labelled with letters. Which of following lines is perpendicular to line connecting P and R?",
       "options": [
         "the line connecting X and Y",
         "the line connecting P and S",
         "the line connecting Q and S",
         "the line connecting S and W",
-        "the"
+        "the line connecting Q and R"
       ]
     },
     "answer": {
@@ -2097,40 +1590,17 @@
   },
   {
     "subject": "maths",
-    "question_type": "geometry",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Emily has six sticks. Their lengths are: 3cm 5cm 8cm 9cm 11cm Emily can lay the sticks end to end to make triangles, like this: Emily wants to make the smallest triangle she can using the 11cm stick Which two other lengths of stick should she use? E and 8cm",
-      "options": [
-        "3cm and 5cm",
-        "3cm and 6cm",
-        "5cm and 6cm",
-        "5cm and 8cm",
-        "6cm"
-      ]
-    },
-    "answer": {
-      "value": "5cm and 8cm"
-    },
-    "explanation": "The correct answer is 5cm and 8cm.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "subject": "maths",
     "question_type": "measurement",
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Muhammed must get up at 07.30 hours. He goes to bed at 22.38 hours the night before. How long does he spend in bed? E hours 52 minutes Page 15 Please go on to the next page >>>",
+      "text": "Muhammed must get up at 07.30 hours. He goes to bed at 22.38 hours the night before. How long does he spend in bed?",
       "options": [
         "8 hours 22 minutes",
         "8 hours 42 minutes",
         "8 hours 52 minutes",
         "9 hours 42 minutes",
-        "9"
+        "9 hours 52 minutes"
       ]
     },
     "answer": {
@@ -2143,63 +1613,17 @@
   },
   {
     "subject": "maths",
-    "question_type": "decimals",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "Liam carried ten parcels. Each parcel weighed 250 grams. How many KILOGRAMS was this altogether? C 2. D 0. E 0.0",
-      "options": [
-        "25kg",
-        "2.50kg",
-        "2.25kg",
-        "0.25kg",
-        "0.025kg"
-      ]
-    },
-    "answer": {
-      "value": "2.50kg"
-    },
-    "explanation": "The correct answer is 2.50 kg.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "subject": "maths",
-    "question_type": "geometry",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "To add up all the angles inside a polygon, you subtract 2 from the number of sides and multiply this by 180. An octagon has 8 sides. What do the angles inside an octagon add up to? E degrees",
-      "options": [
-        "1438 degrees",
-        "1086 degrees",
-        "186 degrees",
-        "1080 degrees",
-        "1806"
-      ]
-    },
-    "answer": {
-      "value": "1080 degrees"
-    },
-    "explanation": "The correct answer is 1080 degrees.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "subject": "maths",
     "question_type": "data_handling",
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "The bar chart shows the amount of money Lewis, and Zoe have in their savings accounts. Which one of these is NOT true? E has £10 less than Zoe. Page 17 Please go on to the next page >>>",
+      "text": "The bar chart shows the amount of money Lewis, and Zoe have in their savings accounts. Which one of these is NOT true?",
       "options": [
         "Lewis and Jordan have £35 altogether.",
         "Lewis has half as much as Jordan.",
         "The children have £65 altogether.",
         "Zoe has twice as much as Lewis.",
-        "Jordan"
+        "Jordan has £10 less than Zoe."
       ]
     },
     "answer": {
@@ -2216,17 +1640,17 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "The end points of five lines are shown in the answer options below. 7 6 5 4 3 2 1 1 2 3 4 5 6 7 Which line is parallel to the line in the diagram? E , 2) and (1 , 6)",
+      "text": "The end points of five lines are shown in the answer options below. 7 6 5 4 3 2 1 1 2 3 4 5 6 7 Which line is parallel to the line in the diagram?",
       "options": [
         "(3 , 1) and (1 , 4)",
         "(2 , 6) and (4 , 3)",
         "(5 , 1) and (1 , 5)",
         "(2 , 5) and (4 , 2)",
-        "(5"
+        "(5 , 2) and (1 , 6)"
       ]
     },
     "answer": {
-      "value": "(5"
+      "value": "(5 , 2) and (1 , 6)"
     },
     "explanation": "The correct answer is (5 , 2) and (1 , 6).",
     "hints": [],
@@ -2239,7 +1663,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "What is the area of this rectangle? 0.8m 0.3m E Page 18 Please go on to the next page >>>",
+      "text": "What is the area of this rectangle? 0.8m 0.3m",
       "options": [
         "0.24cm2",
         "2.4cm2",
@@ -2262,7 +1686,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "What is 1.7 as a fraction? C 0 E 10 17 17 100 11",
+      "text": "What is 1.7 as a fraction? C 0",
       "options": [
         "— 17",
         "— 1",
@@ -2308,13 +1732,13 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Henry says that to change from kilometres to miles you divide the number of kilometres by 8 and then multiply by 5. Which of these is NOT correct? E kilometres is 165 miles. Page 19 Please go on to the next page >>>",
+      "text": "Henry says that to change from kilometres to miles you divide the number of kilometres by 8 and then multiply by 5. Which of these is NOT correct?",
       "options": [
         "168 kilometres is 105 miles.",
         "248 kilometres is 155 miles.",
         "192 kilometres is 125 miles.",
         "216 kilometres is 135 miles.",
-        "264"
+        "264 kilometres is 165 miles."
       ]
     },
     "answer": {
@@ -2331,17 +1755,17 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "The area of a rectangular playground is 210 metres squared. Which of the following could be the playground’s perimeter? E metres 50 43 Í 4 Í 32 is NOT the same as which of the following? A 9 Í 82 Í 4 B 32 Í 42 Í 42 C 43 Í 62 D 6 Í 12 Í 16 E 36 Í 64 Page 21 END OF FAMILIARISATION PAPER Copyright © GL Assessment, 2021. All rights reserved, including translation. No part of this publication may be reproduced or transmitted in any form or by any means, electronic or mechanical, recording or duplication in any information storage and retrieval system, without permission in writing from the publishers. Published by GL Assessment, 1st Floor, Vantage London, Great West Road, Brentford TW8 9AG. Printed in Great Britain. Code 6853 917 2(08.21) PF",
+      "text": "The area of a rectangular playground is 210 metres squared. Which of the following could be the playground’s perimeter?",
       "options": [
         "44 metres",
         "52 metres",
         "64 metres",
         "72 metres",
-        "74"
+        "74 metres 50 43 Í 4 Í 32 is NOT the same as which of the following? A 9 Í 82 Í 4 B 32 Í 42 Í 42 C 43 Í 62 D 6 Í 12 Í 16 E 36 Í 64 Page 21"
       ]
     },
     "answer": {
-      "value": "74"
+      "value": "74 metres 50 43 Í 4 Í 32 is NOT the same as which of the following? A 9 Í 82 Í 4 B 32 Í 42 Í 42 C 43 Í 62 D 6 Í 12 Í 16 E 36 Í 64 Page 21"
     },
     "explanation": "The correct answer is 74 metres.",
     "hints": [],
@@ -4122,26 +3546,6 @@
   },
   {
     "subject": "english",
-    "question_type": "comprehension",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "We were lucky to win tickets to see The Nutcracker this Winter. In these sentences there are some spelling mistakes. On each numbered line there is either one mistake or no mistake. Find the group of words with the mistake in it and mark its letter on your answer sheet. If there is no mistake, mark N. There was something different about the school playground today: not the usual lull",
-      "options": [
-        "B C D",
-        "Ghostly Encounter"
-      ]
-    },
-    "answer": {
-      "value": "B C D"
-    },
-    "explanation": "The correct answer is D.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment English 2"
-  },
-  {
-    "subject": "english",
     "question_type": "spelling",
     "format": "multiple_choice",
     "difficulty": 3,
@@ -4307,7 +3711,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Choose two words, one from each set of brackets, that complete the sentence in the most sensible way.\n\n\n\nPrecious is to (destitute   worthless   adorned) as divide is to (combine   scatter   arrange).",
+      "text": "Choose two words, one from each set of brackets, that complete the sentence in the most sensible way.\n\n\n\nPrecious is to (destitute   worthless   adorned) as divide is to (combine   scatter   arrange).",
       "options": [
         "destitute",
         "worthless",
@@ -4332,7 +3736,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Choose the number that completes the final set of numbers in the same way as the first two sets.\n\n\n\n12 (4) 8    13 (6) 7    21 (?) 3",
+      "text": "Choose the number that completes the final set of numbers in the same way as the first two sets.\n\n\n\n12 (4) 8    13 (6) 7    21 (?) 3",
       "options": [
         "4",
         "6",
@@ -4378,7 +3782,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Choose the letter that will finish the first word and start the second word of each pair. The same letter must be used for both pairs.\n\n\n\nbea (?) ook    cha (?) est",
+      "text": "Choose the letter that will finish the first word and start the second word of each pair. The same letter must be used for both pairs.\n\n\n\nbea (?) ook    cha (?) est",
       "options": [
         "s",
         "t",
@@ -4424,7 +3828,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Choose the number that continues the sequence in the best way.\n\n\n\n3   3   6   18   (?)",
+      "text": "Choose the number that continues the sequence in the best way.\n\n\n\n3   3   6   18   (?)",
       "options": [
         "18",
         "36",
@@ -4520,7 +3924,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Each letter stands for a number. Work out the answer to each sum as a letter. Choose the correct letter as your answer.\n\n\n\nA = 2   B = 3   C = 7   D = 19   E = 21\n\nC × B − A = ?",
+      "text": "Each letter stands for a number. Work out the answer to each sum as a letter. Choose the correct letter as your answer.\n\n\n\nA = 2   B = 3   C = 7   D = 19   E = 21\n\nC × B − A = ?",
       "options": [
         "A",
         "B",
@@ -4566,7 +3970,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Choose the pair of letters that continues the sequence in the best way. Use the alphabet to help you.\n\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n\n\n\nDH   HI   LJ   PK   TL   (____)",
+      "text": "Choose the pair of letters that continues the sequence in the best way. Use the alphabet to help you.\n\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n\n\n\nDH   HI   LJ   PK   TL   (____)",
       "options": [
         "ZM",
         "WN",
@@ -4589,7 +3993,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Choose the word that has the most similar meaning to the words in both sets of brackets.\n\n\n\n(hint   pinch)     (hurry   rush)",
+      "text": "Choose the word that has the most similar meaning to the words in both sets of brackets.\n\n\n\n(hint   pinch)     (hurry   rush)",
       "options": [
         "race",
         "scurry",
@@ -4706,7 +4110,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "The words in the second set follow the same pattern as the words in the first set. Choose the missing word to complete the second set.\n\n\n\ngait (girl) hurl     draw (?) down",
+      "text": "The words in the second set follow the same pattern as the words in the first set. Choose the missing word to complete the second set.\n\n\n\ngait (girl) hurl     draw (?) down",
       "options": [
         "dawn",
         "worn",
@@ -4752,7 +4156,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Choose two words, one from each set of brackets, that complete the sentence in the most sensible way.\n\n\n\nRock is to (pebble   solid   mineral) as water is to (liquid   moisture   humid).",
+      "text": "Choose two words, one from each set of brackets, that complete the sentence in the most sensible way.\n\n\n\nRock is to (pebble   solid   mineral) as water is to (liquid   moisture   humid).",
       "options": [
         "pebble",
         "solid",
@@ -4777,7 +4181,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Choose the word that completes the third pair of words so that it follows the same pattern as the first two pairs.\n\n\n\nstrum  must     asset  teas     ideal  (?)",
+      "text": "Choose the word that completes the third pair of words so that it follows the same pattern as the first two pairs.\n\n\n\nstrum  must     asset  teas     ideal  (?)",
       "options": [
         "aide",
         "deal",
@@ -4800,7 +4204,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "The number codes for three of these four words are listed in a random order. Work out the code to answer the question.\n\nFLIP   LIPS   LIFT   FITS\n5236   5214   3521\n\nFind the code for the word LIFT.",
+      "text": "The number codes for three of these four words are listed in a random order. Work out the code to answer the question.\n\nFLIP   LIPS   LIFT   FITS\n5236   5214   3521\n\nFind the code for the word LIFT.",
       "options": [
         "3152",
         "3521",
@@ -4938,29 +4342,6 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "In these questions, find two words, one from each group, that are most opposite in meaning.\nMark both words on the answer sheet.\nExample (morning early wake) (late shop dark)\nA morning X late\nB early Y shop\nC wake Z dark\nAnswer early late\nSolution The two words, one from each group, that are most opposite in meaning are\n‘early’ from group one and ‘late’ from group two.\n\nThey searched the patrol area systematically. A They searched B searched the C the patrol D patrol area E area systematically. The alphabet is here to help you with these questions. Find the next pair of letters in the series and mark it on the answer sheet. Answer GO order: C, D, E, F. The second letter in each pair features twice in the series, and appears in reverse alphabetical order: Q, Q, P, P. Following this pattern, the next pair of letters after FP must be GO.",
-      "options": [
-        "GP",
-        "GO",
-        "HO",
-        "GR",
-        "GQ"
-      ]
-    },
-    "answer": {
-      "value": "area systematically."
-    },
-    "explanation": "The correct answer is area systematically..",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment VR 1"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_word_pairs",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
       "text": "In these questions, find two words, one from each group, that are most opposite in meaning.\nMark both words on the answer sheet.\nExample (morning early wake) (late shop dark)\nA morning X late\nB early Y shop\nC wake Z dark\nAnswer early late\nSolution The two words, one from each group, that are most opposite in meaning are\n‘early’ from group one and ‘late’ from group two.\n\nUD VF WH XJ [ ? ]",
       "options": [
         "ZL",
@@ -4974,29 +4355,6 @@
       "value": "YL"
     },
     "explanation": "The correct answer is YL.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment VR 1"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_word_pairs",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "In these questions, find two words, one from each group, that are most opposite in meaning.\nMark both words on the answer sheet.\nExample (morning early wake) (late shop dark)\nA morning X late\nB early Y shop\nC wake Z dark\nAnswer early late\nSolution The two words, one from each group, that are most opposite in meaning are\n‘early’ from group one and ‘late’ from group two.\n\nCQ BL ZH WE [ ? ] In these sentences, the word in capitals has had three letters next to each other taken out. These three letters will make one correctly-spelt word without changing their order. The sentence that you make must make sense. Mark the correct three-letter word on the answer sheet. Answer LAW three-letter word between C and S, it makes the word CLAWS and thus completes the sentence.",
-      "options": [
-        "LAD",
-        "LAW",
-        "HAD",
-        "RAW",
-        "RED"
-      ]
-    },
-    "answer": {
-      "value": "SC"
-    },
-    "explanation": "The correct answer is SC.",
     "hints": [],
     "tags": [],
     "source": "GL Assessment VR 1"
@@ -5076,29 +4434,6 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "In these questions, find two words, one from each group, that are most opposite in meaning.\nMark both words on the answer sheet.\nExample (morning early wake) (late shop dark)\nA morning X late\nB early Y shop\nC wake Z dark\nAnswer early late\nSolution The two words, one from each group, that are most opposite in meaning are\n‘early’ from group one and ‘late’ from group two.\n\nThe morning was spent CLING the garden. 56 I introduced my STEPHER.",
-      "options": [
-        "FAT",
-        "MOW",
-        "VAN",
-        "CAP",
-        "RAT"
-      ]
-    },
-    "answer": {
-      "value": "EAR"
-    },
-    "explanation": "The correct answer is EAR.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment VR 1"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_word_pairs",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
       "text": "In these questions, find two words, one from each group, that are most opposite in meaning.\nMark both words on the answer sheet.\nExample (morning early wake) (late shop dark)\nA morning X late\nB early Y shop\nC wake Z dark\nAnswer early late\nSolution The two words, one from each group, that are most opposite in meaning are\n‘early’ from group one and ‘late’ from group two.\n\nTeabags have lots of PERATIONS.",
       "options": [
         "SET",
@@ -5112,29 +4447,6 @@
       "value": "FOR"
     },
     "explanation": "The correct answer is FOR.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment VR 1"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_alphabet_code",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "In these questions, there are two pairs of words.\nOnly one of the five possible answers will go equally well with both of these pairs.\nMark it on the answer sheet.\nExample (world globe) (soil ground)\nA ball B dirt C plant D earth E universe\nAnswer earth\nSolution The answer is ‘earth’. The word ‘earth’ goes equally well with both pairs of words\nbecause, just as it can refer to the planet Earth (world, globe), it can also refer to\nthe ground beneath us (soil, ground).\n\n(permit allow) (rent hire) 69 (wood trunk) (howl wail) 70 (resemble similar) (fond admire) 71 (token disc) (worktop surface) 72 (jump leap) (well water) 73 (chapter paragraph) (corridor alley) 74 (allotment patch) (conspire plan) Three of these four words are given in code. The codes are not written in the same order as the words and one code is missing. ANTS BASE LETS BLUE 5836 4172 8672 which letter. Begin by focusing on one number which appears more than once. If this number appears in the same position in two of the codes, you might be able to spot the same pattern with the letters. If not, compare the positions of your chosen letter and see if this is reflected in the words. For example, the number 8 appears in two number codes: once in 1st position (8672) and once in 2nd position (5836). This could either be the letter A or the letter L. Factoring in the positions of the number 6 as well, the number 8 has to stand for the letter L. The number 6 stands for E. Knowing that 5836 = BLUE and 8672 = LETS we can establish what other letters stand for and answer further questions on missing words or codes. Choose the correct answer and mark it on the answer sheet. 75 Find the code for the word BASE. 76 Find the code for the word EAST. 77 Find the word that has the number code 7316. Three of these four words are given in code. The codes are not written in the same order as the words and one code is missing. KITE INTO PAIN POET 8457 5716 3512 been assigned different letters so we have to repeat the process of assigning letters to numbers. The number 5 appears three times across the number codes: in 1st position, 2nd position and 3rd position. The only letter this could be is I. We can then assign letters to all of the numbers 1–8. Choose the correct answer and mark it on the answer sheet.",
-      "options": [
-        "TUBS",
-        "TUNE",
-        "TUNA",
-        "TANS",
-        "TABS"
-      ]
-    },
-    "answer": {
-      "value": "let"
-    },
-    "explanation": "The correct answer is let.",
     "hints": [],
     "tags": [],
     "source": "GL Assessment VR 1"
@@ -5394,29 +4706,6 @@
   },
   {
     "subject": "verbal_reasoning",
-    "question_type": "vr_synonyms",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "In these questions, the three words in the second group should go together in the same way as\nthe three in the first group.\nFind the word that is missing in the second group and mark it on the answer sheet.\nExample (man [mat] tip) (bug [ ? ] dew)\nA bud B beg C dug D bed E wed\nAnswer bud\nSolution The first two letters of ‘man’ and the first letter of ‘tip’ are put together to make\nthe word ‘mat’. In the same way, the first two letters of the word ‘bug’ and the\nfirst letter of the word ‘dew’ are put together to make the word ‘bud’.\n\n(latch [heat] shake) (index [ ? ] above) 34 (taught [tent] design) (reacts [ ? ] stigma) 35 (picture [tire] scratch) (deliver [ ? ] changed) 36 (horizon [zoom] diamond) (partner [ ? ] leather)",
-      "options": [
-        "neat",
-        "pear",
-        "hear",
-        "heat",
-        "near"
-      ]
-    },
-    "answer": {
-      "value": "bend"
-    },
-    "explanation": "The correct answer is bend.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment VR 2"
-  },
-  {
-    "subject": "verbal_reasoning",
     "question_type": "vr_word_pairs",
     "format": "multiple_choice",
     "difficulty": 3,
@@ -5457,30 +4746,6 @@
       "value": "get"
     },
     "explanation": "The correct answer is get, buy.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment VR 2"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_word_pairs",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "In these questions, three of the five words are related in some way.\nFind the two words that do not go with these three and mark them both on the answer sheet.\nExample black mouse red green hut\nA black B mouse C red D green E hut\nAnswer mouse hut\nSolution The words ‘black’, ‘red’ and ‘green’ are related because they are all colours; the\nwords ‘mouse’ and ‘hut’ do not go with these three words.\n\npollute remove take destroy seize 41 grow time develop exist mature 42 clear conclude finish terminate prevent",
-      "options": [
-        "clear",
-        "conclude",
-        "finish",
-        "terminate",
-        "prevent"
-      ],
-      "multi_select": true
-    },
-    "answer": {
-      "value": "pollute, destroy"
-    },
-    "explanation": "The correct answer is pollute, destroy.",
     "hints": [],
     "tags": [],
     "source": "GL Assessment VR 2"
@@ -5648,121 +4913,6 @@
   },
   {
     "subject": "verbal_reasoning",
-    "question_type": "vr_alphabet_code",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "In each question, find the number that will complete the sum correctly and mark it on the\nanswer sheet.\nExample 3 Æ 5 = 6 Æ [ ? ]\nA 1 B 2 C 3 D 4 E 5\nAnswer 2\nSolution The sum on the right must equal the sum on the left. You have to think of a\nnumber to replace the question mark which will make both sides of the sum equal.\nIn this case, the calculation on the left gives us 8, so the question mark must be\nreplaced with the number 2 to also make 8.\n\nFind the code for the word STEAM. The alphabet is here to help you with these questions. Find the next pair of letters in the series and mark it on the answer sheet. Answer GO order: C, D, E, F. The second letter in each pair features twice in the series, and appears in reverse alphabetical order: Q, Q, P, P. Following this pattern, the next pair of letters after FP must be GO.",
-      "options": [
-        "GP",
-        "GO",
-        "HO",
-        "GR",
-        "GQ"
-      ]
-    },
-    "answer": {
-      "value": "43175"
-    },
-    "explanation": "The correct answer is 43175.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment VR 2"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_missing_word",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "In each question, find the number that will complete the sum correctly and mark it on the\nanswer sheet.\nExample 3 Æ 5 = 6 Æ [ ? ]\nA 1 B 2 C 3 D 4 E 5\nAnswer 2\nSolution The sum on the right must equal the sum on the left. You have to think of a\nnumber to replace the question mark which will make both sides of the sum equal.\nIn this case, the calculation on the left gives us 8, so the question mark must be\nreplaced with the number 2 to also make 8.\n\nFL EK GM DJ HN [ ? ] 78 WX ZA DE IJ [ ? ]",
-      "options": [
-        "QR",
-        "OP",
-        "NO",
-        "PQ",
-        "MN"
-      ]
-    },
-    "answer": {
-      "value": "CI"
-    },
-    "explanation": "The correct answer is CI.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment VR 2"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_alphabet_code",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "In each question, find the number that will complete the sum correctly and mark it on the\nanswer sheet.\nExample 3 Æ 5 = 6 Æ [ ? ]\nA 1 B 2 C 3 D 4 E 5\nAnswer 2\nSolution The sum on the right must equal the sum on the left. You have to think of a\nnumber to replace the question mark which will make both sides of the sum equal.\nIn this case, the calculation on the left gives us 8, so the question mark must be\nreplaced with the number 2 to also make 8.\n\nBX BY CA ED HH [ ? ] 80 XZ ZY YA AZ ZB [ ? ] Copyright © GL Assessment, 2017. All rights reserved, including translation. No part of this publication may be reproduced or transmitted in any form or by any means, electronic or mechanical, recording or duplication in any information storage and retrieval system, without permission in writing from the publishers. Published by GL Assessment, 1st Floor, Vantage London, Great West Road, Brentford TW8 9AG. Printed in Great Britain. Code 6853 922 1(06.17) PF",
-      "options": [
-        "BA",
-        "YD",
-        "CA",
-        "YA",
-        "BD"
-      ]
-    },
-    "answer": {
-      "value": "LM"
-    },
-    "explanation": "The correct answer is LM.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment VR 2"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_logic_problems",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "In each question, find the number that continues the series in the most sensible way and mark it on\nthe answer sheet.\nExample 2 4 6 8 [ ? ]\nA 16 B 11 C 10 D 9 E 12\nAnswer 10\nSolution In this series, you add 2 each time. For other series, you might have to perform a\ndifferent sort of operation (Æ, –, Í, ÷). There might also be two series involved: the\nfirst comprising the 1st, 3rd, 5th number etc. and the second comprising the 2nd,\n4th, 6th etc.\n\nJessica, Peter, Mohammed, Tanya and Becky are growing tomato plants. Each child has three seeds which can grow into plants. The children monitor their plants’ growth over two months. At the end of the two months Jessica has one plant which is much taller than her other two plants. Mohammed’s three plants are all healthy but much smaller than Jessica’s. Peter and Becky did not manage to grow plants from all of their seeds. Tanya only planted one seed, and saved the others for next year. At the end of two months, Tanya had the fewest plants. How many tomato plants did the children grow between them? In these sentences, the word in capitals has had three letters next to each other taken out. These three letters will make one correctly-spelt word without changing their order. The sentence that you make must make sense. Mark the correct three-letter word on the answer sheet. Answer LAW three-letter word between C and S, it makes the word CLAWS and thus completes the sentence.",
-      "options": [
-        "LAD",
-        "LAW",
-        "HAD",
-        "RAW",
-        "RED"
-      ]
-    },
-    "answer": {
-      "value": "11"
-    },
-    "explanation": "The correct answer is 11.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment VR 3"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_logic_problems",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "In each question, find the number that continues the series in the most sensible way and mark it on\nthe answer sheet.\nExample 2 4 6 8 [ ? ]\nA 16 B 11 C 10 D 9 E 12\nAnswer 10\nSolution In this series, you add 2 each time. For other series, you might have to perform a\ndifferent sort of operation (Æ, –, Í, ÷). There might also be two series involved: the\nfirst comprising the 1st, 3rd, 5th number etc. and the second comprising the 2nd,\n4th, 6th etc.\n\nPorridge is great at FING you up. 28 It was a slow and difficult JNEY in the city.",
-      "options": [
-        "ARE",
-        "YOU",
-        "AIR",
-        "ANY",
-        "OUR"
-      ]
-    },
-    "answer": {
-      "value": "ILL"
-    },
-    "explanation": "The correct answer is ILL.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment VR 3"
-  },
-  {
-    "subject": "verbal_reasoning",
     "question_type": "vr_logic_problems",
     "format": "multiple_choice",
     "difficulty": 3,
@@ -5790,30 +4940,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "In each question, find the number that continues the series in the most sensible way and mark it on\nthe answer sheet.\nExample 2 4 6 8 [ ? ]\nA 16 B 11 C 10 D 9 E 12\nAnswer 10\nSolution In this series, you add 2 each time. For other series, you might have to perform a\ndifferent sort of operation (Æ, –, Í, ÷). There might also be two series involved: the\nfirst comprising the 1st, 3rd, 5th number etc. and the second comprising the 2nd,\n4th, 6th etc.\n\nEveryone agreed it was an impressive CAAL city. The alphabet is here to help you with these questions. Find the letters that will complete the sentence in the best way and mark the correct answer on the answer sheet. Answer RS",
-      "options": [
-        "RT",
-        "SR",
-        "ST",
-        "RS",
-        "QR"
-      ]
-    },
-    "answer": {
-      "value": "PIT"
-    },
-    "explanation": "The correct answer is PIT.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment VR 3"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_missing_word",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "In this question, look at the first two pairs of letters. The letters ‘CD’ come straight\nafter the letters ‘AB’ in the alphabet. The second two pairs of letters must go\ntogether in the same way. ‘RS’ are the letters that come straight after ‘PQ’ in\nthe alphabet.\nPage 10 Please go on to the next page >>>\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n\nAS is to EO as BK is to [ ? ]",
+      "text": "In this question, look at the first two pairs of letters. The letters ‘CD’ come straight\nafter the letters ‘AB’ in the alphabet. The second two pairs of letters must go\ntogether in the same way. ‘RS’ are the letters that come straight after ‘PQ’ in\nthe alphabet.\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n\nAS is to EO as BK is to [ ? ]",
       "options": [
         "XH",
         "FG",
@@ -5836,30 +4963,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "In these questions, one letter can be moved from the first word to the second word to make two\nnew words.\nThe letters must not otherwise be rearranged and both new words must make sense.\nFind the letter that moves and mark it on the answer sheet.\nExample pound or\nA p B o C u D n E d\nAnswer u\nSolution The answer is u: when removed from the word ‘pound’, we get a new word\n‘pond’ and when added to the word ‘or’ we get a new word ‘our’. The letters\nhave not otherwise been rearranged and both new words make sense.\nPage 16 Please go on to the next page >>>\n\ndowns wins",
-      "options": [
-        "d",
-        "o",
-        "w",
-        "n",
-        "s"
-      ]
-    },
-    "answer": {
-      "value": "d"
-    },
-    "explanation": "The correct answer is d.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment VR 3"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_insert_letter",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "In these questions, one letter can be moved from the first word to the second word to make two\nnew words.\nThe letters must not otherwise be rearranged and both new words must make sense.\nFind the letter that moves and mark it on the answer sheet.\nExample pound or\nA p B o C u D n E d\nAnswer u\nSolution The answer is u: when removed from the word ‘pound’, we get a new word\n‘pond’ and when added to the word ‘or’ we get a new word ‘our’. The letters\nhave not otherwise been rearranged and both new words make sense.\nPage 16 Please go on to the next page >>>\n\nbears what 56 flake band 57 leaps now 58 blind party 59 train sow 60 fable eel These questions contain three pairs of words. Find the word that completes the last pair of words in the same way as the other two pairs. Mark it on the answer sheet. Answer tea letters of ‘band’ to make the word ‘ban’. Likewise in the second pair of words, ‘song’ makes the word ‘son’. If you apply the same rule to the third pair of words, you get the answer ‘tea’.",
+      "text": "In these questions, one letter can be moved from the first word to the second word to make two\nnew words.\nThe letters must not otherwise be rearranged and both new words must make sense.\nFind the letter that moves and mark it on the answer sheet.\nExample pound or\nA p B o C u D n E d\nAnswer u\nSolution The answer is u: when removed from the word ‘pound’, we get a new word\n‘pond’ and when added to the word ‘or’ we get a new word ‘our’. The letters\nhave not otherwise been rearranged and both new words make sense.\n\nbears what 56 flake band 57 leaps now 58 blind party 59 train sow 60 fable eel These questions contain three pairs of words. Find the word that completes the last pair of words in the same way as the other two pairs. Mark it on the answer sheet. Answer tea letters of ‘band’ to make the word ‘ban’. Likewise in the second pair of words, ‘song’ makes the word ‘son’. If you apply the same rule to the third pair of words, you get the answer ‘tea’.",
       "options": [
         "ear",
         "tea",
@@ -5882,30 +4986,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "In these questions, one letter can be moved from the first word to the second word to make two\nnew words.\nThe letters must not otherwise be rearranged and both new words must make sense.\nFind the letter that moves and mark it on the answer sheet.\nExample pound or\nA p B o C u D n E d\nAnswer u\nSolution The answer is u: when removed from the word ‘pound’, we get a new word\n‘pond’ and when added to the word ‘or’ we get a new word ‘our’. The letters\nhave not otherwise been rearranged and both new words make sense.\nPage 16 Please go on to the next page >>>\n\n(absolute beat) (umbrella maul) (anecdote [ ? ]) 62 (passive save) (footpad toad) (housing [ ? ]) 63 (heather tear) (forward word) (portion [ ? ])",
-      "options": [
-        "riot",
-        "root",
-        "torn",
-        "trip",
-        "poor"
-      ]
-    },
-    "answer": {
-      "value": "neat"
-    },
-    "explanation": "The correct answer is neat.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment VR 3"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_insert_letter",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "In these questions, one letter can be moved from the first word to the second word to make two\nnew words.\nThe letters must not otherwise be rearranged and both new words must make sense.\nFind the letter that moves and mark it on the answer sheet.\nExample pound or\nA p B o C u D n E d\nAnswer u\nSolution The answer is u: when removed from the word ‘pound’, we get a new word\n‘pond’ and when added to the word ‘or’ we get a new word ‘our’. The letters\nhave not otherwise been rearranged and both new words make sense.\nPage 16 Please go on to the next page >>>\n\n(proceed core) (medical idea) (classes [ ? ])",
+      "text": "In these questions, one letter can be moved from the first word to the second word to make two\nnew words.\nThe letters must not otherwise be rearranged and both new words must make sense.\nFind the letter that moves and mark it on the answer sheet.\nExample pound or\nA p B o C u D n E d\nAnswer u\nSolution The answer is u: when removed from the word ‘pound’, we get a new word\n‘pond’ and when added to the word ‘or’ we get a new word ‘our’. The letters\nhave not otherwise been rearranged and both new words make sense.\n\n(proceed core) (medical idea) (classes [ ? ])",
       "options": [
         "lace",
         "sale",
@@ -5918,53 +4999,6 @@
       "value": "sale"
     },
     "explanation": "The correct answer is sale.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment VR 3"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_insert_letter",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "In these questions, one letter can be moved from the first word to the second word to make two\nnew words.\nThe letters must not otherwise be rearranged and both new words must make sense.\nFind the letter that moves and mark it on the answer sheet.\nExample pound or\nA p B o C u D n E d\nAnswer u\nSolution The answer is u: when removed from the word ‘pound’, we get a new word\n‘pond’ and when added to the word ‘or’ we get a new word ‘our’. The letters\nhave not otherwise been rearranged and both new words make sense.\nPage 16 Please go on to the next page >>>\n\n(portrait trap) (disbands sand) (animated [ ? ]) 66 (deepens sped) (recount tour) (threads [ ? ]) 67 (avenged need) (stapler pear) (clatter [ ? ])",
-      "options": [
-        "tear",
-        "real",
-        "late",
-        "tart",
-        "rate"
-      ]
-    },
-    "answer": {
-      "value": "data"
-    },
-    "explanation": "The correct answer is data.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment VR 3"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_word_pairs",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "In these questions, three of the five words are related in some way.\nFind the two words that do not go with these three and mark them both on the answer sheet.\nExample black mouse red green hut\nA black B mouse C red D green E hut\nAnswer mouse hut\nSolution The words ‘black’, ‘red’ and ‘green’ are related because they are all colours; the\nwords ‘mouse’ and ‘hut’ do not go with these three words.\n\nchair insect cat table boy 69 joke tease entertain jest please",
-      "options": [
-        "joke",
-        "tease",
-        "entertain",
-        "jest",
-        "please"
-      ],
-      "multi_select": true
-    },
-    "answer": {
-      "value": "chair, table"
-    },
-    "explanation": "The correct answer is chair, table.",
     "hints": [],
     "tags": [],
     "source": "GL Assessment VR 3"
@@ -5988,54 +5022,6 @@
       "value": "beside"
     },
     "explanation": "The correct answer is beside, above.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment VR 3"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_word_pairs",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "In these questions, three of the five words are related in some way.\nFind the two words that do not go with these three and mark them both on the answer sheet.\nExample black mouse red green hut\nA black B mouse C red D green E hut\nAnswer mouse hut\nSolution The words ‘black’, ‘red’ and ‘green’ are related because they are all colours; the\nwords ‘mouse’ and ‘hut’ do not go with these three words.\n\nlady male man woman boy 72 decide reveal choose agree ponder 73 song tune choir melody singer",
-      "options": [
-        "song",
-        "tune",
-        "choir",
-        "melody",
-        "singer"
-      ],
-      "multi_select": true
-    },
-    "answer": {
-      "value": "lady, woman"
-    },
-    "explanation": "The correct answer is lady, woman.",
-    "hints": [],
-    "tags": [],
-    "source": "GL Assessment VR 3"
-  },
-  {
-    "subject": "verbal_reasoning",
-    "question_type": "vr_alphabet_code",
-    "format": "multiple_choice",
-    "difficulty": 3,
-    "content": {
-      "text": "In these questions, three of the five words are related in some way.\nFind the two words that do not go with these three and mark them both on the answer sheet.\nExample black mouse red green hut\nA black B mouse C red D green E hut\nAnswer mouse hut\nSolution The words ‘black’, ‘red’ and ‘green’ are related because they are all colours; the\nwords ‘mouse’ and ‘hut’ do not go with these three words.\n\necstatic elated jubilant scared concerned The alphabet is here to help you with these questions. You need to work out a different code for each question. Choose the correct answer and mark it on the answer sheet. Answer SND code for T is S. Looking at the alphabet, the code letter is the letter immediately before it in the alphabet. Using the same code for TOE, the code for T is S, the code for O is N and the code for E is D. So the answer is SND.",
-      "options": [
-        "STU",
-        "SND",
-        "UPF",
-        "SRQ",
-        "SNE"
-      ],
-      "multi_select": true
-    },
-    "answer": {
-      "value": "scared, concerned"
-    },
-    "explanation": "The correct answer is scared, concerned.",
     "hints": [],
     "tags": [],
     "source": "GL Assessment VR 3"
@@ -6159,7 +5145,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "The words in the second set follow the same pattern as the words in the first set. Choose the missing word to complete the second set.\n\n\n\nyell (dye) head     idea (?) iris",
+      "text": "The words in the second set follow the same pattern as the words in the first set. Choose the missing word to complete the second set.\n\n\n\nyell (dye) head     idea (?) iris",
       "options": [
         "red",
         "sea",
@@ -6182,7 +5168,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Choose the number that completes the final set of numbers in the same way as the first two sets.\n\n\n\n5 (16) 4    3 (14) 7    8 (?) 6",
+      "text": "Choose the number that completes the final set of numbers in the same way as the first two sets.\n\n\n\n5 (16) 4    3 (14) 7    8 (?) 6",
       "options": [
         "26",
         "34",
@@ -6229,7 +5215,7 @@
     "format": "multiple_choice",
     "difficulty": 3,
     "content": {
-      "text": "Remove one letter from the first word and add it to the second word to make two new words. Do not change the order of the other letters. Select the letter that moves.\n\n\n\nfirst    had",
+      "text": "Remove one letter from the first word and add it to the second word to make two new words. Do not change the order of the other letters. Select the letter that moves.\n\n\n\nfirst    had",
       "options": [
         "f",
         "i",

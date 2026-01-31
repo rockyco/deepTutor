@@ -34,24 +34,6 @@
     ]
   },
   {
-    "question_num": 3,
-    "text": "Lucas asked everyone in Year 6 where they would like to go on a trip. He made a pie chart of the results.\n\nWhat fraction of the children said they wanted to go to either a farm or a zoo?",
-    "question_image": "q3_question_0.png",
-    "question_images": [
-      "q3_question_0.png"
-    ],
-    "images": [],
-    "answer": "C",
-    "explanation": "Answer:\n\nThe farm sector has an angle of 70° and the zoo sector has an angle of 90°. The total of these angles is 70° + 90° = 160°. As a fraction of the whole circle, this is \n3\n6\n0\n1\n6\n0\n. Divide the numerator and denominator by 10 and then by 4 to simplify: \n3\n6\n0\n1\n6\n0\n3\n6\n1\n6\n9\n4\n=\n=\n.",
-    "options": [
-      "7\n2",
-      "5\n2",
-      "9\n4",
-      "3\n1",
-      "9\n5"
-    ]
-  },
-  {
     "question_num": 4,
     "text": "Ben has £8 to spend. He buys a chocolate bar for £2.\n\nWhat percentage of his money does Ben spend on the chocolate bar?",
     "question_image": null,
@@ -68,22 +50,6 @@
     ]
   },
   {
-    "question_num": 5,
-    "text": "What is \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "answer": "E",
-    "explanation": "Answer:\n\n12 + 8 + 20 = 40. So \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n \n4\n0\n1\n2\n0\n=\n = 120 ÷ 40 = 3.",
-    "options": [
-      "6",
-      "26",
-      "4",
-      "38",
-      "3"
-    ]
-  },
-  {
     "question_num": 6,
     "text": "Look at the shape below.\n\nWhich one of the following shapes has the same area?",
     "question_image": "q6_question_0.png",
@@ -94,11 +60,11 @@
     "answer": "D",
     "explanation": "Answer:\n\nThe shape in the diagram can be split into a 3 m by 2 m rectangle and 3 m by 5 m rectangle. So the total area is (3 × 2) + (3 × 5) = 6 + 15 = 21 m2. The area of a parallelogram is base × vertical height, so the shape in option d) also has an area of 7 × 3 = 21 m2. (Options b) and e) both have areas of 20 m2. Options c) and a) both have areas of 25 m2.)",
     "options": [
-      "A parallelogram, base 5 m, vertical height 5 m.",
-      "A rectangle, width 4 m, length 5 m.",
-      "A square, side length 5 m.",
-      "A parallelogram, base 7 m, vertical height 3 m.",
-      "A triangle, base 10 m, height 4 m."
+      "A parallelogram, base 5 m, vertical height 5 m.",
+      "A rectangle, width 4 m, length 5 m.",
+      "A square, side length 5 m.",
+      "A parallelogram, base 7 m, vertical height 3 m.",
+      "A triangle, base 10 m, height 4 m."
     ]
   },
   {
@@ -135,7 +101,7 @@
   },
   {
     "question_num": 9,
-    "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
+    "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -145,192 +111,40 @@
       "2.543",
       "2543",
       "25.43",
-      "25 430",
+      "25 430",
       "254.3"
     ]
   },
   {
     "question_num": 10,
-    "text": "A book about space contains the following sentence:\n\nThe diameter of the Earth is 12 756.32 kilometres.\n\nWhat is the Earth’s diameter rounded to the nearest hundred kilometres?",
+    "text": "A book about space contains the following sentence:\n\nThe diameter of the Earth is 12 756.32 kilometres.\n\nWhat is the Earth’s diameter rounded to the nearest hundred kilometres?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "D",
     "explanation": "Answer:\n\nYou are rounding to the nearest hundred, so look at the digit in the tens column. It’s a 5, so round up to 12 800 km.",
     "options": [
-      "12 760 km",
-      "12 750 km",
-      "13 000 km",
-      "12 800 km",
-      "12 700 km"
+      "12 760 km",
+      "12 750 km",
+      "13 000 km",
+      "12 800 km",
+      "12 700 km"
     ]
   },
   {
     "question_num": 11,
-    "text": "Mr Chen is knitting a jumper. It takes him two and a half minutes to knit each row.\nHe starts knitting at 4:15 pm.\n\nAt what time will he have knitted 50 rows?",
+    "text": "Mr Chen is knitting a jumper. It takes him two and a half minutes to knit each row.\nHe starts knitting at 4:15 pm.\n\nAt what time will he have knitted 50 rows?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "B",
     "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
     "options": [
-      "5:55 pm",
-      "6:20 pm",
-      "6:00 pm",
-      "6:15 pm",
-      "5:05 pm"
-    ]
-  },
-  {
-    "question_num": 12,
-    "text": "41 − 3h = 17\n\nWhat is h?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "answer": "Unknown",
-    "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
-    "options": [
-      "19",
-      "8",
-      "12",
-      "6",
-      "24"
-    ]
-  },
-  {
-    "question_num": 13,
-    "text": "Which number has been put in the wrong place in this sorting diagram?",
-    "question_image": "q13_question_0.png",
-    "question_images": [
-      "q13_question_0.png"
-    ],
-    "images": [],
-    "answer": "Unknown",
-    "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
-    "options": [
-      "1",
-      "100",
-      "64",
-      "8",
-      "27"
-    ]
-  },
-  {
-    "question_num": 14,
-    "text": "Orange juice is usually priced at £1.50 per bottle.\n\nHow much would a bottle of orange juice cost if the price was reduced by 10%?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "answer": "Unknown",
-    "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
-    "options": [
-      "£1.40",
-      "£1.45",
-      "£1.35",
-      "£1.25",
-      "£1.30"
-    ]
-  },
-  {
-    "question_num": 15,
-    "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "answer": "Unknown",
-    "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
-    "options": [
-      "25 430",
-      "2543",
-      "2.543",
-      "254.3",
-      "25.43"
-    ]
-  },
-  {
-    "question_num": 16,
-    "text": "A chip shop records how many people had salt or vinegar on their chips.\n\nThe results are shown in this bar chart.\n\nWhy is the bar chart misleading?",
-    "question_image": "q16_question_0.png",
-    "question_images": [
-      "q16_question_0.png"
-    ],
-    "images": [],
-    "answer": "Unknown",
-    "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
-    "options": [
-      "The bars don’t begin at 0.",
-      "The bars should be vertical instead of horizontal.",
-      "The numbers should be given as percentages.",
-      "The numbers don’t add up to 100.",
-      "It doesn’t include other options, such as ketchup."
-    ]
-  },
-  {
-    "question_num": 17,
-    "text": "Marko is at a toy shop. He wants to buy two dinosaurs, three chickens and a tiger. The prices of the toys are shown below.\n\nWhich of the calculations below could Marko use to find out how much the toys will cost?",
-    "question_image": "q17_question_0.png",
-    "question_images": [
-      "q17_question_0.png"
-    ],
-    "images": [],
-    "answer": "Unknown",
-    "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
-    "options": [
-      "2 × £5.00 + 3 × £4.00 + £3.50 + 6p",
-      "2 × £5.00 + 3 × £4.00 + £3.50 − 6p",
-      "2 × £5.00 + 3 × £4.00 + £3.50 − 5p",
-      "2 × £5.00 + 3 × £4.00 + £3.50 + 5p",
-      "2 × £5.00 + 3 × £4.00 + £3.50 − 3p"
-    ]
-  },
-  {
-    "question_num": 18,
-    "text": "Milly collected some data on dogs at her local rescue centre. The table below is missing some of her results.\n\nHow many female puppies are there?",
-    "question_image": "q18_question_0.png",
-    "question_images": [
-      "q18_question_0.png"
-    ],
-    "images": [],
-    "answer": "Unknown",
-    "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
-    "options": [
-      "9",
-      "7",
-      "19",
-      "12",
-      "6"
-    ]
-  },
-  {
-    "question_num": 19,
-    "text": "What is the remainder when 2576 is divided by 9?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "answer": "Unknown",
-    "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
-    "options": [
-      "1",
-      "4",
-      "5",
-      "6",
-      "2"
-    ]
-  },
-  {
-    "question_num": 20,
-    "text": "What is \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "answer": "Unknown",
-    "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
-    "options": [
-      "26",
-      "4",
-      "6",
-      "38",
-      "3"
+      "5:55 pm",
+      "6:20 pm",
+      "6:00 pm",
+      "6:15 pm",
+      "5:05 pm"
     ]
   },
   {
@@ -344,16 +158,16 @@
     "answer": "C",
     "explanation": "Answer:\n\nPaintball costs £55 by itself, so it’s unlikely to be options d) or e). Try options c), a) and b). Option c) is the only one that adds up to £68. You can use the column method to add the costs:",
     "options": [
-      "Kayaking, sailing, high ropes",
-      "Kayaking, windsurfing and high ropes",
-      "Windsurfing, sailing and high ropes",
-      "Kayaking, paintball and high ropes",
+      "Kayaking, sailing, high ropes",
+      "Kayaking, windsurfing and high ropes",
+      "Windsurfing, sailing and high ropes",
+      "Kayaking, paintball and high ropes",
       "Paintball, windsurfing and sailing"
     ]
   },
   {
     "question_num": 20,
-    "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
+    "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -364,7 +178,7 @@
       "2543",
       "254.3",
       "25.43",
-      "25 430"
+      "25 430"
     ]
   },
   {
@@ -387,18 +201,18 @@
   },
   {
     "question_num": 22,
-    "text": "Mr Chen is knitting a jumper. It takes him two and a half minutes to knit each row.\nHe starts knitting at 4:15 pm.\n\nAt what time will he have knitted 50 rows?",
+    "text": "Mr Chen is knitting a jumper. It takes him two and a half minutes to knit each row.\nHe starts knitting at 4:15 pm.\n\nAt what time will he have knitted 50 rows?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "A",
     "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
     "options": [
-      "6:20 pm",
-      "5:55 pm",
-      "6:00 pm",
-      "5:05 pm",
-      "6:15 pm"
+      "6:20 pm",
+      "5:55 pm",
+      "6:00 pm",
+      "5:05 pm",
+      "6:15 pm"
     ]
   },
   {
@@ -412,11 +226,11 @@
     "answer": "C",
     "explanation": "Answer:\n\nReading from the graph, Rui spent 75% − 45% = 30% of the time doing drama. \n2\n2\n1\n hours is 60 + 60 + 30 = 150 minutes. 10% of 150 is 150 ÷ 10 = 15 minutes, so 30% of 150 minutes is 3 × 15 = 45 minutes.",
     "options": [
-      "40 minutes",
-      "15 minutes",
-      "45 minutes",
-      "75 minutes",
-      "30 minutes"
+      "40 minutes",
+      "15 minutes",
+      "45 minutes",
+      "75 minutes",
+      "30 minutes"
     ]
   },
   {
@@ -446,27 +260,27 @@
     "answer": "B",
     "explanation": "Answer:\n\nThe y-axis has an x-coordinate of 0 and the corner of the square furthest to the left has an x‑coordinate of −6, so the distance between opposite corners of each square is 6 units. So the distance between the centre of a square and one corner of a square is 6 ÷ 2 = 3 units. The point marked A is 3 units right and 3 units up from point (0, 0). So the coordinates of point A are (3, 3).",
     "options": [
-      "(6, 6)",
-      "(3, 3)",
-      "(6, 3)",
-      "(−3, −3)",
-      "(3, 9)"
+      "(6, 6)",
+      "(3, 3)",
+      "(6, 3)",
+      "(−3, −3)",
+      "(3, 9)"
     ]
   },
   {
     "question_num": 26,
-    "text": "A cuboid has a length of 14 m, a width of 2 m and a volume of 280 m3.\n\nWhat is the cuboid’s height?",
+    "text": "A cuboid has a length of 14 m, a width of 2 m and a volume of 280 m3.\n\nWhat is the cuboid’s height?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "B",
     "explanation": "Answer:\n\nVolume = length × width × height, so 280 = 14 × 2 × height = 28 × height. So the height of the cuboid is 280 ÷ 28 = 10 m.",
     "options": [
-      "20 m",
-      "10 m",
-      "14 m",
-      "15 m",
-      "20 m"
+      "20 m",
+      "10 m",
+      "14 m",
+      "15 m",
+      "20 m"
     ]
   },
   {
@@ -550,11 +364,11 @@
     "answer": "D",
     "explanation": "Answer:\n\nThe y-axis has an x-coordinate of 0 and the corner of the square furthest to the left has an x‑coordinate of −6, so the distance between opposite corners of each square is 6 units. So the distance between the centre of a square and one corner of a square is 6 ÷ 2 = 3 units. The point marked A is 3 units right and 3 units up from point (0, 0). So the coordinates of point A are (3, 3).",
     "options": [
-      "(6, 6)",
-      "(3, 9)",
-      "(6, 3)",
-      "(3, 3)",
-      "(−3, −3)"
+      "(6, 6)",
+      "(3, 9)",
+      "(6, 3)",
+      "(3, 3)",
+      "(−3, −3)"
     ]
   },
   {
@@ -568,10 +382,10 @@
     "answer": "D",
     "explanation": "Answer:\n\nPaintball costs £55 by itself, so it’s unlikely to be options a) or e). Try options d), b) and c). Option d) is the only one that adds up to £68. You can use the column method to add the costs:",
     "options": [
-      "Kayaking, paintball and high ropes",
-      "Kayaking, sailing, high ropes",
-      "Kayaking, windsurfing and high ropes",
-      "Windsurfing, sailing and high ropes",
+      "Kayaking, paintball and high ropes",
+      "Kayaking, sailing, high ropes",
+      "Kayaking, windsurfing and high ropes",
+      "Windsurfing, sailing and high ropes",
       "Paintball, windsurfing and sailing"
     ]
   },
@@ -595,14 +409,14 @@
   },
   {
     "question_num": 34,
-    "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
+    "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "E",
     "explanation": "Answer:\n\nMultiplication is the inverse operation of division, so the answer is 0.2543 × 1000 = 254.3.",
     "options": [
-      "25 430",
+      "25 430",
       "2543",
       "25.43",
       "2.543",
@@ -627,23 +441,23 @@
   },
   {
     "question_num": 36,
-    "text": "Johan takes part in a high jump competition. His best jump is 2.04 m.\n\nHow high is this in mm?",
+    "text": "Johan takes part in a high jump competition. His best jump is 2.04 m.\n\nHow high is this in mm?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "E",
     "explanation": "Answer:\n\n1 m = 100 cm, so 2.04 m = 2.04 × 100 = 204 cm. 1 cm = 10 mm, so 204 cm = 204 × 10 = 2040 mm.",
     "options": [
-      "204 mm",
-      "240 000 mm",
-      "20.4 mm",
-      "20 400 mm",
-      "2040 mm"
+      "204 mm",
+      "240 000 mm",
+      "20.4 mm",
+      "20 400 mm",
+      "2040 mm"
     ]
   },
   {
     "question_num": 37,
-    "text": "Four children collect animal stickers. Mazana has 120 stickers, Louis has 140 stickers, Nadia has 90 stickers and Connor has 50 stickers.\n\nWhat is the mean number of stickers owned by the four children?",
+    "text": "Four children collect animal stickers. Mazana has 120 stickers, Louis has 140 stickers, Nadia has 90 stickers and Connor has 50 stickers.\n\nWhat is the mean number of stickers owned by the four children?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -675,18 +489,18 @@
   },
   {
     "question_num": 39,
-    "text": "Mr Chen is knitting a jumper. It takes him two and a half minutes to knit each row.\nHe starts knitting at 4:15 pm.\n\nAt what time will he have knitted 50 rows?",
+    "text": "Mr Chen is knitting a jumper. It takes him two and a half minutes to knit each row.\nHe starts knitting at 4:15 pm.\n\nAt what time will he have knitted 50 rows?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "C",
     "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
     "options": [
-      "5:55 pm",
-      "5:05 pm",
-      "6:20 pm",
-      "6:15 pm",
-      "6:00 pm"
+      "5:55 pm",
+      "5:05 pm",
+      "6:20 pm",
+      "6:15 pm",
+      "6:00 pm"
     ]
   },
   {
@@ -707,7 +521,7 @@
   },
   {
     "question_num": 41,
-    "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
+    "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -716,14 +530,14 @@
     "options": [
       "25.43",
       "2.543",
-      "25 430",
+      "25 430",
       "2543",
       "254.3"
     ]
   },
   {
     "question_num": 42,
-    "text": "Four children collect animal stickers. Mazana has 120 stickers, Louis has 140 stickers, Nadia has 90 stickers and Connor has 50 stickers.\n\nWhat is the mean number of stickers owned by the four children?",
+    "text": "Four children collect animal stickers. Mazana has 120 stickers, Louis has 140 stickers, Nadia has 90 stickers and Connor has 50 stickers.\n\nWhat is the mean number of stickers owned by the four children?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -739,18 +553,18 @@
   },
   {
     "question_num": 43,
-    "text": "A cuboid has a length of 14 m, a width of 2 m and a volume of 280 m3.\n\nWhat is the cuboid’s height?",
+    "text": "A cuboid has a length of 14 m, a width of 2 m and a volume of 280 m3.\n\nWhat is the cuboid’s height?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "D",
     "explanation": "Answer:\n\nVolume = length × width × height, so 280 = 14 × 2 × height = 28 × height. So the height of the cuboid is 280 ÷ 28 = 10 m.",
     "options": [
-      "20 m",
-      "15 m",
-      "14 m",
-      "10 m",
-      "20 m"
+      "20 m",
+      "15 m",
+      "14 m",
+      "10 m",
+      "20 m"
     ]
   },
   {
@@ -773,18 +587,18 @@
   },
   {
     "question_num": 45,
-    "text": "Johan takes part in a high jump competition. His best jump is 2.04 m.\n\nHow high is this in mm?",
+    "text": "Johan takes part in a high jump competition. His best jump is 2.04 m.\n\nHow high is this in mm?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "B",
     "explanation": "Answer:\n\n1 m = 100 cm, so 2.04 m = 2.04 × 100 = 204 cm. 1 cm = 10 mm, so 204 cm = 204 × 10 = 2040 mm.",
     "options": [
-      "240 000 mm",
-      "2040 mm",
-      "204 mm",
-      "20.4 mm",
-      "20 400 mm"
+      "240 000 mm",
+      "2040 mm",
+      "204 mm",
+      "20.4 mm",
+      "20 400 mm"
     ]
   },
   {
@@ -812,24 +626,6 @@
     ]
   },
   {
-    "question_num": 47,
-    "text": "Lucas asked everyone in Year 6 where they would like to go on a trip. He made a pie chart of the results.\n\nWhat fraction of the children said they wanted to go to either a farm or a zoo?",
-    "question_image": "q47_question_0.png",
-    "question_images": [
-      "q47_question_0.png"
-    ],
-    "images": [],
-    "answer": "C",
-    "explanation": "Answer:\n\nThe farm sector has an angle of 70° and the zoo sector has an angle of 90°. The total of these angles is 70° + 90° = 160°. As a fraction of the whole circle, this is \n3\n6\n0\n1\n6\n0\n. Divide the numerator and denominator by 10 and then by 4 to simplify: \n3\n6\n0\n1\n6\n0\n3\n6\n1\n6\n9\n4\n=\n=\n.",
-    "options": [
-      "7\n2",
-      "3\n1",
-      "9\n4",
-      "5\n2",
-      "9\n5"
-    ]
-  },
-  {
     "question_num": 48,
     "text": "Shyam owns 6 brown rabbits and 2 black rabbits.\n\nWhat is the ratio of brown rabbits to black rabbits in its simplest form?",
     "question_image": null,
@@ -838,43 +634,27 @@
     "answer": "C",
     "explanation": "Answer:\n\nThe ratio of brown rabbits : black rabbits is 6 : 2. Divide both parts of the ratio by 2 to simplify to 3 : 1.",
     "options": [
-      "2 : 1",
-      "1 : 2",
-      "3 : 1",
-      "6 : 1",
-      "1 : 3"
-    ]
-  },
-  {
-    "question_num": 49,
-    "text": "What is \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "answer": "C",
-    "explanation": "Answer:\n\n12 + 8 + 20 = 40. So \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n \n4\n0\n1\n2\n0\n=\n = 120 ÷ 40 = 3.",
-    "options": [
-      "38",
-      "6",
-      "3",
-      "4",
-      "26"
+      "2 : 1",
+      "1 : 2",
+      "3 : 1",
+      "6 : 1",
+      "1 : 3"
     ]
   },
   {
     "question_num": 50,
-    "text": "Mr Chen is knitting a jumper. It takes him two and a half minutes to knit each row.\nHe starts knitting at 4:15 pm.\n\nAt what time will he have knitted 50 rows?",
+    "text": "Mr Chen is knitting a jumper. It takes him two and a half minutes to knit each row.\nHe starts knitting at 4:15 pm.\n\nAt what time will he have knitted 50 rows?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "A",
     "explanation": "Answer:\n\n2.5 minutes × 50 = 125 minutes. 125 minutes = 2 hours and 5 minutes. Add this to 4:15 pm: 4:15 pm + 2 hours = 6:15 pm, 6:15 pm + 5 minutes = 6:20 pm.",
     "options": [
-      "6:20 pm",
-      "5:55 pm",
-      "6:15 pm",
-      "6:00 pm",
-      "5:05 pm"
+      "6:20 pm",
+      "5:55 pm",
+      "6:15 pm",
+      "6:00 pm",
+      "5:05 pm"
     ]
   },
   {
@@ -906,11 +686,11 @@
     "answer": "C",
     "explanation": "Answer:\n\nReading from the graph, Rui spent 75% − 45% = 30% of the time doing drama. \n2\n2\n1\n hours is 60 + 60 + 30 = 150 minutes. 10% of 150 is 150 ÷ 10 = 15 minutes, so 30% of 150 minutes is 3 × 15 = 45 minutes.",
     "options": [
-      "15 minutes",
-      "75 minutes",
-      "45 minutes",
-      "40 minutes",
-      "30 minutes"
+      "15 minutes",
+      "75 minutes",
+      "45 minutes",
+      "40 minutes",
+      "30 minutes"
     ]
   },
   {
@@ -931,7 +711,7 @@
   },
   {
     "question_num": 54,
-    "text": "41 − 3h = 17\n\nWhat is h?",
+    "text": "41 − 3h = 17\n\nWhat is h?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -956,11 +736,11 @@
     "answer": "C",
     "explanation": "Answer:\n\nThe calculations show the prices rounded to the nearest 10p, so each item has 1p added on to its price. There are 2 + 3 + 1 = 6 items, so 6p has been added to the total cost. Option c) is the correct answer as Marko needs to take 6p off the total to get the right amount.",
     "options": [
-      "2 × £5.00 + 3 × £4.00 + £3.50 − 5p",
-      "2 × £5.00 + 3 × £4.00 + £3.50 + 6p",
-      "2 × £5.00 + 3 × £4.00 + £3.50 − 6p",
-      "2 × £5.00 + 3 × £4.00 + £3.50 + 5p",
-      "2 × £5.00 + 3 × £4.00 + £3.50 − 3p"
+      "2 × £5.00 + 3 × £4.00 + £3.50 − 5p",
+      "2 × £5.00 + 3 × £4.00 + £3.50 + 6p",
+      "2 × £5.00 + 3 × £4.00 + £3.50 − 6p",
+      "2 × £5.00 + 3 × £4.00 + £3.50 + 5p",
+      "2 × £5.00 + 3 × £4.00 + £3.50 − 3p"
     ]
   },
   {
@@ -1020,16 +800,16 @@
     "answer": "D",
     "explanation": "Answer:\n\nPaintball costs £55 by itself, so it’s unlikely to be options e) or c). Try options d), b) and a). Option d) is the only one that adds up to £68. You can use the column method to add the costs:",
     "options": [
-      "Kayaking, windsurfing and high ropes",
-      "Kayaking, sailing, high ropes",
+      "Kayaking, windsurfing and high ropes",
+      "Kayaking, sailing, high ropes",
       "Paintball, windsurfing and sailing",
-      "Windsurfing, sailing and high ropes",
-      "Kayaking, paintball and high ropes"
+      "Windsurfing, sailing and high ropes",
+      "Kayaking, paintball and high ropes"
     ]
   },
   {
     "question_num": 175,
-    "text": "41 − 3h = 17\n\nWhat is h?",
+    "text": "41 − 3h = 17\n\nWhat is h?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -1085,18 +865,18 @@
   },
   {
     "question_num": 178,
-    "text": "A cuboid has a length of 14 m, a width of 2 m and a volume of 280 m3.\n\nWhat is the cuboid’s height?",
+    "text": "A cuboid has a length of 14 m, a width of 2 m and a volume of 280 m3.\n\nWhat is the cuboid’s height?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "B",
     "explanation": "Answer:\n\nVolume = length × width × height, so 280 = 14 × 2 × height = 28 × height. So the height of the cuboid is 280 ÷ 28 = 10 m.",
     "options": [
-      "20 m",
-      "10 m",
-      "14 m",
-      "15 m",
-      "20 m"
+      "20 m",
+      "10 m",
+      "14 m",
+      "15 m",
+      "20 m"
     ]
   },
   {
@@ -1110,11 +890,11 @@
     "answer": "C",
     "explanation": "Answer:\n\nThe y-axis has an x-coordinate of 0 and the corner of the square furthest to the left has an x‑coordinate of −6, so the distance between opposite corners of each square is 6 units. So the distance between the centre of a square and one corner of a square is 6 ÷ 2 = 3 units. The point marked A is 3 units right and 3 units up from point (0, 0). So the coordinates of point A are (3, 3).",
     "options": [
-      "(3, 9)",
-      "(−3, −3)",
-      "(3, 3)",
-      "(6, 3)",
-      "(6, 6)"
+      "(3, 9)",
+      "(−3, −3)",
+      "(3, 3)",
+      "(6, 3)",
+      "(6, 6)"
     ]
   },
   {
@@ -1128,32 +908,16 @@
     "answer": "C",
     "explanation": "Answer:\n\nThe shape in the diagram can be split into a 3 m by 2 m rectangle and 3 m by 5 m rectangle. So the total area is (3 × 2) + (3 × 5) = 6 + 15 = 21 m2. The area of a parallelogram is base × vertical height, so the shape in option c) also has an area of 7 × 3 = 21 m2. (Options a) and d) both have areas of 20 m2. Options e) and b) both have areas of 25 m2.)",
     "options": [
-      "A rectangle, width 4 m, length 5 m.",
-      "A parallelogram, base 5 m, vertical height 5 m.",
-      "A parallelogram, base 7 m, vertical height 3 m.",
-      "A triangle, base 10 m, height 4 m.",
-      "A square, side length 5 m."
-    ]
-  },
-  {
-    "question_num": 181,
-    "text": "What is \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "answer": "C",
-    "explanation": "Answer:\n\n12 + 8 + 20 = 40. So \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n \n4\n0\n1\n2\n0\n=\n = 120 ÷ 40 = 3.",
-    "options": [
-      "6",
-      "38",
-      "3",
-      "26",
-      "4"
+      "A rectangle, width 4 m, length 5 m.",
+      "A parallelogram, base 5 m, vertical height 5 m.",
+      "A parallelogram, base 7 m, vertical height 3 m.",
+      "A triangle, base 10 m, height 4 m.",
+      "A square, side length 5 m."
     ]
   },
   {
     "question_num": 182,
-    "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
+    "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -1164,25 +928,7 @@
       "2543",
       "254.3",
       "2.543",
-      "25 430"
-    ]
-  },
-  {
-    "question_num": 183,
-    "text": "Lucas asked everyone in Year 6 where they would like to go on a trip. He made a pie chart of the results.\n\nWhat fraction of the children said they wanted to go to either a farm or a zoo?",
-    "question_image": "q183_question_0.png",
-    "question_images": [
-      "q183_question_0.png"
-    ],
-    "images": [],
-    "answer": "E",
-    "explanation": "Answer:\n\nThe farm sector has an angle of 70° and the zoo sector has an angle of 90°. The total of these angles is 70° + 90° = 160°. As a fraction of the whole circle, this is \n3\n6\n0\n1\n6\n0\n. Divide the numerator and denominator by 10 and then by 4 to simplify: \n3\n6\n0\n1\n6\n0\n3\n6\n1\n6\n9\n4\n=\n=\n.",
-    "options": [
-      "7\n2",
-      "3\n1",
-      "9\n5",
-      "5\n2",
-      "9\n4"
+      "25 430"
     ]
   },
   {
@@ -1203,7 +949,7 @@
   },
   {
     "question_num": 185,
-    "text": "Four children collect animal stickers. Mazana has 120 stickers, Louis has 140 stickers, Nadia has 90 stickers and Connor has 50 stickers.\n\nWhat is the mean number of stickers owned by the four children?",
+    "text": "Four children collect animal stickers. Mazana has 120 stickers, Louis has 140 stickers, Nadia has 90 stickers and Connor has 50 stickers.\n\nWhat is the mean number of stickers owned by the four children?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -1241,18 +987,18 @@
   },
   {
     "question_num": 187,
-    "text": "A cuboid has a length of 14 m, a width of 2 m and a volume of 280 m3.\n\nWhat is the cuboid’s height?",
+    "text": "A cuboid has a length of 14 m, a width of 2 m and a volume of 280 m3.\n\nWhat is the cuboid’s height?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "A",
     "explanation": "Answer:\n\nVolume = length × width × height, so 280 = 14 × 2 × height = 28 × height. So the height of the cuboid is 280 ÷ 28 = 10 m.",
     "options": [
-      "10 m",
-      "14 m",
-      "20 m",
-      "15 m",
-      "20 m"
+      "10 m",
+      "14 m",
+      "20 m",
+      "15 m",
+      "20 m"
     ]
   },
   {
@@ -1266,11 +1012,11 @@
     "answer": "C",
     "explanation": "Answer:\n\nPaintball costs £55 by itself, so it’s unlikely to be options d) or b). Try options c), e) and a). Option c) is the only one that adds up to £68. You can use the column method to add the costs:",
     "options": [
-      "Kayaking, windsurfing and high ropes",
+      "Kayaking, windsurfing and high ropes",
       "Paintball, windsurfing and sailing",
-      "Windsurfing, sailing and high ropes",
-      "Kayaking, paintball and high ropes",
-      "Kayaking, sailing, high ropes"
+      "Windsurfing, sailing and high ropes",
+      "Kayaking, paintball and high ropes",
+      "Kayaking, sailing, high ropes"
     ]
   },
   {
@@ -1284,11 +1030,11 @@
     "answer": "E",
     "explanation": "Answer:\n\nThe y-axis has an x-coordinate of 0 and the corner of the square furthest to the left has an x‑coordinate of −6, so the distance between opposite corners of each square is 6 units. So the distance between the centre of a square and one corner of a square is 6 ÷ 2 = 3 units. The point marked A is 3 units right and 3 units up from point (0, 0). So the coordinates of point A are (3, 3).",
     "options": [
-      "(−3, −3)",
-      "(6, 3)",
-      "(6, 6)",
-      "(3, 9)",
-      "(3, 3)"
+      "(−3, −3)",
+      "(6, 3)",
+      "(6, 6)",
+      "(3, 9)",
+      "(3, 3)"
     ]
   },
   {
@@ -1324,40 +1070,6 @@
     ]
   },
   {
-    "question_num": 192,
-    "text": "Lucas asked everyone in Year 6 where they would like to go on a trip. He made a pie chart of the results.\n\nWhat fraction of the children said they wanted to go to either a farm or a zoo?",
-    "question_image": "q192_question_0.png",
-    "question_images": [
-      "q192_question_0.png"
-    ],
-    "images": [],
-    "answer": "B",
-    "explanation": "Answer:\n\nThe farm sector has an angle of 70° and the zoo sector has an angle of 90°. The total of these angles is 70° + 90° = 160°. As a fraction of the whole circle, this is \n3\n6\n0\n1\n6\n0\n. Divide the numerator and denominator by 10 and then by 4 to simplify: \n3\n6\n0\n1\n6\n0\n3\n6\n1\n6\n9\n4\n=\n=\n.",
-    "options": [
-      "9\n5",
-      "9\n4",
-      "3\n1",
-      "5\n2",
-      "7\n2"
-    ]
-  },
-  {
-    "question_num": 193,
-    "text": "What is \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "answer": "D",
-    "explanation": "Answer:\n\n12 + 8 + 20 = 40. So \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n \n4\n0\n1\n2\n0\n=\n = 120 ÷ 40 = 3.",
-    "options": [
-      "26",
-      "6",
-      "4",
-      "3",
-      "38"
-    ]
-  },
-  {
     "question_num": 194,
     "text": "Look at the shape below.\n\nWhich one of the following shapes has the same area?",
     "question_image": "q194_question_0.png",
@@ -1368,11 +1080,11 @@
     "answer": "E",
     "explanation": "Answer:\n\nThe shape in the diagram can be split into a 3 m by 2 m rectangle and 3 m by 5 m rectangle. So the total area is (3 × 2) + (3 × 5) = 6 + 15 = 21 m2. The area of a parallelogram is base × vertical height, so the shape in option e) also has an area of 7 × 3 = 21 m2. (Options c) and b) both have areas of 20 m2. Options d) and a) both have areas of 25 m2.)",
     "options": [
-      "A parallelogram, base 5 m, vertical height 5 m.",
-      "A triangle, base 10 m, height 4 m.",
-      "A rectangle, width 4 m, length 5 m.",
-      "A square, side length 5 m.",
-      "A parallelogram, base 7 m, vertical height 3 m."
+      "A parallelogram, base 5 m, vertical height 5 m.",
+      "A triangle, base 10 m, height 4 m.",
+      "A rectangle, width 4 m, length 5 m.",
+      "A square, side length 5 m.",
+      "A parallelogram, base 7 m, vertical height 3 m."
     ]
   },
   {
@@ -1399,34 +1111,18 @@
   },
   {
     "question_num": 196,
-    "text": "Johan takes part in a high jump competition. His best jump is 2.04 m.\n\nHow high is this in mm?",
+    "text": "Johan takes part in a high jump competition. His best jump is 2.04 m.\n\nHow high is this in mm?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "E",
     "explanation": "Answer:\n\n1 m = 100 cm, so 2.04 m = 2.04 × 100 = 204 cm. 1 cm = 10 mm, so 204 cm = 204 × 10 = 2040 mm.",
     "options": [
-      "20 400 mm",
-      "20.4 mm",
-      "240 000 mm",
-      "204 mm",
-      "2040 mm"
-    ]
-  },
-  {
-    "question_num": 197,
-    "text": "What is \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "answer": "B",
-    "explanation": "Answer:\n\n12 + 8 + 20 = 40. So \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n \n4\n0\n1\n2\n0\n=\n = 120 ÷ 40 = 3.",
-    "options": [
-      "38",
-      "3",
-      "4",
-      "6",
-      "26"
+      "20 400 mm",
+      "20.4 mm",
+      "240 000 mm",
+      "204 mm",
+      "2040 mm"
     ]
   },
   {
@@ -1440,11 +1136,11 @@
     "answer": "A",
     "explanation": "Answer:\n\nPaintball costs £55 by itself, so it’s unlikely to be options d) or c). Try options a), e) and b). Option a) is the only one that adds up to £68. You can use the column method to add the costs:",
     "options": [
-      "Windsurfing, sailing and high ropes",
-      "Kayaking, windsurfing and high ropes",
+      "Windsurfing, sailing and high ropes",
+      "Kayaking, windsurfing and high ropes",
       "Paintball, windsurfing and sailing",
-      "Kayaking, paintball and high ropes",
-      "Kayaking, sailing, high ropes"
+      "Kayaking, paintball and high ropes",
+      "Kayaking, sailing, high ropes"
     ]
   },
   {
@@ -1461,24 +1157,6 @@
       "25%",
       "2%",
       "10%"
-    ]
-  },
-  {
-    "question_num": 200,
-    "text": "Lucas asked everyone in Year 6 where they would like to go on a trip. He made a pie chart of the results.\n\nWhat fraction of the children said they wanted to go to either a farm or a zoo?",
-    "question_image": "q200_question_0.png",
-    "question_images": [
-      "q200_question_0.png"
-    ],
-    "images": [],
-    "answer": "B",
-    "explanation": "Answer:\n\nThe farm sector has an angle of 70° and the zoo sector has an angle of 90°. The total of these angles is 70° + 90° = 160°. As a fraction of the whole circle, this is \n3\n6\n0\n1\n6\n0\n. Divide the numerator and denominator by 10 and then by 4 to simplify: \n3\n6\n0\n1\n6\n0\n3\n6\n1\n6\n9\n4\n=\n=\n.",
-    "options": [
-      "9\n5",
-      "9\n4",
-      "3\n1",
-      "5\n2",
-      "7\n2"
     ]
   },
   {
@@ -1501,23 +1179,23 @@
   },
   {
     "question_num": 202,
-    "text": "A cuboid has a length of 14 m, a width of 2 m and a volume of 280 m3.\n\nWhat is the cuboid’s height?",
+    "text": "A cuboid has a length of 14 m, a width of 2 m and a volume of 280 m3.\n\nWhat is the cuboid’s height?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "A",
     "explanation": "Answer:\n\nVolume = length × width × height, so 280 = 14 × 2 × height = 28 × height. So the height of the cuboid is 280 ÷ 28 = 10 m.",
     "options": [
-      "10 m",
-      "15 m",
-      "20 m",
-      "14 m",
-      "20 m"
+      "10 m",
+      "15 m",
+      "20 m",
+      "14 m",
+      "20 m"
     ]
   },
   {
     "question_num": 203,
-    "text": "41 − 3h = 17\n\nWhat is h?",
+    "text": "41 − 3h = 17\n\nWhat is h?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -1542,11 +1220,11 @@
     "answer": "C",
     "explanation": "Answer:\n\nThe shape in the diagram can be split into a 3 m by 2 m rectangle and 3 m by 5 m rectangle. So the total area is (3 × 2) + (3 × 5) = 6 + 15 = 21 m2. The area of a parallelogram is base × vertical height, so the shape in option c) also has an area of 7 × 3 = 21 m2. (Options d) and b) both have areas of 20 m2. Options e) and a) both have areas of 25 m2.)",
     "options": [
-      "A parallelogram, base 5 m, vertical height 5 m.",
-      "A triangle, base 10 m, height 4 m.",
-      "A parallelogram, base 7 m, vertical height 3 m.",
-      "A rectangle, width 4 m, length 5 m.",
-      "A square, side length 5 m."
+      "A parallelogram, base 5 m, vertical height 5 m.",
+      "A triangle, base 10 m, height 4 m.",
+      "A parallelogram, base 7 m, vertical height 3 m.",
+      "A rectangle, width 4 m, length 5 m.",
+      "A square, side length 5 m."
     ]
   },
   {
@@ -1567,18 +1245,18 @@
   },
   {
     "question_num": 206,
-    "text": "Johan takes part in a high jump competition. His best jump is 2.04 m.\n\nHow high is this in mm?",
+    "text": "Johan takes part in a high jump competition. His best jump is 2.04 m.\n\nHow high is this in mm?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "D",
     "explanation": "Answer:\n\n1 m = 100 cm, so 2.04 m = 2.04 × 100 = 204 cm. 1 cm = 10 mm, so 204 cm = 204 × 10 = 2040 mm.",
     "options": [
-      "20 400 mm",
-      "204 mm",
-      "240 000 mm",
-      "2040 mm",
-      "20.4 mm"
+      "20 400 mm",
+      "204 mm",
+      "240 000 mm",
+      "2040 mm",
+      "20.4 mm"
     ]
   },
   {
@@ -1599,18 +1277,18 @@
   },
   {
     "question_num": 208,
-    "text": "A cuboid has a length of 14 m, a width of 2 m and a volume of 280 m3.\n\nWhat is the cuboid’s height?",
+    "text": "A cuboid has a length of 14 m, a width of 2 m and a volume of 280 m3.\n\nWhat is the cuboid’s height?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "A",
     "explanation": "Answer:\n\nVolume = length × width × height, so 280 = 14 × 2 × height = 28 × height. So the height of the cuboid is 280 ÷ 28 = 10 m.",
     "options": [
-      "10 m",
-      "14 m",
-      "20 m",
-      "15 m",
-      "20 m"
+      "10 m",
+      "14 m",
+      "20 m",
+      "15 m",
+      "20 m"
     ]
   },
   {
@@ -1632,24 +1310,8 @@
     ]
   },
   {
-    "question_num": 210,
-    "text": "What is \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "answer": "D",
-    "explanation": "Answer:\n\n12 + 8 + 20 = 40. So \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n \n4\n0\n1\n2\n0\n=\n = 120 ÷ 40 = 3.",
-    "options": [
-      "38",
-      "26",
-      "4",
-      "3",
-      "6"
-    ]
-  },
-  {
     "question_num": 211,
-    "text": "41 − 3h = 17\n\nWhat is h?",
+    "text": "41 − 3h = 17\n\nWhat is h?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -1701,7 +1363,7 @@
   },
   {
     "question_num": 214,
-    "text": "Four children collect animal stickers. Mazana has 120 stickers, Louis has 140 stickers, Nadia has 90 stickers and Connor has 50 stickers.\n\nWhat is the mean number of stickers owned by the four children?",
+    "text": "Four children collect animal stickers. Mazana has 120 stickers, Louis has 140 stickers, Nadia has 90 stickers and Connor has 50 stickers.\n\nWhat is the mean number of stickers owned by the four children?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -1716,22 +1378,6 @@
     ]
   },
   {
-    "question_num": 215,
-    "text": "What is \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "answer": "C",
-    "explanation": "Answer:\n\n12 + 8 + 20 = 40. So \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n \n4\n0\n1\n2\n0\n=\n = 120 ÷ 40 = 3.",
-    "options": [
-      "4",
-      "38",
-      "3",
-      "26",
-      "6"
-    ]
-  },
-  {
     "question_num": 216,
     "text": "Marko is at a toy shop. He wants to buy two dinosaurs, three chickens and a tiger. The prices of the toys are shown below.\n\nWhich of the calculations below could Marko use to find out how much the toys will cost?",
     "question_image": "q216_question_0.png",
@@ -1742,11 +1388,11 @@
     "answer": "B",
     "explanation": "Answer:\n\nThe calculations show the prices rounded to the nearest 10p, so each item has 1p added on to its price. There are 2 + 3 + 1 = 6 items, so 6p has been added to the total cost. Option b) is the correct answer as Marko needs to take 6p off the total to get the right amount.",
     "options": [
-      "2 × £5.00 + 3 × £4.00 + £3.50 − 3p",
-      "2 × £5.00 + 3 × £4.00 + £3.50 − 6p",
-      "2 × £5.00 + 3 × £4.00 + £3.50 + 6p",
-      "2 × £5.00 + 3 × £4.00 + £3.50 + 5p",
-      "2 × £5.00 + 3 × £4.00 + £3.50 − 5p"
+      "2 × £5.00 + 3 × £4.00 + £3.50 − 3p",
+      "2 × £5.00 + 3 × £4.00 + £3.50 − 6p",
+      "2 × £5.00 + 3 × £4.00 + £3.50 + 6p",
+      "2 × £5.00 + 3 × £4.00 + £3.50 + 5p",
+      "2 × £5.00 + 3 × £4.00 + £3.50 − 5p"
     ]
   },
   {
@@ -1832,45 +1478,27 @@
     "answer": "C",
     "explanation": "Answer:\n\nThe ratio of brown rabbits : black rabbits is 6 : 2. Divide both parts of the ratio by 2 to simplify to 3 : 1.",
     "options": [
-      "6 : 1",
-      "1 : 3",
-      "3 : 1",
-      "2 : 1",
-      "1 : 2"
-    ]
-  },
-  {
-    "question_num": 222,
-    "text": "Lucas asked everyone in Year 6 where they would like to go on a trip. He made a pie chart of the results.\n\nWhat fraction of the children said they wanted to go to either a farm or a zoo?",
-    "question_image": "q222_question_0.png",
-    "question_images": [
-      "q222_question_0.png"
-    ],
-    "images": [],
-    "answer": "E",
-    "explanation": "Answer:\n\nThe farm sector has an angle of 70° and the zoo sector has an angle of 90°. The total of these angles is 70° + 90° = 160°. As a fraction of the whole circle, this is \n3\n6\n0\n1\n6\n0\n. Divide the numerator and denominator by 10 and then by 4 to simplify: \n3\n6\n0\n1\n6\n0\n3\n6\n1\n6\n9\n4\n=\n=\n.",
-    "options": [
-      "5\n2",
-      "7\n2",
-      "3\n1",
-      "9\n5",
-      "9\n4"
+      "6 : 1",
+      "1 : 3",
+      "3 : 1",
+      "2 : 1",
+      "1 : 2"
     ]
   },
   {
     "question_num": 223,
-    "text": "Johan takes part in a high jump competition. His best jump is 2.04 m.\n\nHow high is this in mm?",
+    "text": "Johan takes part in a high jump competition. His best jump is 2.04 m.\n\nHow high is this in mm?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "A",
     "explanation": "Answer:\n\n1 m = 100 cm, so 2.04 m = 2.04 × 100 = 204 cm. 1 cm = 10 mm, so 204 cm = 204 × 10 = 2040 mm.",
     "options": [
-      "2040 mm",
-      "204 mm",
-      "240 000 mm",
-      "20.4 mm",
-      "20 400 mm"
+      "2040 mm",
+      "204 mm",
+      "240 000 mm",
+      "20.4 mm",
+      "20 400 mm"
     ]
   },
   {
@@ -1920,11 +1548,11 @@
     "answer": "A",
     "explanation": "Answer:\n\nPaintball costs £55 by itself, so it’s unlikely to be options c) or b). Try options a), e) and d). Option a) is the only one that adds up to £68. You can use the column method to add the costs:",
     "options": [
-      "Windsurfing, sailing and high ropes",
+      "Windsurfing, sailing and high ropes",
       "Paintball, windsurfing and sailing",
-      "Kayaking, paintball and high ropes",
-      "Kayaking, windsurfing and high ropes",
-      "Kayaking, sailing, high ropes"
+      "Kayaking, paintball and high ropes",
+      "Kayaking, windsurfing and high ropes",
+      "Kayaking, sailing, high ropes"
     ]
   },
   {
@@ -1938,43 +1566,27 @@
     "answer": "E",
     "explanation": "Answer:\n\nThe shape in the diagram can be split into a 3 m by 2 m rectangle and 3 m by 5 m rectangle. So the total area is (3 × 2) + (3 × 5) = 6 + 15 = 21 m2. The area of a parallelogram is base × vertical height, so the shape in option e) also has an area of 7 × 3 = 21 m2. (Options b) and c) both have areas of 20 m2. Options a) and d) both have areas of 25 m2.)",
     "options": [
-      "A square, side length 5 m.",
-      "A rectangle, width 4 m, length 5 m.",
-      "A triangle, base 10 m, height 4 m.",
-      "A parallelogram, base 5 m, vertical height 5 m.",
-      "A parallelogram, base 7 m, vertical height 3 m."
-    ]
-  },
-  {
-    "question_num": 228,
-    "text": "What is \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "answer": "D",
-    "explanation": "Answer:\n\n12 + 8 + 20 = 40. So \n1\n2\n8\n2\n0\n1\n2\n0\n+\n+\n \n4\n0\n1\n2\n0\n=\n = 120 ÷ 40 = 3.",
-    "options": [
-      "38",
-      "26",
-      "4",
-      "3",
-      "6"
+      "A square, side length 5 m.",
+      "A rectangle, width 4 m, length 5 m.",
+      "A triangle, base 10 m, height 4 m.",
+      "A parallelogram, base 5 m, vertical height 5 m.",
+      "A parallelogram, base 7 m, vertical height 3 m."
     ]
   },
   {
     "question_num": 229,
-    "text": "Johan takes part in a high jump competition. His best jump is 2.04 m.\n\nHow high is this in mm?",
+    "text": "Johan takes part in a high jump competition. His best jump is 2.04 m.\n\nHow high is this in mm?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "A",
     "explanation": "Answer:\n\n1 m = 100 cm, so 2.04 m = 2.04 × 100 = 204 cm. 1 cm = 10 mm, so 204 cm = 204 × 10 = 2040 mm.",
     "options": [
-      "2040 mm",
-      "204 mm",
-      "240 000 mm",
-      "20 400 mm",
-      "20.4 mm"
+      "2040 mm",
+      "204 mm",
+      "240 000 mm",
+      "20 400 mm",
+      "20.4 mm"
     ]
   },
   {
@@ -2035,7 +1647,7 @@
   },
   {
     "question_num": 233,
-    "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
+    "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -2043,7 +1655,7 @@
     "explanation": "Answer:\n\nMultiplication is the inverse operation of division, so the answer is 0.2543 × 1000 = 254.3.",
     "options": [
       "2543",
-      "25 430",
+      "25 430",
       "25.43",
       "2.543",
       "254.3"
@@ -2067,7 +1679,7 @@
   },
   {
     "question_num": 235,
-    "text": "41 − 3h = 17\n\nWhat is h?",
+    "text": "41 − 3h = 17\n\nWhat is h?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -2117,7 +1729,7 @@
   },
   {
     "question_num": 238,
-    "text": "Karen is buying some fabric that costs £4.80 per metre.\n\nHow much would 5 m of this fabric cost?",
+    "text": "Karen is buying some fabric that costs £4.80 per metre.\n\nHow much would 5 m of this fabric cost?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -2160,11 +1772,11 @@
     "answer": "E",
     "explanation": "Answer:\n\nThe shape in the diagram can be split into a 3 m by 2 m rectangle and 3 m by 5 m rectangle. So the total area is (3 × 2) + (3 × 5) = 6 + 15 = 21 m2. The area of a parallelogram is base × vertical height, so the shape in option e) also has an area of 7 × 3 = 21 m2. (Options d) and a) both have areas of 20 m2. Options c) and b) both have areas of 25 m2.)",
     "options": [
-      "A triangle, base 10 m, height 4 m.",
-      "A parallelogram, base 5 m, vertical height 5 m.",
-      "A square, side length 5 m.",
-      "A rectangle, width 4 m, length 5 m.",
-      "A parallelogram, base 7 m, vertical height 3 m."
+      "A triangle, base 10 m, height 4 m.",
+      "A parallelogram, base 5 m, vertical height 5 m.",
+      "A square, side length 5 m.",
+      "A rectangle, width 4 m, length 5 m.",
+      "A parallelogram, base 7 m, vertical height 3 m."
     ]
   },
   {
@@ -2187,23 +1799,23 @@
   },
   {
     "question_num": 242,
-    "text": "A book about space contains the following sentence:\n\nThe diameter of the Earth is 12 756.32 kilometres.\n\nWhat is the Earth’s diameter rounded to the nearest hundred kilometres?",
+    "text": "A book about space contains the following sentence:\n\nThe diameter of the Earth is 12 756.32 kilometres.\n\nWhat is the Earth’s diameter rounded to the nearest hundred kilometres?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "D",
     "explanation": "Answer:\n\nYou are rounding to the nearest hundred, so look at the digit in the tens column. It’s a 5, so round up to 12 800 km.",
     "options": [
-      "12 700 km",
-      "12 760 km",
-      "13 000 km",
-      "12 800 km",
-      "12 750 km"
+      "12 700 km",
+      "12 760 km",
+      "13 000 km",
+      "12 800 km",
+      "12 750 km"
     ]
   },
   {
     "question_num": 243,
-    "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
+    "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -2211,7 +1823,7 @@
     "explanation": "Answer:\n\nMultiplication is the inverse operation of division, so the answer is 0.2543 × 1000 = 254.3.",
     "options": [
       "25.43",
-      "25 430",
+      "25 430",
       "254.3",
       "2.543",
       "2543"
@@ -2284,11 +1896,11 @@
     "answer": "C",
     "explanation": "Answer:\n\nThe shape in the diagram can be split into a 3 m by 2 m rectangle and 3 m by 5 m rectangle. So the total area is (3 × 2) + (3 × 5) = 6 + 15 = 21 m2. The area of a parallelogram is base × vertical height, so the shape in option c) also has an area of 7 × 3 = 21 m2. (Options a) and d) both have areas of 20 m2. Options e) and b) both have areas of 25 m2.)",
     "options": [
-      "A rectangle, width 4 m, length 5 m.",
-      "A parallelogram, base 5 m, vertical height 5 m.",
-      "A parallelogram, base 7 m, vertical height 3 m.",
-      "A triangle, base 10 m, height 4 m.",
-      "A square, side length 5 m."
+      "A rectangle, width 4 m, length 5 m.",
+      "A parallelogram, base 5 m, vertical height 5 m.",
+      "A parallelogram, base 7 m, vertical height 3 m.",
+      "A triangle, base 10 m, height 4 m.",
+      "A square, side length 5 m."
     ]
   },
   {
@@ -2302,10 +1914,10 @@
     "answer": "A",
     "explanation": "Answer:\n\nPaintball costs £55 by itself, so it’s unlikely to be options b) or e). Try options a), c) and d). Option a) is the only one that adds up to £68. You can use the column method to add the costs:",
     "options": [
-      "Windsurfing, sailing and high ropes",
-      "Kayaking, paintball and high ropes",
-      "Kayaking, sailing, high ropes",
-      "Kayaking, windsurfing and high ropes",
+      "Windsurfing, sailing and high ropes",
+      "Kayaking, paintball and high ropes",
+      "Kayaking, sailing, high ropes",
+      "Kayaking, windsurfing and high ropes",
       "Paintball, windsurfing and sailing"
     ]
   },
@@ -2320,11 +1932,11 @@
     "answer": "E",
     "explanation": "Answer:\n\nThe calculations show the prices rounded to the nearest 10p, so each item has 1p added on to its price. There are 2 + 3 + 1 = 6 items, so 6p has been added to the total cost. Option e) is the correct answer as Marko needs to take 6p off the total to get the right amount.",
     "options": [
-      "2 × £5.00 + 3 × £4.00 + £3.50 + 6p",
-      "2 × £5.00 + 3 × £4.00 + £3.50 − 5p",
-      "2 × £5.00 + 3 × £4.00 + £3.50 − 3p",
-      "2 × £5.00 + 3 × £4.00 + £3.50 + 5p",
-      "2 × £5.00 + 3 × £4.00 + £3.50 − 6p"
+      "2 × £5.00 + 3 × £4.00 + £3.50 + 6p",
+      "2 × £5.00 + 3 × £4.00 + £3.50 − 5p",
+      "2 × £5.00 + 3 × £4.00 + £3.50 − 3p",
+      "2 × £5.00 + 3 × £4.00 + £3.50 + 5p",
+      "2 × £5.00 + 3 × £4.00 + £3.50 − 6p"
     ]
   },
   {
@@ -2360,11 +1972,11 @@
     "answer": "A",
     "explanation": "Answer:\n\nThe ratio of brown rabbits : black rabbits is 6 : 2. Divide both parts of the ratio by 2 to simplify to 3 : 1.",
     "options": [
-      "3 : 1",
-      "6 : 1",
-      "1 : 3",
-      "2 : 1",
-      "1 : 2"
+      "3 : 1",
+      "6 : 1",
+      "1 : 3",
+      "2 : 1",
+      "1 : 2"
     ]
   },
   {
@@ -2407,7 +2019,7 @@
   },
   {
     "question_num": 254,
-    "text": "Karen is buying some fabric that costs £4.80 per metre.\n\nHow much would 5 m of this fabric cost?",
+    "text": "Karen is buying some fabric that costs £4.80 per metre.\n\nHow much would 5 m of this fabric cost?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -2423,7 +2035,7 @@
   },
   {
     "question_num": 255,
-    "text": "Four children collect animal stickers. Mazana has 120 stickers, Louis has 140 stickers, Nadia has 90 stickers and Connor has 50 stickers.\n\nWhat is the mean number of stickers owned by the four children?",
+    "text": "Four children collect animal stickers. Mazana has 120 stickers, Louis has 140 stickers, Nadia has 90 stickers and Connor has 50 stickers.\n\nWhat is the mean number of stickers owned by the four children?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -2439,7 +2051,7 @@
   },
   {
     "question_num": 256,
-    "text": "41 − 3h = 17\n\nWhat is h?",
+    "text": "41 − 3h = 17\n\nWhat is h?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -2495,7 +2107,7 @@
   },
   {
     "question_num": 259,
-    "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
+    "text": "___ ÷ 1000 = 0.2543\n\nWhat number is missing from the calculation above?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -2504,7 +2116,7 @@
     "options": [
       "2.543",
       "254.3",
-      "25 430",
+      "25 430",
       "2543",
       "25.43"
     ]
@@ -2536,11 +2148,11 @@
     "answer": "E",
     "explanation": "Answer:\n\nThe shape in the diagram can be split into a 3 m by 2 m rectangle and 3 m by 5 m rectangle. So the total area is (3 × 2) + (3 × 5) = 6 + 15 = 21 m2. The area of a parallelogram is base × vertical height, so the shape in option e) also has an area of 7 × 3 = 21 m2. (Options c) and a) both have areas of 20 m2. Options d) and b) both have areas of 25 m2.)",
     "options": [
-      "A triangle, base 10 m, height 4 m.",
-      "A parallelogram, base 5 m, vertical height 5 m.",
-      "A rectangle, width 4 m, length 5 m.",
-      "A square, side length 5 m.",
-      "A parallelogram, base 7 m, vertical height 3 m."
+      "A triangle, base 10 m, height 4 m.",
+      "A parallelogram, base 5 m, vertical height 5 m.",
+      "A rectangle, width 4 m, length 5 m.",
+      "A square, side length 5 m.",
+      "A parallelogram, base 7 m, vertical height 3 m."
     ]
   },
   {
@@ -2554,11 +2166,11 @@
     "answer": "A",
     "explanation": "Answer:\n\nPaintball costs £55 by itself, so it’s unlikely to be options c) or b). Try options a), e) and d). Option a) is the only one that adds up to £68. You can use the column method to add the costs:",
     "options": [
-      "Windsurfing, sailing and high ropes",
+      "Windsurfing, sailing and high ropes",
       "Paintball, windsurfing and sailing",
-      "Kayaking, paintball and high ropes",
-      "Kayaking, windsurfing and high ropes",
-      "Kayaking, sailing, high ropes"
+      "Kayaking, paintball and high ropes",
+      "Kayaking, windsurfing and high ropes",
+      "Kayaking, sailing, high ropes"
     ]
   },
   {
@@ -2595,28 +2207,6 @@
       "The bars don’t begin at 0.",
       "It doesn’t include other options, such as ketchup.",
       "The numbers don’t add up to 100."
-    ]
-  },
-  {
-    "question_num": 265,
-    "text": "Which of the shapes below is not a regular polygon?",
-    "question_image": null,
-    "question_images": [],
-    "images": [
-      "q265_option_0.png",
-      "q265_option_1.png",
-      "q265_option_2.png",
-      "q265_option_3.png",
-      "q265_option_4.png"
-    ],
-    "answer": "Unknown",
-    "explanation": "Answer:",
-    "options": [
-      "a)",
-      "b)",
-      "c)",
-      "d)",
-      "e)"
     ]
   },
   {
@@ -2686,11 +2276,11 @@
     "answer": "B",
     "explanation": "Answer:\n\nThe ratio of brown rabbits : black rabbits is 6 : 2. Divide both parts of the ratio by 2 to simplify to 3 : 1.",
     "options": [
-      "6 : 1",
-      "3 : 1",
-      "1 : 2",
-      "1 : 3",
-      "2 : 1"
+      "6 : 1",
+      "3 : 1",
+      "1 : 2",
+      "1 : 3",
+      "2 : 1"
     ]
   },
   {
@@ -2727,18 +2317,18 @@
   },
   {
     "question_num": 272,
-    "text": "A book about space contains the following sentence:\n\nThe diameter of the Earth is 12 756.32 kilometres.\n\nWhat is the Earth’s diameter rounded to the nearest hundred kilometres?",
+    "text": "A book about space contains the following sentence:\n\nThe diameter of the Earth is 12 756.32 kilometres.\n\nWhat is the Earth’s diameter rounded to the nearest hundred kilometres?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "B",
     "explanation": "Answer:\n\nYou are rounding to the nearest hundred, so look at the digit in the tens column. It’s a 5, so round up to 12 800 km.",
     "options": [
-      "12 760 km",
-      "12 800 km",
-      "13 000 km",
-      "12 700 km",
-      "12 750 km"
+      "12 760 km",
+      "12 800 km",
+      "13 000 km",
+      "12 700 km",
+      "12 750 km"
     ]
   },
   {
@@ -2752,11 +2342,11 @@
     "answer": "C",
     "explanation": "Answer:\n\nPaintball costs £55 by itself, so it’s unlikely to be options a) or b). Try options c), e) and d). Option c) is the only one that adds up to £68. You can use the column method to add the costs:",
     "options": [
-      "Kayaking, paintball and high ropes",
+      "Kayaking, paintball and high ropes",
       "Paintball, windsurfing and sailing",
-      "Windsurfing, sailing and high ropes",
-      "Kayaking, windsurfing and high ropes",
-      "Kayaking, sailing, high ropes"
+      "Windsurfing, sailing and high ropes",
+      "Kayaking, windsurfing and high ropes",
+      "Kayaking, sailing, high ropes"
     ]
   },
   {
@@ -2809,7 +2399,7 @@
   },
   {
     "question_num": 276,
-    "text": "Four children collect animal stickers. Mazana has 120 stickers, Louis has 140 stickers, Nadia has 90 stickers and Connor has 50 stickers.\n\nWhat is the mean number of stickers owned by the four children?",
+    "text": "Four children collect animal stickers. Mazana has 120 stickers, Louis has 140 stickers, Nadia has 90 stickers and Connor has 50 stickers.\n\nWhat is the mean number of stickers owned by the four children?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -2834,11 +2424,11 @@
     "answer": "A",
     "explanation": "Answer:\n\nThe y-axis has an x-coordinate of 0 and the corner of the square furthest to the left has an x‑coordinate of −6, so the distance between opposite corners of each square is 6 units. So the distance between the centre of a square and one corner of a square is 6 ÷ 2 = 3 units. The point marked A is 3 units right and 3 units up from point (0, 0). So the coordinates of point A are (3, 3).",
     "options": [
-      "(3, 3)",
-      "(−3, −3)",
-      "(6, 3)",
-      "(3, 9)",
-      "(6, 6)"
+      "(3, 3)",
+      "(−3, −3)",
+      "(6, 3)",
+      "(3, 9)",
+      "(6, 6)"
     ]
   },
   {
@@ -2865,7 +2455,7 @@
   },
   {
     "question_num": 279,
-    "text": "41 − 3h = 17\n\nWhat is h?",
+    "text": "41 − 3h = 17\n\nWhat is h?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -2906,11 +2496,11 @@
     "answer": "A",
     "explanation": "Answer:\n\nThe shape in the diagram can be split into a 3 m by 2 m rectangle and 3 m by 5 m rectangle. So the total area is (3 × 2) + (3 × 5) = 6 + 15 = 21 m2. The area of a parallelogram is base × vertical height, so the shape in option a) also has an area of 7 × 3 = 21 m2. (Options d) and c) both have areas of 20 m2. Options e) and b) both have areas of 25 m2.)",
     "options": [
-      "A parallelogram, base 7 m, vertical height 3 m.",
-      "A parallelogram, base 5 m, vertical height 5 m.",
-      "A triangle, base 10 m, height 4 m.",
-      "A rectangle, width 4 m, length 5 m.",
-      "A square, side length 5 m."
+      "A parallelogram, base 7 m, vertical height 3 m.",
+      "A parallelogram, base 5 m, vertical height 5 m.",
+      "A triangle, base 10 m, height 4 m.",
+      "A rectangle, width 4 m, length 5 m.",
+      "A square, side length 5 m."
     ]
   },
   {
@@ -2961,10 +2551,10 @@
     "explanation": "Answer:\n\nPaintball costs £55 by itself, so it’s unlikely to be options c) or a). Try options d), b) and e). Option d) is the only one that adds up to £68. You can use the column method to add the costs:",
     "options": [
       "Paintball, windsurfing and sailing",
-      "Kayaking, sailing, high ropes",
-      "Kayaking, paintball and high ropes",
-      "Windsurfing, sailing and high ropes",
-      "Kayaking, windsurfing and high ropes"
+      "Kayaking, sailing, high ropes",
+      "Kayaking, paintball and high ropes",
+      "Windsurfing, sailing and high ropes",
+      "Kayaking, windsurfing and high ropes"
     ]
   },
   {
@@ -3018,11 +2608,11 @@
     "answer": "B",
     "explanation": "Answer:\n\nReading from the graph, Rui spent 75% − 45% = 30% of the time doing drama. \n2\n2\n1\n hours is 60 + 60 + 30 = 150 minutes. 10% of 150 is 150 ÷ 10 = 15 minutes, so 30% of 150 minutes is 3 × 15 = 45 minutes.",
     "options": [
-      "40 minutes",
-      "45 minutes",
-      "75 minutes",
-      "15 minutes",
-      "30 minutes"
+      "40 minutes",
+      "45 minutes",
+      "75 minutes",
+      "15 minutes",
+      "30 minutes"
     ]
   },
   {
@@ -3052,11 +2642,11 @@
     "answer": "D",
     "explanation": "Answer:\n\nThe y-axis has an x-coordinate of 0 and the corner of the square furthest to the left has an x‑coordinate of −6, so the distance between opposite corners of each square is 6 units. So the distance between the centre of a square and one corner of a square is 6 ÷ 2 = 3 units. The point marked A is 3 units right and 3 units up from point (0, 0). So the coordinates of point A are (3, 3).",
     "options": [
-      "(6, 6)",
-      "(6, 3)",
-      "(−3, −3)",
-      "(3, 3)",
-      "(3, 9)"
+      "(6, 6)",
+      "(6, 3)",
+      "(−3, −3)",
+      "(3, 3)",
+      "(3, 9)"
     ]
   },
   {
@@ -3077,34 +2667,34 @@
   },
   {
     "question_num": 291,
-    "text": "A book about space contains the following sentence:\n\nThe diameter of the Earth is 12 756.32 kilometres.\n\nWhat is the Earth’s diameter rounded to the nearest hundred kilometres?",
+    "text": "A book about space contains the following sentence:\n\nThe diameter of the Earth is 12 756.32 kilometres.\n\nWhat is the Earth’s diameter rounded to the nearest hundred kilometres?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "D",
     "explanation": "Answer:\n\nYou are rounding to the nearest hundred, so look at the digit in the tens column. It’s a 5, so round up to 12 800 km.",
     "options": [
-      "12 700 km",
-      "12 750 km",
-      "12 760 km",
-      "12 800 km",
-      "13 000 km"
+      "12 700 km",
+      "12 750 km",
+      "12 760 km",
+      "12 800 km",
+      "13 000 km"
     ]
   },
   {
     "question_num": 292,
-    "text": "Johan takes part in a high jump competition. His best jump is 2.04 m.\n\nHow high is this in mm?",
+    "text": "Johan takes part in a high jump competition. His best jump is 2.04 m.\n\nHow high is this in mm?",
     "question_image": null,
     "question_images": [],
     "images": [],
     "answer": "C",
     "explanation": "Answer:\n\n1 m = 100 cm, so 2.04 m = 2.04 × 100 = 204 cm. 1 cm = 10 mm, so 204 cm = 204 × 10 = 2040 mm.",
     "options": [
-      "204 mm",
-      "240 000 mm",
-      "2040 mm",
-      "20.4 mm",
-      "20 400 mm"
+      "204 mm",
+      "240 000 mm",
+      "2040 mm",
+      "20.4 mm",
+      "20 400 mm"
     ]
   },
   {
@@ -3127,7 +2717,7 @@
   },
   {
     "question_num": 294,
-    "text": "Four children collect animal stickers. Mazana has 120 stickers, Louis has 140 stickers, Nadia has 90 stickers and Connor has 50 stickers.\n\nWhat is the mean number of stickers owned by the four children?",
+    "text": "Four children collect animal stickers. Mazana has 120 stickers, Louis has 140 stickers, Nadia has 90 stickers and Connor has 50 stickers.\n\nWhat is the mean number of stickers owned by the four children?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -3140,23 +2730,6 @@
       "400",
       "40"
     ]
-  },
-  {
-    "question_num": 295,
-    "text": "Watching Playing Reading Fishing Cycling TV football How many hours did he spend out of doors? (playing football, fishing and cycling) E hours Page 6 Please go on to the next page >>>",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "6.5 hours",
-      "7 hours",
-      "7.5 hours",
-      "8 hours",
-      "8.5"
-    ],
-    "answer": "Unknown",
-    "explanation": "The correct answer is Unknown.",
-    "source": "GL Assessment Maths 1"
   },
   {
     "question_num": 296,
@@ -3193,36 +2766,6 @@
     "source": "GL Assessment Maths 1"
   },
   {
-    "question_num": 298,
-    "text": "What is the value of the in this number? 240 E thousandths Page 3 Please go on to the next page >>> 4 8 6 5 4 3 2 1 1 2 3 4 5 6 8 The hills are at (3 , 4). The lighthouse is at ( , ). A (6 , 1) B (1 , 6) C (5 , 6) D (6 , 3) E (1 , )",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "7 thousands",
-      "7 hundreds",
-      "7 tens",
-      "7 ones",
-      "7"
-    ],
-    "answer": "A",
-    "explanation": "The correct answer is 7 thousands.",
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "question_num": 299,
-    "text": "Number of hours 3 2 1",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "(1 , 6)"
-    ],
-    "answer": "(1 , 6)",
-    "explanation": "The correct answer is (1 , 6).",
-    "source": "GL Assessment Maths 1"
-  },
-  {
     "question_num": 300,
     "text": "What is the missing number in this sequence? 393 384 375 357",
     "question_image": null,
@@ -3241,7 +2784,7 @@
   },
   {
     "question_num": 301,
-    "text": "How many of the triangles will fill the hexagon? E Page Please go on to the next page >>>",
+    "text": "How many of the triangles will fill the hexagon?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -3258,7 +2801,7 @@
   },
   {
     "question_num": 302,
-    "text": "Iveta was 1.43 metres tall. She grew 2 centimetres more. How tall was she then in metres? E m",
+    "text": "Iveta was 1.43 metres tall. She grew 2 centimetres more. How tall was she then in metres?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -3275,7 +2818,7 @@
   },
   {
     "question_num": 303,
-    "text": "What fraction of the whole shape is shaded? E 10 3 8 4 11",
+    "text": "What fraction of the whole shape is shaded?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -3309,7 +2852,7 @@
   },
   {
     "question_num": 305,
-    "text": "a – 9 = 0 a = ? C – D 2 E – Page 5 Please go on to the next page >>>",
+    "text": "a – 9 = 0 a = ? C – D 2 E –",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -3325,38 +2868,8 @@
     "source": "GL Assessment Maths 1"
   },
   {
-    "question_num": 306,
-    "text": "A jug holding 1 litre of water An empty jar = 700 millilitres 11 lliittrree 700 ml The jug holds 1 litre of water. The jar is filled from the jug. How much water will be left in the jug? E millilitres",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "0.3 litres",
-      "0.25 litres",
-      "400 millilitres",
-      "0.35 litres",
-      "200"
-    ],
-    "answer": "A",
-    "explanation": "The correct answer is 0.3 litres.",
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "question_num": 307,
-    "text": "This chart shows how Kai spent his spare time last week. 7 6 5",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "7.5 hours"
-    ],
-    "answer": "7.5 hours",
-    "explanation": "The correct answer is 7.5 hours.",
-    "source": "GL Assessment Maths 1"
-  },
-  {
     "question_num": 308,
-    "text": "Wendy saved £2.50 a week. How many weeks did it take her to save £20? E 1 6 cm",
+    "text": "Wendy saved £2.50 a week. How many weeks did it take her to save £20?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -3373,7 +2886,7 @@
   },
   {
     "question_num": 309,
-    "text": "Which of these digital alarm clocks shows that it is quarter past seven in the evening? E Page 7 Please go on to the next page >>>",
+    "text": "Which of these digital alarm clocks shows that it is quarter past seven in the evening?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -3407,7 +2920,7 @@
   },
   {
     "question_num": 311,
-    "text": "A train left at 10.20. It arrived at 11.15. How long did the journey take, in minutes? E mins",
+    "text": "A train left at 10.20. It arrived at 11.15. How long did the journey take, in minutes?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -3416,32 +2929,15 @@
       "55 mins",
       "65 mins",
       "75 mins",
-      "95"
+      "95 mins"
     ],
     "answer": "B",
     "explanation": "The correct answer is 55 mins.",
     "source": "GL Assessment Maths 1"
   },
   {
-    "question_num": 312,
-    "text": "Join Heritage today! Take advantage of this great offer now. Type of membership Normal price Offer price Individual member £47.90 £35.63 Joint membership (2 adults) £79.50 £59.63 Family group (2 adults and children under 18) Family one adult (1 adult and children under 18) Young person – aged 13–25 £21.50 £16.13 Mrs Ward wants to join Heritage with her three children, aged 10, 12 and 15. How much must she pay? E Page 8 Please go on to the next page >>>",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "£82.00",
-      "£62.63",
-      "£62.00",
-      "£61.50",
-      "£46.50"
-    ],
-    "answer": "E",
-    "explanation": "The correct answer is £46.50.",
-    "source": "GL Assessment Maths 1"
-  },
-  {
     "question_num": 313,
-    "text": "About how much does an ordinary mug hold? E litres",
+    "text": "About how much does an ordinary mug hold?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -3450,44 +2946,10 @@
       "300 millilitres",
       "3 litres",
       "30 litres",
-      "300"
+      "300 litres"
     ],
     "answer": "B",
     "explanation": "The correct answer is 300 millilitres.",
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "question_num": 314,
-    "text": "Which of these is NOT a quadrilateral?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
-    ],
-    "answer": "A",
-    "explanation": "The correct answer is A.",
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "question_num": 315,
-    "text": "Here is part of a train timetable. Purley . . . . . . . . . . . . 23:21 . . . . East Croydon 22:56 23:01 23:10 23:27 23:30 Norwood Junc. . . . . . . . . . . . . . . . . . . . . London Bridge . . . . . . . . . . . . . . . . . . . . Clapham Junc. 23:07 23:13 23:21 23:37 23:40 Victoria 23:12 23:18 23:27 23:43 23:45 A train leaves East Croydon at 23:27. How long does it take to get to Victoria? D 1 E 2 Page 9 Please go on to the next page >>>",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "6 mins",
-      "10 mins",
-      "13 mins",
-      "16 mins",
-      "26"
-    ],
-    "answer": "A",
-    "explanation": "The correct answer is 16 mins.",
     "source": "GL Assessment Maths 1"
   },
   {
@@ -3508,42 +2970,8 @@
     "source": "GL Assessment Maths 1"
   },
   {
-    "question_num": 317,
-    "text": "The graph shows the weight of a baby girl in the first weeks of her life. 5.00 4.50 4.00 Weight in kilograms 3.50 3.00 2.50 1 2 3 4 5 6 7 Age in weeks How old was the baby at the end of the week in which she gained most weight? E weeks Page 10 Please go on to the next page >>> htriB",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "2 weeks",
-      "3 weeks",
-      "4 weeks",
-      "7 weeks",
-      "8"
-    ],
-    "answer": "C",
-    "explanation": "The correct answer is 4 weeks.",
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "question_num": 318,
-    "text": "Which of these shapes is NOT a cuboid?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
-    ],
-    "answer": "D",
-    "explanation": "The correct answer is D.",
-    "source": "GL Assessment Maths 1"
-  },
-  {
     "question_num": 319,
-    "text": "Look at this angle. x Which of the following statements is correct? E x is 180 degrees. 26 105 ÷ = 21 What number does stand for? A 4 B 5 C 6 D 7 E 15 Page 11 Please go on to the next page >>>",
+    "text": "Look at this angle. x Which of the following statements is correct?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -3552,28 +2980,15 @@
       "Angle x is a right angle.",
       "Angle x is more than 180 degrees.",
       "Angle x is between 90 and 180 degrees.",
-      "Angle"
+      "Angle x is 180 degrees. 26 105 ÷ = 21 What number does stand for? A 4 B 5 C 6 D 7"
     ],
     "answer": "A",
     "explanation": "The correct answer is D.",
     "source": "GL Assessment Maths 1"
   },
   {
-    "question_num": 320,
-    "text": "A swimming pool charges £3.60 for entry. You can save — 1 of the entry fee with a membership card.",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "5"
-    ],
-    "answer": "5",
-    "explanation": "The correct answer is 5.",
-    "source": "GL Assessment Maths 1"
-  },
-  {
     "question_num": 321,
-    "text": "A boy delivered newspapers. He was paid £1.40 for every 100 papers he delivered. How much was he paid for delivering 250 papers? E 29 3.6 Í 10 = A 0.36 B 0.036 C 36 D 360 E 36.6 Page 12 Please go on to the next page >>>",
+    "text": "A boy delivered newspapers. He was paid £1.40 for every 100 papers he delivered. How much was he paid for delivering 250 papers?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -3589,34 +3004,8 @@
     "source": "GL Assessment Maths 1"
   },
   {
-    "question_num": 322,
-    "text": "The graph shows the population of Britain from 1700. 50 40",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "1875"
-    ],
-    "answer": "1875",
-    "explanation": "The correct answer is 1875.",
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "question_num": 323,
-    "text": "A bag had 36 sweets in it. Ethan took out — 2 of them.",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "24"
-    ],
-    "answer": "24",
-    "explanation": "The correct answer is 24.",
-    "source": "GL Assessment Maths 1"
-  },
-  {
     "question_num": 324,
-    "text": "A ship travels 528 nautical miles in one day. How many nautical miles does it travel in 15 days? E Page 13 Please go on to the next page >>> 33 9 36 81 The three numbers above are alike in some ways. Select ONE of the following to say one way in which they are alike. A They are all even numbers. B They are all two-figure numbers. C They are all prime numbers. D They are all square numbers. E They can all be divided by 2 without a remainder.",
+    "text": "A ship travels 528 nautical miles in one day. How many nautical miles does it travel in 15 days?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -3649,21 +3038,8 @@
     "source": "GL Assessment Maths 1"
   },
   {
-    "question_num": 326,
-    "text": "Put these fractions in order of size, starting with the largest first. — 3 — 5 — 1 — 7 — 1 4 8 2 8 4 A — 7 — 3 — 5 — 1 — 1 8 4 8 2 4 B — 7 — 5 — 3 — 1 — 1 8 8 4 2 4 C — 3 — 7 — 5 — 1 — 1 4 8 8 2 4 D — 7 — 3 — 1 — 5 — 1 8 4 2 8 4 E — 7 — 5 — 1 — 3 — 1 8 8 2 4 4 Page 14 Please go on to the next page >>>",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "A"
-    ],
-    "answer": "A",
-    "explanation": "The correct answer is A.",
-    "source": "GL Assessment Maths 1"
-  },
-  {
     "question_num": 327,
-    "text": "Ava had 5 boxes. Each box weighed 800 grams. How many KILOGRAMS was this altogether? E kg",
+    "text": "Ava had 5 boxes. Each box weighed 800 grams. How many KILOGRAMS was this altogether?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -3672,7 +3048,7 @@
       "4.5 kg",
       "40 kg",
       "4000 kg",
-      "4500"
+      "4500 kg"
     ],
     "answer": "A",
     "explanation": "The correct answer is 4 kg.",
@@ -3697,7 +3073,7 @@
   },
   {
     "question_num": 329,
-    "text": "There were 27 children in a class. There were twice as many boys as girls. How many boys were there? E boys",
+    "text": "There were 27 children in a class. There were twice as many boys as girls. How many boys were there?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -3706,7 +3082,7 @@
       "18 boys",
       "16 boys",
       "14 boys",
-      "9"
+      "9 boys"
     ],
     "answer": "B",
     "explanation": "The correct answer is 18 boys.",
@@ -3714,7 +3090,7 @@
   },
   {
     "question_num": 330,
-    "text": "What is 60% of 0? B 2 D . E Page 1 Please go on to the next page >>>",
+    "text": "What is 60% of 0? B 2 D .",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -3727,19 +3103,6 @@
     ],
     "answer": "E",
     "explanation": "The correct answer is 30.",
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "question_num": 331,
-    "text": "Look at the diagram. Multiples of 4 5 4 8 3",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "12"
-    ],
-    "answer": "12",
-    "explanation": "The correct answer is 12.",
     "source": "GL Assessment Maths 1"
   },
   {
@@ -3760,42 +3123,8 @@
     "source": "GL Assessment Maths 1"
   },
   {
-    "question_num": 333,
-    "text": "Which letter is pointing at 1250? 1200 1400 Page 16 Please go on to the next page >>>",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
-    ],
-    "answer": "B",
-    "explanation": "The correct answer is B.",
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "question_num": 334,
-    "text": "A frog starts jumping from the middle of a circular pond. The pond is 12 metres across, from one side to the other. The frog starts jumping towards the edge of the pond. Each jump is in the same direction. Each jump halves his distance from the edge of the pond. How far is the frog from the edge after 3 jumps?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "10.5m",
-      "75cm",
-      "150cm",
-      "5.25m",
-      "125cm"
-    ],
-    "answer": "B",
-    "explanation": "The correct answer is 75cm.",
-    "source": "GL Assessment Maths 1"
-  },
-  {
     "question_num": 335,
-    "text": "Zac starts with the number 5. Which of these instructions does not give him an answer of 17? E by ten, subtract sixteen, then halve. Page 17 Please go on to the next page >>>",
+    "text": "Zac starts with the number 5. Which of these instructions does not give him an answer of 17?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -3804,7 +3133,7 @@
       "Multiply by four, then subtract three.",
       "Triple your value, then add two.",
       "Add three and double.",
-      "Multiply"
+      "Multiply by ten, subtract sixteen, then halve."
     ],
     "answer": "A",
     "explanation": "The correct answer is D.",
@@ -3812,7 +3141,7 @@
   },
   {
     "question_num": 336,
-    "text": "This chart shows the weather for 1 on one day. How many hours was it dry? E hours",
+    "text": "This chart shows the weather for 1 on one day. How many hours was it dry?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -3821,79 +3150,15 @@
       "4 hours",
       "6 hours",
       "8 hours",
-      "10"
+      "10 hours"
     ],
     "answer": "D",
     "explanation": "The correct answer is 8 hours.",
     "source": "GL Assessment Maths 1"
   },
   {
-    "question_num": 337,
-    "text": "Put the correct number in the box Í 99 = 00 – C 1 D 1 E Page 18 Please go on to the next page >>>",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "27",
-      "37",
-      "127",
-      "137",
-      "687"
-    ],
-    "answer": "A",
-    "explanation": "The correct answer is 27.",
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "question_num": 338,
-    "text": "The chart shows the proportions of children in a class who go to school using various forms of transport. There are no numbers along the y-axis but we know that there are 28 children in the class in total. Number of children Bicycle Bus Car Train Walk Forms of transport Which form of transport is taken by a total of 4 children? E Page 19 Please go on to the next page >>>",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "bicycle",
-      "bus",
-      "car",
-      "train",
-      "walk"
-    ],
-    "answer": "E",
-    "explanation": "The correct answer is walk.",
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "question_num": 339,
-    "text": "Ali and his sister share a pizza cut into six equal pieces. Ali eats of all the pieces. His sister eats of the remaining pieces. 3 4 After both Ali and his sister have eaten, what fraction of the pizza is left? E 12 2 4 12 6",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "— 5",
-      "— 1",
-      "— 1",
-      "— 1",
-      "—"
-    ],
-    "answer": "B",
-    "explanation": "The correct answer is — 1.",
-    "source": "GL Assessment Maths 1"
-  },
-  {
-    "question_num": 340,
-    "text": "Instructions for roasting meat: Cook for 30 minutes at 230°C. Turn down the heat to 180°C. Allow 30 minutes cooking time for every 450g. A piece of meat takes 2—",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "1.8kg"
-    ],
-    "answer": "1.8kg",
-    "explanation": "The correct answer is 1.8kg.",
-    "source": "GL Assessment Maths 1"
-  },
-  {
     "question_num": 341,
-    "text": "To make brown paint, you mix parts red, 17 parts yellow and 1 part blue. How much red paint is needed to make 40 litres of brown paint? E litres Page 1 END OF FAMILIARISATION PAPER Copyright © GL Assessment, 01. All rights reserved, including translation. No part of this publication may be reproduced or transmitted in any form or by any means, electronic or mechanical, recording or duplication in any information storage and retrieval system, without permission in writing from the publishers. Published by GL Assessment, 1st Floor, Vantage London, Great West Road, Brentford TW8 9AG. Printed in Great Britain. Code 6853 915 (08.1) PF",
+    "text": "To make brown paint, you mix parts red, 17 parts yellow and 1 part blue. How much red paint is needed to make 40 litres of brown paint?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -3902,32 +3167,15 @@
       "34 litres",
       "1.5 litres",
       "4 litres",
-      "2"
+      "2 litres Page 1"
     ],
     "answer": "B",
     "explanation": "The correct answer is 4 litres.",
     "source": "GL Assessment Maths 1"
   },
   {
-    "question_num": 342,
-    "text": "Jan Feb Mar Apr May Jun Aug Sept Oct Nov Dec This bar chart shows during which months the children in a class have their birthdays. During which month are there most birthdays?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "April",
-      "December",
-      "January",
-      "July",
-      "November"
-    ],
-    "answer": "Unknown",
-    "explanation": "The correct answer is Unknown.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
     "question_num": 343,
-    "text": "How many 10p coins can I get for £1.80? E coins 2 6 5",
+    "text": "How many 10p coins can I get for £1.80?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -3936,49 +3184,10 @@
       "18 coins",
       "88 coins",
       "108 coins",
-      "180"
+      "180 coins 2 6 5"
     ],
     "answer": "B",
     "explanation": "The correct answer is 18 coins.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "question_num": 344,
-    "text": "A 1",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "July"
-    ],
-    "answer": "July",
-    "explanation": "The correct answer is July.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "question_num": 345,
-    "text": "of birthdays 2 1",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "8650"
-    ],
-    "answer": "8650",
-    "explanation": "The correct answer is 8650.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "question_num": 346,
-    "text": "Number",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "04:00"
-    ],
-    "answer": "04:00",
-    "explanation": "The correct answer is 04:00.",
     "source": "GL Assessment Maths 2"
   },
   {
@@ -4000,7 +3209,7 @@
   },
   {
     "question_num": 348,
-    "text": "Share 2 into 4 equal parts. How much is one part? E Page 3 Please go on to the next page >>>",
+    "text": "Share 2 into 4 equal parts. How much is one part?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -4017,7 +3226,7 @@
   },
   {
     "question_num": 349,
-    "text": "What fraction of this circle is shaded? E 12 5 4 6 8",
+    "text": "What fraction of this circle is shaded?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -4034,7 +3243,7 @@
   },
   {
     "question_num": 350,
-    "text": "In the number 86, what does the stand for? E tens",
+    "text": "In the number 86, what does the stand for?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -4043,7 +3252,7 @@
       "3 ones",
       "3 thousands",
       "3 hundredths",
-      "3"
+      "3 tens"
     ],
     "answer": "E",
     "explanation": "The correct answer is 3 tens.",
@@ -4051,7 +3260,7 @@
   },
   {
     "question_num": 351,
-    "text": "What number would go in the box? 3 = 4 8 E Page 4 Please go on to the next page >>>",
+    "text": "What number would go in the box? 3 = 4 8",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -4067,119 +3276,8 @@
     "source": "GL Assessment Maths 2"
   },
   {
-    "question_num": 352,
-    "text": "Sati records how many children visit the school library each day. This is the bar chart Sati draws to show her data. How many children visited the library over the five days?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "55",
-      "54",
-      "53",
-      "52",
-      "51"
-    ],
-    "answer": "A",
-    "explanation": "The correct answer is 55.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "question_num": 353,
-    "text": "Three pieces of wood are cut from a plank 1 metre long. Each piece is 30 cm long. How long is the piece left over? D 9 E 9 Page 5 Please go on to the next page >>> yadnoM yadseuT yadsendeW yadsruhT yadirF 16 12 8 4",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "10 cm",
-      "40 cm",
-      "70 cm",
-      "910 cm",
-      "970"
-    ],
-    "answer": "A",
-    "explanation": "The correct answer is 10 cm.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "question_num": 354,
-    "text": "These three angles fit together to make a straight line: Look at the angle below. 0º How many of these 0° angles will fit together to make a straight line?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6",
-      "7"
-    ],
-    "answer": "D",
-    "explanation": "The correct answer is 6.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "question_num": 355,
-    "text": "Callum is thinking of a two-digit number. Its digits add up to 5. It is a prime number. Its square is a three-digit number. What number is he thinking of? E Page 6 Please go on to the next page >>>",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "31",
-      "14",
-      "23",
-      "13",
-      "41"
-    ],
-    "answer": "C",
-    "explanation": "The correct answer is 23.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "question_num": 356,
-    "text": "What is the next number in this sequence? 49 43 37 31 ______ E 16 5 0 –5 The thermometer shows the temperature in Kiev. London is 18°C warmer. What is the temperature in London? A 17°B 16°C 15°D 14°E 13°C 17 324 ÷ 6 = A 44 B 54 C 56 D 58 E 64 Page 7 Please go on to the next page >>>",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "27",
-      "21",
-      "25",
-      "23",
-      "29"
-    ],
-    "answer": "C",
-    "explanation": "The correct answer is 25.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "question_num": 357,
-    "text": "Look at these bottles.",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "4 times"
-    ],
-    "answer": "4 times",
-    "explanation": "The correct answer is 4 times.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "question_num": 358,
-    "text": "There were 24 marbles in a bag. I took out — 1 of the marbles.",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "8"
-    ],
-    "answer": "8",
-    "explanation": "The correct answer is 8.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
     "question_num": 359,
-    "text": "Karen wants to buy a guitar. She has saved £43.95 The guitar costs £65.00 How much more money does she need? E Page 8 Please go on to the next page >>>",
+    "text": "Karen wants to buy a guitar. She has saved £43.95 The guitar costs £65.00 How much more money does she need?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -4195,25 +3293,8 @@
     "source": "GL Assessment Maths 2"
   },
   {
-    "question_num": 360,
-    "text": "Put these numbers in order from the smallest to the biggest. 0.525 0.7 0.35 0.175 E 0.35, 0.7, 0.525 22 8 chocolate bars cost £5.20. How much do 6 chocolate bars cost? A £3.75 B £3.80 C £3.85 D £3.90 E £3.95",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "0.7, 0.525, 0.35, 0.175",
-      "0.175, 0.525, 0.35, 0.7",
-      "0.175, 0.35, 0.525, 0.7",
-      "0.7, 0.35, 0.175, 0.525",
-      "0.175,"
-    ],
-    "answer": "C",
-    "explanation": "The correct answer is C.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
     "question_num": 361,
-    "text": "What is 50% of 40? E 1 Page 9 Please go on to the next page >>>",
+    "text": "What is 50% of 40?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -4230,7 +3311,7 @@
   },
   {
     "question_num": 362,
-    "text": "The bar chart shows the heights of a class of pupils. Which statement MUST be true? E children have a height of less than 139cm.",
+    "text": "The bar chart shows the heights of a class of pupils. Which statement MUST be true?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -4239,27 +3320,10 @@
       "5 children have a height between 120cm and 129cm.",
       "No children have a height less than 111cm.",
       "7 children have a height more than 140cm but less than 150cm.",
-      "8"
+      "8 children have a height of less than 139cm."
     ],
     "answer": "B",
     "explanation": "The correct answer is B.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "question_num": 363,
-    "text": "A television programme finished at 4.55 pm. It lasted for three-quarters of an hour. At what time did it start? E pm Page 10 Please go on to the next page >>> 911 – 011 921 – 021 931 – 031 941 – 041 951 – 051 961 – 061 Height in cm nerdlihc fo rebmuN 8 6 4 2",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "4.15 pm",
-      "4.10 pm",
-      "4.05 pm",
-      "4.25 pm",
-      "4.20"
-    ],
-    "answer": "4.10pm",
-    "explanation": "The correct answer is 4.10pm.",
     "source": "GL Assessment Maths 2"
   },
   {
@@ -4280,25 +3344,8 @@
     "source": "GL Assessment Maths 2"
   },
   {
-    "question_num": 365,
-    "text": "Zoey has a large carpet in her room. It is 5 metres long and 4 metres wide. What is the distance all around the edge of the carpet?",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "14m",
-      "16m",
-      "18m",
-      "19m",
-      "20m"
-    ],
-    "answer": "18 m",
-    "explanation": "The correct answer is 18 m.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
     "question_num": 366,
-    "text": "Ella paid £780 per month in rent. How much rent did she pay in 12 months? E Page 11 Please go on to the next page >>>",
+    "text": "Ella paid £780 per month in rent. How much rent did she pay in 12 months?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -4314,21 +3361,8 @@
     "source": "GL Assessment Maths 2"
   },
   {
-    "question_num": 367,
-    "text": "Jenny is wallpapering her bedroom. She starts with a 6 metre roll but has to cut off 1.75 metres because it is damaged. If she needs 33.75 metres of wallpaper in total, how many more rolls of",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "5"
-    ],
-    "answer": "5",
-    "explanation": "The correct answer is 5.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
     "question_num": 368,
-    "text": "An empty box weighs 150 grams. When it is filled with paper it weighs 1 kilogram. How much does the paper weigh? E 9",
+    "text": "An empty box weighs 150 grams. When it is filled with paper it weighs 1 kilogram. How much does the paper weigh?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -4345,7 +3379,7 @@
   },
   {
     "question_num": 369,
-    "text": "Mrs Shaw has 175ml of liquid. She needs a container for it. Which one suits her needs best? E Page 12 Please go on to the next page >>>",
+    "text": "Mrs Shaw has 175ml of liquid. She needs a container for it. Which one suits her needs best?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -4362,7 +3396,7 @@
   },
   {
     "question_num": 370,
-    "text": "The vertices of two squares below are labelled with letters. Which of following lines is perpendicular to line connecting P and R? E line connecting Q and R",
+    "text": "The vertices of two squares below are labelled with letters. Which of following lines is perpendicular to line connecting P and R?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -4371,58 +3405,15 @@
       "the line connecting P and S",
       "the line connecting Q and S",
       "the line connecting S and W",
-      "the"
+      "the line connecting Q and R"
     ],
     "answer": "A",
     "explanation": "The correct answer is C.",
     "source": "GL Assessment Maths 2"
   },
   {
-    "question_num": 371,
-    "text": "If X stands for a whole number and 3 lots of X are equal to 36, what are",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "24"
-    ],
-    "answer": "24",
-    "explanation": "The correct answer is 24.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "question_num": 372,
-    "text": "A rectangle is drawn with corner A at (1 , 1). All sides of the rectangle are then doubled in length. y 5 4",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "(5 , 3)"
-    ],
-    "answer": "(5 , 3)",
-    "explanation": "The correct answer is (5 , 3).",
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "question_num": 373,
-    "text": "Emily has six sticks. Their lengths are: 3cm 5cm 8cm 9cm 11cm Emily can lay the sticks end to end to make triangles, like this: Emily wants to make the smallest triangle she can using the 11cm stick Which two other lengths of stick should she use? E and 8cm",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "3cm and 5cm",
-      "3cm and 6cm",
-      "5cm and 6cm",
-      "5cm and 8cm",
-      "6cm"
-    ],
-    "answer": "D",
-    "explanation": "The correct answer is 5cm and 8cm.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
     "question_num": 374,
-    "text": "Muhammed must get up at 07.30 hours. He goes to bed at 22.38 hours the night before. How long does he spend in bed? E hours 52 minutes Page 15 Please go on to the next page >>>",
+    "text": "Muhammed must get up at 07.30 hours. He goes to bed at 22.38 hours the night before. How long does he spend in bed?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -4431,62 +3422,15 @@
       "8 hours 42 minutes",
       "8 hours 52 minutes",
       "9 hours 42 minutes",
-      "9"
+      "9 hours 52 minutes"
     ],
     "answer": "C",
     "explanation": "The correct answer is 8 hours 52 minutes.",
     "source": "GL Assessment Maths 2"
   },
   {
-    "question_num": 375,
-    "text": "Liam carried ten parcels. Each parcel weighed 250 grams. How many KILOGRAMS was this altogether? C 2. D 0. E 0.0",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "25kg",
-      "2.50kg",
-      "2.25kg",
-      "0.25kg",
-      "0.025kg"
-    ],
-    "answer": "2.50 kg",
-    "explanation": "The correct answer is 2.50 kg.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "question_num": 376,
-    "text": "This graph converts British Pounds (£) to United States Dollars ($). 5",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "$42.50"
-    ],
-    "answer": "$42.50",
-    "explanation": "The correct answer is $42.50.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "question_num": 377,
-    "text": "To add up all the angles inside a polygon, you subtract 2 from the number of sides and multiply this by 180. An octagon has 8 sides. What do the angles inside an octagon add up to? E degrees",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "1438 degrees",
-      "1086 degrees",
-      "186 degrees",
-      "1080 degrees",
-      "1806"
-    ],
-    "answer": "D",
-    "explanation": "The correct answer is 1080 degrees.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
     "question_num": 378,
-    "text": "The bar chart shows the amount of money Lewis, and Zoe have in their savings accounts. Which one of these is NOT true? E has £10 less than Zoe. Page 17 Please go on to the next page >>>",
+    "text": "The bar chart shows the amount of money Lewis, and Zoe have in their savings accounts. Which one of these is NOT true?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -4495,7 +3439,7 @@
       "Lewis has half as much as Jordan.",
       "The children have £65 altogether.",
       "Zoe has twice as much as Lewis.",
-      "Jordan"
+      "Jordan has £10 less than Zoe."
     ],
     "answer": "B",
     "explanation": "The correct answer is B.",
@@ -4503,7 +3447,7 @@
   },
   {
     "question_num": 379,
-    "text": "The end points of five lines are shown in the answer options below. 7 6 5 4 3 2 1 1 2 3 4 5 6 7 Which line is parallel to the line in the diagram? E , 2) and (1 , 6)",
+    "text": "The end points of five lines are shown in the answer options below. 7 6 5 4 3 2 1 1 2 3 4 5 6 7 Which line is parallel to the line in the diagram?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -4512,7 +3456,7 @@
       "(2 , 6) and (4 , 3)",
       "(5 , 1) and (1 , 5)",
       "(2 , 5) and (4 , 2)",
-      "(5"
+      "(5 , 2) and (1 , 6)"
     ],
     "answer": "E",
     "explanation": "The correct answer is (5 , 2) and (1 , 6).",
@@ -4520,7 +3464,7 @@
   },
   {
     "question_num": 380,
-    "text": "What is the area of this rectangle? 0.8m 0.3m E Page 18 Please go on to the next page >>>",
+    "text": "What is the area of this rectangle? 0.8m 0.3m",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -4537,7 +3481,7 @@
   },
   {
     "question_num": 381,
-    "text": "What is 1.7 as a fraction? C 0 E 10 17 17 100 11",
+    "text": "What is 1.7 as a fraction? C 0",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -4571,7 +3515,7 @@
   },
   {
     "question_num": 383,
-    "text": "Henry says that to change from kilometres to miles you divide the number of kilometres by 8 and then multiply by 5. Which of these is NOT correct? E kilometres is 165 miles. Page 19 Please go on to the next page >>>",
+    "text": "Henry says that to change from kilometres to miles you divide the number of kilometres by 8 and then multiply by 5. Which of these is NOT correct?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -4580,20 +3524,7 @@
       "248 kilometres is 155 miles.",
       "192 kilometres is 125 miles.",
       "216 kilometres is 135 miles.",
-      "264"
-    ],
-    "answer": "C",
-    "explanation": "The correct answer is C.",
-    "source": "GL Assessment Maths 2"
-  },
-  {
-    "question_num": 384,
-    "text": "A shape, PQRS is shown on a coordinate grid. y",
-    "question_image": null,
-    "question_images": [],
-    "images": [],
-    "options": [
-      "C"
+      "264 kilometres is 165 miles."
     ],
     "answer": "C",
     "explanation": "The correct answer is C.",
@@ -4601,7 +3532,7 @@
   },
   {
     "question_num": 385,
-    "text": "The area of a rectangular playground is 210 metres squared. Which of the following could be the playground’s perimeter? E metres 50 43 Í 4 Í 32 is NOT the same as which of the following? A 9 Í 82 Í 4 B 32 Í 42 Í 42 C 43 Í 62 D 6 Í 12 Í 16 E 36 Í 64 Page 21 END OF FAMILIARISATION PAPER Copyright © GL Assessment, 2021. All rights reserved, including translation. No part of this publication may be reproduced or transmitted in any form or by any means, electronic or mechanical, recording or duplication in any information storage and retrieval system, without permission in writing from the publishers. Published by GL Assessment, 1st Floor, Vantage London, Great West Road, Brentford TW8 9AG. Printed in Great Britain. Code 6853 917 2(08.21) PF",
+    "text": "The area of a rectangular playground is 210 metres squared. Which of the following could be the playground’s perimeter?",
     "question_image": null,
     "question_images": [],
     "images": [],
@@ -4610,7 +3541,7 @@
       "52 metres",
       "64 metres",
       "72 metres",
-      "74"
+      "74 metres 50 43 Í 4 Í 32 is NOT the same as which of the following? A 9 Í 82 Í 4 B 32 Í 42 Í 42 C 43 Í 62 D 6 Í 12 Í 16 E 36 Í 64 Page 21"
     ],
     "answer": "E",
     "explanation": "The correct answer is 74 metres.",
