@@ -1,0 +1,127 @@
+[
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_letter_relationships",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Work out the relationship between the letters and find the missing letters.\n\nBC is to DE as GH is to ?",
+      "options": [
+        "IJ",
+        "JI",
+        "KI",
+        "JK",
+        "LK"
+      ]
+    },
+    "answer": {
+      "value": "IJ"
+    },
+    "explanation": "Each letter in the pair moves forward by 2 places in the alphabet. B becomes D, C becomes E, G becomes I, H becomes J.",
+    "hints": [],
+    "tags": [
+      "vr_letter_relationships"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_letter_relationships",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Work out the relationship between the letters and find the missing letters.\n\nZY is to WX as VU is to ?",
+      "options": [
+        "ST",
+        "TS",
+        "RQ",
+        "SR",
+        "UT"
+      ]
+    },
+    "answer": {
+      "value": "TS"
+    },
+    "explanation": "Each letter in the pair moves backward by 2 places in the alphabet. Z becomes W, Y becomes X, V becomes T, U becomes S.",
+    "hints": [],
+    "tags": [
+      "vr_letter_relationships"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_letter_relationships",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Work out the relationship between the letters and find the missing letters.\n\nAB is to BA as PQ is to ?",
+      "options": [
+        "QP",
+        "RQ",
+        "QR",
+        "PO",
+        "ZY"
+      ]
+    },
+    "answer": {
+      "value": "QP"
+    },
+    "explanation": "The letters in the pair are reversed. AB becomes BA, PQ becomes QP.",
+    "hints": [],
+    "tags": [
+      "vr_letter_relationships"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_letter_relationships",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Work out the relationship between the letters and find the missing letters.\n\nACE is to BDF as GIK is to ?",
+      "options": [
+        "HJL",
+        "FHJ",
+        "JHL",
+        "LJH",
+        "KMO"
+      ]
+    },
+    "answer": {
+      "value": "HJL"
+    },
+    "explanation": "Each letter moves forward by one place in the alphabet. A becomes B, C becomes D, E becomes F, G becomes H, I becomes J, K becomes L.",
+    "hints": [],
+    "tags": [
+      "vr_letter_relationships"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_letter_relationships",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Work out the relationship between the letters and find the missing letters.\n\nAZ is to BY as CX is to ?",
+      "options": [
+        "WV",
+        "AV",
+        "DW",
+        "YZ",
+        "ZA"
+      ]
+    },
+    "answer": {
+      "value": "DW"
+    },
+    "explanation": "The first letter moves forward by one place, and the second letter moves backward by one place. A becomes B, Z becomes Y, C becomes D, X becomes W.",
+    "hints": [],
+    "tags": [
+      "vr_letter_relationships"
+    ],
+    "source": "LLM Generated"
+  }
+]

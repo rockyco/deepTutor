@@ -1,0 +1,152 @@
+[
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_multiple_meaning",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Find one word that has two different meanings and can complete both sentences.\n\nThe dog began to ___ loudly at the unfamiliar sound.\n\nThe rough ___ of the tree was covered in moss.\n",
+      "options": [
+        "howl",
+        "growl",
+        "sound",
+        "surface",
+        "bark"
+      ]
+    },
+    "answer": {
+      "value": "bark"
+    },
+    "explanation": "'Bark' can refer to the sound a dog makes or the outer layer of a tree trunk. The other words only fit one sentence.",
+    "hints": [],
+    "tags": [
+      "vr_multiple_meaning"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_multiple_meaning",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Find one word that has two different meanings and can complete both sentences.\n\nThe detective tried to ___ the suspect's lies.\n\nThe small boat began to ___ after being hit by a large wave.",
+      "options": [
+        "view",
+        "notice",
+        "sink",
+        "expose",
+        "list"
+      ]
+    },
+    "answer": {
+      "value": "expose"
+    },
+    "explanation": "'Expose' can mean to reveal something hidden, like a lie, or to subject something to an element, like a wave sinking a boat. The other words only fit one sentence.",
+    "hints": [],
+    "tags": [
+      "vr_multiple_meaning"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_multiple_meaning",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Find one word that has two different meanings and can complete both sentences.\n\nThe magician asked the audience to watch his hands very __.\n\nThe glass shattered when it hit the ___ edge of the table.",
+      "options": [
+        "clearly",
+        "carefully",
+        "sharply",
+        "exactly",
+        "nearly"
+      ]
+    },
+    "answer": {
+      "value": "sharply"
+    },
+    "explanation": "'Sharply' can mean carefully or with precision, or it can mean having a cutting edge. The other words only fit one sentence.",
+    "hints": [],
+    "tags": [
+      "vr_multiple_meaning"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_multiple_meaning",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Find one word that has two different meanings and can complete both sentences.\n\nBe sure to ___ your name at the bottom of the page.\n\nThere was a noticeable ___ that the politician used throughout his speech.",
+      "options": [
+        "symbol",
+        "write",
+        "character",
+        "sign",
+        "place"
+      ]
+    },
+    "answer": {
+      "value": "sign"
+    },
+    "explanation": "'Sign' can mean to write one's name or a gesture/symbol. The other words only fit one sentence.",
+    "hints": [],
+    "tags": [
+      "vr_multiple_meaning"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_multiple_meaning",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Find one word that has two different meanings and can complete both sentences.\n\nAfter the storm, the dog would not stop its loud ___. \n\nThe tree's rough ___ scraped against my skin.",
+      "options": [
+        "howl",
+        "noise",
+        "sound",
+        "bark",
+        "cry"
+      ]
+    },
+    "answer": {
+      "value": "bark"
+    },
+    "explanation": "'Bark' refers both to the sound a dog makes and the outer layer of a tree's trunk and branches.",
+    "hints": [],
+    "tags": [
+      "vr_multiple_meaning"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_multiple_meaning",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Find one word that has two different meanings and can complete both sentences.\n\nThe detective needed a ___ to start the fire to burn the evidence.\n\nThat tennis ___ was very exciting to watch.",
+      "options": [
+        "lighter",
+        "game",
+        "match",
+        "strike",
+        "competition"
+      ]
+    },
+    "answer": {
+      "value": "match"
+    },
+    "explanation": "'Match' can refer to a small stick used to start a fire, or a sporting contest between two sides.",
+    "hints": [],
+    "tags": [
+      "vr_multiple_meaning"
+    ],
+    "source": "LLM Generated"
+  }
+]

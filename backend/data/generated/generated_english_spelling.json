@@ -1,0 +1,103 @@
+[
+  {
+    "subject": "english",
+    "question_type": "spelling",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which sentence contains a spelling mistake?",
+      "options": [
+        "The goverment announced new economic measures.",
+        "She bought some new stationery for school.",
+        "The magician performed a spectacular illusion.",
+        "The athlete showed great determination.",
+        "No mistake"
+      ]
+    },
+    "answer": {
+      "value": "The goverment announced new economic measures."
+    },
+    "explanation": "'Government' is misspelled. It should be 'government'.",
+    "hints": [],
+    "tags": [
+      "spelling"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "spelling",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which sentence contains a spelling mistake?",
+      "options": [
+        "The old house had a peculiar atmosphere.",
+        "They're going to the park later this afternoon.",
+        "He showed a great deal of patients while waiting.",
+        "The dessert was absolutely delicious.",
+        "The museum displayed ancient artifacts."
+      ]
+    },
+    "answer": {
+      "value": "He showed a great deal of patients while waiting."
+    },
+    "explanation": "'Patients' is misspelled. It should be 'patience'.",
+    "hints": [],
+    "tags": [
+      "spelling"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "spelling",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which sentence contains a spelling mistake?",
+      "options": [
+        "The principal announced the school play.",
+        "She decided to practice her violin after school.",
+        "The knights showed great valiance in battle.",
+        "He was reluctant to try the new food.",
+        "No mistake"
+      ]
+    },
+    "answer": {
+      "value": "The knights showed great valiance in battle."
+    },
+    "explanation": "'Valiance' is misspelled. It should be 'valour'.",
+    "hints": [],
+    "tags": [
+      "spelling"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "spelling",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which sentence contains a spelling mistake?",
+      "options": [
+        "The teacher gave clear instructions on how to practise the piano piece.",
+        "The council decided to build a new stationary shop in the town.",
+        "The magician performed a series of impressive illusions.",
+        "The detective examined the scene with meticulous care.",
+        "No mistake"
+      ]
+    },
+    "answer": {
+      "value": "The council decided to build a new stationary shop in the town."
+    },
+    "explanation": "The word 'stationary' (meaning not moving) is incorrectly used. It should be 'stationery' (meaning writing materials).",
+    "hints": [],
+    "tags": [
+      "spelling",
+      "homophones"
+    ],
+    "source": "LLM Generated"
+  }
+]

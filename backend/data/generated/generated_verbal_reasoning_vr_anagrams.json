@@ -1,0 +1,152 @@
+[
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_anagrams",
+    "format": "multiple_choice",
+    "difficulty": 0.6,
+    "content": {
+      "text": "Rearrange the letters in capitals to make a word.\n\nRAC\n\nWhich of these is it?",
+      "options": [
+        "A mode of transport",
+        "A type of fruit",
+        "A domestic animal",
+        "A type of fabric",
+        "A colour"
+      ]
+    },
+    "answer": {
+      "value": "A mode of transport"
+    },
+    "explanation": "RAC = CAR. A car is a mode of transport.",
+    "hints": [],
+    "tags": [
+      "vr_anagrams"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_anagrams",
+    "format": "multiple_choice",
+    "difficulty": 0.7,
+    "content": {
+      "text": "Rearrange the letters in capitals to make a word.\n\nOVLE\n\nWhich of these is it?",
+      "options": [
+        "A building",
+        "A type of fuel",
+        "A precious stone",
+        "An item of clothing",
+        "A colour"
+      ]
+    },
+    "answer": {
+      "value": "A colour"
+    },
+    "explanation": "OVLE = VIOLET. Violet is a colour.",
+    "hints": [],
+    "tags": [
+      "vr_anagrams"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_anagrams",
+    "format": "multiple_choice",
+    "difficulty": 0.7,
+    "content": {
+      "text": "Rearrange the letters in capitals to make a word.\n\nARECS\n\nWhich of these is it?",
+      "options": [
+        "A type of vehicle",
+        "An item of furniture",
+        "A type of footwear",
+        "A sweet food",
+        "A small insect"
+      ]
+    },
+    "answer": {
+      "value": "A type of vehicle"
+    },
+    "explanation": "ARECS = CARS. Cars are a type of vehicle.",
+    "hints": [],
+    "tags": [
+      "vr_anagrams"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_anagrams",
+    "format": "multiple_choice",
+    "difficulty": 0.8,
+    "content": {
+      "text": "Rearrange the letters in capitals to make a word.\n\nLAIPN\n\nWhich of these is it?",
+      "options": [
+        "A type of tree",
+        "A type of metal",
+        "A type of fabric",
+        "A country",
+        "A fruit"
+      ]
+    },
+    "answer": {
+      "value": "A country"
+    },
+    "explanation": "LAIPN = PLAIN. Poland is a country.",
+    "hints": [],
+    "tags": [
+      "vr_anagrams"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_anagrams",
+    "format": "multiple_choice",
+    "difficulty": 0.9,
+    "content": {
+      "text": "Rearrange the letters in capitals to make a word.\n\nARIHC\n\nWhich of these is it?",
+      "options": [
+        "A type of clothing",
+        "A piece of furniture",
+        "A type of building",
+        "A mode of transport",
+        "A musical instrument"
+      ]
+    },
+    "answer": {
+      "value": "A piece of furniture"
+    },
+    "explanation": "ARIHC = CHAIR. A chair is a piece of furniture.",
+    "hints": [],
+    "tags": [
+      "vr_anagrams"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_anagrams",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Rearrange the letters in capitals to make a word.\n\nRAECHT",
+      "options": [
+        "A sport",
+        "A building",
+        "A type of clothing",
+        "An item of furniture",
+        "A school subject"
+      ]
+    },
+    "answer": {
+      "value": "A school subject"
+    },
+    "explanation": "RAECHT = TEACHR. TEACHER is a school subject.",
+    "hints": [],
+    "tags": [
+      "vr_anagrams"
+    ],
+    "source": "LLM Generated"
+  }
+]

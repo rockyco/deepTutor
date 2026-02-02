@@ -1,0 +1,527 @@
+[
+  {
+    "subject": "maths",
+    "question_type": "algebra",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Sarah thinks of a number. She multiplies it by 3, then adds 5. The result is 26. What number did Sarah think of?",
+      "options": [
+        "10",
+        "63",
+        "7",
+        "9",
+        "23"
+      ]
+    },
+    "answer": {
+      "value": "7"
+    },
+    "explanation": "Let the number be x. 3x + 5 = 26. Subtract 5 from both sides: 3x = 21. Divide both sides by 3: x = 7.",
+    "hints": [],
+    "tags": [
+      "algebra",
+      "equations"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "algebra",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What is the next term in the sequence: 2, 6, 12, 20, ...?",
+      "options": [
+        "24",
+        "30",
+        "28",
+        "32",
+        "36"
+      ]
+    },
+    "answer": {
+      "value": "30"
+    },
+    "explanation": "The differences between consecutive terms are 4, 6, 8. The next difference will be 10. Therefore, the next term is 20 + 10 = 30.",
+    "hints": [],
+    "tags": [
+      "algebra",
+      "sequences"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "algebra",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A function machine takes an input, multiplies it by 2, and then subtracts 3. If the output is 11, what was the input?",
+      "options": [
+        "4",
+        "14",
+        "7",
+        "8",
+        "25"
+      ]
+    },
+    "answer": {
+      "value": "7"
+    },
+    "explanation": "Let the input be x. The function machine performs 2x - 3. If 2x - 3 = 11, then 2x = 14. Dividing both sides by 2, x = 7.",
+    "hints": [],
+    "tags": [
+      "algebra",
+      "function machines"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "algebra",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A rectangle has a length of (x + 5) cm and a width of 4 cm. Write an expression for the perimeter of the rectangle.",
+      "options": [
+        "4x + 20",
+        "2x + 18",
+        "2x + 9",
+        "4x + 18",
+        "2x + 20"
+      ]
+    },
+    "answer": {
+      "value": "2x + 18"
+    },
+    "explanation": "Perimeter = 2(length + width) = 2((x + 5) + 4) = 2(x + 9) = 2x + 18.",
+    "hints": [],
+    "tags": [
+      "algebra",
+      "expressions",
+      "geometry"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "algebra",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Given that a = 5 and b = 2, what is the value of 3a - 2b + 4?",
+      "options": [
+        "15",
+        "19",
+        "11",
+        "16",
+        "17"
+      ]
+    },
+    "answer": {
+      "value": "15"
+    },
+    "explanation": "Substitute a = 5 and b = 2 into the expression: 3(5) - 2(2) + 4 = 15 - 4 + 4 = 15.",
+    "hints": [],
+    "tags": [
+      "algebra",
+      "substitution"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "algebra",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What is the next term in the sequence: 1, 4, 9, 16, ___?",
+      "options": [
+        "23",
+        "24",
+        "27",
+        "25",
+        "30"
+      ]
+    },
+    "answer": {
+      "value": "25"
+    },
+    "explanation": "The sequence consists of square numbers: 1x1, 2x2, 3x3, 4x4. The next term is 5x5 = 25.",
+    "hints": [],
+    "tags": [
+      "algebra",
+      "sequences"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "algebra",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A rectangle has a width of 'w' cm and a length that is 5 cm longer than the width. Which expression represents the perimeter of the rectangle?",
+      "options": [
+        "4w + 10",
+        "w + 5",
+        "2w + 10",
+        "4w + 5",
+        "2w + 5"
+      ]
+    },
+    "answer": {
+      "value": "4w + 10"
+    },
+    "explanation": "The length is w + 5. Perimeter = 2(width + length) = 2(w + w + 5) = 2(2w + 5) = 4w + 10.",
+    "hints": [],
+    "tags": [
+      "algebra",
+      "expressions",
+      "perimeter"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "algebra",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "If 5x + 8 = 23, what is the value of x?",
+      "options": [
+        "6.2",
+        "15",
+        "3",
+        "4.6",
+        "5"
+      ]
+    },
+    "answer": {
+      "value": "3"
+    },
+    "explanation": "Subtracting 8 from both sides: 5x = 15. Dividing both sides by 5: x = 3.",
+    "hints": [],
+    "tags": [
+      "algebra",
+      "equation solving"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "algebra",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "The formula for the area of a triangle is A = (b x h) / 2, where b is the base and h is the height. If A = 24 cm² and b = 8 cm, what is the height, h?",
+      "options": [
+        "6",
+        "16",
+        "3",
+        "4",
+        "8"
+      ]
+    },
+    "answer": {
+      "value": "6"
+    },
+    "explanation": "24 = (8 x h) / 2. Multiplying both sides by 2 gives 48 = 8 x h. Dividing both sides by 8 gives h = 6.",
+    "hints": [],
+    "tags": [
+      "algebra",
+      "formula substitution",
+      "area"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "algebra",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A function machine takes an input, multiplies it by 3, then adds 5. If the output is 23, what was the input?",
+      "options": [
+        "14",
+        "64",
+        "9",
+        "6",
+        "5"
+      ]
+    },
+    "answer": {
+      "value": "6"
+    },
+    "explanation": "Let the input be x. Then 3x + 5 = 23.  Subtracting 5 from both sides gives 3x = 18. Dividing both sides by 3 gives x = 6. Distractors: 14 (added 5 before multiplying), 64 (multiplied 23 by 3, then subtracted 5), 9 (23 + 5 / 3), 5 (subtracted then divided in wrong order)",
+    "hints": [],
+    "tags": [
+      "algebra",
+      "function machines"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "algebra",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Sarah buys 5 apples and 3 bananas.  Apples cost 'a' pence each and bananas cost 'b' pence each.  Write an expression for the total cost in pence.",
+      "options": [
+        "5a + 3b",
+        "8ab",
+        "15ab",
+        "3a + 5b",
+        "5 + a + 3 + b"
+      ]
+    },
+    "answer": {
+      "value": "5a + 3b"
+    },
+    "explanation": "The cost of the apples is 5 * a = 5a. The cost of the bananas is 3 * b = 3b. The total cost is 5a + 3b. Distractors: 8ab (added and multiplied variables), 15ab (multiplied coefficients and variables), 3a + 5b (reversed coefficients), 5 + a + 3 + b (added apples and bananas instead of multiplying).",
+    "hints": [],
+    "tags": [
+      "algebra",
+      "expressions"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "algebra",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "If 4x + 9 = 25, what is the value of 2x - 3?",
+      "options": [
+        "5",
+        "11",
+        "2",
+        "14",
+        "3"
+      ]
+    },
+    "answer": {
+      "value": "5"
+    },
+    "explanation": "First solve for x: 4x + 9 = 25 => 4x = 16 => x = 4. Then substitute x = 4 into 2x - 3: 2(4) - 3 = 8 - 3 = 5. Distractors: 11 (stopped at x=4, then added 7), 2 (incorrectly subtracted), 14 (calculated 2x then subtracted 3 from the original equation), 3 (subtracted 9 from 25 and divided by 2).",
+    "hints": [],
+    "tags": [
+      "algebra",
+      "equations"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "algebra",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "The formula for the area of a rectangle is A = lw, where l is the length and w is the width. If the area of a rectangle is 48 cm² and the length is 8 cm, what is the width?",
+      "options": [
+        "40 cm",
+        "6 cm",
+        "56 cm",
+        "5 cm",
+        "5.5 cm"
+      ]
+    },
+    "answer": {
+      "value": "6 cm"
+    },
+    "explanation": "A = lw, so 48 = 8w. Dividing both sides by 8, we get w = 48/8 = 6 cm. Distractors: 40 cm (subtracted instead of dividing), 56 cm (multiplied instead of dividing), 5 cm (off by 1), 5.5 cm (estimated value).",
+    "hints": [],
+    "tags": [
+      "algebra",
+      "formulae"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "algebra",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Sarah thinks of a number, doubles it, and then subtracts 8. The result is 14. What was Sarah's original number?",
+      "options": [
+        "3",
+        "11",
+        "4",
+        "19",
+        "12"
+      ]
+    },
+    "answer": {
+      "value": "11"
+    },
+    "explanation": "Let Sarah's number be x.  2x - 8 = 14. Add 8 to both sides: 2x = 22. Divide both sides by 2: x = 11.",
+    "hints": [],
+    "tags": [
+      "algebra",
+      "equations"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "algebra",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What is the 12th term in this sequence: 2, 6, 10, 14, ...?",
+      "options": [
+        "50",
+        "42",
+        "46",
+        "54",
+        "58"
+      ]
+    },
+    "answer": {
+      "value": "46"
+    },
+    "explanation": "The sequence has a common difference of 4. The nth term is 2 + (n-1) * 4. So the 12th term is 2 + (12-1) * 4 = 2 + 11 * 4 = 2 + 44 = 46.",
+    "hints": [],
+    "tags": [
+      "algebra",
+      "sequences"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "algebra",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A baker uses the formula F = 3C + 5 to calculate how many cookies (F) he needs for each cake (C). If he is baking 7 cakes, how many cookies does he need?",
+      "options": [
+        "26",
+        "15",
+        "35",
+        "29",
+        "30"
+      ]
+    },
+    "answer": {
+      "value": "26"
+    },
+    "explanation": "Substitute C = 7 into the formula F = 3C + 5. F = 3 * 7 + 5 = 21 + 5 = 26.",
+    "hints": [],
+    "tags": [
+      "algebra",
+      "formulae"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "algebra",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which expression represents 'five less than three times a number'?",
+      "options": [
+        "5 - 3x",
+        "3x + 5",
+        "3(x - 5)",
+        "5x - 3",
+        "3x - 5"
+      ]
+    },
+    "answer": {
+      "value": "3x - 5"
+    },
+    "explanation": "Let the number be x. Three times the number is 3x. Five less than that is 3x - 5.",
+    "hints": [],
+    "tags": [
+      "algebra",
+      "expressions"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "algebra",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Sarah is making a sequence of patterns with matchsticks. The number of matchsticks in each pattern follows the rule: 4n + 2, where n is the pattern number. How many matchsticks are needed for the 7th pattern?",
+      "options": [
+        "26",
+        "30",
+        "13",
+        "22",
+        "28"
+      ]
+    },
+    "answer": {
+      "value": "30"
+    },
+    "explanation": "The rule is 4n + 2. For the 7th pattern, n = 7. Substituting n = 7 into the rule: 4 * 7 + 2 = 28 + 2 = 30.",
+    "hints": [],
+    "tags": [
+      "algebra",
+      "sequences",
+      "substitution"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "algebra",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "John buys 3 apples and a banana. Each apple costs 'a' pence, and the banana costs 25 pence. If his total bill is 88 pence, what is the cost of each apple?",
+      "options": [
+        "21 pence",
+        "63 pence",
+        "31 pence",
+        "17 pence",
+        "20 pence"
+      ]
+    },
+    "answer": {
+      "value": "21 pence"
+    },
+    "explanation": "The cost of 3 apples is 3a. The total cost is 3a + 25 = 88. Subtracting 25 from both sides gives 3a = 63. Dividing both sides by 3 gives a = 21.",
+    "hints": [],
+    "tags": [
+      "algebra",
+      "equations",
+      "problem solving"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "algebra",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A function machine takes an input, multiplies it by 3, then subtracts 5. If the output is 16, what was the input?",
+      "options": [
+        "3",
+        "21",
+        "5.7",
+        "7",
+        "8"
+      ]
+    },
+    "answer": {
+      "value": "7"
+    },
+    "explanation": "Let the input be 'x'. The function machine performs the operations: 3x - 5. We are given that the output is 16, so we can write the equation: 3x - 5 = 16. Adding 5 to both sides gives 3x = 21. Dividing both sides by 3 gives x = 7.",
+    "hints": [],
+    "tags": [
+      "algebra",
+      "function machines"
+    ],
+    "source": "LLM Generated"
+  }
+]

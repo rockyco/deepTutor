@@ -1,0 +1,127 @@
+[
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_rhyming_synonyms",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Find two words from the list that rhyme with each other AND have similar meanings.",
+      "options": [
+        "wail, trail",
+        "braid, trade",
+        "flee, sea",
+        "wail, bale",
+        "flee, free"
+      ]
+    },
+    "answer": {
+      "value": "flee, free"
+    },
+    "explanation": "Flee and free both mean to escape or become liberated, and they rhyme.",
+    "hints": [],
+    "tags": [
+      "vr_rhyming_synonyms"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_rhyming_synonyms",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Find two words from the list that rhyme with each other AND have similar meanings.",
+      "options": [
+        "pain, feign",
+        "wane, reign",
+        "pain, reign",
+        "wane, wane",
+        "wane, fade"
+      ]
+    },
+    "answer": {
+      "value": "wane, fade"
+    },
+    "explanation": "Wane and fade both mean to diminish gradually, and they rhyme.",
+    "hints": [],
+    "tags": [
+      "vr_rhyming_synonyms"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_rhyming_synonyms",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Find two words from the list that rhyme with each other AND have similar meanings.",
+      "options": [
+        "moan, stone",
+        "loan, flown",
+        "roam, foam",
+        "loan, moan",
+        "foam, home"
+      ]
+    },
+    "answer": {
+      "value": "loan, moan"
+    },
+    "explanation": "Loan and moan both relate to lamenting or expressing sorrow, and they rhyme.",
+    "hints": [],
+    "tags": [
+      "vr_rhyming_synonyms"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_rhyming_synonyms",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Find two words from the list that rhyme with each other AND have similar meanings.",
+      "options": [
+        "throne, grown",
+        "known, shown",
+        "throne, flown",
+        "flown, grown",
+        "shown, stone"
+      ]
+    },
+    "answer": {
+      "value": "known, shown"
+    },
+    "explanation": "Known and shown both mean revealed or understood, and they rhyme.",
+    "hints": [],
+    "tags": [
+      "vr_rhyming_synonyms"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_rhyming_synonyms",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Find two words from the list that rhyme with each other AND have similar meanings.",
+      "options": [
+        "throne, phone",
+        "loan, moan",
+        "clone, phone",
+        "prone, moan",
+        "drone, moan"
+      ]
+    },
+    "answer": {
+      "value": "loan, moan"
+    },
+    "explanation": "Loan and moan both refer to expressing sorrow or regret, and they rhyme. Clone and phone rhyme, but have completely unrelated meanings. Drone, moan and prone, moan also rhyme but do not have similar meanings. Throne and phone rhyme but do not have similar meanings.",
+    "hints": [],
+    "tags": [
+      "vr_rhyming_synonyms"
+    ],
+    "source": "LLM Generated"
+  }
+]

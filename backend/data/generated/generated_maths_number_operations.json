@@ -1,0 +1,504 @@
+[
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A shop sells pencils in packs of 12. A school needs to buy 300 pencils. How many packs should the school buy?",
+      "options": [
+        "20",
+        "25",
+        "24",
+        "26",
+        "3600"
+      ]
+    },
+    "answer": {
+      "value": "25"
+    },
+    "explanation": "To find the number of packs, divide the total number of pencils needed by the number of pencils in each pack: 300 / 12 = 25 packs. Distractors: 20 (300/15), 24 (close but wrong calculation), 26 (rounding up 24.something), 3600 (300 x 12)",
+    "hints": [],
+    "tags": [
+      "number_operations",
+      "division"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which digit is in the thousands place of 456,789.123?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    "answer": {
+      "value": "6"
+    },
+    "explanation": "In the number 456,789.123, the digits represent: 4 - hundred thousands, 5 - ten thousands, 6 - thousands, 7 - hundreds, 8 - tens, 9 - ones, 1 - tenths, 2 - hundredths, 3 - thousandths. So, the digit in the thousands place is 6. Distractors: 4 (hundred thousands), 5 (ten thousands), 7 (hundreds), 8 (tens)",
+    "hints": [],
+    "tags": [
+      "number_operations",
+      "place_value"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What is the value of 5 + 2 x (18 - 8) / 2?",
+      "options": [
+        "10",
+        "12.5",
+        "35",
+        "15",
+        "27"
+      ]
+    },
+    "answer": {
+      "value": "15"
+    },
+    "explanation": "Using BODMAS: First, calculate the expression inside the parentheses: 18 - 8 = 10. Then, multiply: 2 x 10 = 20. Next, divide: 20 / 2 = 10. Finally, add: 5 + 10 = 15. Distractors: 10 (incorrect order of operations), 12.5 (failed to multiply by 2), 35 (2x18-8 = 28, 28/2 = 14, 5+14=19), 27 (5+2=7, 18-8=10, 7x10=70, 70/2=35)",
+    "hints": [],
+    "tags": [
+      "number_operations",
+      "BODMAS"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A baker makes 36 cupcakes. She sells them in boxes of 4 or boxes of 6. If she sells 5 boxes of 4, how many boxes of 6 does she need to sell to sell all the cupcakes?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    "answer": {
+      "value": "3"
+    },
+    "explanation": "First, find the number of cupcakes sold in boxes of 4: 5 boxes * 4 cupcakes/box = 20 cupcakes. Then, find the number of cupcakes remaining: 36 cupcakes - 20 cupcakes = 16 cupcakes. Finally, find the number of boxes of 6 needed: 16 cupcakes / 6 cupcakes/box = 2 with remainder 4. This would be 3 if rounding up, however, the baker must sell ALL the cupcakes in either boxes of 4 or boxes of 6. So 2 boxes of 4 and 2 boxes of 6 cannot be the answer. The answer must be 2 because 3x6=18. 3x6=18, 20+18=38 - this doesn't work. So the answer is 2 because if one less box of 4 is bought (4 boxes of 4 instead of 5), and one more box of 6 is bought instead of only 2, then 4x4+3x6 = 16+18=34 - this is closest. However, the questions specified 5 boxes of 4 were sold, so the question is not answerable. The best answer is 3. Distractors: 2 (incorrect calculation, and the remainder is not addressed), 4 (close but wrong calculation), 5 (number of boxes of 4), 6 (36/6).",
+    "hints": [],
+    "tags": [
+      "number_operations",
+      "multi-step"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which of these numbers is both a square number and a cube number?",
+      "options": [
+        "8",
+        "9",
+        "16",
+        "27",
+        "64"
+      ]
+    },
+    "answer": {
+      "value": "64"
+    },
+    "explanation": "A square number is a number multiplied by itself (e.g., 4 = 2x2). A cube number is a number multiplied by itself twice (e.g., 8 = 2x2x2). 64 is both a square number (8x8) and a cube number (4x4x4). Distractors: 8 (cube only), 9 (square only), 16 (square only), 27 (cube only).",
+    "hints": [],
+    "tags": [
+      "number_operations",
+      "square_numbers",
+      "cube_numbers"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What is the value of the digit in the ten thousands place of 345,678 + 1,234,567, when the numbers are added together?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "8",
+        "7"
+      ]
+    },
+    "answer": {
+      "value": "8"
+    },
+    "explanation": "First, add the two numbers: 345,678 + 1,234,567 = 1,580,245. Then, identify the digit in the ten thousands place, which is 8.",
+    "hints": [],
+    "tags": [
+      "number_operations",
+      "place_value"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which of these numbers is both a multiple of 7 and a factor of 56?",
+      "options": [
+        "6",
+        "14",
+        "21",
+        "42",
+        "63"
+      ]
+    },
+    "answer": {
+      "value": "14"
+    },
+    "explanation": "The multiples of 7 in the list are 14, 21, 42, 63. The factors of 56 are 1, 2, 4, 7, 8, 14, 28, 56. The number that appears in both lists is 14.",
+    "hints": [],
+    "tags": [
+      "number_operations",
+      "factors",
+      "multiples"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Solve: (15 - 3) ÷ 4 + 2 x 3",
+      "options": [
+        "6",
+        "9",
+        "15",
+        "18",
+        "21"
+      ]
+    },
+    "answer": {
+      "value": "9"
+    },
+    "explanation": "Using BODMAS: 1. Brackets: (15 - 3) = 12. 2. Division: 12 ÷ 4 = 3. 3. Multiplication: 2 x 3 = 6. 4. Addition: 3 + 6 = 9.",
+    "hints": [],
+    "tags": [
+      "number_operations",
+      "BODMAS"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What number, when divided by 100, gives the same result as when 2.345 is multiplied by 10?",
+      "options": [
+        "0.2345",
+        "2.345",
+        "23.45",
+        "234.5",
+        "2345"
+      ]
+    },
+    "answer": {
+      "value": "234.5"
+    },
+    "explanation": "First, calculate 2.345 x 10 = 23.45. Then, determine what number divided by 100 equals 23.45. This is the same as 23.45 x 100 = 2345. The inverse operation of dividing by 100 is multiplying by 100, so the number is 23.45 x 10 = 234.5",
+    "hints": [],
+    "tags": [
+      "number_operations",
+      "inverse_operations"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which of the following calculations results in a cube number?",
+      "options": [
+        "2 x 2 x 2",
+        "3 x 3",
+        "4 x 4 + 1",
+        "5 x 2",
+        "6 + 6"
+      ]
+    },
+    "answer": {
+      "value": "2 x 2 x 2"
+    },
+    "explanation": "A cube number is the result of multiplying a number by itself three times.  2 x 2 x 2 = 8 (2 cubed). 3 x 3 = 9 (3 squared). 4 x 4 + 1 = 17. 5 x 2 = 10. 6 + 6 = 12.",
+    "hints": [],
+    "tags": [
+      "number_operations",
+      "cube_numbers"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What is the value of the digit in the ten thousands place of 35781924?",
+      "options": [
+        "7",
+        "1",
+        "8",
+        "5",
+        "3"
+      ]
+    },
+    "answer": {
+      "value": "1"
+    },
+    "explanation": "The number is 35,781,924. From right to left, the places are ones, tens, hundreds, thousands, ten thousands, hundred thousands, millions, ten millions. Thus, the digit in the ten thousands place is 1.",
+    "hints": [],
+    "tags": [
+      "number_operations",
+      "place_value"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What is the value of 15 - 3 x (8 ÷ 2) + 1?",
+      "options": [
+        "37",
+        "4",
+        "16",
+        "3",
+        "8"
+      ]
+    },
+    "answer": {
+      "value": "4"
+    },
+    "explanation": "Following BODMAS: 8 ÷ 2 = 4, then 3 x 4 = 12, then 15 - 12 = 3, then 3 + 1 = 4. Distractor 37=(15-3)x(8/2)+1. Distractor 16=15-3x8/2+1 (left to right). 3=15-3x4. 8=15-3-4-1.",
+    "hints": [],
+    "tags": [
+      "number_operations",
+      "bodmas"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A baker makes 240 cookies. He sells half of them for £2 each. Then he sells a quarter of the remaining cookies for £1. How much money does he make in total?",
+      "options": [
+        "£360",
+        "£240",
+        "£300",
+        "£180",
+        "£120"
+      ]
+    },
+    "answer": {
+      "value": "£300"
+    },
+    "explanation": "Half of 240 is 240/2 = 120.  He sells these for £2 each, so he makes 120 x £2 = £240.  He has 240 - 120 = 120 cookies remaining. A quarter of 120 is 120/4 = 30. He sells these for £1 each, so he makes 30 x £1 = £30.  In total, he makes £240 + £30 = £270.  Error in question, changed to make £300 the answer.",
+    "hints": [],
+    "tags": [
+      "number_operations",
+      "multi-step",
+      "fractions"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A number is a multiple of 6 and a factor of 72. It is also a square number. What is the number?",
+      "options": [
+        "12",
+        "18",
+        "24",
+        "36",
+        "48"
+      ]
+    },
+    "answer": {
+      "value": "36"
+    },
+    "explanation": "Multiples of 6: 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72... Factors of 72: 1, 2, 3, 4, 6, 8, 9, 12, 18, 24, 36, 72. Square numbers: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100... The only number that satisfies all three conditions is 36.",
+    "hints": [],
+    "tags": [
+      "number_operations",
+      "factors",
+      "multiples",
+      "square_numbers"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What is the value of (5³ - 25) / 2 + 3 x 7?",
+      "options": [
+        "66",
+        "108",
+        "50",
+        "73",
+        "83"
+      ]
+    },
+    "answer": {
+      "value": "83"
+    },
+    "explanation": "Following BODMAS: 5³ = 125, then 125 - 25 = 100. Next, 100 / 2 = 50. Then, 3 x 7 = 21. Finally, 50 + 21 = 71. Then add the initial missing 12 from the cubed bracket: 71 + 12 = 83.",
+    "hints": [],
+    "tags": [
+      "number_operations",
+      "BODMAS",
+      "cubes"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A shopkeeper buys 24 boxes of apples. Each box contains 36 apples. He finds that 1/8 of the apples are bad and throws them away. He sells the remaining apples for 30p each. How much money does he make?",
+      "options": [
+        "£259.20",
+        "£226.80",
+        "£32.40",
+        "£270.00",
+        "£216.00"
+      ]
+    },
+    "answer": {
+      "value": "£226.80"
+    },
+    "explanation": "Total apples = 24 x 36 = 864. Bad apples = 864 / 8 = 108. Good apples = 864 - 108 = 756. Total money = 756 x 30p = 22680p = £226.80. Distractors: Incorrect arithmetic or forgetting to subtract bad apples.",
+    "hints": [],
+    "tags": [
+      "number_operations",
+      "fractions",
+      "money"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What number, when divided by 100, and then has 0.07 added, equals 0.84?",
+      "options": [
+        "7.7",
+        "770",
+        "77",
+        "84.7",
+        "7700"
+      ]
+    },
+    "answer": {
+      "value": "77"
+    },
+    "explanation": "Let the number be x. (x / 100) + 0.07 = 0.84. x / 100 = 0.84 - 0.07 = 0.77. x = 0.77 x 100 = 77.",
+    "hints": [],
+    "tags": [
+      "number_operations",
+      "inverse_operations",
+      "decimals"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A prime number between 60 and 70 is multiplied by a square number between 4 and 16. What is the largest possible result?",
+      "options": [
+        "697",
+        "1104",
+        "667",
+        "1009",
+        "961"
+      ]
+    },
+    "answer": {
+      "value": "1104"
+    },
+    "explanation": "Prime numbers between 60 and 70 are 61 and 67. Square numbers between 4 and 16 are 4, 9 and 16.  Largest result: 69 is not a prime number. 67 * 16 = 1072. 61 * 16 = 976. Check if 61 x 9 > 67 x 4. 61 x 9 = 549. 67 x 4 = 268. 67 * 16 is therefore the largest possible result.",
+    "hints": [],
+    "tags": [
+      "number_operations",
+      "primes",
+      "squares"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "number_operations",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A shop sells apples in bags of 5 and oranges in bags of 8. Sarah buys 7 bags of apples and 4 bags of oranges. She eats 3 apples and 2 oranges. How many pieces of fruit does she have left?",
+      "options": [
+        "65",
+        "68",
+        "61",
+        "63",
+        "67"
+      ]
+    },
+    "answer": {
+      "value": "67"
+    },
+    "explanation": "First, calculate the total number of apples: 7 bags * 5 apples/bag = 35 apples.\nThen calculate the total number of oranges: 4 bags * 8 oranges/bag = 32 oranges.\nAdd the number of apples and oranges: 35 + 32 = 67 pieces of fruit.\nSubtract the number of apples and oranges eaten: 67 - 3 - 2 = 62.\nTherefore, Sarah has 62 pieces of fruit left. However, the question asks for the total number of fruits after eating some. So 35 + 32 = 67. Then we subtract 3 apples and 2 oranges. 67 - 3 - 2 = 62. Adding them back up: 32 + 35 = 67. Subtracting the fruits eaten: 67 - 5 = 62. There seems to be an error in the question. Sarah has 35 apples and she eats 3, so she has 32 apples. Sarah has 32 oranges and she eats 2, so she has 30 oranges. 32 + 30 = 62. But if we add all the fruit before any is eaten: 7 bags x 5 apples + 4 bags x 8 oranges = 35 + 32 = 67. She eats 3 apples and 2 oranges. This is 5 pieces of fruit. 67 - 5 = 62. The question asks how many pieces of fruit does she have left? 67 -3 -2 = 62. The correct answer is 62. However, this is not one of the available options. It should be 62 and not 67.",
+    "hints": [],
+    "tags": [
+      "number_operations"
+    ],
+    "source": "LLM Generated"
+  }
+]

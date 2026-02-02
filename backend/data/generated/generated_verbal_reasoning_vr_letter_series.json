@@ -1,0 +1,127 @@
+[
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_letter_series",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Find the pair of letters that continues the sequence in the best way.\n\nBA    DE    GI    JM    ?",
+      "options": [
+        "PQ",
+        "NP",
+        "OP",
+        "NO",
+        "QR"
+      ]
+    },
+    "answer": {
+      "value": "PQ"
+    },
+    "explanation": "The first letter increases by 1, then 2, then 3: B, D, G, J, P (+4). The second letter increases by 3 each time: A, E, I, M, Q.",
+    "hints": [],
+    "tags": [
+      "vr_letter_series"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_letter_series",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Find the pair of letters that continues the sequence in the best way.\n\nLN    KI    FH    CE    ?",
+      "options": [
+        "AZ",
+        "ZB",
+        "BD",
+        "BZ",
+        "DA"
+      ]
+    },
+    "answer": {
+      "value": "AZ"
+    },
+    "explanation": "The first letter decreases by 1 each time: L, K, F, C, A (skip count decreases by 1 each time). The second letter decreases by 5, then 4, then 3: N, I, H, E, Z (skip count decreases by 1 each time).",
+    "hints": [],
+    "tags": [
+      "vr_letter_series"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_letter_series",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Find the pair of letters that continues the sequence in the best way.\n\nAF    BG    CH    DI    ?",
+      "options": [
+        "FJ",
+        "EK",
+        "EJ",
+        "FK",
+        "GK"
+      ]
+    },
+    "answer": {
+      "value": "EJ"
+    },
+    "explanation": "The first letter increases by 1 each time: A, B, C, D, E. The second letter increases by 1 each time: F, G, H, I, J.",
+    "hints": [],
+    "tags": [
+      "vr_letter_series"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_letter_series",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Find the pair of letters that continues the sequence in the best way.\n\nAZ BX CV DU ?",
+      "options": [
+        "EW",
+        "EV",
+        "FU",
+        "FT",
+        "FW"
+      ]
+    },
+    "answer": {
+      "value": "EW"
+    },
+    "explanation": "The first letter increases by one each time (A, B, C, D, E). The second letter decreases by one each time (Z, X, V, U, W).",
+    "hints": [],
+    "tags": [
+      "vr_letter_series"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_letter_series",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Find the pair of letters that continues the sequence in the best way.\n\nAC   EG   IK   MO   ?",
+      "options": [
+        "QT",
+        "QS",
+        "PS",
+        "QU",
+        "PU"
+      ]
+    },
+    "answer": {
+      "value": "QS"
+    },
+    "explanation": "The first letter in each pair increases by 2 (A, C, E, I, M, Q). The second letter in each pair increases by 2 (C, G, K, O, S).",
+    "hints": [],
+    "tags": [
+      "vr_letter_series"
+    ],
+    "source": "LLM Generated"
+  }
+]

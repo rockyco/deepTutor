@@ -1,0 +1,159 @@
+[
+  {
+    "subject": "maths",
+    "question_type": "percentages",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A shop sells two types of scooters. Type A costs £60 and Type B costs £80. The shop offers a 20% discount on Type A and a 10% discount on Type B. What is the difference in the sale prices of the two scooters?",
+      "options": [
+        "£4",
+        "£36",
+        "£12",
+        "£48",
+        "£16"
+      ]
+    },
+    "answer": {
+      "value": "£4"
+    },
+    "explanation": "Discount on Type A = 20% of £60 = (20/100) * 60 = £12. Sale price of Type A = £60 - £12 = £48. Discount on Type B = 10% of £80 = (10/100) * 80 = £8. Sale price of Type B = £80 - £8 = £72. Difference in sale prices = £72 - £48 = £4.",
+    "hints": [],
+    "tags": [
+      "percentages",
+      "discounts"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "percentages",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A school raised £400 for charity last year. This year, they want to increase the amount raised by 30%. If they manage to raise 80% of their target, how much money will they raise this year?",
+      "options": [
+        "£520",
+        "£120",
+        "£416",
+        "£320",
+        "£104"
+      ]
+    },
+    "answer": {
+      "value": "£416"
+    },
+    "explanation": "Target increase = 30% of £400 = (30/100) * 400 = £120. Target amount = £400 + £120 = £520. Amount raised = 80% of £520 = (80/100) * 520 = £416.",
+    "hints": [],
+    "tags": [
+      "percentages",
+      "percentage increase"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "percentages",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A baker made 200 cookies. She sold 35% of them in the morning and 40% of the remaining cookies in the afternoon. How many cookies did she have left at the end of the day?",
+      "options": [
+        "50",
+        "70",
+        "78",
+        "130",
+        "42"
+      ]
+    },
+    "answer": {
+      "value": "78"
+    },
+    "explanation": "Cookies sold in the morning = 35% of 200 = (35/100) * 200 = 70. Cookies remaining after morning sales = 200 - 70 = 130. Cookies sold in the afternoon = 40% of 130 = (40/100) * 130 = 52. Cookies left at the end of the day = 130 - 52 = 78.",
+    "hints": [],
+    "tags": [
+      "percentages",
+      "multi-step"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "percentages",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A toy shop increased the price of a teddy bear by 25%. A week later, they reduced the new price by 20%. If the teddy bear originally cost £24, what is the current price?",
+      "options": [
+        "£24",
+        "£25",
+        "£28.80",
+        "£23",
+        "£26"
+      ]
+    },
+    "answer": {
+      "value": "£24"
+    },
+    "explanation": "Price increase = 25% of £24 = (25/100) * 24 = £6. New price = £24 + £6 = £30. Price reduction = 20% of £30 = (20/100) * 30 = £6. Current price = £30 - £6 = £24.",
+    "hints": [],
+    "tags": [
+      "percentages",
+      "successive percentage change"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "percentages",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which of the following is the largest value?",
+      "options": [
+        "0.6",
+        "5/8",
+        "62%",
+        "13/20",
+        "0.65"
+      ]
+    },
+    "answer": {
+      "value": "0.65"
+    },
+    "explanation": "0.6 = 60%. 5/8 = 0.625 = 62.5%. 62% = 62%. 13/20 = 0.65 = 65%. Comparing the percentages, 65% is the largest.",
+    "hints": [],
+    "tags": [
+      "percentages",
+      "fraction-decimal-percentage conversion"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "percentages",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A school raised £600 for charity. 35% of the money came from a bake sale, 1/4 of the money came from a sponsored walk, and the rest came from individual donations. How much more money was raised from individual donations than from the bake sale?",
+      "options": [
+        "£150",
+        "£210",
+        "£240",
+        "£90",
+        "£390"
+      ]
+    },
+    "answer": {
+      "value": "£90"
+    },
+    "explanation": "Bake sale: 35% of £600 = 0.35 * £600 = £210.\nSponsored walk: 1/4 of £600 = £600 / 4 = £150.\nTotal from bake sale and walk: £210 + £150 = £360.\nIndividual donations: £600 - £360 = £240.\nDifference: £240 - £210 = £30. The question asks how much MORE was raised from donations. £240 - £210 = £30.",
+    "hints": [],
+    "tags": [
+      "percentages",
+      "fractions",
+      "problem solving"
+    ],
+    "source": "LLM Generated"
+  }
+]

@@ -1,0 +1,494 @@
+[
+  {
+    "subject": "english",
+    "question_type": "comprehension",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What does the phrase 'a tapestry of whispers' suggest about the forest?",
+      "passage": "Elara stepped into the ancient forest, a place where sunlight dripped through the canopy like liquid gold. The air hummed with the unseen, a tapestry of whispers carried on the gentle breeze. Towering trees, their bark adorned with emerald moss, stood as silent sentinels. A faint, earthy aroma rose from the damp ground, mingling with the sweet scent of wildflowers blooming in hidden glades. Deeper within, Elara knew, lay secrets guarded by the rustling leaves and watchful eyes of the forest creatures.",
+      "options": [
+        "The forest is filled with secrets and stories.",
+        "The trees are very old and tall.",
+        "There are many birds singing in the forest.",
+        "The forest is dangerous and unwelcoming.",
+        "The forest is quiet and still."
+      ]
+    },
+    "answer": {
+      "value": "The forest is filled with secrets and stories."
+    },
+    "explanation": "A 'tapestry of whispers' implies a collection of soft, indistinct sounds, suggesting hidden stories and secrets within the forest.",
+    "hints": [],
+    "tags": [
+      "comprehension",
+      "inference",
+      "vocabulary"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "comprehension",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What does the author imply about Leo's feelings towards the move in the sentence, 'Leo packed his belongings with the enthusiasm of a snail crossing a busy road?'",
+      "passage": "The moving van loomed large, a metal beast ready to swallow their lives whole. Inside the house, boxes overflowed with memories, each one a tiny fragment of the life Leo knew. His parents bustled about, their faces alight with excitement about the new house and new opportunities. Leo, however, felt a knot of dread tightening in his stomach. He packed his belongings with the enthusiasm of a snail crossing a busy road, each item a painful reminder of what he was leaving behind.",
+      "options": [
+        "Leo is excited about the move.",
+        "Leo is indifferent to the move.",
+        "Leo is very reluctant and unhappy about the move.",
+        "Leo is angry with his parents.",
+        "Leo is curious about the new house."
+      ]
+    },
+    "answer": {
+      "value": "Leo is very reluctant and unhappy about the move."
+    },
+    "explanation": "Comparing Leo's enthusiasm to that of a snail crossing a busy road implies a complete lack of enthusiasm and a strong reluctance to move.",
+    "hints": [],
+    "tags": [
+      "comprehension",
+      "inference",
+      "character analysis"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "comprehension",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What does the phrase 'her smile could launch a thousand ships' suggest about Amelia's personality?",
+      "passage": "Amelia stood on the stage, the spotlight illuminating her face. She had always been a natural performer, captivating audiences with her charisma and talent. Tonight was her biggest performance yet, and a hush fell over the crowd as she began to sing. Her voice, clear and strong, filled the theatre, and her smile could launch a thousand ships. By the end of her performance, the audience erupted in thunderous applause, a testament to her extraordinary ability.",
+      "options": [
+        "She is very shy and insecure.",
+        "She is confident and charming.",
+        "She is a skilled sailor.",
+        "She is very loud and boisterous.",
+        "She is unfriendly and unapproachable."
+      ]
+    },
+    "answer": {
+      "value": "She is confident and charming."
+    },
+    "explanation": "The hyperbole 'her smile could launch a thousand ships' suggests that her smile is incredibly powerful and captivating, indicating confidence and charm.",
+    "hints": [],
+    "tags": [
+      "comprehension",
+      "inference",
+      "character analysis"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "comprehension",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What is the most likely reason the author uses the phrase 'a symphony of beeps and boops' to describe the city sounds?",
+      "passage": "From her apartment window, Maya gazed out at the sprawling city below. Cars zipped along the streets like tiny, metallic beetles, their headlights cutting through the twilight. The air buzzed with the constant hum of activity – a symphony of beeps and boops emanating from the countless devices and vehicles that filled the urban landscape. High above, skyscrapers pierced the sky, their windows reflecting the fading light. The city never slept, always pulsing with energy and life.",
+      "options": [
+        "To create a negative impression of the city as noisy and chaotic.",
+        "To suggest that the city sounds are harmonious and pleasant.",
+        "To emphasize the importance of music in the city.",
+        "To create a vivid and slightly humorous image of the city sounds.",
+        "To show that the city is quiet and peaceful."
+      ]
+    },
+    "answer": {
+      "value": "To create a vivid and slightly humorous image of the city sounds."
+    },
+    "explanation": "The phrase 'a symphony of beeps and boops' is an example of personification. The sounds are not harmonious, but the author aims to create a vivid and slightly humorous image, making the city sound alive and busy.",
+    "hints": [],
+    "tags": [
+      "comprehension",
+      "inference",
+      "author's purpose"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "comprehension",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What does the author mean by stating that the old clock 'held time captive'?",
+      "passage": "In the dusty attic, amongst forgotten relics and cobweb-draped furniture, stood an old grandfather clock. Its pendulum swung with a slow, deliberate rhythm, each tick echoing through the silent space. The clock's face, etched with ornate numerals, seemed to hold time captive within its aged frame. Generations had passed beneath its watchful gaze, their stories now woven into the very fabric of the attic. It stood as a testament to the enduring power of time and memory.",
+      "options": [
+        "The clock had stopped working.",
+        "The clock was very accurate.",
+        "The clock was slowing down time.",
+        "The clock represented a long history and held memories.",
+        "The clock was brand new."
+      ]
+    },
+    "answer": {
+      "value": "The clock represented a long history and held memories."
+    },
+    "explanation": "The phrase 'held time captive' suggests the clock is a vessel for memories and the passage of time, representing a long history rather than physically stopping time.",
+    "hints": [],
+    "tags": [
+      "comprehension",
+      "inference",
+      "vocabulary"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "comprehension",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What does the author mean when he says the dragon's hoard was 'a glittering promise of power'?",
+      "passage": "Kael, the young knight, stood before the dragon's lair, his heart pounding. Inside, the dragon slept atop a mountain of gold and jewels – a glittering promise of power to any who dared claim it. Kael knew the stories; the hoard corrupted all who coveted it, twisting noble hearts to greed. But he needed the dragon's scale to save his village.",
+      "options": [
+        "The hoard could be used to buy powerful weapons.",
+        "The hoard could make someone feel important.",
+        "The hoard was literally a magical object.",
+        "The hoard tempted people with the illusion of control and influence.",
+        "The hoard was very shiny and attractive."
+      ]
+    },
+    "answer": {
+      "value": "The hoard tempted people with the illusion of control and influence."
+    },
+    "explanation": "The phrase suggests that the hoard offered the *appearance* of power, tempting individuals with the potential for influence and control, even if that power was ultimately corrupting or illusory.",
+    "hints": [],
+    "tags": [
+      "comprehension",
+      "inference"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "comprehension",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "In the context of the passage, what does 'resilient' mean?",
+      "passage": "The old oak tree stood alone on the hill, its branches gnarled and twisted by countless storms. Despite the harsh winds and driving rain, it remained steadfast, a symbol of resilience against the elements. Generations of birds had nested in its boughs, and countless children had sought shelter beneath its leaves. It was a landmark, a testament to the enduring power of nature.",
+      "options": [
+        "Tall and imposing",
+        "Fragile and delicate",
+        "Strong and able to recover quickly from difficulties",
+        "Beautiful and aesthetically pleasing",
+        "Ancient and mysterious"
+      ]
+    },
+    "answer": {
+      "value": "Strong and able to recover quickly from difficulties"
+    },
+    "explanation": "The passage describes the tree withstanding harsh conditions and remaining steadfast, which aligns with the definition of 'resilient' as being able to recover from difficulties.",
+    "hints": [],
+    "tags": [
+      "comprehension",
+      "vocabulary"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "comprehension",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What is implied about Anya's character when the passage states she 'clutched her worn teddy bear as if it held the secrets of the universe'?",
+      "passage": "The train rattled along the tracks, carrying Anya far away from her home. She stared out the window at the blurring landscape, a mixture of fear and excitement churning within her. She clutched her worn teddy bear as if it held the secrets of the universe, a silent promise of comfort in the unknown journey ahead.",
+      "options": [
+        "Anya believed the teddy bear was magic.",
+        "Anya was very young and immature.",
+        "Anya felt safe and secure.",
+        "Anya was feeling anxious and sought comfort in something familiar.",
+        "Anya had lost something valuable."
+      ]
+    },
+    "answer": {
+      "value": "Anya was feeling anxious and sought comfort in something familiar."
+    },
+    "explanation": "Clutching a worn teddy bear suggests Anya is seeking comfort and security in a familiar object during a time of uncertainty and anxiety.",
+    "hints": [],
+    "tags": [
+      "comprehension",
+      "character analysis"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "comprehension",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What is the author's likely purpose in describing the market square in such detail?",
+      "passage": "The market square bustled with life. Stalls overflowed with vibrant fruits and vegetables, their colours a feast for the eyes. The air was thick with the aroma of freshly baked bread and exotic spices. Merchants hawked their wares, their voices a lively chorus against the backdrop of chattering crowds. A travelling musician played a jaunty tune on his lute, adding to the festive atmosphere.",
+      "options": [
+        "To show how unhealthy the food was.",
+        "To create a vivid and engaging sensory experience for the reader.",
+        "To complain about how noisy the market was.",
+        "To provide historical information about the town.",
+        "To describe the dangers of pickpockets."
+      ]
+    },
+    "answer": {
+      "value": "To create a vivid and engaging sensory experience for the reader."
+    },
+    "explanation": "The detailed descriptions of sights, smells, and sounds suggest the author aims to immerse the reader in the vibrant atmosphere of the market square.",
+    "hints": [],
+    "tags": [
+      "comprehension",
+      "author's purpose"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "comprehension",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What does Amelia's hesitation to immediately share her discovery suggest about her character?",
+      "passage": "Amelia stumbled upon a peculiar sight in the attic: a small, wooden box adorned with intricate carvings. Dust motes danced in the single ray of sunlight illuminating it. She hesitated, a strange mix of excitement and trepidation washing over her. Instead of rushing downstairs to proclaim her discovery to the family, she carefully lifted the box, her fingers tracing the delicate patterns. She wondered about its secrets, deciding to examine it alone first, before involving anyone else.",
+      "options": [
+        "She is generally dishonest and secretive.",
+        "She is easily frightened and overwhelmed.",
+        "She values privacy and independent exploration.",
+        "She is afraid her family will disapprove.",
+        "She lacks confidence in her judgment."
+      ]
+    },
+    "answer": {
+      "value": "She values privacy and independent exploration."
+    },
+    "explanation": "Amelia's hesitation and her decision to examine the box alone suggest she values her privacy and enjoys exploring things independently before sharing them with others.",
+    "hints": [],
+    "tags": [
+      "comprehension",
+      "character analysis"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "comprehension",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "In the context of the passage, what does 'reluctant' most nearly mean?",
+      "passage": "The old oak tree stood sentinel at the edge of the forest, its branches reaching towards the sky like gnarled fingers. For centuries, it had witnessed the changing seasons, the rise and fall of empires. Now, a young sapling grew at its base, eager to soak up the sunlight. However, the old oak seemed reluctant to share its space, its massive canopy casting a long, imposing shadow. It creaked and groaned in the wind, as if protesting the sapling's presence.",
+      "options": [
+        "Enthusiastic",
+        "Anxious",
+        "Capable",
+        "Unwilling",
+        "Determined"
+      ]
+    },
+    "answer": {
+      "value": "Unwilling"
+    },
+    "explanation": "The oak tree's actions (casting a shadow, creaking and groaning) suggest it is unwilling to share its space with the sapling.",
+    "hints": [],
+    "tags": [
+      "comprehension",
+      "vocabulary in context"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "comprehension",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What is the author's main purpose in writing this passage?",
+      "passage": "The bustling marketplace was a symphony of sights and sounds. Merchants hawked their wares, their voices rising above the din of the crowd. Exotic spices filled the air with their pungent aroma, mingling with the scent of freshly baked bread. Children darted through the throng, their laughter echoing off the stone walls. A lone musician played a mournful tune on his flute, his music adding a touch of melancholy to the vibrant scene. It was a place of contrasts, where joy and sorrow, wealth and poverty, existed side by side.",
+      "options": [
+        "To persuade readers to visit the marketplace.",
+        "To inform readers about the history of marketplaces.",
+        "To entertain readers with a fictional story.",
+        "To describe the atmosphere and sensory details of a marketplace.",
+        "To compare different types of marketplaces."
+      ]
+    },
+    "answer": {
+      "value": "To describe the atmosphere and sensory details of a marketplace."
+    },
+    "explanation": "The passage focuses on describing the sights, sounds, and smells of the marketplace, aiming to create a vivid sensory experience for the reader.",
+    "hints": [],
+    "tags": [
+      "comprehension",
+      "author's purpose"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "comprehension",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What does the phrase 'a flicker of defiance' suggest about the character's inner state?",
+      "passage": "Kira stood before the imposing figure of the Headmaster, her hands clasped tightly behind her back. He accused her of breaking the school's most sacred rule, a rule she believed was unfair and outdated. Though outwardly she remained composed, a flicker of defiance shone in her eyes. She knew that arguing would be futile, but she refused to let him see her completely defeated. She would accept the punishment, but her spirit remained unbroken.",
+      "options": [
+        "She is planning to rebel openly.",
+        "She is completely unafraid of the Headmaster.",
+        "She feels a strong sense of injustice and resists being cowed.",
+        "She is confident that she can escape the punishment.",
+        "She secretly agrees with the Headmaster's assessment."
+      ]
+    },
+    "answer": {
+      "value": "She feels a strong sense of injustice and resists being cowed."
+    },
+    "explanation": "The 'flicker of defiance' suggests an internal resistance to the Headmaster's authority and the unfair rule, even though she doesn't express it openly.",
+    "hints": [],
+    "tags": [
+      "comprehension",
+      "inference"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "comprehension",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What theme is most strongly suggested by the passage?",
+      "passage": "The little robot, Unit 734, yearned to understand the human concept of 'beauty'. It observed the sunset, analyzed the structure of a flower, and listened to countless songs. Yet, it could not grasp the subjective nature of human appreciation. One day, it encountered a broken, discarded toy. It carefully repaired the toy, not for any logical reason, but because it felt a strange impulse to restore its wholeness. In that moment, Unit 734 realized that beauty wasn't just about perfect form, but also about care, compassion, and the act of creation.",
+      "options": [
+        "The dangers of technology.",
+        "The importance of following instructions.",
+        "The power of friendship.",
+        "The subjective nature of beauty and the value of compassion.",
+        "The inevitability of progress."
+      ]
+    },
+    "answer": {
+      "value": "The subjective nature of beauty and the value of compassion."
+    },
+    "explanation": "The passage explores the robot's journey to understand beauty, ultimately concluding that it involves more than just aesthetics, encompassing compassion and care.",
+    "hints": [],
+    "tags": [
+      "comprehension",
+      "theme"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "comprehension",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What does Maya's reluctance to show her invention suggest about her personality?",
+      "passage": "Maya clutched the strange device to her chest, her knuckles white. It was her most magnificent creation yet – a small box that, according to her calculations, could translate the chirps of crickets into human language. But as she stood before the judging panel at the science fair, a wave of doubt washed over her. She had poured weeks into this project, sacrificing sleep and playtime. Yet, now, she found herself reluctant to present it. What if they laughed? What if it didn't work? She imagined their scornful faces and hesitated. ",
+      "options": [
+        "She is extremely confident.",
+        "She is easily bored.",
+        "She is primarily motivated by external praise.",
+        "She is insecure and fears failure.",
+        "She is secretive and enjoys keeping things to herself."
+      ]
+    },
+    "answer": {
+      "value": "She is insecure and fears failure."
+    },
+    "explanation": "Maya's reluctance, the white knuckles, and her fear of being laughed at all point to insecurity and fear of failure.",
+    "hints": [],
+    "tags": [
+      "comprehension",
+      "inference"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "comprehension",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "In the passage, the word 'peculiar' most nearly means:",
+      "passage": "Barnaby Button was, to put it mildly, peculiar. He wore mismatched socks, conversed with squirrels, and carried a magnifying glass everywhere he went, even to the supermarket. His house was adorned with strange contraptions made of cogs, wires, and teacups. One day, he proclaimed he had invented a device that could turn sadness into sunshine. Nobody believed him, of course, but Barnaby remained undeterred, convinced that his peculiar inventions would one day change the world.",
+      "options": [
+        "Ordinary",
+        "Commonplace",
+        "Odd or unusual",
+        "Sophisticated",
+        "Practical"
+      ]
+    },
+    "answer": {
+      "value": "Odd or unusual"
+    },
+    "explanation": "Given Barnaby's strange habits and inventions, 'peculiar' suggests that he is odd or unusual.",
+    "hints": [],
+    "tags": [
+      "comprehension",
+      "vocabulary"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "comprehension",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What does the phrase 'a conspicuous absence' suggest about Amelia?",
+      "passage": "The annual town picnic was in full swing. Laughter and music filled the air, and the aroma of barbecued food hung heavy. Yet, amidst the revelry, there was a conspicuous absence: Amelia, the town's beloved baker, known for her gingerbread cookies shaped like cats. She was always the first to arrive, her basket overflowing with treats for everyone. Her absence was immediately noticed, and a ripple of concern spread through the crowd. Had something happened?",
+      "options": [
+        "Amelia is generally disliked by the townspeople.",
+        "Amelia's absence is normal and expected.",
+        "Amelia is usually a very prominent and important figure.",
+        "Amelia is secretly planning a surprise for everyone.",
+        "Amelia is known for being unreliable."
+      ]
+    },
+    "answer": {
+      "value": "Amelia is usually a very prominent and important figure."
+    },
+    "explanation": "A 'conspicuous absence' means her being gone is very noticeable, implying she is usually prominent and important.",
+    "hints": [],
+    "tags": [
+      "comprehension",
+      "inference"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "comprehension",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What does the phrase 'a cage of expectation' suggest about Maya's life?",
+      "passage": "Maya excelled at everything. Piano recitals were met with thunderous applause, her paintings adorned the school gallery, and her academic record was spotless. Yet, behind the dazzling facade, Maya felt trapped. Each success seemed to tighten a cage of expectation around her. Her parents beamed with pride, already envisioning her as a concert pianist or a renowned artist. Maya, however, yearned to explore the muddy banks of the local river, searching for fossils like her eccentric Uncle George.",
+      "options": [
+        "Maya felt pressured to maintain a perfect image.",
+        "Maya disliked playing the piano.",
+        "Maya's parents were unkind to her.",
+        "Maya was actually not very talented.",
+        "Maya enjoyed the attention she received."
+      ]
+    },
+    "answer": {
+      "value": "Maya felt pressured to maintain a perfect image."
+    },
+    "explanation": "The phrase 'a cage of expectation' implies that Maya felt restricted by the high expectations others had for her. She felt pressured to continue excelling in areas that might not be her true passion.",
+    "hints": [],
+    "tags": [
+      "comprehension",
+      "inference",
+      "vocabulary"
+    ],
+    "source": "LLM Generated"
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_explore_facts",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Read the information carefully.\n\nAt a particular school, all members of the chess club are good at maths. Some members of the science club are good at maths. No members of the drama club are good at maths.\n\nWhich statement MUST be true?",
+      "options": [
+        "All members of the science club are in the chess club.",
+        "Some members of the science club are in the chess club.",
+        "No members of the chess club are in the drama club.",
+        "All members of the chess club are in the science club.",
+        "Some members of the drama club are in the science club."
+      ]
+    },
+    "answer": {
+      "value": "No members of the chess club are in the drama club."
+    },
+    "explanation": "Since all chess club members are good at maths, and no drama club members are good at maths, it MUST be true that no chess club members are in the drama club.",
+    "hints": [],
+    "tags": [
+      "vr_explore_facts"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_explore_facts",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Read the information carefully.\n\nAll students who play hockey are in Year 6. Some students who play netball are in Year 6. No students who play rugby are in Year 6.\n\nWhich statement MUST be true?",
+      "options": [
+        "Some netball players play hockey.",
+        "All hockey players play netball.",
+        "No rugby players play hockey.",
+        "All Year 6 students play hockey.",
+        "Some Year 6 students play rugby."
+      ]
+    },
+    "answer": {
+      "value": "No rugby players play hockey."
+    },
+    "explanation": "All hockey players are in Year 6 and no rugby players are in Year 6, therefore no rugby players play hockey.",
+    "hints": [],
+    "tags": [
+      "vr_explore_facts"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_explore_facts",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Read the information carefully.\n\nAll the children in Goldfinch class like drawing. Some of the children in Kingfisher class like drawing. None of the children in Skylark class like drawing.\n\nWhich statement MUST be true?",
+      "options": [
+        "Some children in Kingfisher class also like painting.",
+        "All the children in Goldfinch class like painting.",
+        "No children in Skylark class like Goldfinch class.",
+        "All children in Kingfisher class are in Goldfinch class.",
+        "No children in Goldfinch class are in Skylark class."
+      ]
+    },
+    "answer": {
+      "value": "No children in Goldfinch class are in Skylark class."
+    },
+    "explanation": "Since all children in Goldfinch class like drawing, and none of the children in Skylark class like drawing, it MUST be true that no children in Goldfinch class are in Skylark class.",
+    "hints": [],
+    "tags": [
+      "vr_explore_facts"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_explore_facts",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Read the information carefully.\n\nAll the pupils who are in the choir enjoy singing. Some of the pupils who play the piano enjoy singing. No pupils who play the drums enjoy singing.\n\nWhich statement MUST be true?",
+      "options": [
+        "Some pupils who play the piano are in the choir.",
+        "All the pupils who are in the choir also play the piano.",
+        "All the pupils who play the piano are in the choir.",
+        "No pupils who play the drums are in the choir.",
+        "Some pupils who play the drums also play the piano."
+      ]
+    },
+    "answer": {
+      "value": "No pupils who play the drums are in the choir."
+    },
+    "explanation": "All members of the choir enjoy singing and no pupils who play drums enjoy singing, therefore no pupils who play the drums are in the choir.",
+    "hints": [],
+    "tags": [
+      "vr_explore_facts"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_explore_facts",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Read the information and use it to answer the question.\n\nAt Elmwood School, all members of the chess club are good at mathematics. Some students who are good at mathematics also play a musical instrument. No student who plays a musical instrument is on the debating team.\n\nWhich statement MUST be true?",
+      "options": [
+        "All members of the chess club play a musical instrument.",
+        "Some members of the debating team are good at mathematics.",
+        "No members of the chess club are on the debating team.",
+        "Some students who play a musical instrument are good at mathematics.",
+        "All students good at mathematics are in the chess club."
+      ]
+    },
+    "answer": {
+      "value": "No members of the chess club are on the debating team."
+    },
+    "explanation": "All chess club members are good at maths. No one who plays an instrument is on the debating team, but SOME maths students play instruments. Therefore, it's possible that some maths students (who aren't in the chess club) are on the debating team. However, since all chess club members are good at maths, and no musical instrument players are debaters, then no chess club members can be debaters. The other options could be true, but are not guaranteed.",
+    "hints": [],
+    "tags": [
+      "vr_explore_facts"
+    ],
+    "source": "LLM Generated"
+  }
+]

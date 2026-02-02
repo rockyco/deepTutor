@@ -1,0 +1,127 @@
+[
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_number_codes",
+    "format": "multiple_choice",
+    "difficulty": 0.6,
+    "content": {
+      "text": "Letters stand for numbers. If A = 6, B = 2, C = 4, D = 1, what is the value of (A x B) - (C + D)?",
+      "options": [
+        "11",
+        "10",
+        "9",
+        "8",
+        "7"
+      ]
+    },
+    "answer": {
+      "value": "8"
+    },
+    "explanation": "A x B = 6 x 2 = 12. C + D = 4 + 1 = 5. 12 - 5 = 7.",
+    "hints": [],
+    "tags": [
+      "vr_number_codes"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_number_codes",
+    "format": "multiple_choice",
+    "difficulty": 0.7,
+    "content": {
+      "text": "Letters stand for numbers. If J = 7, K = 8, L = 1, M = 4, what is the value of (J + K) / (M - L)?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    "answer": {
+      "value": "5"
+    },
+    "explanation": "J + K = 7 + 8 = 15. M - L = 4 - 1 = 3. 15 / 3 = 5.",
+    "hints": [],
+    "tags": [
+      "vr_number_codes"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_number_codes",
+    "format": "multiple_choice",
+    "difficulty": 0.8,
+    "content": {
+      "text": "Letters stand for numbers. If P = 2, Q = 5, R = 6, S = 3, what is the value of (Q x R) - (P x S)?",
+      "options": [
+        "24",
+        "14",
+        "36",
+        "18",
+        "30"
+      ]
+    },
+    "answer": {
+      "value": "24"
+    },
+    "explanation": "Q x R = 5 x 6 = 30. P x S = 2 x 3 = 6. 30 - 6 = 24.",
+    "hints": [],
+    "tags": [
+      "vr_number_codes"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_number_codes",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Letters stand for numbers. Work out the answer to the sum.\n\nIf J = 3, K = 4, L = 9, M = 1,\n\nWhat is the value of (L - K) x (J + M)?",
+      "options": [
+        "12",
+        "28",
+        "36",
+        "20",
+        "8"
+      ]
+    },
+    "answer": {
+      "value": "20"
+    },
+    "explanation": "Substitute the values: (9 - 4) x (3 + 1) = 5 x 4 = 20.",
+    "hints": [],
+    "tags": [
+      "vr_number_codes"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_number_codes",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Letters stand for numbers. Work out the answer to the sum.\n\nIf W = 8, X = 2, Y = 5, Z = 1\n\nWhat is the value of (W x Y) - (X x Z) + Y?",
+      "options": [
+        "43",
+        "39",
+        "41",
+        "37",
+        "45"
+      ]
+    },
+    "answer": {
+      "value": "43"
+    },
+    "explanation": "Substitute the values: (8 x 5) - (2 x 1) + 5 = 40 - 2 + 5 = 38 + 5 = 43",
+    "hints": [],
+    "tags": [
+      "vr_number_codes"
+    ],
+    "source": "LLM Generated"
+  }
+]

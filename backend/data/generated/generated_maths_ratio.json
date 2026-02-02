@@ -1,0 +1,502 @@
+[
+  {
+    "subject": "maths",
+    "question_type": "ratio",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Sarah and Tom share sweets in the ratio 2:5. Sarah gets 12 sweets. How many sweets does Tom get?",
+      "options": [
+        "30",
+        "42",
+        "17",
+        "60",
+        "24"
+      ]
+    },
+    "answer": {
+      "value": "30"
+    },
+    "explanation": "If the ratio of Sarah to Tom is 2:5, and Sarah gets 12 sweets, then 2 parts = 12 sweets. Therefore, 1 part = 12 / 2 = 6 sweets. Tom gets 5 parts, so he gets 5 * 6 = 30 sweets.",
+    "hints": [],
+    "tags": [
+      "ratio",
+      "sharing in ratio"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "ratio",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A recipe for a cake uses 200g of flour and 50g of butter. I want to make a larger cake using 300g of flour. How much butter do I need?",
+      "options": [
+        "75g",
+        "100g",
+        "150g",
+        "12.5g",
+        "62.5g"
+      ]
+    },
+    "answer": {
+      "value": "75g"
+    },
+    "explanation": "The ratio of flour to butter is 200:50, which simplifies to 4:1. If we use 300g of flour, we need to find what number multiplied by 4 equals 300. 300 / 4 = 75. Therefore, we need 75g of butter.",
+    "hints": [],
+    "tags": [
+      "ratio",
+      "scaling"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "ratio",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Simplify the ratio 300 cm : 2 m.",
+      "options": [
+        "3:20",
+        "3:2",
+        "150:1",
+        "3:200",
+        "300:2"
+      ]
+    },
+    "answer": {
+      "value": "3:2"
+    },
+    "explanation": "First, convert both measurements to the same unit. 2 m = 200 cm. So the ratio is 300 cm : 200 cm. Divide both sides by 100 to get 3:2.",
+    "hints": [],
+    "tags": [
+      "ratio",
+      "simplifying",
+      "unit conversion"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "ratio",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A school has 120 students. The ratio of boys to girls is 5:3. How many more boys are there than girls?",
+      "options": [
+        "15",
+        "60",
+        "45",
+        "30",
+        "75"
+      ]
+    },
+    "answer": {
+      "value": "30"
+    },
+    "explanation": "The total number of parts in the ratio is 5 + 3 = 8.  Each part represents 120 / 8 = 15 students. There are 5 * 15 = 75 boys and 3 * 15 = 45 girls. The difference between the number of boys and girls is 75 - 45 = 30.",
+    "hints": [],
+    "tags": [
+      "ratio",
+      "sharing in ratio"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "ratio",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A table shows the cost of apples: \n\nApples | Cost \n------- | --------\n3 | £1.20\n5 | £2.00\n8 | £3.20\n\nWhat is the cost of 12 apples?",
+      "options": [
+        "£4.80",
+        "£4.00",
+        "£5.20",
+        "£3.60",
+        "£6.40"
+      ]
+    },
+    "answer": {
+      "value": "£4.80"
+    },
+    "explanation": "First find the cost of 1 apple. £1.20 / 3 = £0.40. Then, multiply the cost of 1 apple by 12 to find the cost of 12 apples. £0.40 * 12 = £4.80.",
+    "hints": [],
+    "tags": [
+      "ratio",
+      "proportion"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "ratio",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A recipe for a cake uses 200g of flour and 50g of sugar. If you want to make a cake using 300g of flour, how much sugar will you need?",
+      "options": [
+        "75g",
+        "25g",
+        "100g",
+        "60g",
+        "150g"
+      ]
+    },
+    "answer": {
+      "value": "75g"
+    },
+    "explanation": "The ratio of flour to sugar is 200:50, which simplifies to 4:1.  If you use 300g of flour, divide this by 4 to find the amount of sugar needed: 300 / 4 = 75g.",
+    "hints": [],
+    "tags": [
+      "ratio",
+      "proportion"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "ratio",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "The ratio of boys to girls in a class is 3:5. If there are 12 boys, how many children are there in total?",
+      "options": [
+        "20",
+        "32",
+        "8",
+        "15",
+        "28"
+      ]
+    },
+    "answer": {
+      "value": "32"
+    },
+    "explanation": "If the ratio of boys to girls is 3:5, and there are 12 boys, then 3 parts = 12. One part equals 12/3 = 4. So, the number of girls is 5 * 4 = 20. The total number of children is 12 + 20 = 32.",
+    "hints": [],
+    "tags": [
+      "ratio"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "ratio",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Simplify the ratio 300cm : 2m.",
+      "options": [
+        "3:20",
+        "3:2",
+        "150:1",
+        "3:200",
+        "300:2"
+      ]
+    },
+    "answer": {
+      "value": "3:2"
+    },
+    "explanation": "First, convert 2m to cm: 2m = 200cm. The ratio becomes 300cm : 200cm. Divide both sides by 100 to get 3:2.",
+    "hints": [],
+    "tags": [
+      "ratio",
+      "units"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "ratio",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A model car is made to a scale of 1:20. If the model car is 15 cm long, how long is the real car in metres?",
+      "options": [
+        "3 m",
+        "30 m",
+        "0.75 m",
+        "300 cm",
+        "30 cm"
+      ]
+    },
+    "answer": {
+      "value": "3 m"
+    },
+    "explanation": "The real car is 20 times longer than the model.  So, the real car is 15 cm * 20 = 300 cm long.  Convert cm to meters: 300 cm = 3 m.",
+    "hints": [],
+    "tags": [
+      "ratio",
+      "scaling",
+      "units"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "ratio",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Sarah and Ali share some sweets in the ratio 2:3. Sarah gets 12 sweets. How many sweets does Ali get?",
+      "options": [
+        "15 sweets",
+        "18 sweets",
+        "8 sweets",
+        "16 sweets",
+        "20 sweets"
+      ]
+    },
+    "answer": {
+      "value": "18 sweets"
+    },
+    "explanation": "Sarah's share represents 2 parts, and this equals 12 sweets. Therefore, one part is 12 / 2 = 6 sweets. Ali's share is 3 parts, so Ali gets 3 * 6 = 18 sweets.",
+    "hints": [],
+    "tags": [
+      "ratio",
+      "sharing in ratio"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "ratio",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A recipe for a cake uses 200g of flour and 50g of butter. What is the ratio of flour to butter in its simplest form?",
+      "options": [
+        "2:1",
+        "4:1",
+        "5:1",
+        "1:4",
+        "1:2"
+      ]
+    },
+    "answer": {
+      "value": "4:1"
+    },
+    "explanation": "The ratio of flour to butter is 200g : 50g. To simplify, divide both sides by their highest common factor, which is 50. This gives 200/50 : 50/50 = 4:1.",
+    "hints": [],
+    "tags": [
+      "ratio",
+      "simplifying ratios"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "ratio",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A model car is made to a scale of 1:25. If the length of the model car is 18 cm, what is the actual length of the real car in metres?",
+      "options": [
+        "4.5 m",
+        "0.72 m",
+        "45 m",
+        "450 cm",
+        "7.2 m"
+      ]
+    },
+    "answer": {
+      "value": "4.5 m"
+    },
+    "explanation": "The scale is 1:25, so the real car is 25 times longer than the model. The real car is 18 cm * 25 = 450 cm long. Convert cm to metres: 450 cm / 100 = 4.5 m.",
+    "hints": [],
+    "tags": [
+      "ratio",
+      "scaling",
+      "unit conversion"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "ratio",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A recipe for cookies uses 120g of sugar to make 24 cookies. How much sugar is needed to make 36 cookies?",
+      "options": [
+        "180 g",
+        "240 g",
+        "80 g",
+        "60 g",
+        "160 g"
+      ]
+    },
+    "answer": {
+      "value": "180 g"
+    },
+    "explanation": "The ratio of sugar to cookies is constant. Sugar per cookie = 120g / 24 cookies = 5g/cookie. For 36 cookies, you need 36 cookies * 5g/cookie = 180g of sugar.",
+    "hints": [],
+    "tags": [
+      "ratio",
+      "proportion",
+      "scaling"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "ratio",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "In a class, the ratio of boys to girls is 3:5. If there are 12 boys, how many girls are there?",
+      "options": [
+        "15",
+        "8",
+        "20",
+        "28",
+        "32"
+      ]
+    },
+    "answer": {
+      "value": "20"
+    },
+    "explanation": "The ratio of boys to girls is 3:5. 3 parts represent 12 boys. Therefore, one part is 12 / 3 = 4. The number of girls is 5 parts, so there are 5 * 4 = 20 girls.",
+    "hints": [],
+    "tags": [
+      "ratio",
+      "sharing in ratio"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "ratio",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A recipe for 8 cookies requires 120g of flour. How much flour is needed to make 12 cookies?",
+      "options": [
+        "160g",
+        "170g",
+        "200g",
+        "180g",
+        "240g"
+      ]
+    },
+    "answer": {
+      "value": "180g"
+    },
+    "explanation": "First find out how much flour is needed for 1 cookie: 120g / 8 = 15g. Then multiply by the number of cookies you want to make: 15g x 12 = 180g.",
+    "hints": [],
+    "tags": [
+      "ratio",
+      "scaling recipes",
+      "proportion"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "ratio",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Simplify the ratio 300g : 1.5kg",
+      "options": [
+        "2:15",
+        "1:5",
+        "1:2",
+        "2:5",
+        "1:4"
+      ]
+    },
+    "answer": {
+      "value": "1:5"
+    },
+    "explanation": "First, convert both quantities to the same unit. 1.5kg = 1500g.  The ratio is now 300g : 1500g. Divide both sides by 300 to simplify: 1 : 5.",
+    "hints": [],
+    "tags": [
+      "ratio",
+      "simplifying ratios",
+      "unit conversion"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "ratio",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "The ratio of boys to girls in a class is 5:3. If there are 24 children in the class, how many are boys?",
+      "options": [
+        "15",
+        "9",
+        "40",
+        "8",
+        "16"
+      ]
+    },
+    "answer": {
+      "value": "15"
+    },
+    "explanation": "The total number of 'parts' in the ratio is 5 + 3 = 8. Each 'part' represents 24 / 8 = 3 children. The number of boys is 5 parts, so there are 5 x 3 = 15 boys.",
+    "hints": [],
+    "tags": [
+      "ratio",
+      "sharing in ratio"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "ratio",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A model car is built to a scale of 1:25. If the model car is 18cm long, how long is the real car in metres?",
+      "options": [
+        "4.5m",
+        "45m",
+        "0.72m",
+        "450cm",
+        "4.05m"
+      ]
+    },
+    "answer": {
+      "value": "4.5m"
+    },
+    "explanation": "The real car is 25 times longer than the model. So, the real car is 18cm x 25 = 450cm long. Convert this to metres: 450cm / 100 = 4.5m.",
+    "hints": [],
+    "tags": [
+      "ratio",
+      "scaling",
+      "unit conversion"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "ratio",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A baker uses 300g of flour and 150g of sugar in a cake recipe. He wants to make a larger cake using 750g of flour. How much sugar does he need?",
+      "options": [
+        "400g",
+        "225g",
+        "375g",
+        "300g",
+        "325g"
+      ]
+    },
+    "answer": {
+      "value": "375g"
+    },
+    "explanation": "The ratio of flour to sugar is 300:150, which simplifies to 2:1. This means for every 2 parts of flour, there is 1 part of sugar. If the baker uses 750g of flour, we need to find out what one 'part' is relative to this new amount of flour. We divide the new flour amount (750g) by 2 (the flour's ratio number): 750 / 2 = 375. Therefore, the baker needs 375g of sugar.",
+    "hints": [],
+    "tags": [
+      "ratio",
+      "proportion"
+    ],
+    "source": "LLM Generated"
+  }
+]

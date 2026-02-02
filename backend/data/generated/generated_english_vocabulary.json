@@ -1,0 +1,262 @@
+[
+  {
+    "subject": "english",
+    "question_type": "vocabulary",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which word is most similar in meaning to 'diligent'?",
+      "options": [
+        "Careless",
+        "Enthusiastic",
+        "Lazy",
+        "Hardworking",
+        "Absent"
+      ]
+    },
+    "answer": {
+      "value": "Hardworking"
+    },
+    "explanation": "'Diligent' means showing care and perseverance in one's work, which is similar to 'hardworking'.",
+    "hints": [],
+    "tags": [
+      "vocabulary",
+      "synonyms"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "vocabulary",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which word is most opposite in meaning to 'luminous'?",
+      "options": [
+        "Radiant",
+        "Dim",
+        "Bright",
+        "Vivid",
+        "Shining"
+      ]
+    },
+    "answer": {
+      "value": "Dim"
+    },
+    "explanation": "'Luminous' means emitting light; its opposite is 'dim', meaning not shining brightly.",
+    "hints": [],
+    "tags": [
+      "vocabulary",
+      "antonyms"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "vocabulary",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Read the sentence below. Which of the following words best replaces 'peculiar' in the sentence without changing its meaning?\nThe scientist made a peculiar discovery in the Amazon rainforest.",
+      "options": [
+        "Common",
+        "Significant",
+        "Ordinary",
+        "Strange",
+        "Remarkable"
+      ]
+    },
+    "answer": {
+      "value": "Strange"
+    },
+    "explanation": "'Peculiar' means odd or strange. 'Strange' is the best synonym in this context.",
+    "hints": [],
+    "tags": [
+      "vocabulary",
+      "word_in_context"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "vocabulary",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which word is the odd one out?",
+      "options": [
+        "Tranquil",
+        "Serene",
+        "Peaceful",
+        "Turbulent",
+        "Calm"
+      ]
+    },
+    "answer": {
+      "value": "Turbulent"
+    },
+    "explanation": "Tranquil, serene, peaceful, and calm are all synonyms, meaning quiet and undisturbed. Turbulent means agitated and disturbed.",
+    "hints": [],
+    "tags": [
+      "vocabulary",
+      "odd_word_out"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "vocabulary",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which word is most similar in meaning to 'cautious'?",
+      "options": [
+        "Careless",
+        "Reckless",
+        "Indifferent",
+        "Anxious",
+        "Wary"
+      ]
+    },
+    "answer": {
+      "value": "Wary"
+    },
+    "explanation": "'Cautious' means careful and avoiding risks, which is similar to 'wary'.",
+    "hints": [],
+    "tags": [
+      "vocabulary",
+      "synonyms"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "vocabulary",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Read the sentence and choose the best word to fill the blank:\nThe stars were _______ in the dark sky.",
+      "options": [
+        "Obscure",
+        "Dull",
+        "Faint",
+        "Luminous",
+        "Dim"
+      ]
+    },
+    "answer": {
+      "value": "Luminous"
+    },
+    "explanation": "'Luminous' means emitting light, which best describes stars in the night sky. Obscure, dull, faint and dim all suggest a lack of brightness.",
+    "hints": [],
+    "tags": [
+      "vocabulary",
+      "word-in-context"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "vocabulary",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which word is most opposite in meaning to 'feeble'?",
+      "options": [
+        "Fragile",
+        "Delicate",
+        "Robust",
+        "Frail",
+        "Weak"
+      ]
+    },
+    "answer": {
+      "value": "Robust"
+    },
+    "explanation": "'Feeble' means weak or frail. The opposite of weak is 'robust', meaning strong and healthy.",
+    "hints": [],
+    "tags": [
+      "vocabulary",
+      "antonyms"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "vocabulary",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which word does NOT belong with the others?",
+      "options": [
+        "Jubilant",
+        "Ecstatic",
+        "Despondent",
+        "Elated",
+        "Triumphant"
+      ]
+    },
+    "answer": {
+      "value": "Despondent"
+    },
+    "explanation": "Jubilant, ecstatic, elated and triumphant all describe feelings of great happiness. 'Despondent' means sad or without hope, and so it is the odd one out.",
+    "hints": [],
+    "tags": [
+      "vocabulary",
+      "odd-word-out"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "vocabulary",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which word is closest in meaning to 'conspicuous'?",
+      "options": [
+        "Hidden",
+        "Invisible",
+        "Insignificant",
+        "Prominent",
+        "Concealed"
+      ]
+    },
+    "answer": {
+      "value": "Prominent"
+    },
+    "explanation": "'Conspicuous' means easily visible or attracting attention. 'Prominent' is the closest synonym.",
+    "hints": [],
+    "tags": [
+      "vocabulary",
+      "synonyms"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "vocabulary",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which word is most nearly opposite in meaning to 'jubilant'?",
+      "options": [
+        "solemn",
+        "despairing",
+        "excited",
+        "miserable",
+        "delighted"
+      ]
+    },
+    "answer": {
+      "value": "despairing"
+    },
+    "explanation": "Jubilant means feeling or expressing great happiness and triumph. Despairing means showing the loss of all hope, which is the closest antonym among the options.",
+    "hints": [],
+    "tags": [
+      "vocabulary",
+      "antonyms"
+    ],
+    "source": "LLM Generated"
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_word_shuffling",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Rearrange the letters to make a word, then answer the question.\n\nRAICH\n\nWhich of these words rhymes with the word you have made?",
+      "options": [
+        "Stair",
+        "Beach",
+        "Pair",
+        "Balcony",
+        "Mound"
+      ]
+    },
+    "answer": {
+      "value": "Pair"
+    },
+    "explanation": "RAICH = CHAIR. The word 'chair' rhymes with 'pair'.",
+    "hints": [],
+    "tags": [
+      "vr_word_shuffling"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_word_shuffling",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Rearrange the letters to make a word, then answer the question.\n\nDEIRF\n\nWhich of these words is a synonym of the word you have made?",
+      "options": [
+        "Enemy",
+        "Foe",
+        "Companion",
+        "Colleague",
+        "Adversary"
+      ]
+    },
+    "answer": {
+      "value": "Companion"
+    },
+    "explanation": "DEIRF = FRIEND. A synonym for 'friend' is 'companion'.",
+    "hints": [],
+    "tags": [
+      "vr_word_shuffling"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_word_shuffling",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Rearrange the letters to make a word, then answer the question.\n\nSREAN\n\nWhich of the following is a type of the word you have made?",
+      "options": [
+        "Sonnet",
+        "Ode",
+        "Limerick",
+        "Novel",
+        "Poem"
+      ]
+    },
+    "answer": {
+      "value": "Poem"
+    },
+    "explanation": "SREAN = SNARE. A snare is a trap for catching animals.",
+    "hints": [],
+    "tags": [
+      "vr_word_shuffling"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_word_shuffling",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Rearrange the letters to make a word, then answer the question.\n\nELKNA\n\nWhich of these is something that could be described by the word you have made?",
+      "options": [
+        "Elbow",
+        "Ankle",
+        "Shoulder",
+        "Knee",
+        "Wrist"
+      ]
+    },
+    "answer": {
+      "value": "Ankle"
+    },
+    "explanation": "ELKNA = ANKLE. The word is ANKLE. Ankle is listed as a body part.",
+    "hints": [],
+    "tags": [
+      "vr_word_shuffling"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_word_shuffling",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "The letters of a word have been shuffled. Rearrange them to find the word, then answer the question.\n\nRIHAT\n\nWhich of the following words rhymes with the word you have made?",
+      "options": [
+        "Tired",
+        "Hair",
+        "Hate",
+        "Rib",
+        "Hike"
+      ]
+    },
+    "answer": {
+      "value": "Hair"
+    },
+    "explanation": "The shuffled letters rearrange to form the word 'HAIR'. The word that rhymes with 'HAIR' from the options is 'Hair'.",
+    "hints": [],
+    "tags": [
+      "vr_word_shuffling"
+    ],
+    "source": "LLM Generated"
+  }
+]

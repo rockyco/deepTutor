@@ -1,0 +1,127 @@
+[
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_odd_ones_out",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Three of the five words below are related in some way. Find the TWO words that do not belong.",
+      "options": [
+        "emerald, ruby",
+        "topaz, sapphire",
+        "obsidian, diamond",
+        "diamond, emerald",
+        "topaz, obsidian"
+      ]
+    },
+    "answer": {
+      "value": "topaz, obsidian"
+    },
+    "explanation": "Emerald, ruby and diamond are precious gemstones. Topaz is a semi-precious stone, obsidian is a volcanic glass.",
+    "hints": [],
+    "tags": [
+      "vr_odd_ones_out"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_odd_ones_out",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Three of the five words below are related in some way. Find the TWO words that do not belong.",
+      "options": [
+        "elm, oak",
+        "pine, willow",
+        "oak, maple",
+        "elm, rose",
+        "rose, pine"
+      ]
+    },
+    "answer": {
+      "value": "elm, rose"
+    },
+    "explanation": "Oak, maple, and pine are all types of tree. Elm is also a type of tree, but it can also refer to an archaic unit of length. Rose is a flower.",
+    "hints": [],
+    "tags": [
+      "vr_odd_ones_out"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_odd_ones_out",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Three of the five words below are related in some way. Find the TWO words that do not belong.",
+      "options": [
+        "hammer, chisel",
+        "pliers, wrench",
+        "saw, pliers",
+        "saw, brick",
+        "wrench, hammer"
+      ]
+    },
+    "answer": {
+      "value": "saw, brick"
+    },
+    "explanation": "Hammer, chisel, pliers and wrench are all hand tools. Saw is also a tool, but can be a verb as well. Brick is a construction material.",
+    "hints": [],
+    "tags": [
+      "vr_odd_ones_out"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_odd_ones_out",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Three of the five words below are related in some way. Find the TWO words that do not belong.",
+      "options": [
+        "trout, salmon",
+        "bass, shark",
+        "cod, eel",
+        "bass, cod",
+        "shark, salmon"
+      ]
+    },
+    "answer": {
+      "value": "shark, salmon"
+    },
+    "explanation": "Trout, bass and cod are types of freshwater fish. Shark is a saltwater fish, and salmon are born in freshwater but migrate to saltwater.",
+    "hints": [],
+    "tags": [
+      "vr_odd_ones_out"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_odd_ones_out",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Three of the five words below are related in some way. Find the TWO words that do not belong.",
+      "options": [
+        "emerald, ruby",
+        "sapphire, pearl",
+        "diamond, pearl",
+        "emerald, diamond",
+        "ruby, sapphire"
+      ]
+    },
+    "answer": {
+      "value": "diamond, pearl"
+    },
+    "explanation": "Emerald, ruby and sapphire are all precious gemstones. Diamond is a precious stone, but can also mean a shape. A pearl is a jewel, but is not a stone.",
+    "hints": [],
+    "tags": [
+      "vr_odd_ones_out"
+    ],
+    "source": "LLM Generated"
+  }
+]

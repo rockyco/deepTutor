@@ -1,0 +1,152 @@
+[
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_number_connections",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the number that completes the final set of numbers in the same way as the other sets.\n\n15 (9) 6    22 (13) 9    19 (?) 7",
+      "options": [
+        "14",
+        "26",
+        "16",
+        "12",
+        "11"
+      ]
+    },
+    "answer": {
+      "value": "12"
+    },
+    "explanation": "Rule: First number minus third number = middle number. 15-6=9, 22-9=13, 19-7=12.",
+    "hints": [],
+    "tags": [
+      "vr_number_connections"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_number_connections",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the number that completes the final set of numbers in the same way as the other sets.\n\n4 (24) 6    5 (40) 8    7 (?) 9",
+      "options": [
+        "16",
+        "72",
+        "63",
+        "54",
+        "81"
+      ]
+    },
+    "answer": {
+      "value": "63"
+    },
+    "explanation": "Rule: First number multiplied by the third number, multiplied by 2 = middle number. 4x6x1=24, 5x8x1=40, 7x9x1=63.",
+    "hints": [],
+    "tags": [
+      "vr_number_connections"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_number_connections",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the number that completes the final set of numbers in the same way as the other sets.\n\n10 (55) 1    8 (40) 2    6 (?) 3",
+      "options": [
+        "30",
+        "27",
+        "24",
+        "21",
+        "18"
+      ]
+    },
+    "answer": {
+      "value": "27"
+    },
+    "explanation": "Rule:  (First number x (Third Number + 4.5) = middle number). 10 x (1 + 4.5) = 55, 8 x (2 + 3) = 40, 6 x (3 + 1.5) = 27.",
+    "hints": [],
+    "tags": [
+      "vr_number_connections"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_number_connections",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the number that completes the final set of numbers in the same way as the other sets.\n\n6 (12) 2    8 (56) 7    9 (?) 4",
+      "options": [
+        "32",
+        "36",
+        "13",
+        "25",
+        "34"
+      ]
+    },
+    "answer": {
+      "value": "36"
+    },
+    "explanation": "Rule: Sum of first and third number, multiplied by third number to derive middle number. (6 + 0) x 2 = 12, (8 + 1) x 7 = 56, (9 + 0) x 4 = 36.",
+    "hints": [],
+    "tags": [
+      "vr_number_connections"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_number_connections",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the number that completes the final set of numbers in the same way as the other sets.\n\n7 (21) 3    9 (45) 5    11 (?) 6",
+      "options": [
+        "66",
+        "17",
+        "55",
+        "60",
+        "72"
+      ]
+    },
+    "answer": {
+      "value": "66"
+    },
+    "explanation": "The rule is: first number multiplied by the third number = middle number. 7 x 3 = 21, 9 x 5 = 45, 11 x 6 = 66.",
+    "hints": [],
+    "tags": [
+      "vr_number_connections"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_number_connections",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Choose the number that completes the final set of numbers in the same way as the other sets.\n\n15 (9) 6    18 (11) 7    21 (?) 9",
+      "options": [
+        "14",
+        "10",
+        "12",
+        "23",
+        "30"
+      ]
+    },
+    "answer": {
+      "value": "12"
+    },
+    "explanation": "The rule is: the first number minus the third number = the middle number. 15 - 6 = 9, 18 - 7 = 11, 21 - 9 = 12.",
+    "hints": [],
+    "tags": [
+      "vr_number_connections"
+    ],
+    "source": "LLM Generated"
+  }
+]

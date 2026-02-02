@@ -1,0 +1,127 @@
+[
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_shuffled_sentences",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "The words in the sentence below have been shuffled. Put them in the correct order.\n\nold creaky the house stood hill the atop",
+      "options": [
+        "house",
+        "hill",
+        "stood",
+        "the",
+        "old"
+      ]
+    },
+    "answer": {
+      "value": "the"
+    },
+    "explanation": "Correct sentence: 'The old creaky house stood atop the hill.' The first word is 'The'.",
+    "hints": [],
+    "tags": [
+      "vr_shuffled_sentences"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_shuffled_sentences",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "The words in the sentence below have been shuffled. Put them in the correct order.\n\nquickly fox the over lazy brown jumped the dog.\n\nWhat is the third word of the sentence?",
+      "options": [
+        "brown",
+        "the",
+        "over",
+        "fox",
+        "jumped"
+      ]
+    },
+    "answer": {
+      "value": "brown"
+    },
+    "explanation": "Correct sentence: 'The quick brown fox jumped over the lazy dog.' The third word is 'brown'.",
+    "hints": [],
+    "tags": [
+      "vr_shuffled_sentences"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_shuffled_sentences",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "The words in the sentence below have been shuffled. Put them in the correct order.\n\ngarden flowers fragrant bees the visited colourful.\n\nWhat is the first word of the sentence?",
+      "options": [
+        "bees",
+        "visited",
+        "the",
+        "garden",
+        "fragrant"
+      ]
+    },
+    "answer": {
+      "value": "The"
+    },
+    "explanation": "Correct sentence: 'The bees visited the colourful fragrant garden flowers.' The first word is 'The'.",
+    "hints": [],
+    "tags": [
+      "vr_shuffled_sentences"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_shuffled_sentences",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "The words in the sentence below have been shuffled. Put them in the correct order.\n\nshone brightly moon the night clear in.\n\nWhat is the fourth word of the sentence?",
+      "options": [
+        "in",
+        "moon",
+        "night",
+        "shone",
+        "brightly"
+      ]
+    },
+    "answer": {
+      "value": "night"
+    },
+    "explanation": "Correct sentence: 'The moon shone brightly in the clear night.' The fourth word is 'night'.",
+    "hints": [],
+    "tags": [
+      "vr_shuffled_sentences"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_shuffled_sentences",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "The words in a sentence have been shuffled. Rearrange them, then answer the question.\n\nquickly the across fox lazy brown the jumped dog.",
+      "options": [
+        "quickly",
+        "the",
+        "brown",
+        "lazy",
+        "dog"
+      ]
+    },
+    "answer": {
+      "value": "lazy"
+    },
+    "explanation": "The correct sentence is: 'The quick brown fox jumped across the lazy dog.' The fourth word is 'lazy'.",
+    "hints": [],
+    "tags": [
+      "vr_shuffled_sentences"
+    ],
+    "source": "LLM Generated"
+  }
+]

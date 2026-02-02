@@ -1,0 +1,159 @@
+[
+  {
+    "subject": "english",
+    "question_type": "grammar",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Identify the relative pronoun in the following sentence: 'The author, whose book I admired greatly, received the award; furthermore, the publisher celebrated her success with a grand party.'",
+      "options": [
+        "author",
+        "greatly",
+        "furthermore",
+        "whose",
+        "award"
+      ]
+    },
+    "answer": {
+      "value": "whose"
+    },
+    "explanation": "'Whose' is the relative pronoun that introduces a relative clause modifying 'author'.",
+    "hints": [],
+    "tags": [
+      "grammar",
+      "relative pronoun"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "grammar",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which sentence contains a subordinate clause?",
+      "options": [
+        "The dog barked loudly at the mailman.",
+        "Although it was raining, they decided to go for a walk.",
+        "She enjoys reading books in the evening.",
+        "He went to the store and bought some milk.",
+        "The sun shone brightly all day."
+      ]
+    },
+    "answer": {
+      "value": "Although it was raining, they decided to go for a walk."
+    },
+    "explanation": "The phrase 'Although it was raining' is a subordinate clause because it cannot stand alone as a complete sentence and is introduced by the subordinating conjunction 'although'.",
+    "hints": [],
+    "tags": [
+      "grammar",
+      "subordinate clause"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "grammar",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which sentence demonstrates incorrect subject-verb agreement?",
+      "options": [
+        "The flock of birds flies south for the winter.",
+        "Each of the students has completed the assignment.",
+        "The committee is meeting next week to discuss the budget.",
+        "Neither the cat nor the dogs is allowed on the furniture.",
+        "No mistake"
+      ]
+    },
+    "answer": {
+      "value": "Neither the cat nor the dogs is allowed on the furniture."
+    },
+    "explanation": "The correct sentence should be: 'Neither the cat nor the dogs are allowed on the furniture'. When 'neither...nor' connects singular and plural subjects, the verb agrees with the closest subject.",
+    "hints": [],
+    "tags": [
+      "grammar",
+      "subject-verb agreement"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "grammar",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which sentence uses the incorrect tense?",
+      "options": [
+        "I will visit my grandmother next week.",
+        "She had finished her homework before dinner.",
+        "They are going to the cinema tonight.",
+        "He was eatting his lunch when the phone rang.",
+        "No mistake"
+      ]
+    },
+    "answer": {
+      "value": "He was eatting his lunch when the phone rang."
+    },
+    "explanation": "The word 'eatting' is incorrectly spelt and the incorrect tense is used. The correct sentence would be: 'He was eating his lunch when the phone rang.'",
+    "hints": [],
+    "tags": [
+      "grammar",
+      "tense"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "grammar",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "In the sentence below, which word functions as a relative pronoun, introducing a subordinate clause that modifies the noun 'authorities'?: 'The local authorities, who had been monitoring the situation closely, decided to implement stricter regulations; however, the residents protested vehemently.'",
+      "options": [
+        "authorities",
+        "who",
+        "had",
+        "situation",
+        "however"
+      ]
+    },
+    "answer": {
+      "value": "who"
+    },
+    "explanation": "'Who' introduces the subordinate clause 'who had been monitoring the situation closely', providing additional information about the noun 'authorities'. This makes it a relative pronoun.",
+    "hints": [],
+    "tags": [
+      "grammar",
+      "relative pronoun",
+      "subordinate clause"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "grammar",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which of the following sentences contains an error in subject-verb agreement?",
+      "options": [
+        "The flock of birds is migrating south for the winter.",
+        "Neither the cat nor the dogs wants to go outside in the rain.",
+        "Each of the students have completed their assignments.",
+        "Measles is a contagious disease that requires quarantine.",
+        "The data suggests a need for further investigation."
+      ]
+    },
+    "answer": {
+      "value": "Each of the students have completed their assignments."
+    },
+    "explanation": "The phrase 'Each of the students' takes a singular verb because 'each' is singular. The correct sentence would be: 'Each of the students has completed their assignments.'",
+    "hints": [],
+    "tags": [
+      "grammar",
+      "subject-verb agreement"
+    ],
+    "source": "LLM Generated"
+  }
+]

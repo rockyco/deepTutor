@@ -1,0 +1,298 @@
+[
+  {
+    "subject": "maths",
+    "question_type": "geometry",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A cube has a volume of 64 cm³. What is the total surface area of the cube?",
+      "options": [
+        "16 cm²",
+        "48 cm²",
+        "96 cm²",
+        "128 cm²",
+        "256 cm²"
+      ]
+    },
+    "answer": {
+      "value": "96 cm²"
+    },
+    "explanation": "The volume of a cube is side x side x side. Since 4 x 4 x 4 = 64, each side is 4 cm long. The area of one face is 4 x 4 = 16 cm². A cube has 6 faces, so the total surface area is 6 x 16 = 96 cm².",
+    "hints": [],
+    "tags": [
+      "geometry",
+      "volume",
+      "surface area"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "geometry",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A triangle has angles measuring 70° and 50°. What is the size of the third angle?",
+      "options": [
+        "30°",
+        "60°",
+        "70°",
+        "80°",
+        "90°"
+      ]
+    },
+    "answer": {
+      "value": "60°"
+    },
+    "explanation": "The angles in a triangle add up to 180°. 70° + 50° = 120°. 180° - 120° = 60°.",
+    "hints": [],
+    "tags": [
+      "geometry",
+      "angles",
+      "triangles"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "geometry",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A rectangle has vertices at the coordinates (1, 2), (1, 5), (4, 2), and (4, 5). If the rectangle is reflected in the y-axis, what are the coordinates of the reflected point corresponding to (1, 2)?",
+      "options": [
+        "(1, -2)",
+        "(-1, 2)",
+        "(-1, -2)",
+        "(2, -1)",
+        "(2, 1)"
+      ]
+    },
+    "answer": {
+      "value": "(-1, 2)"
+    },
+    "explanation": "When reflecting in the y-axis, the x-coordinate changes sign and the y-coordinate stays the same. Therefore (1, 2) becomes (-1, 2).",
+    "hints": [],
+    "tags": [
+      "geometry",
+      "coordinates",
+      "reflection"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "geometry",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Point A is at coordinates (2, 3). It is reflected in the y-axis. What are the coordinates of the reflected point?",
+      "options": [
+        "(2, -3)",
+        "(-2, -3)",
+        "(3, 2)",
+        "(-2, 3)",
+        "(2, 3)"
+      ]
+    },
+    "answer": {
+      "value": "(-2, 3)"
+    },
+    "explanation": "Reflecting in the y-axis changes the sign of the x-coordinate, but the y-coordinate stays the same. Therefore, (2, 3) becomes (-2, 3).",
+    "hints": [],
+    "tags": [
+      "geometry",
+      "coordinates",
+      "reflection"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "geometry",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A shape is made from two rectangles. One rectangle is 8 cm long and 3 cm wide. The other rectangle is 5 cm long and 4 cm wide. They are joined along the 5cm side of the second rectangle to the 3cm side of the first rectangle, making an L-shape. What is the perimeter of the L-shape?",
+      "options": [
+        "30 cm",
+        "42 cm",
+        "26 cm",
+        "52 cm",
+        "34 cm"
+      ]
+    },
+    "answer": {
+      "value": "34 cm"
+    },
+    "explanation": "The sides of the L-shape are 8cm, 3cm, 5cm, 4cm, (8-5)cm, and (4+3)cm. So the sides are 8cm, 3cm, 5cm, 4cm, 3cm, 7cm. The perimeter is therefore 8 + 3 + 5 + 4 + 3 + 7 = 30 cm. But one 3cm side and one 5cm side are hidden, so we need to add 5 + 3 -3 -3 = 2. The perimeter is 30 + 4 = 34 cm.",
+    "hints": [],
+    "tags": [
+      "geometry",
+      "perimeter",
+      "compound shapes"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "geometry",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Points A(1, 2), B(5, 2) and C(5, 6) are three vertices of a rectangle. What are the coordinates of the fourth vertex, D?",
+      "options": [
+        "(1, 6)",
+        "(6, 1)",
+        "(2, 5)",
+        "(6, 5)",
+        "(1, 5)"
+      ]
+    },
+    "answer": {
+      "value": "(1, 6)"
+    },
+    "explanation": "The x-coordinate of D must be the same as A (1), and the y-coordinate of D must be the same as C (6).  Therefore, the coordinates of D are (1, 6).",
+    "hints": [],
+    "tags": [
+      "geometry",
+      "coordinates"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "geometry",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A square is drawn on a coordinate grid. The coordinates of two opposite corners are (1, 2) and (5, 6). What is the area of the square?",
+      "options": [
+        "16",
+        "20",
+        "32",
+        "25",
+        "36"
+      ]
+    },
+    "answer": {
+      "value": "32"
+    },
+    "explanation": "The side length is calculated using Pythagoras' theorem. Change in x = 5-1=4. Change in y = 6-2=4. side² = 4² + 4² = 16 + 16 = 32. The area of the square is side², which is 32.",
+    "hints": [],
+    "tags": [
+      "geometry",
+      "area",
+      "coordinates"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "geometry",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A shape is made from two rectangles. One rectangle is 8cm long and 3cm wide. The other is 5cm long and 4cm wide. They are joined along a 3cm side. What is the perimeter of the new shape?",
+      "options": [
+        "34 cm",
+        "40 cm",
+        "28 cm",
+        "30 cm",
+        "36 cm"
+      ]
+    },
+    "answer": {
+      "value": "34 cm"
+    },
+    "explanation": "The perimeter of the 8x3 rectangle is 2(8+3) = 22 cm. The perimeter of the 5x4 rectangle is 2(5+4) = 18 cm. When joined, a length of 3cm is lost from each rectangle's perimeter. Total perimeter = 22 + 18 - 3 - 3 = 34 cm.",
+    "hints": [],
+    "tags": [
+      "geometry",
+      "perimeter",
+      "compound shape"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "geometry",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A triangle has angles of 35° and 75°. What is the size of the third angle?",
+      "options": [
+        "60°",
+        "70°",
+        "80°",
+        "90°",
+        "100°"
+      ]
+    },
+    "answer": {
+      "value": "70°"
+    },
+    "explanation": "The angles in a triangle add up to 180°. So, the third angle is 180 - 35 - 75 = 70°.",
+    "hints": [],
+    "tags": [
+      "geometry",
+      "angles",
+      "triangle"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "geometry",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Triangle ABC has angles where angle A is 60 degrees, and angle B is twice the size of angle C. What is the size of angle B?",
+      "options": [
+        "30 degrees",
+        "40 degrees",
+        "60 degrees",
+        "80 degrees",
+        "120 degrees"
+      ]
+    },
+    "answer": {
+      "value": "80 degrees"
+    },
+    "explanation": "The angles in a triangle add up to 180 degrees. Angle A is 60 degrees, so angles B and C add up to 180 - 60 = 120 degrees. If angle C is x, angle B is 2x. So, x + 2x = 120, which means 3x = 120, and x = 40. Angle C is 40 degrees, so angle B is 2 * 40 = 80 degrees.",
+    "hints": [],
+    "tags": [
+      "geometry",
+      "angles",
+      "triangles"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "geometry",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A farmer wants to build a new fence around a rectangular field. The field is 45 meters long and 30 meters wide. Fencing costs £12.50 per meter. How much will the fence cost in total?",
+      "options": [
+        "£1687.50",
+        "£93.75",
+        "£37500",
+        "£1875",
+        "£937.50"
+      ]
+    },
+    "answer": {
+      "value": "£1875"
+    },
+    "explanation": "First, find the perimeter of the rectangular field: Perimeter = 2 * (length + width) = 2 * (45 + 30) = 2 * 75 = 150 meters. Then, calculate the total cost of the fence: Cost = perimeter * cost per meter = 150 * £12.50 = £1875.",
+    "hints": [],
+    "tags": [
+      "geometry",
+      "perimeter",
+      "word problem"
+    ],
+    "source": "LLM Generated"
+  }
+]

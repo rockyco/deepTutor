@@ -1,0 +1,396 @@
+[
+  {
+    "subject": "maths",
+    "question_type": "word_problems",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Sarah buys 3 bags of apples, each containing 8 apples. She uses 5 of the apples to make a pie. How many apples does Sarah have left?",
+      "options": [
+        "29",
+        "24",
+        "19",
+        "13",
+        "21"
+      ]
+    },
+    "answer": {
+      "value": "19"
+    },
+    "explanation": "First calculate the total number of apples: 3 bags * 8 apples/bag = 24 apples. Then subtract the apples used for the pie: 24 apples - 5 apples = 19 apples. Therefore, Sarah has 19 apples left.",
+    "hints": [],
+    "tags": [
+      "word_problems"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "word_problems",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A train travels at a speed of 80 km per hour. How far will it travel in 1 hour and 30 minutes?",
+      "options": [
+        "120 km",
+        "80 km",
+        "90 km",
+        "110 km",
+        "100 km"
+      ]
+    },
+    "answer": {
+      "value": "120 km"
+    },
+    "explanation": "1 hour and 30 minutes is equal to 1.5 hours. Distance = Speed x Time, so Distance = 80 km/hour * 1.5 hours = 120 km. Therefore, the train will travel 120 km.",
+    "hints": [],
+    "tags": [
+      "word_problems"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "word_problems",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A recipe for cookies requires 250g of flour and 100g of sugar. If you want to make half the recipe, how much flour and sugar will you need in total?",
+      "options": [
+        "350g",
+        "175g",
+        "150g",
+        "125g",
+        "200g"
+      ]
+    },
+    "answer": {
+      "value": "175g"
+    },
+    "explanation": "Half the flour is 250g / 2 = 125g. Half the sugar is 100g / 2 = 50g. The total is 125g + 50g = 175g. Therefore, you will need 175g of flour and sugar in total.",
+    "hints": [],
+    "tags": [
+      "word_problems"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "word_problems",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Tom buys a toy car for £6.50 and a book for £4.75. He pays with a £20 note. How much change does he receive?",
+      "options": [
+        "£15.25",
+        "£13.50",
+        "£8.75",
+        "£11.25",
+        "£11.75"
+      ]
+    },
+    "answer": {
+      "value": "£8.75"
+    },
+    "explanation": "First, find the total cost: £6.50 + £4.75 = £11.25. Then, subtract the total cost from the amount paid: £20 - £11.25 = £8.75. Therefore, Tom receives £8.75 in change.",
+    "hints": [],
+    "tags": [
+      "word_problems"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "word_problems",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A baker makes 36 cupcakes. She sells one-third of them in the morning and one-quarter of the remaining cupcakes in the afternoon. How many cupcakes are left at the end of the day?",
+      "options": [
+        "9",
+        "18",
+        "24",
+        "27",
+        "21"
+      ]
+    },
+    "answer": {
+      "value": "18"
+    },
+    "explanation": "First, find the number of cupcakes sold in the morning: 36 / 3 = 12 cupcakes.  Then find the remaining cupcakes: 36 - 12 = 24 cupcakes. Then, find the number of cupcakes sold in the afternoon: 24 / 4 = 6 cupcakes. Finally, find the number of cupcakes left: 24 - 6 = 18 cupcakes.",
+    "hints": [],
+    "tags": [
+      "word_problems"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "word_problems",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Sarah buys 3 sandwiches at £2.50 each and 2 drinks at £1.20 each. She pays with a £20 note. How much change does she receive?",
+      "options": [
+        "£9.10",
+        "£11.30",
+        "£14.50",
+        "£4.70",
+        "£15.30"
+      ]
+    },
+    "answer": {
+      "value": "£11.30"
+    },
+    "explanation": "Sandwiches cost: 3 x £2.50 = £7.50. Drinks cost: 2 x £1.20 = £2.40. Total cost: £7.50 + £2.40 = £9.90. Change: £20.00 - £9.90 = £10.10.",
+    "hints": [],
+    "tags": [
+      "word_problems",
+      "shopping",
+      "money"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "word_problems",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A recipe for cookies requires 200g of flour and 100g of sugar. If you want to make cookies using 500g of flour, how much sugar do you need?",
+      "options": [
+        "150g",
+        "250g",
+        "200g",
+        "400g",
+        "50g"
+      ]
+    },
+    "answer": {
+      "value": "250g"
+    },
+    "explanation": "The recipe uses a 2:1 ratio of flour to sugar. If you have 500g of flour, you need half that amount in sugar. 500g / 2 = 250g",
+    "hints": [],
+    "tags": [
+      "word_problems",
+      "cooking",
+      "ratio"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "word_problems",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A train travels at 80 miles per hour. How far does it travel in 1 hour and 15 minutes?",
+      "options": [
+        "80 miles",
+        "95 miles",
+        "100 miles",
+        "120 miles",
+        "75 miles"
+      ]
+    },
+    "answer": {
+      "value": "100 miles"
+    },
+    "explanation": "15 minutes is 1/4 of an hour. In 1/4 hour the train travels 80 / 4 = 20 miles.  In 1 hour and 15 minutes, the train travels 80 + 20 = 100 miles.",
+    "hints": [],
+    "tags": [
+      "word_problems",
+      "travel",
+      "speed",
+      "distance",
+      "time"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "word_problems",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Tom and Jerry share some sweets in the ratio 2:3. If Jerry gets 18 sweets, how many sweets does Tom get?",
+      "options": [
+        "12",
+        "9",
+        "27",
+        "36",
+        "6"
+      ]
+    },
+    "answer": {
+      "value": "12"
+    },
+    "explanation": "Jerry's share represents 3 parts of the ratio.  If 3 parts = 18 sweets, then 1 part = 18 / 3 = 6 sweets. Tom's share is 2 parts, so Tom gets 2 x 6 = 12 sweets.",
+    "hints": [],
+    "tags": [
+      "word_problems",
+      "sharing",
+      "ratio"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "word_problems",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A shop is selling t-shirts. If you buy one t-shirt you pay the full price of £8. If you buy two, you get the second half price. How much do 3 t-shirts cost?",
+      "options": [
+        "£16",
+        "£20",
+        "£12",
+        "£24",
+        "£22"
+      ]
+    },
+    "answer": {
+      "value": "£20"
+    },
+    "explanation": "The first t-shirt costs £8. The second costs £8 / 2 = £4. The third costs £8. The total is £8 + £4 + £8 = £20",
+    "hints": [],
+    "tags": [
+      "word_problems",
+      "shopping",
+      "discounts"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "word_problems",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Tom and Jerry share sweets in the ratio 2:3. If Jerry has 12 sweets, how many sweets does Tom have?",
+      "options": [
+        "18",
+        "6",
+        "8",
+        "10",
+        "14"
+      ]
+    },
+    "answer": {
+      "value": "8"
+    },
+    "explanation": "The ratio is 2:3. Jerry has 12 sweets, which represents 3 parts. One part is 12 / 3 = 4 sweets. Tom has 2 parts, so he has 2 x 4 = 8 sweets.",
+    "hints": [],
+    "tags": [
+      "word_problems"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "word_problems",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A shop is selling t-shirts with a 20% discount. If the original price of a t-shirt is £15, what is the sale price?",
+      "options": [
+        "£3.00",
+        "£12.00",
+        "£12.50",
+        "£18.00",
+        "£13.00"
+      ]
+    },
+    "answer": {
+      "value": "£12.00"
+    },
+    "explanation": "Discount amount: 20% of £15 = 0.20 x £15 = £3. Sale price: £15 - £3 = £12.",
+    "hints": [],
+    "tags": [
+      "word_problems"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "word_problems",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Sarah is baking cookies for a school fair. The recipe requires 175g of flour and 50g of sugar to make 25 cookies. Sarah wants to make 60 cookies. How much more flour than sugar will she need, in grams?",
+      "options": [
+        "420g",
+        "120g",
+        "105g",
+        "300g",
+        "315g"
+      ]
+    },
+    "answer": {
+      "value": "315g"
+    },
+    "explanation": "First find the scaling factor: 60 cookies / 25 cookies = 2.4.  Then find the amount of flour needed: 175g * 2.4 = 420g. Then find the amount of sugar needed: 50g * 2.4 = 120g.  Finally, find the difference: 420g - 120g = 300g. So the answer is 300g.",
+    "hints": [],
+    "tags": [
+      "word_problems"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "word_problems",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Sarah is baking cookies for a school fair. The recipe requires 175g of flour, 50g of sugar, and 75g of butter to make 10 cookies. Sarah wants to make 25 cookies. How much butter, in grams, will she need?",
+      "options": [
+        "187.5g",
+        "175g",
+        "200g",
+        "150g",
+        "125g"
+      ]
+    },
+    "answer": {
+      "value": "187.5g"
+    },
+    "explanation": "First find the amount of butter per cookie: 75g / 10 cookies = 7.5g per cookie. Then multiply by the desired number of cookies: 7.5g/cookie * 25 cookies = 187.5g.",
+    "hints": [],
+    "tags": [
+      "word_problems",
+      "ratios",
+      "scaling",
+      "cooking"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "word_problems",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Tom and his family are driving from London to Edinburgh, a distance of 400 miles. They drive for 2 hours at an average speed of 60 miles per hour. They then stop for 30 minutes for lunch. How many more miles do they need to drive to reach Edinburgh?",
+      "options": [
+        "280 miles",
+        "120 miles",
+        "250 miles",
+        "340 miles",
+        "220 miles"
+      ]
+    },
+    "answer": {
+      "value": "280 miles"
+    },
+    "explanation": "First calculate the distance covered in the first 2 hours: 2 hours * 60 miles/hour = 120 miles. Then subtract this distance from the total distance: 400 miles - 120 miles = 280 miles.",
+    "hints": [],
+    "tags": [
+      "word_problems",
+      "speed",
+      "distance",
+      "time",
+      "travel"
+    ],
+    "source": "LLM Generated"
+  }
+]

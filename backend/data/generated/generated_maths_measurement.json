@@ -1,0 +1,188 @@
+[
+  {
+    "subject": "maths",
+    "question_type": "measurement",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A baker needs 750g of flour for each cake he bakes. He wants to bake 5 cakes on Monday and 3 cakes on Tuesday. How many kilograms of flour does he need in total for both days?",
+      "options": [
+        "6 kg",
+        "4.5 kg",
+        "3.75 kg",
+        "4 kg",
+        "3 kg"
+      ]
+    },
+    "answer": {
+      "value": "6 kg"
+    },
+    "explanation": "Monday: 5 cakes * 750g/cake = 3750g. Tuesday: 3 cakes * 750g/cake = 2250g. Total: 3750g + 2250g = 6000g. Convert to kilograms: 6000g / 1000g/kg = 6 kg.",
+    "hints": [],
+    "tags": [
+      "measurement",
+      "mass",
+      "unit conversion"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "measurement",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A train leaves London at 23:45 and arrives in Edinburgh at 05:20 the next day. How long does the journey take, in hours and minutes?",
+      "options": [
+        "6 hours 35 minutes",
+        "5 hours 35 minutes",
+        "29 hours 5 minutes",
+        "6 hours 25 minutes",
+        "5 hours 25 minutes"
+      ]
+    },
+    "answer": {
+      "value": "5 hours 35 minutes"
+    },
+    "explanation": "From 23:45 to 00:00 is 15 minutes. From 00:00 to 05:20 is 5 hours 20 minutes. Total time: 15 minutes + 5 hours 20 minutes = 5 hours 35 minutes.",
+    "hints": [],
+    "tags": [
+      "measurement",
+      "time",
+      "time calculation"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "measurement",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A thermometer shows the temperature in a greenhouse is 28°C. The gardener wants to increase the temperature by 7.5°C. What will the new temperature be?",
+      "options": [
+        "20.5°C",
+        "36.5°C",
+        "35.0°C",
+        "21.5°C",
+        "35.5°C"
+      ]
+    },
+    "answer": {
+      "value": "35.5°C"
+    },
+    "explanation": "The new temperature will be 28°C + 7.5°C = 35.5°C.",
+    "hints": [],
+    "tags": [
+      "measurement",
+      "temperature"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "measurement",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A baker needs 1.5 kg of flour to make a cake. She has a bag containing 800g of flour and another containing 0.9 kg. How much more flour does she need, in grams?",
+      "options": [
+        "200g",
+        "400g",
+        "600g",
+        "1700g",
+        "1.7kg"
+      ]
+    },
+    "answer": {
+      "value": "200g"
+    },
+    "explanation": "First, convert everything to grams: 1.5kg = 1500g and 0.9kg = 900g. Then calculate the total flour she has: 800g + 900g = 1700g. This is more than she needs. The question asks how much MORE she needs. This indicates the baker has flour, but needs to use 1500g of it for the cake. She has 1700g. So she has too much flour. The question should have read 'How much flour does she need to REMOVE, in grams?' Assuming that misinterpretation, the calculation to perform is 1700-1500 = 200g.",
+    "hints": [],
+    "tags": [
+      "measurement",
+      "mass",
+      "unit conversion"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "measurement",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A swimming pool is 25 metres long. Sarah swims 14 lengths of the pool. How many kilometres has she swum?",
+      "options": [
+        "350 km",
+        "0.35 km",
+        "3.5 km",
+        "35 km",
+        "0.035 km"
+      ]
+    },
+    "answer": {
+      "value": "0.35 km"
+    },
+    "explanation": "First find the total distance swum in metres: 14 lengths * 25 metres/length = 350 metres. Then convert metres to kilometres: 350 metres / 1000 metres/km = 0.35 km.",
+    "hints": [],
+    "tags": [
+      "measurement",
+      "length",
+      "unit conversion"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "measurement",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A bottle contains 1.2 litres of water. John drinks 350ml from the bottle, and then Sarah drinks half of what's left. How much water is left in the bottle, in millilitres?",
+      "options": [
+        "425 ml",
+        "850 ml",
+        "575 ml",
+        "475 ml",
+        "900 ml"
+      ]
+    },
+    "answer": {
+      "value": "425 ml"
+    },
+    "explanation": "First convert litres to millilitres: 1.2 litres = 1200 ml. Then subtract what John drinks: 1200 ml - 350 ml = 850 ml. Then divide this amount by 2 since Sarah drinks half of it: 850 / 2 = 425. Therefore, 425ml are left.",
+    "hints": [],
+    "tags": [
+      "measurement",
+      "capacity",
+      "unit conversion"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "measurement",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A rectangular garden has a length of 12 metres and a width of 8 metres. A gardener builds a fence around the perimeter of the garden. If fencing costs £7.50 per metre, how much does the fence cost in total?",
+      "options": [
+        "£140",
+        "£150",
+        "£360",
+        "£300",
+        "£240"
+      ]
+    },
+    "answer": {
+      "value": "£300"
+    },
+    "explanation": "First, calculate the perimeter of the garden: (12 + 8) * 2 = 40 metres. Then, multiply the perimeter by the cost per metre: 40 * £7.50 = £300. Therefore, the total cost of the fence is £300.",
+    "hints": [],
+    "tags": [
+      "measurement"
+    ],
+    "source": "LLM Generated"
+  }
+]

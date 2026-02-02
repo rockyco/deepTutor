@@ -1,0 +1,109 @@
+[
+  {
+    "subject": "english",
+    "question_type": "punctuation",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which sentence has a punctuation error?",
+      "options": [
+        "The old house, with its boarded-up windows, looked rather spooky.",
+        "My sisters' friends are all coming to the party.",
+        "Its important to remember your keys when you leave.",
+        "He enjoys reading books, especially science fiction and fantasy.",
+        "No mistake"
+      ]
+    },
+    "answer": {
+      "value": "Its important to remember your keys when you leave."
+    },
+    "explanation": "'Its' should be 'It's' (contraction of 'it is'). Common error: confusing possessive 'its' with contraction 'it's'.",
+    "hints": [],
+    "tags": [
+      "punctuation"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "punctuation",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which sentence is punctuated incorrectly?",
+      "options": [
+        "The old house, with its overgrown garden, looked rather spooky.",
+        "Despite the rain; the children continued to play outside.",
+        "My favourite fruits are: apples, bananas, and oranges.",
+        "That book, which I borrowed from the library, is overdue.",
+        "No mistake"
+      ]
+    },
+    "answer": {
+      "value": "Despite the rain; the children continued to play outside."
+    },
+    "explanation": "A semicolon is used to join two closely related independent clauses. In this case, 'Despite the rain' is a dependent clause, so a comma should be used instead of a semicolon.",
+    "hints": [],
+    "tags": [
+      "punctuation",
+      "semicolon",
+      "comma",
+      "subordinate clause"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "punctuation",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which of the following sentences contains a punctuation error?",
+      "options": [
+        "The cat licked it's paw.",
+        "\"That's a great idea,\" she exclaimed enthusiastically.",
+        "Having finished my homework, I went to play football.",
+        "The museum, which opened last year, is very popular.",
+        "The childrens' toys were scattered all over the floor."
+      ]
+    },
+    "answer": {
+      "value": "The cat licked it's paw."
+    },
+    "explanation": "'It's' is a contraction of 'it is' or 'it has'. The possessive form of 'it' is 'its'.",
+    "hints": [],
+    "tags": [
+      "punctuation",
+      "apostrophe",
+      "its/it's"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "english",
+    "question_type": "punctuation",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which of the following sentences is punctuated incorrectly?",
+      "options": [
+        "My brother's car is very old.",
+        "The Smiths' house is on the corner.",
+        "He asked, \"Are we nearly there yet\"?",
+        "The dog wagged its tail excitedly.",
+        "She couldn't believe what had happened."
+      ]
+    },
+    "answer": {
+      "value": "He asked, \"Are we nearly there yet\"?"
+    },
+    "explanation": "When a question is asked within speech marks, the question mark must be placed inside the speech marks.",
+    "hints": [],
+    "tags": [
+      "punctuation",
+      "speech marks",
+      "question mark"
+    ],
+    "source": "LLM Generated"
+  }
+]

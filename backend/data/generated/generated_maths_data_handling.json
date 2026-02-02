@@ -1,0 +1,401 @@
+[
+  {
+    "subject": "maths",
+    "question_type": "data_handling",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A class of students recorded the number of books they read during the summer holiday. The results are: 2, 5, 3, 1, 2, 0, 4, 2, 3, 3, 1, 2, 2, 3, 4. What is the mode of the number of books read?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    "answer": {
+      "value": "2"
+    },
+    "explanation": "The mode is the number that appears most frequently. 0: 1, 1: 2, 2: 5, 3: 4, 4: 2, 5: 1. The number 2 appears 5 times, which is more than any other number.",
+    "hints": [],
+    "tags": [
+      "data_handling",
+      "mode"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "data_handling",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "The bar chart shows the number of ice creams sold each day. Monday: 15, Tuesday: 20, Wednesday: 10, Thursday: 25, Friday: 30. What is the average number of ice creams sold per day?",
+      "options": [
+        "15",
+        "18",
+        "20",
+        "22",
+        "24"
+      ]
+    },
+    "answer": {
+      "value": "20"
+    },
+    "explanation": "To find the average, add up the numbers and divide by how many there are. 15 + 20 + 10 + 25 + 30 = 100. 100 / 5 = 20. The average number of ice creams sold per day is 20.",
+    "hints": [],
+    "tags": [
+      "data_handling",
+      "average"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "data_handling",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A student recorded the temperature each day for a week. The temperatures were 21°C, 23°C, 25°C, 22°C, 20°C, 24°C, and 26°C. What is the range of temperatures recorded?",
+      "options": [
+        "4°C",
+        "5°C",
+        "6°C",
+        "7°C",
+        "8°C"
+      ]
+    },
+    "answer": {
+      "value": "6°C"
+    },
+    "explanation": "The range is the difference between the highest and lowest values. The highest temperature is 26°C and the lowest temperature is 20°C. 26 - 20 = 6. The range of temperatures is 6°C.",
+    "hints": [],
+    "tags": [
+      "data_handling",
+      "range"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "data_handling",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "The table shows the number of pets owned by students in a class. \n 0 pets: 5 students \n 1 pet: 8 students \n 2 pets: 6 students \n 3 pets: 1 student. \nWhat is the median number of pets owned?",
+      "options": [
+        "0",
+        "1",
+        "1.5",
+        "2",
+        "2.5"
+      ]
+    },
+    "answer": {
+      "value": "1"
+    },
+    "explanation": "Total number of students: 5 + 8 + 6 + 1 = 20. The median is the middle value. Since there are 20 students, the median is the average of the 10th and 11th values. The first 5 students have 0 pets. The next 8 students have 1 pet. Therefore, the 10th and 11th students both have 1 pet. The median is 1.",
+    "hints": [],
+    "tags": [
+      "data_handling",
+      "median"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "data_handling",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A baker recorded the number of cakes he sold each day for a week. He sold 25, 30, 28, 32, 27, 29, and X cakes. The mean number of cakes sold was 29. How many cakes did he sell on the last day (X)?",
+      "options": [
+        "24",
+        "26",
+        "28",
+        "30",
+        "32"
+      ]
+    },
+    "answer": {
+      "value": "32"
+    },
+    "explanation": "The mean is the sum of the values divided by the number of values. The sum of the cakes sold is 25 + 30 + 28 + 32 + 27 + 29 + X = 171 + X. The mean is (171 + X) / 7 = 29. Multiply both sides by 7: 171 + X = 203. Subtract 171 from both sides: X = 32.",
+    "hints": [],
+    "tags": [
+      "data_handling",
+      "mean",
+      "algebra"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "data_handling",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "The table shows the number of books read by five children in a month.\n\n| Child  | Number of Books |\n|---|---|\n| Alice | 7 |\n| Ben   | 9 |\n| Carol | 5 |\n| David | 8 |\n| Emily | ? |\n\nThe mean number of books read by the five children is 7. How many books did Emily read?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    "answer": {
+      "value": "6"
+    },
+    "explanation": "The total number of books read by all five children is 7 * 5 = 35. The total number of books read by Alice, Ben, Carol, and David is 7 + 9 + 5 + 8 = 29. Therefore, Emily read 35 - 29 = 6 books.",
+    "hints": [],
+    "tags": [
+      "data_handling",
+      "mean",
+      "tables"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "data_handling",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "The bar chart shows the number of ice creams sold each day of the week. The bar for Monday reaches 15, Tuesday reaches 20, Wednesday reaches 10, Thursday reaches 25, and Friday reaches 30. What is the range of ice creams sold that week?",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20",
+        "25"
+      ]
+    },
+    "answer": {
+      "value": "20"
+    },
+    "explanation": "The range is the difference between the highest and lowest values. The highest number of ice creams sold was 30, and the lowest was 10. Therefore, the range is 30 - 10 = 20.",
+    "hints": [],
+    "tags": [
+      "data_handling",
+      "range",
+      "bar charts"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "data_handling",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A class of students took a spelling test. The scores were: 8, 6, 9, 7, 8, 10, 6, 8, 7, 7. What is the mode of the scores?",
+      "options": [
+        "6",
+        "7",
+        "7.5",
+        "8",
+        "9"
+      ]
+    },
+    "answer": {
+      "value": "8"
+    },
+    "explanation": "The mode is the value that appears most often. In this set of scores, the number 8 appears three times, which is more than any other number. Therefore, the mode is 8.",
+    "hints": [],
+    "tags": [
+      "data_handling",
+      "mode",
+      "data sets"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "data_handling",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "The number of visitors to a museum each day for a week was recorded: 25, 30, 28, 32, 27, 29, 31. What was the median number of visitors that week?",
+      "options": [
+        "27",
+        "28",
+        "28.5",
+        "29",
+        "30"
+      ]
+    },
+    "answer": {
+      "value": "29"
+    },
+    "explanation": "First, arrange the numbers in order: 25, 27, 28, 29, 30, 31, 32. The median is the middle number, which is 29.",
+    "hints": [],
+    "tags": [
+      "data_handling",
+      "median",
+      "data sets"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "data_handling",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A shop recorded the number of newspapers sold each day for five days: 20, 22, 18, 25, 20. What is the mean number of newspapers sold per day?",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21",
+        "22"
+      ]
+    },
+    "answer": {
+      "value": "21"
+    },
+    "explanation": "To find the mean, add up all the values and divide by the number of values.  20 + 22 + 18 + 25 + 20 = 105. Then, 105 / 5 = 21. The mean number of newspapers sold per day is 21.",
+    "hints": [],
+    "tags": [
+      "data_handling",
+      "mean",
+      "data sets"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "data_handling",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "The number of books borrowed from the library each day last week was: 24, 18, 20, 24, 31, 24, 15. What is the range of books borrowed?",
+      "options": [
+        "16",
+        "15",
+        "31",
+        "24",
+        "20"
+      ]
+    },
+    "answer": {
+      "value": "16"
+    },
+    "explanation": "Range = highest value - lowest value = 31 - 15 = 16.",
+    "hints": [],
+    "tags": [
+      "data_handling",
+      "range"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "data_handling",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A survey was conducted on the favourite sport of students. 40% chose football, 25% chose swimming, 20% chose basketball, and the rest chose tennis. If 80 students were surveyed, how many chose tennis?",
+      "options": [
+        "10",
+        "12",
+        "8",
+        "15",
+        "20"
+      ]
+    },
+    "answer": {
+      "value": "12"
+    },
+    "explanation": "Percentage choosing tennis = 100% - (40% + 25% + 20%) = 100% - 85% = 15%.\nNumber of students choosing tennis = 15% of 80 = (15/100) * 80 = 12.",
+    "hints": [],
+    "tags": [
+      "data_handling",
+      "pie_chart",
+      "percentage"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "data_handling",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "The bar chart shows the number of ice creams sold each day. The bar for Monday reaches 15, Tuesday reaches 20, Wednesday reaches 12, Thursday reaches 18, and Friday reaches 25. What is the average number of ice creams sold per day?",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "17",
+        "21"
+      ]
+    },
+    "answer": {
+      "value": "18"
+    },
+    "explanation": "Total ice creams sold = 15 + 20 + 12 + 18 + 25 = 90\nAverage = 90 / 5 = 18.",
+    "hints": [],
+    "tags": [
+      "data_handling",
+      "bar_chart",
+      "mean"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "data_handling",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Here is a list of the number of points scored by a basketball team in their last 6 games: 52, 48, 61, 55, 48, 58. What is the median number of points scored?",
+      "options": [
+        "53.5",
+        "54",
+        "55",
+        "53",
+        "52"
+      ]
+    },
+    "answer": {
+      "value": "53.5"
+    },
+    "explanation": "First, sort the data: 48, 48, 52, 55, 58, 61.\nSince there are an even number of values, the median is the average of the middle two numbers: (52 + 55) / 2 = 107 / 2 = 53.5",
+    "hints": [],
+    "tags": [
+      "data_handling",
+      "median"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "data_handling",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "The table shows the number of books read by five children during the summer holidays.\n\n| Child   | Number of Books |\n| :------ | :---------------- |\n| Alice   | 7               |\n| Ben     | 12              |\n| Chloe   | 5               |\n| Daniel  | 8               |\n| Emily   | 13              |\n\nWhat is the range of the number of books read, and what is the mean number of books read (to the nearest whole number)?",
+      "options": [
+        "Range: 8, Mean: 9",
+        "Range: 13, Mean: 9",
+        "Range: 8, Mean: 10",
+        "Range: 18, Mean: 9",
+        "Range: 8, Mean: 11"
+      ]
+    },
+    "answer": {
+      "value": "Range: 8, Mean: 9"
+    },
+    "explanation": "The range is the difference between the largest and smallest values. Largest = 13, Smallest = 5. Range = 13 - 5 = 8.\n\nThe mean is the sum of the values divided by the number of values. Sum = 7 + 12 + 5 + 8 + 13 = 45. Number of values = 5. Mean = 45 / 5 = 9.",
+    "hints": [],
+    "tags": [
+      "data_handling",
+      "range",
+      "mean"
+    ],
+    "source": "LLM Generated"
+  }
+]

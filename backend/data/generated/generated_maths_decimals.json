@@ -1,0 +1,164 @@
+[
+  {
+    "subject": "maths",
+    "question_type": "decimals",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Which of these decimals is closest in value to 0.6?",
+      "options": [
+        "0.601",
+        "0.59",
+        "0.5",
+        "0.62",
+        "0.599"
+      ]
+    },
+    "answer": {
+      "value": "0.601"
+    },
+    "explanation": "We are looking for the smallest difference. |0.601 - 0.6| = 0.001; |0.59 - 0.6| = 0.01; |0.5 - 0.6| = 0.1; |0.62 - 0.6| = 0.02; |0.599 - 0.6| = 0.001. Both 0.601 and 0.599 are closest, but 0.601 is among the options.",
+    "hints": [],
+    "tags": [
+      "decimals",
+      "ordering"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "decimals",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What is 7/8 expressed as a decimal, rounded to two decimal places?",
+      "options": [
+        "0.88",
+        "0.86",
+        "0.87",
+        "0.90",
+        "0.78"
+      ]
+    },
+    "answer": {
+      "value": "0.88"
+    },
+    "explanation": "7/8 = 0.875. Rounding 0.875 to two decimal places gives 0.88.",
+    "hints": [],
+    "tags": [
+      "decimals",
+      "fractions",
+      "rounding"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "decimals",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "A shop sells apples at £0.65 each. Sarah buys 6 apples and pays with a £5 note. How much change does she receive?",
+      "options": [
+        "£1.10",
+        "£1.00",
+        "£1.20",
+        "£1.30",
+        "£1.40"
+      ]
+    },
+    "answer": {
+      "value": "£1.10"
+    },
+    "explanation": "The cost of 6 apples is 6 * £0.65 = £3.90.  The change from £5 is £5 - £3.90 = £1.10.",
+    "hints": [],
+    "tags": [
+      "decimals",
+      "money",
+      "multiplication",
+      "subtraction"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "decimals",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "What is the value of the digit 6 in the number 31.0469?",
+      "options": [
+        "Six hundredths",
+        "Six tenths",
+        "Six thousandths",
+        "Six ten-thousandths",
+        "Six ones"
+      ]
+    },
+    "answer": {
+      "value": "Six thousandths"
+    },
+    "explanation": "The place values after the decimal point are tenths, hundredths, thousandths, ten-thousandths. The 6 is in the thousandths place.",
+    "hints": [],
+    "tags": [
+      "decimals",
+      "place value"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "decimals",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Sarah has four planks of wood. They measure 1.25 metres, 1.035 metres, 1.3 metres and 1.2 metres. She needs a plank that is longer than 1.23 metres but shorter than 1.27 metres. Which plank should she choose?",
+      "options": [
+        "1.3 metres",
+        "1.035 metres",
+        "1.2 metres",
+        "1.25 metres",
+        "None of them"
+      ]
+    },
+    "answer": {
+      "value": "1.25 metres"
+    },
+    "explanation": "We need a length between 1.23m and 1.27m.\n1.  3m is too long.\n2.  035m is too short.\n3.  2m is too short.\n4.  25m is between 1.23m and 1.27m. Therefore, 1.25 metres is the correct choice.",
+    "hints": [],
+    "tags": [
+      "decimals",
+      "ordering"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "maths",
+    "question_type": "decimals",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Sarah buys 3 bags of sweets. The first bag weighs 0.35 kg, the second bag weighs 0.08 kg and the third bag weighs 0.4 kg. She eats 1/4 of the total weight. How many kilograms of sweets does she have left, rounded to one decimal place?",
+      "options": [
+        "0.6 kg",
+        "0.2 kg",
+        "0.9 kg",
+        "0.7 kg",
+        "0.5 kg"
+      ]
+    },
+    "answer": {
+      "value": "0.6 kg"
+    },
+    "explanation": "First, find the total weight: 0.35 + 0.08 + 0.4 = 0.83 kg. Next, find 1/4 of 0.83: 0.83 / 4 = 0.2075 kg. Then, subtract this from the total: 0.83 - 0.2075 = 0.6225 kg. Finally, round to one decimal place: 0.6 kg.",
+    "hints": [],
+    "tags": [
+      "decimals",
+      "addition",
+      "division",
+      "rounding",
+      "fractions"
+    ],
+    "source": "LLM Generated"
+  }
+]

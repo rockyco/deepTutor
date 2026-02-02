@@ -1,0 +1,127 @@
+[
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_hidden_word",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Find a four-letter word hidden at the end of one word and the beginning of the next word in the sentence.\n\nAfter the long race, the team could barely stand upright.",
+      "options": [
+        "dare",
+        "rare",
+        "coul",
+        "earl",
+        "lead"
+      ]
+    },
+    "answer": {
+      "value": "rare"
+    },
+    "explanation": "The word 'rare' is hidden in 'baRE RAce'.",
+    "hints": [],
+    "tags": [
+      "vr_hidden_word"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_hidden_word",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Find a four-letter word hidden at the end of one word and the beginning of the next word in the sentence.\n\nThe antique clock had a beautiful chime, even after all those years ago.",
+      "options": [
+        "time",
+        "hear",
+        "each",
+        "over",
+        "same"
+      ]
+    },
+    "answer": {
+      "value": "each"
+    },
+    "explanation": "The word 'each' is hidden in 'timE ACHime'.",
+    "hints": [],
+    "tags": [
+      "vr_hidden_word"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_hidden_word",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Find a four-letter word hidden at the end of one word and the beginning of the next word.\n\nThe wilting plant needed water, and I hoped rain would come soon.",
+      "options": [
+        "wind",
+        "rope",
+        "hope",
+        "near",
+        "rail"
+      ]
+    },
+    "answer": {
+      "value": "hope"
+    },
+    "explanation": "The word 'hope' is hidden at the end of 'hoped' and the beginning of 'rain': hope Rain.",
+    "hints": [],
+    "tags": [
+      "vr_hidden_word"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_hidden_word",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Find a four-letter word hidden at the end of one word and the beginning of the next word.",
+      "options": [
+        "also",
+        "tear",
+        "mean",
+        "same",
+        "ours"
+      ]
+    },
+    "answer": {
+      "value": "ours"
+    },
+    "explanation": "favOU RSucceed - 'ours' spans across 'favou' and 'succeed'.",
+    "hints": [],
+    "tags": [
+      "vr_hidden_word"
+    ],
+    "source": "LLM Generated"
+  },
+  {
+    "subject": "verbal_reasoning",
+    "question_type": "vr_hidden_word",
+    "format": "multiple_choice",
+    "difficulty": 3,
+    "content": {
+      "text": "Find a four-letter word hidden at the end of one word and the beginning of the next word in the sentence.\n\nThe bellicose knight would wield a fearsome axe even in slumber.",
+      "options": [
+        "idle",
+        "deaf",
+        "evil",
+        "mean",
+        "weld"
+      ]
+    },
+    "answer": {
+      "value": "weld"
+    },
+    "explanation": "The word 'weld' is hidden at the end of 'would' and the beginning of 'a': woulD WELD a.",
+    "hints": [],
+    "tags": [
+      "vr_hidden_word"
+    ],
+    "source": "LLM Generated"
+  }
+]
