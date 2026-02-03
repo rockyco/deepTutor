@@ -54,11 +54,16 @@ cd frontend && npm run lint
 
 ```bash
 # Backend to Google Cloud Run
-scripts/deploy_backend.sh
+GOOGLE_CLOUD_PROJECT=booming-order-424821-m1 scripts/deploy_backend.sh
 
-# Frontend to Cloudflare Pages
-scripts/deploy_frontend.sh
+# Frontend to Cloudflare Pages (build with production API URL, then deploy static output)
+cd frontend && NEXT_PUBLIC_API_URL=https://deeptutor-backend-400481200537.us-central1.run.app npm run build
+cd frontend && wrangler pages deploy out --project-name=deeptutor --commit-dirty=true
 ```
+
+Production URLs:
+- Frontend: https://deeptutor.pages.dev
+- Backend: https://deeptutor-backend-400481200537.us-central1.run.app
 
 ## Architecture
 
