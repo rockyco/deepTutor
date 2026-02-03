@@ -40,9 +40,9 @@
       ]
     },
     "answer": {
-      "value": "TS"
+      "value": "ST"
     },
-    "explanation": "Each letter in the pair moves backward by 2 places in the alphabet. Z becomes W, Y becomes X, V becomes T, U becomes S.",
+    "explanation": "The pair reverses and each letter shifts back by 2. ZY reversed is YZ, then Y-2=W and Z-2=X giving WX. VU reversed is UV, then U-2=S and V-2=T giving ST.",
     "hints": [],
     "tags": [
       "vr_letter_relationships"
