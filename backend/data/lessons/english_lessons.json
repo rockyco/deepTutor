@@ -1,0 +1,626 @@
+[
+  {
+    "questionType": "comprehension",
+    "title": "Reading Comprehension",
+    "subtitle": "Understanding and analysing written passages",
+    "difficulty": "foundation",
+    "color": "green",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>In reading comprehension questions, you are given a passage to read carefully. After reading the passage, you answer questions about it. The questions test whether you can find information in the text, understand what the author means, and make inferences (work things out from clues in the text).</p><p>In GL Assessment 11+ exams, you will usually read one or two longer passages and then answer several multiple-choice questions about each passage. The passages can be fiction (stories), non-fiction (factual writing), or poetry.</p><p>The key skill is reading actively: not just letting your eyes pass over the words, but thinking about what you are reading as you go.</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart TD\n    A[Read the Passage] --> B[Understand the Main Idea]\n    B --> C[Read the Question]\n    C --> D{What type of question?}\n    D -->|Fact Finding| E[Look for exact words in text]\n    D -->|Inference| F[Use clues to work it out]\n    D -->|Vocabulary| G[Use context around the word]\n    D -->|Opinion/Tone| H[Think about the author's feelings]\n    E --> I[Check your answer against the passage]\n    F --> I\n    G --> I\n    H --> I"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: Steps to Solve",
+        "steps": [
+          {
+            "label": "Skim the passage first",
+            "detail": "Read the whole passage quickly to get the main idea. Do not worry about every detail yet - just get a feel for what it is about, who is involved, and what happens.",
+            "icon": "eye"
+          },
+          {
+            "label": "Read the question carefully",
+            "detail": "Before you search the passage, make sure you understand exactly what the question is asking. Look for key words in the question that you can search for in the text.",
+            "icon": "search"
+          },
+          {
+            "label": "Find evidence in the text",
+            "detail": "Go back to the passage and find the part that relates to the question. The answer is almost always supported by something written in the passage, even if you have to read between the lines.",
+            "icon": "link"
+          },
+          {
+            "label": "Eliminate wrong options",
+            "detail": "Compare each option (A to E) against what you found in the passage. Cross out any that are clearly wrong, then choose the best remaining answer.",
+            "icon": "check"
+          }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "Read the passage below, then answer the question.\n\nThe old lighthouse stood at the very edge of the cliff, its white paint peeling in long strips. Mira had visited every summer since she was five, but this year something felt different. The lantern room at the top was dark - it had not shone for three months now, ever since Mr Gregson, the last keeper, had retired. Without its beam sweeping across the water, two fishing boats had already run aground on the rocks below.\n\n\"Someone needs to fix it,\" Mira said to her grandfather as they walked along the coastal path. He nodded slowly but said nothing. She noticed his eyes looked sad.\n\nQuestion: Why did Mira's grandfather look sad?",
+          "options": [
+            "He was tired from the walk along the coastal path",
+            "He was worried about Mira visiting the lighthouse",
+            "He felt sorry that the lighthouse was no longer working and boats were in danger",
+            "He did not like Mr Gregson",
+            "He was cold because of the wind from the sea"
+          ]
+        },
+        "walkthrough": [
+          {
+            "step": 1,
+            "text": "First, find where the grandfather's sadness is mentioned: \"She noticed his eyes looked sad.\" This comes right after Mira says \"Someone needs to fix it,\" referring to the lighthouse.",
+            "highlight": "group1"
+          },
+          {
+            "step": 2,
+            "text": "Now look for context clues. The passage tells us the lighthouse is broken, two boats have run aground, and no one is looking after it. These are serious problems that would make someone sad.",
+            "highlight": "group2"
+          },
+          {
+            "step": 3,
+            "text": "Eliminate wrong answers. Options A and E are not supported by the text. Option B has no evidence. Option D has no evidence. Option C connects his sadness to the lighthouse not working and the danger to boats, which matches the context.",
+            "highlight": "group3"
+          }
+        ],
+        "answer": "He felt sorry that the lighthouse was no longer working and boats were in danger"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          {
+            "trap": "Choosing an answer that sounds right but is not supported by the passage",
+            "fix": "Always go back and check the passage. Point to the exact sentence or phrase that supports your answer. If you cannot find evidence for it, it is probably wrong."
+          },
+          {
+            "trap": "Picking the first option that mentions something from the passage",
+            "fix": "An option might use words from the passage but still be the wrong answer. Read all five options before deciding, and make sure your chosen answer actually answers the question asked."
+          },
+          {
+            "trap": "Confusing what the passage says with what you already know",
+            "fix": "Answer based only on the passage, not on your own knowledge or opinions. Even if you know something about the topic, the question is testing whether you understand this specific text."
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "grammar",
+    "title": "Grammar",
+    "subtitle": "Understanding grammar rules and word classes",
+    "difficulty": "foundation",
+    "color": "emerald",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>Grammar questions test your knowledge of how English sentences are built. You need to know about <strong>word classes</strong> (nouns, verbs, adjectives, adverbs, pronouns, prepositions, conjunctions, and determiners), <strong>sentence structure</strong> (clauses, phrases, subject, and object), and <strong>correct usage</strong> (tenses, agreement, and standard English).</p><p>In GL Assessment 11+ exams, grammar questions often ask you to identify a particular word class in a sentence, choose the correct form of a word, or spot a grammatical error. You are usually given a sentence and asked a specific question about it.</p><p>Knowing the names and jobs of different word classes is essential. Think of it like knowing the positions on a football team: each word has a role to play in the sentence.</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart TD\n    A[Word Classes] --> B[Nouns]\n    A --> C[Verbs]\n    A --> D[Adjectives]\n    A --> E[Adverbs]\n    A --> F[Pronouns]\n    A --> G[Prepositions]\n    A --> H[Conjunctions]\n    A --> I[Determiners]\n    B --> B1[name things: dog, London, happiness]\n    C --> C1[action or state: run, is, think]\n    D --> D1[describe nouns: tall, blue, clever]\n    E --> E1[describe verbs: quickly, very, often]\n    F --> F1[replace nouns: he, they, it]\n    G --> G1[show position/time: in, on, after]\n    H --> H1[join words/clauses: and, but, because]\n    I --> I1[before nouns: the, a, some, few]"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: Steps to Solve",
+        "steps": [
+          {
+            "label": "Read the sentence carefully",
+            "detail": "Read the whole sentence to understand its meaning. Pay attention to how each word works in the sentence, not just what it means on its own.",
+            "icon": "eye"
+          },
+          {
+            "label": "Identify what the question asks",
+            "detail": "Is it asking you to find a word class (like a determiner or adverb)? Is it asking you to correct an error? Is it asking about tense? Know exactly what you are looking for.",
+            "icon": "search"
+          },
+          {
+            "label": "Test each word or option",
+            "detail": "For word class questions, ask: What job is this word doing? A word can change its class depending on the sentence. For example, 'light' can be a noun, verb, or adjective.",
+            "icon": "brain"
+          },
+          {
+            "label": "Check by substitution",
+            "detail": "Try replacing the word with another word of the same class. If you think a word is an adjective, try swapping it for a definite adjective like 'big' - does the sentence still make sense?",
+            "icon": "check"
+          }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "In the sentence below, which of the words is a determiner?\n\nFew people I know dislike how chocolate tastes; most think it is irresistible.",
+          "options": [
+            "it",
+            "how",
+            "is",
+            "Few",
+            "most"
+          ]
+        },
+        "walkthrough": [
+          {
+            "step": 1,
+            "text": "A determiner is a word that comes before a noun to tell us which one, how many, or whose. Common determiners include: the, a, an, some, many, few, this, that, my, his, every.",
+            "highlight": "group1"
+          },
+          {
+            "step": 2,
+            "text": "Look at each option. 'it' is a pronoun. 'how' is an adverb here. 'is' is a verb. 'most' is a pronoun here (it replaces 'most people'). 'Few' comes before the noun 'people' and tells us how many - this is what determiners do.",
+            "highlight": "group2"
+          },
+          {
+            "step": 3,
+            "text": "To confirm, try replacing 'Few' with another determiner: 'Some people I know...' or 'Many people I know...' - both work, confirming 'Few' is the determiner.",
+            "highlight": "group3"
+          }
+        ],
+        "answer": "Few"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          {
+            "trap": "Confusing adverbs with adjectives",
+            "fix": "Remember: adjectives describe nouns (the tall tree), adverbs describe verbs, adjectives, or other adverbs (she ran quickly). Ask yourself: is this word describing a thing, or describing an action?"
+          },
+          {
+            "trap": "Forgetting that words can belong to different classes in different sentences",
+            "fix": "The word 'light' can be a noun (turn on the light), a verb (light the candle), or an adjective (a light bag). Always look at how the word is used in the specific sentence you are given."
+          },
+          {
+            "trap": "Mixing up determiners and pronouns",
+            "fix": "Determiners always come before a noun: 'some cake', 'those books'. Pronouns replace a noun: 'I ate some', 'I like those'. If the word stands alone without a noun after it, it is probably a pronoun."
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "spelling",
+    "title": "Spelling",
+    "subtitle": "Identifying correct and incorrect spellings",
+    "difficulty": "foundation",
+    "color": "teal",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>Spelling questions test whether you can spot words that are spelt incorrectly. In GL Assessment 11+ exams, you are usually given a sentence that has been split into groups of words. One group contains a spelling mistake, or there may be no mistake at all. You choose the group with the mistake, or select 'No mistake'.</p><p>This means you do not have to write the correct spelling yourself - you just have to recognise when a word looks wrong. This is a skill you can build by reading widely and practising common tricky words.</p><p>English spelling can be difficult because many words do not follow simple rules. However, there are useful patterns to learn, such as 'i before e except after c' (with exceptions!), silent letters, double consonants, and common word endings like -tion, -sion, -ous, and -ible/-able.</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart TD\n    A[Spelling Strategies] --> B[Sound it out]\n    A --> C[Break into syllables]\n    A --> D[Learn common patterns]\n    A --> E[Watch for homophones]\n    B --> B1[Does the spelling match the sounds?]\n    C --> C1[Wed-nes-day, Feb-ru-ary]\n    D --> D1[-tion vs -sion]\n    D --> D2[-ible vs -able]\n    D --> D3[i before e except after c]\n    E --> E1[their/there/they're]\n    E --> E2[to/too/two]\n    E --> E3[air/heir, rain/reign]"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: Steps to Solve",
+        "steps": [
+          {
+            "label": "Read each group of words slowly",
+            "detail": "Do not rush. Read each group of words one at a time and look at every word carefully. Say each word in your head and check if the spelling looks right.",
+            "icon": "eye"
+          },
+          {
+            "label": "Focus on tricky words",
+            "detail": "Skip past simple words like 'the', 'and', 'was'. Focus your attention on longer words, words with unusual patterns, and homophones (words that sound the same but are spelt differently, like 'their' and 'there').",
+            "icon": "search"
+          },
+          {
+            "label": "Break words into parts",
+            "detail": "If a word looks suspicious, break it into syllables or look for the root word plus its prefix or suffix. For example, 'unnecessary' = un + necessary. Does each part look correct?",
+            "icon": "puzzle"
+          },
+          {
+            "label": "Consider 'No mistake'",
+            "detail": "Do not forget that sometimes there is no mistake. If every word looks correct after careful checking, choose 'No mistake'. Do not second-guess a correct spelling just because you feel you must find an error.",
+            "icon": "check"
+          }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "The sentence below contains either one spelling mistake or no spelling mistakes. Choose the group of words which contains the mistake. If there is no mistake, choose 'No mistake'.\n\n\"As the air to the throne, you will reign over all of this magnificent land,\" proclaimed the king.",
+          "options": [
+            "\"As the air to the throne,",
+            "you will reign over",
+            "all of this magnificent land,\"",
+            "proclaimed the king.",
+            "No mistake"
+          ]
+        },
+        "walkthrough": [
+          {
+            "step": 1,
+            "text": "Read each group carefully. In the first group, look at 'air to the throne'. The word 'air' means the stuff we breathe. But the sentence is talking about someone who will become king - that word should be 'heir' (a person who inherits a title).",
+            "highlight": "group1"
+          },
+          {
+            "step": 2,
+            "text": "'air' and 'heir' are homophones - they sound exactly the same but have different spellings and meanings. This is a very common type of spelling question in the 11+ exam.",
+            "highlight": "group2"
+          },
+          {
+            "step": 3,
+            "text": "Check the other groups: 'reign' is correct (to rule as king or queen), 'magnificent' is correct, 'proclaimed' is correct. The only mistake is 'air' which should be 'heir', so choose option A.",
+            "highlight": "group3"
+          }
+        ],
+        "answer": "\"As the air to the throne,"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          {
+            "trap": "Missing homophone errors because the word is spelt correctly - just not the right word",
+            "fix": "Always think about the meaning of the sentence, not just whether a word is a real word. 'Air' is a real word with correct spelling, but it is the wrong word in context. Common homophone traps: their/there/they're, passed/past, practice/practise, affect/effect."
+          },
+          {
+            "trap": "Changing your mind on a correct answer because you think there must be a mistake",
+            "fix": "Sometimes the answer really is 'No mistake'. Trust your reading. If you have checked every word carefully and they all look right, choose 'No mistake' with confidence."
+          },
+          {
+            "trap": "Not noticing double letter errors",
+            "fix": "Watch for words that need double letters: 'necessary' (one c, two s's), 'accommodation' (two c's, two m's), 'disappear' (one s, two p's). These are among the most commonly misspelt words."
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "vocabulary",
+    "title": "Vocabulary",
+    "subtitle": "Word meanings, synonyms, and usage",
+    "difficulty": "foundation",
+    "color": "blue",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>Vocabulary questions test your understanding of word meanings. You may be asked to find a <strong>synonym</strong> (a word with a similar meaning), an <strong>antonym</strong> (a word with the opposite meaning), or choose the word that best fits a given context.</p><p>In GL Assessment 11+ exams, vocabulary questions often give you a sentence with a word in bold and ask you to find the closest synonym from five options. Sometimes you need to work out the meaning from context clues in the sentence.</p><p>Building a strong vocabulary takes time. The best way is to read widely - books, newspapers, magazines - and to look up unfamiliar words. When you learn a new word, try to learn a synonym and an antonym at the same time.</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart TD\n    A[Understanding Vocabulary Questions] --> B[Read the sentence]\n    B --> C[Find the bold or key word]\n    C --> D[Think about what it means in context]\n    D --> E{Do you know the word?}\n    E -->|Yes| F[Match it to the closest synonym]\n    E -->|Not sure| G[Use context clues]\n    G --> G1[What is the sentence about?]\n    G --> G2[Is the tone positive or negative?]\n    G --> G3[What part of speech is it?]\n    G1 --> F\n    G2 --> F\n    G3 --> F\n    F --> H[Try each option in the sentence]\n    H --> I[Choose the best fit]"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: Steps to Solve",
+        "steps": [
+          {
+            "label": "Read the sentence and find the key word",
+            "detail": "Read the full sentence carefully. Identify the word you are being asked about (usually in bold). Understand the whole sentence so you know the context in which the word is used.",
+            "icon": "eye"
+          },
+          {
+            "label": "Think of your own synonym first",
+            "detail": "Before looking at the options, try to think of a word that means the same thing. This stops you being distracted by tempting wrong answers. Even a rough idea of the meaning helps.",
+            "icon": "brain"
+          },
+          {
+            "label": "Test each option by substitution",
+            "detail": "Replace the key word with each option, one at a time. Which option keeps the sentence meaning the same? Some options might be related to the word but not mean the same thing.",
+            "icon": "puzzle"
+          },
+          {
+            "label": "Watch the tone and degree",
+            "detail": "Make sure your chosen word matches the strength and feel of the original. 'Furious' is not the same as 'annoyed' - both are about anger, but at different levels. Choose the closest match.",
+            "icon": "check"
+          }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "Which is the best synonym for the word in bold in the sentence below?\n\nSasha remarked that Veena has an **endearing** personality.",
+          "options": [
+            "lovable",
+            "belligerent",
+            "confident",
+            "amusing",
+            "annoying"
+          ]
+        },
+        "walkthrough": [
+          {
+            "step": 1,
+            "text": "The word is 'endearing'. The sentence says Veena has an endearing personality, which sounds positive. Think about what 'endearing' means - it means causing people to feel affection, charming, likeable.",
+            "highlight": "group1"
+          },
+          {
+            "step": 2,
+            "text": "Before looking at the options, think of your own synonym: charming, lovable, sweet, likeable. Now check the options against this.",
+            "highlight": "group2"
+          },
+          {
+            "step": 3,
+            "text": "Test each option: 'lovable' means worthy of love or affection - very close to endearing. 'belligerent' means aggressive - wrong. 'confident' means self-assured - not the same meaning. 'amusing' means funny - related but not the same. 'annoying' is almost the opposite. 'Lovable' is the best match.",
+            "highlight": "group3"
+          }
+        ],
+        "answer": "lovable"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          {
+            "trap": "Choosing a word that is related to the topic but does not mean the same thing",
+            "fix": "For example, if the word is 'ancient', you might see 'valuable' as an option. Old things can be valuable, but 'valuable' does not mean the same as 'ancient'. Look for meaning, not association."
+          },
+          {
+            "trap": "Ignoring the context of the sentence",
+            "fix": "Some words have more than one meaning. 'Light' can mean 'not heavy' or 'brightness'. Use the sentence to work out which meaning is intended, then find the synonym for that meaning."
+          },
+          {
+            "trap": "Being tricked by words that look or sound similar",
+            "fix": "Watch out for words that look alike but have different meanings: 'amiable' (friendly) vs 'amenable' (willing to agree). Read each option carefully and think about its actual meaning."
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "sentence_completion",
+    "title": "Sentence Completion",
+    "subtitle": "Choosing the best word to complete a sentence",
+    "difficulty": "foundation",
+    "color": "indigo",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>Sentence completion questions give you a sentence with a gap or missing word. Your job is to choose the word or phrase that best completes the sentence so that it makes sense and is grammatically correct.</p><p>These questions test several skills at once: vocabulary (knowing what words mean), grammar (knowing which form of a word fits), and comprehension (understanding the overall meaning of the sentence). You need to think about meaning, grammar, and style all together.</p><p>In GL Assessment 11+ exams, you are given five options and must choose the one that fits best. Sometimes more than one option could work grammatically, but only one gives the sentence its intended meaning.</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart TD\n    A[Read the sentence with the gap] --> B[Understand the overall meaning]\n    B --> C[What type of word is needed?]\n    C --> D{Check the grammar}\n    D -->|Noun needed| E[Which noun fits the meaning?]\n    D -->|Verb needed| F[Which verb fits tense and meaning?]\n    D -->|Adjective needed| G[Which adjective matches the tone?]\n    D -->|Connective needed| H[Which word links the ideas correctly?]\n    E --> I[Try each option in the gap]\n    F --> I\n    G --> I\n    H --> I\n    I --> J[Choose the best fit for meaning AND grammar]"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: Steps to Solve",
+        "steps": [
+          {
+            "label": "Read the whole sentence",
+            "detail": "Read the sentence from start to finish, pausing at the gap. Get a feel for what the sentence is about, its tone (positive, negative, formal, informal), and what kind of word is missing.",
+            "icon": "eye"
+          },
+          {
+            "label": "Predict the missing word",
+            "detail": "Before looking at the options, try to think of a word that would fit. This gives you an idea to match against the choices and helps you avoid being tricked by distractors.",
+            "icon": "brain"
+          },
+          {
+            "label": "Check grammar and meaning together",
+            "detail": "Put each option into the gap. Does the sentence make sense? Is the grammar correct? For example, if the sentence needs a plural noun but an option is singular, it does not fit, even if the meaning is close.",
+            "icon": "puzzle"
+          },
+          {
+            "label": "Read the completed sentence aloud in your head",
+            "detail": "Once you have chosen your answer, read the entire sentence with the word filled in. Does it flow naturally? Does it say something sensible? If it sounds awkward, reconsider your choice.",
+            "icon": "check"
+          }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "Choose the word that best completes the sentence below.\n\nAlthough the weather forecast predicted sunshine, the sky remained ______ and grey throughout the afternoon.",
+          "options": [
+            "bright",
+            "overcast",
+            "scorching",
+            "transparent",
+            "radiant"
+          ]
+        },
+        "walkthrough": [
+          {
+            "step": 1,
+            "text": "The sentence uses 'Although', which tells us there is a contrast. The forecast said sunshine, but the actual weather was different. So we need a word that means the opposite of sunny.",
+            "highlight": "group1"
+          },
+          {
+            "step": 2,
+            "text": "The gap is paired with 'and grey', so the missing word should fit alongside 'grey' to describe unpleasant or cloudy weather. Think of words like 'dull', 'cloudy', 'overcast'.",
+            "highlight": "group2"
+          },
+          {
+            "step": 3,
+            "text": "Test the options: 'bright' means sunny - opposite of what we need. 'overcast' means covered with clouds - matches perfectly. 'scorching' means very hot - wrong. 'transparent' means see-through - does not describe weather. 'radiant' means shining brightly - wrong. The answer is 'overcast'.",
+            "highlight": "group3"
+          }
+        ],
+        "answer": "overcast"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          {
+            "trap": "Ignoring signal words like 'although', 'however', 'because', 'therefore'",
+            "fix": "These words tell you the relationship between ideas. 'Although' and 'however' signal contrast (the answer will be opposite to another idea). 'Because' and 'therefore' signal cause and effect. These words are essential clues."
+          },
+          {
+            "trap": "Choosing a word that fits the meaning but not the grammar",
+            "fix": "Make sure the word is the right part of speech. If the gap needs an adjective, a noun will not work even if it is related to the right idea. Read the completed sentence to check it sounds grammatically correct."
+          },
+          {
+            "trap": "Picking the most impressive-sounding word rather than the best fit",
+            "fix": "The correct answer is the one that makes the sentence clear and natural, not necessarily the longest or most complicated word. Sometimes the simplest option is correct."
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "punctuation",
+    "title": "Punctuation",
+    "subtitle": "Using punctuation and capital letters correctly",
+    "difficulty": "foundation",
+    "color": "cyan",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>Punctuation questions test your knowledge of how to use punctuation marks and capital letters correctly. In GL Assessment 11+ exams, you are usually given a sentence split into groups of words and asked to find the group that contains a punctuation or capitalisation mistake. Sometimes there is no mistake at all.</p><p>The main punctuation marks you need to know are: <strong>full stops</strong>, <strong>commas</strong>, <strong>apostrophes</strong> (for possession and contraction), <strong>speech marks</strong> (inverted commas), <strong>colons</strong>, <strong>semicolons</strong>, <strong>exclamation marks</strong>, <strong>question marks</strong>, <strong>hyphens</strong>, and <strong>brackets</strong>.</p><p>You also need to know the rules for capital letters: at the start of sentences, for proper nouns (names of specific people, places, days, months), and for the pronoun 'I'.</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart TD\n    A[Punctuation Marks] --> B[Apostrophes]\n    A --> C[Commas]\n    A --> D[Speech Marks]\n    A --> E[Capital Letters]\n    B --> B1[Contraction: do not = don't]\n    B --> B2[Possession: the dog's bone]\n    B --> B3[Plural possession: the dogs' bones]\n    C --> C1[Lists: apples, pears, and grapes]\n    C --> C2[After fronted adverbials: Quickly, she ran.]\n    C --> C3[Separating clauses]\n    D --> D1[Around spoken words]\n    D --> D2[Punctuation inside the speech marks]\n    E --> E1[Start of sentences]\n    E --> E2[Proper nouns: London, Monday]\n    E --> E3[The pronoun I]"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: Steps to Solve",
+        "steps": [
+          {
+            "label": "Read the sentence and focus on punctuation",
+            "detail": "Read the sentence normally first to understand its meaning. Then read it again, this time paying attention to every punctuation mark and capital letter. Check each one has a reason to be there.",
+            "icon": "eye"
+          },
+          {
+            "label": "Check apostrophes first",
+            "detail": "Apostrophe errors are the most common type tested. Check every apostrophe: is it for contraction (it's = it is) or possession (the cat's tail)? Watch out for its/it's, your/you're, and their/they're.",
+            "icon": "search"
+          },
+          {
+            "label": "Check commas and capital letters",
+            "detail": "Are commas used correctly in lists and after introductory phrases? Are capital letters used for proper nouns and sentence starts? Is there an unnecessary capital letter in the middle of a sentence?",
+            "icon": "pencil"
+          },
+          {
+            "label": "Consider 'No mistake'",
+            "detail": "If everything looks correct after thorough checking, the answer may be 'No mistake'. Do not force yourself to find an error if there is not one.",
+            "icon": "check"
+          }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "The sentence below contains either one mistake involving punctuation or capital letters, or no mistake. Choose the group of words which contains the mistake. If there is no mistake, choose 'No mistake'.\n\nThe children's teacher, Mrs Patel, told them that friday was the last day of term.",
+          "options": [
+            "The children's teacher,",
+            "Mrs Patel, told them",
+            "that friday was the",
+            "last day of term.",
+            "No mistake"
+          ]
+        },
+        "walkthrough": [
+          {
+            "step": 1,
+            "text": "Check group 1: 'The children's teacher,' - 'The' has a capital because it starts the sentence. 'children's' has an apostrophe for possession (the teacher belongs to the children) - this is correct for a plural noun that does not end in 's'. The comma is correct because 'Mrs Patel' is extra information. No error here.",
+            "highlight": "group1"
+          },
+          {
+            "step": 2,
+            "text": "Check group 2: 'Mrs Patel, told them' - 'Mrs' has a capital letter as a title, 'Patel' has a capital as a proper noun. The comma after 'Patel' closes the extra information. This is correct.",
+            "highlight": "group2"
+          },
+          {
+            "step": 3,
+            "text": "Check group 3: 'that friday was the' - look carefully at 'friday'. Days of the week are proper nouns and must have a capital letter: 'Friday'. This is the mistake. The answer is option C.",
+            "highlight": "group3"
+          }
+        ],
+        "answer": "that friday was the"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          {
+            "trap": "Confusing its (possession) with it's (contraction)",
+            "fix": "This is the opposite of the normal rule. 'Its' without an apostrophe means 'belonging to it': The dog wagged its tail. 'It's' with an apostrophe means 'it is' or 'it has': It's raining. If you can replace the word with 'it is', use the apostrophe."
+          },
+          {
+            "trap": "Missing capital letters on days, months, and proper nouns",
+            "fix": "Days of the week (Monday, Tuesday) and months (January, February) always need capital letters. So do names of people, places, countries, languages, and specific organisations. Seasons (spring, summer) do not need capitals."
+          },
+          {
+            "trap": "Adding an apostrophe to ordinary plural nouns",
+            "fix": "Plurals do not need apostrophes. 'The dogs played' is correct - not 'the dog's played'. Only use an apostrophe for possession (the dog's bone) or contraction (the dog's running = the dog is running)."
+          }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  }
+]

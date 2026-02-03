@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-
+import { BookOpen } from "lucide-react";
 
 import { Sidebar } from "@/components/Sidebar";
 
@@ -44,7 +44,25 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+                {/* Learn Card */}
+                <Link href="/learn" className="glass-card rounded-2xl p-6 cursor-pointer relative overflow-hidden group block border-l-4 border-teal-500">
+                  <div className="absolute top-0 right-0 w-32 h-32 bg-teal-100 rounded-full blur-2xl -mr-16 -mt-16 opacity-50 group-hover:opacity-70 transition"></div>
+                  <div className="relative z-10">
+                    <div className="flex items-center gap-4 mb-4">
+                      <div className="w-12 h-12 rounded-xl bg-teal-50 text-teal-600 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                        <BookOpen className="w-6 h-6" />
+                      </div>
+                      <div>
+                        <h3 className="text-xl font-bold text-slate-900">Learn</h3>
+                        <p className="text-xs text-slate-500">Interactive Lessons</p>
+                      </div>
+                    </div>
+                    <p className="text-sm text-slate-600 mb-4 line-clamp-2">Step-by-step lessons for every question type with worked examples.</p>
+                    <div className="px-3 py-1.5 bg-teal-50 text-teal-700 text-xs font-bold rounded-lg inline-block">46 Lessons</div>
+                  </div>
+                </Link>
+
                 {/* Full Mock Card */}
                 <Link href="/mock-exam" className="glass-card rounded-2xl p-6 cursor-pointer relative overflow-hidden group block border-l-4 border-indigo-500">
                   <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-100 rounded-full blur-2xl -mr-16 -mt-16 opacity-50 group-hover:opacity-70 transition"></div>
@@ -156,6 +174,10 @@ export default function Home() {
           </svg>
           <span className="text-[10px] font-bold mt-1">Dash</span>
         </button>
+        <Link href="/learn" className="flex flex-col items-center justify-center w-full h-full text-slate-400 hover:text-teal-600">
+          <BookOpen className="w-5 h-5" />
+          <span className="text-[10px] font-medium mt-1">Learn</span>
+        </Link>
         <Link href="/practice/maths" className="flex flex-col items-center justify-center w-full h-full text-slate-400 hover:text-blue-600">
           <div className="text-lg mb-1">📐</div>
           <span className="text-[10px] font-medium">Maths</span>
@@ -164,13 +186,9 @@ export default function Home() {
           <div className="text-lg mb-1">🗣️</div>
           <span className="text-[10px] font-medium">Verbal</span>
         </Link>
-        <Link href="/practice/non_verbal_reasoning" className="flex flex-col items-center justify-center w-full h-full text-slate-400 hover:text-orange-600">
-          <div className="text-lg mb-1">🧩</div>
-          <span className="text-[10px] font-medium">NVR</span>
-        </Link>
-        <Link href="/practice/english" className="flex flex-col items-center justify-center w-full h-full text-slate-400 hover:text-green-600">
-          <div className="text-lg mb-1">📖</div>
-          <span className="text-[10px] font-medium">Eng</span>
+        <Link href="/mock-exam" className="flex flex-col items-center justify-center w-full h-full text-slate-400 hover:text-indigo-600">
+          <div className="text-lg mb-1">📝</div>
+          <span className="text-[10px] font-medium">Exam</span>
         </Link>
       </div>
     </div>

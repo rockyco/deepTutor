@@ -1,0 +1,620 @@
+[
+  {
+    "questionType": "number_operations",
+    "title": "Number Operations & BODMAS",
+    "subtitle": "Master multi-step arithmetic and order of operations",
+    "difficulty": "foundation",
+    "color": "blue",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>Number operations questions test your ability to work with <strong>addition, subtraction, multiplication and division</strong> - often combined in a single calculation.</p><p>The most important rule is <strong>BODMAS</strong>, which tells you the order to do operations:</p><ul><li><strong>B</strong>rackets first</li><li><strong>O</strong>rders (powers and roots)</li><li><strong>D</strong>ivision and <strong>M</strong>ultiplication (left to right)</li><li><strong>A</strong>ddition and <strong>S</strong>ubtraction (left to right)</li></ul><p>You also need to know about <strong>factors</strong> (numbers that divide exactly), <strong>multiples</strong> (times tables), <strong>prime numbers</strong> (only divisible by 1 and themselves), and <strong>place value</strong> (what each digit is worth).</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart TD\n    A[\"BODMAS Order\"] --> B[\"1. Brackets ( )\"]\n    B --> C[\"2. Orders - powers, roots\"]\n    C --> D[\"3. Division and Multiplication\"]\n    D --> E[\"4. Addition and Subtraction\"]\n    D -- \"left to right\" --> D\n    E -- \"left to right\" --> E"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: Steps to Solve",
+        "steps": [
+          { "label": "Read carefully", "detail": "Identify all the numbers and operations in the calculation. Look for brackets first.", "icon": "eye" },
+          { "label": "Apply BODMAS", "detail": "Work through the operations in the correct order: Brackets, then Orders, then Division/Multiplication (left to right), then Addition/Subtraction (left to right).", "icon": "brain" },
+          { "label": "Show your working", "detail": "Rewrite the expression after each step so you do not lose track. Replace the part you just calculated with the answer.", "icon": "pencil" },
+          { "label": "Check your answer", "detail": "Look at the answer options. If your answer is not there, re-check your BODMAS order - you may have done addition before multiplication.", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "What is the value of 7 + 3 x 4 - 2?",
+          "options": ["17", "38", "22", "19", "30"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "Look for brackets or orders - there are none, so move to multiplication and division.", "highlight": "operation" },
+          { "step": 2, "text": "Do the multiplication first: 3 x 4 = 12. The expression becomes 7 + 12 - 2.", "highlight": "operation" },
+          { "step": 3, "text": "Now work left to right with addition and subtraction: 7 + 12 = 19.", "highlight": "operation" },
+          { "step": 4, "text": "Finally: 19 - 2 = 17. The answer is 17.", "highlight": "answer" }
+        ],
+        "answer": "17"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Working left to right without using BODMAS", "fix": "Always check for multiplication and division before doing addition and subtraction. In 7 + 3 x 4, you must do 3 x 4 first, not 7 + 3 first." },
+          { "trap": "Forgetting that division and multiplication have equal priority", "fix": "When you have both division and multiplication with no brackets, work left to right. For example, 12 / 3 x 2 = 4 x 2 = 8, not 12 / 6 = 2." },
+          { "trap": "Confusing factors and multiples", "fix": "Factors go INTO a number (factors of 12: 1, 2, 3, 4, 6, 12). Multiples are the TIMES TABLE of a number (multiples of 3: 3, 6, 9, 12...)." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "fractions",
+    "title": "Fractions",
+    "subtitle": "Add, subtract, multiply and compare fractions with confidence",
+    "difficulty": "foundation",
+    "color": "indigo",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>Fraction questions test your ability to work with parts of a whole. You need to be confident with:</p><ul><li><strong>Equivalent fractions</strong> - fractions that look different but have the same value (e.g. 1/2 = 2/4 = 3/6)</li><li><strong>Simplifying</strong> - reducing fractions to their simplest form by dividing top and bottom by the same number</li><li><strong>Adding and subtracting</strong> - you need a common denominator (the same bottom number)</li><li><strong>Multiplying</strong> - multiply tops together and bottoms together</li><li><strong>Mixed numbers</strong> - numbers like 2 3/4 that combine a whole number and a fraction</li></ul><p>The <strong>numerator</strong> is the top number (how many parts you have) and the <strong>denominator</strong> is the bottom number (how many equal parts the whole is divided into).</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart TD\n    A[\"Fraction Operations\"] --> B[\"Adding / Subtracting\"]\n    A --> C[\"Multiplying\"]\n    A --> D[\"Comparing\"]\n    B --> B1[\"Find common denominator\"]\n    B1 --> B2[\"Add or subtract numerators\"]\n    B2 --> B3[\"Simplify the answer\"]\n    C --> C1[\"Multiply numerators\"]\n    C1 --> C2[\"Multiply denominators\"]\n    C2 --> C3[\"Simplify the answer\"]\n    D --> D1[\"Convert to same denominator\"]\n    D1 --> D2[\"Compare numerators\"]"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: Steps to Solve",
+        "steps": [
+          { "label": "Identify the operation", "detail": "Decide whether you need to add, subtract, multiply, or compare the fractions.", "icon": "eye" },
+          { "label": "Find a common denominator", "detail": "For adding or subtracting, find the lowest common multiple (LCM) of the denominators. Convert both fractions so they have this denominator.", "icon": "link" },
+          { "label": "Perform the calculation", "detail": "For addition/subtraction: keep the denominator and add/subtract the numerators. For multiplication: multiply numerators together and denominators together.", "icon": "pencil" },
+          { "label": "Simplify your answer", "detail": "Divide the numerator and denominator by their highest common factor. Convert improper fractions to mixed numbers if needed.", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "What is 2/3 + 3/4?",
+          "options": ["5/7", "1 5/12", "5/12", "1 1/7", "17/12"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "The denominators are 3 and 4. The lowest common multiple of 3 and 4 is 12.", "highlight": "operation" },
+          { "step": 2, "text": "Convert 2/3 to twelfths: 2/3 = 8/12 (multiply top and bottom by 4).", "highlight": "operation" },
+          { "step": 3, "text": "Convert 3/4 to twelfths: 3/4 = 9/12 (multiply top and bottom by 3).", "highlight": "operation" },
+          { "step": 4, "text": "Add the numerators: 8/12 + 9/12 = 17/12. Convert to a mixed number: 17/12 = 1 5/12.", "highlight": "answer" }
+        ],
+        "answer": "1 5/12"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Adding the denominators together", "fix": "When adding fractions, you NEVER add the denominators. 2/3 + 3/4 is NOT 5/7. You must find a common denominator first." },
+          { "trap": "Forgetting to simplify", "fix": "Always check if your answer can be simplified. Divide both the numerator and denominator by their highest common factor. For example, 6/8 simplifies to 3/4." },
+          { "trap": "Not converting mixed numbers before calculating", "fix": "When adding mixed numbers like 1 2/3 + 2 1/4, either convert to improper fractions first (5/3 + 9/4) or add whole numbers and fractions separately." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "decimals",
+    "title": "Decimals",
+    "subtitle": "Work confidently with decimal numbers and place value",
+    "difficulty": "foundation",
+    "color": "sky",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>Decimal questions test your understanding of numbers that are not whole. You need to master:</p><ul><li><strong>Place value</strong> - knowing that in 3.45, the 4 is worth 4 tenths (0.4) and the 5 is worth 5 hundredths (0.05)</li><li><strong>Adding and subtracting</strong> - line up the decimal points and fill empty places with zeros</li><li><strong>Multiplying and dividing by 10, 100, 1000</strong> - shift the digits left or right</li><li><strong>Converting fractions to decimals</strong> - divide the numerator by the denominator</li><li><strong>Ordering decimals</strong> - compare digit by digit from left to right</li></ul><p>Remember: the decimal point separates the whole number part from the fractional part. Each place to the right of the point is worth 10 times less.</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart LR\n    A[\"Hundreds\\n100\"] --> B[\"Tens\\n10\"]\n    B --> C[\"Ones\\n1\"]\n    C --> D[\" . \"]\n    D --> E[\"Tenths\\n0.1\"]\n    E --> F[\"Hundredths\\n0.01\"]\n    F --> G[\"Thousandths\\n0.001\"]"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: Steps to Solve",
+        "steps": [
+          { "label": "Line up the decimal points", "detail": "When adding or subtracting, write the numbers vertically with the decimal points aligned. Fill any gaps with zeros.", "icon": "pencil" },
+          { "label": "Count decimal places", "detail": "When multiplying decimals, count the total decimal places in both numbers - your answer will have that many decimal places.", "icon": "eye" },
+          { "label": "Use place value to convert", "detail": "To convert fractions: 1/4 means 1 divided by 4 = 0.25. Learn the common ones: 1/2 = 0.5, 1/4 = 0.25, 1/5 = 0.2, 1/10 = 0.1.", "icon": "brain" },
+          { "label": "Check by estimating", "detail": "Round the decimals to whole numbers first to get a rough answer. This helps you spot mistakes.", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "What is 3.7 x 0.4?",
+          "options": ["1.48", "14.8", "0.148", "1.28", "12.8"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "Ignore the decimals and multiply the whole numbers: 37 x 4 = 148.", "highlight": "operation" },
+          { "step": 2, "text": "Count the total decimal places: 3.7 has 1 decimal place, 0.4 has 1 decimal place, so the total is 2 decimal places.", "highlight": "operation" },
+          { "step": 3, "text": "Place the decimal point 2 places from the right in 148: this gives 1.48.", "highlight": "operation" },
+          { "step": 4, "text": "Check by estimating: 4 x 0.4 = 1.6, and 1.48 is close to 1.6, so the answer 1.48 makes sense.", "highlight": "answer" }
+        ],
+        "answer": "1.48"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Thinking 0.45 is bigger than 0.5 because 45 is bigger than 5", "fix": "Compare digit by digit from left to right. The tenths digit of 0.5 is 5, and the tenths digit of 0.45 is 4, so 0.5 is bigger. Think of it as 0.50 vs 0.45." },
+          { "trap": "Placing the decimal point in the wrong position when multiplying", "fix": "Always count the total number of decimal places in both numbers you are multiplying. Your answer must have the same total number of decimal places." },
+          { "trap": "Forgetting zeros when subtracting decimals of different lengths", "fix": "Pad with zeros so both numbers have the same number of decimal places. For example, 5.3 - 2.17 becomes 5.30 - 2.17 = 3.13." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "percentages",
+    "title": "Percentages",
+    "subtitle": "Calculate percentages and convert between fractions, decimals and percentages",
+    "difficulty": "foundation",
+    "color": "cyan",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>Percentage questions test your ability to work with parts of 100. <strong>Per cent</strong> means <strong>out of 100</strong>.</p><ul><li><strong>Finding a percentage of an amount</strong> - e.g. find 15% of 80</li><li><strong>Percentage increase and decrease</strong> - e.g. increase 60 by 20%</li><li><strong>Converting between forms</strong> - fractions, decimals and percentages are all ways of expressing the same value</li></ul><p>Key equivalents you should memorise:</p><ul><li>50% = 1/2 = 0.5</li><li>25% = 1/4 = 0.25</li><li>10% = 1/10 = 0.1</li><li>75% = 3/4 = 0.75</li><li>20% = 1/5 = 0.2</li></ul>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart TD\n    A[\"Finding a Percentage\"] --> B[\"Find 10%\"]\n    B --> B1[\"Divide by 10\"]\n    A --> C[\"Find 1%\"]\n    C --> C1[\"Divide by 100\"]\n    B1 --> D[\"Build up to target %\"]\n    C1 --> D\n    D --> E[\"Example: 15% = 10% + 5%\"]\n    D --> F[\"Example: 35% = 3 x 10% + 5%\"]"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: Steps to Solve",
+        "steps": [
+          { "label": "Find 10% first", "detail": "Divide the amount by 10 to find 10%. This is your building block. For example, 10% of 80 is 8.", "icon": "brain" },
+          { "label": "Build up the percentage", "detail": "Combine 10% and 1% to make any percentage. For 35%: 3 lots of 10% plus half of 10% (which is 5%). For 15%: 10% + 5%.", "icon": "puzzle" },
+          { "label": "For increase/decrease, add or subtract", "detail": "To increase 60 by 20%: find 20% of 60 (= 12), then add it on (60 + 12 = 72). To decrease, subtract instead.", "icon": "pencil" },
+          { "label": "Check with known equivalents", "detail": "25% is a quarter, 50% is a half. Use these to quickly check your answer makes sense.", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "A jumper costs 45 pounds. It is reduced by 20% in a sale. What is the sale price?",
+          "options": ["36 pounds", "25 pounds", "40 pounds", "9 pounds", "38 pounds"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "Find 10% of 45 pounds: 45 / 10 = 4.50 pounds.", "highlight": "operation" },
+          { "step": 2, "text": "Find 20% by doubling 10%: 4.50 x 2 = 9 pounds. This is the discount.", "highlight": "operation" },
+          { "step": 3, "text": "Subtract the discount from the original price: 45 - 9 = 36 pounds.", "highlight": "operation" },
+          { "step": 4, "text": "The sale price is 36 pounds. Check: 20% is one-fifth, and 45 / 5 = 9, so the discount is correct.", "highlight": "answer" }
+        ],
+        "answer": "36 pounds"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Giving the discount amount instead of the final price", "fix": "Read the question carefully. If it asks for the sale price, you must subtract the discount from the original. If it asks how much is saved, give the discount amount." },
+          { "trap": "Confusing percentage of with percentage increase", "fix": "20% of 60 is 12. But increasing 60 BY 20% gives 60 + 12 = 72. Make sure you know which one the question is asking for." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "geometry",
+    "title": "Geometry",
+    "subtitle": "Angles, areas, perimeters and properties of shapes",
+    "difficulty": "foundation",
+    "color": "teal",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>Geometry questions test your knowledge of <strong>shapes, angles, area and perimeter</strong>. Key topics include:</p><ul><li><strong>Angles</strong> - angles on a straight line add up to 180 degrees; angles around a point add up to 360 degrees; angles in a triangle add up to 180 degrees; angles in a quadrilateral add up to 360 degrees</li><li><strong>Area</strong> - rectangle = length x width; triangle = base x height / 2; parallelogram = base x height</li><li><strong>Perimeter</strong> - the total distance around the outside of a shape</li><li><strong>Properties of shapes</strong> - number of sides, lines of symmetry, types of angles (acute, right, obtuse, reflex)</li><li><strong>Coordinates</strong> - reading and plotting points on a grid using (x, y)</li></ul>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart TD\n    A[\"Geometry\"] --> B[\"Angles\"]\n    A --> C[\"Area\"]\n    A --> D[\"Perimeter\"]\n    A --> E[\"Shape Properties\"]\n    B --> B1[\"Straight line = 180 degrees\"]\n    B --> B2[\"Full turn = 360 degrees\"]\n    B --> B3[\"Triangle = 180 degrees\"]\n    C --> C1[\"Rectangle = l x w\"]\n    C --> C2[\"Triangle = b x h / 2\"]\n    D --> D1[\"Add all sides\"]"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: Steps to Solve",
+        "steps": [
+          { "label": "Identify the shape and what is asked", "detail": "Is the question about area, perimeter, angles, or properties? Which formula do you need?", "icon": "eye" },
+          { "label": "Write down the relevant formula", "detail": "Area of rectangle = l x w. Area of triangle = b x h / 2. Perimeter = sum of all sides. Angles in a triangle = 180 degrees.", "icon": "pencil" },
+          { "label": "Extract measurements from the diagram", "detail": "Read all the measurements carefully from the diagram. Look for hidden information: equal sides marked with dashes, right angles marked with squares.", "icon": "search" },
+          { "label": "Calculate and include units", "detail": "Always include the correct units in your answer: cm, m, cm squared for area, degrees for angles.", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "A triangle has angles of 65 degrees and 48 degrees. What is the third angle?",
+          "options": ["67 degrees", "77 degrees", "57 degrees", "113 degrees", "47 degrees"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "Recall that angles in a triangle add up to 180 degrees.", "highlight": "operation" },
+          { "step": 2, "text": "Add the two known angles: 65 + 48 = 113 degrees.", "highlight": "operation" },
+          { "step": 3, "text": "Subtract from 180: 180 - 113 = 67 degrees.", "highlight": "operation" },
+          { "step": 4, "text": "The third angle is 67 degrees. Check: 65 + 48 + 67 = 180 degrees. Correct.", "highlight": "answer" }
+        ],
+        "answer": "67 degrees"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Confusing area and perimeter", "fix": "Area is the space INSIDE a shape (measured in square units like cm squared). Perimeter is the distance AROUND the outside (measured in cm, m, etc.)." },
+          { "trap": "Using the wrong height for triangle area", "fix": "The height of a triangle must be the PERPENDICULAR height (at right angles to the base), not the slanted side. Look for a dashed line showing the height." },
+          { "trap": "Forgetting that angles on a straight line sum to 180, not 360", "fix": "Angles on a straight line add up to 180 degrees. Angles around a full point add up to 360 degrees. Draw a quick sketch if you are unsure." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "measurement",
+    "title": "Measurement",
+    "subtitle": "Convert units, calculate time and read scales accurately",
+    "difficulty": "foundation",
+    "color": "violet",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>Measurement questions test your ability to work with <strong>units, time and scales</strong>. You need to know:</p><ul><li><strong>Length</strong>: 10 mm = 1 cm, 100 cm = 1 m, 1000 m = 1 km</li><li><strong>Mass</strong>: 1000 g = 1 kg, 1000 kg = 1 tonne</li><li><strong>Capacity</strong>: 1000 ml = 1 litre</li><li><strong>Time</strong>: 60 seconds = 1 minute, 60 minutes = 1 hour, 24 hours = 1 day</li><li><strong>12-hour and 24-hour clocks</strong>: 1:30 pm = 13:30</li><li><strong>Reading scales</strong>: work out what each small division represents on a scale, thermometer or measuring jug</li></ul><p>The key skill is knowing which way to convert: to go from a bigger unit to a smaller unit, <strong>multiply</strong>; to go from smaller to bigger, <strong>divide</strong>.</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart LR\n    A[\"km\"] -- \"x 1000\" --> B[\"m\"]\n    B -- \"x 100\" --> C[\"cm\"]\n    C -- \"x 10\" --> D[\"mm\"]\n    D -- \"/ 10\" --> C\n    C -- \"/ 100\" --> B\n    B -- \"/ 1000\" --> A"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: Steps to Solve",
+        "steps": [
+          { "label": "Identify the units", "detail": "What units are you starting with and what units does the question want the answer in?", "icon": "eye" },
+          { "label": "Recall the conversion factor", "detail": "How many of the small unit fit into the big unit? For example, 1 km = 1000 m, 1 kg = 1000 g, 1 hour = 60 minutes.", "icon": "brain" },
+          { "label": "Multiply or divide", "detail": "Going from big to small: multiply. Going from small to big: divide. For example, 2.5 km to metres: 2.5 x 1000 = 2500 m.", "icon": "pencil" },
+          { "label": "For time calculations, watch the 60s", "detail": "Time does not work in 10s. When adding times, remember that 60 minutes = 1 hour. If you get 75 minutes, that is 1 hour 15 minutes.", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "A film starts at 14:45 and lasts 1 hour and 35 minutes. What time does it finish?",
+          "options": ["16:20", "15:80", "16:10", "15:20", "16:15"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "Start time is 14:45. Add 1 hour first: 14:45 + 1 hour = 15:45.", "highlight": "operation" },
+          { "step": 2, "text": "Now add 35 minutes: 15:45 + 35 minutes. The minutes become 45 + 35 = 80 minutes.", "highlight": "operation" },
+          { "step": 3, "text": "80 minutes is more than 60, so convert: 80 - 60 = 20 minutes and add 1 more hour.", "highlight": "operation" },
+          { "step": 4, "text": "15 hours + 1 hour = 16 hours. The time is 16:20.", "highlight": "answer" }
+        ],
+        "answer": "16:20"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Treating time like decimals (writing 15:80 instead of 16:20)", "fix": "There are 60 minutes in an hour, not 100. Whenever your minutes go above 59, subtract 60 and add 1 to the hours." },
+          { "trap": "Converting the wrong way (multiplying instead of dividing)", "fix": "Think about whether your answer should be a bigger or smaller number. 3000 g in kg should be a SMALLER number (3 kg), so you divide." },
+          { "trap": "Misreading scales by not working out the value of each division", "fix": "Count the number of small divisions between two labelled marks. Divide the difference by the number of divisions. For example, 5 divisions between 0 and 100 means each division is 20." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "data_handling",
+    "title": "Data Handling",
+    "subtitle": "Interpret charts, tables and calculate averages and probability",
+    "difficulty": "foundation",
+    "color": "purple",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>Data handling questions test your ability to read and interpret information presented in <strong>charts, graphs and tables</strong>. You also need to understand:</p><ul><li><strong>Bar charts</strong> - read the height of each bar against the scale</li><li><strong>Pie charts</strong> - each section shows a proportion of the total</li><li><strong>Line graphs</strong> - show how data changes over time</li><li><strong>Tables and tally charts</strong> - organise data in rows and columns</li><li><strong>Mean</strong> - add all the values and divide by how many there are</li><li><strong>Median</strong> - the middle value when put in order</li><li><strong>Mode</strong> - the most common value</li><li><strong>Range</strong> - the difference between the highest and lowest values</li><li><strong>Probability</strong> - how likely something is to happen, written as a fraction</li></ul>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart TD\n    A[\"Data Handling\"] --> B[\"Reading Data\"]\n    A --> C[\"Averages\"]\n    A --> D[\"Probability\"]\n    B --> B1[\"Bar charts\"]\n    B --> B2[\"Pie charts\"]\n    B --> B3[\"Line graphs\"]\n    B --> B4[\"Tables\"]\n    C --> C1[\"Mean = total / count\"]\n    C --> C2[\"Median = middle value\"]\n    C --> C3[\"Mode = most common\"]\n    D --> D1[\"Favourable / Total\"]"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: Steps to Solve",
+        "steps": [
+          { "label": "Read the title and labels", "detail": "What does the chart or table show? Check the axis labels, the scale, and any key or legend.", "icon": "eye" },
+          { "label": "Extract the data you need", "detail": "Find the specific values the question asks about. Be careful to read the scale accurately - check what each grid line represents.", "icon": "search" },
+          { "label": "Do the calculation", "detail": "For mean: add all values and divide by how many there are. For range: subtract the smallest from the largest. For probability: count favourable outcomes divided by total outcomes.", "icon": "pencil" },
+          { "label": "Re-read the question", "detail": "Make sure you have answered exactly what was asked. The question might ask for the difference, the total, or the most popular category.", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "Five children scored 6, 8, 4, 7 and 10 in a test. What is the mean score?",
+          "options": ["7", "6", "8", "5", "35"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "Add all the scores together: 6 + 8 + 4 + 7 + 10 = 35.", "highlight": "operation" },
+          { "step": 2, "text": "Count how many values there are: 5 children.", "highlight": "operation" },
+          { "step": 3, "text": "Divide the total by the count: 35 / 5 = 7.", "highlight": "operation" },
+          { "step": 4, "text": "The mean score is 7. Check: the mean should be between the lowest (4) and highest (10), and 7 is in that range.", "highlight": "answer" }
+        ],
+        "answer": "7"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Confusing mean, median and mode", "fix": "Mean = add up and divide. Median = put in order, find the middle. Mode = the one that appears most often. Remember: MODE = MOST." },
+          { "trap": "Misreading the scale on a bar chart", "fix": "Do not assume each grid line is worth 1. Check two labelled marks and work out the value of each small division. For example, if the scale goes 0, 5, 10 with 5 divisions, each line is worth 1." },
+          { "trap": "Giving the total instead of the mean", "fix": "The mean requires TWO steps: first add up the values, then divide by how many. If the question asks for the mean and your answer seems very large, you may have forgotten to divide." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "word_problems",
+    "title": "Word Problems",
+    "subtitle": "Solve multi-step real-world problems using multiple operations",
+    "difficulty": "foundation",
+    "color": "rose",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>Word problems give you a real-life scenario and ask you to work out the answer using maths. These are often the trickiest questions because:</p><ul><li>You have to <strong>figure out which operations to use</strong> - the question will not say \"multiply\" or \"divide\"</li><li>They often need <strong>more than one step</strong> to solve</li><li>There may be <strong>extra information</strong> you do not need (a distraction)</li><li>You need to <strong>understand the context</strong> - money, time, shopping, sharing, etc.</li></ul><p>The key is to break the problem into small steps and tackle each one separately.</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart TD\n    A[\"Read the Problem\"] --> B[\"What do I need to find?\"]\n    B --> C[\"What information is given?\"]\n    C --> D[\"What operations do I need?\"]\n    D --> E[\"Step 1: First calculation\"]\n    E --> F[\"Step 2: Next calculation\"]\n    F --> G[\"Final Answer\"]\n    G --> H[\"Does my answer make sense?\"]"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: Steps to Solve",
+        "steps": [
+          { "label": "Read the whole question twice", "detail": "First read to understand the story. Second read to find the key numbers and what you are asked to find.", "icon": "eye" },
+          { "label": "Identify the operations", "detail": "Look for clue words: 'each' or 'per' often means multiply or divide. 'Left over' or 'remaining' means subtract. 'Total' or 'altogether' means add.", "icon": "brain" },
+          { "label": "Work step by step", "detail": "Break the problem into small calculations. Write down each step clearly. Use the answer from one step in the next.", "icon": "pencil" },
+          { "label": "Check it makes sense", "detail": "Does your answer seem reasonable for the context? If a child's pocket money is 50,000 pounds, something has gone wrong.", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "Tom buys 3 books at 4.50 pounds each and pays with a 20 pound note. How much change does he receive?",
+          "options": ["6.50 pounds", "5.50 pounds", "7.50 pounds", "13.50 pounds", "15.50 pounds"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "Find the total cost: 3 books at 4.50 pounds each = 3 x 4.50 = 13.50 pounds.", "highlight": "operation" },
+          { "step": 2, "text": "Find the change: 20.00 - 13.50 = 6.50 pounds.", "highlight": "operation" },
+          { "step": 3, "text": "Check: 13.50 + 6.50 = 20.00 pounds. This matches the amount Tom paid, so the answer is correct.", "highlight": "answer" }
+        ],
+        "answer": "6.50 pounds"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Only completing one step of a multi-step problem", "fix": "Re-read the question after each step. Have you actually answered what was asked? If it says 'how much change', you need to subtract the total cost from the amount paid - finding the total cost alone is not enough." },
+          { "trap": "Using the wrong operation because of misleading clue words", "fix": "The word 'more' does not always mean add. 'Tom has 3 times more than Sam' means multiply. Think about what the problem is really saying." },
+          { "trap": "Including information you do not need", "fix": "Some word problems include extra numbers to distract you. Underline only the numbers and facts that are relevant to what you need to find." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "algebra",
+    "title": "Algebra",
+    "subtitle": "Solve equations, find patterns in sequences and use function machines",
+    "difficulty": "foundation",
+    "color": "amber",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>Algebra questions use <strong>letters or symbols to represent unknown numbers</strong>. At the 11+ level, you need to understand:</p><ul><li><strong>Simple equations</strong> - find the value of the letter: if 3n + 5 = 20, what is n?</li><li><strong>Sequences</strong> - find the pattern and work out the next number or a missing number: 3, 7, 11, 15, ...</li><li><strong>Function machines</strong> - a number goes in, operations are applied, and a result comes out</li><li><strong>Substitution</strong> - replace a letter with a number and calculate: if a = 4, what is 3a + 2?</li><li><strong>Formulae</strong> - using a rule to calculate a value</li></ul><p>The letter in an equation is just a number you have not found yet. Your job is to work out what it must be.</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart LR\n    A[\"Input: 5\"] --> B[\"x 3\"]\n    B --> C[\"+ 2\"]\n    C --> D[\"Output: 17\"]\n    E[\"Function Machine\"] --> B\n    E --> C"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: Steps to Solve",
+        "steps": [
+          { "label": "For equations: use inverse operations", "detail": "To find n in 3n + 5 = 20: first undo the +5 by subtracting 5 from both sides (3n = 15), then undo the x3 by dividing both sides by 3 (n = 5).", "icon": "brain" },
+          { "label": "For sequences: find the rule", "detail": "Look at the difference between consecutive terms. If the difference is constant (e.g. always +4), the rule is 'add 4'. If the differences change, look for a pattern in the differences.", "icon": "search" },
+          { "label": "For substitution: replace and calculate", "detail": "Replace every letter with its value and use BODMAS to calculate. Remember that 3a means 3 x a.", "icon": "pencil" },
+          { "label": "Check by substituting back", "detail": "Put your answer back into the original equation or function machine to check it works.", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "Find the next number in the sequence: 2, 6, 12, 20, 30, ...",
+          "options": ["42", "40", "36", "38", "44"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "Find the differences between consecutive terms: 6-2=4, 12-6=6, 20-12=8, 30-20=10.", "highlight": "operation" },
+          { "step": 2, "text": "The differences are 4, 6, 8, 10 - they increase by 2 each time.", "highlight": "operation" },
+          { "step": 3, "text": "The next difference will be 10 + 2 = 12.", "highlight": "operation" },
+          { "step": 4, "text": "Add 12 to the last term: 30 + 12 = 42. The next number is 42.", "highlight": "answer" }
+        ],
+        "answer": "42"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Forgetting that 3a means 3 times a", "fix": "In algebra, when a number is written next to a letter with no sign, it means multiply. So 3a = 3 x a, and 5b = 5 x b." },
+          { "trap": "Only looking at the first difference in a sequence", "fix": "If the differences between terms are not constant, look at the differences of the differences. Sequences like 1, 4, 9, 16 have differences of 3, 5, 7 - which increase by 2 each time." },
+          { "trap": "Undoing operations in the wrong order when solving equations", "fix": "Always undo operations in the reverse order of BODMAS. In 3n + 5 = 20, the +5 was done last, so undo it first (subtract 5), then undo the x3 (divide by 3)." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "ratio",
+    "title": "Ratio & Proportion",
+    "subtitle": "Share amounts, scale recipes and work with ratios",
+    "difficulty": "foundation",
+    "color": "orange",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>Ratio and proportion questions test your ability to <strong>compare quantities and share amounts fairly</strong>. Key ideas include:</p><ul><li><strong>Ratio</strong> - compares two or more quantities, written as 2:3 (said as '2 to 3')</li><li><strong>Sharing in a ratio</strong> - dividing an amount into parts according to a ratio</li><li><strong>Simplifying ratios</strong> - divide all parts by the same number, like simplifying fractions (6:9 simplifies to 2:3)</li><li><strong>Proportion</strong> - if you know one quantity, you can find the other by scaling up or down</li><li><strong>Scaling recipes</strong> - multiplying or dividing all ingredients by the same factor</li></ul><p>The most important idea: in a ratio, you first find the <strong>total number of parts</strong>, then find the <strong>value of one part</strong>, then find each share.</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart TD\n    A[\"Sharing in a Ratio\"] --> B[\"1. Add the parts\\n e.g. 2:3 = 5 parts\"]\n    B --> C[\"2. Find one part\\n Total / 5\"]\n    C --> D[\"3. Find each share\"]\n    D --> D1[\"First share: 1 part x 2\"]\n    D --> D2[\"Second share: 1 part x 3\"]\n    D1 --> E[\"4. Check: shares add up to total\"]"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: Steps to Solve",
+        "steps": [
+          { "label": "Find the total number of parts", "detail": "Add all the numbers in the ratio together. For a ratio of 3:2, the total is 3 + 2 = 5 parts.", "icon": "puzzle" },
+          { "label": "Find the value of one part", "detail": "Divide the total amount by the total number of parts. For example, sharing 40 in the ratio 3:2: one part = 40 / 5 = 8.", "icon": "brain" },
+          { "label": "Calculate each share", "detail": "Multiply the value of one part by each number in the ratio. First share = 8 x 3 = 24, second share = 8 x 2 = 16.", "icon": "pencil" },
+          { "label": "Check your answer", "detail": "Add all the shares together - they must equal the original total. 24 + 16 = 40. Correct.", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "Amy and Ben share 56 sweets in the ratio 3:5. How many sweets does Ben get?",
+          "options": ["35", "21", "28", "40", "24"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "Find the total number of parts: 3 + 5 = 8 parts.", "highlight": "operation" },
+          { "step": 2, "text": "Find the value of one part: 56 / 8 = 7 sweets per part.", "highlight": "operation" },
+          { "step": 3, "text": "Ben's share is 5 parts: 5 x 7 = 35 sweets.", "highlight": "operation" },
+          { "step": 4, "text": "Check: Amy gets 3 x 7 = 21. Amy + Ben = 21 + 35 = 56. This matches the total, so Ben gets 35 sweets.", "highlight": "answer" }
+        ],
+        "answer": "35"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Dividing by one of the ratio numbers instead of the total parts", "fix": "For a ratio of 3:5, you divide by 3+5=8, NOT by 3 or by 5. The total of all the parts tells you how many equal portions the amount is split into." },
+          { "trap": "Giving the wrong person's share", "fix": "Read carefully to check which person's share the question asks for. In a ratio of 3:5, Amy gets the 3 parts and Ben gets the 5 parts - make sure you calculate the right one." },
+          { "trap": "Not simplifying the ratio when asked", "fix": "Simplify a ratio by dividing all parts by their highest common factor, just like simplifying a fraction. 12:8 simplifies to 3:2 (divide both by 4)." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  }
+]

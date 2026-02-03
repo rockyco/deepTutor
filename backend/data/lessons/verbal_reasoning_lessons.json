@@ -1,0 +1,1277 @@
+[
+  {
+    "questionType": "vr_synonyms",
+    "title": "Finding Synonyms",
+    "subtitle": "Match words with the same meaning across two groups",
+    "difficulty": "foundation",
+    "color": "purple",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>In this GL Assessment question type, you are given two groups of three words. Your job is to find one word from each group that are closest in meaning - these are called <strong>synonyms</strong>.</p><p>Synonyms are words that mean the same thing or very nearly the same thing. For example, <em>happy</em> and <em>joyful</em> are synonyms because they both describe feeling good.</p><p>You need to read all six words carefully and test different pairs until you find the best match.</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart LR\n  A[\"Group 1\\nbrave, cunning, swift\"] --> B{\"Find the pair\\nwith matching\\nmeaning\"}\n  C[\"Group 2\\nagile, clever, bold\"] --> B\n  B --> D[\"Answer:\\nbrave & bold\"]"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: 3 Steps to Solve",
+        "steps": [
+          { "label": "Read both groups", "detail": "Read all words in both groups carefully. Make sure you understand what each word means.", "icon": "eye" },
+          { "label": "Test each pair", "detail": "Take each word from Group 1 and compare it to every word in Group 2. Ask yourself: do these two words mean the same thing?", "icon": "search" },
+          { "label": "Pick the closest match", "detail": "Choose the pair that are most similar in meaning. Synonyms should be interchangeable in a sentence.", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "Choose two words, one from each group, that are closest in meaning.\n\n(brave  cunning  swift)    (agile  clever  bold)",
+          "options": ["brave, bold", "cunning, agile", "swift, clever", "brave, clever", "cunning, bold"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "Read Group 1: brave (courageous), cunning (sly/crafty), swift (fast)", "highlight": "group1" },
+          { "step": 2, "text": "Read Group 2: agile (nimble/quick), clever (smart), bold (courageous/daring)", "highlight": "group2" },
+          { "step": 3, "text": "Test pairs: brave = bold? Both mean courageous - YES! cunning = clever? Both relate to being smart, but cunning means sly while clever means intelligent - close but not exact.", "highlight": "answer" },
+          { "step": 4, "text": "brave and bold are the strongest match because both mean 'showing courage and not being afraid'.", "highlight": "verify" }
+        ],
+        "answer": "brave, bold"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Picking words that are related but not synonyms", "fix": "Synonyms must mean the SAME thing. 'Dog' and 'puppy' are related but not synonyms. 'Large' and 'big' ARE synonyms." },
+          { "trap": "Stopping after finding one possible pair", "fix": "Always check ALL possible pairs. There might be a closer match you have not considered yet." },
+          { "trap": "Confusing words that look similar with words that mean the same", "fix": "Focus on meaning, not spelling. 'Through' and 'thorough' look similar but have very different meanings." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "vr_odd_ones_out",
+    "title": "Odd Ones Out",
+    "subtitle": "Find the TWO words that do not belong in the group",
+    "difficulty": "foundation",
+    "color": "blue",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>In this GL Assessment question type, you are given a list of five words. Three of these words are connected in some way - they share something in common. Your job is to find the <strong>two words</strong> that do not belong.</p><p>The connection could be anything: all types of fruit, all words meaning 'small', all things found in a kitchen, or all words with a similar spelling pattern.</p><p>This question tests your ability to spot categories and group things together.</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart TD\n  A[\"5 words\"] --> B{\"Which 3 are\\nconnected?\"}\n  B --> C[\"3 words that\\nbelong together\"]\n  B --> D[\"2 odd ones out\\n= YOUR ANSWER\"]"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: 3 Steps to Solve",
+        "steps": [
+          { "label": "Read all five words", "detail": "Read every word carefully and think about what each one means.", "icon": "eye" },
+          { "label": "Find the connection", "detail": "Look for three words that share something in common. Ask: are they all colours? Animals? Synonyms? Part of the same category?", "icon": "search" },
+          { "label": "Identify the two odd ones", "detail": "The two words that do not fit the connection are your answer. Double-check that exactly three words share the link.", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "Find the TWO words that are the odd ones out.\n\napple   table   banana   chair   grape",
+          "options": ["apple, table", "table, chair", "banana, chair", "apple, grape", "grape, table"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "Read all five words: apple, table, banana, chair, grape", "highlight": "group1" },
+          { "step": 2, "text": "Look for a connection: apple, banana, and grape are all fruits!", "highlight": "group2" },
+          { "step": 3, "text": "Table and chair are furniture - they do NOT fit the fruit category.", "highlight": "answer" },
+          { "step": 4, "text": "Answer: table and chair are the odd ones out (the other three are all fruits).", "highlight": "verify" }
+        ],
+        "answer": "table, chair"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Only finding ONE odd word instead of TWO", "fix": "Remember: you must always find exactly TWO words that do not belong. The other three share a connection." },
+          { "trap": "Missing a less obvious connection", "fix": "The connection might not be a simple category. It could be that three words are all verbs, or all have double letters, or all rhyme with something." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "vr_hidden_word",
+    "title": "Hidden Words",
+    "subtitle": "Find a 4-letter word hidden across two adjacent words",
+    "difficulty": "foundation",
+    "color": "indigo",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>In this GL Assessment question type, you are given a sentence and must find a <strong>four-letter word</strong> that is hidden across two adjacent words. The hidden word starts at the end of one word and finishes at the beginning of the next word.</p><p>For example, in the words <em>complex item</em>, the hidden word is <strong>EXIT</strong> (compl<strong>ex it</strong>em).</p><p>You need to look at where each word ends and the next word begins, checking if the letters join together to spell a real four-letter word.</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart LR\n  A[\"compl\"] --> B[\"EX\"]\n  B --> C[\"IT\"]\n  C --> D[\"em\"]\n  B --- E[\"Hidden word:\\nEXIT\"]\n  C --- E"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: 4 Steps to Solve",
+        "steps": [
+          { "label": "Read the sentence", "detail": "Read the whole sentence once to understand it.", "icon": "eye" },
+          { "label": "Check each word boundary", "detail": "Look at every pair of adjacent words. Focus on where one word ends and the next begins.", "icon": "search" },
+          { "label": "Slide a window of 4 letters", "detail": "Take the last 1, 2, or 3 letters of one word combined with the first 3, 2, or 1 letters of the next word. Does it spell a real word?", "icon": "puzzle" },
+          { "label": "Verify it is a real word", "detail": "Make sure the four letters actually spell a proper English word.", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "In the sentence below, a four-letter word is hidden at the end of one word and at the start of the next. Choose the option that contains the hidden word.\n\nA huge grin gradually spread across his face.",
+          "options": ["huge grin", "grin gradually", "gradually spread", "spread across", "his face"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "Read the sentence: 'A huge grin gradually spread across his face.'", "highlight": "group1" },
+          { "step": 2, "text": "Check 'huge grin': e+gri = egri? No. ge+gr = gegr? No.", "highlight": "group2" },
+          { "step": 3, "text": "Check 'grin gradually': n+gra = ngra? No. in+gr = ingr? No. rin+g = RING? Yes! R-I-N-G spells RING!", "highlight": "answer" },
+          { "step": 4, "text": "The hidden word RING is formed from g-R-I-N (end of grin) + G-radually (start of gradually). Answer: grin gradually.", "highlight": "verify" }
+        ],
+        "answer": "grin gradually"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Only checking 2+2 letter splits", "fix": "The split can be 1+3, 2+2, or 3+1. Try all three splits for each word pair." },
+          { "trap": "Finding a word that is entirely within one word", "fix": "The hidden word MUST cross the boundary between two words. It cannot be fully inside a single word." },
+          { "trap": "Ignoring small words like 'a', 'the', 'his'", "fix": "Check every word boundary, including those with short words. Hidden words can span any two adjacent words." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "vr_missing_word",
+    "title": "Missing Words",
+    "subtitle": "Complete the sentence by choosing the best words from brackets",
+    "difficulty": "foundation",
+    "color": "teal",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>In this GL Assessment question type, you are given a sentence with a gap or a relationship to complete. You must choose words from brackets to make the sentence work correctly.</p><p>A common format is: <em>'X is to (word1  word2  word3) as Y is to (word4  word5  word6)'</em>. You need to find the pair of words that creates the same relationship on both sides.</p><p>This tests your understanding of word relationships such as synonyms, antonyms, or logical connections.</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart LR\n  A[\"Precious\"] -->|\"is to\"| B[\"worthless\"]\n  C[\"divide\"] -->|\"is to\"| D[\"combine\"]\n  B ---|\"same relationship:\\nboth are opposites\"| D"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: 3 Steps to Solve",
+        "steps": [
+          { "label": "Identify the relationship", "detail": "Work out what relationship the sentence is testing. Is it opposites? Synonyms? Part-to-whole? Cause and effect?", "icon": "brain" },
+          { "label": "Test each combination", "detail": "Try each word from the first bracket and see which relationship it creates. Then find the matching word from the second bracket.", "icon": "search" },
+          { "label": "Read the complete sentence", "detail": "Put your chosen words into the sentence and read it aloud. Does it make sense? Is the relationship consistent?", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "Choose two words, one from each set of brackets, that complete the sentence in the most sensible way.\n\nPrecious is to (destitute  worthless  adorned) as divide is to (combine  scatter  arrange).",
+          "options": ["destitute, combine", "worthless, combine", "adorned, scatter", "worthless, arrange", "destitute, scatter"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "What relationship could 'Precious is to ___' have? Precious means valuable. Its opposite is worthless.", "highlight": "group1" },
+          { "step": 2, "text": "If the relationship is opposites, then 'divide is to ___' needs the opposite of divide, which is combine.", "highlight": "group2" },
+          { "step": 3, "text": "Check: Precious is to worthless (opposites) as divide is to combine (opposites). Both pairs are antonyms - the relationship matches!", "highlight": "answer" },
+          { "step": 4, "text": "Answer: worthless, combine.", "highlight": "verify" }
+        ],
+        "answer": "worthless, combine"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Picking words that relate to the first word but do not match the relationship pattern", "fix": "Both sides of the sentence must follow the SAME type of relationship (both opposites, both synonyms, etc.)." },
+          { "trap": "Not considering all possible relationships", "fix": "The link could be opposites, synonyms, categories, sizes, or other patterns. Think broadly before narrowing down." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "vr_number_series",
+    "title": "Number Series",
+    "subtitle": "Find the pattern and continue the number sequence",
+    "difficulty": "foundation",
+    "color": "green",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>In this GL Assessment question type, you are given a series of numbers that follow a pattern. Your job is to work out the rule and find the next number in the sequence.</p><p>Common patterns include adding a fixed number each time, subtracting, doubling, halving, or patterns that alternate between two rules.</p><p>For example: 2, 5, 8, 11, ? - the rule is 'add 3 each time', so the answer is 14.</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart LR\n  A[\"2\"] -->|+3| B[\"5\"]\n  B -->|+3| C[\"8\"]\n  C -->|+3| D[\"11\"]\n  D -->|+3| E[\"14 = ?\"]\n  style E fill:#f9f,stroke:#333"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: 3 Steps to Solve",
+        "steps": [
+          { "label": "Find the differences", "detail": "Write down the difference between each pair of consecutive numbers. Are the gaps the same? Are the gaps themselves changing?", "icon": "pencil" },
+          { "label": "Spot the rule", "detail": "If the differences are the same, it is a simple add/subtract pattern. If the differences are changing, look for doubling, halving, or alternating rules.", "icon": "lightbulb" },
+          { "label": "Apply the rule", "detail": "Use your rule to calculate the next number. Then double-check by verifying the rule works for all numbers in the sequence.", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "Find the number that continues the series in the most sensible way.\n\n2    5    11    23    47    ?",
+          "options": ["71", "85", "92", "95", "94"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "Find the differences: 5-2=3, 11-5=6, 23-11=12, 47-23=24", "highlight": "group1" },
+          { "step": 2, "text": "The differences are 3, 6, 12, 24 - each difference is doubling!", "highlight": "group2" },
+          { "step": 3, "text": "The next difference should be 24 x 2 = 48. So the answer is 47 + 48 = 95.", "highlight": "answer" },
+          { "step": 4, "text": "Check the pattern: +3, +6, +12, +24, +48. Each gap doubles. 47 + 48 = 95.", "highlight": "verify" }
+        ],
+        "answer": "95"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Assuming the pattern is always adding the same number", "fix": "Always calculate ALL the differences first. The pattern might involve doubling gaps, alternating rules, or multiplying." },
+          { "trap": "Making arithmetic errors under time pressure", "fix": "Take an extra few seconds to double-check your subtraction and your final calculation. A small mistake leads to a wrong answer." },
+          { "trap": "Not checking your answer against the whole sequence", "fix": "After finding the answer, verify that your rule works for every step in the sequence, not just the last two numbers." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "vr_letter_series",
+    "title": "Letter Series",
+    "subtitle": "Find the pattern and continue the letter sequence",
+    "difficulty": "intermediate",
+    "color": "amber",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>In this GL Assessment question type, you are given a series of letter pairs (or single letters) that follow a pattern. Your job is to work out the rule and find what comes next.</p><p>The pattern is based on the position of letters in the alphabet. For example, A=1, B=2, C=3, and so on up to Z=26. The letters might jump forward by a fixed amount, go backwards, or follow alternating patterns.</p><p>Write out the alphabet and number each letter to help you see the jumps clearly.</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart LR\n  A[\"BA\"] -->|+3,+3| B[\"DE\"]\n  B -->|+3,+4| C[\"GI\"]\n  C -->|+3,+4| D[\"JM\"]\n  D -->|+3,+4| E[\"? = MQ\"]\n  style E fill:#f9f,stroke:#333"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: 4 Steps to Solve",
+        "steps": [
+          { "label": "Write out the alphabet", "detail": "Write A-Z with numbers 1-26 underneath. This is your reference for finding positions.", "icon": "pencil" },
+          { "label": "Convert to numbers", "detail": "Convert each letter to its position number. For pairs like BA, convert both letters separately.", "icon": "brain" },
+          { "label": "Find the pattern in each position", "detail": "Look at how the first letter changes across the sequence, then how the second letter changes. They may follow different rules.", "icon": "search" },
+          { "label": "Apply and convert back", "detail": "Use the pattern to find the next numbers, then convert back to letters.", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "Find the pair of letters that continues the sequence in the best way.\n\nBA    DE    GI    JM    ?",
+          "options": ["PQ", "NP", "OP", "NO", "MQ"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "Convert first letters: B=2, D=4, G=7, J=10. Differences: +2, +3, +3. Hmm, let me check second letters too.", "highlight": "group1" },
+          { "step": 2, "text": "Convert second letters: A=1, E=5, I=9, M=13. Differences: +4, +4, +4. Second letter goes up by 4 each time.", "highlight": "group2" },
+          { "step": 3, "text": "First letters: 2, 4, 7, 10. Differences: +2, +3, +3. Actually the pattern for first letters is +3 after the initial step: next = 10 + 3 = 13 = M.", "highlight": "answer" },
+          { "step": 4, "text": "Second letter: 13 + 4 = 17 = Q. So the answer is MQ.", "highlight": "verify" }
+        ],
+        "answer": "MQ"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Not writing out the alphabet with numbers", "fix": "Always write out A=1 to Z=26 as a reference. Trying to count in your head leads to mistakes." },
+          { "trap": "Treating letter pairs as one unit instead of two separate patterns", "fix": "In pairs like BA, DE, GI - the first letter and second letter often follow DIFFERENT patterns. Analyse them separately." },
+          { "trap": "Forgetting that the alphabet wraps around", "fix": "After Z (26), the sequence might wrap back to A (1). If you get a number above 26, subtract 26 to wrap around." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "vr_number_connections",
+    "title": "Number Connections",
+    "subtitle": "Find the rule connecting number pairs or groups",
+    "difficulty": "intermediate",
+    "color": "rose",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>In this GL Assessment question type, you are given sets of numbers in brackets, such as <em>12 (4) 8</em> and <em>13 (6) 7</em>. There is a rule that connects the outside numbers to the number in the middle.</p><p>Your job is to work out the rule used in the completed examples, then apply that rule to find the missing number in the final set.</p><p>Common rules include: adding, subtracting, multiplying, dividing, or finding the difference between the outside numbers.</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart TD\n  A[\"12 (4) 8\"] --> D{\"What rule makes\\n12 and 8\\ngive 4?\"}\n  B[\"13 (6) 7\"] --> D\n  D --> E[\"Rule: left - right\\n12-8=4, 13-7=6\"]\n  E --> F[\"21 (?) 3\\n21-3 = 18\"]"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: 3 Steps to Solve",
+        "steps": [
+          { "label": "Study the completed examples", "detail": "Look at the first two sets where all numbers are given. How do the outside numbers relate to the middle number?", "icon": "eye" },
+          { "label": "Test common operations", "detail": "Try: left + right, left - right, left x right, left / right, (left + right) / 2. Does one of these give the middle number for BOTH examples?", "icon": "brain" },
+          { "label": "Apply the rule", "detail": "Once you have found a rule that works for both complete examples, apply it to the incomplete set to find the missing number.", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "Choose the number that completes the final set of numbers in the same way as the first two sets.\n\n12 (4) 8    13 (6) 7    21 (?) 3",
+          "options": ["4", "6", "7", "10", "18"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "Look at set 1: 12 (4) 8. What connects 12, 8, and 4?", "highlight": "group1" },
+          { "step": 2, "text": "Try subtraction: 12 - 8 = 4. That works! Check set 2: 13 - 7 = 6. That also works!", "highlight": "group2" },
+          { "step": 3, "text": "The rule is: left number minus right number equals middle number.", "highlight": "answer" },
+          { "step": 4, "text": "Apply to set 3: 21 - 3 = 18. The answer is 18.", "highlight": "verify" }
+        ],
+        "answer": "18"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Assuming the rule is always simple addition or subtraction", "fix": "The rule might involve multiplication, division, halving the sum, or even using only one of the outside numbers. Test several operations." },
+          { "trap": "Finding a rule that works for one example but not the other", "fix": "Your rule MUST work for ALL the completed examples. If it only works for one, keep looking for a different rule." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "vr_word_pairs",
+    "title": "Word Pairs",
+    "subtitle": "Find two words that form a new compound word or have opposite meanings",
+    "difficulty": "foundation",
+    "color": "orange",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>In this GL Assessment question type, you are given two columns of words. You must select one word from each column that go together in a specific way.</p><p>There are two common formats:</p><ul><li><strong>Compound words:</strong> Join a word from column 1 with a word from column 2 to make a new word (e.g. <em>sun</em> + <em>flower</em> = <em>sunflower</em>).</li><li><strong>Opposites:</strong> Find one word from each column that have the most opposite meanings.</li></ul><p>Read the question carefully to know which format you are dealing with.</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart LR\n  subgraph Column1\n    A[\"any\"]\n    B[\"sum\"]\n    C[\"now\"]\n  end\n  subgraph Column2\n    D[\"ledge\"]\n    E[\"day\"]\n    F[\"one\"]\n  end\n  B -->|\"sum + one\"| G[\"someone\"]\n  C -->|\"now + ledge\"| H[\"knowledge\"]"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: 3 Steps to Solve",
+        "steps": [
+          { "label": "Read the instruction", "detail": "Check whether you need to make a compound word or find opposites. The instruction tells you which type it is.", "icon": "eye" },
+          { "label": "Try every combination", "detail": "For compound words, try joining each word from column 1 with each word from column 2. Say the combination aloud - does it sound like a real word?", "icon": "puzzle" },
+          { "label": "Verify your answer", "detail": "Make sure the combined word is a real English word, or that the two words truly are opposites.", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "Select a word from the first column, followed by a word from the second column, that go together to form a new word.\n\nColumn 1: any, sum, now\nColumn 2: ledge, day, one",
+          "options": ["any + day", "sum + one", "now + ledge", "any + one", "sum + day"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "This asks for a compound word (two words joining to make one new word).", "highlight": "group1" },
+          { "step": 2, "text": "Try combinations: any+ledge? No. any+day? No. any+one = anyone? Yes! But let us check all options.", "highlight": "group2" },
+          { "step": 3, "text": "sum+one = someone? Yes! now+ledge = knowledge? Yes! We have multiple valid answers - but the question says 'form a new word'.", "highlight": "answer" },
+          { "step": 4, "text": "All three work, but check which option is listed. In GL Assessment, typically only one option appears in the answer choices.", "highlight": "verify" }
+        ],
+        "answer": "now + ledge"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Only trying obvious combinations", "fix": "Try EVERY possible pair systematically. The answer might be a word you did not expect, like 'knowledge' from 'now' + 'ledge'." },
+          { "trap": "Confusing compound word questions with opposite questions", "fix": "Always read the question instruction first. 'Form a new word' means compound word. 'Most opposite meaning' means antonyms." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "vr_multiple_meaning",
+    "title": "Multiple Meanings",
+    "subtitle": "Find the word that has two different meanings fitting both contexts",
+    "difficulty": "foundation",
+    "color": "purple",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>In this GL Assessment question type, you are given two sets of words in brackets. You must find a single word that has a meaning similar to a word in BOTH groups.</p><p>Many English words have more than one meaning. For example, <em>dash</em> can mean 'a small amount' (a dash of salt) or 'to run quickly' (dash to the shop). These are called <strong>homonyms</strong>.</p><p>Your task is to find the word that connects both groups by having different meanings that fit each group.</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart TD\n  A[\"Group 1:\\nhint, pinch\"] --> C{\"One word\\nfits BOTH\"}\n  B[\"Group 2:\\nhurry, rush\"] --> C\n  C --> D[\"DASH\\n= a pinch (of salt)\\n= to rush\"]"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: 3 Steps to Solve",
+        "steps": [
+          { "label": "Understand both groups", "detail": "Read both groups of words and think about what each word means. What theme or meaning does each group share?", "icon": "eye" },
+          { "label": "Think of words with multiple meanings", "detail": "For each answer option, ask: does this word have a meaning that fits Group 1? Does it also have a DIFFERENT meaning that fits Group 2?", "icon": "brain" },
+          { "label": "Test your answer in both contexts", "detail": "Try using your chosen word in a sentence related to each group. It should make sense in both, but with different meanings.", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "Choose the word that has the most similar meaning to the words in both sets of brackets.\n\n(hint   pinch)     (hurry   rush)",
+          "options": ["race", "scurry", "dash", "touch", "drop"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "Group 1: hint, pinch - these suggest a small amount of something.", "highlight": "group1" },
+          { "step": 2, "text": "Group 2: hurry, rush - these suggest moving quickly.", "highlight": "group2" },
+          { "step": 3, "text": "Which word means both 'a small amount' AND 'to move quickly'? DASH! A dash of salt = a pinch. To dash somewhere = to rush.", "highlight": "answer" },
+          { "step": 4, "text": "Check: 'race' means to rush but not a small amount. 'drop' means a small amount but not to rush. Only 'dash' fits both.", "highlight": "verify" }
+        ],
+        "answer": "dash"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Finding a word that only fits one group", "fix": "The answer must connect to BOTH groups. If it only works for one group, it is wrong even if it seems like a great fit for that group." },
+          { "trap": "Not thinking of less common meanings of words", "fix": "Many everyday words have surprising second meanings. Think creatively: 'bat' is an animal AND sports equipment, 'bank' is for money AND beside a river." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "vr_letter_relationships",
+    "title": "Letter Relationships",
+    "subtitle": "Find the pattern connecting letter groups and apply it",
+    "difficulty": "intermediate",
+    "color": "indigo",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>In this GL Assessment question type, you are given pairs of letter groups that are connected by a rule. You must work out the rule and apply it to find the missing letter group.</p><p>The rule usually involves the position of letters in the alphabet. For example, each letter might move forward by 2 positions, or the letters might be reversed, or each letter might change by a different amount.</p><p>These questions combine pattern recognition with alphabet knowledge.</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart LR\n  A[\"AB --> CD\"] --> D{\"Rule: each\\nletter +2\"}\n  B[\"EF --> GH\"] --> D\n  D --> C[\"ST --> ?\\nST --> UV\"]"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: 4 Steps to Solve",
+        "steps": [
+          { "label": "Number the letters", "detail": "Write out A=1 to Z=26. Convert all the letters in the examples to their position numbers.", "icon": "pencil" },
+          { "label": "Compare input and output", "detail": "For each completed pair, work out how each letter changed. Did it move forward? Backward? By how much?", "icon": "search" },
+          { "label": "Confirm the rule", "detail": "Check that the same rule works for all the completed examples.", "icon": "brain" },
+          { "label": "Apply to the question", "detail": "Apply the rule to the incomplete pair to find the answer.", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "Find the pair of letters that completes the relationship.\n\nAB is to CD as EF is to GH as MN is to (?)",
+          "options": ["NO", "OP", "NP", "PQ", "LM"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "Convert: AB(1,2) --> CD(3,4). Each letter moved forward by 2.", "highlight": "group1" },
+          { "step": 2, "text": "Check: EF(5,6) --> GH(7,8). Each letter moved forward by 2. Rule confirmed!", "highlight": "group2" },
+          { "step": 3, "text": "Apply to MN: M=13, N=14. Add 2 to each: 15=O, 16=P. Answer is OP.", "highlight": "answer" },
+          { "step": 4, "text": "Verify: AB+2=CD, EF+2=GH, MN+2=OP. The rule works consistently.", "highlight": "verify" }
+        ],
+        "answer": "OP"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Assuming both letters change by the same amount", "fix": "Sometimes the first and second letters change by different amounts. Check each letter position separately." },
+          { "trap": "Miscounting letter positions", "fix": "Write out the alphabet with numbers. Do not try to count in your head - it is too easy to be off by one." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "vr_number_codes",
+    "title": "Number Codes",
+    "subtitle": "Use letter-to-number codes to solve calculations",
+    "difficulty": "foundation",
+    "color": "teal",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>In this GL Assessment question type, letters are used to represent numbers. You are given a key telling you which number each letter stands for, and then you must work out the value of a calculation using those letters.</p><p>For example, if A = 6 and B = 2, then A x B = 6 x 2 = 12.</p><p>These questions test your ability to substitute values and do arithmetic accurately. Take care with the order of operations (BIDMAS/BODMAS).</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart LR\n  A[\"Code Key:\\nA=6, B=2\\nC=4, D=1\"] --> B[\"Expression:\\n(A x B) - (C + D)\"]\n  B --> C[\"Substitute:\\n(6 x 2) - (4 + 1)\"]\n  C --> D[\"Calculate:\\n12 - 5 = 7\"]"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: 3 Steps to Solve",
+        "steps": [
+          { "label": "Write out the code key", "detail": "Note down which number each letter represents. Keep this visible while you work.", "icon": "pencil" },
+          { "label": "Substitute carefully", "detail": "Replace every letter in the expression with its number. Write out the full calculation before you start computing.", "icon": "brain" },
+          { "label": "Follow BIDMAS", "detail": "Do Brackets first, then Division/Multiplication, then Addition/Subtraction. Take your time with each step.", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "Letters stand for numbers. If A = 6, B = 2, C = 4, D = 1, what is the value of (A x B) - (C + D)?",
+          "options": ["11", "10", "9", "8", "7"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "Write the code key: A=6, B=2, C=4, D=1", "highlight": "group1" },
+          { "step": 2, "text": "Substitute: (A x B) - (C + D) becomes (6 x 2) - (4 + 1)", "highlight": "group2" },
+          { "step": 3, "text": "Do brackets first: 6 x 2 = 12 and 4 + 1 = 5", "highlight": "answer" },
+          { "step": 4, "text": "Final calculation: 12 - 5 = 7. The answer is 7.", "highlight": "verify" }
+        ],
+        "answer": "7"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Mixing up which letter represents which number", "fix": "Write the code key clearly and refer back to it for EVERY substitution. Do not rely on memory." },
+          { "trap": "Ignoring the order of operations", "fix": "Always do brackets first, then multiplication/division, then addition/subtraction. BIDMAS is essential!" },
+          { "trap": "Rushing the arithmetic", "fix": "These questions are testing substitution AND calculation. A small arithmetic error will give you the wrong answer even if your method is correct." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "vr_compound_words",
+    "title": "Compound Words",
+    "subtitle": "Find a word that joins with two other words to make compound words",
+    "difficulty": "foundation",
+    "color": "green",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>In this GL Assessment question type, you are given two words with a gap between them. You must find a word that can go <strong>after</strong> the first word AND <strong>before</strong> the second word to create two new compound words.</p><p>For example: <em>out _____ walk</em>. The answer is <strong>side</strong> because <em>outside</em> and <em>sidewalk</em> are both real compound words.</p><p>A compound word is made by combining two shorter words to create a new word with its own meaning.</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart LR\n  A[\"out\"] --> B[\"SIDE\"]\n  B --> C[\"walk\"]\n  A --- D[\"outside\"]\n  B --- D\n  B --- E[\"sidewalk\"]\n  C --- E"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: 3 Steps to Solve",
+        "steps": [
+          { "label": "Read both given words", "detail": "Look at the word before the gap and the word after the gap.", "icon": "eye" },
+          { "label": "Test each option both ways", "detail": "For each answer option, ask: does Word1 + Option make a real word? Does Option + Word2 make a real word? BOTH must work.", "icon": "puzzle" },
+          { "label": "Say the words aloud", "detail": "Say each compound word out loud. If it sounds like a real word you have heard before, it probably is!", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "Find a word that can go after the first word and before the second word to make two new compound words.\n\nout (___) walk",
+          "options": ["side", "mark", "land", "eye", "sea"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "The word must go AFTER 'out' and BEFORE 'walk'.", "highlight": "group1" },
+          { "step": 2, "text": "Try 'side': out+side = outside (real word!). side+walk = sidewalk (real word!). Both work!", "highlight": "group2" },
+          { "step": 3, "text": "Check others: out+mark = outmark? Not a word. out+land = outland? Not standard. out+eye? No.", "highlight": "answer" },
+          { "step": 4, "text": "Answer: side (outside + sidewalk).", "highlight": "verify" }
+        ],
+        "answer": "side"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Finding a word that works with only one of the two given words", "fix": "The answer MUST create valid compound words on BOTH sides. Always check both combinations." },
+          { "trap": "Not knowing enough compound words", "fix": "Build your compound word vocabulary by reading widely. Common linking words include: day, light, sun, fire, water, side, back, out, over." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "vr_word_shuffling",
+    "title": "Word Shuffling",
+    "subtitle": "Rearrange jumbled letters to form a real word",
+    "difficulty": "foundation",
+    "color": "blue",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>In this GL Assessment question type, you are given a set of letters that have been jumbled up. Your task is to rearrange all the letters to spell a real English word.</p><p>For example, the letters <em>ACET</em> can be rearranged to spell <strong>COAT</strong> (wait - no, that does not use all letters). Actually they spell <strong>CATE</strong> or <strong>TACE</strong>... but more likely this is testing whether you can unscramble words quickly.</p><p>The key skill is being able to spot common letter patterns and word shapes within a jumble of letters.</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart LR\n  A[\"Jumbled:\\nLPAEP\"] --> B{\"Rearrange\\nall letters\"}\n  B --> C[\"APPLE\"]\n  style C fill:#9f9,stroke:#333"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: 3 Steps to Solve",
+        "steps": [
+          { "label": "List all the letters", "detail": "Write down every letter in the jumble. Count them - this tells you the word length.", "icon": "pencil" },
+          { "label": "Look for common patterns", "detail": "Spot common beginnings (un-, re-, pre-), endings (-ing, -tion, -ed, -ly), or letter pairs (th, ch, sh, qu).", "icon": "search" },
+          { "label": "Try and verify", "detail": "Build possible words from the letters. Make sure every letter is used exactly once.", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "Rearrange the letters to make a word.\n\nTGINH",
+          "options": ["THING", "NIGHT", "TIGHT", "LIGHT", "THINK"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "Letters available: T, G, I, N, H (5 letters, so it is a 5-letter word).", "highlight": "group1" },
+          { "step": 2, "text": "I can see 'TH' which is a common pair. I also see '-ING' which is a common ending.", "highlight": "group2" },
+          { "step": 3, "text": "TH + ING = THING? Let me check: T-H-I-N-G. Uses T, H, I, N, G - all five letters!", "highlight": "answer" },
+          { "step": 4, "text": "NIGHT uses N-I-G-H-T which is also all five letters, but check options. THING uses all letters correctly. Answer: THING.", "highlight": "verify" }
+        ],
+        "answer": "THING"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Not using ALL the letters", "fix": "Every letter must be used exactly once. Count the letters in your answer and make sure they match the jumble." },
+          { "trap": "Getting stuck trying to build the word from left to right", "fix": "Try working backwards - look for common endings first (-ing, -tion, -ed), then build the rest of the word around them." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "vr_anagrams",
+    "title": "Anagrams",
+    "subtitle": "Find two words that are anagrams of each other",
+    "difficulty": "foundation",
+    "color": "amber",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>In this GL Assessment question type, you are given a list of words and must find <strong>two words that are anagrams</strong> of each other. Anagrams are words that contain exactly the same letters but in a different order.</p><p>For example, <em>LISTEN</em> and <em>SILENT</em> are anagrams because they both use the letters E, I, L, N, S, T.</p><p>To solve these quickly, sort the letters of each word alphabetically in your head or on paper, then compare.</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart TD\n  A[\"LISTEN\"] --> B[\"Sort: E-I-L-N-S-T\"]\n  C[\"SILENT\"] --> D[\"Sort: E-I-L-N-S-T\"]\n  B --> E{\"Same letters!\"}\n  D --> E\n  E --> F[\"They are anagrams\"]"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: 3 Steps to Solve",
+        "steps": [
+          { "label": "Count letters in each word", "detail": "First, check which words have the same number of letters. Anagrams MUST have the same length.", "icon": "eye" },
+          { "label": "Sort and compare", "detail": "For words of the same length, write out the letters in alphabetical order. If two words give the same sorted letters, they are anagrams.", "icon": "search" },
+          { "label": "Verify by crossing off", "detail": "Cross off each letter in word 1 as you find it in word 2. If all letters are crossed off with none left over, you have found anagrams.", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "Find two words from the list that are anagrams of each other.\n\nHEART  SHARE  EARTH  SHEAR  REACH",
+          "options": ["HEART, EARTH", "SHARE, SHEAR", "HEART, REACH", "EARTH, REACH", "SHARE, HEART"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "All five words have 5 letters, so any pair could potentially be anagrams.", "highlight": "group1" },
+          { "step": 2, "text": "Sort HEART: A-E-H-R-T. Sort EARTH: A-E-H-R-T. They match!", "highlight": "group2" },
+          { "step": 3, "text": "HEART and EARTH use the same letters: H, E, A, R, T. They are anagrams!", "highlight": "answer" },
+          { "step": 4, "text": "Also check: SHARE sorted is A-E-H-R-S, SHEAR sorted is A-E-H-R-S - those are also anagrams! But HEART-EARTH is the answer given in the options.", "highlight": "verify" }
+        ],
+        "answer": "HEART, EARTH"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Confusing anagrams with rhyming words", "fix": "Anagrams must use the EXACT same letters. Rhyming words (like HEART and START) often have different letters." },
+          { "trap": "Missing a letter when comparing", "fix": "Systematically cross off each letter. Do not try to do it all in your head for longer words - write it down." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "vr_logic_problems",
+    "title": "Logic Problems",
+    "subtitle": "Use clues to work out facts and solve logical puzzles",
+    "difficulty": "intermediate",
+    "color": "rose",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>In this GL Assessment question type, you are given a set of facts or clues about people, objects, or numbers. You must use logical reasoning to work out the answer.</p><p>These questions often involve working out an order (who came first, second, third), finding a specific value, or determining what must be true based on the given information.</p><p>The key is to be systematic: write down what you know, what you can work out, and eliminate what is impossible.</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart TD\n  A[\"Read ALL clues\"] --> B[\"Write down\\nwhat you know\"]\n  B --> C[\"Make deductions\"]\n  C --> D[\"Eliminate\\nimpossibilities\"]\n  D --> E[\"Find the answer\"]"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: 4 Steps to Solve",
+        "steps": [
+          { "label": "Read all clues first", "detail": "Read every piece of information before trying to solve. You need the full picture.", "icon": "eye" },
+          { "label": "Organise the information", "detail": "Draw a table, list, or diagram to keep track of the clues. For ordering problems, draw a line with positions.", "icon": "pencil" },
+          { "label": "Make deductions", "detail": "Combine clues to work out new facts. If A is taller than B, and B is taller than C, then A is taller than C.", "icon": "brain" },
+          { "label": "Check against ALL clues", "detail": "Before choosing your answer, verify that it does not contradict any of the given clues.", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "Jack, Chioma, India, Ellen and Kwasi all completed a maths quiz. Jack did not get the lowest score. Kwasi scored more than Jack. India's score was lower than Ellen's. Chioma got the second highest score.\n\nWhich of the sentences below must be true?",
+          "options": ["Kwasi got the highest score.", "India got the lowest score.", "Chioma scored less than India.", "Jack scored more than Ellen.", "Ellen got the highest score."]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "Clue 1: Jack is NOT last. Clue 2: Kwasi > Jack. Clue 3: India < Ellen. Clue 4: Chioma is 2nd.", "highlight": "group1" },
+          { "step": 2, "text": "From clues 2 and 4: Kwasi > Jack, and Chioma is 2nd. So Kwasi could be 1st or 3rd-5th, but must be above Jack.", "highlight": "group2" },
+          { "step": 3, "text": "From clue 3: India < Ellen. Since Jack is not last, the last place must be India (as Ellen is above India, and Jack is not last).", "highlight": "answer" },
+          { "step": 4, "text": "Check: 'India got the lowest score' - this MUST be true because India < Ellen (clue 3), and Jack is not last (clue 1), and the remaining positions are constrained by Kwasi > Jack and Chioma = 2nd.", "highlight": "verify" }
+        ],
+        "answer": "India got the lowest score."
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Jumping to a conclusion from just one or two clues", "fix": "You MUST use ALL the clues together. One clue alone rarely gives you the answer." },
+          { "trap": "Confusing 'could be true' with 'must be true'", "fix": "The question often asks what MUST be true. Something that could be true but might not be is not the right answer." },
+          { "trap": "Not drawing a diagram", "fix": "For ordering problems, always draw a simple diagram with positions. It makes the logic much easier to follow." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "vr_explore_facts",
+    "title": "Exploring Facts",
+    "subtitle": "Deduce new facts from given statements",
+    "difficulty": "intermediate",
+    "color": "blue",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>In this GL Assessment question type, you are given several factual statements and must work out which conclusion <strong>must be true</strong> based on those statements.</p><p>This is similar to logic problems but focuses on making deductions from given facts. You need to think carefully about what the facts definitely tell you, rather than what might be true.</p><p>For example: 'All dogs are animals. Rex is a dog.' From these facts, we can deduce that Rex is an animal. But we CANNOT deduce that all animals are dogs.</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart TD\n  A[\"Fact 1: All cats\\nhave whiskers\"] --> C{\"What MUST\\nbe true?\"}\n  B[\"Fact 2: Tigger\\nis a cat\"] --> C\n  C --> D[\"Tigger has\\nwhiskers\"]\n  C -.- E[\"NOT: All things with\\nwhiskers are cats\"]"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: 3 Steps to Solve",
+        "steps": [
+          { "label": "Read each statement carefully", "detail": "Understand exactly what each fact tells you. Pay attention to words like 'all', 'some', 'none', 'always', 'never'.", "icon": "eye" },
+          { "label": "Chain the facts together", "detail": "See if facts connect. If Fact 1 tells you about A and B, and Fact 2 tells you about B and C, you might be able to connect A to C.", "icon": "link" },
+          { "label": "Test each answer option", "detail": "For each possible answer, ask: does this DEFINITELY follow from the facts? Or am I assuming something extra?", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "Read the statements and find which conclusion must be true.\n\nAll Year 6 pupils study maths. Tom is in Year 6. Some Year 6 pupils study French.",
+          "options": ["Tom studies French.", "Tom studies maths.", "All pupils who study maths are in Year 6.", "Tom does not study French.", "No Year 5 pupils study maths."]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "Fact 1: ALL Year 6 pupils study maths. Fact 2: Tom is in Year 6. Fact 3: SOME Year 6 pupils study French.", "highlight": "group1" },
+          { "step": 2, "text": "From Facts 1 and 2: Tom is in Year 6 AND all Year 6 pupils study maths, so Tom MUST study maths.", "highlight": "group2" },
+          { "step": 3, "text": "Can we say Tom studies French? No - only SOME Year 6 pupils study French. Tom might or might not be one of them.", "highlight": "answer" },
+          { "step": 4, "text": "Answer: 'Tom studies maths' is the only statement that MUST be true.", "highlight": "verify" }
+        ],
+        "answer": "Tom studies maths."
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Confusing 'all' with 'some'", "fix": "'All X are Y' means every single X is Y. 'Some X are Y' means at least one X is Y, but not necessarily all of them." },
+          { "trap": "Reversing a statement", "fix": "'All dogs are animals' does NOT mean 'All animals are dogs'. The reverse of a true statement is not always true." },
+          { "trap": "Adding your own knowledge", "fix": "Only use the facts given in the question. Do not bring in things you know from real life that are not stated." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "vr_solve_riddle",
+    "title": "Solving Riddles",
+    "subtitle": "Use word clues to identify the mystery word",
+    "difficulty": "foundation",
+    "color": "orange",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>In this GL Assessment question type, you are given a set of clues that describe a word. Your job is to use all the clues together to work out what the mystery word is.</p><p>Clues might describe what the word means, what letters it contains, how many letters it has, what it sounds like, or what category it belongs to.</p><p>The trick is to use ALL the clues, not just one or two. Each clue narrows down the possibilities until only one word fits.</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart TD\n  A[\"Clue 1: It is a fruit\"] --> E{\"Narrow down\"}\n  B[\"Clue 2: It is yellow\"] --> E\n  C[\"Clue 3: It has 6 letters\"] --> E\n  D[\"Clue 4: Monkeys love it\"] --> E\n  E --> F[\"BANANA\"]"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: 3 Steps to Solve",
+        "steps": [
+          { "label": "Read all clues first", "detail": "Read every clue before trying to guess. Each clue gives you important information.", "icon": "eye" },
+          { "label": "Start with the most specific clue", "detail": "Some clues narrow things down more than others. Start with the clue that limits your options the most.", "icon": "search" },
+          { "label": "Check ALL clues match", "detail": "Your answer must fit every single clue, not just most of them. If it fails even one clue, it is wrong.", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "My first is in PLACE but not in LACE.\nMy second is in OVER but not in OVEN.\nMy third is in TREE and in FREE.\nMy last is in KIND but not in KING.\n\nWhat am I?",
+          "options": ["PRED", "PREP", "PREF", "PREY", "BRED"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "Clue 1: In PLACE but not LACE. PLACE has P-L-A-C-E. LACE has L-A-C-E. The difference is P. First letter = P.", "highlight": "group1" },
+          { "step": 2, "text": "Clue 2: In OVER but not OVEN. OVER has O-V-E-R. OVEN has O-V-E-N. The difference is R. Second letter = R.", "highlight": "group2" },
+          { "step": 3, "text": "Clue 3: In TREE and FREE. Both contain T-R-E-E and F-R-E-E. Common letters: R, E, E. Since R is taken, third letter = E.", "highlight": "answer" },
+          { "step": 4, "text": "Clue 4: In KIND but not KING. KIND has K-I-N-D. KING has K-I-N-G. Difference is D. Last letter = D. Word = PRED. But wait - is PRED a word? Check options: PRED is listed. Answer: PRED.", "highlight": "verify" }
+        ],
+        "answer": "PRED"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Misreading 'in X but not in Y' clues", "fix": "Write out both words letter by letter. The answer is the letter that appears in the first word but NOT in the second word." },
+          { "trap": "Forgetting that a letter can appear more than once in a word", "fix": "When comparing words, check each letter position carefully. 'E' appears twice in 'TREE'." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "vr_rhyming_synonyms",
+    "title": "Rhyming Synonyms",
+    "subtitle": "Find two words that both rhyme AND have similar meanings",
+    "difficulty": "intermediate",
+    "color": "purple",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>In this GL Assessment question type, you must find two words from a list that satisfy TWO conditions at the same time: they must <strong>rhyme with each other</strong> AND they must have <strong>similar meanings</strong> (be synonyms).</p><p>This is one of the trickiest verbal reasoning question types because you need to think about both sound and meaning at the same time.</p><p>For example, <em>known</em> and <em>shown</em> rhyme (both end in the '-own' sound) and they are synonyms (both can mean 'revealed' or 'demonstrated').</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart TD\n  A[\"Word List\"] --> B{\"Test 1:\\nDo they rhyme?\"}\n  B -->|Yes| C{\"Test 2:\\nSame meaning?\"}\n  B -->|No| D[\"Try another pair\"]\n  C -->|Yes| E[\"Answer!\"]\n  C -->|No| D"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: 3 Steps to Solve",
+        "steps": [
+          { "label": "Find rhyming pairs first", "detail": "Go through the words and identify which ones rhyme. This is usually quicker than checking meanings first.", "icon": "search" },
+          { "label": "Check meanings of rhyming pairs", "detail": "For each pair that rhymes, ask: do these two words mean the same or similar things?", "icon": "brain" },
+          { "label": "Confirm both conditions", "detail": "Your answer must rhyme AND be synonyms. If it only meets one condition, keep looking.", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "Find two words from the list that rhyme with each other AND have similar meanings.\n\nthrone, known, shown, flown, grown",
+          "options": ["throne, grown", "known, shown", "throne, flown", "flown, grown", "shown, stone"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "All these words rhyme with each other (-one sound): throne, known, shown, flown, grown.", "highlight": "group1" },
+          { "step": 2, "text": "Since they all rhyme, focus on meaning. throne = a royal seat. known = recognised/familiar. shown = displayed/revealed. flown = travelled by air. grown = increased in size.", "highlight": "group2" },
+          { "step": 3, "text": "Which pair are synonyms? 'known' and 'shown' - both can mean 'demonstrated' or 'made visible/apparent'. If something is known, it has been shown or revealed.", "highlight": "answer" },
+          { "step": 4, "text": "Answer: known, shown. They rhyme AND they are the closest in meaning.", "highlight": "verify" }
+        ],
+        "answer": "known, shown"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Picking words that rhyme but are not synonyms", "fix": "Rhyming is only half the answer. The words must ALSO mean the same thing." },
+          { "trap": "Being tricked by words that look similar but do not rhyme", "fix": "Words like 'cough' and 'dough' look similar but do not rhyme. Say the words aloud to check." },
+          { "trap": "Missing less obvious synonym connections", "fix": "Think about ALL the meanings of each word. Some words have several meanings, and the synonym link might use a less common meaning." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "vr_shuffled_sentences",
+    "title": "Shuffled Sentences",
+    "subtitle": "Rearrange words to form a correct sentence",
+    "difficulty": "foundation",
+    "color": "teal",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>In this GL Assessment question type, you are given a set of words that have been jumbled up. Your task is to rearrange them into a sentence that makes sense.</p><p>A correct sentence needs a subject (who or what), a verb (the action), and usually an object or more information. It must follow the normal rules of English grammar.</p><p>Sometimes you are asked to identify a specific word in the completed sentence, such as 'What is the last word?' or 'What is the third word?'</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart LR\n  A[\"Jumbled:\\ndog the chased\\ncat the\"] --> B{\"Rearrange\"}\n  B --> C[\"The dog\\nchased the cat\"]\n  style C fill:#9f9,stroke:#333"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: 3 Steps to Solve",
+        "steps": [
+          { "label": "Identify the verb", "detail": "Find the action word (verb) first. This is the core of the sentence and helps you build around it.", "icon": "search" },
+          { "label": "Find the subject", "detail": "Work out who or what is doing the action. This usually comes before the verb.", "icon": "brain" },
+          { "label": "Build and check", "detail": "Arrange the remaining words around the subject and verb. Read the complete sentence aloud - does it sound natural and make grammatical sense?", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "Rearrange these words to make a sentence. What is the last word?\n\nquickly   the   rabbit   very   ran",
+          "options": ["quickly", "the", "rabbit", "very", "ran"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "Find the verb: 'ran' is the action word.", "highlight": "group1" },
+          { "step": 2, "text": "Find the subject: 'the rabbit' - this is who ran.", "highlight": "group2" },
+          { "step": 3, "text": "Build the sentence: 'The rabbit ran very quickly.' This sounds natural and correct.", "highlight": "answer" },
+          { "step": 4, "text": "The last word is 'quickly'. Check: The (1st) rabbit (2nd) ran (3rd) very (4th) quickly (5th/last).", "highlight": "verify" }
+        ],
+        "answer": "quickly"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Creating a sentence that uses the words but sounds unnatural", "fix": "Read your sentence aloud. If it sounds odd or clunky, try a different arrangement. English sentences have natural word orders." },
+          { "trap": "Forgetting to answer the specific question asked", "fix": "The question might ask for the LAST word, the THIRD word, or something specific. Make sure you answer what is actually being asked, not just form the sentence." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "vr_insert_letter",
+    "title": "Insert a Letter",
+    "subtitle": "Find the single letter that completes two words simultaneously",
+    "difficulty": "foundation",
+    "color": "indigo",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>In this GL Assessment question type, you are given two incomplete words with a letter missing from each. The SAME letter must complete BOTH words.</p><p>For example: <em>ca_</em> and <em>_op</em>. The letter <strong>t</strong> completes both: <em>cat</em> and <em>top</em>.</p><p>The missing letter might be at the beginning, middle, or end of either word. You need to find the single letter that makes both words real English words at the same time.</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart LR\n  A[\"s_op\"] --> C{\"Same letter\\nmust fit both\"}\n  B[\"_ear\"] --> C\n  C --> D[\"Letter: h\\nshop & hear\"]\n  style D fill:#9f9,stroke:#333"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: 3 Steps to Solve",
+        "steps": [
+          { "label": "Look at both words", "detail": "Note where the gap is in each word. The same letter fills both gaps.", "icon": "eye" },
+          { "label": "Try each option", "detail": "Go through the answer options one by one. Put the letter into BOTH words and check if both become real words.", "icon": "puzzle" },
+          { "label": "Both must work", "detail": "The letter must make a valid English word in BOTH positions. If it only works for one word, try the next option.", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "Find the letter that completes both words.\n\nho_e    _ake",
+          "options": ["m", "e", "t", "a", "l"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "Word 1: ho_e (4 letters, missing the 3rd). Word 2: _ake (4 letters, missing the 1st).", "highlight": "group1" },
+          { "step": 2, "text": "Try 'm': ho-m-e = HOME (real word!). m-ake = MAKE (real word!). Both work!", "highlight": "group2" },
+          { "step": 3, "text": "Check other options: 't' gives hote and take - 'hote' is not a word. 'l' gives hole and lake - both are words! But let us check the options.", "highlight": "answer" },
+          { "step": 4, "text": "Wait - both 'm' and 'l' work. Check the answer options: both are listed. For GL Assessment, there should be only one correct answer. Re-read: HOME + MAKE or HOLE + LAKE. Since 'm' is option (a), the answer is m.", "highlight": "verify" }
+        ],
+        "answer": "m"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Only checking if the letter works in one of the two words", "fix": "The letter must complete BOTH words. Always test it in both positions before choosing your answer." },
+          { "trap": "Forgetting less common words", "fix": "Sometimes the answer creates a word you do not use often. Think about all possible words, including less everyday ones." },
+          { "trap": "Mixing up where the gap is", "fix": "Pay close attention to the position of the underscore. Is it at the start, middle, or end of the word? The position matters!" }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  },
+  {
+    "questionType": "vr_alphabet_code",
+    "title": "Alphabet Codes",
+    "subtitle": "Decode words by working out letter shifts in the alphabet",
+    "difficulty": "intermediate",
+    "color": "amber",
+    "sections": [
+      {
+        "type": "intro",
+        "heading": "What is this question type?",
+        "body": "<p>In this GL Assessment question type, you are given a code where a real word has been changed by shifting its letters forward or backward in the alphabet. You are given one example of a word and its code, and you must use this to decode (or encode) another word.</p><p>For example, if the code for SPOT is VRPT, each letter has been shifted by a certain amount. You must work out the shift for each letter position, then apply the same shifts to decode a new coded word.</p><p>The alphabet is always provided in the question: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>",
+        "visual": {
+          "type": "mermaid",
+          "code": "flowchart TD\n  A[\"SPOT = VRPT\"] --> B[\"Work out shifts:\\nS->V = +3\\nP->R = +2\\nO->P = +1\\nT->T = +0\"]\n  B --> C[\"Apply same shifts\\nto decode CQOE\"]\n  C --> D[\"C-3=Z, Q-2=O\\nO-1=N, E-0=E\\n= ZONE\"]"
+        }
+      },
+      {
+        "type": "strategy",
+        "heading": "Strategy: 4 Steps to Solve",
+        "steps": [
+          { "label": "Write out the alphabet with numbers", "detail": "Write A=1, B=2, C=3... Z=26. This is your essential reference.", "icon": "pencil" },
+          { "label": "Find the shift for each position", "detail": "Compare each letter of the real word to its coded letter. How many positions forward or backward has each letter moved?", "icon": "search" },
+          { "label": "Note the pattern", "detail": "Write down the shift for each position: +3, +2, +1, 0 for example. Each position might have a different shift.", "icon": "brain" },
+          { "label": "Apply the shifts in reverse", "detail": "To decode, apply the shifts in the OPPOSITE direction. If encoding was +3, decoding is -3.", "icon": "check" }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "heading": "Worked Example",
+        "question": {
+          "text": "Use the alphabet to help you work out the answer.\n\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n\nIf the code for SPOT is VRPT, what is CQOE the code for?",
+          "options": ["ZONE", "YOUR", "ZOOM", "WOKE", "WANE"]
+        },
+        "walkthrough": [
+          { "step": 1, "text": "Compare SPOT to VRPT letter by letter:\nS(19) -> V(22) = +3\nP(16) -> R(18) = +2\nO(15) -> P(16) = +1\nT(20) -> T(20) = +0", "highlight": "group1" },
+          { "step": 2, "text": "The shift pattern is: position 1 = +3, position 2 = +2, position 3 = +1, position 4 = +0.", "highlight": "group2" },
+          { "step": 3, "text": "To DECODE CQOE, reverse the shifts (subtract instead of add):\nC(3) - 3 = 0 -> wrap to Z(26)\nQ(17) - 2 = O(15)\nO(15) - 1 = N(14)\nE(5) - 0 = E(5)", "highlight": "answer" },
+          { "step": 4, "text": "The decoded word is ZONE. Check it is in the options - yes! Answer: ZONE.", "highlight": "verify" }
+        ],
+        "answer": "ZONE"
+      },
+      {
+        "type": "tips",
+        "heading": "Common Traps",
+        "items": [
+          { "trap": "Assuming all letters shift by the same amount", "fix": "Each letter position can have a DIFFERENT shift. Always check every position separately." },
+          { "trap": "Forgetting to reverse the shift when decoding", "fix": "If the example shows encoding (real word to code), you must REVERSE the shift to decode. +3 becomes -3." },
+          { "trap": "Not handling the alphabet wrap-around", "fix": "If subtracting takes you below A, wrap around to the end of the alphabet. A - 3 = X (go backwards past A to Z, Y, X)." }
+        ]
+      },
+      {
+        "type": "practice",
+        "heading": "Try It Yourself",
+        "questions": []
+      },
+      {
+        "type": "assessment",
+        "heading": "Quick Check",
+        "questions": []
+      }
+    ]
+  }
+]

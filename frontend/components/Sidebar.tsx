@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { BookOpen } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useAuth } from "@/context/AuthContext";
 
@@ -40,6 +41,19 @@ export function Sidebar({ className }: { className?: string }) {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
                     </svg>
                     <span className="font-medium">Dashboard</span>
+                </Link>
+
+                <Link
+                    href="/learn"
+                    className={cn(
+                        "w-full flex items-center gap-4 px-3 py-3 rounded-xl transition-colors font-medium",
+                        pathname?.startsWith("/learn") ? "bg-teal-50 text-teal-600" : "hover:bg-teal-50 text-slate-600 hover:text-teal-600"
+                    )}
+                >
+                    <div className="w-8 h-8 flex items-center justify-center bg-teal-100 rounded-lg">
+                        <BookOpen className="w-4 h-4 text-teal-600" />
+                    </div>
+                    <span className="font-medium">Learn</span>
                 </Link>
 
                 {/* Subjects */}

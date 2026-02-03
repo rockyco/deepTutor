@@ -24,6 +24,7 @@ from app.routers import (
     progress,
     users_router,
     visualize_router,
+    lessons_router,
 #     research_router,
 #     generator_router,
 )
@@ -135,6 +136,7 @@ app.include_router(visualize_router)
 # app.include_router(generator_router)
 app.include_router(auth.router, prefix="/api")
 app.include_router(mock_exam_router)
+app.include_router(lessons_router)
 
 # Dev/Temp endpoint for image ingestion
 class ImageUpload(BaseModel):

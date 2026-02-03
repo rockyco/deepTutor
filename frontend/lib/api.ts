@@ -505,6 +505,37 @@ export const mockExamAPI = {
     }),
 };
 
+// Lessons API
+export interface LessonSummary {
+  subject: string;
+  questionType: string;
+  title: string;
+  subtitle: string;
+  difficulty: string;
+  color: string;
+  sectionCount: number;
+}
+
+export interface LessonData {
+  questionType: string;
+  title: string;
+  subtitle: string;
+  subject: string;
+  difficulty: string;
+  color: string;
+  sections: any[];
+}
+
+export const lessonsAPI = {
+  list: () => fetchAPI<LessonSummary[]>("/api/lessons"),
+
+  listBySubject: (subject: string) =>
+    fetchAPI<LessonSummary[]>(`/api/lessons/${subject}`),
+
+  get: (subject: string, questionType: string) =>
+    fetchAPI<LessonData>(`/api/lessons/${subject}/${questionType}`),
+};
+
 // Progress API
 export const progressAPI = {
   getSummary: (userId: string) =>
