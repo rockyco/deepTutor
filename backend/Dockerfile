@@ -23,6 +23,7 @@ COPY app/ ./app/
 # Copy scripts and images
 COPY scripts/ ./scripts/
 COPY data/images/ ./data/images/
+COPY data/lessons/ ./data/lessons/
 
 # Copy ONLY the master seed file to ensure clean database state
 # We rename it to seed.json for clarity
