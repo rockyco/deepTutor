@@ -230,11 +230,21 @@ function ArrowMarker() {
 // --- Component ---
 
 const PADDING = 24;
+const MIN_ZOOM = 0.5;
+const MAX_ZOOM = 3;
+const ZOOM_STEP = 0.25;
 
 export function InteractiveFlowchart({ data }: { data: FlowchartData }) {
   const containerRef = useRef<HTMLDivElement>(null);
+  const svgRef = useRef<SVGSVGElement>(null);
   const [visible, setVisible] = useState(false);
   const [hoveredNode, setHoveredNode] = useState<string | null>(null);
+
+  // Zoom and pan state
+  const [zoom, setZoom] = useState(1);
+  const [pan, setPan] = useState({ x: 0, y: 0 });
+  const [isPanning, setIsPanning] = useState(false);
+  const panStart = useRef({ x: 0, y: 0, panX: 0, panY: 0 });
 
   // Intersection observer for entry animation
   useEffect(() => {
@@ -257,6 +267,85 @@ export function InteractiveFlowchart({ data }: { data: FlowchartData }) {
     () => computeLayout(data.nodes, data.edges, data.direction),
     [data.nodes, data.edges, data.direction]
   );
+
+  // Zoom handlers
+  const handleZoomIn = useCallback(() => {
+    setZoom((z) => Math.min(MAX_ZOOM, z + ZOOM_STEP));
+  }, []);
+
+  const handleZoomOut = useCallback(() => {
+    setZoom((z) => Math.max(MIN_ZOOM, z - ZOOM_STEP));
+  }, []);
+
+  const handleZoomReset = useCallback(() => {
+    setZoom(1);
+    setPan({ x: 0, y: 0 });
+  }, []);
+
+  // Wheel zoom - centered on cursor position
+  useEffect(() => {
+    const svg = svgRef.current;
+    if (!svg) return;
+    const onWheel = (e: WheelEvent) => {
+      if (!e.ctrlKey && !e.metaKey) return;
+      e.preventDefault();
+      const delta = e.deltaY > 0 ? -ZOOM_STEP : ZOOM_STEP;
+      setZoom((z) => {
+        const next = Math.min(MAX_ZOOM, Math.max(MIN_ZOOM, z + delta));
+        if (next !== z) {
+          // Adjust pan to zoom toward cursor
+          const rect = svg.getBoundingClientRect();
+          const cx = (e.clientX - rect.left) / rect.width;
+          const cy = (e.clientY - rect.top) / rect.height;
+          const svgW = width + PADDING * 2;
+          const svgH = height + PADDING * 2;
+          const vwOld = svgW / z;
+          const vwNew = svgW / next;
+          const vhOld = svgH / z;
+          const vhNew = svgH / next;
+          setPan((p) => ({
+            x: p.x + (vwOld - vwNew) * cx,
+            y: p.y + (vhOld - vhNew) * cy,
+          }));
+        }
+        return next;
+      });
+    };
+    svg.addEventListener("wheel", onWheel, { passive: false });
+    return () => svg.removeEventListener("wheel", onWheel);
+  }, [width, height]);
+
+  // Pan via mouse drag
+  const handlePointerDown = useCallback(
+    (e: React.PointerEvent) => {
+      if (zoom <= 1) return;
+      setIsPanning(true);
+      panStart.current = { x: e.clientX, y: e.clientY, panX: pan.x, panY: pan.y };
+      (e.target as Element).setPointerCapture?.(e.pointerId);
+    },
+    [zoom, pan]
+  );
+
+  const handlePointerMove = useCallback(
+    (e: React.PointerEvent) => {
+      if (!isPanning) return;
+      const svg = svgRef.current;
+      if (!svg) return;
+      const rect = svg.getBoundingClientRect();
+      const svgW = width + PADDING * 2;
+      const svgH = height + PADDING * 2;
+      const scaleX = (svgW / zoom) / rect.width;
+      const scaleY = (svgH / zoom) / rect.height;
+      const dx = (e.clientX - panStart.current.x) * scaleX;
+      const dy = (e.clientY - panStart.current.y) * scaleY;
+      setPan({ x: panStart.current.panX - dx, y: panStart.current.panY - dy });
+    },
+    [isPanning, zoom, width, height]
+  );
+
+  const handlePointerUp = useCallback(() => {
+    setIsPanning(false);
+  }, []);
 
   // Find connected edges for hover highlighting
   const connectedEdges = useCallback(
@@ -309,16 +398,58 @@ export function InteractiveFlowchart({ data }: { data: FlowchartData }) {
   const svgW = width + PADDING * 2;
   const svgH = height + PADDING * 2;
 
+  // Compute viewBox from zoom and pan
+  const vbW = svgW / zoom;
+  const vbH = svgH / zoom;
+  const vbX = pan.x;
+  const vbY = pan.y;
+
+  const isZoomed = zoom !== 1 || pan.x !== 0 || pan.y !== 0;
+
   return (
     <div
       ref={containerRef}
-      className="bg-white rounded-xl border border-slate-200 p-4 overflow-x-auto"
+      className="bg-white rounded-xl border border-slate-200 p-4 overflow-hidden relative group"
     >
+      {/* Zoom controls */}
+      <div className="absolute top-2 right-2 z-10 flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+        <button
+          onClick={handleZoomIn}
+          disabled={zoom >= MAX_ZOOM}
+          className="w-7 h-7 flex items-center justify-center rounded-md bg-white border border-slate-200 text-slate-500 hover:bg-slate-50 hover:text-slate-700 disabled:opacity-30 disabled:cursor-not-allowed text-sm font-bold shadow-sm"
+          title="Zoom in (Ctrl+Scroll)"
+        >
+          +
+        </button>
+        <button
+          onClick={handleZoomOut}
+          disabled={zoom <= MIN_ZOOM}
+          className="w-7 h-7 flex items-center justify-center rounded-md bg-white border border-slate-200 text-slate-500 hover:bg-slate-50 hover:text-slate-700 disabled:opacity-30 disabled:cursor-not-allowed text-sm font-bold shadow-sm"
+          title="Zoom out (Ctrl+Scroll)"
+        >
+          -
+        </button>
+        {isZoomed && (
+          <button
+            onClick={handleZoomReset}
+            className="h-7 px-2 flex items-center justify-center rounded-md bg-white border border-slate-200 text-slate-500 hover:bg-slate-50 hover:text-slate-700 text-xs font-medium shadow-sm"
+            title="Reset zoom"
+          >
+            {Math.round(zoom * 100)}%
+          </button>
+        )}
+      </div>
+
       <svg
-        viewBox={`0 0 ${svgW} ${svgH}`}
+        ref={svgRef}
+        viewBox={`${vbX} ${vbY} ${vbW} ${vbH}`}
         width="100%"
-        className="max-w-full"
+        className={cn("max-w-full", zoom > 1 && "cursor-grab", isPanning && "cursor-grabbing")}
         style={{ minHeight: Math.min(svgH, 500) }}
+        onPointerDown={handlePointerDown}
+        onPointerMove={handlePointerMove}
+        onPointerUp={handlePointerUp}
+        onPointerLeave={handlePointerUp}
       >
         <ArrowMarker />
 
