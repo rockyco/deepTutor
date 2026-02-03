@@ -21,6 +21,11 @@ export function PracticeSection({ heading, questions }: PracticeSectionProps) {
   const question = questions[currentIndex];
   const isComplete = currentIndex >= questions.length;
 
+  const hasImageOptions = !isComplete && (
+    (question?.content.option_images?.length ?? 0) > 0
+    || (question?.content.options || []).some((opt) => isImageUrl(opt))
+  );
+
   const checkAnswer = useCallback(async () => {
     if (!selectedAnswer || !question) return;
     setChecking(true);
@@ -101,7 +106,11 @@ export function PracticeSection({ heading, questions }: PracticeSectionProps) {
         )}
 
         {/* Options */}
-        <div className="space-y-2 mb-4">
+        <div className={cn(
+          hasImageOptions
+            ? "grid grid-cols-2 sm:grid-cols-5 gap-4 mb-4"
+            : "space-y-2 mb-4"
+        )}>
           {(question.content.options || []).map((opt, i) => {
             const letter = String.fromCharCode(65 + i);
             const isSelected = selectedAnswer === opt;
@@ -117,7 +126,9 @@ export function PracticeSection({ heading, questions }: PracticeSectionProps) {
               optClass = "bg-primary-50 border-primary-300 ring-2 ring-primary-200";
             }
 
-            const isImgOpt = isImageUrl(opt);
+            const optionImage = question.content.option_images?.[i];
+            const isImgOpt = !!optionImage || isImageUrl(opt);
+            const displayImage = optionImage ? getImageUrl(optionImage) : getImageUrl(opt);
 
             return (
               <button
@@ -138,7 +149,7 @@ export function PracticeSection({ heading, questions }: PracticeSectionProps) {
                   {letter}
                 </span>
                 {isImgOpt ? (
-                  <img src={getImageUrl(opt)} alt={`Option ${letter}`} className="max-h-12" />
+                  <img src={displayImage} alt={`Option ${letter}`} className="max-h-24 object-contain" />
                 ) : (
                   <span className="text-sm text-slate-700">{opt}</span>
                 )}

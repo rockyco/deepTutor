@@ -18,7 +18,7 @@ interface LessonSection {
   body?: string;
   visual?: { type: "mermaid"; code: string };
   steps?: { label: string; detail: string; icon: string }[];
-  question?: { text: string; options: string[] };
+  question?: { text: string; options: string[]; image_url?: string; option_images?: string[] };
   walkthrough?: { step: number; text: string; highlight: string }[];
   answer?: string;
   items?: { trap: string; fix: string }[];

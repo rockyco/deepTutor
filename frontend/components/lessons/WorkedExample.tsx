@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { ChevronRight, CheckCircle2, Eye } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { getImageUrl, isImageUrl } from "@/lib/api";
 
 interface WalkthroughStep {
   step: number;
@@ -15,6 +16,8 @@ interface WorkedExampleProps {
   question: {
     text: string;
     options: string[];
+    image_url?: string;
+    option_images?: string[];
   };
   walkthrough: WalkthroughStep[];
   answer: string;
@@ -23,6 +26,9 @@ interface WorkedExampleProps {
 export function WorkedExample({ heading, question, walkthrough, answer }: WorkedExampleProps) {
   const [currentStep, setCurrentStep] = useState(-1);
   const [showAnswer, setShowAnswer] = useState(false);
+
+  const hasImageOptions = (question.option_images?.length ?? 0) > 0
+    || question.options.some((opt) => isImageUrl(opt));
 
   const startWalkthrough = () => setCurrentStep(0);
 
@@ -49,12 +55,30 @@ export function WorkedExample({ heading, question, walkthrough, answer }: Worked
           {question.text}
         </div>
 
+        {/* Question image */}
+        {question.image_url && (
+          <div className="mb-4">
+            <img
+              src={getImageUrl(question.image_url)}
+              alt="Question"
+              className="max-h-48 rounded-lg"
+            />
+          </div>
+        )}
+
         {/* Options */}
-        <div className="space-y-2">
+        <div className={cn(
+          hasImageOptions
+            ? "grid grid-cols-2 sm:grid-cols-5 gap-4"
+            : "space-y-2"
+        )}>
           {question.options.map((opt, i) => {
             const letter = String.fromCharCode(65 + i);
             const isAnswer = opt === answer;
             const isHighlighted = showAnswer && isAnswer;
+            const optionImage = question.option_images?.[i];
+            const isImgOpt = !!optionImage || isImageUrl(opt);
+            const displayImage = optionImage ? getImageUrl(optionImage) : getImageUrl(opt);
 
             return (
               <div
@@ -76,9 +100,13 @@ export function WorkedExample({ heading, question, walkthrough, answer }: Worked
                 >
                   {letter}
                 </span>
-                <span className={cn("text-sm", isHighlighted ? "font-bold text-green-800" : "text-slate-700")}>
-                  {opt}
-                </span>
+                {isImgOpt ? (
+                  <img src={displayImage} alt={`Option ${letter}`} className="max-h-24 object-contain" />
+                ) : (
+                  <span className={cn("text-sm", isHighlighted ? "font-bold text-green-800" : "text-slate-700")}>
+                    {opt}
+                  </span>
+                )}
                 {isHighlighted && <CheckCircle2 className="w-5 h-5 text-green-500 ml-auto" />}
               </div>
             );
