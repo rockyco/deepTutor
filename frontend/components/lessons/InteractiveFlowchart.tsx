@@ -245,6 +245,8 @@ export function InteractiveFlowchart({ data }: { data: FlowchartData }) {
   const [pan, setPan] = useState({ x: 0, y: 0 });
   const [isPanning, setIsPanning] = useState(false);
   const panStart = useRef({ x: 0, y: 0, panX: 0, panY: 0 });
+  const [isTouchDevice, setIsTouchDevice] = useState(false);
+  const pinchRef = useRef({ dist: 0, zoom: 1, midX: 0, midY: 0, panX: 0, panY: 0 });
 
   // Intersection observer for entry animation
   useEffect(() => {
@@ -347,6 +349,79 @@ export function InteractiveFlowchart({ data }: { data: FlowchartData }) {
     setIsPanning(false);
   }, []);
 
+  // Touch pinch-to-zoom and single-finger pan
+  useEffect(() => {
+    const svg = svgRef.current;
+    if (!svg) return;
+
+    const getTouchDist = (t: TouchList) => {
+      const dx = t[1].clientX - t[0].clientX;
+      const dy = t[1].clientY - t[0].clientY;
+      return Math.sqrt(dx * dx + dy * dy);
+    };
+
+    const onTouchStart = (e: TouchEvent) => {
+      setIsTouchDevice(true);
+      if (e.touches.length === 2) {
+        e.preventDefault();
+        const dist = getTouchDist(e.touches);
+        const rect = svg.getBoundingClientRect();
+        const midX = ((e.touches[0].clientX + e.touches[1].clientX) / 2 - rect.left) / rect.width;
+        const midY = ((e.touches[0].clientY + e.touches[1].clientY) / 2 - rect.top) / rect.height;
+        pinchRef.current = { dist, zoom, midX, midY, panX: pan.x, panY: pan.y };
+      } else if (e.touches.length === 1 && zoom > 1) {
+        e.preventDefault();
+        setIsPanning(true);
+        panStart.current = { x: e.touches[0].clientX, y: e.touches[0].clientY, panX: pan.x, panY: pan.y };
+      }
+    };
+
+    const onTouchMove = (e: TouchEvent) => {
+      if (e.touches.length === 2) {
+        e.preventDefault();
+        const dist = getTouchDist(e.touches);
+        const scale = dist / pinchRef.current.dist;
+        const nextZoom = Math.min(MAX_ZOOM, Math.max(MIN_ZOOM, pinchRef.current.zoom * scale));
+        const svgW = width + PADDING * 2;
+        const svgH = height + PADDING * 2;
+        const vwOld = svgW / pinchRef.current.zoom;
+        const vwNew = svgW / nextZoom;
+        const vhOld = svgH / pinchRef.current.zoom;
+        const vhNew = svgH / nextZoom;
+        setZoom(nextZoom);
+        setPan({
+          x: pinchRef.current.panX + (vwOld - vwNew) * pinchRef.current.midX,
+          y: pinchRef.current.panY + (vhOld - vhNew) * pinchRef.current.midY,
+        });
+      } else if (e.touches.length === 1 && isPanning) {
+        e.preventDefault();
+        const rect = svg.getBoundingClientRect();
+        const svgW = width + PADDING * 2;
+        const svgH = height + PADDING * 2;
+        const scaleX = (svgW / zoom) / rect.width;
+        const scaleY = (svgH / zoom) / rect.height;
+        const dx = (e.touches[0].clientX - panStart.current.x) * scaleX;
+        const dy = (e.touches[0].clientY - panStart.current.y) * scaleY;
+        setPan({ x: panStart.current.panX - dx, y: panStart.current.panY - dy });
+      }
+    };
+
+    const onTouchEnd = (e: TouchEvent) => {
+      if (e.touches.length < 2) {
+        setIsPanning(false);
+      }
+    };
+
+    svg.addEventListener("touchstart", onTouchStart, { passive: false });
+    svg.addEventListener("touchmove", onTouchMove, { passive: false });
+    svg.addEventListener("touchend", onTouchEnd);
+    return () => {
+      svg.removeEventListener("touchstart", onTouchStart);
+      svg.removeEventListener("touchmove", onTouchMove);
+      svg.removeEventListener("touchend", onTouchEnd);
+    };
+  }, [zoom, pan, isPanning, width, height]);
+
   // Find connected edges for hover highlighting
   const connectedEdges = useCallback(
     (nodeId: string | null) => {
@@ -411,8 +486,11 @@ export function InteractiveFlowchart({ data }: { data: FlowchartData }) {
       ref={containerRef}
       className="bg-white rounded-xl border border-slate-200 p-4 overflow-hidden relative group"
     >
-      {/* Zoom controls */}
-      <div className="absolute top-2 right-2 z-10 flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+      {/* Zoom controls - always visible on touch, hover-reveal on desktop */}
+      <div className={cn(
+        "absolute top-2 right-2 z-10 flex items-center gap-1 transition-opacity duration-200",
+        isTouchDevice ? "opacity-100" : "opacity-0 group-hover:opacity-100"
+      )}>
         <button
           onClick={handleZoomIn}
           disabled={zoom >= MAX_ZOOM}
@@ -445,7 +523,7 @@ export function InteractiveFlowchart({ data }: { data: FlowchartData }) {
         viewBox={`${vbX} ${vbY} ${vbW} ${vbH}`}
         width="100%"
         className={cn("max-w-full", zoom > 1 && "cursor-grab", isPanning && "cursor-grabbing")}
-        style={{ minHeight: Math.min(svgH, 500) }}
+        style={{ minHeight: Math.min(svgH, 500), touchAction: "none" }}
         onPointerDown={handlePointerDown}
         onPointerMove={handlePointerMove}
         onPointerUp={handlePointerUp}
