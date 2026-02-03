@@ -11,41 +11,137 @@
         "heading": "What is this question type?",
         "body": "<p>In a Shape Sequence question, you are shown a row of shapes that change step by step following a hidden rule. Your job is to work out what the rule is and choose the shape that comes next.</p><p>The shapes might change in many ways: they could <strong>rotate</strong>, get <strong>bigger or smaller</strong>, change their <strong>shading</strong>, or swap <strong>position</strong>. Sometimes two or more things change at once, so you need to look carefully at every detail.</p><p>These questions test your ability to spot patterns - a skill that is very important in the 11+ GL Assessment Non-Verbal Reasoning paper.</p>",
         "visual": {
-          "type": "mermaid",
-          "code": "flowchart LR\n  A[Shape 1] --> B[Shape 2]\n  B --> C[Shape 3]\n  C --> D[Shape 4]\n  D --> E[\"? What next\"]\n  style E fill:#f96,stroke:#333"
+          "type": "flowchart",
+          "direction": "LR",
+          "nodes": [
+            {
+              "id": "A",
+              "label": "Shape 1",
+              "style": "primary"
+            },
+            {
+              "id": "B",
+              "label": "Shape 2",
+              "style": "step"
+            },
+            {
+              "id": "C",
+              "label": "Shape 3",
+              "style": "step"
+            },
+            {
+              "id": "D",
+              "label": "Shape 4",
+              "style": "step"
+            },
+            {
+              "id": "E",
+              "label": "? What next",
+              "style": "warning"
+            }
+          ],
+          "edges": [
+            {
+              "from": "A",
+              "to": "B"
+            },
+            {
+              "from": "B",
+              "to": "C"
+            },
+            {
+              "from": "C",
+              "to": "D"
+            },
+            {
+              "from": "D",
+              "to": "E"
+            }
+          ]
         }
       },
       {
         "type": "strategy",
         "heading": "Strategy: Steps to Solve",
         "steps": [
-          { "label": "Spot the changes", "detail": "Compare each shape to the one before it. Ask yourself: what changed? Look at shape type, size, shading, rotation, position, and number of sides.", "icon": "eye" },
-          { "label": "Name the rule", "detail": "Describe the pattern in words, for example: 'the shape rotates 90 degrees clockwise each time' or 'the shading increases by one quarter each step'.", "icon": "brain" },
-          { "label": "Check it holds", "detail": "Make sure your rule works for every step in the sequence, not just the first two shapes.", "icon": "search" },
-          { "label": "Predict and match", "detail": "Apply your rule to predict what the next shape should look like, then find the matching answer option.", "icon": "check" }
+          {
+            "label": "Spot the changes",
+            "detail": "Compare each shape to the one before it. Ask yourself: what changed? Look at shape type, size, shading, rotation, position, and number of sides.",
+            "icon": "eye"
+          },
+          {
+            "label": "Name the rule",
+            "detail": "Describe the pattern in words, for example: 'the shape rotates 90 degrees clockwise each time' or 'the shading increases by one quarter each step'.",
+            "icon": "brain"
+          },
+          {
+            "label": "Check it holds",
+            "detail": "Make sure your rule works for every step in the sequence, not just the first two shapes.",
+            "icon": "search"
+          },
+          {
+            "label": "Predict and match",
+            "detail": "Apply your rule to predict what the next shape should look like, then find the matching answer option.",
+            "icon": "check"
+          }
         ]
       },
       {
         "type": "worked_example",
         "heading": "Worked Example",
         "question": {
-          "text": "Look at how the shapes change. Which shape comes next in the sequence?\n\nImagine: Square(white) -> Square(quarter shaded) -> Square(half shaded) -> Square(three-quarters shaded) -> ?",
-          "options": ["Square fully shaded", "Circle fully shaded", "Square white again", "Triangle half shaded", "Square quarter shaded"]
+          "text": "Choose the option which best fits in place of the missing square in the series.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "option_images": [
+            "/images/granular_non_verbal_reasoning/q9_option_0.png",
+            "/images/granular_non_verbal_reasoning/q9_option_1.png",
+            "/images/granular_non_verbal_reasoning/q9_option_2.png",
+            "/images/granular_non_verbal_reasoning/q9_option_3.png",
+            "/images/granular_non_verbal_reasoning/q9_option_4.png"
+          ],
+          "image_url": "/images/granular_non_verbal_reasoning/q9_question_0.png"
         },
         "walkthrough": [
-          { "step": 1, "text": "Look at the shape: it stays a square throughout, so the shape itself does not change.", "highlight": "shape" },
-          { "step": 2, "text": "Look at the shading: white (0%), quarter (25%), half (50%), three-quarters (75%). The shading increases by 25% each time.", "highlight": "pattern" },
-          { "step": 3, "text": "Applying the rule: 75% + 25% = 100%. The next shape should be a fully shaded square.", "highlight": "answer" }
+          {
+            "step": 1,
+            "text": "Look at the sequence of shapes from left to right. The star is gaining an additional point in each step - this is the main pattern to track.",
+            "highlight": "shape"
+          },
+          {
+            "step": 2,
+            "text": "Notice two more things changing: the star takes the shading of the small square from the previous step, and the small square moves clockwise around the corners.",
+            "highlight": "pattern"
+          },
+          {
+            "step": 3,
+            "text": "Apply all three rules to predict the next figure: the star gains another point, takes the previous shading, and the small square moves to the next corner clockwise.",
+            "highlight": "answer"
+          }
         ],
-        "answer": "Square fully shaded"
+        "answer": "D"
       },
       {
         "type": "tips",
         "heading": "Common Traps",
         "items": [
-          { "trap": "Only noticing one change when there are two", "fix": "Always check ALL properties: shape, size, shading, rotation, position, and number of elements. Many hard questions have two rules working at the same time." },
-          { "trap": "Confusing rotation direction", "fix": "Use your finger to trace the rotation. Clockwise goes the same way as clock hands. Anticlockwise goes the opposite way." },
-          { "trap": "Assuming the pattern repeats after the last shape shown", "fix": "The pattern continues forward. If shading goes 0%, 25%, 50%, 75%, the next is 100%, not back to 0% (unless the question shows a repeating cycle)." }
+          {
+            "trap": "Only noticing one change when there are two",
+            "fix": "Always check ALL properties: shape, size, shading, rotation, position, and number of elements. Many hard questions have two rules working at the same time."
+          },
+          {
+            "trap": "Confusing rotation direction",
+            "fix": "Use your finger to trace the rotation. Clockwise goes the same way as clock hands. Anticlockwise goes the opposite way."
+          },
+          {
+            "trap": "Assuming the pattern repeats after the last shape shown",
+            "fix": "The pattern continues forward. If shading goes 0%, 25%, 50%, 75%, the next is 100%, not back to 0% (unless the question shows a repeating cycle)."
+          }
         ]
       },
       {
@@ -72,31 +168,117 @@
         "heading": "What is this question type?",
         "body": "<p>In an Odd One Out question, you are shown five shapes. Four of them share something in common - they follow the same rule or have a shared feature. One shape is different and does <strong>not</strong> fit the pattern. You must find that odd shape.</p><p>The shared feature could be anything: the number of sides, the type of shading, the direction of rotation, the number of internal lines, or even a combination of features. The trick is to find the rule that connects exactly four shapes and leaves one out.</p><p>This question type appears regularly on GL Assessment papers and tests your ability to classify and group shapes by their properties.</p>",
         "visual": {
-          "type": "mermaid",
-          "code": "flowchart TD\n  Q[\"Five shapes shown\"] --> G[\"4 shapes share a feature\"]\n  Q --> O[\"1 shape is DIFFERENT\"]\n  G --> R[\"Find the shared rule\"]\n  O --> A[\"That is your answer\"]\n  style O fill:#f96,stroke:#333\n  style A fill:#f96,stroke:#333"
+          "type": "flowchart",
+          "direction": "TD",
+          "nodes": [
+            {
+              "id": "Q",
+              "label": "Five shapes shown",
+              "style": "primary"
+            },
+            {
+              "id": "G",
+              "label": "4 shapes share a feature",
+              "style": "step"
+            },
+            {
+              "id": "O",
+              "label": "1 shape is DIFFERENT",
+              "style": "warning"
+            },
+            {
+              "id": "R",
+              "label": "Find the shared rule",
+              "style": "step"
+            },
+            {
+              "id": "A",
+              "label": "That is your answer",
+              "style": "warning"
+            }
+          ],
+          "edges": [
+            {
+              "from": "Q",
+              "to": "G"
+            },
+            {
+              "from": "Q",
+              "to": "O"
+            },
+            {
+              "from": "G",
+              "to": "R"
+            },
+            {
+              "from": "O",
+              "to": "A"
+            }
+          ]
         }
       },
       {
         "type": "strategy",
         "heading": "Strategy: Steps to Solve",
         "steps": [
-          { "label": "List properties", "detail": "For each shape, note its properties: number of sides, shading (white, grey, black), size (small, medium, large), orientation, symmetry, and any internal details like lines or dots.", "icon": "pencil" },
-          { "label": "Look for a group of four", "detail": "Try to find a property that exactly four shapes share. For example, four shapes might all have curved edges while one has straight edges.", "icon": "search" },
-          { "label": "Test your rule", "detail": "Check that your rule includes exactly four shapes and excludes exactly one. If it excludes two or more, your rule is too strict - try a different property.", "icon": "brain" },
-          { "label": "Pick the odd one", "detail": "The shape that does not fit your rule is the answer.", "icon": "check" }
+          {
+            "label": "List properties",
+            "detail": "For each shape, note its properties: number of sides, shading (white, grey, black), size (small, medium, large), orientation, symmetry, and any internal details like lines or dots.",
+            "icon": "pencil"
+          },
+          {
+            "label": "Look for a group of four",
+            "detail": "Try to find a property that exactly four shapes share. For example, four shapes might all have curved edges while one has straight edges.",
+            "icon": "search"
+          },
+          {
+            "label": "Test your rule",
+            "detail": "Check that your rule includes exactly four shapes and excludes exactly one. If it excludes two or more, your rule is too strict - try a different property.",
+            "icon": "brain"
+          },
+          {
+            "label": "Pick the odd one",
+            "detail": "The shape that does not fit your rule is the answer.",
+            "icon": "check"
+          }
         ]
       },
       {
         "type": "worked_example",
         "heading": "Worked Example",
         "question": {
-          "text": "Which shape is the odd one out?\n\nImagine five shapes:\nA: Triangle with 1 dot inside\nB: Square with 1 dot inside\nC: Pentagon with 1 dot inside\nD: Hexagon with 2 dots inside\nE: Circle with 1 dot inside",
-          "options": ["A", "B", "C", "D", "E"]
+          "text": "Choose the option which is most unlike the others.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "option_images": [
+            "/images/granular_non_verbal_reasoning/q5_option_0.png",
+            "/images/granular_non_verbal_reasoning/q5_option_1.png",
+            "/images/granular_non_verbal_reasoning/q5_option_2.png",
+            "/images/granular_non_verbal_reasoning/q5_option_3.png",
+            "/images/granular_non_verbal_reasoning/q5_option_4.png"
+          ]
         },
         "walkthrough": [
-          { "step": 1, "text": "List properties: All shapes are different types (triangle, square, pentagon, hexagon, circle). Look at the dots inside each shape.", "highlight": "shape" },
-          { "step": 2, "text": "A, B, C, and E each have exactly 1 dot inside. Shape D has 2 dots inside.", "highlight": "pattern" },
-          { "step": 3, "text": "The rule connecting four shapes is: 'has exactly 1 dot inside'. Shape D breaks this rule because it has 2 dots.", "highlight": "answer" }
+          {
+            "step": 1,
+            "text": "Look at all five shapes. Each one has an outer shape and an inner shape. Compare the relationship between the outer and inner shapes across the five options.",
+            "highlight": "shape"
+          },
+          {
+            "step": 2,
+            "text": "In four of the figures, the outer shape is a larger downwards reflection of the inner shape - the outer mirrors the inner but is bigger and flipped.",
+            "highlight": "pattern"
+          },
+          {
+            "step": 3,
+            "text": "Option D breaks this rule - its outer shape is not a reflection of the inner shape. That makes D the odd one out.",
+            "highlight": "answer"
+          }
         ],
         "answer": "D"
       },
@@ -104,9 +286,18 @@
         "type": "tips",
         "heading": "Common Traps",
         "items": [
-          { "trap": "Picking the shape that looks most different visually", "fix": "Do not just go by first impressions. A circle might look different from squares and triangles, but the odd one out could be based on shading, not shape type." },
-          { "trap": "Finding a rule that excludes two shapes", "fix": "Your rule must leave exactly one shape out. If two shapes do not fit, your rule is wrong - keep looking for a different property." },
-          { "trap": "Ignoring small details like dots, lines, or arrows inside shapes", "fix": "Always look inside the shapes as well as at their outlines. Small details like internal lines, dots, or arrows are often the key feature." }
+          {
+            "trap": "Picking the shape that looks most different visually",
+            "fix": "Do not just go by first impressions. A circle might look different from squares and triangles, but the odd one out could be based on shading, not shape type."
+          },
+          {
+            "trap": "Finding a rule that excludes two shapes",
+            "fix": "Your rule must leave exactly one shape out. If two shapes do not fit, your rule is wrong - keep looking for a different property."
+          },
+          {
+            "trap": "Ignoring small details like dots, lines, or arrows inside shapes",
+            "fix": "Always look inside the shapes as well as at their outlines. Small details like internal lines, dots, or arrows are often the key feature."
+          }
         ]
       },
       {
@@ -133,41 +324,126 @@
         "heading": "What is this question type?",
         "body": "<p>In a Shape Analogy question, you are given a pair of shapes (A and B) that are related by a rule. Then you are given a third shape (C) and must find the shape (from the answer options) that relates to C in the <strong>same way</strong> that B relates to A.</p><p>Think of it like this: <em>'Shape A is to Shape B as Shape C is to ?'</em>. You need to work out what happened to turn A into B, and then apply that same change to C.</p><p>The change could involve rotation, reflection, shading, adding or removing elements, changing size, or swapping colours. This question type tests your ability to identify and transfer rules from one pair to another.</p>",
         "visual": {
-          "type": "mermaid",
-          "code": "flowchart LR\n  A[\"Shape A\"] -->|\"rule\"| B[\"Shape B\"]\n  C[\"Shape C\"] -->|\"same rule\"| D[\"? Answer\"]\n  style D fill:#f96,stroke:#333"
+          "type": "flowchart",
+          "direction": "LR",
+          "nodes": [
+            {
+              "id": "A",
+              "label": "Shape A",
+              "style": "primary"
+            },
+            {
+              "id": "B",
+              "label": "Shape B",
+              "style": "step"
+            },
+            {
+              "id": "C",
+              "label": "Shape C",
+              "style": "step"
+            },
+            {
+              "id": "D",
+              "label": "? Answer",
+              "style": "warning"
+            }
+          ],
+          "edges": [
+            {
+              "from": "A",
+              "to": "B",
+              "label": "rule"
+            },
+            {
+              "from": "C",
+              "to": "D",
+              "label": "same rule"
+            }
+          ]
         }
       },
       {
         "type": "strategy",
         "heading": "Strategy: Steps to Solve",
         "steps": [
-          { "label": "Study the first pair", "detail": "Look closely at Shape A and Shape B. Ask: what changed? Did it rotate, flip, change shading, gain or lose elements, grow or shrink?", "icon": "eye" },
-          { "label": "Name the rule clearly", "detail": "Describe the change in words: 'the shape rotates 90 degrees clockwise and the shading swaps from white to black'. Be as precise as you can.", "icon": "brain" },
-          { "label": "Apply the rule to Shape C", "detail": "Take Shape C and apply exactly the same changes you found in step 2. Picture what the result should look like.", "icon": "puzzle" },
-          { "label": "Match your prediction", "detail": "Find the answer option that matches your predicted result.", "icon": "check" }
+          {
+            "label": "Study the first pair",
+            "detail": "Look closely at Shape A and Shape B. Ask: what changed? Did it rotate, flip, change shading, gain or lose elements, grow or shrink?",
+            "icon": "eye"
+          },
+          {
+            "label": "Name the rule clearly",
+            "detail": "Describe the change in words: 'the shape rotates 90 degrees clockwise and the shading swaps from white to black'. Be as precise as you can.",
+            "icon": "brain"
+          },
+          {
+            "label": "Apply the rule to Shape C",
+            "detail": "Take Shape C and apply exactly the same changes you found in step 2. Picture what the result should look like.",
+            "icon": "puzzle"
+          },
+          {
+            "label": "Match your prediction",
+            "detail": "Find the answer option that matches your predicted result.",
+            "icon": "check"
+          }
         ]
       },
       {
         "type": "worked_example",
         "heading": "Worked Example",
         "question": {
-          "text": "Shape A is to Shape B as Shape C is to ?\n\nImagine:\nA: Large white circle\nB: Small black circle\nC: Large white square\n\nWhat should replace the question mark?",
-          "options": ["Small black square", "Large black square", "Small white square", "Small black circle", "Large white circle"]
+          "text": "Look at how the first figure changes to become the second figure. Then choose the option which would look like the third figure if you changed it in the same way.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "option_images": [
+            "/images/granular_non_verbal_reasoning/q7_option_0.png",
+            "/images/granular_non_verbal_reasoning/q7_option_1.png",
+            "/images/granular_non_verbal_reasoning/q7_option_2.png",
+            "/images/granular_non_verbal_reasoning/q7_option_3.png",
+            "/images/granular_non_verbal_reasoning/q7_option_4.png"
+          ],
+          "image_url": "/images/granular_non_verbal_reasoning/q7_question_0.png"
         },
         "walkthrough": [
-          { "step": 1, "text": "Compare A to B: A is a large white circle. B is a small black circle. Two things changed: size went from large to small, and shading went from white to black.", "highlight": "shape" },
-          { "step": 2, "text": "The rule is: make it smaller AND change the shading from white to black. The shape type stays the same (circle stays as circle).", "highlight": "pattern" },
-          { "step": 3, "text": "Apply the rule to C (large white square): make it smaller and change white to black. The answer should be a small black square.", "highlight": "answer" }
+          {
+            "step": 1,
+            "text": "Study the first pair of figures. The first figure transforms into the second. Identify what changes: the outer small shape gets bigger, and the long line gets smaller and moves inside it.",
+            "highlight": "shape"
+          },
+          {
+            "step": 2,
+            "text": "Also notice the inner small shape moves to the right of the figure and gets taller. These are the transformation rules to apply.",
+            "highlight": "pattern"
+          },
+          {
+            "step": 3,
+            "text": "Apply the same transformation to the third figure. The answer is the option that shows these same changes applied correctly.",
+            "highlight": "answer"
+          }
         ],
-        "answer": "Small black square"
+        "answer": "B"
       },
       {
         "type": "tips",
         "heading": "Common Traps",
         "items": [
-          { "trap": "Only applying part of the rule", "fix": "If two changes happen between A and B (for example size AND shading), make sure you apply both changes to C, not just one." },
-          { "trap": "Applying the rule to the wrong shape", "fix": "You apply the rule to Shape C, not to Shape B. The answer relates to C, not to B." },
-          { "trap": "Confusing what stays the same with what changes", "fix": "If the shape type does not change between A and B (both are circles), then the shape type should not change between C and the answer either (square stays as square)." }
+          {
+            "trap": "Only applying part of the rule",
+            "fix": "If two changes happen between A and B (for example size AND shading), make sure you apply both changes to C, not just one."
+          },
+          {
+            "trap": "Applying the rule to the wrong shape",
+            "fix": "You apply the rule to Shape C, not to Shape B. The answer relates to C, not to B."
+          },
+          {
+            "trap": "Confusing what stays the same with what changes",
+            "fix": "If the shape type does not change between A and B (both are circles), then the shape type should not change between C and the answer either (square stays as square)."
+          }
         ]
       },
       {
@@ -194,41 +470,155 @@
         "heading": "What is this question type?",
         "body": "<p>In a Shape Matrix question, you see a grid (usually 3x3 or 2x2) of shapes with one box empty. The shapes in each row follow a rule, and the shapes in each column follow a rule too. You must find the shape that correctly fills the empty box by satisfying both the row rule and the column rule at the same time.</p><p>Think of it like a puzzle where the rows and columns each tell you part of the answer. You need to combine those clues to find the one shape that fits perfectly.</p><p>These are among the trickiest NVR questions because you must think about patterns in two directions at once.</p>",
         "visual": {
-          "type": "mermaid",
-          "code": "flowchart TD\n  subgraph Grid\n    direction LR\n    R1[\"Row 1: shape shape shape\"]\n    R2[\"Row 2: shape shape shape\"]\n    R3[\"Row 3: shape shape ?\"]\n  end\n  R1 -->|\"Row rule\"| P1[\"Pattern across\"]\n  R3 -->|\"Column rule\"| P2[\"Pattern down\"]\n  P1 --> A[\"Answer must fit BOTH\"]\n  P2 --> A\n  style R3 fill:#f96,stroke:#333\n  style A fill:#6f9,stroke:#333"
+          "type": "flowchart",
+          "direction": "TD",
+          "nodes": [
+            {
+              "id": "R1",
+              "label": "Row 1: shape shape shape",
+              "style": "primary"
+            },
+            {
+              "id": "R2",
+              "label": "Row 2: shape shape shape",
+              "style": "step"
+            },
+            {
+              "id": "R3",
+              "label": "Row 3: shape shape ?",
+              "style": "warning"
+            },
+            {
+              "id": "P1",
+              "label": "Pattern across",
+              "style": "step"
+            },
+            {
+              "id": "P2",
+              "label": "Pattern down",
+              "style": "step"
+            },
+            {
+              "id": "A",
+              "label": "Answer must fit BOTH",
+              "style": "highlight"
+            }
+          ],
+          "edges": [
+            {
+              "from": "R1",
+              "to": "P1",
+              "label": "Row rule"
+            },
+            {
+              "from": "R3",
+              "to": "P2",
+              "label": "Column rule"
+            },
+            {
+              "from": "P1",
+              "to": "A"
+            },
+            {
+              "from": "P2",
+              "to": "A"
+            }
+          ],
+          "subgraphs": [
+            {
+              "label": "Grid",
+              "nodeIds": [
+                "R1",
+                "R2",
+                "R3"
+              ],
+              "id": "sg_grid"
+            }
+          ]
         }
       },
       {
         "type": "strategy",
         "heading": "Strategy: Steps to Solve",
         "steps": [
-          { "label": "Read the rows", "detail": "Look across each row. What stays the same? What changes? For example, the shape might stay the same across a row but the shading changes.", "icon": "eye" },
-          { "label": "Read the columns", "detail": "Now look down each column. What pattern do you see? Perhaps the size increases going down, or the number of sides changes.", "icon": "search" },
-          { "label": "Combine the clues", "detail": "The missing shape must satisfy both the row rule and the column rule. Use the row to narrow down some properties, then use the column to narrow down the rest.", "icon": "brain" },
-          { "label": "Pick the answer", "detail": "Find the option that matches all the properties you have worked out.", "icon": "check" }
+          {
+            "label": "Read the rows",
+            "detail": "Look across each row. What stays the same? What changes? For example, the shape might stay the same across a row but the shading changes.",
+            "icon": "eye"
+          },
+          {
+            "label": "Read the columns",
+            "detail": "Now look down each column. What pattern do you see? Perhaps the size increases going down, or the number of sides changes.",
+            "icon": "search"
+          },
+          {
+            "label": "Combine the clues",
+            "detail": "The missing shape must satisfy both the row rule and the column rule. Use the row to narrow down some properties, then use the column to narrow down the rest.",
+            "icon": "brain"
+          },
+          {
+            "label": "Pick the answer",
+            "detail": "Find the option that matches all the properties you have worked out.",
+            "icon": "check"
+          }
         ]
       },
       {
         "type": "worked_example",
         "heading": "Worked Example",
         "question": {
-          "text": "Complete the 3x3 grid. The missing shape is in the bottom-right corner.\n\nImagine:\nRow 1: Circle(small) | Circle(medium) | Circle(large)\nRow 2: Square(small) | Square(medium) | Square(large)\nRow 3: Triangle(small) | Triangle(medium) | ?\n\nWhat fills the gap?",
-          "options": ["Triangle(large)", "Circle(large)", "Square(medium)", "Triangle(small)", "Hexagon(large)"]
+          "text": "Look at the shapes. Choose the correct answer.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "option_images": [
+            "/images/granular_non_verbal_reasoning/gl_nvr1_q1_opt0.png",
+            "/images/granular_non_verbal_reasoning/gl_nvr1_q1_opt1.png",
+            "/images/granular_non_verbal_reasoning/gl_nvr1_q1_opt2.png",
+            "/images/granular_non_verbal_reasoning/gl_nvr1_q1_opt3.png",
+            "/images/granular_non_verbal_reasoning/gl_nvr1_q1_opt4.png"
+          ],
+          "image_url": "/images/granular_non_verbal_reasoning/gl_nvr1_q1_qonly.png"
         },
         "walkthrough": [
-          { "step": 1, "text": "Row rule: In each row, the shape type stays the same and the size increases from small to medium to large. Row 3 has triangles, so the missing shape is a triangle, and it should be large.", "highlight": "shape" },
-          { "step": 2, "text": "Column rule: In each column, the size stays the same but the shape type changes: circle, square, triangle. Column 3 has circle(large), square(large), so the missing shape should be triangle(large).", "highlight": "pattern" },
-          { "step": 3, "text": "Both rules agree: the answer is a large triangle.", "highlight": "answer" }
+          {
+            "step": 1,
+            "text": "This is a pattern-completion question. Look at the shapes and identify what changes across the rows and columns of the grid.",
+            "highlight": "shape"
+          },
+          {
+            "step": 2,
+            "text": "Track each property: shape type, shading, orientation, and any internal features. Find the rule governing each row and column.",
+            "highlight": "pattern"
+          },
+          {
+            "step": 3,
+            "text": "The missing shape must satisfy both the row rule and column rule simultaneously. Match your prediction against the options.",
+            "highlight": "answer"
+          }
         ],
-        "answer": "Triangle(large)"
+        "answer": "B"
       },
       {
         "type": "tips",
         "heading": "Common Traps",
         "items": [
-          { "trap": "Only checking rows and forgetting columns", "fix": "Always check both directions. The answer must work for its row AND its column." },
-          { "trap": "Getting confused by grids with three changing properties", "fix": "Break it down: first work out the shape, then the size, then the shading. Handle one property at a time." },
-          { "trap": "Rushing and picking the first option that partly matches", "fix": "Check every property of your chosen answer against both the row and column rules before committing." }
+          {
+            "trap": "Only checking rows and forgetting columns",
+            "fix": "Always check both directions. The answer must work for its row AND its column."
+          },
+          {
+            "trap": "Getting confused by grids with three changing properties",
+            "fix": "Break it down: first work out the shape, then the size, then the shading. Handle one property at a time."
+          },
+          {
+            "trap": "Rushing and picking the first option that partly matches",
+            "fix": "Check every property of your chosen answer against both the row and column rules before committing."
+          }
         ]
       },
       {
@@ -255,41 +645,141 @@
         "heading": "What is this question type?",
         "body": "<p>In a Rotation question, you are given a shape and must identify which of the answer options shows the <strong>same shape rotated</strong> (turned) to a different angle. The shape is not flipped or reflected - it is only turned around its centre point.</p><p>Rotation means spinning the shape like turning a steering wheel. <strong>Clockwise</strong> rotation goes in the same direction as clock hands (to the right). <strong>Anticlockwise</strong> rotation goes in the opposite direction (to the left).</p><p>Common rotation amounts are 90 degrees (a quarter turn), 180 degrees (a half turn), and 270 degrees (a three-quarter turn). The shape itself does not change - only its orientation changes.</p>",
         "visual": {
-          "type": "mermaid",
-          "code": "flowchart LR\n  O[\"Original shape\"] -->|\"90 clockwise\"| R1[\"Quarter turn\"]\n  O -->|\"180\"| R2[\"Half turn\"]\n  O -->|\"270 clockwise\"| R3[\"Three-quarter turn\"]\n  O -->|\"360\"| R4[\"Back to start\"]\n  style O fill:#fbb,stroke:#333"
+          "type": "flowchart",
+          "direction": "LR",
+          "nodes": [
+            {
+              "id": "O",
+              "label": "Original shape",
+              "style": "primary"
+            },
+            {
+              "id": "R1",
+              "label": "Quarter turn",
+              "style": "step"
+            },
+            {
+              "id": "R2",
+              "label": "Half turn",
+              "style": "step"
+            },
+            {
+              "id": "R3",
+              "label": "Three-quarter turn",
+              "style": "step"
+            },
+            {
+              "id": "R4",
+              "label": "Back to start",
+              "style": "step"
+            }
+          ],
+          "edges": [
+            {
+              "from": "O",
+              "to": "R1",
+              "label": "90 clockwise"
+            },
+            {
+              "from": "O",
+              "to": "R2",
+              "label": "180"
+            },
+            {
+              "from": "O",
+              "to": "R3",
+              "label": "270 clockwise"
+            },
+            {
+              "from": "O",
+              "to": "R4",
+              "label": "360"
+            }
+          ]
         }
       },
       {
         "type": "strategy",
         "heading": "Strategy: Steps to Solve",
         "steps": [
-          { "label": "Find a key feature", "detail": "Pick a distinctive part of the shape - a notch, a dot, a pointed corner, or an asymmetric detail. This will be your 'anchor' to track the rotation.", "icon": "eye" },
-          { "label": "Track the feature", "detail": "Imagine (or use your finger to trace) where that key feature would move if the shape were rotated. For 90 degrees clockwise, something pointing up would move to point right.", "icon": "brain" },
-          { "label": "Check it is not a reflection", "detail": "A rotated shape keeps everything in the same relative order. If details appear 'flipped' or in mirror order, it is a reflection, not a rotation. Eliminate those options.", "icon": "search" },
-          { "label": "Confirm your answer", "detail": "Check that ALL parts of the shape match the rotated version, not just your anchor feature.", "icon": "check" }
+          {
+            "label": "Find a key feature",
+            "detail": "Pick a distinctive part of the shape - a notch, a dot, a pointed corner, or an asymmetric detail. This will be your 'anchor' to track the rotation.",
+            "icon": "eye"
+          },
+          {
+            "label": "Track the feature",
+            "detail": "Imagine (or use your finger to trace) where that key feature would move if the shape were rotated. For 90 degrees clockwise, something pointing up would move to point right.",
+            "icon": "brain"
+          },
+          {
+            "label": "Check it is not a reflection",
+            "detail": "A rotated shape keeps everything in the same relative order. If details appear 'flipped' or in mirror order, it is a reflection, not a rotation. Eliminate those options.",
+            "icon": "search"
+          },
+          {
+            "label": "Confirm your answer",
+            "detail": "Check that ALL parts of the shape match the rotated version, not just your anchor feature.",
+            "icon": "check"
+          }
         ]
       },
       {
         "type": "worked_example",
         "heading": "Worked Example",
         "question": {
-          "text": "Which option shows this shape rotated 90 degrees clockwise?\n\nImagine the original: An L-shape pointing up and to the right (like the letter L but with the foot going right).\n\nOptions:\nA: L-shape with foot pointing down (rotated 90 clockwise)\nB: L-shape with foot pointing left (rotated 180)\nC: Backwards L-shape with foot pointing right (reflected)\nD: L-shape with foot pointing up (rotated 270 clockwise)\nE: Same as original (not rotated)",
-          "options": ["A", "B", "C", "D", "E"]
+          "text": "Choose the cube which can be made from the net below.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "option_images": [
+            "/images/granular_non_verbal_reasoning/q51_option_0.png",
+            "/images/granular_non_verbal_reasoning/q51_option_1.png",
+            "/images/granular_non_verbal_reasoning/q51_option_2.png",
+            "/images/granular_non_verbal_reasoning/q51_option_3.png",
+            "/images/granular_non_verbal_reasoning/q51_option_4.png"
+          ],
+          "image_url": "/images/granular_non_verbal_reasoning/q51_question_0.png"
         },
         "walkthrough": [
-          { "step": 1, "text": "The original L-shape has its long arm going up and its short foot going to the right. Our key feature is the foot direction.", "highlight": "shape" },
-          { "step": 2, "text": "When we rotate 90 degrees clockwise: up becomes right, right becomes down. So the long arm should now point to the right and the foot should point down. This matches option A.", "highlight": "pattern" },
-          { "step": 3, "text": "Option C is a trap - it looks similar but it is a mirror image (reflected), not a rotation. Notice the foot goes the wrong way relative to the arm.", "highlight": "answer" }
+          {
+            "step": 1,
+            "text": "Look at the net shown. Identify the distinct patterns or markings on each face of the net - arrows, dots, shading, and shapes.",
+            "highlight": "shape"
+          },
+          {
+            "step": 2,
+            "text": "Mentally fold the net into a cube. Track which faces end up adjacent and which are opposite. Check: can the arrow and grey shape be on the sides shown?",
+            "highlight": "pattern"
+          },
+          {
+            "step": 3,
+            "text": "Eliminate options systematically: the arrow and grey shape must be on opposite sides (ruling out C), the dots need correct rotation (ruling out D), and the grey shape must face the right way (ruling out E).",
+            "highlight": "answer"
+          }
         ],
-        "answer": "A"
+        "answer": "B"
       },
       {
         "type": "tips",
         "heading": "Common Traps",
         "items": [
-          { "trap": "Mixing up rotation and reflection", "fix": "A rotation is a turn. A reflection is a flip (mirror image). If the shape looks like it has been flipped over, it is reflected, not rotated. A quick check: trace the outline in one direction - a rotated shape keeps the same 'handedness' while a reflected one reverses it." },
-          { "trap": "Getting clockwise and anticlockwise confused", "fix": "Clockwise is the direction clock hands move: top goes right, right goes down, down goes left, left goes up. Anticlockwise is the reverse." },
-          { "trap": "Not checking all details after finding the rotation", "fix": "Sometimes two options have the same outline rotation but differ in internal details (dots, lines, shading). Always verify every detail." }
+          {
+            "trap": "Mixing up rotation and reflection",
+            "fix": "A rotation is a turn. A reflection is a flip (mirror image). If the shape looks like it has been flipped over, it is reflected, not rotated. A quick check: trace the outline in one direction - a rotated shape keeps the same 'handedness' while a reflected one reverses it."
+          },
+          {
+            "trap": "Getting clockwise and anticlockwise confused",
+            "fix": "Clockwise is the direction clock hands move: top goes right, right goes down, down goes left, left goes up. Anticlockwise is the reverse."
+          },
+          {
+            "trap": "Not checking all details after finding the rotation",
+            "fix": "Sometimes two options have the same outline rotation but differ in internal details (dots, lines, shading). Always verify every detail."
+          }
         ]
       },
       {
@@ -316,41 +806,135 @@
         "heading": "What is this question type?",
         "body": "<p>In a Reflection question, you must identify which answer option shows the <strong>mirror image</strong> of a given shape. A reflection is what you would see if you placed a mirror along a line next to the shape.</p><p>There are two main types of reflection:</p><ul><li><strong>Horizontal reflection</strong> - the mirror line is vertical (up-down), so the shape flips left to right, like looking in a bathroom mirror.</li><li><strong>Vertical reflection</strong> - the mirror line is horizontal (left-right), so the shape flips top to bottom, like looking at a reflection in a pond.</li></ul><p>When a shape is reflected, everything swaps sides. If a dot is on the left in the original, it appears on the right in the reflection. The shape is NOT rotated - it is flipped.</p>",
         "visual": {
-          "type": "mermaid",
-          "code": "flowchart LR\n  O[\"Original\"] -->|\"Vertical mirror line\"| R1[\"Left-Right flip\"]\n  O -->|\"Horizontal mirror line\"| R2[\"Top-Bottom flip\"]\n  subgraph Key Idea\n    K[\"Everything swaps sides across the mirror line\"]\n  end\n  style O fill:#f9f,stroke:#333\n  style K fill:#ff9,stroke:#333"
+          "type": "flowchart",
+          "direction": "LR",
+          "nodes": [
+            {
+              "id": "O",
+              "label": "Original",
+              "style": "primary"
+            },
+            {
+              "id": "R1",
+              "label": "Left-Right flip",
+              "style": "step"
+            },
+            {
+              "id": "R2",
+              "label": "Top-Bottom flip",
+              "style": "step"
+            },
+            {
+              "id": "K",
+              "label": "Everything swaps sides across the mirror line",
+              "style": "highlight"
+            }
+          ],
+          "edges": [
+            {
+              "from": "O",
+              "to": "R1",
+              "label": "Vertical mirror line"
+            },
+            {
+              "from": "O",
+              "to": "R2",
+              "label": "Horizontal mirror line"
+            }
+          ],
+          "subgraphs": [
+            {
+              "label": "Key Idea",
+              "nodeIds": [
+                "K"
+              ],
+              "id": "sg_key_idea"
+            }
+          ]
         }
       },
       {
         "type": "strategy",
         "heading": "Strategy: Steps to Solve",
         "steps": [
-          { "label": "Find the mirror line", "detail": "The question may tell you where the mirror line is (to the right, below, etc.) or you may need to work it out. This tells you which direction the shape flips.", "icon": "search" },
-          { "label": "Pick an asymmetric detail", "detail": "Find a feature that is NOT in the centre of the shape - a dot on one side, a notch on one corner, an arrow pointing one direction. This feature must swap sides in the reflection.", "icon": "eye" },
-          { "label": "Flip, do not rotate", "detail": "Imagine pressing the shape against the mirror line and seeing its print on the other side. Left becomes right (or top becomes bottom). Do NOT turn the shape - that would be rotation.", "icon": "brain" },
-          { "label": "Match the reflection", "detail": "Find the option where your key detail has swapped sides correctly and all other properties remain unchanged.", "icon": "check" }
+          {
+            "label": "Find the mirror line",
+            "detail": "The question may tell you where the mirror line is (to the right, below, etc.) or you may need to work it out. This tells you which direction the shape flips.",
+            "icon": "search"
+          },
+          {
+            "label": "Pick an asymmetric detail",
+            "detail": "Find a feature that is NOT in the centre of the shape - a dot on one side, a notch on one corner, an arrow pointing one direction. This feature must swap sides in the reflection.",
+            "icon": "eye"
+          },
+          {
+            "label": "Flip, do not rotate",
+            "detail": "Imagine pressing the shape against the mirror line and seeing its print on the other side. Left becomes right (or top becomes bottom). Do NOT turn the shape - that would be rotation.",
+            "icon": "brain"
+          },
+          {
+            "label": "Match the reflection",
+            "detail": "Find the option where your key detail has swapped sides correctly and all other properties remain unchanged.",
+            "icon": "check"
+          }
         ]
       },
       {
         "type": "worked_example",
         "heading": "Worked Example",
         "question": {
-          "text": "Which option shows the reflection of this shape in a vertical mirror line (placed to the right)?\n\nImagine the original: A right-pointing arrow with a black dot at its top-left corner.\n\nOptions:\nA: Left-pointing arrow with black dot at top-right corner\nB: Left-pointing arrow with black dot at top-left corner\nC: Right-pointing arrow with black dot at bottom-left corner\nD: Down-pointing arrow with black dot at top-left corner\nE: Left-pointing arrow with black dot at bottom-right corner",
-          "options": ["A", "B", "C", "D", "E"]
+          "text": "Choose the option that shows the figure below when it has been folded along the dashed line.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "option_images": [
+            "/images/granular_non_verbal_reasoning/q55_option_0.png",
+            "/images/granular_non_verbal_reasoning/q55_option_1.png",
+            "/images/granular_non_verbal_reasoning/q55_option_2.png",
+            "/images/granular_non_verbal_reasoning/q55_option_3.png",
+            "/images/granular_non_verbal_reasoning/q55_option_4.png"
+          ],
+          "image_url": "/images/granular_non_verbal_reasoning/q55_question_0.png"
         },
         "walkthrough": [
-          { "step": 1, "text": "The mirror line is vertical (to the right), so we flip left and right. The arrow should now point left instead of right.", "highlight": "shape" },
-          { "step": 2, "text": "The black dot is at the top-left. When we reflect left-right, left becomes right and right becomes left. But top stays top. So the dot should move to the top-right corner.", "highlight": "pattern" },
-          { "step": 3, "text": "Option A has a left-pointing arrow with the dot at the top-right corner. This matches our reflection perfectly.", "highlight": "answer" }
+          {
+            "step": 1,
+            "text": "Look at the figure with the dashed fold line. Identify which parts of the figure will fold over and overlap when the paper is folded along that line.",
+            "highlight": "shape"
+          },
+          {
+            "step": 2,
+            "text": "When folding, the section on one side of the line flips onto the other side. The fold line must stay in the same position, and the folded portion must be the correct shape.",
+            "highlight": "pattern"
+          },
+          {
+            "step": 3,
+            "text": "Eliminate options where the fold line has moved (D), the folded shape is wrong (B, E), or the figure breaks into too many sections (A). The correct answer shows the proper fold result.",
+            "highlight": "answer"
+          }
         ],
-        "answer": "A"
+        "answer": "C"
       },
       {
         "type": "tips",
         "heading": "Common Traps",
         "items": [
-          { "trap": "Rotating instead of reflecting", "fix": "Rotation turns the whole shape around a point. Reflection flips it across a line. A reflected shape has its 'handedness' reversed - like your left hand reflected becomes a right hand." },
-          { "trap": "Reflecting across the wrong line", "fix": "Read the question carefully. A vertical mirror line (up-down line) flips left and right. A horizontal mirror line (left-right line) flips top and bottom. Do not mix them up." },
-          { "trap": "Forgetting to flip internal details", "fix": "Everything flips in a reflection, including dots, lines, shading patterns, and arrows inside the shape. If the original has a line in the top-left, the reflection has it in the top-right (for a vertical mirror line)." }
+          {
+            "trap": "Rotating instead of reflecting",
+            "fix": "Rotation turns the whole shape around a point. Reflection flips it across a line. A reflected shape has its 'handedness' reversed - like your left hand reflected becomes a right hand."
+          },
+          {
+            "trap": "Reflecting across the wrong line",
+            "fix": "Read the question carefully. A vertical mirror line (up-down line) flips left and right. A horizontal mirror line (left-right line) flips top and bottom. Do not mix them up."
+          },
+          {
+            "trap": "Forgetting to flip internal details",
+            "fix": "Everything flips in a reflection, including dots, lines, shading patterns, and arrows inside the shape. If the original has a line in the top-left, the reflection has it in the top-right (for a vertical mirror line)."
+          }
         ]
       },
       {
@@ -377,41 +961,154 @@
         "heading": "What is this question type?",
         "body": "<p>3D Spatial Reasoning questions test your ability to think in three dimensions. The most common type shows you a <strong>net</strong> (a flat shape that folds up into a 3D shape) and asks which 3D shape it would make, or the other way around.</p><p>A <strong>net</strong> is what you get if you cut along the edges of a box and unfold it flat. For example, a cube net has 6 squares arranged so they can fold into a cube.</p><p>Other questions might ask you to:</p><ul><li>Identify which cube can be made from a given net</li><li>Work out which faces are opposite each other when the net is folded</li><li>Visualise what a shape looks like from a different viewpoint (top, side, front)</li></ul><p>The key skill is being able to imagine folding and unfolding shapes in your head.</p>",
         "visual": {
-          "type": "mermaid",
-          "code": "flowchart TD\n  N[\"Flat Net\"] -->|\"Fold up\"| C[\"3D Cube\"]\n  C -->|\"Unfold\"| N\n  subgraph Think About\n    F1[\"Which faces touch?\"]\n    F2[\"Which faces are opposite?\"]\n    F3[\"Which way do patterns face?\"]\n  end\n  C --> F1\n  C --> F2\n  C --> F3\n  style N fill:#daf,stroke:#333\n  style C fill:#daf,stroke:#333"
+          "type": "flowchart",
+          "direction": "TD",
+          "nodes": [
+            {
+              "id": "N",
+              "label": "Flat Net",
+              "style": "primary"
+            },
+            {
+              "id": "C",
+              "label": "3D Cube",
+              "style": "primary"
+            },
+            {
+              "id": "F1",
+              "label": "Which faces touch?",
+              "style": "step"
+            },
+            {
+              "id": "F2",
+              "label": "Which faces are opposite?",
+              "style": "step"
+            },
+            {
+              "id": "F3",
+              "label": "Which way do patterns face?",
+              "style": "step"
+            }
+          ],
+          "edges": [
+            {
+              "from": "N",
+              "to": "C",
+              "label": "Fold up"
+            },
+            {
+              "from": "C",
+              "to": "N",
+              "label": "Unfold"
+            },
+            {
+              "from": "C",
+              "to": "F1"
+            },
+            {
+              "from": "C",
+              "to": "F2"
+            },
+            {
+              "from": "C",
+              "to": "F3"
+            }
+          ],
+          "subgraphs": [
+            {
+              "label": "Think About",
+              "nodeIds": [
+                "F1",
+                "F2",
+                "F3"
+              ],
+              "id": "sg_think_about"
+            }
+          ]
         }
       },
       {
         "type": "strategy",
         "heading": "Strategy: Steps to Solve",
         "steps": [
-          { "label": "Identify the base face", "detail": "Pick one square in the net as the 'base' (bottom of the cube). This gives you a starting point to work out where the other faces end up.", "icon": "eye" },
-          { "label": "Fold in your mind", "detail": "Mentally fold each face up from the base, one at a time. Track which face becomes the top, front, back, left, right. Use your fingers to mime the folding if it helps.", "icon": "brain" },
-          { "label": "Check opposites", "detail": "In a cube net, opposite faces can never share an edge. If two squares share an edge in the net, they are adjacent faces, not opposite. Opposite faces are always separated by one square.", "icon": "search" },
-          { "label": "Match patterns and orientation", "detail": "If the faces have patterns (dots, stripes, letters), track how they rotate when folded. A pattern facing up in the net might face sideways on the cube.", "icon": "check" }
+          {
+            "label": "Identify the base face",
+            "detail": "Pick one square in the net as the 'base' (bottom of the cube). This gives you a starting point to work out where the other faces end up.",
+            "icon": "eye"
+          },
+          {
+            "label": "Fold in your mind",
+            "detail": "Mentally fold each face up from the base, one at a time. Track which face becomes the top, front, back, left, right. Use your fingers to mime the folding if it helps.",
+            "icon": "brain"
+          },
+          {
+            "label": "Check opposites",
+            "detail": "In a cube net, opposite faces can never share an edge. If two squares share an edge in the net, they are adjacent faces, not opposite. Opposite faces are always separated by one square.",
+            "icon": "search"
+          },
+          {
+            "label": "Match patterns and orientation",
+            "detail": "If the faces have patterns (dots, stripes, letters), track how they rotate when folded. A pattern facing up in the net might face sideways on the cube.",
+            "icon": "check"
+          }
         ]
       },
       {
         "type": "worked_example",
         "heading": "Worked Example",
         "question": {
-          "text": "A cube net is shown with 6 squares in a cross shape (+). The centre square has a STAR. The square above the centre has a CIRCLE. The square below has a TRIANGLE. The square to the left has STRIPES. The square to the right has DOTS. The bottom of the cross (below the triangle) has a HEART.\n\nIf the STAR face is the base (bottom of the cube), which pattern is on the top face?",
-          "options": ["CIRCLE", "TRIANGLE", "HEART", "STRIPES", "DOTS"]
+          "text": "Choose the option which is a top‑down 2D view of the 3D figure below.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "option_images": [
+            "/images/granular_non_verbal_reasoning/q1_option_0.png",
+            "/images/granular_non_verbal_reasoning/q1_option_1.png",
+            "/images/granular_non_verbal_reasoning/q1_option_2.png",
+            "/images/granular_non_verbal_reasoning/q1_option_3.png",
+            "/images/granular_non_verbal_reasoning/q1_option_4.png"
+          ],
+          "image_url": "/images/granular_non_verbal_reasoning/q1_question_0.png"
         },
         "walkthrough": [
-          { "step": 1, "text": "Place the STAR as the base (bottom). The squares directly connected to the centre (CIRCLE above, TRIANGLE below, STRIPES left, DOTS right) fold up to become the four side faces.", "highlight": "shape" },
-          { "step": 2, "text": "The HEART is below the TRIANGLE in the net. When we fold the TRIANGLE up to become the front face, the HEART continues folding and ends up on top.", "highlight": "pattern" },
-          { "step": 3, "text": "So the top face (opposite the STAR base) is the HEART. Notice that STAR and HEART do not share an edge in the net - they are separated by the TRIANGLE, confirming they are opposite faces.", "highlight": "answer" }
+          {
+            "step": 1,
+            "text": "Look at the 3D figure shown. You need to imagine looking directly down at it from above - a bird's eye view.",
+            "highlight": "shape"
+          },
+          {
+            "step": 2,
+            "text": "Count visible blocks from above. There are five blocks visible from the top. This rules out option E which shows a different count. Only one blue block is visible from above, ruling out D.",
+            "highlight": "pattern"
+          },
+          {
+            "step": 3,
+            "text": "Check the arrangement: there are two blocks visible on the left-hand side when viewed from above, which rules out B. The remaining option matches the correct top-down view.",
+            "highlight": "answer"
+          }
         ],
-        "answer": "HEART"
+        "answer": "C"
       },
       {
         "type": "tips",
         "heading": "Common Traps",
         "items": [
-          { "trap": "Thinking adjacent faces in the net are opposite on the cube", "fix": "If two squares share an edge in the net, they will be side-by-side (adjacent) on the cube, NOT opposite. Opposite faces are always separated by at least one square in the net." },
-          { "trap": "Forgetting that patterns rotate when faces fold", "fix": "When a face folds up, any pattern on it may change orientation. An arrow pointing right on the flat net might point up when that face is folded to become a side. Track the direction carefully." },
-          { "trap": "Not recognising valid cube nets", "fix": "There are exactly 11 different nets that fold into a cube. A quick rule: a valid net has exactly 6 squares, no overlapping when folded, and no more than 4 squares in a row." }
+          {
+            "trap": "Thinking adjacent faces in the net are opposite on the cube",
+            "fix": "If two squares share an edge in the net, they will be side-by-side (adjacent) on the cube, NOT opposite. Opposite faces are always separated by at least one square in the net."
+          },
+          {
+            "trap": "Forgetting that patterns rotate when faces fold",
+            "fix": "When a face folds up, any pattern on it may change orientation. An arrow pointing right on the flat net might point up when that face is folded to become a side. Track the direction carefully."
+          },
+          {
+            "trap": "Not recognising valid cube nets",
+            "fix": "There are exactly 11 different nets that fold into a cube. A quick rule: a valid net has exactly 6 squares, no overlapping when folded, and no more than 4 squares in a row."
+          }
         ]
       },
       {
@@ -438,41 +1135,171 @@
         "heading": "What is this question type?",
         "body": "<p>In a Shape Codes question, you are shown several shapes, each with a two-letter or three-letter code. Each letter in the code represents one property of the shape - for example, one letter might stand for the shape type, another for the shading, and another for the size.</p><p>Your job is to work out what each letter means by comparing the codes and shapes. Then you use your knowledge to find the correct code for a new shape, or to find which shape matches a given code.</p><p>This is like cracking a secret code. You compare shapes that share a letter to find out what that letter represents.</p>",
         "visual": {
-          "type": "mermaid",
-          "code": "flowchart TD\n  subgraph Given\n    S1[\"Shape 1 = AX\"]\n    S2[\"Shape 2 = BX\"]\n    S3[\"Shape 3 = AY\"]\n  end\n  S1 --> C1[\"Compare S1 and S2: same X, different A/B\"]\n  S1 --> C2[\"Compare S1 and S3: same A, different X/Y\"]\n  C1 --> D1[\"X = shared property\"]\n  C2 --> D2[\"A = shared property\"]\n  D1 --> ANS[\"Crack the code!\"]\n  D2 --> ANS\n  style ANS fill:#99f,stroke:#333"
+          "type": "flowchart",
+          "direction": "TD",
+          "nodes": [
+            {
+              "id": "S1",
+              "label": "Shape 1 = AX",
+              "style": "primary"
+            },
+            {
+              "id": "S2",
+              "label": "Shape 2 = BX",
+              "style": "step"
+            },
+            {
+              "id": "S3",
+              "label": "Shape 3 = AY",
+              "style": "step"
+            },
+            {
+              "id": "C1",
+              "label": "Compare S1 and S2: same X, different A/B",
+              "style": "step"
+            },
+            {
+              "id": "C2",
+              "label": "Compare S1 and S3: same A, different X/Y",
+              "style": "step"
+            },
+            {
+              "id": "D1",
+              "label": "X = shared property",
+              "style": "step"
+            },
+            {
+              "id": "D2",
+              "label": "A = shared property",
+              "style": "step"
+            },
+            {
+              "id": "ANS",
+              "label": "Crack the code!",
+              "style": "highlight"
+            }
+          ],
+          "edges": [
+            {
+              "from": "S1",
+              "to": "C1"
+            },
+            {
+              "from": "S1",
+              "to": "C2"
+            },
+            {
+              "from": "C1",
+              "to": "D1"
+            },
+            {
+              "from": "C2",
+              "to": "D2"
+            },
+            {
+              "from": "D1",
+              "to": "ANS"
+            },
+            {
+              "from": "D2",
+              "to": "ANS"
+            }
+          ],
+          "subgraphs": [
+            {
+              "label": "Given",
+              "nodeIds": [
+                "S1",
+                "S2",
+                "S3"
+              ],
+              "id": "sg_given"
+            }
+          ]
         }
       },
       {
         "type": "strategy",
         "heading": "Strategy: Steps to Solve",
         "steps": [
-          { "label": "List properties of each shape", "detail": "Write down the properties of each shape: type (circle, square, etc.), shading (white, grey, black), size (small, large), and any extras (number of sides, dots, lines).", "icon": "pencil" },
-          { "label": "Compare shapes with shared code letters", "detail": "Find two shapes that share a code letter. What property do they also share? That letter stands for that property. For example, if shapes with code 'A_' are both circles, then A means circle.", "icon": "link" },
-          { "label": "Confirm with different shapes", "detail": "Check your theory with another pair. If shapes without 'A' are not circles, that confirms A = circle.", "icon": "search" },
-          { "label": "Build the full code and answer", "detail": "Once you know what each letter means, build the code for the new shape by looking at its properties.", "icon": "check" }
+          {
+            "label": "List properties of each shape",
+            "detail": "Write down the properties of each shape: type (circle, square, etc.), shading (white, grey, black), size (small, large), and any extras (number of sides, dots, lines).",
+            "icon": "pencil"
+          },
+          {
+            "label": "Compare shapes with shared code letters",
+            "detail": "Find two shapes that share a code letter. What property do they also share? That letter stands for that property. For example, if shapes with code 'A_' are both circles, then A means circle.",
+            "icon": "link"
+          },
+          {
+            "label": "Confirm with different shapes",
+            "detail": "Check your theory with another pair. If shapes without 'A' are not circles, that confirms A = circle.",
+            "icon": "search"
+          },
+          {
+            "label": "Build the full code and answer",
+            "detail": "Once you know what each letter means, build the code for the new shape by looking at its properties.",
+            "icon": "check"
+          }
         ]
       },
       {
         "type": "worked_example",
         "heading": "Worked Example",
         "question": {
-          "text": "Each shape has a two-letter code. Work out what each letter means.\n\nShape 1: Large circle = AX\nShape 2: Large square = BX\nShape 3: Small circle = AY\nShape 4: Small triangle = CY\n\nWhat is the code for a Large triangle?",
-          "options": ["CX", "BY", "AY", "BX", "CY"]
+          "text": "Each of the figures on the left has code letters to describe it. Work out how the letters go with the figures, then choose the code for the new figure on the right.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "option_images": [
+            "/images/granular_non_verbal_reasoning/q3_option_0.png",
+            "/images/granular_non_verbal_reasoning/q3_option_1.png",
+            "/images/granular_non_verbal_reasoning/q3_option_2.png",
+            "/images/granular_non_verbal_reasoning/q3_option_3.png",
+            "/images/granular_non_verbal_reasoning/q3_option_4.png"
+          ],
+          "image_url": "/images/granular_non_verbal_reasoning/q3_question_0.png"
         },
         "walkthrough": [
-          { "step": 1, "text": "Compare Shape 1 (AX, large circle) and Shape 2 (BX, large square). They share the letter X and are both large. They differ in A vs B and circle vs square. So the first letter is the shape type: A = circle, B = square. And X relates to being large.", "highlight": "shape" },
-          { "step": 2, "text": "Compare Shape 1 (AX, large circle) and Shape 3 (AY, small circle). They share the letter A and are both circles. They differ in X vs Y and large vs small. This confirms: A = circle, X = large, Y = small.", "highlight": "pattern" },
-          { "step": 3, "text": "Look at Shape 4 (CY, small triangle). Y = small (which we already know), and this is a triangle, so C = triangle. For a large triangle: C (triangle) + X (large) = CX.", "highlight": "answer" }
+          {
+            "step": 1,
+            "text": "Each figure on the left has code letters. Compare figures that share a code letter to discover what that letter represents.",
+            "highlight": "shape"
+          },
+          {
+            "step": 2,
+            "text": "Crack the code: B = four-pointed star, C = five-pointed star, D = six-pointed star. F = black, G = white, H = grey. M = lines on the left, N = lines on the right.",
+            "highlight": "pattern"
+          },
+          {
+            "step": 3,
+            "text": "Look at the new figure on the right. Identify its star type, colour, and line position, then build the code from your key.",
+            "highlight": "answer"
+          }
         ],
-        "answer": "CX"
+        "answer": "A"
       },
       {
         "type": "tips",
         "heading": "Common Traps",
         "items": [
-          { "trap": "Guessing what a letter means without comparing shapes", "fix": "Always compare two shapes that share a letter. The property they have in common is what the letter represents. Never guess based on a single shape." },
-          { "trap": "Mixing up which letter represents which property", "fix": "Write a clear key as you decode: 'First letter = shape type, Second letter = size'. Keep referring back to your key." },
-          { "trap": "Forgetting to check your code against all given shapes", "fix": "After you think you have cracked the code, verify it works for every shape shown. If it fails for even one shape, reconsider your theory." }
+          {
+            "trap": "Guessing what a letter means without comparing shapes",
+            "fix": "Always compare two shapes that share a letter. The property they have in common is what the letter represents. Never guess based on a single shape."
+          },
+          {
+            "trap": "Mixing up which letter represents which property",
+            "fix": "Write a clear key as you decode: 'First letter = shape type, Second letter = size'. Keep referring back to your key."
+          },
+          {
+            "trap": "Forgetting to check your code against all given shapes",
+            "fix": "After you think you have cracked the code, verify it works for every shape shown. If it fails for even one shape, reconsider your theory."
+          }
         ]
       },
       {
@@ -499,41 +1326,173 @@
         "heading": "What is this question type?",
         "body": "<p>Visual Reasoning is a broad category that covers various pattern recognition and visual problem-solving questions. These questions might not fit neatly into the other NVR categories but still test your ability to see patterns, relationships, and rules in shapes and figures.</p><p>You might be asked to:</p><ul><li>Find which shape belongs to a group (classification)</li><li>Identify a shape that has been hidden or overlapped</li><li>Work out how shapes combine or overlap</li><li>Spot patterns in arrangements of shapes, lines, or dots</li><li>Determine which shape results from combining or subtracting other shapes</li></ul><p>The key to all visual reasoning is to be <strong>systematic</strong>. Instead of guessing by 'feel', break the problem down and check each property one at a time.</p>",
         "visual": {
-          "type": "mermaid",
-          "code": "mindmap\n  root((Visual Reasoning))\n    Classification\n      Which group does this shape belong to?\n    Overlap\n      What do you see when shapes combine?\n    Hidden shapes\n      Which shape is hiding underneath?\n    Combination\n      What shape results from adding or subtracting?"
+          "type": "flowchart",
+          "direction": "TD",
+          "nodes": [
+            {
+              "id": "N0",
+              "label": "Visual Reasoning",
+              "style": "primary"
+            },
+            {
+              "id": "N1",
+              "label": "Classification",
+              "style": "step"
+            },
+            {
+              "id": "N2",
+              "label": "Which group does this shape belong to?",
+              "style": "step"
+            },
+            {
+              "id": "N3",
+              "label": "Overlap",
+              "style": "step"
+            },
+            {
+              "id": "N4",
+              "label": "What do you see when shapes combine?",
+              "style": "step"
+            },
+            {
+              "id": "N5",
+              "label": "Hidden shapes",
+              "style": "step"
+            },
+            {
+              "id": "N6",
+              "label": "Which shape is hiding underneath?",
+              "style": "step"
+            },
+            {
+              "id": "N7",
+              "label": "Combination",
+              "style": "step"
+            },
+            {
+              "id": "N8",
+              "label": "What shape results from adding or subtracting?",
+              "style": "step"
+            }
+          ],
+          "edges": [
+            {
+              "from": "N0",
+              "to": "N1"
+            },
+            {
+              "from": "N1",
+              "to": "N2"
+            },
+            {
+              "from": "N0",
+              "to": "N3"
+            },
+            {
+              "from": "N3",
+              "to": "N4"
+            },
+            {
+              "from": "N0",
+              "to": "N5"
+            },
+            {
+              "from": "N5",
+              "to": "N6"
+            },
+            {
+              "from": "N0",
+              "to": "N7"
+            },
+            {
+              "from": "N7",
+              "to": "N8"
+            }
+          ]
         }
       },
       {
         "type": "strategy",
         "heading": "Strategy: Steps to Solve",
         "steps": [
-          { "label": "Understand the question type", "detail": "Read the instructions carefully. Are you grouping shapes, combining shapes, or finding hidden shapes? Each type needs a slightly different approach.", "icon": "lightbulb" },
-          { "label": "List all visible properties", "detail": "For each shape or figure, note down: shape type, size, shading, number of internal elements, line styles (solid, dashed, thick, thin), symmetry, and orientation.", "icon": "pencil" },
-          { "label": "Find the rule or relationship", "detail": "Look for what connects the shapes. In classification questions, find the shared rule. In combination questions, work out how the shapes interact (overlap, subtract, combine).", "icon": "brain" },
-          { "label": "Eliminate wrong answers", "detail": "If you cannot immediately see the right answer, use elimination. Check each option against your rule and cross out those that fail.", "icon": "check" }
+          {
+            "label": "Understand the question type",
+            "detail": "Read the instructions carefully. Are you grouping shapes, combining shapes, or finding hidden shapes? Each type needs a slightly different approach.",
+            "icon": "lightbulb"
+          },
+          {
+            "label": "List all visible properties",
+            "detail": "For each shape or figure, note down: shape type, size, shading, number of internal elements, line styles (solid, dashed, thick, thin), symmetry, and orientation.",
+            "icon": "pencil"
+          },
+          {
+            "label": "Find the rule or relationship",
+            "detail": "Look for what connects the shapes. In classification questions, find the shared rule. In combination questions, work out how the shapes interact (overlap, subtract, combine).",
+            "icon": "brain"
+          },
+          {
+            "label": "Eliminate wrong answers",
+            "detail": "If you cannot immediately see the right answer, use elimination. Check each option against your rule and cross out those that fail.",
+            "icon": "check"
+          }
         ]
       },
       {
         "type": "worked_example",
         "heading": "Worked Example",
         "question": {
-          "text": "Two groups of shapes are shown. Work out the rule for each group, then decide which group a new shape belongs to.\n\nGroup 1: Triangle(black), Square(black), Pentagon(black)\nGroup 2: Triangle(white), Square(white), Circle(white)\n\nNew shape: Hexagon(black)\n\nWhich group does the new shape belong to?",
-          "options": ["Group 1", "Group 2", "Neither group", "Both groups"]
+          "text": "Choose the option which is most like the two figures below.",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "option_images": [
+            "/images/granular_non_verbal_reasoning/q2_option_0.png",
+            "/images/granular_non_verbal_reasoning/q2_option_1.png",
+            "/images/granular_non_verbal_reasoning/q2_option_2.png",
+            "/images/granular_non_verbal_reasoning/q2_option_3.png",
+            "/images/granular_non_verbal_reasoning/q2_option_4.png"
+          ],
+          "image_url": "/images/granular_non_verbal_reasoning/q2_question_0.png"
         },
         "walkthrough": [
-          { "step": 1, "text": "Look at Group 1: the shapes are all different (triangle, square, pentagon) but they are all black (fully shaded). The rule for Group 1 appears to be: 'the shape is black/shaded'.", "highlight": "shape" },
-          { "step": 2, "text": "Look at Group 2: the shapes are all different (triangle, square, circle) and they are all white (unshaded). The rule for Group 2 appears to be: 'the shape is white/unshaded'.", "highlight": "pattern" },
-          { "step": 3, "text": "The new shape is a hexagon that is black. Since it is black, it matches the Group 1 rule. The shape type (hexagon) does not matter - only the shading determines the group.", "highlight": "answer" }
+          {
+            "step": 1,
+            "text": "Look at the two example figures. List what they have in common: both contain one black shape and two white shapes, and an arrow points towards the black shape.",
+            "highlight": "shape"
+          },
+          {
+            "step": 2,
+            "text": "The rule connecting the examples: there must be one black shape and two white shapes, an arrow must point towards the black shape, and the white shapes must be identical apart from size.",
+            "highlight": "pattern"
+          },
+          {
+            "step": 3,
+            "text": "Test each option against this rule. The correct answer satisfies all conditions: one black shape, two white shapes of different sizes but same type, and an arrow pointing at the black shape.",
+            "highlight": "answer"
+          }
         ],
-        "answer": "Group 1"
+        "answer": "D"
       },
       {
         "type": "tips",
         "heading": "Common Traps",
         "items": [
-          { "trap": "Overthinking when the rule is simple", "fix": "Start with the simplest possible rule (such as colour or number of sides) before looking for complex patterns. GL Assessment questions at this level usually have clear, single-feature rules." },
-          { "trap": "Being distracted by irrelevant features", "fix": "If shapes in a group differ in size but share the same shading, the rule is about shading, not size. Focus on what is CONSISTENT within a group." },
-          { "trap": "Not reading the question carefully", "fix": "Some questions ask 'which group', others ask 'which shape completes the set'. Make sure you answer what is actually being asked." }
+          {
+            "trap": "Overthinking when the rule is simple",
+            "fix": "Start with the simplest possible rule (such as colour or number of sides) before looking for complex patterns. GL Assessment questions at this level usually have clear, single-feature rules."
+          },
+          {
+            "trap": "Being distracted by irrelevant features",
+            "fix": "If shapes in a group differ in size but share the same shading, the rule is about shading, not size. Focus on what is CONSISTENT within a group."
+          },
+          {
+            "trap": "Not reading the question carefully",
+            "fix": "Some questions ask 'which group', others ask 'which shape completes the set'. Make sure you answer what is actually being asked."
+          }
         ]
       },
       {

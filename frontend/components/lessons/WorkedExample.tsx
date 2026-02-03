@@ -153,6 +153,17 @@ export function WorkedExample({ heading, question, walkthrough, answer }: Worked
               <div className="flex items-center gap-2 px-4 py-2 bg-green-100 text-green-700 rounded-lg text-sm font-bold">
                 <CheckCircle2 className="w-4 h-4" />
                 Answer: {answer}
+                {question.option_images && (() => {
+                  const idx = question.options.indexOf(answer);
+                  const img = idx >= 0 ? question.option_images[idx] : undefined;
+                  return img ? (
+                    <img
+                      src={getImageUrl(img)}
+                      alt="Answer"
+                      className="max-h-12 object-contain"
+                    />
+                  ) : null;
+                })()}
               </div>
             )}
             <button

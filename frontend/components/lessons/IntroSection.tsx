@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
+import { InteractiveFlowchart, type FlowchartData } from "./InteractiveFlowchart";
 
 interface IntroSectionProps {
   heading: string;
@@ -9,7 +10,7 @@ interface IntroSectionProps {
   visual?: {
     type: "mermaid";
     code: string;
-  };
+  } | FlowchartData;
 }
 
 export function IntroSection({ heading, body, visual }: IntroSectionProps) {
@@ -32,7 +33,7 @@ export function IntroSection({ heading, body, visual }: IntroSectionProps) {
     if (visible && visual?.type === "mermaid" && mermaidRef.current) {
       import("mermaid").then((m) => {
         m.default.initialize({ startOnLoad: false, theme: "neutral" });
-        mermaidRef.current!.innerHTML = visual.code;
+        mermaidRef.current!.innerHTML = (visual as { type: "mermaid"; code: string }).code;
         m.default.run({ nodes: [mermaidRef.current!] });
       });
     }
@@ -55,6 +56,9 @@ export function IntroSection({ heading, body, visual }: IntroSectionProps) {
         <div className="bg-slate-50 rounded-xl p-6 border border-slate-100">
           <div ref={mermaidRef} className="mermaid flex justify-center" />
         </div>
+      )}
+      {visual?.type === "flowchart" && (
+        <InteractiveFlowchart data={visual as FlowchartData} />
       )}
     </div>
   );

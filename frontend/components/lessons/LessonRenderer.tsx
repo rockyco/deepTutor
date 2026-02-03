@@ -16,7 +16,13 @@ interface LessonSection {
   type: string;
   heading: string;
   body?: string;
-  visual?: { type: "mermaid"; code: string };
+  visual?: { type: "mermaid"; code: string } | {
+    type: "flowchart";
+    direction: "TD" | "LR";
+    nodes: { id: string; label: string; style?: string }[];
+    edges: { from: string; to: string; label?: string }[];
+    subgraphs?: { id: string; label: string; nodeIds: string[] }[];
+  };
   steps?: { label: string; detail: string; icon: string }[];
   question?: { text: string; options: string[]; image_url?: string; option_images?: string[] };
   walkthrough?: { step: number; text: string; highlight: string }[];

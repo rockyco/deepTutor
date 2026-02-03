@@ -11,8 +11,105 @@
         "heading": "What is this question type?",
         "body": "<p>In reading comprehension questions, you are given a passage to read carefully. After reading the passage, you answer questions about it. The questions test whether you can find information in the text, understand what the author means, and make inferences (work things out from clues in the text).</p><p>In GL Assessment 11+ exams, you will usually read one or two longer passages and then answer several multiple-choice questions about each passage. The passages can be fiction (stories), non-fiction (factual writing), or poetry.</p><p>The key skill is reading actively: not just letting your eyes pass over the words, but thinking about what you are reading as you go.</p>",
         "visual": {
-          "type": "mermaid",
-          "code": "flowchart TD\n    A[Read the Passage] --> B[Understand the Main Idea]\n    B --> C[Read the Question]\n    C --> D{What type of question?}\n    D -->|Fact Finding| E[Look for exact words in text]\n    D -->|Inference| F[Use clues to work it out]\n    D -->|Vocabulary| G[Use context around the word]\n    D -->|Opinion/Tone| H[Think about the author's feelings]\n    E --> I[Check your answer against the passage]\n    F --> I\n    G --> I\n    H --> I"
+          "type": "flowchart",
+          "direction": "TD",
+          "nodes": [
+            {
+              "id": "A",
+              "label": "Read the Passage",
+              "style": "primary"
+            },
+            {
+              "id": "B",
+              "label": "Understand the Main Idea",
+              "style": "step"
+            },
+            {
+              "id": "C",
+              "label": "Read the Question",
+              "style": "step"
+            },
+            {
+              "id": "D",
+              "label": "What type of question?",
+              "style": "decision"
+            },
+            {
+              "id": "E",
+              "label": "Look for exact words in text",
+              "style": "step"
+            },
+            {
+              "id": "F",
+              "label": "Use clues to work it out",
+              "style": "step"
+            },
+            {
+              "id": "G",
+              "label": "Use context around the word",
+              "style": "step"
+            },
+            {
+              "id": "H",
+              "label": "Think about the author's feelings",
+              "style": "step"
+            },
+            {
+              "id": "I",
+              "label": "Check your answer against the passage",
+              "style": "step"
+            }
+          ],
+          "edges": [
+            {
+              "from": "A",
+              "to": "B"
+            },
+            {
+              "from": "B",
+              "to": "C"
+            },
+            {
+              "from": "C",
+              "to": "D"
+            },
+            {
+              "from": "D",
+              "to": "E",
+              "label": "Fact Finding"
+            },
+            {
+              "from": "D",
+              "to": "F",
+              "label": "Inference"
+            },
+            {
+              "from": "D",
+              "to": "G",
+              "label": "Vocabulary"
+            },
+            {
+              "from": "D",
+              "to": "H",
+              "label": "Opinion/Tone"
+            },
+            {
+              "from": "E",
+              "to": "I"
+            },
+            {
+              "from": "F",
+              "to": "I"
+            },
+            {
+              "from": "G",
+              "to": "I"
+            },
+            {
+              "from": "H",
+              "to": "I"
+            }
+          ]
         }
       },
       {
@@ -115,8 +212,161 @@
         "heading": "What is this question type?",
         "body": "<p>Grammar questions test your knowledge of how English sentences are built. You need to know about <strong>word classes</strong> (nouns, verbs, adjectives, adverbs, pronouns, prepositions, conjunctions, and determiners), <strong>sentence structure</strong> (clauses, phrases, subject, and object), and <strong>correct usage</strong> (tenses, agreement, and standard English).</p><p>In GL Assessment 11+ exams, grammar questions often ask you to identify a particular word class in a sentence, choose the correct form of a word, or spot a grammatical error. You are usually given a sentence and asked a specific question about it.</p><p>Knowing the names and jobs of different word classes is essential. Think of it like knowing the positions on a football team: each word has a role to play in the sentence.</p>",
         "visual": {
-          "type": "mermaid",
-          "code": "flowchart TD\n    A[Word Classes] --> B[Nouns]\n    A --> C[Verbs]\n    A --> D[Adjectives]\n    A --> E[Adverbs]\n    A --> F[Pronouns]\n    A --> G[Prepositions]\n    A --> H[Conjunctions]\n    A --> I[Determiners]\n    B --> B1[name things: dog, London, happiness]\n    C --> C1[action or state: run, is, think]\n    D --> D1[describe nouns: tall, blue, clever]\n    E --> E1[describe verbs: quickly, very, often]\n    F --> F1[replace nouns: he, they, it]\n    G --> G1[show position/time: in, on, after]\n    H --> H1[join words/clauses: and, but, because]\n    I --> I1[before nouns: the, a, some, few]"
+          "type": "flowchart",
+          "direction": "TD",
+          "nodes": [
+            {
+              "id": "A",
+              "label": "Word Classes",
+              "style": "primary"
+            },
+            {
+              "id": "B",
+              "label": "Nouns",
+              "style": "step"
+            },
+            {
+              "id": "C",
+              "label": "Verbs",
+              "style": "step"
+            },
+            {
+              "id": "D",
+              "label": "Adjectives",
+              "style": "step"
+            },
+            {
+              "id": "E",
+              "label": "Adverbs",
+              "style": "step"
+            },
+            {
+              "id": "F",
+              "label": "Pronouns",
+              "style": "step"
+            },
+            {
+              "id": "G",
+              "label": "Prepositions",
+              "style": "step"
+            },
+            {
+              "id": "H",
+              "label": "Conjunctions",
+              "style": "step"
+            },
+            {
+              "id": "I",
+              "label": "Determiners",
+              "style": "step"
+            },
+            {
+              "id": "B1",
+              "label": "name things: dog, London, happiness",
+              "style": "step"
+            },
+            {
+              "id": "C1",
+              "label": "action or state: run, is, think",
+              "style": "step"
+            },
+            {
+              "id": "D1",
+              "label": "describe nouns: tall, blue, clever",
+              "style": "step"
+            },
+            {
+              "id": "E1",
+              "label": "describe verbs: quickly, very, often",
+              "style": "step"
+            },
+            {
+              "id": "F1",
+              "label": "replace nouns: he, they, it",
+              "style": "step"
+            },
+            {
+              "id": "G1",
+              "label": "show position/time: in, on, after",
+              "style": "step"
+            },
+            {
+              "id": "H1",
+              "label": "join words/clauses: and, but, because",
+              "style": "step"
+            },
+            {
+              "id": "I1",
+              "label": "before nouns: the, a, some, few",
+              "style": "step"
+            }
+          ],
+          "edges": [
+            {
+              "from": "A",
+              "to": "B"
+            },
+            {
+              "from": "A",
+              "to": "C"
+            },
+            {
+              "from": "A",
+              "to": "D"
+            },
+            {
+              "from": "A",
+              "to": "E"
+            },
+            {
+              "from": "A",
+              "to": "F"
+            },
+            {
+              "from": "A",
+              "to": "G"
+            },
+            {
+              "from": "A",
+              "to": "H"
+            },
+            {
+              "from": "A",
+              "to": "I"
+            },
+            {
+              "from": "B",
+              "to": "B1"
+            },
+            {
+              "from": "C",
+              "to": "C1"
+            },
+            {
+              "from": "D",
+              "to": "D1"
+            },
+            {
+              "from": "E",
+              "to": "E1"
+            },
+            {
+              "from": "F",
+              "to": "F1"
+            },
+            {
+              "from": "G",
+              "to": "G1"
+            },
+            {
+              "from": "H",
+              "to": "H1"
+            },
+            {
+              "from": "I",
+              "to": "I1"
+            }
+          ]
         }
       },
       {
@@ -219,8 +469,125 @@
         "heading": "What is this question type?",
         "body": "<p>Spelling questions test whether you can spot words that are spelt incorrectly. In GL Assessment 11+ exams, you are usually given a sentence that has been split into groups of words. One group contains a spelling mistake, or there may be no mistake at all. You choose the group with the mistake, or select 'No mistake'.</p><p>This means you do not have to write the correct spelling yourself - you just have to recognise when a word looks wrong. This is a skill you can build by reading widely and practising common tricky words.</p><p>English spelling can be difficult because many words do not follow simple rules. However, there are useful patterns to learn, such as 'i before e except after c' (with exceptions!), silent letters, double consonants, and common word endings like -tion, -sion, -ous, and -ible/-able.</p>",
         "visual": {
-          "type": "mermaid",
-          "code": "flowchart TD\n    A[Spelling Strategies] --> B[Sound it out]\n    A --> C[Break into syllables]\n    A --> D[Learn common patterns]\n    A --> E[Watch for homophones]\n    B --> B1[Does the spelling match the sounds?]\n    C --> C1[Wed-nes-day, Feb-ru-ary]\n    D --> D1[-tion vs -sion]\n    D --> D2[-ible vs -able]\n    D --> D3[i before e except after c]\n    E --> E1[their/there/they're]\n    E --> E2[to/too/two]\n    E --> E3[air/heir, rain/reign]"
+          "type": "flowchart",
+          "direction": "TD",
+          "nodes": [
+            {
+              "id": "A",
+              "label": "Spelling Strategies",
+              "style": "primary"
+            },
+            {
+              "id": "B",
+              "label": "Sound it out",
+              "style": "step"
+            },
+            {
+              "id": "C",
+              "label": "Break into syllables",
+              "style": "step"
+            },
+            {
+              "id": "D",
+              "label": "Learn common patterns",
+              "style": "step"
+            },
+            {
+              "id": "E",
+              "label": "Watch for homophones",
+              "style": "step"
+            },
+            {
+              "id": "B1",
+              "label": "Does the spelling match the sounds?",
+              "style": "step"
+            },
+            {
+              "id": "C1",
+              "label": "Wed-nes-day, Feb-ru-ary",
+              "style": "step"
+            },
+            {
+              "id": "D1",
+              "label": "-tion vs -sion",
+              "style": "step"
+            },
+            {
+              "id": "D2",
+              "label": "-ible vs -able",
+              "style": "step"
+            },
+            {
+              "id": "D3",
+              "label": "i before e except after c",
+              "style": "step"
+            },
+            {
+              "id": "E1",
+              "label": "their/there/they're",
+              "style": "step"
+            },
+            {
+              "id": "E2",
+              "label": "to/too/two",
+              "style": "step"
+            },
+            {
+              "id": "E3",
+              "label": "air/heir, rain/reign",
+              "style": "step"
+            }
+          ],
+          "edges": [
+            {
+              "from": "A",
+              "to": "B"
+            },
+            {
+              "from": "A",
+              "to": "C"
+            },
+            {
+              "from": "A",
+              "to": "D"
+            },
+            {
+              "from": "A",
+              "to": "E"
+            },
+            {
+              "from": "B",
+              "to": "B1"
+            },
+            {
+              "from": "C",
+              "to": "C1"
+            },
+            {
+              "from": "D",
+              "to": "D1"
+            },
+            {
+              "from": "D",
+              "to": "D2"
+            },
+            {
+              "from": "D",
+              "to": "D3"
+            },
+            {
+              "from": "E",
+              "to": "E1"
+            },
+            {
+              "from": "E",
+              "to": "E2"
+            },
+            {
+              "from": "E",
+              "to": "E3"
+            }
+          ]
         }
       },
       {
@@ -323,8 +690,130 @@
         "heading": "What is this question type?",
         "body": "<p>Vocabulary questions test your understanding of word meanings. You may be asked to find a <strong>synonym</strong> (a word with a similar meaning), an <strong>antonym</strong> (a word with the opposite meaning), or choose the word that best fits a given context.</p><p>In GL Assessment 11+ exams, vocabulary questions often give you a sentence with a word in bold and ask you to find the closest synonym from five options. Sometimes you need to work out the meaning from context clues in the sentence.</p><p>Building a strong vocabulary takes time. The best way is to read widely - books, newspapers, magazines - and to look up unfamiliar words. When you learn a new word, try to learn a synonym and an antonym at the same time.</p>",
         "visual": {
-          "type": "mermaid",
-          "code": "flowchart TD\n    A[Understanding Vocabulary Questions] --> B[Read the sentence]\n    B --> C[Find the bold or key word]\n    C --> D[Think about what it means in context]\n    D --> E{Do you know the word?}\n    E -->|Yes| F[Match it to the closest synonym]\n    E -->|Not sure| G[Use context clues]\n    G --> G1[What is the sentence about?]\n    G --> G2[Is the tone positive or negative?]\n    G --> G3[What part of speech is it?]\n    G1 --> F\n    G2 --> F\n    G3 --> F\n    F --> H[Try each option in the sentence]\n    H --> I[Choose the best fit]"
+          "type": "flowchart",
+          "direction": "TD",
+          "nodes": [
+            {
+              "id": "A",
+              "label": "Understanding Vocabulary Questions",
+              "style": "primary"
+            },
+            {
+              "id": "B",
+              "label": "Read the sentence",
+              "style": "step"
+            },
+            {
+              "id": "C",
+              "label": "Find the bold or key word",
+              "style": "step"
+            },
+            {
+              "id": "D",
+              "label": "Think about what it means in context",
+              "style": "step"
+            },
+            {
+              "id": "E",
+              "label": "Do you know the word?",
+              "style": "decision"
+            },
+            {
+              "id": "F",
+              "label": "Match it to the closest synonym",
+              "style": "step"
+            },
+            {
+              "id": "G",
+              "label": "Use context clues",
+              "style": "step"
+            },
+            {
+              "id": "G1",
+              "label": "What is the sentence about?",
+              "style": "step"
+            },
+            {
+              "id": "G2",
+              "label": "Is the tone positive or negative?",
+              "style": "step"
+            },
+            {
+              "id": "G3",
+              "label": "What part of speech is it?",
+              "style": "step"
+            },
+            {
+              "id": "H",
+              "label": "Try each option in the sentence",
+              "style": "step"
+            },
+            {
+              "id": "I",
+              "label": "Choose the best fit",
+              "style": "step"
+            }
+          ],
+          "edges": [
+            {
+              "from": "A",
+              "to": "B"
+            },
+            {
+              "from": "B",
+              "to": "C"
+            },
+            {
+              "from": "C",
+              "to": "D"
+            },
+            {
+              "from": "D",
+              "to": "E"
+            },
+            {
+              "from": "E",
+              "to": "F",
+              "label": "Yes"
+            },
+            {
+              "from": "E",
+              "to": "G",
+              "label": "Not sure"
+            },
+            {
+              "from": "G",
+              "to": "G1"
+            },
+            {
+              "from": "G",
+              "to": "G2"
+            },
+            {
+              "from": "G",
+              "to": "G3"
+            },
+            {
+              "from": "G1",
+              "to": "F"
+            },
+            {
+              "from": "G2",
+              "to": "F"
+            },
+            {
+              "from": "G3",
+              "to": "F"
+            },
+            {
+              "from": "F",
+              "to": "H"
+            },
+            {
+              "from": "H",
+              "to": "I"
+            }
+          ]
         }
       },
       {
@@ -427,8 +916,114 @@
         "heading": "What is this question type?",
         "body": "<p>Sentence completion questions give you a sentence with a gap or missing word. Your job is to choose the word or phrase that best completes the sentence so that it makes sense and is grammatically correct.</p><p>These questions test several skills at once: vocabulary (knowing what words mean), grammar (knowing which form of a word fits), and comprehension (understanding the overall meaning of the sentence). You need to think about meaning, grammar, and style all together.</p><p>In GL Assessment 11+ exams, you are given five options and must choose the one that fits best. Sometimes more than one option could work grammatically, but only one gives the sentence its intended meaning.</p>",
         "visual": {
-          "type": "mermaid",
-          "code": "flowchart TD\n    A[Read the sentence with the gap] --> B[Understand the overall meaning]\n    B --> C[What type of word is needed?]\n    C --> D{Check the grammar}\n    D -->|Noun needed| E[Which noun fits the meaning?]\n    D -->|Verb needed| F[Which verb fits tense and meaning?]\n    D -->|Adjective needed| G[Which adjective matches the tone?]\n    D -->|Connective needed| H[Which word links the ideas correctly?]\n    E --> I[Try each option in the gap]\n    F --> I\n    G --> I\n    H --> I\n    I --> J[Choose the best fit for meaning AND grammar]"
+          "type": "flowchart",
+          "direction": "TD",
+          "nodes": [
+            {
+              "id": "A",
+              "label": "Read the sentence with the gap",
+              "style": "primary"
+            },
+            {
+              "id": "B",
+              "label": "Understand the overall meaning",
+              "style": "step"
+            },
+            {
+              "id": "C",
+              "label": "What type of word is needed?",
+              "style": "step"
+            },
+            {
+              "id": "D",
+              "label": "Check the grammar",
+              "style": "decision"
+            },
+            {
+              "id": "E",
+              "label": "Which noun fits the meaning?",
+              "style": "step"
+            },
+            {
+              "id": "F",
+              "label": "Which verb fits tense and meaning?",
+              "style": "step"
+            },
+            {
+              "id": "G",
+              "label": "Which adjective matches the tone?",
+              "style": "step"
+            },
+            {
+              "id": "H",
+              "label": "Which word links the ideas correctly?",
+              "style": "step"
+            },
+            {
+              "id": "I",
+              "label": "Try each option in the gap",
+              "style": "step"
+            },
+            {
+              "id": "J",
+              "label": "Choose the best fit for meaning AND grammar",
+              "style": "step"
+            }
+          ],
+          "edges": [
+            {
+              "from": "A",
+              "to": "B"
+            },
+            {
+              "from": "B",
+              "to": "C"
+            },
+            {
+              "from": "C",
+              "to": "D"
+            },
+            {
+              "from": "D",
+              "to": "E",
+              "label": "Noun needed"
+            },
+            {
+              "from": "D",
+              "to": "F",
+              "label": "Verb needed"
+            },
+            {
+              "from": "D",
+              "to": "G",
+              "label": "Adjective needed"
+            },
+            {
+              "from": "D",
+              "to": "H",
+              "label": "Connective needed"
+            },
+            {
+              "from": "E",
+              "to": "I"
+            },
+            {
+              "from": "F",
+              "to": "I"
+            },
+            {
+              "from": "G",
+              "to": "I"
+            },
+            {
+              "from": "H",
+              "to": "I"
+            },
+            {
+              "from": "I",
+              "to": "J"
+            }
+          ]
         }
       },
       {
@@ -531,8 +1126,152 @@
         "heading": "What is this question type?",
         "body": "<p>Punctuation questions test your knowledge of how to use punctuation marks and capital letters correctly. In GL Assessment 11+ exams, you are usually given a sentence split into groups of words and asked to find the group that contains a punctuation or capitalisation mistake. Sometimes there is no mistake at all.</p><p>The main punctuation marks you need to know are: <strong>full stops</strong>, <strong>commas</strong>, <strong>apostrophes</strong> (for possession and contraction), <strong>speech marks</strong> (inverted commas), <strong>colons</strong>, <strong>semicolons</strong>, <strong>exclamation marks</strong>, <strong>question marks</strong>, <strong>hyphens</strong>, and <strong>brackets</strong>.</p><p>You also need to know the rules for capital letters: at the start of sentences, for proper nouns (names of specific people, places, days, months), and for the pronoun 'I'.</p>",
         "visual": {
-          "type": "mermaid",
-          "code": "flowchart TD\n    A[Punctuation Marks] --> B[Apostrophes]\n    A --> C[Commas]\n    A --> D[Speech Marks]\n    A --> E[Capital Letters]\n    B --> B1[Contraction: do not = don't]\n    B --> B2[Possession: the dog's bone]\n    B --> B3[Plural possession: the dogs' bones]\n    C --> C1[Lists: apples, pears, and grapes]\n    C --> C2[After fronted adverbials: Quickly, she ran.]\n    C --> C3[Separating clauses]\n    D --> D1[Around spoken words]\n    D --> D2[Punctuation inside the speech marks]\n    E --> E1[Start of sentences]\n    E --> E2[Proper nouns: London, Monday]\n    E --> E3[The pronoun I]"
+          "type": "flowchart",
+          "direction": "TD",
+          "nodes": [
+            {
+              "id": "A",
+              "label": "Punctuation Marks",
+              "style": "primary"
+            },
+            {
+              "id": "B",
+              "label": "Apostrophes",
+              "style": "step"
+            },
+            {
+              "id": "C",
+              "label": "Commas",
+              "style": "step"
+            },
+            {
+              "id": "D",
+              "label": "Speech Marks",
+              "style": "step"
+            },
+            {
+              "id": "E",
+              "label": "Capital Letters",
+              "style": "step"
+            },
+            {
+              "id": "B1",
+              "label": "Contraction: do not = don't",
+              "style": "step"
+            },
+            {
+              "id": "B2",
+              "label": "Possession: the dog's bone",
+              "style": "step"
+            },
+            {
+              "id": "B3",
+              "label": "Plural possession: the dogs' bones",
+              "style": "step"
+            },
+            {
+              "id": "C1",
+              "label": "Lists: apples, pears, and grapes",
+              "style": "step"
+            },
+            {
+              "id": "C2",
+              "label": "After fronted adverbials: Quickly, she ran.",
+              "style": "step"
+            },
+            {
+              "id": "C3",
+              "label": "Separating clauses",
+              "style": "step"
+            },
+            {
+              "id": "D1",
+              "label": "Around spoken words",
+              "style": "step"
+            },
+            {
+              "id": "D2",
+              "label": "Punctuation inside the speech marks",
+              "style": "step"
+            },
+            {
+              "id": "E1",
+              "label": "Start of sentences",
+              "style": "step"
+            },
+            {
+              "id": "E2",
+              "label": "Proper nouns: London, Monday",
+              "style": "step"
+            },
+            {
+              "id": "E3",
+              "label": "The pronoun I",
+              "style": "step"
+            }
+          ],
+          "edges": [
+            {
+              "from": "A",
+              "to": "B"
+            },
+            {
+              "from": "A",
+              "to": "C"
+            },
+            {
+              "from": "A",
+              "to": "D"
+            },
+            {
+              "from": "A",
+              "to": "E"
+            },
+            {
+              "from": "B",
+              "to": "B1"
+            },
+            {
+              "from": "B",
+              "to": "B2"
+            },
+            {
+              "from": "B",
+              "to": "B3"
+            },
+            {
+              "from": "C",
+              "to": "C1"
+            },
+            {
+              "from": "C",
+              "to": "C2"
+            },
+            {
+              "from": "C",
+              "to": "C3"
+            },
+            {
+              "from": "D",
+              "to": "D1"
+            },
+            {
+              "from": "D",
+              "to": "D2"
+            },
+            {
+              "from": "E",
+              "to": "E1"
+            },
+            {
+              "from": "E",
+              "to": "E2"
+            },
+            {
+              "from": "E",
+              "to": "E3"
+            }
+          ]
         }
       },
       {
